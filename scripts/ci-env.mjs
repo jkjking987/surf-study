@@ -1,17 +1,18 @@
 import { writeFileSync, existsSync } from 'node:fs';
 
-if (!process.env.CF_PAGES) {
+const keys = ['ASTRO_DB_REMOTE_URL', 'ASTRO_DB_APP_TOKEN'];
+
+if (existsSync('.env')) {
+  console.log('[ci-env] .env exists, leaving it alone.');
   process.exit(0);
 }
 
-const keys = ['ASTRO_DB_REMOTE_URL', 'ASTRO_DB_APP_TOKEN'];
 const missing = keys.filter((k) => !process.env[k]);
 if (missing.length) {
-  console.error(`[ci-env] Missing required env vars: ${missing.join(', ')}`);
-  console.error('[ci-env] Set them in Cloudflare Pages → Settings → Variables and secrets.');
+  console.error(`[ci-env] No .env and missing env vars: ${missing.join(', ')}`);
+  console.error('[ci-env] On Cloudflare Pages: Settings → Variables and secrets → add for Production.');
   process.exit(1);
 }
 
-const lines = keys.map((k) => `${k}=${process.env[k]}`);
-writeFileSync('.env', lines.join('\n') + '\n');
-console.log(`[ci-env] Wrote ${keys.length} vars to .env (CF Pages build).`);
+writeFileSync('.env', keys.map((k) => `${k}=${process.env[k]}`).join('\n') + '\n');
+console.log(`[ci-env] Wrote ${keys.length} vars to .env from process.env.`);
