@@ -1,0 +1,78 @@
+{
+  "basic_info": {
+    "name": "Nusa Lembongan (Chinese: 藍夢島; Indonesian: Nusa Lembongan)",
+    "category": "surf_spot",
+    "region": "Nearby Islands",
+    "gps_location": "-8.6786, 115.4500 (island east of Bali mainland; surf zone off Jungut Batu Beach northwest coast; Google Maps: https://maps.app.goo.gl/NusaLembongan)",
+    "distance_from_dps_airport_km": "~25-30 km straight line; ~45-60 min total via Sanur Harbor fast boat (30-45 min boat + ~30 min car to Sanur)",
+    "distance_from_canggu_uluwatu_min": "Not applicable - boat-only access. From Canggu to Sanur Harbor: ~45-60 min by car; Sanur to Lembongan: 30-45 min fast boat. From Uluwatu to Sanur: ~45-60 min by car"
+  },
+  "surf_conditions": {
+    "wave_type": "Three main reef breaks off Jungut Batu Beach: Shipwrecks (fast, powerful right-hander, ~500m offshore, intermediate-advanced); Lacerations (hollow draining right-hand barrel, advanced/expert); Playgrounds (A-frame with short hollow right and longer rippable left, beginner-intermediate friendly, closest to shore). Plus secondary breaks: Razors, No Mans, Ceningan",
+    "skill_level": "Mixed: Shipwrecks intermediate-advanced; Lacerations advanced/expert only; Playgrounds beginner-intermediate (one of the most user-friendly high-quality reef breaks in Bali region)",
+    "wave_height_range": "Playgrounds: 2-8 ft; Shipwrecks: 3-10 ft; Lacerations: 3-10 ft (works best at 4-6 ft for clean barrels)",
+    "bottom_type": "Sharp, shallow coral reef on all three breaks - Lacerations and Shipwrecks notably sharp and unforgiving",
+    "best_season": "Dry season April-October (peak May-September) when SE trade winds are offshore on these NW-facing reefs; wet season Nov-March has more onshore wind but quieter lineups on calm-wind windows",
+    "best_tide": "Mid to high tide is essential - need at least ~1.4 m of water; low tide exposes dangerous reef. Playgrounds works on widest tide range; Lacerations and Shipwrecks demand mid-high",
+    "best_wind": "Offshore SE to E trade winds (dry-season trades from late May through September); morning glassy conditions common",
+    "best_swell_direction": "SW for Shipwrecks and Lacerations; WSW for Playgrounds; consistent S-SW Indian Ocean groundswells light up all three peaks",
+    "swell_consistency_rating": "4 (very consistent dry-season swells thanks to direct Indian Ocean exposure; less reliable in wet season due to wind)",
+    "wave_length_meters": "Shipwrecks: 100-200 m fast peeling rights; Lacerations: 50-100 m intense barrel section; Playgrounds: 50-100 m on the left, shorter on the right",
+    "wave_speed_rating": "Fast at Shipwrecks and Lacerations (Lacerations especially - air-drop takeoff into hollow tube); medium at Playgrounds (more rippable and mellow)",
+    "takeoff_zone_difficulty": "Lacerations: very high (take-off on the rail under the lip, air drop, shallow reef); Shipwrecks: high (fast steep drop, powerful section); Playgrounds: low-moderate (deeper water, more forgiving)",
+    "secondary_peaks": "Yes - 6 main breaks in the area: Shipwrecks, Lacerations, Playgrounds, Razors (left), No Mans (Ceningan), Ceningan Reef. Pontoons available between breaks for rest",
+    "peak_crowd_level": "4 (busy in dry season with day-trippers from Bali, surf charter boats and resident surf-camp guests; Shipwrecks and Lacerations heavily crowded on good days; Playgrounds always has surf-school groups). Quieter than mainland Bali overall"
+  },
+  "practical_info": {
+    "access": "Boat-only access from Bali. Fast boats from Sanur Harbor to Jungut Batu Beach (30-45 min); operators include Scoot Fast Cruises, Rocky Fast Cruises, Mola Mola Express, Marlin Express, El Rey Fast Cruise; daily departures from ~7:30 AM. From Jungut Batu, local boats shuttle surfers to the breaks",
+    "paddle_out_method": "Two options: 1) Hire a local outrigger boat from Jungut Batu Beach to drop you outside the break (and optionally wait or pick up); 2) Paddle ~500 m from Jungut Batu Beach - long paddle, save for return only. Pontoons anchored between breaks allow rest between sets",
+    "entry_fee": "Fast boat Sanur-Lembongan return: ~IDR 350,000-700,000 per person (varies by operator and hotel transfer inclusion). Local boat shuttle Jungut Batu to breaks: ~IDR 50,000 one way; ~IDR 100,000 round trip; ~IDR 300,000-400,000 half-day charter with wait",
+    "recommended_session_time": "Dawn patrol (5:30-7:30 AM) before Bali day-trippers arrive on 9-10 AM fast boats; mid-tide morning windows are gold. Second session at late afternoon high-tide if winds stay offshore",
+    "best_time_of_day": "5:30-9 AM before Bali day-tripper crowd; 4-6 PM late afternoon when day-trippers have gone back to Sanur",
+    "nearby_warung": "Plenty along Jungut Batu Beach: Bali Eco Deli, Tigerlillys, The Deck Cafe, Pondok Baruna, Bali Belly Cafe, Sandy Bay Beach Club (south side), numerous beachfront warungs serving Indonesian and Western food and post-surf smoothies",
+    "alternative_spot_within_10min": "On-island alternates by short boat: Razors (left), Ceningan Reef, No Mans Land; on a flat day, take fast boat back to Bali for Serangan or stay and enjoy snorkelling/freediving at Manta Point",
+    "boat_charter_required": "Yes - the island itself is reached by boat from Bali, and the breaks are reached by short paddle or local outrigger from Jungut Batu Beach. Some pros and surf-camp groups join multi-day boat charters covering Lembongan + Lombok + Sumbawa"
+  },
+  "safety_culture": {
+    "hazards": "Sharp shallow coral reef on all three breaks (Lacerations and Shipwrecks especially); strong tidal currents (especially on lunar cycles and big swells); long paddle if you lose your boat ride; reef wire/scrap from former seaweed farming at Shipwrecks; limited medical facilities on island",
+    "marine_hazards": "Sharp coral, sea urchins in reef holes, occasional jellyfish, rare sea snakes; clean clear water means visible reef but also visible coral. Bring antiseptic, vinegar and reef-cut first-aid kit",
+    "reef_cut_severity_index": "Very High at Lacerations (named for the sharp reef - bring bandages); High at Shipwrecks; Moderate at Playgrounds (deeper water but still coral). Booties strongly recommended at all three",
+    "rip_current_pattern": "Shipwrecks has a very strong rip that constantly pulls surfers across the reef toward Lacerations - useful as a paddle channel but dangerous if you get caught. Tidal currents between Lembongan and Ceningan can be very strong",
+    "lineup_etiquette": "Resident surfers (expats and locals) dominate prime sets at Shipwrecks and Lacerations; observe priority, do not snake, wait your turn. Friendly vibe at Playgrounds where surf-school groups operate; communicate verbally when sharing peaks",
+    "localism_intensity": "Low to Medium - generally welcoming, smaller localism than mainland Bukit but resident charger crew expects respect; visiting pros and surf-charter clients can make crowded days tense",
+    "respect_protocol": "Smile, say hi to boat captains and locals, do not drop in, give priority to riders deeper, do not paddle out at Lacerations unless you genuinely have the level. Tip local boat captains and reward warung loyalty",
+    "resident_local_legends": "Several resident Indonesian/Balinese chargers; international resident surfers and surf-camp owners; specific famous resident-legend names not consistently documented [uncertain]",
+    "religious_sensitivity": "Pura Sakenan and other Hindu temples on the island; respect ceremonies (especially Galungan, Kuningan, and odalan ceremonies). Nyepi (Day of Silence) - no surfing or sea access islandwide. Lembongan has strong Balinese Hindu and traditional seaweed-farming culture",
+    "medical_nearby": "Limited on-island - Lembongan Clinic and Nusa Medika Clinic (Jungut Batu) for basic care; serious injuries require fast boat back to Sanur and then Siloam Hospital Denpasar or BIMC Nusa Dua",
+    "nearest_clinic_distance_km": "On-island clinics ~1-2 km from Jungut Batu; nearest hospital (Siloam Denpasar) ~30-45 min by fast boat + car",
+    "rescue_jet_ski_available": "No permanent rescue jet ski; local boat captains and surf-shuttle boats serve as informal rescue support [uncertain]"
+  },
+  "services": {
+    "nearest_surf_school": "We Surf Lembongan, Monkey Surfing Lembongan, Surf School Lembongan, Lembongan Surf School, Kala Surf Camp (also runs trips from Bali); most offer beginner lessons at Playgrounds",
+    "board_rental_availability": "Widely available at Jungut Batu Beach (Song Lambung Beach Huts, multiple surf shops); ~IDR 100,000-200,000/day; some hotels rent boards directly",
+    "surf_photographer_available": "Yes - boat-based and pontoon-based photographers operate during dry season; many surf schools and camps include photo/video services",
+    "photographer_recommendation": "Local Lembongan photographers shoot from boats/pontoons; rates typically IDR 200,000-600,000 per session. Specific name recommendations vary year to year [uncertain]",
+    "accommodation_options": "Wide range in Jungut Batu and Mushroom Bay: Song Lambung Beach Huts (overlooks Playgrounds, rents boards), Lembongan Summer Villas, Mahagiri Resort (beachfront), Tigerlillys Bungalows, Isla Indah Retreat (yoga + surf), Hai Tide Beach Resort, Lembongan Beach Club & Resort. Surf camps include Kala Surf Camp Lembongan and others",
+    "webcam_url": "https://www.surf-forecast.com/breaks/Shipwrecks ; https://www.surf-forecast.com/breaks/Playgrounds ; Surfline coverage limited",
+    "drone_allowed": "Generally allowed for personal use over surf zone; avoid flying over Pura Sakenan and resort grounds; commercial use requires permit. Check with boat captains during temple ceremonies [uncertain]",
+    "coworking_nearby": "The Deck Lembongan, Bali Eco Deli (cafe-cowork), Tigerlillys workspace; smaller scene than Canggu but reliable wifi cafes throughout Jungut Batu"
+  },
+  "pricing": {
+    "avg_lesson_price": "USD 40-60 / IDR 600,000-950,000 group lesson at Playgrounds; private lessons IDR 1,000,000-1,800,000. Surf camp packages 5-7 day all-inclusive ~USD 700-1,500",
+    "board_rental_daily": "IDR 100,000-200,000/day (~USD 7-14)"
+  },
+  "sustainability": {
+    "water_quality_rating": "Excellent - clear turquoise water with high visibility (often 15-25 m); minimal river runoff; some seasonal plastic drift from Bali mainland but generally among the cleanest surf water in the Bali area"
+  },
+  "events_community": {
+    "annual_competition_window": "Occasional local/regional contests (ISC events) and surf-camp group competitions; no fixed major international event [uncertain]",
+    "community_events": "Surf-camp weekly group surfs and beach BBQs; full-moon parties at Sandy Bay; informal dawn patrol crews at Playgrounds; Mola Mola (sunfish) sightings July-October draw freedive/surfer crossover community"
+  },
+  "uncertain": [
+    "resident_local_legends",
+    "rescue_jet_ski_available",
+    "photographer_recommendation",
+    "drone_allowed",
+    "annual_competition_window"
+  ]
+}

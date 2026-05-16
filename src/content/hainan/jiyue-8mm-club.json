@@ -1,0 +1,86 @@
+{
+  "basic_info": {
+    "name": "Jiyue & 8MM Surf Clubs (亼楽 / 集楽 / Jile Surf Hostel & 8MM Surf Club) - two of the original co-located surf-hostel brands at Houhai Village, Sanya",
+    "location": "Houhai Village (后海村, also Tenghai Fishing Village 藤海漁村), Haitang Bay (海棠灣) area, north of Queens Bay (皇后灣), Sanya City, Hainan Province, China; both clubs front the Queens Bay surf beach. 8MM is registered at Tenghai Community West Village No. 70 (海棠灣騰海社區西村70號)",
+    "operator": "Independent surf hostels / clubs - 亼楽 (Jiyue / Jile Surf Hostel) is widely cited as the village's earliest opened and most atmospheric surf hostel; 8MM is a separate established surf-hostel brand on the same Queens Bay beachfront; both are privately owned and unaffiliated with national chains",
+    "opening_date": "Both clubs are part of Houhai's first wave of surf hostels (mid-2010s); 亼楽 is repeatedly described as 'the earliest opened surf hostel in the village'; exact founding year not publicly listed [uncertain]",
+    "status": "operating",
+    "category": "surf_club"
+  },
+  "technical_specs": {
+    "wave_technology_brand": "N/A - natural ocean surf at Queens Bay (皇后灣), Houhai",
+    "pool_size": "Operates along the ~1.5 km Queens Bay natural surf beach in Houhai (not a wave pool)",
+    "wave_height": "Average ~1 m year-round, with most days in the 0.5-1.5 m soft / mellow whitewater-to-shoulder range; occasional 1.5-2 m days during stronger SE/E swells - explicitly recommended as a beginner-friendly zone",
+    "wave_height_adjustability": "No - natural waves; the schools choose inside whitewater vs. outside green-wave zones based on student level",
+    "wave_types": "Natural beach break with crescent-shaped bay geometry; gentle, slow-peeling 'baby waves' rolling in from the east, very consistent and forgiving - ideal for beginners and improving intermediates",
+    "waves_per_hour": "N/A - natural ocean surf",
+    "wave_count_per_set": "N/A - natural ocean swell sets [uncertain]",
+    "session_length": "Standard private class is one session (~2 hours including land briefing and water time) [uncertain]",
+    "stance_rotation_schedule": "N/A - natural beach break works for both Goofy and Regular",
+    "wave_type_classification": "Natural beach break - rated one of China's top beginner-friendly breaks; longboard / soft-top dominant; year-round waves so suitable for first-timers any month"
+  },
+  "pricing_sessions": {
+    "price_range": "亼楽: 1-on-1 private lesson ~500 RMB per session. 8MM: 1-on-4 group lesson 580 RMB per person, with discount for full 4-person bookings; equipment typically included for the lesson",
+    "session_skill_tiers": "亼楽: 1-on-1 private 500 RMB; adult and kids' multi-day surf camps (lower per-day rate, less individualized attention). 8MM: 1-on-4 small-group 580 RMB/person (4-person discount available); private 1-on-1 available at higher rate [uncertain]",
+    "equipment_rental": "Surfboard, leash and rashguard typically included in the lesson fee; standalone soft-top or longboard rental at Houhai shops generally ~80-150 RMB/day; wetsuit rarely needed (water 24-28 C most of the year) [uncertain]",
+    "coaching_fee": "亼楽 1-on-1 private 500 RMB; 8MM 1-on-4 small-group 580 RMB/person; both clubs use experienced long-time local surfers as coaches",
+    "coaching_packages": "Multi-day surf camps for adults and kids (亼楽); 4-person group package discount (8MM); long-stay surf-and-stay packages with on-site rooms common at both [uncertain]",
+    "membership_program": "No formally published membership / annual card; both clubs operate as surf-hostels where stay-and-surf packages effectively serve as the loyalty model; long-term volunteer (義工) program at 亼楽 grants free room and surf in exchange for hostel/cafe duties",
+    "corporate_team_building": "Both clubs accept group and team-building bookings; specific minimum size and pricing not published online [uncertain]"
+  },
+  "experience_guide": {
+    "best_season": "Year-round - Houhai / Queens Bay has consistent waves almost every day of the year thanks to the crescent bay geometry; peak surf months are roughly October to April (NE monsoon); summer is smaller and most beginner-friendly",
+    "best_swell_window": "October to April for the most consistent rideable swells; year-round for beginner-level waves",
+    "crowd_level": "Houhai is now branded 'China's No. 1 surf village' with 100+ surf shops and 50+ guesthouses; Queens Bay lineup is very crowded on weekends, Spring Festival, May Day and National Day; weekday early mornings and late afternoons are best to avoid the rush",
+    "booking_method": "Direct via WeChat (official accounts of each hostel), Xiaohongshu DM, Dianping reservation, Ctrip / Trip.com hostel listing (especially for Jile Surf Hostel), or in-person walk-up; surf lessons usually bundled when booking the room",
+    "booking_platform": "WeChat / WeChat mini-program; Xiaohongshu (小紅書); Dianping (大眾點評); Ctrip / Trip.com / 攜程 (Jile Surf Hostel listed); Tripadvisor (Jile Surf Hostel listed in English); Meituan (美團) for some packages",
+    "payment_options": "Alipay, WeChat Pay, Chinese bank cards and cash; international card support is limited [uncertain]",
+    "skill_required": "All levels - both clubs are best known as zero-base beginner entry points; intermediate students also welcome",
+    "age_eligibility": "Children's surf camps offered (亼楽); typical minimum age ~6-7 with parental waiver; no formal upper age limit beyond health/swim ability [uncertain]",
+    "child_friendly_score": "4 out of 5 - 亼楽 explicitly runs kids' surf camps; gentle Queens Bay waves are well-suited to children; minor downsides are the busy beach scene and limited dedicated kids' facilities",
+    "sup_paddleboard_offering": "SUP and beach rentals widely available in Houhai village through partner shops and adjacent operators; not a marquee offering of either club specifically [uncertain]",
+    "photography_video_service": "Lesson photo and short video coverage offered informally by coaches and partner photographers; pricing varies and is not published online [uncertain]",
+    "language_support": "Mandarin primary; some basic English handled by younger staff at the cafe-bar; not a foreigner-focused school [uncertain]",
+    "accessibility_for_disabled": "No publicly listed adaptive surfing program or barrier-free in-water lesson [uncertain]",
+    "stance_preference_input": "Not required at booking - natural beach break works for both Goofy and Regular; coaches assess stance during land warm-up",
+    "safety_notes": "Both clubs are praised for patient, experienced coaching staff; mandatory land briefing and warm-up; soft-top boards and leashes for beginners; lifeguard coverage on Queens Bay; note that across Houhai overall, fewer than ~5% of coaches hold international ISA certification, so verify specific instructor credentials when booking [uncertain]",
+    "events_competitions_calendar": "Houhai hosts informal community surf jams and pool/beach parties (8MM is known for occasional pool parties at its bar); large WSL/ISA sanctioned events are concentrated at Riyue Bay, not Houhai [uncertain]"
+  },
+  "surroundings": {
+    "nearby_accommodation": "Houhai village hosts 50+ surf guesthouses and hostels at ~300-1,200 RMB/night; clean comfortable rooms typically around 400 RMB; both 亼楽 and 8MM are themselves surf-hostels with on-site rooms",
+    "on_site_accommodation": "Yes - 亼楽 (Jile Surf Hostel) operates as a surf-themed hostel with sea-view rooms, sofa lounge, video-coaching area, bar and open kitchen; 8MM operates as a surf-club hostel with restaurant and a swimming pool used for evening pool parties; many students choose to stay on-site while taking the surf course",
+    "nearby_food": "Houhai surf village offers a dense cluster of surf-cafe brunch spots, Hainanese seafood restaurants, beach BBQ stalls, hotpot and beach bars; 8MM is specifically called out as having 'better food' and a lively bar scene",
+    "transport": "Reachable by Didi / taxi from Sanya city (~45-60 min), self-drive, hostel shuttle, or Sanya bus routes (Haitang Bay route 2, 33, 23, Lingji 3) to nearby stops including Dongxi Village junction, Nantian Farm, Tengqiao Market and Nantian Depot",
+    "transport_to_nearest_airport": "~45 km / 60-75 minutes by car from Sanya Phoenix International Airport (SYX); ~30 minutes from Sanya city center; ~5-10 minutes from Haitang Bay high-end resort cluster (Atlantis Sanya etc.)",
+    "combined_itinerary": "Half-day surf at Queens Bay (Houhai) + Atlantis Sanya / Haitang Bay shopping & dining + Wuzhizhou Island day trip + Sanya old-town night market; multi-day surf camp at 亼楽 / 8MM popular with young travelers from mainland China"
+  },
+  "reviews_reputation": {
+    "pros": "1) Located on Queens Bay - one of China's most beginner-friendly natural surf breaks with year-round waves; 2) Surf-hostel format means students can stay on-site and surf at the doorstep; 3) Both clubs use experienced long-time local surfer coaches and are praised for patience and good attitude; 4) 亼楽 has the village's longest-running brand reputation and best 'vibe'; 8MM scores highly for food, bar scene and pool parties; 5) Mid-market pricing (500-580 RMB / lesson) typical of established Houhai operators",
+    "cons": "1) Houhai is now extremely crowded - the village has 100+ surf shops and weekend / holiday lineups can be unpleasant; 2) Industry-wide ISA-certified coach coverage is below ~5%, so quality varies by individual instructor; 3) Limited English support compared to foreigner-focused schools; 4) Beach scene can be hectic and party-oriented (especially around 8MM), which may not suit families seeking a quiet stay; 5) Ad-hoc pricing for photos, private upgrades and accommodation - little published online",
+    "user_reviews": "Both clubs are repeatedly recommended in major Chinese travel guides (Zhihu, Xiaohongshu, Sohu, Smzdm) as among the more reputable Houhai surf hostels; 亼楽 (Jile Surf Hostel) has positive Tripadvisor reviews highlighting beachfront pool, cocktail bar and friendly atmosphere; 8MM is frequently cited for great food, lively pool parties and patient veteran coaches; common criticism is overcrowding of Houhai overall and the broader concern that Houhai 'is no longer the secluded fishing village it was'",
+    "recommended_for": "Zero-base beginners (especially solo travelers and young groups from mainland China); surf-and-stay travelers wanting the hostel/social scene; families with kids 6+ for kids' surf camps (亼楽); social travelers looking for evening bar / pool-party vibe (8MM)",
+    "operator_brand_partnership": "Independent surf hostels rather than chain brands; both are part of Houhai's first generation of surf-hostel pioneers (alongside Jile Surfing Club / Jix Surf Club founded 2014 by Wu Zhu); together they helped position Houhai / Tenghai Fishing Village as Sanya's flagship surf community and a Sanya Tourism Board promoted destination"
+  },
+  "verification": {
+    "existence_verified": "true",
+    "verification_sources": "1) Zhihu article 'Hainan surfing - this one article is enough' (zhuanlan.zhihu.com/p/617339364) - explicitly lists 亼楽 1-on-1 private 500 RMB and 8MM 1-on-4 580 RMB/person; 2) Zhihu article 'Hainan surf clubs - 10 high-popularity recommendations' (zhuanlan.zhihu.com/p/369288263); 3) Smzdm reposted version (post.smzdm.com/p/arqk43eq); 4) City8 Sanya local listing for 8MM 冲浪俱乐部 at Tenghai Community West Village No. 70; 5) Tripadvisor Jile Surf Hostel listing (Sanya, Hainan, hotel id g297427-d6933019); 6) Sanya Tourism Board page for Houhai Village (visitsanya.com/destination/houhai-village); 7) The Paper / 澎湃 feature 'I'm in Sanya Houhai Village - surfing, hostels and drifters'; 8) China News (chinanews) 2024 feature on Houhai 'breaking out' as a surf destination; 9) ChinaWondersGuide article on Houhai Village surfing and nightlife",
+    "last_updated": "2026-05-15"
+  },
+  "uncertain": [
+    "opening_date",
+    "wave_count_per_set",
+    "session_length",
+    "session_skill_tiers",
+    "equipment_rental",
+    "coaching_packages",
+    "corporate_team_building",
+    "payment_options",
+    "age_eligibility",
+    "sup_paddleboard_offering",
+    "photography_video_service",
+    "language_support",
+    "accessibility_for_disabled",
+    "safety_notes",
+    "events_competitions_calendar"
+  ]
+}

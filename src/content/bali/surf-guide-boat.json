@@ -1,0 +1,81 @@
+{
+  "basic_info": {
+    "name": "Surf Guide & Boat Charter from Bali (Chinese: 峇里島衝浪嚮導與船宿包船; Indonesian: Pemandu Selancar & Sewa Kapal Bali)",
+    "category": "surf_business",
+    "region": "Bali-wide (departures cluster from Sanur Harbor for Nusa Lembongan/Penida; Padang Bai for Lombok Desert Point; Benoa Harbor for multi-day liveaboards heading east to Sumbawa/Sumba/Rote or west to Mentawai via Padang)",
+    "gps_location": "Key embarkation points - Sanur Harbor (-8.6849, 115.2625, Sanur Pier for fast boats to Lembongan/Penida); Padang Bai (-8.5320, 115.5085, ferry/speedboat to Lombok); Benoa Harbor (-8.7466, 115.2122, larger liveaboards/yachts to Mentawai/Sumbawa)",
+    "distance_from_dps_airport_km": "Sanur Harbor ~17 km / 40 min; Padang Bai ~50 km / 1.5-2 h; Benoa Harbor ~5 km / 15 min"
+  },
+  "surf_conditions": {
+    "wave_type": "Service spans every wave type - access to left points (Desert Point Lombok, Lacerations Lembongan), right reefs (Shipwrecks Lembongan, Playgrounds Penida, Lakey Pipe Sumbawa), barrels (Desert Point, Lakey Pipe, Hollow Trees / HT's Mentawai), beach breaks and big-wave spots",
+    "skill_level": "Beginner-friendly day trips (Lembongan Playgrounds, Bali airport reef tours) through to advanced/pro charters (Desert Point, Mentawai, Sumbawa Lakey Pipe, Rote T-Land)",
+    "wave_height_range": "1-15+ ft depending on destination - Lembongan day trips work 2-6 ft; Desert Point fires at 4-10 ft; Mentawai season holds 3-15 ft",
+    "best_season": "Dry season May-October is peak (consistent SW groundswell, offshore SE trade winds); July-September is the prime window for Desert Point, Mentawai and Sumbawa; April and October are shoulder months with good conditions and lower prices",
+    "best_swell_direction": "SW (Southwest) groundswell typical from Indian Ocean storms; S and SSW also light up reefs at Lembongan, Penida, Desert Point and Mentawai",
+    "swell_consistency_rating": "5 (Indonesian Indo-Pacific is one of the most consistent swell zones globally during dry season)",
+    "peak_crowd_level": "Variable - day-trip spots Lembongan/Penida get crowded with surf-guide groups especially July-August; remote charter destinations (Mentawai, Sumbawa, Rote, Sumba) are designed to escape crowds and typically share lineups only with other charter boats"
+  },
+  "practical_info": {
+    "access": "Day surf-guide service: client picked up by car/van from Bali accommodation, transported to break or harbor, return same day. Lembongan day trip: drive to Sanur Harbor + 30-min fast boat (16+ daily sailings 7:30 AM - 5:00 PM) + private charter boat / scooter access to breaks. Lombok Desert Point: overnight crossing of Lombok Strait, anchor at the spot for 6+ AM start. Sumbawa: either overnight boat from Bali (Sri Noa Noa, Partama-style phinisi) or fly DPS-Bima (USD 50-150) + taxi 500,000-600,000 IDR to Lakey Peak. Mentawai: fly DPS-Padang via Jakarta, then fast ferry (~IDR 400,000 VIP, $25) or slow ferry ($15, 10-12 h) + dinghy to charter boat.",
+    "paddle_out_method": "Boat-in delivery is standard for offshore/island spots - tender (dinghy) drops surfers in channel; for mainland Bali day-guide service, paddle-out follows the spot's normal route (Uluwatu cave, Bingin stairs, Canggu beach)",
+    "entry_fee": "Sanur Harbor surf-boat charter typically includes entrance fees; some Lembongan breaks have informal local fees (IDR 20,000-50,000); Bali tourist levy IDR 150,000 applies to all foreign arrivals; Sumbawa Lakey area no formal fee; Mentawai charter fees are folded into the per-trip price [uncertain]",
+    "recommended_session_time": "Early start essential - most surf charters from Sanur depart 6:30-7:30 AM for first session at 8 AM; multi-day liveaboards run 2-3 sessions/day following tide and wind windows",
+    "best_time_of_day": "Dawn patrol after overnight crossings - Desert Point boat trips typically arrive 7:30 AM; Lembongan/Penida day trips push to first surf by 9 AM to maximize 6-hour window before fast boat return",
+    "nearby_warung": "Sanur Harbor lined with cafes and warungs at the pier; on Nusa Lembongan and Penida warungs are plentiful in main villages (Jungutbatu, Toyapakeh); Mentawai/Sumbawa charters provide on-board catering (3 meals + snacks)",
+    "alternative_spot_within_10min": "Lembongan cluster (Shipwrecks, Lacerations, Playgrounds within ~10 min boat); Penida Reef Beach/Suwehan/Bingin Penida; on Bali mainland, guide-led tours commonly chase swell between Canggu - Bukit - Keramas in one day",
+    "boat_charter_required": "Yes for offshore/island destinations - Nusa Lembongan/Penida reachable by fast boat then private charter; Lombok Desert Point only viable via boat (no road access); Mentawai/Sumbawa remote spots boat-in only; Rote, Sumba, Sumbawa secret-spot trips run as multi-day liveaboards (Jiwa Alam, Sri Noa Noa, Partama, Dreamweaver, Mojo)",
+    "combo_trip_potential": "Highly suited to multi-island combos - Bali + Lembongan/Penida + Lombok Desert Point + Gilis is the classic 7-10 day surf-island-hop charter; Bali to Sumbawa boat trips often add Sumba and Rote; Mentawai routes are typically standalone 10-14 day charters out of Padang, Sumatra"
+  },
+  "safety_culture": {
+    "hazards": "Open-water crossings (Lombok Strait, Selat Badung between Bali-Lembongan known for strong currents), shallow reefs at destination spots, malaria risk in Mentawai/Sumatra (prophylaxis recommended), boat safety standards vary widely between operators",
+    "marine_hazards": "Reef cuts on coral/limestone; stonefish and urchins in Mentawai/Sumbawa lagoons; jellyfish blooms in some seasons; saltwater crocodile risk at remote Sumba/Rote river mouths [uncertain]",
+    "rip_current_pattern": "Strong tidal currents in Lombok Strait and Badung Strait; channel currents at Shipwrecks and Lacerations can pull surfers north toward Mushroom Bay; Desert Point has powerful inside section sucking water back over reef",
+    "lineup_etiquette": "Charter culture - respect order in which boats arrive; do not rush off the tender; charters typically coordinate with other boats to avoid overcrowding marquee spots; on Lembongan respect Balinese local crew and other guides; at Desert Point lineup hierarchy is intense with pros and long-time charters getting priority",
+    "localism_intensity": "Low to medium for charter destinations (Mentawai/Sumbawa/Rote are remote with light localism); Desert Point can have medium-high localism on big days; Lembongan/Penida generally welcoming but locals expect respect and the guides' priority",
+    "respect_protocol": "Use Balinese/Indonesian polite greetings (om swastiastu / selamat pagi); tip crew at trip end (USD 100-300 per guest is standard on Mentawai liveaboards); follow captain's safety briefings; do not litter; respect ceremonies on Lembongan (especially Mepeed and Nyepi)",
+    "resident_local_legends": "Famous Indonesian surfers tied to charter destinations: Mega Semadhi (Bukit/Bingin local but charters east), Garut Widiarta (Bukit), Marlon Gerber, Pepen Hendrik (Sumbawa local), Dede Suryana, Rio Waida; legendary expat charter captains including Martin Daly (Indies Trader, pioneered Mentawai exploration)",
+    "religious_sensitivity": "Charters do not depart on Nyepi (Day of Silence, March - all activity halts islandwide for 24 h); avoid Hindu temple ceremonies at Sanur/Padang Bai harbors; respect Sasak Muslim culture in Lombok/Sumbawa (more conservative dress on shore); Mentawai Indigenous communities require respect for sacred sites (uma houses)",
+    "medical_nearby": "Sanur Harbor area: BIMC Sanur, Siloam Denpasar within 20 min; Lembongan has only basic clinic (Klinik Nusa Lembongan) - serious injuries require medevac speedboat to Bali; remote charter destinations require evacuation by boat then air to Bali/Singapore - travel insurance with surf and medevac cover (World Nomads, SafetyWing, DAN) is essential",
+    "nearest_clinic_distance_km": "Sanur Harbor to BIMC Sanur ~3 km; Lembongan clinic to Bali (medevac by boat + ambulance) ~25-30 km; Mentawai charters >100 km from nearest hospital in Padang",
+    "rescue_jet_ski_available": "Some private charters carry jet ski for safety/photo at premium spots (Desert Point, Sumbawa Lakey Pipe, Mentawai HT's); Lembongan day trips typically rely on tender boat for rescue [uncertain]",
+    "emergency_contact": "Indonesia general 112; SAR (Search & Rescue) 115; BIMC Sanur +62 361 3000 911; Sanur Harbor master office (logged at dock); satellite phone or InReach recommended on remote liveaboard charters"
+  },
+  "services": {
+    "nearest_surf_school": "Many surf-guide operators also run schools - Bali Surf Tours, Bali Surf Guides, Bali Surf Coaches, Padang Padang Surf Camp, Kala Surf Camp, Boddhi Surf School (Uluwatu), Outpost-style coaching combined with guiding common",
+    "surf_photographer_available": "Yes - most premium charters include photo/video package (drone + water + land); typical add-on USD 50-150/day or included in Mentawai/Sumbawa liveaboard rates",
+    "accommodation_options": "Day-guide service: client uses own Bali base. Multi-day land-based: Sanur, Canggu, Uluwatu hotels/villas. Boat liveaboards: cabins on phinisi/catamaran/motor-yacht (Dreamweaver, Sri Noa Noa, Partama, Mojo, Jiwa Alam, Indo Yachts private surf safari, Outer Reef boats). Lembongan land+boat hybrids stay in villas at Jungutbatu or Mushroom Bay.",
+    "webcam_url": "Surf-guide operators use Surfline (https://www.surfline.com), Windguru (https://www.windguru.cz), and balicams.com for daily decision-making; Surfline has dedicated Shipwrecks/Razors Lembongan cam (https://www.surfline.com/surf-report/shipwrecks-and-razors/60809b1e80e9542553416c8c)",
+    "drone_allowed": "Generally allowed on charters in open water (most remote spots are far from no-fly zones); within 15 km DPS airport buffer (Kuta/Legian/Seminyak/parts of Canggu) restricted; January 2025 DGCA Directive 008/2025 ended 250g exemption - SIPP-TA registration required before flight"
+  },
+  "pricing": {
+    "avg_lesson_price": "Day surf-guide: USD 45-60 per person (1-on-1 / semi-private, 2 hours on water). Full-day driver-guide with car (1-6 persons): USD 60 or IDR 1,100,000 (8 hours). Solo upcharge typically +USD 15-30.",
+    "lesson_price_range_idr": "Surf guide / coaching (mainland Bali): IDR 500,000-900,000 per session. Lembongan one-day surf charter (min 4 pax): USD 95-150/person including lunch, water and transfers (Bali Surf Tours / Bali Surf Guides). Lembongan two-day surf charter: USD 135/person with overnight + meals. Bali Island day surf tour (min 4 pax): from USD 25/person. Private speedboat half-day Lembongan/Penida: USD 500-700; full-day USD 900-1,400. Mid-size motor yacht / sailing catamaran day-trip: USD 1,500-3,500. Luxury private yacht: USD 3,000-5,000+ per day. Private surf yacht charter rates ~USD 642/hour with 4-hour minimum (typical Bali Charter Boat tariff).",
+    "board_rental_daily": "IDR 150,000-300,000/day for shortboards on Bali; charter packages typically include limited rental quivers but bringing own boards is standard; boats often charge IDR 50,000-100,000 per board for transport [uncertain]",
+    "gopro_rental_price": "IDR 150,000-300,000/day at most surf schools; many charters include GoPro footage as add-on [uncertain]",
+    "surf_camp_weekly_package": "Lombok-Sumbawa surf safari (10 nights private boat): from USD 950/person sharing or USD 10,500 private charter (Indo Yachts, Stoked Surf Adventures Mojo). Mentawai 10-day charter: USD 1,800 (Ombak Kabau budget) to USD 5,000 (The Addiction luxury); typical mid-range USD 2,500-4,000 per trip. Mentawai 12-day luxury USD 3,000-7,000+ per person.",
+    "camp_package_inclusions": "Typical charter inclusion: all meals + snacks, beer/soft drinks (often included or low fee), boat transfers, surf guiding, accommodation (cabin on boat or villa), tender/jet ski deployment, basic snorkel gear. Exclusions: international flights, Bali tourist levy IDR 150,000, alcohol beyond included, tips (USD 100-300 to crew is typical), travel insurance, surfboards (BYOB usually expected), photo packages (often add-on).",
+    "peak_vs_offpeak_pricing": "Peak July-August premium 10-25%; Christmas/New Year premium 15-30%; April/May and October/November shoulder months often 10-20% cheaper; some Mentawai operators offer single-cabin walk-on rates in shoulder season at significant discount"
+  },
+  "sustainability": {
+    "eco_certification": "No standardized surf-charter eco certification in Indonesia; some operators (Boddhi Surf, Sri Noa Noa, Awave Travel) emphasize sustainable practices - reef-safe sunscreen, no anchoring on reef, reusable water bottles, Marine Megafauna observation protocols [uncertain]",
+    "carbon_offset_option": "Rarely offered by Indonesian operators; international booking platforms (Perfect Wave Travel, Wavehunters, Awave Travel, BookSurfCamps) occasionally include optional carbon-offset add-on at checkout [uncertain]"
+  },
+  "events_community": {
+    "annual_competition_window": "Mentawai Pro / Krui Pro typically May-August; Lakey Peak Sumbawa Pro varies; Rip Curl Cup at Padang Padang Aug 1 - early Sept; many charter operators are accredited media partners or supply event accommodations",
+    "community_events": "Boat-charter community gathers seasonally at Komune Beach Club Keramas (post-Bali Pro parties), Single Fin Sunday on Bukit, and at Lakey Peak surf-camp hub during peak Sumbawa season (June-August)"
+  },
+  "visa_logistics": {
+    "visa_type_recommended": "30-day VoA / e-VoA sufficient for most one-week to one-month charter trips; B211A 60-day visit visa (extendable to 180 days) recommended for guests combining multiple Indo charter trips or extended Bali stay",
+    "surfboard_air_baggage": "Bali domestic legs (Garuda, Lion Air, Wings Air, Citilink, Super Air Jet) to Padang (Mentawai gateway) or Bima/Sumbawa typically charge IDR 200,000-500,000 per board bag; international Garuda Indonesia includes 1 surfboard bag up to 23 kg free with most economy fares; AirAsia and Jetstar charge USD 50-150 per board bag depending on route; advance booking essential",
+    "surf_travel_insurance": "Strongly recommended - World Nomads Explorer Plan and SafetyWing Nomad Insurance both cover board damage/loss + reef-cut medical + emergency medevac; DAN (Divers Alert Network) offers add-on coverage useful for charter/boat-based trips; check policy for boat/yacht limits and remote-area medevac"
+  },
+  "uncertain": [
+    "entry_fee",
+    "marine_hazards",
+    "rescue_jet_ski_available",
+    "board_rental_daily",
+    "gopro_rental_price",
+    "eco_certification",
+    "carbon_offset_option"
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "basic_info": {
+    "name": "Medewi (Chinese: 美德威; Indonesian: Pantai Medewi / Medewi Point)",
+    "category": "surf_spot",
+    "region": "West Coast",
+    "gps_location": "Approx. -8.4319, 114.7917 (Pantai Medewi, Desa Medewi, Kec. Pekutatan, Kabupaten Jembrana, Bali; Google Maps: https://maps.app.goo.gl/Medewi) [uncertain]",
+    "distance_from_dps_airport_km": "~80-90 km (approx. 2.5-4 hours drive depending on traffic; westbali.net cites 90 km / 3.5-4.5 hours)",
+    "distance_from_canggu_uluwatu_min": "From Canggu: ~120-150 min by motorbike (~70-80 km); From Uluwatu: ~150-180 min by motorbike (~100 km)"
+  },
+  "surf_conditions": {
+    "wave_type": "Classic long left-hand point break wrapping around cobblestone/boulder bottom; soft and rolling rather than hollow. A secondary right-hand break (Medewi Right / Rivermouth) exists just south of the point across the small river.",
+    "skill_level": "Intermediate primary; accessible to confident beginners on smaller days (1-3 ft); advanced surfers enjoy it on bigger swells with multiple makeable sections.",
+    "wave_height_range": "1-8 ft; best at 3-6 ft head-high to head-and-a-half; rideable nearly year-round except very small flat west swells",
+    "bottom_type": "Cobblestone/boulder (rounded rocks with some barnacle-covered stones near entry); transitions to grey/black sand eastward",
+    "best_season": "Dry season April/May-October (peak June-August) with regular S-SW swells and offshore winds; fairly consistent year-round due to its western exposure",
+    "best_tide": "Mid to high tide best (waves form better, easier rocky entry); low tide loses shape and exposes urchins/sharp stones",
+    "best_wind": "Offshore N to NE winds (early morning); cross/onshore SE-S trade winds typically build by mid-morning - dawn patrol essential for glass",
+    "best_swell_direction": "S to SW (SSW ideal); responds to most south Indian Ocean groundswells",
+    "swell_consistency_rating": "4 (very consistent year-round - one of the most reliable spots in Bali, even when south Bukit goes flat)",
+    "wave_length_meters": "300-800+ meters on the best days (multiple connecting sections from outside take-off through the inside; commonly cited as one of Bali's longest rides) [uncertain]",
+    "wave_speed_rating": "Slow to medium (mellow, ambling wall - excellent for longboards, mid-lengths, and learning to surf points)",
+    "takeoff_zone_difficulty": "Low to moderate - friendly take-off on a deeper outside section; main difficulty is positioning on the cobblestone reef and timing the long wait between sets",
+    "secondary_peaks": "Yes - Medewi Right (Rivermouth) just south across the small river is a shorter right-hander; additional beach-break peaks and small A-frames stretch eastward through Yeh Sumbul and Pulukan",
+    "peak_crowd_level": "3 (moderate; busy on weekends and during dry season swells with surf-camp groups, but still significantly less crowded than Canggu/Bukit; dawn patrol thins the lineup)"
+  },
+  "practical_info": {
+    "access": "Drive west on Jalan Raya Denpasar-Gilimanuk; turn south at Medewi village sign onto Jalan Pantai Medewi; park at the beachfront (motorbike parking near warungs and the point); walk down across cobblestones to enter",
+    "paddle_out_method": "Wade carefully across cobblestones and barnacle-covered rocks (booties strongly recommended), then paddle out along the inside; on bigger days use the small rip channel near the point to reach the outside take-off",
+    "entry_fee": "Parking IDR 5,000-10,000 motorbike / IDR 10,000-20,000 car; no formal beach entry fee",
+    "recommended_session_time": "Dawn patrol (5:30-7:30 AM) for glassy offshore conditions; second session around late afternoon when winds soften",
+    "best_time_of_day": "Sunrise to ~9 AM before crossshore SE trade winds build; high-tide windows in early morning are gold",
+    "nearby_warung": "Warung Gede (famous BBQ fish/chicken), Warung Kayu, Dewi Warung, Rasta Cafe, Wakey Wakey Coffee (near Yeh Sumbul), and multiple beachfront warungs along Jl. Pantai Medewi serving nasi goreng, mie goreng, fresh juices",
+    "alternative_spot_within_10min": "Medewi Right (Rivermouth) - same beach; Yeh Sumbul beach break - 5-10 min west; further afield Pulukan and Pekutatan beach breaks",
+    "boat_charter_required": "No - direct land/beach access"
+  },
+  "safety_culture": {
+    "hazards": "Sharp barnacle-covered cobblestones at entry/exit, sea urchins on the reef especially at low tide, occasional strong currents on bigger swells, very long paddle if caught inside, isolated location (limited rescue infrastructure)",
+    "marine_hazards": "Sea urchins (most common reef cut/spine injury - use vinegar and tweezers; tetanus risk), occasional jellyfish, rare sea snakes; barnacle cuts can infect quickly in tropical water - clean and disinfect immediately",
+    "reef_cut_severity_index": "Medium - cobblestones are rounded but covered in sharp barnacles and urchins; cuts are common at low tide; booties (rentable for ~IDR 30,000/session) strongly recommended",
+    "rip_current_pattern": "Generally mild but a small rip runs out near the point/rivermouth on bigger days - useful as a paddle-out lane; river outflow during/after rain creates murky water and current near the rivermouth",
+    "lineup_etiquette": "Respect locals first (Medewi Boardriders Club organizes the lineup); observe rotation on the long point - one wave at a time; do not snake; smile, say hi, and acknowledge regulars. Surf schools push students into waves so beginners should stay clear of advanced peaks.",
+    "localism_intensity": "Low to medium - generally friendly compared to Bukit; the Medewi Boardriders Club runs warungs/homestays and benefits from surf tourism; isolated drop-in incidents reported but vibe is mostly mellow",
+    "respect_protocol": "Wait your turn on the point; defer to local Indonesians; do not paddle around groups; respect the Muslim cultural context (modest dress walking through the village; avoid disrespect during Ramadan/prayer times); support local warungs and homestays",
+    "resident_local_legends": "Medewi Boardriders Club members; local longboarder Made Lapinkz and other Jembrana-based surfers; well-known foreign-Indonesian shaper community at Brown Sugar Surf [uncertain]",
+    "religious_sensitivity": "Predominantly Muslim village (rare in Bali) - five daily calls to prayer from multiple mosques (bring earplugs for early starts); also nearby Hindu temples Pura Rambut Siwi and Pura Perancak; dress modestly when walking through the village; Nyepi (Day of Silence, ~March) - no surfing or beach access islandwide",
+    "medical_nearby": "Klinik / Puskesmas Pekutatan (basic primary care, ~10-15 min east); RSU Negara / Rumah Sakit Umum Daerah Negara (~30-40 min west, nearest hospital); BIMC Hospital and Siloam Denpasar 2.5-3 hours east for serious injuries",
+    "nearest_clinic_distance_km": "~5-10 km to Puskesmas Pekutatan; ~25-30 km to RSU Negara hospital",
+    "rescue_jet_ski_available": "No - no permanent jet-ski lifeguard service; rely on self-rescue and fellow surfers",
+    "emergency_contact": "Indonesia general emergency 112; Police 110; Ambulance 118 / 119; Tourist Police +62-361-754599 (Bali) [uncertain on most current numbers]"
+  },
+  "services": {
+    "nearest_surf_school": "Brown Sugar Surf School / Medewi Surf Camp (long-running local school on Jl. Pantai Medewi), Medewi Manor, Bombora Medewi Wave Lodge (in-house lessons), Ayolah Surf House (Yeh Sumbul side), Makai Medewi / House of Surf, Rapture Surfcamps Medewi",
+    "board_rental_availability": "Yes - widely available from beachfront surf shacks and homestays; ~IDR 80,000-150,000/day (around IDR 80,000 per session at the point); booties ~IDR 30,000/session",
+    "surf_photographer_available": "Yes - local freelance land photographers shoot from the cobblestone point and beach; less developed than Uluwatu/Canggu but present during dry season swells [uncertain]",
+    "photographer_recommendation": "Freelance shooters operate via Instagram (search 'Medewi surf photo'); typical package IDR 150,000-400,000 for a session of edited photos [uncertain]",
+    "accommodation_options": "Bombora Medewi Wave Lodge (mid-high range, on the point), Medewi Beach Inn (mid-range), Homestay Gede (beachfront, simple/affordable), Medewi Secret Surf Camp (budget), Wide Sands Beach Retreat (Yeh Sumbul side), Bali Tiger Hideaway, Brown Sugar Surf Camp, Bali Mojo, Medewi Manor",
+    "webcam_url": "https://www.surfline.com/surf-report/medewi/5842041f4e65fad6a7708d43 (Surfline cam/report); also surf-forecast.com Medewi page",
+    "drone_allowed": "Generally permitted for personal use over the beach; respect privacy and avoid flying over mosques or temple ceremonies; commercial use requires permit [uncertain]",
+    "coworking_nearby": "Limited dedicated coworking; some homestays/cafes offer wifi-friendly workspaces (e.g. Wakey Wakey Coffee, Bombora cafe); nearest serious coworking is Tabanan/Canggu (2+ hours east) [uncertain]"
+  },
+  "pricing": {
+    "avg_lesson_price": "IDR 300,000-500,000 (~USD 20-35) for 1-on-1 hour lesson; group lessons cheaper",
+    "board_rental_daily": "IDR 80,000-150,000/day (~USD 5-10); per-session rate ~IDR 80,000"
+  },
+  "sustainability": {
+    "water_quality_rating": "Generally good in dry season; declines in wet season (Nov-April) due to river outflow and runoff carrying plastic/agricultural waste especially near the rivermouth - avoid surfing for 24-48 hours after heavy rain"
+  },
+  "events_community": {
+    "annual_competition_window": "Local Medewi Boardriders Club events and longboard contests held occasionally during the dry season; no permanent WSL-level event but small longboard/local comps appear seasonally [uncertain]",
+    "community_events": "Medewi Boardriders Club gatherings, local longboard sessions on small days, occasional surf-shop demo days; cultural events tied to nearby Hindu temples (Pura Rambut Siwi odalan) and Muslim festivals [uncertain]"
+  },
+  "uncertain": [
+    "gps_location",
+    "wave_length_meters",
+    "resident_local_legends",
+    "emergency_contact",
+    "surf_photographer_available",
+    "photographer_recommendation",
+    "drone_allowed",
+    "coworking_nearby",
+    "annual_competition_window",
+    "community_events"
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "C5",
+  "basic_info": {
+    "名稱": "Twin + Stabilizer (2+1)",
+    "分類": "板型分類",
+    "適用程度": "中階為主(也是 HPSB → Twin Fin 過渡的最佳選擇)",
+    "一句話定位": "在 twin 速度上加一片 trailer fin 提供 backside hold;FCS MR Twin+1 為代表"
+  },
+  "buoyancy_strategy": {
+    "Guild_Factor_GF": "Twin+Stab 因「保留 twin 浮力哲學 + 提供 hold 容錯」,建議 GF 約 0.40-0.46,介於純 twin (0.38-0.44) 與 fish (0.40-0.48) 之間。中階玩家最佳區間 0.42-0.44。代表板款 Pyzel Tiger Twin 6'0 為 37.3L,適合 75-85kg 中階玩家(GF ≈ 0.44-0.50);中階 paddle 量需求高。",
+    "浮力公式": "體重(kg) × 0.42-0.46 = 建議浮力(L)。例如 70kg × 0.44 = 30.8L;若主要在 1-3ft 軟浪則用 ×0.46-0.48。Tiger Twin 與 Album Apex 系列官方建議「比 HPSB 大 2-4L、長 2-4 吋」。",
+    "相對日常板浮力增量": "相對 HPSB +10% 至 +20%;比純 Modern Twin Fin 多 +2-3L 因為加入 stab 後 paddle 流場略受影響,需更多浮力補償。HPSB 28L 玩家 → Twin+Stab 31-34L。",
+    "浮力範圍_體重對照": "50kg → 22-25L (5'2-5'4 Tiger Twin 小尺寸);60kg → 26-29L (5'4-5'6);70kg → 30-33L (5'6-5'8,例 Tiger Twin 5'8 33L);80kg → 34-37L (5'10-6'0,Tiger Twin 6'0 37.3L);90kg+ → 38-42L (6'0-6'4,Big Baron 或 HK Twin 大尺寸)。",
+    "小浪修正係數": "Twin+Stab 在軟浪建議於計算結果上 +3L(一般經驗值);若軟浪極糊或玩家體能下降可拉到 +4-5L 接近 groveler 等級。",
+    "BMI_體脂修正": "高 BMI 肌肉型 → GF 取下限 0.40-0.42 享受 rail 反應;高 BMI 脂肪型 → 取上限 0.46 +2L 補體能;低 BMI 偏瘦型 → 中位 0.43-0.44,過浮會讓 stab 起的 hold 變成阻力。",
+    "年齡_體能修正": "40 歲以上或體能下降者 +5-10%(約 +2-3L);Twin+Stab 因 stab 提供容錯,反而是適合年長中階玩家的 sweet spot 板型。",
+    "品牌計算器差異": "Pyzel(Tiger Twin)計算器中性偏準;Album(Apex / Twinsman+Stab 客製)保守需 +1-2L;Haydenshapes(HK Twin)準確度高;Lost(RNF 96 Kingfish)偏低需 +1-2L。FCS / Futures 自身不提供浮力計算器(只賣 fin),需參考板廠數值。",
+    "亞洲體型修正": "亞洲玩家可從計算結果 -2 至 -3L;但因 Twin+Stab 是中階過渡板,paddle 與容錯重要,實取時建議只 -1L 保留浮力 buffer。"
+  },
+  "shape_details": {
+    "Length 板長": "Twin+Stab 典型 5'4 至 6'4;相對 HPSB 縮短 -2 至 -4 吋。代表:Pyzel Tiger Twin 5'0-6'2;Album Twinsman+Stab 客製 5'4-6'4;Hypto Krypto Twin+Stab 客製 5'8-6'6;Lost RNF 96 + 2+1 plug 5'5-5'10。",
+    "Width 板寬": "19.5\" 至 21.5\";Tiger Twin 6'0 為 20 5/8\";HK Twin 5'10 約 20.5\";RNF 96 5'7 約 19.75\"。Twin+Stab 常見比 HPSB 寬 0.7-1.2\"。",
+    "Thickness 板厚": "2.4\" 至 2.85\";Tiger Twin 6'0 為 2 3/4\";HK Twin 5'10 約 2.6\";Twin+Stab 比純 Twin 略厚以補 paddle。",
+    "Nose_Rocker": "典型 4.4\" 至 5.0\";Tiger Twin 約 4.5\"(low rocker 利於起乘);HK Twin 約 4.7\";Twinsman+Stab 同 4.6\"。比 HPSB 略平。",
+    "Tail_Rocker": "典型 2.3\" 至 2.7\";Tiger Twin 約 2.4\";HK Twin 約 2.5\";stab 設計需要 tail rocker 略高以配合 trailer 作動。",
+    "Entry_Rocker": "Twin+Stab 採 relaxed but continuous entry rocker;Tiger Twin 為「lower rocker、wider beak nose」設計;HK Twin 因為原 Hypto Krypto DNA 為 continuous entry。",
+    "Wide_Point_Position": "Twin+Stab wide point 多落中心或中心前 1\";Tiger Twin wide point 偏前 1-2\";HK Twin wide point 接近中心;這影響 stab 位置(stab 通常在 tail 內 3-4\")。",
+    "Nose_Width_at_12_inch": "Twin+Stab 12\" nose width 約 12.5\"-14\";Tiger Twin 因 wider beak nose 約 14\";HK Twin 約 12.5\"(較收 nose);Twinsman+Stab 約 13\"。",
+    "Tail_Width_at_12_inch": "Twin+Stab 12\" tail width 約 15\"-16.5\";Tiger Twin 因 wing-swallow 約 15.5\";HK Twin 約 15.5\"(較收);RNF 96 約 15-15.5\"。Stab 設計使 tail 不需要過寬。",
+    "Bottom_Contour 板底設計": "Twin+Stab 主流為 single-to-double concave 接 flat-panel vee;Tiger Twin「double concave 大部分 → flat panel vee off tail」最具代表;HK Twin 保留 single-to-double + slight vee;RNF 96 經典 single-to-double-with-accelerating-vee。Stab 通常位於 vee 釋放點之後。",
+    "Tail_Shape 板尾形狀": "Twin+Stab 常見 swallow / wing-swallow / round / round-pin。Tiger Twin 為 wing-swallow;HK Twin 為「tighter swallow」+ fins set further back;Twinsman+Stab 為 wing-swallow;Lost RNF 96 為 fish swallow。Wing 與 stab 組合是經典配方。",
+    "Rail_Profile": "Twin+Stab 採 medium boxy 中段 + tucked-edge 尾段;比純 twin 略 fuller 以增加 paddle、抵消 stab 帶來的少許阻力。HK Twin 為招牌 medium-full rail。",
+    "Rail_Volume_Distribution": "中段集中為主,Tail rail 略飽以配合 stab 作動;Twin+Stab 的 rail volume 比純 twin 多 5-10% 利於 paddle。",
+    "Foam_Distribution": "均勻型(versatile)為主流;Tiger Twin 略偏胸下集中(weight forward);HK Twin 為平均分布;這讓 Twin+Stab 可廣度適配不同腳法。",
+    "Outline 輪廓曲線": "Twin+Stab outline 比純 twin 略 curvy;wing-swallow tail + 收窄 nose 是常見輪廓;HK Twin 為「slightly tighter swallow」outline;Tiger Twin 為 wing-swallow + beak nose 招牌。"
+  },
+  "fin_setup": {
+    "主要_Setup": "2+1 為定義配置:兩片較大 side fin(twin template)+ 一片較小中央 stabilizer(trailer)。代表組合:FCS II MR Twin+Stab(8.0\" twin + 3.5\" stab);Futures MR Twin+1;Shapers AP Twin + trailer。中央 stab 通常為 small 3.5-4\" 高度。",
+    "Fin_Cant": "Twin+Stab 中 side fin cant 6.0-6.5°(同純 twin);stabilizer 中央通常 0° cant(直立)。Pyzel Tiger Twin、HK Twin 都按此配置。",
+    "Fin_Toe": "Side fin toe 1/8\"(同純 twin);Stabilizer 中央 toe 0°(平行 stringer)。這保持了 twin 的 drive 同時用 stab 提供直線 hold。",
+    "Fin_Foil": "Side fin inside foil(hold+lift);Stabilizer 50-50 foil(中央 trailer 不偏 lift,純粹提供 directional control);這是 2+1 標準配方,FCS MR / Futures TFX 都遵循。",
+    "Fin_Rake_Sweep": "Side fin medium rake(同 modern twin 的中等 rake);Stabilizer 中等 upright(less rake);FCS MR Twin+Stab 為經典配方,side 中等 rake、中央 stab 較直立。",
+    "Fin_Area_Template": "Side fin 中型 area 為基準(FCS MR PC/AirCore、Futures MR TFX、Shapers AP);Stab 為 small area(避免過多阻力);體重 80kg+ 改 large side + medium stab;55-65kg 用 medium side + small stab。",
+    "Quad_Rear_Position": "不適用 2+1(無 quad rear);若 Twin+Stab 板有 5-fin plug 配置(部分 Lost / Album)可改為 quad + thruster,但本欄位專指 2+1 設定不討論。",
+    "2plus1_vs_PureTwin": "2+1 招牌價值:中央 trailer fin 提供 backhand hold(陡浪 cut-back 時不 spin out);犧牲 vs 純 twin:約 5-10% down-the-line speed 與部分 looseness。換句話說「以 5% 速度換 30% 容錯」對中階玩家極划算;頂尖玩家(Pacey)拆掉 stab 玩純 twin。"
+  },
+  "construction": {
+    "PU_PE 在小浪": "PU/PE Twin+Stab(Tiger Twin PU / HK Twin PU)提供 knifey rail feel + 入水穩定;對中階玩家而言 PU 反應的可預測性與 stab 容錯相加,是最容易掌握的組合。",
+    "EPS_Epoxy 在小浪": "EPS/Epoxy Twin+Stab(Pyzel EPS-HD / Haydenshapes FutureFlex HK Twin / Album EPS Apex)輕量利於 pump 與 air;同浮力數值感覺較飄(實感 +1L);適合糊浪需要積極 pump 玩家。",
+    "HD_EPS": "Pyzel Tiger Twin 在 Futures HD-EPS 構造下表現中性平衡;Album EPS lite 也屬 HD-EPS;HD-EPS 是 Twin+Stab 折衷選擇,兼顧耐用、輕量與接近 PU 的反應。",
+    "Glassing_Schedule": "Twin+Stab 標配多為 4+4/4(輕 comp) 或 6+4/4 平衡組合;Tiger Twin 標配 4+4/4 PU;HK Twin EPS 為 sandwich 構造(FutureFlex);追求耐用旅行選 6+4/6 或 6+6/6。Stab plug 周圍通常加 4oz patch 強化。",
+    "新技術": "Haydenshapes FutureFlex(HK Twin 招牌)提供類 EPS 輕量 + PU 反應感;Firewire Helium 偶用於 fish 類 twin+stab;Pyzel 提供 Futures EPS HD;Lib Tech NTL eXc 在部分 Twin+Stab 板款見;CI Spine-Tek 不太用於 2+1(他們做純 twin 為主)。"
+  },
+  "conditions_fit": {
+    "浪高範圍": "Twin+Stab 寬幅 1-6ft(齊膝至胸上 +);Tiger Twin 與 HK Twin 都標榜「2-8ft 全域可用」;1-3ft 軟浪到 4-6ft 飽滿浪為甜蜜點;HK Twin 官方稱「ideal 2-3ft pointbreak forehand 高潮」。",
+    "浪質": "軟浪到飽滿浪皆強;比純 twin 多了空心浪段的 backside 安全性;Tiger Twin / HK Twin / Twinsman+Stab 都能在 chest-head 段穩定演繹。",
+    "浪型": "beach break 軟浪到頭高皆強;point break frontside long-trim + 偶爾上唇 backside;reef break chest-head 段可信(stab 提供 hold)。HK Twin 官方明確列出 reef、point、beach 皆可。",
+    "不適合場景": "(1) 純頂尖玩家想要 maximum looseness 與 maximum down-the-line speed(stab 阻力會礙手);(2) 比賽級 vertical air 與 air-reverse(2+1 的 stab 在 air 落地時提供 hold 但限制 release);(3) 6ft+ 強勁陡浪(stab 仍不及 thruster hold);(4) 已能輕鬆駕馭純 twin 者不需要 2+1。"
+  },
+  "performance": {
+    "划水容易度": "良好;比純 twin 略遜(stab 阻力 +5%),但仍優於 thruster HPSB;HK Twin 與 Tiger Twin 都評為「paddle great no worries」。",
+    "起乘速度": "快;Tiger Twin 因 lower rocker + wider nose 起乘最快;HK Twin 也比同尺寸 thruster 早一拍。",
+    "Glide 平面速度": "頂級偏中上;Twin+Stab down-the-line speed 仍非常高,只比純 twin 慢 5-10%;Tiger Twin 在 Stab Recommends 評為「quick to accelerate, smooth riding, speedy down the line」。",
+    "Pump 效率": "高;Twin+Stab pump 效率僅略遜純 twin;對中階玩家而言因 stab 提供 hold 反而能保留 pump 動能不被 spin out 浪費。",
+    "轉向靈活度": "極佳的折衷;Twin+Stab 比純 twin 多了 pivot precision(stab 作為 pivot 點),tight pocket 反應比純 twin 強;比 thruster 仍略遜但落差小。",
+    "Vertical 能力": "中等偏強;Twin+Stab 的 stab 提供 vertical snap 時的 directional control,比純 twin 強,接近 thruster 70-80%;HK Twin 與 Tiger Twin 都能上唇。",
+    "空中動作能力": "中等;Frontside air 可玩,落地時 stab 提供 recovery 比純 twin 穩;但仍不及純 thruster;Tiger Twin EPS 構造下做 small air 較順。",
+    "Backside_vs_Frontside": "Twin+Stab 的設計初心:解決純 twin 的 backside spin-out 議題;backside hold 大幅增強,frontside 仍保留 twin 的 speed glide;兩面平衡度為所有 twin 派系中最佳。"
+  },
+  "practical_selection": {
+    "代表板款": "(1) Pyzel Tiger Twin (Jon Pyzel) — 5'0-6'2,2+1 標配,37.3L @ 6'0,Stab Recommends 推薦;(2) Haydenshapes Hypto Krypto Twin (Hayden Cox) — 可選 2+1,2-8ft 全域;(3) Album Apex 系列 + stab 客製 — Twinsman 加 trailer plug 變 2+1;(4) Lost RNF 96 / Kingfish + 2+1 plug — Mayhem 改良經典 fish 加 stab;(5) FCS MR Twin+Stabilizer fin set(可裝於任何 5-fin 板)— Mark Richards 80s 招牌復刻。",
+    "常見錯誤": "(1) Stab fin 用過大(>4\")→ 失去 twin 速度;(2) Stab 中央但 toe 不對(應該 0°)→ 板偏向一邊;(3) 浮力照搬 HPSB → twin+stab 起乘力不足;(4) 把 2+1 當 thruster 想 vertical 全力 snap → fin spin out;(5) 用 PU 重 glassing(6+6/6)→ 失去 twin 靈活。",
+    "升級陷阱": "Twin+Stab 是 HPSB 玩家轉 twin 的最佳過渡;若直接從 HPSB 跳純 twin(Twin Pin / Twinsman)成功率約 40%,跳 Twin+Stab 成功率 80%。但若已能輕鬆駕馭 2+1,進階到純 twin 才能解鎖 twin 最大樂趣;一直停在 2+1 反而限制 style 發展。",
+    "搭配_fin 建議": "FCS II MR PC Twin+Stabilizer(經典)— 大 twin + 小 stab,8.0\" + 3.5\";Futures MR Twin+1;Futures Pyzel Twin(Tiger Twin 原廠);Shapers AP twin + trailer;NVS Album Apex Twin+1(Twinsman+stab 客製);Captain Fin Larry Allison 2+1 為流派選項。",
+    "二手板評估": "Twin+Stab 二手檢查重點:確認三組 plug(twin + 中央 stab)都無滲水;stab plug 因常拆裝鬆動風險高;rocker 變形對 stab 對位影響大需嚴格檢查;EPS 構造 deck 凹陷影響反應。",
+    "Quiver 規劃": "Twin+Stab 是「2 塊 quiver 玩家最佳主板」;搭配 HPSB(陡浪比賽段)即可涵蓋 1-6ft;3 塊 quiver 中可作為 1-3ft Tiger Twin + 3-5ft Twin Pin(純 twin)+ 5-8ft step-up;或 Modern Fish + Twin+Stab + HPSB 的「軟-中-硬」三件套。",
+    "預算建議": "二手 PU Twin+Stab 約 NTD 14,000-22,000;新進口 PU(Tiger Twin / HK Twin)約 NTD 26,000-32,000;EPS / HYFI / FutureFlex 約 NTD 30-36K;台灣本土訂製 twin+stab 約 NTD 22-26K(本土 shaper 多 5-fin 配置可彈性);FCS MR Twin+Stab fin set 約 NTD 4,200-4,800。"
+  },
+  "pro_reference": {
+    "Stab_in_the_Dark": "Pyzel Tiger Twin 於 Stab Recommends 系列 2023 獲推薦;Stab in the Dark 2024 中部分 shaper 提交 twin+stab 板款作為 small-wave 對照組;HK Twin 多次在 Stab joyride 系列出現;[uncertain] 2025 winner 是否為 twin+stab 配置仍在 paywall。",
+    "WSL_CT 選手選擇": "WSL CT 選手在 free-surf 中常見 Twin+Stab(因兼具 twin 樂趣與 hold 容錯);Mark Richards 本人(WSL Hall of Fame 4x 世界冠軍)為 2+1 配置代言;Filipe Toledo / Gabriel Medina 比賽日仍 HPSB;Kelly Slater 釋出 Boss Up mid-length 含 2+1 選項;部分 QS 選手在小浪比賽日選 twin+stab 板。",
+    "Free_surf 風格參考": "Mark Richards(80s 4x 世界冠軍,Twin+Stab 原祖);Rob Machado(Seaside quad 為主,偶用 twin+stab 在 Sweet Potato 客製);Josh Kerr(Album team,測試 Apex twin+stab 配置);Asher Pacey 雖以純 twin 著稱但承認 2+1 在大浪可信;BlinkSurf 與 Noel Salas 為 Twin+Stab 主要中立評測。"
+  },
+  "local_taiwan_context": {
+    "浪點適配": "中角 1-3ft 軟浪 → Tiger Twin 2+1 為一年使用率 60% 主板;烏石 beach 變化大 → HK Twin / Tiger Twin 2+1 為「一年 60-70% 通用」首選;金樽 point → Twinsman+stab 或 HK Twin 在 chest+ 飽滿段;佳樂水 reef → HK Twin 2+1 在 chest-head 段可信;南灣軟浪 → Tiger Twin / Black Baron+stab;東澳粉鳥林軟點 → Tiger Twin / HK Twin 都合適。",
+    "進口_訂製": "Pyzel Tiger Twin 海外進口 USD 850+ 含運稅 NTD 28-32K;HK Twin Haydenshapes 進口 NTD 30-36K;Lost 在台代理 NTD 28-32K;台灣本土 shaper 可訂製 2+1 配置 NTD 22-26K(本土多 5-fin plug 更彈性);FCS MR Twin+Stab fin set 各通路 NTD 4,200-4,800;[uncertain] 台灣本土具體 2+1 經驗 shaper 名單需在地確認。",
+    "中文社群迷思": "(1)「2+1 是初學者妥協」—— 實際上 MR 用 2+1 拿了 4 屆世界冠軍,是高效配置;(2)「中央 stab 拆掉就是純 twin」—— 板的 fin box 位置與板本身設計(rocker / outline)針對 stab 優化,純 twin 板與 2+1 板的差異不只是 stab;(3)「2+1 vs thruster 差不多」—— Twin+Stab 是 twin 加 stab,fin 大小與配置完全不同於 thruster;(4)「Tiger Twin 等於小浪 thruster」—— 兩者體感差異很大。",
+    "在地教練建議": "Hooked Surf、JR Surf、VAST 等店家 2024-2025 起常推薦 Tiger Twin 與 HK Twin 給 HPSB 想轉 twin 的中階玩家;Decathlon 軟頂未涉 twin+stab 配置;在地教練常稱 2+1 為「最划算的中階主板」;[uncertain] 各店家具體推薦庫存以實地詢問為準。"
+  },
+  "uncertain": [
+    "Stab_in_the_Dark",
+    "進口_訂製",
+    "在地教練建議"
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "id": "qingshui_bay_lingshui",
+  "basic_info": {
+    "name": "Qingshui Bay (Clearwater Bay) / 陵水·清水灣",
+    "location": "Yingzhou Town and Xinchun Town, Lingshui Li Autonomous County, Hainan Province, China; ~4.8 km from the Yingzhou exit of the Hainan East Ring Expressway, ~12 km coastline at 18° N latitude on the southeast coast",
+    "operator": "Qingshui Bay Tourist Resort District (清水灣旅遊度假區) - Lingshui County government-managed scenic zone; coastline shared by multiple resort developers (Country Garden 碧桂園, Agile 雅居樂, Greentown 綠城, R&F 富力, Westin / Kimpton hotels) and surf clubs (SHAKA SURF Qingshui Bay branch, Chasing Waves, Huanyang Surf Club, Hang5 etc.)",
+    "opening_date": "N/A (natural surf spot; tourist resort district designated since the 2000s)",
+    "status": "operating",
+    "category": "natural_surf_spot"
+  },
+  "technical_specs": {
+    "wave_technology_brand": "N/A (natural waves)",
+    "pool_size": "Approximately 12 km of south-facing coastline with three identifiable surf zones: Agile Sales-Office Beach (雅居樂售樓處沙灘), Greentown Lanwan Town Commercial Street Beach (綠城藍灣小鎮商業街門前沙灘), and Coral Palace Beach (珊瑚宮殿) - the last being a reef break",
+    "wave_height": "Seasonal average 0.5-1.5 m; summer SE/S swells (Jun-Sep) commonly 0.8-1.5 m and can exceed 1 m during typhoon swells; winter NE swells (Nov-Mar) sheltered by Lanwan/Westin headlands deliver more stable ~1 m waves [uncertain]",
+    "wave_height_adjustability": "Not adjustable (natural ocean swell driven by SE summer monsoon, NE winter monsoon, and typhoon groundswell)",
+    "wave_types": "Mostly mellow beach break with sandy bottom (beginner-friendly at Agile and Greentown sections); plus one reef break at Coral Palace for intermediate/advanced surfers; gentle south-facing geometry filters out the largest winter NE swells",
+    "waves_per_hour": "N/A (natural surf spot)",
+    "wave_count_per_set": "N/A (natural ocean sets, typically 3-6 waves per set with 8-12 second intervals depending on swell period) [uncertain]",
+    "session_length": "N/A (open-ocean access; typical surf school lessons are ~90-120 minutes)",
+    "stance_rotation_schedule": "N/A (natural beach break; works for both Goofy and Regular stance depending on peak)",
+    "wave_type_classification": "Predominantly beach break (south-facing) with one reef section; suits soft-tops and longboards in summer, mid-length / shortboard in winter"
+  },
+  "pricing_sessions": {
+    "price_range": "Free open-ocean access at the public beach; surf school lessons typically 380-680 RMB for a 90-120 minute group/private session including board, leash and rashguard [uncertain]",
+    "session_skill_tiers": "Tiered by individual schools: 1-on-4 group beginner experience ~398-498 RMB; 1-on-2 intermediate ~580-780 RMB; 1-on-1 private ~680-1,200 RMB; star-rating certification courses (1-star, 2-star) available at SHAKA, Chasing Waves and Huanyang [uncertain]",
+    "equipment_rental": "Soft-top board ~80-120 RMB/session (with refundable deposit ~300-500 RMB) or 150-300 RMB/day for performance shortboards; rashguard ~30-50 RMB; leash typically included [uncertain]",
+    "coaching_fee": "Group lesson 200-400 RMB per person; private 1-on-1 lesson 600-1,000 RMB for ~2 hours; multi-day camps offered by SHAKA SURF and Chasing Waves [uncertain]",
+    "coaching_packages": "Multi-day surf-and-stay camps 1,500-3,500 RMB at Chasing Waves and SHAKA; combined surf + free-diving packages at Chasing Waves; photo/video bundles 100-300 RMB add-on [uncertain]",
+    "membership_program": "Most schools sell 5-/10-session punch cards 1,800-3,500 RMB; no formal bay-wide membership program [uncertain]",
+    "corporate_team_building": "Yes - SHAKA SURF, Chasing Waves and Huanyang accept corporate team-building bookings; minimum group sizes typically 8-15 people; pricing on request [uncertain]"
+  },
+  "experience_guide": {
+    "best_season": "Year-round surfable with two distinct windows: June-September for the best summer SE/S swells (often better than Wanning), October-February for gentler beach break suitable for beginners",
+    "best_swell_window": "June-September: SE/S typhoon-period swells 0.8-1.5 m, period 6-10 s, offshore N winds in early morning; secondary winter NE swell window October-March produces smaller, sheltered beginner waves",
+    "crowd_level": "Light to moderate crowd compared to Riyue Bay; busiest during Spring Festival, May Day and National Day holidays and during the Qingshui Bay Resort Season (Feb 1-28); weekday mornings nearly empty",
+    "booking_method": "Walk-in at any beachfront surf club; online booking via Dianping (大眾點評), Meituan (美團), Ctrip (攜程), Qunar (去哪兒) and Klook; WeChat mini-programs of individual clubs (SHAKA, Chasing Waves, Huanyang)",
+    "booking_platform": "Dianping (大眾點評), Meituan (美團), Ctrip / Trip.com (攜程), Qunar (去哪兒), Xiaohongshu (小紅書), WeChat mini-programs",
+    "payment_options": "WeChat Pay and Alipay universally accepted; cash accepted at most clubs and rentals; international credit cards generally only accepted at Westin / Kimpton / Country Garden hotels and not at independent surf shops",
+    "skill_required": "All levels - sandy beach break sections suit zero-base beginners; reef section at Coral Palace requires intermediate paddling and pop-up; summer typhoon swell windows for advanced",
+    "age_eligibility": "Most surf schools accept ages 6+ for kids' lessons; no formal upper age limit; participants must be able to swim",
+    "child_friendly_score": "4 out of 5 - shallow gradient (wade 200 m before 2 m depth), Class I water quality with 25 m visibility, gentle sand-bottom waves, kids' soft-tops at major schools, plus child-friendly Westin / Kimpton resort facilities; no enclosed kids' surf pool",
+    "sup_paddleboard_offering": "Yes - SUP rentals and lessons available at Chasing Waves, Huanyang Surf Club and several beach operators; calm summer mornings and the long flat-water shoreline are ideal for SUP",
+    "photography_video_service": "Photo / video service offered by most clubs; typical pricing 100-300 RMB for session photos, 300-580 RMB for edited video; some private classes include GoPro/SLR photos free [uncertain]",
+    "language_support": "Limited English at most local clubs; Chasing Waves and SHAKA SURF have some English-speaking instructors; Mandarin dominant at the bay",
+    "accessibility_for_disabled": "No formal adaptive surfing program; the wide hard-sand beach allows beach wheelchair access at the Westin and Kimpton resort frontages [uncertain]",
+    "stance_preference_input": "Not required when booking; stance does not affect access (south-facing beach break works peaks both directions)",
+    "safety_notes": "Generally safer than Riyue Bay due to sheltered south-facing geometry and gentle gradient; lifeguards present at major resort beach sections only; ISA-certified coaches at SHAKA SURF and Chasing Waves; surf insurance recommended; rip currents possible during typhoon swells",
+    "events_competitions_calendar": "Annual Qingshui Bay Resort Season and International Yacht Festival (清水灣度假季暨國際遊艇節) Feb 1-28 each year; not a regular host of WSL/ISA surf competitions (those are at Riyue Bay); included in 2026 Hainan official 'Island Water-Sports Adventure Route' (玩轉海島動感之旅 3D2N) and 'Island-Discovery Ocean Immersion Route' (環島發現親海之旅 10D9N)"
+  },
+  "surroundings": {
+    "nearby_accommodation": "Wide range from beachfront 5-star to mid-range: Westin Shimei Bay, Kimpton Qingshui Bay (opened May 2025, 289 rooms), Country Garden Holiday Hotel, Greentown Lanwan Town Hotel, Agile Resort - typical rates 800-3,000 RMB; budget guesthouses in Yingzhou Town 200-500 RMB/night",
+    "on_site_accommodation": "Multiple resort hotels integrated into the Qingshui Bay Tourist Resort District itself, including Kimpton Qingshui Bay (289 rooms, opened May 2025), Westin Shimei Bay (adjacent), Sheraton, Country Garden Holiday Hotel, Royal Tulip and Agile/Greentown branded properties; rates from ~700 to 3,000+ RMB [uncertain on exact 2026 inventory]",
+    "nearby_food": "Resort-hotel restaurants (Cantonese, Hainanese, Western buffet, all-day dining), Greentown Lanwan Town Commercial Street cafes and seafood, Yingzhou Town local Hainanese seafood and Wenchang chicken stalls, Danjia (疍家) fishing-raft seafood at Xincun Port; per-person spend 50-300 RMB",
+    "transport": "Self-drive via Hainan East Ring Expressway G98 (Yingzhou exit), high-speed train to Lingshui Station (~30 min by taxi/Didi), free or paid resort shuttles from Sanya, Didi/taxi widely available",
+    "transport_to_nearest_airport": "~1 hour / ~70 km drive from Sanya Phoenix International Airport (SYX) via G98 East Ring Expressway; ~3 hours / ~220 km from Haikou Meilan International Airport (HAK); high-speed rail to Lingshui Station ~30-40 min from the bay",
+    "combined_itinerary": "Qingshui Bay surf/SUP + Fenjiezhou Island (分界洲島) diving + Nanwan Monkey Island (南灣猴島) + Xincun Port Danjia floating fishing village + Hongjiaoling paragliding base + Xiangshui Bay (香水灣) and Fuli Bay (富力灣) combined as a 2-3 day Lingshui surf-and-island itinerary; can be linked north to Wanning Riyue Bay for a full Hainan surf trip"
+  },
+  "reviews_reputation": {
+    "pros": [
+      "World-class water quality (Class I marine standard, 25 m visibility) and 'singing sand' beach (one of three globally with Hawaii and Australia's Gold Coast)",
+      "Sheltered south-facing 12 km arc with gentle gradient - among Hainan's most beginner-friendly natural surf settings",
+      "Closer to Sanya Phoenix Airport (~1 hour) than Riyue Bay (~1.5 hours), much easier day-trip access",
+      "Less crowded than Wanning's surf cluster; uncrowded peaks at Coral Palace reef in summer",
+      "Strong summer (Jun-Sep) swell window - reportedly outperforms Wanning during peak typhoon-period swells"
+    ],
+    "cons": [
+      "Winter NE swell is partially blocked by hotel headlands - serious surfers still prefer Riyue Bay in Dec-Feb",
+      "Surf infrastructure smaller than Riyue Bay (fewer than ~10 surf clubs vs 50+ at Riyue Bay)",
+      "Limited English support outside flagship Westin/Kimpton hotels",
+      "Resort area is spread out - walking between surf zones can be inconvenient without a car or e-bike",
+      "Public beach access points can be confusing because most frontage is gated by branded resorts"
+    ],
+    "user_reviews": "Trip.com / Tripadvisor: 4.5+/5 average for the bay as a destination; Xiaohongshu (小紅書) features Qingshui Bay as a 'healing' beach destination with strong ratings for water clarity and family travel; Ctrip surf-club reviews for SHAKA SURF Qingshui Bay branch show 4.7+/5 with praise for patient instructors",
+    "recommended_for": "Beginner to intermediate surfers (especially in summer); families with kids; couples and photography travelers; SUP enthusiasts; resort-style surf trips; visitors combining surf + Fenjiezhou diving + Lingshui cultural experiences",
+    "operator_brand_partnership": "Qingshui Bay Tourist Resort District is government-managed by Lingshui County; resort developers include Country Garden 碧桂園, Agile 雅居樂, Greentown 綠城 and R&F 富力; 2026 Hainan Marine Tourism Year designated Qingshui Bay as a key node on the official 'Island Water-Sports Adventure Route' (玩轉海島動感之旅) curated by Hainan Provincial Tourism Department"
+  },
+  "verification": {
+    "existence_verified": "true",
+    "verification_sources": [
+      "https://hnqingshuiwan.com/ (official Qingshui Bay Tourist Resort website)",
+      "https://baike.baidu.com/item/%E6%B8%85%E6%B0%B4%E6%B9%BE/3243743 (Baidu Baike Qingshui Bay entry)",
+      "https://intotravelchina.com/attractions/wanning-attraction/qingshui-bay-tourist-area.html",
+      "https://hainan.sina.cn/news/zh/2025-11-11/detail-infwyuni4597134.d.html (Hainan official 10 themed routes including 玩轉海島動感之旅)",
+      "https://zhuanlan.zhihu.com/p/617339364 (Hainan surf guide, including Qingshui Bay wave conditions)",
+      "https://gs.ctrip.com/html5/you/sight/lingshui1509/136208578.html (SHAKA SURF Qingshui Bay branch on Ctrip)",
+      "https://gs.ctrip.com/html5/you/sight/lingshui1509/134445180.html (Chasing Waves Qingshui Bay branch on Ctrip)",
+      "https://gs.ctrip.com/html5/you/sight/lingshui1509/135102624.html (Huanyang Surf Club Qingshui Bay branch on Ctrip)",
+      "https://hain.chinadaily.com.cn/a/202502/02/WS679f3967a310be53ce3f400e.html (2025 Qingshui Bay International Yacht Festival)",
+      "https://us.trip.com/travel-guide/destination/lingshui-1509/ (Lingshui 2026 travel guide)"
+    ],
+    "last_updated": "2026-05-15"
+  },
+  "uncertain": [
+    "wave_height",
+    "wave_count_per_set",
+    "price_range",
+    "session_skill_tiers",
+    "equipment_rental",
+    "coaching_fee",
+    "coaching_packages",
+    "membership_program",
+    "corporate_team_building",
+    "photography_video_service",
+    "accessibility_for_disabled",
+    "on_site_accommodation"
+  ]
+}

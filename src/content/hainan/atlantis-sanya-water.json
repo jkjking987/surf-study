@@ -1,0 +1,104 @@
+{
+  "basic_info": {
+    "name": "Sanya Atlantis Aquaventure Waterpark Wave Pool (三亚·亚特兰蒂斯水世界浪池)",
+    "location": "Atlantis Sanya Resort, Haitang Bay National Coast, Sanya, Hainan Province, China",
+    "operator": "Atlantis Sanya (operated by Kerzner International on behalf of owner Fosun Tourism Group / Fosun International)",
+    "opening_date": "2018-04-28",
+    "status": "operating",
+    "category": "artificial_wave_pool"
+  },
+  "technical_specs": {
+    "wave_technology_brand": "Murphy's Waves (wave generation system); pool designed by HAS of Texas [uncertain]",
+    "pool_size": "Approximately 7,000 m² wave pool (some sources cite 6,400 m²) [uncertain]",
+    "wave_height": "Approximately 0.3-1.5 m, family-oriented recreational waves (not designed for stand-up surfing) [uncertain]",
+    "wave_height_adjustability": "Yes - 7 different wave modes/patterns are programmable, ranging from calm pool conditions to larger swells; specific tier names not publicly published [uncertain]",
+    "wave_types": "Recreational rolling waves and white-water surge waves for floating, bobbing, and bodyboarding; not shaped for surfing barrels or open-face rides",
+    "waves_per_hour": "[uncertain] - operates in cycles with rest intervals; not publicly documented",
+    "wave_count_per_set": "[uncertain] - cycles between active wave modes and calm intervals on a programmed schedule; specific set count not published",
+    "session_length": "Continuous access during park operating hours (no per-session limits); wave cycles run intermittently throughout the day [uncertain]",
+    "stance_rotation_schedule": "N/A - not a surfing-focused pool; no Goofy/Regular rotation",
+    "wave_type_classification": "Artificial recreational wave pool (Murphy's Waves family-style), not a dedicated surf-shaped wave pool"
+  },
+  "pricing_sessions": {
+    "price_range": "Aquaventure Waterpark day ticket from approximately RMB 198-338 for adults (varies by season and platform); child ticket from RMB 258; included free for hotel guests of Atlantis Sanya. Wave pool access is included in the general waterpark admission",
+    "session_skill_tiers": "N/A - no skill-tiered surf sessions; single general admission grants access to wave pool",
+    "equipment_rental": "Life jackets provided free of charge; bodyboards/inflatable tubes available for rent or use within the park [uncertain on exact fees]",
+    "coaching_fee": "N/A - no surf coaching offered at the wave pool; the pool is recreational only",
+    "coaching_packages": "N/A - no surf coaching packages",
+    "membership_program": "Atlantis Sanya offers annual passes and resort membership through Fosun's Club Med-affiliated programs; specific waterpark-only membership pricing varies seasonally [uncertain]",
+    "corporate_team_building": "Yes - Atlantis Sanya offers MICE/team-building packages including waterpark buyouts and group event hosting via the resort's events department"
+  },
+  "experience_guide": {
+    "best_season": "Year-round operation (only year-round waterpark in China); peak experience April-October when air and water temperatures are warmest; avoid Chinese national holidays (Spring Festival, Golden Week, summer school holidays) for shorter queues",
+    "best_swell_window": "N/A - artificial wave pool",
+    "crowd_level": "Very high during Chinese public holidays and July-August summer school break; moderate on weekends; lower on weekdays in shoulder season (March, May, September, November). Wave pool can be heavily crowded during peak wave shows",
+    "booking_method": "Online pre-purchase strongly recommended; tickets sold on official website, OTA platforms, and at park gate",
+    "booking_platform": "Atlantis Sanya official website (atlantissanya.com), Ctrip/Trip.com, Fliggy, Meituan/Dianping, Klook, KKday, WeChat Mini Program",
+    "payment_options": "Alipay, WeChat Pay, UnionPay, international credit cards (Visa/Mastercard/Amex), cash (RMB)",
+    "skill_required": "Zero - no surfing skill required; suitable for non-swimmers in shallow areas with life jackets",
+    "age_eligibility": "Children under 0.9 m height free; 0.9-1.22 m children's ticket; over 1.22 m adult ticket. Children under 13 require adult supervision. Some thrill rides have minimum 1.22 m height requirement; wave pool itself accessible to all ages with supervision",
+    "child_friendly_score": "5 - highly child-friendly; shallow zero-entry edges, life jackets provided free, adjacent Splashers children's play zone, lifeguards posted around the wave pool",
+    "sup_paddleboard_offering": "Not offered within the wave pool [uncertain]",
+    "photography_video_service": "On-site professional photographers and ride photo capture available at major slides; photo packages sold at park exit kiosks; pricing varies [uncertain on exact rates]",
+    "language_support": "Yes - English, Mandarin, Cantonese, and Russian language support available at guest services; multilingual signage throughout the park",
+    "accessibility_for_disabled": "Limited - wheelchair accessibility for general pathways and viewing areas; no dedicated adaptive surfing program; specific accessibility features for wave pool entry not publicly documented [uncertain]",
+    "stance_preference_input": "N/A - not a surf training pool",
+    "safety_notes": "Lifeguards posted at all pools per international waterpark safety standards; mandatory life jackets for non-swimmers and children; wave cycle warnings broadcast before each set; pregnant women, those with heart conditions, or recent surgery patients advised against the wave pool. Insurance included in ticket per Chinese theme park regulations",
+    "events_competitions_calendar": "Hosts in-pool entertainment shows (DJ sets, live music, fire-dance, acrobatics on the central stage) seasonally; does not host competitive surfing events"
+  },
+  "surroundings": {
+    "nearby_accommodation": "Haitang Bay area hotels including Conrad Sanya, Park Hyatt Sanya, Shangri-La Sanya, Kempinski Haitang Bay, Mandarin Oriental Sanya - typical rates RMB 1,500-5,000+ per night",
+    "on_site_accommodation": "Atlantis Sanya Hotel - 1,314 rooms and suites including Underwater Suites with Ambassador Lagoon views; rates from approximately RMB 2,000 standard room to RMB 100,000+ for signature underwater suites; waterpark and aquarium access included for hotel guests",
+    "nearby_food": "Atlantis Sanya houses 21 in-house restaurants and bars (Ossiano underwater dining, Bread Street Kitchen by Gordon Ramsay, Seafire steakhouse, Ling Long Chinese, etc.); Haitang Bay Duty Free Shopping Mall (CDF Mall) nearby with extensive dining; Haitang Bay Shilipuxin food street",
+    "transport": "Self-drive (resort parking available), taxi/Didi, hotel shuttle from Sanya Phoenix International Airport (SYX), tour bus services from Sanya city",
+    "transport_to_nearest_airport": "Approximately 35-40 km / 45-50 minutes drive from Sanya Phoenix International Airport (SYX); approximately 25 km from Sanya City center; close to Haitang Bay High-Speed Railway Station (5-10 minutes drive)",
+    "combined_itinerary": "Combine with Haitang Bay CDF Duty Free Mall shopping, Wuzhizhou Island day trip, Yalong Bay beaches, Sanya Bay sunset, Nanshan Buddhism Cultural Park; multi-day Atlantis stay packages bundle waterpark, aquarium, dolphin/sealion encounters, and underwater dining"
+  },
+  "reviews_reputation": {
+    "pros": [
+      "Year-round indoor/outdoor operation - China's only all-year waterpark",
+      "Massive 200,000 m² waterpark with 36 slides and major attractions beyond the wave pool",
+      "Wave pool features live entertainment stage with DJs, music, and performances",
+      "Free for Atlantis Sanya hotel guests with multi-day re-entry",
+      "Family-friendly with strong safety oversight, free life jackets, and supervised play zones"
+    ],
+    "cons": [
+      "Extremely crowded during Chinese national holidays and summer school break - long slide queues",
+      "Wave pool is recreational only - not suitable for stand-up surfing or skill development",
+      "Premium pricing compared to local Hainan waterparks",
+      "Locker, food, and photo upsells add significantly to total spend",
+      "Wave intensity is mild and family-oriented; advanced surfers will find it underwhelming"
+    ],
+    "user_reviews": "Dianping (大众点评) average rating approximately 4.5-4.7/5; Xiaohongshu (小红书) abundant positive coverage praising the visual scale, wave pool ambiance, and themed atmosphere; Mafengwo (马蜂窝) and Ctrip reviews highlight the wave pool's entertainment shows and family suitability while noting peak-season crowding [uncertain on exact current scores]",
+    "recommended_for": "Families with children, leisure tourists, photo/social-media visitors, hotel guests at Atlantis Sanya, corporate group buyouts; NOT recommended for serious surfers seeking training waves",
+    "operator_brand_partnership": "Atlantis brand owned by Kerzner International (UAE/Bahamas heritage); Atlantis Sanya is owned by Fosun Tourism Group (Fosun International), with Kerzner providing brand and management. Wave technology by Murphy's Waves (UK); slides by ProSlide Technology (Canada); waterpark designed by HAS of Texas (USA)"
+  },
+  "verification": {
+    "existence_verified": "true",
+    "verification_sources": [
+      "https://www.atlantissanya.com/marine-and-waterpark/aquaventure-waterpark - Atlantis Sanya official site Aquaventure Waterpark page",
+      "https://blooloop.com/water-parks/in-depth/atlantis-sanya-aquaventure-hainan-island/ - Blooloop in-depth feature confirming opening date, designers, Murphy's Waves wave system",
+      "https://www.tripadvisor.com/Attraction_Review-g297427-d13391017-Reviews-Aquaventure_Water_Park-Sanya_Hainan.html - TripAdvisor active reviews",
+      "https://us.trip.com/travel-guide/attraction/sanya/sanya-atlantis-aquaventure-waterpark-44775645/ - Trip.com booking and current operating info",
+      "https://en.wikipedia.org/wiki/Atlantis_Sanya - Wikipedia Atlantis Sanya overview",
+      "https://www.travelchinaguide.com/attraction/hainan/atlantis-sanya-water-park.htm - Travel China Guide pricing and hours",
+      "https://www.chinadaily.com.cn/a/201804/29/WS5ae55d5aa3105cdcf651b3ae.html - China Daily April 28 2018 opening report"
+    ],
+    "last_updated": "2026-05-15"
+  },
+  "uncertain": [
+    "wave_technology_brand",
+    "pool_size",
+    "wave_height",
+    "wave_height_adjustability",
+    "waves_per_hour",
+    "wave_count_per_set",
+    "session_length",
+    "equipment_rental",
+    "membership_program",
+    "sup_paddleboard_offering",
+    "photography_video_service",
+    "accessibility_for_disabled",
+    "user_reviews"
+  ]
+}

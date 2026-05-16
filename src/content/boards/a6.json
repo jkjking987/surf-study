@@ -1,0 +1,111 @@
+{
+  "id": "A6",
+  "basic_info": {
+    "名稱": "慢點浪情境 (Long Slow Point Break)",
+    "分類": "浪況情境",
+    "適用程度": "中階 / 進階(對 trim line 與 cross-step 重心移動有要求)",
+    "一句話定位": "台灣金樽/佳樂水長慢點;mid-length 或 modern twin 主場"
+  },
+  "buoyancy_strategy": {
+    "Guild_Factor_GF": "建議 GF 0.42-0.50。慢點浪本質是『超長 trim 線 + 推力中等』,需要比 A4 慢速捲浪更高浮力,因為點 break 起乘區通常較淺、需要『先抓上浪再 trim』,浮力是 wave count 的基礎。代表板 CI Mid、Pyzel Mid Length Crisis、Album Twinsman、Harley Ingleby Mid 6 Mini Twin 都落在 0.42-0.48 區間。",
+    "浮力公式": "建議倍率 0.42 ~ 0.50。範例:70kg 騎手 → 70 × 0.46 = 32.2L 基礎,套用點 break 修正(+3L 因為長 trim)與小浪修正(+2L 因為金樽/佳樂水多為弱中浪)後實取 37-40L。70kg 在 CI Mid 6'8\" (約 41L) 或 Pyzel Mid Length Crisis 6'8\" (38.6L) 區間 [uncertain]。",
+    "相對日常板浮力增量": "建議相對日常 HPSB 增量 +30%~+45%。日常 28L → 慢點板 36-41L。理由:點 break 起乘區水深較深,paddle 速度比 beach break 更重要;Mid-length 長 trim 需要 momentum,浮力是 momentum 的基礎;Modern twin 在點 break 上需要更多浮力提供 backside hold。",
+    "浮力範圍_體重對照": "50kg → 24-28L;60kg → 28-33L;70kg → 33-39L;80kg → 39-45L;90kg+ → 45-52L。代表板款:CI Mid 6'8\" 約 41L 適合 75-85kg、6'10\" 約 44L 適合 80-90kg、7'0\" 約 47L 適合 85-95kg;Pyzel Mid Length Crisis 6'8\" 為 38.6L 適合 75-80kg;Album Twinsman 5'10\" 約 33L 適合 65-72kg [uncertain]。",
+    "小浪修正係數": "慢點浪在台灣多為 weak-medium 推力,建議 +2-4L。比 A2 標準小浪略低修正,因為長 trim 線本身就是 fun 的來源;比 A5 chop 修正更低,因為點 break 浪壁穩定不需 chop 補償。",
+    "BMI_體脂修正": "高 BMI 肌肉型:長 trim 線可較公式 -1L(力量足以維持 momentum);高 BMI 脂肪型:維持公式;低 BMI 偏瘦型:+2-3L,因瘦弱型在點 break 起乘區可能 paddle 不過。",
+    "年齡_體能修正": "點 break 通常需要長時間 paddle out 與等浪,年齡 >40 建議 +5L,>50 建議 +8-10L。台灣金樽 / 佳樂水的 paddle out 距離較中角等 beach break 遠,體能要求高。",
+    "品牌計算器差異": "Firewire 計算器最準,Lufi / Slater Designs / Machado quad 系列在計算器中可直接套點 break 偏好;Channel Islands 計算器對 CI Mid 系列稍微偏低 1L,實取建議 +1L;Pyzel 對 Mid Length Crisis 有專屬建議列表,可信度高;Album 沒有正規計算器,可依官方建議『比 fish 長 2\",比短板多 1-3L』取板 [uncertain]。",
+    "亞洲體型修正": "亞洲身材輕 5-10kg,在點 break 慢浪場景可 -2L。但若是 mid-length 路線,建議只 -1L,因為 mid-length 浮力過低會失去 trim momentum;Twin 路線可 -2L 因為 modern twin 對浮力更敏感。"
+  },
+  "shape_details": {
+    "Length 板長": "建議 5'10\" ~ 7'2\"。Mid-length 路線:CI Mid 6'8\"-7'0\"、Pyzel Mid Length Crisis 6'4\"-7'2\"、Harley Ingleby Mid 6 Mini Twin 6'10\";Twin 路線:Album Twinsman 5'8\"-6'2\"、CI Mid Twin 6'7\"-6'10\";Hybrid 路線:Hypto Krypto FutureFlex 5'10\"-6'4\"。相對日常短板加長 +4\" ~ +14\"。",
+    "Width 板寬": "建議 19.5\" ~ 21\"。Mid-length 多落 20.5-21\"(Pyzel Mid Length Crisis 6'8\" 為 20.63\");CI Mid 7'0\" 約 21\";Twin (Album Twinsman 5'8\") 約 19.75\";Hypto Krypto 6'0\" 約 20.5\" [uncertain]。",
+    "Thickness 板厚": "建議 2.4\" ~ 2.85\"。Pyzel Mid Length Crisis 6'8\" 為 2.63\";CI Mid 6'10\" 約 2.69\";Twinsman 5'8\" 為 2.38\";Hypto Krypto 6'0\" 約 2.75\" [uncertain]。",
+    "Nose_Rocker": "建議 4.5\" ~ 5.5\"。Mid-length 偏低 nose rocker(CI Mid 採用低 entry rocker 配合前移浮力);Twin 路線略偏高一點;Hypto Krypto 偏中等。低 nose rocker 是慢點浪 wave count 與 trim 速度的關鍵。",
+    "Tail_Rocker": "建議 2.25\" ~ 2.75\"。CI Mid 標準 tail rocker 約 2.5\";CI Mid Twin 增加 tail rocker 至約 2.6-2.75\"(換取 rail-to-rail);Twinsman 約 2.4\";Hypto Krypto 約 2.5\" [uncertain]。慢點浪選擇取決於『純 glide』(低 tail rocker)還是『 glide + turn』(中等 tail rocker)。",
+    "Entry_Rocker": "前段曲線需『連續且偏平』。CI Mid 採『gradually accelerated rocker』,Pyzel Mid Length Crisis 採『moderate, long, clean curve』,Album Twinsman 採『low entry rocker for instant speed』。這類 entry 讓板能在金樽/佳樂水的 mellow 起乘區早一秒 plane。",
+    "Wide_Point_Position": "建議 wide point 在中心或中心前 0.5\"-2\"。Pyzel Mid Length Crisis 採『wide-point forward』典型;CI Mid 採接近中心;Twinsman 採中心前;Hypto Krypto 採中心略前。慢點浪偏好略前的 wide point,提供 trim 階段重心前移空間。",
+    "Nose_Width_at_12_inch": "建議 12.5\" ~ 14\"。Mid-length 約 13-14\";Twin 約 12.5-13\";Hybrid 約 12.5-13\"。較寬 nose @12\" 是慢點浪能 paddle 上初段的關鍵 [uncertain]。",
+    "Tail_Width_at_12_inch": "建議 14\" ~ 16.5\"。Mid-length 約 14.5-15\";Twinsman 約 15-15.5\";CI Mid Twin 約 14.5-15\";Hypto Krypto 約 15\"。較寬 tail @12\" 可在低速 trim 維持 plane;過寬則 backside 容易失控 [uncertain]。",
+    "Bottom_Contour 板底設計": "建議 single-to-double + 尾段 vee 或 double-barrel concave。CI Mid 採『double-barrel concave + gradually accelerated rocker』(訊源:Channel Islands 官網與 BlinkSurf 評論);Pyzel Mid Length Crisis 採『mild vee with double concave』;Album Twinsman 採 spiral vee(single → double → vee off tail);Hypto Krypto 採 single-to-double。慢點浪偏好 double concave 在 trim 中產生水流加速。",
+    "Tail_Shape 板尾形狀": "建議 squash / rounded square / winged swallow / round。CI Mid 採 rounded square;Pyzel Mid Length Crisis 採 round/squash 變體;Twinsman 採 winged swallow(12\" up from tip 有 wing);Harley Ingleby Mid 6 Mini Twin 採 swallow。慢點浪 swallow 提供 release、round 提供 hold、squash 平衡。",
+    "Rail_Profile": "建議中段 boxy / 50-50 + 尾段 tucked under edge / down rail。CI Mid 標準為『hard, slightly tucked edges in the tail area』;Pyzel Mid Length Crisis 採『rolled deck + thinned-out rails for sensitivity and bite』;Twinsman 採『thinned rail for sensitivity』。慢點浪在 mid section 需要 boxy 維持 trim,尾段需要 tucked edge 提供 release。",
+    "Rail_Volume_Distribution": "建議分布均勻但略偏中段。Mid-length 偏均勻分布提供長 trim 線穩定;Modern twin 偏中段集中提供 acceleration;Hybrid 偏均勻分布。",
+    "Foam_Distribution": "建議『胸下集中、weight forward』型。CI Mid 與 Pyzel Mid Length Crisis 都採『foam positioned forward』,讓騎手可以站在 mid-length 上『往前 trim、往後 turn』;Twinsman 採『concave deck + low entry rocker』讓 foam 略往中段集中。",
+    "Outline 輪廓曲線": "建議 parallel rail 或 parallel-with-hip。CI Mid 採 parallel-with-tuned-tail;Pyzel Mid Length Crisis 採『semi-traditional, wide-point forward, sleek and racey』;Twinsman 採『fuller outline leading into winged swallow』;Hypto Krypto 採 curvy outline 但帶有 parallel 中段。慢點浪偏好 parallel rail 換取 trim 速度。"
+  },
+  "fin_setup": {
+    "主要_Setup": "三大主流:1) Mid-length single fin (2+1 加 side bites 增加 hold) — CI Mid 7'0\" / Harley Ingleby Mid 6 / 7'0;2) Modern Twin — Album Twinsman / CI Mid Twin / Harley Ingleby Mid 6 Mini Twin;3) Thruster — Pyzel Mid Length Crisis 主推 thruster, Hypto Krypto 通常 thruster。慢點浪選擇取決於 trim 線長度(越長越偏 single)與 backside 需求(backside 需要選 thruster/2+1)。",
+    "Fin_Cant": "Mid-length single fin 建議 0-3°(low cant 提供 drive);Modern Twin 建議 5-6.5°;Thruster 建議 6-7°。慢點浪 single 偏 drive 取向、twin 與 thruster 偏中等取向。",
+    "Fin_Toe": "Single fin 無 toe(中心);Twin 建議 1/8\"-3/16\";Thruster 建議 1/8\"-3/16\"。慢點浪需要 medium toe 提供 release。",
+    "Fin_Foil": "Single fin 採對稱 foil;Twin 採 inside foil;Thruster 側 fin 採 inside foil + 中央 trailer 採 50-50。",
+    "Fin_Rake_Sweep": "慢點浪 single fin 偏 medium-high rake(7.0\"+ 的 pivot/cutaway template);Twin 採 Pacey AP 5.79\"(medium rake) 或 MR Twin (medium-high rake);Thruster 採 medium rake 如 FCS Performer / Captain Fin CMC [uncertain]。",
+    "Fin_Area_Template": "Mid-length single 建議 7.0\"-7.5\" pivot;Twin 建議 5.5\"-5.9\" template(Asher Pacey 5.79\" / MR Twin / Album Twinsman 配套);Thruster 建議 M5/M6 template;體重 80kg+ 在所有配置都建議 +1 size [uncertain]。",
+    "Quad_Rear_Position": "若採 quad(較少見於慢點浪),後 fin 建議靠 rail 1/4\"-1/2\",提升 release 給長 trim 用。Firewire Seaside 在金樽/佳樂水長段的 split keel quad 配置是慢點浪 quad 的代表 [uncertain]。",
+    "2plus1_vs_PureTwin": "慢點浪『2+1』對 backside 提供關鍵 hold,讓 mid-length / twin 在金樽 left point 或佳樂水 backside 段不失控;純 twin 在 frontside 長 trim 最爽,但 backside 不適合大多數騎手。FCS MR Twin+1 是 2+1 在慢點浪的經典 fin set。"
+  },
+  "construction": {
+    "PU_PE 在小浪": "慢點浪 PU 構造有獨特優勢:重量讓 mid-length 在金樽長段 trim 中維持 momentum;knifey rail feel 配合 mellow 點 break 浪壁、carve 可預測;Hypto Krypto PU 與 CI Mid PU 在慢點浪上都被認為比 EPS 版本更穩。缺點是 paddle out 較費力,長 session 體力消耗大。",
+    "EPS_Epoxy 在小浪": "EPS+Epoxy 在慢點浪提供『輕快感』,Firewire Helium 2 構造的 Sweet Potato / Seaside / Machado 系列在慢點浪上表現極好;Lufi (假設為 EPS 構造) 在慢點浪上的具體表現需更多本土驗證 [uncertain]。同浮力下感覺更高(實取 EPS 可 -2L)。",
+    "HD_EPS": "Lost Lightspeed II、Firewire Helium 2、Haydenshapes FutureFlex 都是慢點浪友善的 HD-EPS 選擇。Hypto Krypto FutureFlex 在慢點浪的 Surfline 評論中被認為『flex pattern 穩定、trim 順、turn 有彈性』;Channel Islands Spine-Tek 在 CI Mid 上的應用提供 flex memory,適合長期慢點浪使用。",
+    "Glassing_Schedule": "建議 6+4/6 標準或 6+6/4(deck 加重)。慢點浪需要長 session 耐用(常一日多 wave),6+4/6 是平衡點;若是頻繁旅行到金樽/佳樂水的騎手,可考慮 6+6/6 增加耐用度。Lightweight comp 不建議,因 mid-length 的長度本身就會在使用中累積 stress。",
+    "新技術": "Haydenshapes FutureFlex(carbon parabolic frame) 在慢點浪上提供獨特 flex feel,Hypto Krypto FutureFlex 是金樽/佳樂水中階騎手熱門選擇;Firewire Helium 2 在 Mid Length 路線(若有 Mid 系列)未確認,但 Seaside / Machado 系列在慢點浪 chop 中表現極好;Channel Islands Spine-Tek 在 CI Mid 提供 flex 與 PU 的平衡;Lib Tech NTL 在 Lost 合作板上提供另一耐用選擇。"
+  },
+  "conditions_fit": {
+    "浪高範圍": "2-5 ft (waist to head high),金樽/佳樂水多在此範圍",
+    "浪質": "長 peeler / 慢肩 / 軟壁 / 偶有空心段;最適合 lined-up 長浪",
+    "浪型": "Point break 為絕對主場;reef point(如金樽 right)為次優;sandbar point(如佳樂水某些 setup)亦可;不適合 punchy beach break 與 short reef",
+    "不適合場景": "punchy beach break 短段、需要 vertical air 的場景、頭高以上 critical reef break、極端 chop;另不適合純 grovel 場景(該情境應選 A2 / A5)"
+  },
+  "performance": {
+    "划水容易度": "極佳。CI Mid / Pyzel Mid Length Crisis 在金樽/佳樂水起乘區的 paddle threshold 是市場最低之一;『fly over the flattest and smallest waves』(Surfer 評論)。Mid-length 在點 break 起乘區比同浮力短板早 2-3 秒抓到浪。",
+    "起乘速度": "快 (paddle-to-take-off 反應極佳)",
+    "Glide 平面速度": "頂尖。Mid-length 在金樽長段的 down-the-line speed 表現 Noel Salas 的 CI Mid Twin 評測中被稱『速度與 flow 上癮』;Pyzel Mid Length Crisis 在 Surfline 與 Empire Ave 評測中被認為『speed 表現超過尺寸應有的水準』。Modern Twin (Twinsman) 在金樽中段也有頂尖 glide。",
+    "Pump 效率": "中-高。慢點浪不依賴 pump,但 mid section 過慢時需要 pump 過段;CI Mid 的 double-barrel concave 在 pump 時產生明顯加速;Album Twinsman 的 spiral vee 在 pump 時更靈活;Hypto Krypto 在 pump 上效率最高。",
+    "轉向靈活度": "中。Mid-length 為『smooth arcing turns』,不是 quick redirect;CI Mid Twin 為了 turn 改善而加 tail rocker;Twinsman 與 Mid 6 Mini Twin 都比 mid-length single 靈活但比 HPSB 慢。慢點浪不依賴 quick turn,長 carving 才是主軸。",
+    "Vertical 能力": "低。Mid-length 與 modern twin 都不擅長 vertical snap;慢點浪情境下的 vertical 也不是主要追求。需要 vertical 表現的騎手應該選擇 B3 進階小浪性能板。",
+    "空中動作能力": "極低。Mid-length 不為 air 設計;Modern Twin (Twinsman) 在小浪偶可做 small air,但金樽/佳樂水慢點不是 air 場景。Hypto Krypto FutureFlex 可做 small frontside air,是此情境中唯一具備 air 能力的代表。",
+    "Backside_vs_Frontside": "Frontside 顯著優於 backside。在金樽 right point 或佳樂水 right peeler,frontside 可拉出超長 trim 線;backside(金樽 left)因 mid-length 不易 lay rail,常需要 2+1 配置補強。Album Twinsman 與 CI Mid Twin 的 winged swallow 設計都是為了改善 backside hold。Hypto Krypto FutureFlex backside 表現是此情境中最好的。"
+  },
+  "practical_selection": {
+    "代表板款": "1) Channel Islands CI Mid (6'8\"-7'2\", PU 或 Spine-Tek, single fin / 2+1) — 金樽 / 佳樂水 mid-length 經典;2) Channel Islands CI Mid Twin (6'8\"-6'10\", twin fin, 雙鰭版) — 金樽 right peeler 利器;3) Pyzel Mid Length Crisis (6'4\"-7'2\", 6'8\" 38.6L) — Pyzel 的 mid 系列旗艦;4) Album Surf Twinsman (5'8\"-6'2\", twin fin) — 5'10\" 約 33L,modern twin 代表;5) Harley Ingleby Mid 6 Mini Twin (6'10\", twin fin) — Thunderbolt Red 構造,glide 與 turn 平衡;6) Haydenshapes Hypto Krypto FutureFlex (5'10\"-6'4\", thruster) — 非 mid-length 但慢點浪 versatile;7) Firewire Seaside / Seaside & Beyond (5'4\"-6'1\", quad keel) — 慢點 fish 路線。所有規格根據 cisurfboards.com、pyzelsurfboards.com、albumsurf.com、harleyingleby 系列、haydenshapes.com、firewiresurfboards.com 與 BlinkSurf / Empire Ave / Surfline 2024-2025 評測整理。",
+    "常見錯誤": "1) 在金樽長段帶日常 HPSB → paddle 上得了但 trim 慢、wave count 低;2) 帶純 twin 到佳樂水 backside 段 → 失去 hold;3) Mid-length 配錯 fin(用 longboard 鰭塞進 mid-length single box → 過 stiff、失去 mid-length 的 turn 能力);4) glassing 太重(6+6/6)的 mid-length 在金樽長段 paddle out 體力透支;5) 期待 mid-length 做 vertical snap,結果失望;6) 浮力給太多(>50L 給 70kg 騎手)在金樽中段需要 redirect 時板太肥反應不夠快。",
+    "升級陷阱": "1) 跟風買 Stab in the Dark 比賽板到金樽,結果浮力不足、wave count 慘澹;2) 看 Asher Pacey 影片就買最小 Twinsman(5'4\"),但體重不對導致根本 paddle 不上點 break 起乘區;3) 認為 CI Mid 越長越好,結果 7'2\" 在金樽 turn-around 半徑過大、後段失誤;4) 沒考慮亞洲身材就直接套用歐美建議浮力,結果取板過大;5) 認為 fin 越貴越好,實際上 Mid-length single fin 採用 NTD 1,500 的 True Ames Greenough 4A 可能比 NTD 6,000 的 carbon performance fin 更適合慢點浪。",
+    "搭配_fin 建議": "Mid-length single fin (CI Mid 7'0\" / Mid Length Crisis 7'0\"):True Ames Greenough 4A 6.5\"-7.5\"、Captain Fin Mid Length 6.5\"-7.5\"、Rainbow Fin Co. Classic Pivot 7.0\";Mid Twin (CI Mid Twin / Mid 6 Mini Twin):FCS MR Twin+1、Captain Fin Tyler Twin、Shapers AP 5.79\" Stabiliser;Twinsman:Album Twinsman 配套 fin、Shapers AP 5.59\"/5.79\"、Captain Fin CMC Twin;Hypto Krypto 系列:FCS H4 thruster、Futures HS1 thruster、Hayden-signature template;Seaside 系列:Firewire Machado Quad Keel(標配)。",
+    "二手板評估": "慢點浪用板二手評估:1) Mid-length 因尺寸大,在台灣海運與店內存放容易撞傷,優先檢視 nose 與 rail 中段;2) Spine-Tek 構造的 CI Mid 在 spine 區域要檢視是否有 stress crack;3) FutureFlex 構造的 Hypto Krypto 在 carbon frame 處檢視是否有分層;4) Twin 板的 fin box(尤其雙 box)要檢視是否鬆動,在金樽長段持續側向力下容易出問題;5) 2022-2025 的 CI Mid 版本經過 rocker 微調,優於 2020-2021 版本 [uncertain]。",
+    "Quiver 規劃": "兩塊規劃:1) CI Mid 6'10\" 或 Pyzel Mid Length Crisis 6'8\" 吃掉 A4 + A6 + 部分 A2;2) HPSB 5'10\" 吃掉 chest+ 飽滿浪。三塊規劃:加一塊 Hypto Krypto FutureFlex 或 Album Twinsman 處理 A2 / A3 / A6 混合場景。台灣常去金樽/佳樂水的玩家強烈建議第三塊是 mid-length 而非標準 groveler。",
+    "預算建議": "進口新訂製 CI Mid / Mid Length Crisis / Twinsman:NTD 32,000-42,000;Harley Ingleby Mid 6 Thunderbolt Red:NTD 38,000-45,000;Haydenshapes FutureFlex:NTD 36,000-44,000;本土訂製 mid-length(JR Surf、Wei's 等):NTD 18,000-28,000 [uncertain];二手良好狀況 mid-length:NTD 18,000-28,000(透過社團轉讓常見金樽老玩家出貨)。"
+  },
+  "pro_reference": {
+    "Stab_in_the_Dark": "Stab in the Dark 比賽板以 HPSB 為主,Mid-length 與慢點浪板未列入比賽。但 Stab Joyride 系列有針對 Mid-length 與 Twin 的測試:Joyride Haydenshapes Hypto Krypto Twin 評為『flexible across conditions, surprisingly good in subpar』;Joyride Sharp Eye Inferno72 在 head-high 點 break 上的測試與慢點浪相關 [uncertain]。",
+    "WSL_CT 選手選擇": "Ethan Ewing 在 J-Bay 等長 peeling point 著重 single concave 短板,但個人練習常用 mid-length;Filipe Toledo 在比賽多選 HPSB;Kelly Slater 私下偏好 Slater Designs Cymatic / Sci-Fi 2.0 在慢點浪;Gabriel Medina 慢點浪情境多選 thicker shortboard 而非 mid-length;Jordy Smith 在南非 J-Bay 點 break 練習中有 mid-length 出現 [uncertain]。",
+    "Free_surf 風格參考": "Asher Pacey 為 modern twin glide 風格代表,Album Twinsman 為其簽名板,5.79\" twin fin 設計是慢點浪 frontside trim 的標準配置;Harley Ingleby 為 mid-length 路線代表(Mid 6 系列簽名板);Devon Howard 為 mid-length twin 風格代表(CI Mid Twin 共同設計者);Joel Tudor 為 single fin / longboard glide 風格;Mikey February 為慢點浪 twin glide 美學代表 [uncertain]。"
+  },
+  "local_taiwan_context": {
+    "浪點適配": "台灣慢點浪主要分布:1) 金樽 right point(秋冬最佳,11月 WSL QS Taiwan Open of Surfing 主場)→ CI Mid 6'8\" 或 Album Twinsman 5'10\" 為首選;Mid-length single fin (CI Mid 7'0\") 更為 trim 取向。2) 金樽 left point(風向適合時)→ 需要 2+1 或 thruster 配置應對 backside,建議 Hypto Krypto FutureFlex 6'0\" 或 CI Mid Twin。3) 佳樂水 right peeler(全年穩定,河口右點)→ Mid-length 或 Twinsman,因 offshore 山谷風加成讓慢浪保持乾淨,mid-length 表現極好;『阿水衝浪店』與 'Summer Point' 等在地店家對 mid-length 與 twin 在佳樂水的適配有豐富經驗。4) 東澳粉鳥林長段慢浪 → Mid-length 為主流選擇,因浪壁長且軟,trim 線可拉很長 [uncertain]。",
+    "進口_訂製": "進口 CI Mid / Mid Length Crisis / Twinsman 在台灣由 JR Surf、Surf Shop、Catch Surf TW 等代理進口,新板 NTD 32,000-42,000;本土訂製(JR Surf、Wei's、阿伯訂製、SK 等)可獲得相同 outline 的 mid-length,價格 NTD 18,000-28,000,但細節 contour(double concave 深度、tucked edge 過渡點)的準確度視 shaper 經驗 [uncertain]。本土訂製優勢在於依台灣常見浪況(金樽/佳樂水的中等推力)微調 rocker、依騎手體型(亞洲偏輕)微調 width 與 thickness;劣勢在於 mid-length 本土經驗較 HPSB 少。",
+    "中文社群迷思": "PTT/IG/FB 衝浪社團慢點浪情境常見迷思:1)『金樽只能用長板』→ 實際上 mid-length 與 twin 在金樽 right peeler 表現更靈活;2)『佳樂水只有夏天有浪』→ 實際上佳樂水全年穩定,秋冬 offshore 風加成下慢點浪品質極好;3)『Mid-length 是退休族板』→ 實際上是中階以上 free surfer 的核心配置;4)『買 CI Mid 一定要 7'0\"』→ 實際上依體重應在 6'6\"-7'2\" 區間,亞洲身材 65-75kg 更適合 6'8\";5)『Twin fin 不能 backside』→ 實際上 Modern Twin 配 2+1 或 winged swallow 可解決 backside。",
+    "在地教練建議": "JR Surf 衝浪店在台灣同時代理 Channel Islands 與部分歐美品牌,對 CI Mid 在金樽 / 佳樂水的搭配有豐富建議,IG 與 FB 社團有大量金樽試板照片;VAST 偏向高階選手與 HPSB,慢點浪建議較少;Decathlon 主要供應入門軟板與低價硬板,慢點浪不在其主力產品線;Hooked Taiwan 在中角區提供日系 mid-length 試板;佳樂水的『阿水衝浪』與『Summer Point』教練長期駐點,對在地長點浪的 mid-length 與 twin 配置有實戰經驗;金樽『金樽衝浪小屋 Jinzun Surf House』為當地最知名教練/民宿,對 CI Mid / Twinsman 在金樽的適配有公開分享 [uncertain]。"
+  },
+  "uncertain": [
+    "浮力範圍_體重對照",
+    "品牌計算器差異",
+    "Width 板寬",
+    "Thickness 板厚",
+    "Tail_Rocker",
+    "Nose_Width_at_12_inch",
+    "Tail_Width_at_12_inch",
+    "Fin_Rake_Sweep",
+    "Fin_Area_Template",
+    "Quad_Rear_Position",
+    "EPS_Epoxy 在小浪",
+    "二手板評估",
+    "預算建議",
+    "Stab_in_the_Dark",
+    "WSL_CT 選手選擇",
+    "Free_surf 風格參考",
+    "浪點適配",
+    "進口_訂製",
+    "在地教練建議"
+  ]
+}

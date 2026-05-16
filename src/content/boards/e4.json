@@ -1,0 +1,98 @@
+{
+  "id": "E4",
+  "basic_info": {
+    "名稱": "台灣浪點專屬考量 (Taiwan Surf Spots Board-Selection Strategy)",
+    "分類": "特殊情境 — 在地浪點 × 板型策略差異",
+    "適用程度": "全程度 (初學至進階都需要依浪點調整板型;進階騎手 quiver 規劃更需區分浪點)",
+    "一句話定位": "中角/烏石/金樽/佳樂水/南灣/東澳粉鳥林各自的沙底/reef/point 屬性決定板型,絕非一塊板打天下"
+  },
+  "buoyancy_strategy": {
+    "Guild_Factor_GF": "台灣浪點普遍偏無力 → 整體 GF 推薦比歐美 baseline +0.03-0.05;沙底浪點 (烏石 / 南灣 / 中角灣中段) GF 0.42-0.50;reef break (佳樂水 / 東澳粉鳥林 / 中角灣左側) 0.38-0.44;point break (金樽) 0.38-0.42 (因浪壁長 + 浪頭較有 push);冬季季風強場景 (烏石冬天 1.5-2m+) 可降至 0.36-0.40。",
+    "浮力公式": "台灣浪點通用公式:體重(kg) × 0.42-0.48 = 全島通用浮力 (L);沙底 mush 浪點 (南灣夏天 / 烏石夏天) 拉到 × 0.46-0.50;point break (金樽) × 0.40-0.44;reef break (佳樂水 / 粉鳥林) × 0.40-0.45。例:70kg 騎手在烏石夏天用 32-35L,在金樽用 28-31L,在佳樂水用 28-32L。",
+    "相對日常板浮力增量": "台灣浪點板選擇相對歐美 baseline +10-20% 浮力 — 因為:(1) 全年浪期不穩;(2) 浪質普遍偏軟;(3) 颱風季外多為 1-3ft;(4) 多浪點為夏季 mush 浪。在地 quiver 主流是 hybrid / groveler / mid-length 為主,純 HPSB 反而少用。",
+    "浮力範圍_體重對照": "台灣 quiver 體重對照 — 50kg: 24-28L (本島用) / 30-34L (旅行用);60kg: 28-33L / 33-38L;70kg: 32-38L / 36-42L;80kg: 38-44L / 42-48L;90kg+: 44-52L / 48-56L;南灣 / 烏石夏天無力浪取上限,金樽 / 中角秋冬有 swell 取下限。",
+    "小浪修正係數": "台灣浪點全年小浪修正:(a) 烏石夏天 0.3-0.7m 直接 +5L 並用 groveler;(b) 南灣 mush 浪 +4-5L 並用寬鼻寬尾設計;(c) 中角夏天 +3-5L 偏 groveler;(d) 佳樂水夏天 +3-4L 用 hybrid;(e) 金樽秋冬可不加修正 (浪有 push 不算無力);(f) 粉鳥林大浪季可不加,小浪季 +3L。",
+    "BMI_體脂修正": "台灣騎手 BMI 偏低 (平均 BMI 23-24);低 BMI 偏瘦騎手 -1-2L;高 BMI 脂肪型 +2-3L;台灣全年無寒帶,wetsuit 加身的浮力影響小 (3/2mm 為主),不需要像北加州 / 日本北部那樣計入 wetsuit 浮力。",
+    "年齡_體能修正": "台灣 weekend warrior 多 30-45 歲區間 +5-10% 浮力標準;銀髮騎手 (>55 歲衝浪人口在台灣金樽 / 烏石漸增) +10-15% 浮力並走 mid-length 路線。",
+    "品牌計算器差異": "Firewire 計算器在台代理 VAST Surf Shop 提供本地化建議 (+2-3L 於官方);Lost 計算器 JR Surf 代理建議在計算結果 +1-2L (考量台灣浪偏軟);CI 計算器需 +2-3L (CI Average Joe / Bonzer Biscuit 系列 Concrete Surf 代理常建議 size up);Pyzel 在台無正式總代但 Phantom / Gremlin 系列 paddle 計算器較準。",
+    "亞洲體型修正": "台灣騎手體型偏小 — 男性平均 65-75kg、女性平均 50-60kg,比歐美 baseline 輕 5-10kg;歐美 board chart 直接套用會偏大 2-3L,本土代理 (JR Surf / VAST / Concrete Surf / Hooked) 都會建議在歐美 chart 上 -2L 取板。"
+  },
+  "shape_details": {
+    "Length 板長": "台灣浪點主流板長分布 — (a) 沙底 mush 浪點 (烏石 / 南灣夏天):5'8\"-6'2\" groveler / hybrid + soft-top 7'0\"-8'0\";(b) Point break (金樽):5'10\"-6'4\" hybrid / HPSB + mid-length 6'8\"-7'4\";(c) Reef break (佳樂水 / 粉鳥林):5'10\"-6'2\" HPSB / hybrid (短一點易閃 reef);(d) 中角灣:5'8\"-6'2\" hybrid 兼容沙底與左側 reef;(e) 烏石冬天大浪:6'2\"-6'8\" step-up;(f) 兒少 grom 全 spot 一律 4'8\"-5'4\"。",
+    "Width 板寬": "台灣浪點板寬主流:沙底 mush 板 20\"-21.5\" (paddle 優先);point / reef HPSB 19.25\"-20.5\" (turn 優先);mid-length 20.75\"-21.5\";南灣 / 烏石夏天偏 21\"+,金樽 / 佳樂水秋冬 20\"-。",
+    "Thickness 板厚": "台灣浪點板厚主流:groveler 2.5\"-2.75\";HPSB / point board 2.4\"-2.6\";mid-length 2.625\"-2.875\";南灣夏天 mush 板可拉到 2.75\",冬天 step-up 拉到 2.625\"-2.75\"。",
+    "Nose_Rocker": "台灣浪點板 nose rocker — sand/mush 浪點 (烏石 / 南灣) 偏 low 4.25\"-4.75\";point/reef 浪點 (金樽 / 佳樂水) 偏 standard 4.75\"-5.25\";東澳粉鳥林大浪季 step-up 5.25\"-5.5\";中角介於中間 4.75\"-5\"。[uncertain 確切吋數因品牌而異]",
+    "Tail_Rocker": "台灣浪點板 tail rocker:groveler / mush 浪 2.2\"-2.5\";HPSB / reef 2.5\"-2.875\";step-up 2.75\"-3\";南灣 / 烏石主流 2.4\"-2.6\",金樽 / 佳樂水秋冬 2.5\"-2.75\"。[uncertain 確切吋數]",
+    "Entry_Rocker": "台灣浪點板 entry rocker:沙底軟浪點 (烏石 / 南灣) 偏 flat / relaxed;point break (金樽) standard / slightly relaxed;reef break (佳樂水 / 粉鳥林) standard 至 punchy;烏石冬天浪期 step-up 採 modern entry rocker 為主。",
+    "Wide_Point_Position": "台灣浪點板 wide point:groveler 中心或中心前 0.5-1.5\" (烏石 / 南灣 / 中角夏天);HPSB 中心或中心後 0.5-1\" (金樽 / 佳樂水秋冬);mid-length 中心 (金樽 free-surf 老派路線);step-up 中心後 1-2\" (烏石冬天大浪)。[uncertain 確切位置]",
+    "Nose_Width_at_12_inch": "Sand/mush 浪 board 12\"處鼻寬 12.5\"-13.5\" (Hypto Krypto / Insanity / Sweet Potato 路線);HPSB 11.5\"-12.5\" (Pyzel Phantom / CI Two Happy);mid-length 13\"-14\" (CI Mid 配置);grom 板 12\"-13\"。[uncertain 確切吋數]",
+    "Tail_Width_at_12_inch": "Sand mush 浪 board 12\"處尾寬 15.5\"-16.5\";HPSB 14.5\"-15.5\";mid-length 16\"-17\";grom 板 14\"-15.5\"。[uncertain 確切吋數]",
+    "Bottom_Contour 板底設計": "台灣浪點板底主流 single-to-double concave + slight vee tail;groveler / mush 浪 board 強調 single concave 過 deep double 過 vee (paddle + speed 兼具);point / reef HPSB 採 standard single-to-double + flat tail (turn 反應);mid-length 採 belly nose + single concave mid + spiral V tail (CI Mid 配置);深度 single 1/8-3/16\"、double 1/16-1/8\"。",
+    "Tail_Shape 板尾形狀": "台灣浪點板尾配置:沙底 mush 浪 wide squash / swallow / wing-swallow (CI Bonzer Biscuit / Hypto Krypto / Insanity);point break (金樽) round / round-pin / swallow (mid-length 走 round-pin);reef break (佳樂水 / 粉鳥林) squash / round (兼顧 hold 與 looseness);烏石冬天 step-up round-pin / pin;中角灣寬廣 squash / wing-swallow。",
+    "Rail_Profile": "台灣浪點板 rail profile:groveler / mush boxy mid + down-tucked tail (烏石 / 南灣 / 中角夏天);HPSB / reef 標準 50-50 mid + down rail (金樽 / 佳樂水);mid-length boxy mid + 50-50 tail (CI Mid 配置);step-up 較 thin rail 整體 (烏石冬天 holds in big wave)。",
+    "Rail_Volume_Distribution": "台灣 quiver 主流 rail volume 中段集中,胸下略 thick;進階騎手 HPSB 採均勻偏 thin;mid-length 則均勻分布求漂浮 + flow。",
+    "Foam_Distribution": "台灣浪點板 foam 分布:groveler 胸下集中 (Hypto Krypto / Insanity 招牌);HPSB 中段集中 + 平衡 distribution;mid-length 均勻分布求 trim flow。",
+    "Outline 輪廓曲線": "台灣浪點主流 outline:(a) Round-nose fish (Lost RNF '96 / Bonzer Biscuit / Twinsman) 沙底 mush 浪首選;(b) Modern hybrid (Hypto Krypto / Insanity / Sweet Potato) 全 spot 通用;(c) HPSB (Pyzel Phantom / Sharp Eye HT 2.5 / Lost Driver 3.0) 金樽 / 佳樂水 / 烏石冬天主力;(d) Egg / mid-length (CI Mid / Album Plasmic) 金樽 free-surf 與老派浪人。"
+  },
+  "fin_setup": {
+    "主要_Setup": "台灣全 spot 主流 5-fin box thruster + quad 兼容;沙底 mush 浪 (烏石 / 南灣) thruster 與 quad / twin+stab 自由切換;point break (金樽) quad / twin+stab 走 free-surf flow;reef break (佳樂水 / 粉鳥林) thruster 為主求 hold;step-up 烏石冬天 thruster 為主;mid-length 2+1 (single + side bites)。",
+    "Fin_Cant": "Mush 浪 / groveler 用 6-6.5° cant (loose);HPSB / reef 用 4-5° cant (drive);mid-length 配 4° cant + 5° side bite;台灣浪偏軟整體偏 looseness 取向。",
+    "Fin_Toe": "標準 thruster 1/8\" toe;quad 後 fin 1/16\";沙底 mush 浪可考慮減 toe 走 speed-orientation (1/16\" thruster 設定)。",
+    "Fin_Foil": "Inside foil side fin + 50-50 trailer 為主流 (FCS II Performer / Futures Honeycomb);mid-length 用 50-50 single + inside foil side bite;旅行配置帶 inside foil 與 flat foil 兩組。",
+    "Fin_Rake_Sweep": "台灣浪點軟浪偏好 upright / medium rake fin (Futures AM1 / FCS II Performer / CI Upright);金樽 / 佳樂水秋冬 swell 有 push 時可用 medium-to-large rake (AM2 / HS2);粉鳥林大浪用 large rake fin (JJF Large)。",
+    "Fin_Area_Template": "體重對應台灣 fin area template:50-60kg 用 small (FCS II / Futures S);60-75kg 用 medium (M);75-85kg 用 medium-large (ML);85kg+ 用 large (L);浪況越大用越大 template。沙底 mush 浪整體降一級 (60kg S→S+ 或 M but 改 inside foil)。",
+    "Quad_Rear_Position": "台灣 quad 設定:沙底 mush 浪 rear fin 靠 rail 3/8\"-1/2\" (looseness);point break (金樽) 靠 rail 1/4\" (drive);reef break (佳樂水) 靠 stringer 1/8\" (hold);烏石冬天 step-up quad 靠 stringer (drive)。",
+    "2plus1_vs_PureTwin": "Mid-length (CI Mid / Album Plasmic) 在金樽用 2+1 give backhand hold;pure twin 在沙底 mush 浪 (烏石 / 南灣) 可考慮 (Album Twinsman / Bonzer Biscuit twin);reef break (佳樂水 / 粉鳥林) 不建議 pure twin 因 hold 不足。"
+  },
+  "construction": {
+    "PU_PE 在小浪": "台灣本土 shaper (蕃薯 / Saltywave / Switchfoot / 阿水) PU 板價格友善 NTD 18,000-28,000;PU 在沙底 mush 浪 carve 可預測,適合金樽 free-surf 與烏石訓練用板;reef break (佳樂水 / 粉鳥林) ding 風險高,PU 需投修費。",
+    "EPS_Epoxy 在小浪": "EPS / Epoxy 為台灣浪點黃金構造 — 輕量 (pump 加速容易應付軟浪)、耐摔 (旅行 + 颱風季);烏石夏天 + 南灣 mush 浪用 EPS Pyzel Gremlin / Lost RNF Lightspeed II 為主流;進口 EPS 板價格 NTD 30,000-40,000。",
+    "HD_EPS": "Lost Lightspeed II / Firewire Helium / Haydenshapes FutureFlex / JS HYFI 在台都有正式代理;FutureFlex Hypto Krypto 為台灣旅行 / OBQ 第一名構造;Helium Tomo Vader 與 Sweet Potato 為南灣 / 烏石小浪首選。",
+    "Glassing_Schedule": "台灣浪點實用 glassing:本土訂製 6+4 / 4 為標準 (PU 平衡);耐摔旅行版 6+4 / 6 為主流;reef break (佳樂水 / 粉鳥林) 建議 6+6 / 6 增加厚度;比賽用板 (金樽 CTSA / WSL QS) 採 4+4 / 4 lightweight。",
+    "新技術": "(1) Lib Tech NTL / Eco-Impacto 為台灣旅行兼本地 reef break 耐摔首選;(2) Sharp Eye E3 Lite (CT 進階構造);(3) DSD Diverse 構造為金樽 free-surf 派偏好;(4) 本土 carbon wrap 訂製可選但較少 shaper 提供。"
+  },
+  "conditions_fit": {
+    "浪高範圍": "台灣浪點全年浪高範圍 — 烏石夏天 0.3-0.7m / 冬天 1-3m+;中角夏天 0.5-1m / 冬天 1-2.5m;金樽秋冬 1-2m / 颱風 2-4m+;佳樂水夏天 0.5-1.2m / 秋冬 1-2m;南灣夏天 (April-October swell 季) 0.5-1.5m;東澳粉鳥林秋冬 1-2.5m / 颱風大浪 2-4m+。",
+    "浪質": "中角夏天:軟浪 / 飽滿浪 mix;烏石:沙底 mush 為主夏天、冬天較有 punch;金樽:point break 浪壁長,飽滿至 punchy 浪;佳樂水:reef 反射使浪面較陡;南灣:夏天無力肥浪;粉鳥林:reef break punchy 浪 + 颱風空心浪。",
+    "浪型": "中角:beach break (沙底) + 左側少量 reef;烏石:純 sand beach break;金樽:right-hand point break (主) + left-hand secondary;佳樂水:reef break 多 peak;南灣:sand beach break;東澳粉鳥林:reef break 多 peak,大浪季有 outer reef。",
+    "不適合場景": "中角:不適合純大浪 (浪太亂);烏石夏天:不適合追求大浪 (波平浪小);金樽:初學者不宜直接挑戰 (浪大流強);佳樂水:不適合無 reef 經驗者;南灣:不適合追求高品質浪 (整體偏無力);粉鳥林:不適合 ding 不起的板 (reef 多)。"
+  },
+  "performance": {
+    "划水容易度": "台灣浪點 paddle 友善度:烏石夏天 / 南灣 / 中角灣中段為 paddle-friendly (沙底淺水 + 軟浪);金樽 paddle 距離較長 (要划到 outside peak);佳樂水 / 粉鳥林 reef paddle 需經驗 (channel 知識);冬季烏石浪期 paddle 體能挑戰大。",
+    "起乘速度": "中角 / 烏石夏天起乘輕鬆 (沙底 mush);金樽起乘有挑戰 (浪頭快);佳樂水 / 粉鳥林起乘需熟悉 take-off zone (reef 位置決定);南灣 mush 浪 take-off 緩。",
+    "Glide 平面速度": "金樽為台灣 down-the-line speed 第一名 (long point);中角 / 佳樂水中等;烏石 / 南灣偏短 ride;粉鳥林 reef ride 短但 punchy。",
+    "Pump 效率": "南灣 / 烏石無力浪需 high pump 效率 (EPS / Helium 構造);金樽 push 充足 pump 需求低;佳樂水 / 粉鳥林 reef 主靠 take-off speed 而非 pump。",
+    "轉向靈活度": "中角 / 烏石夏天 / 南灣靠 wide groveler 轉向;金樽配 mid-length 走長 arc;佳樂水 / 粉鳥林 HPSB 走 vertical 與 tight turn;粉鳥林大浪季 step-up turn 為長 carve。",
+    "Vertical 能力": "中角偶有 punchy 浪可玩 vertical (左側 reef);烏石冬天 swell 為北部最 vertical 友善場景;金樽偶有 push 強段可 vertical;佳樂水 / 粉鳥林 reef peak 為 vertical 玩家首選。",
+    "空中動作能力": "中角 / 烏石夏天適合學 small air (sand 摔不傷);南灣偶有 ramp 可玩 air;金樽 air section 較少 (long-face 為主);佳樂水 reef 摔 air 風險高;粉鳥林 reef 不建議在小浪玩 air。",
+    "Backside_vs_Frontside": "金樽 right-hand point break 為 frontside 主場 (regular footer);烏石 / 中角 / 南灣 / 佳樂水多為 left-right peak 雙向;粉鳥林 reef 多 peak 雙向可玩。"
+  },
+  "practical_selection": {
+    "代表板款": "(1) 中角:Hypto Krypto FutureFlex 5'10\"-6'2\" / CI Average Joe 5'5\"-5'9\" / Pyzel Gremlin 5'6\"-5'10\";(2) 烏石夏天:Album Insanity 5'8\"-6'0\" / Lost RNF '96 5'6\"-5'10\" / Firewire Sweet Potato 5'6\"-5'10\";烏石冬天:Pyzel Ghost 6'0\"-6'4\" / CI Two Happy 6'0\"-6'4\";(3) 金樽:CI Mid 6'8\"-7'0\" / Album Plasmic 6'10\"-7'4\" / Lost Hydra 5'8\"-6'0\" / Hypto Krypto;(4) 佳樂水:Pyzel Phantom 5'10\"-6'2\" / Sharp Eye HT 2.5 / Lost Driver 3.0;(5) 南灣:CI Average Joe 5'5\"-5'9\" / Firewire Sweet Potato / Catch Surf Odysea Skipper 6'0\" 軟頂;(6) 東澳粉鳥林:Pyzel Phantom 6'0\"-6'4\" / Lost RNF Retro 5'8\"-6'0\" (小浪) + step-up 6'2\"-6'8\" (大浪季)。",
+    "常見錯誤": "(1) 一塊 HPSB 走天下 → 台灣浪點差異大,沙底 mush 用 HPSB paddle 不上去;(2) 進口 board 不考慮台灣浪況直接用歐美 chart → 偏大 2-3L;(3) 兒少 grom 來金樽挑戰 → grom 板 hold 不足易翻;(4) 帶 reef-unfriendly 漂亮板來佳樂水 / 粉鳥林 → ding 後修板成本高;(5) 不查浪況直接出發 → 用 swelleye / windy 查預報為基本功;(6) 不熟悉 reef break 直接挑戰粉鳥林 → 危險級別。",
+    "升級陷阱": "(1) 在烏石學會後直接挑戰金樽 → 浪況差距大需中階教練陪同;(2) 從沙底跳到 reef break 沒有 reef 經驗 → 需慢慢累積;(3) 跳級到旅行 OBQ 但本地浪無法練熟 → 應該先在台 quiver 練熟;(4) 追求 pro model 但本地浪點 push 不夠 → CT 板在台灣許多時候只能放著看。",
+    "搭配_fin 建議": "(1) 中角 / 烏石夏天:Futures HS2 medium 或 FCS II Performer M (inside foil thruster);(2) 烏石冬天 step-up:Futures JJF Large 或 FCS II AM-PC Large;(3) 金樽:CI Upright / Futures AM2 medium 或 mid-length True Ames Greenough 4-A;(4) 佳樂水:Futures AM1 / FCS II Performer M (inside foil + medium rake hold);(5) 南灣:Futures Honeycomb HS2 small-medium (small wave 加速取向);(6) 粉鳥林:Futures JJF medium-large 或 FCS II AM-PC L (reef break hold + drive)。",
+    "二手板評估": "台灣浪點二手板 hot spot:(1) Hooked Surf Shop / VAST / JR Surf 二手區;(2) FB 衝浪二手社團;(3) 浪人台東金樽周邊二手 mid-length;(4) PTT Surf 板二手交易;(5) 蕃薯 / 阿飛 / Switchfoot 學校汰換板;重點檢查 ding 修復品質 (台灣 reef 浪點板二手 ding 量大)、stringer 變形、deck 壓痕、fin box plug 4 個完整;reef break (佳樂水 / 粉鳥林) 板二手約 -50-60% 原價 (修復多)。",
+    "Quiver 規劃": "台灣最常見 quiver 規劃:(1) 兩塊 quiver:groveler 5'10\"-6'0\" (烏石 / 南灣 / 中角夏天) + HPSB 6'0\"-6'2\" (金樽 / 佳樂水 / 烏石冬天小到中);(2) 三塊 quiver:加 mid-length 6'8\"-7'0\" (金樽 long ride) 或 step-up 6'4\"-6'8\" (烏石冬天大浪 / 粉鳥林);(3) 四塊以上:加軟頂與 fish twin;在地 Pro 騎手 quiver 多 4-6 塊;週末玩家 2-3 塊已能 cover 多數情境。",
+    "預算建議": "台灣浪點板預算:本土訂製 PU NTD 18,000-28,000、進口 PU stock NTD 25,000-35,000、進口 HD-EPS (Helium / FutureFlex / Lightspeed II) NTD 32,000-45,000、custom 訂製海外 shaper 透過代理 NTD 45,000-65,000;軟頂兒少 NTD 6,000-15,000;板袋 NTD 2,500-5,000;fin 套組 NTD 3,000-7,000;wetsuit (3/2mm) NTD 6,000-15,000。"
+  },
+  "pro_reference": {
+    "Stab_in_the_Dark": "Stab in the Dark 結果對台灣板選影響大:2023 Filipe Toledo 用 Sharp Eye HT 系列 → 影響佳樂水 / 金樽 HPSB 選擇;2024 Ethan Ewing → 影響金樽 free-surf;Stab Joyride / Electric Acid Surfboard 系列 Hypto Krypto / Insanity 對台灣 OBQ 選擇影響深遠。[uncertain 2025 結果]",
+    "WSL_CT 選手選擇": "台灣 2011 起 WSL QS Taiwan Open of Surfing 在金樽舉辦,QS 選手選板偏 hybrid 與 paddle-aware HPSB (因金樽浪頭較難 catch);Filipe Toledo 多次表態金樽小浪適合 Sharp Eye 系列;Ethan Ewing 與 mid-length 在金樽 free-surf 風格啟發在地騎手;Italo Ferreira 在台 free-surf 時用 RNF / Mayhem 系列。",
+    "Free_surf 風格參考": "金樽為自由派浪人聚集地 → Asher Pacey twin / mid-length 路線在金樽影響大;Dane Reynolds Hypto Krypto 風格在烏石 / 中角主流;Jamie O'Brien fun-board / Catch Surf 風格在南灣常見;Tosh Tudor longboard + twin 路線在金樽 long-board 與 mid-length 社群有影響。"
+  },
+  "local_taiwan_context": {
+    "浪點適配": "(1) 中角 (北部金山,東北季風夏季小浪,sand+slight reef):典型浪況夏天 0.5-1m / 冬天 1-2.5m 東北季風;適合板型 5'8\"-6'2\" hybrid / groveler 夏天,6'0\"-6'4\" HPSB step-up 冬天;建議浮力 50-60kg = 28-33L、60-75kg = 32-38L、75kg+ = 38-44L;在地店家:中角灣國際衝浪基地、Switchfoot Surf (衝浪福利社);特色 mixed sand+reef bottom 雙向 left/right peak;東北季風直頂 messy。(2) 烏石 (宜蘭頭城,純 sand beach break,夏天小浪冬天季風大浪):夏天 0.3-0.7m / 冬天 1-3m+;適合板型夏天 groveler / hybrid 5'8\"-6'0\" + 軟頂初學,冬天 6'2\"-6'8\" step-up + HPSB;建議浮力夏天 +5L (高 GF 0.45-0.55) 冬天標準 GF 0.36-0.42;在地店家:JR Surf 強尼玫瑰、VAST Surf Shop、蕃薯衝浪、阿默衝浪、Ocean Vibes 好享衝浪、海湧、藍洋;特色 sand bottom 安全,北堤夏季穩定,初學首選。(3) 金樽 (台東東河,右跑 point break 慢長浪,pebble stone bottom):秋冬 swell 季 1-2m / 颱風 2-4m+;適合板型 mid-length 6'8\"-7'0\" (CI Mid / Album Plasmic) 與 hybrid 5'10\"-6'2\" (long ride 玩 carve);建議浮力 GF 0.40-0.44 因浪有 push;在地店家:浪人台東 / 金樽衝浪小屋、東河衝浪店;特色 right-hand point break 浪壁長適合 walk-the-board,自由派浪人聚集地,WSL QS 每年 11 月 Taiwan Open of Surfing 在此舉辦,左右各有 peak (右側為比賽用)。(4) 佳樂水 (屏東滿州,reef break,夏天小浪+冬天長浪面):夏天 0.5-1.2m / 秋冬 1-2m;適合板型 5'10\"-6'2\" HPSB / hybrid (Pyzel Phantom / Sharp Eye HT 2.5 / Lost Driver 3.0);建議浮力 GF 0.38-0.44;在地店家:Summerpoint 民宿+衝浪教學、阿水衝浪俱樂部、阿飛衝浪店 (兼營);特色 reef break + 砂岩底,鵝鑾鼻北方港口灣,2024 ASC 亞洲衝浪聯盟巡迴賽舉辦地。(5) 南灣 (墾丁,sand beach break,夏天 4-10 月 swell 季無力浪):夏季 0.5-1.5m mush 浪;適合板型 wide groveler 5'8\"-6'0\" (CI Average Joe / Firewire Sweet Potato / Tomo Vader) + 軟頂 7'0\"-8'0\" 度假兼學習;建議浮力 +5L (高 GF 0.46-0.55);在地店家:Tribe 1173 好浪部落、阿飛衝浪店、阿郎墾丁衝浪;特色 600m 長海灘,墾丁國家公園代表景點,適合度假衝浪+初學。(6) 東澳粉鳥林 (宜蘭蘇澳,reef break,東北季風大浪 + 秋冬颱風):秋冬 1-2.5m / 颱風 2-4m+;適合板型 HPSB 6'0\"-6'4\" + step-up 6'2\"-6'8\" 大浪季,小浪季 hybrid 5'10\"-6'0\";建議浮力 GF 0.36-0.42 (reef 浪有 push);在地店家:無正式衝浪店但浪人多透過蘇澳鎮的 SUP / 衝浪業者接駁;特色 reef 多隱藏 currents,危險級別高,需 reef break 經驗者,非初學浪點。",
+    "進口_訂製": "進口管道:(a) JR Surf 強尼玫瑰 (Lost 總代,外澳店);(b) VAST Surf Shop (Firewire / Pyzel 代);(c) Concrete Surf (CI 代);(d) Hooked Surf Shop (Haydenshapes / Album);(e) Nanazero (混合代理);(f) Beachaccess Surf (混合);本土訂製:Saltywave (蘇澳)、蕃薯衝浪訂製、Switchfoot Surf (中角)、阿水 (佳樂水)、Wave Maker;訂製週期 6-12 週,費用 NTD 18,000-28,000 比進口低 30-40%;Reef break 用板建議買進口 HD-EPS 構造耐摔。",
+    "中文社群迷思": "(1) '台灣浪都很爛不用認真選板' — 實際各浪點差異大,quiver 規劃可顯著提升 wave-count;(2) '只有金樽 / 粉鳥林才算有浪' — 烏石夏天小浪也是 grom 與初中階訓練黃金;(3) '南灣只能租板學' — 進階騎手在 swell 季可享受 mush 浪 hybrid 樂趣;(4) '佳樂水 / 粉鳥林危險不能去' — 中階以上配合在地嚮導完全可玩;(5) '中角小浪不適合短板' — groveler 設計專門為這種浪;(6) 'PTT Surf 板已死/沒人' — 雖然 PTT 活躍度下降,但精華區與舊文獻仍是台灣衝浪知識重要 archive;近年 IG / FB 社團 / Threads 為主要討論平台。",
+    "在地教練建議": "(1) JR Surf 強尼玫瑰 (烏石 / 外澳):初學軟頂 + Lost 系列現貨,北部首選之一;(2) VAST Surf Shop (烏石 / 台北):Firewire / Pyzel 為主,完整 size chart 與台灣化建議;(3) 蕃薯衝浪 (烏石):六位 ISA 教練,初學起步推薦;(4) 浪人台東 / 金樽衝浪小屋:點 break 與 mid-length 嘗試的東部基地;(5) Switchfoot Surf 衝浪福利社 (中角):北海岸新中心;(6) Summerpoint / 阿水 (佳樂水):reef break 在地嚮導;(7) Tribe 1173 / 阿飛 (墾丁):南部度假衝浪;(8) Decathlon Olaian (全台):初學裝備經濟首選;Concrete Surf / Hooked Surf Shop (台北):進口高階 quiver 第一站。"
+  },
+  "uncertain": [
+    "Nose_Rocker",
+    "Tail_Rocker",
+    "Wide_Point_Position",
+    "Nose_Width_at_12_inch",
+    "Tail_Width_at_12_inch",
+    "Stab_in_the_Dark"
+  ]
+}

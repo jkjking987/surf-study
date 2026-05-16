@@ -1,0 +1,20 @@
+{
+  "name": "surf-study",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "build:standalone": "node scripts/build-standalone.mjs",
+    "preview": "astro preview",
+    "serve": "node scripts/serve.mjs",
+    "astro": "astro",
+    "convert": "node scripts/json-to-content.mjs"
+  },
+  "dependencies": {
+    "@astrojs/cloudflare": "^11.2.0",
+    "@astrojs/db": "^0.14.3",
+    "astro": "^4.16.0"
+  }
+}

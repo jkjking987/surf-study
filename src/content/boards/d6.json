@@ -1,0 +1,102 @@
+{
+  "id": "D6",
+  "basic_info": {
+    "名稱": "DHD (Darren Handley Designs) 小浪系列(Phoenix / Phoenix Flight / Sweet Spot 3.0/4.0 / Black Diamond / MF DNA / EE DNA)",
+    "分類": "品牌板款",
+    "適用程度": "全程度(Phoenix Flight 與 Black Diamond 對初學至進階皆友善;Sweet Spot 3.0/4.0 偏中至進階;EE DNA / Juliette 為 pro-spec)",
+    "一句話定位": "Darren Handley 為 Mick Fanning / Ethan Ewing / Kolohe Andino 打造的 PU/EPS 高性能小浪 quiver"
+  },
+  "buoyancy_strategy": {
+    "Guild_Factor_GF": "Phoenix / Phoenix Flight:GF 0.42-0.48(grovel friendly);Black Diamond:GF 0.40-0.45(true one-board quiver);Sweet Spot 3.0/4.0:GF 0.36-0.40(HPSB hybrid + step-up 範疇);MF DNA:GF 0.36-0.38(daily HPSB);EE DNA / Juliette:GF 0.34-0.36(pro-spec)。DHD 自家計算器在 Boardcave 與 RealSurf 評測中被視為「中性偏準」,推算結果通常符合實際取板。",
+    "浮力公式": "Phoenix Flight:體重(kg) × 0.44-0.48 = 浮力(L)。70kg × 0.46 = 32L,對應 5'10\" × 20.5\" × 2.625\" = 34L 為「比日常 HPSB 大 4L」。Black Diamond:體重(kg) × 0.42-0.46。Sweet Spot 3.0/4.0:體重(kg) × 0.36-0.40,75kg × 0.39 = 29.25L,對應 6'0\" × 19.125\" × 2.4375\" = 29L。MF DNA / EE DNA:體重(kg) × 0.34-0.38,標準 HPSB 邏輯。",
+    "相對日常板浮力增量": "Phoenix Flight:相對 HPSB +20-30%(典型 grovel hybrid 增量);Black Diamond:+15-25%(one-board quiver 中性增量);Sweet Spot 3.0/4.0:0% 至 +5%(本質為 daily HPSB 加少量浮力);MF DNA / EE DNA:0%(pure HPSB 邏輯)。",
+    "浮力範圍_體重對照": "Phoenix Flight:60kg → 5'7\"-5'8\" 27-30L;70kg → 5'9\"-5'10\" 32-34L;80kg → 5'11\"-6'0\" 35-38L;90kg+ → 6'2\"+ 40L+。Sweet Spot 4.0 6'0\" 為 29L(指定 75-80kg 騎手);Sweet Spot 系列至 6'10\" 用於大體重 / 大浪 step-up。Black Diamond:同 Phoenix Flight 但浮力略低 1-2L。",
+    "小浪修正係數": "Phoenix Flight 與 Black Diamond 為 hybrid HPSB-grovel,建議在計算結果上 +2-3L 補償小浪。Sweet Spot 系列為 step-up + daily HPSB,小浪不為主用,但若用於 chest-high 浪 +1-2L。",
+    "BMI_體脂修正": "高 BMI 肌肉型:Phoenix Flight 與 Black Diamond 可採區間下緣;Sweet Spot 3.0/4.0 較適合此類玩家(可駕馭較少浮力)。高 BMI 脂肪型:Phoenix Flight 取較大尺寸 +2L;Black Diamond 更友善。低 BMI 偏瘦型:Phoenix Flight 中性,+1-2L 即可。",
+    "年齡_體能修正": "年齡 >40:Phoenix Flight 與 Black Diamond 為首選(paddle 容易);Sweet Spot 3.0/4.0 對 50 歲以上玩家可加 +3-5L(尺寸往上 1 階)。MF DNA / EE DNA 對體能下降玩家較不友善(pro-spec)。",
+    "品牌計算器差異": "DHD 計算器在 Boardcave / Sanbah / Surfection 等經銷商整合 size guide 中被視為「中性偏準」,推算結果落在 ±1L 範圍。優於 Lost(偏低)、CI(偏低)。DHD 旗下 pro models(EE DNA、Juliette、MF DNA)的 size 通常需要 +1-2L 才符合一般玩家體能(因為 pro 模板偏小)。資料來源:Boardcave size guide、DHD 官網。",
+    "亞洲體型修正": "亞洲身材取 Phoenix Flight 可選 5'7\"-5'9\";Black Diamond 5'8\"-5'10\";Sweet Spot 3.0/4.0 取 5'10\"-6'0\";容積整體可較歐美建議 -2 至 -3L。Mick Fanning(70kg)的 MF Phoenix 騎 5'8\" 約 27L 可作參考。"
+  },
+  "shape_details": {
+    "Length 板長": "Phoenix Flight:5'5\" - 6'4\"(DHD 官網 size chart)。建議比日常 HPSB 縮短 3\"-4\"(資料來源:Boards in the Bay)。Phoenix(原版,2020 發表):5'5\" 27L - 6'4\" 44L。Sweet Spot 3.0/4.0:5'8\" - 6'10\"。Black Diamond:約 5'8\" - 6'6\"。MF DNA / EE DNA:5'8\" - 6'4\" 標準 HPSB 範圍。",
+    "Width 板寬": "Phoenix Flight 5'10\":20.5\"(中性偏寬);Phoenix Flight 5'8\":20\"。Sweet Spot 4.0 6'0\":19.125\"(較窄,HPSB 標準)。Black Diamond:中性 19.5\"-20.5\"。MF DNA / EE DNA:HPSB 標準 18.5\"-19.5\"。",
+    "Thickness 板厚": "Phoenix Flight 5'10\":2.625\";Phoenix Flight 5'8\":2.5\"。Sweet Spot 4.0 6'0\":2.4375\"(較薄,HPSB 邏輯)。Black Diamond:約 2.5\"-2.75\"。MF DNA / EE DNA:HPSB 標準 2.375\"-2.5\"。",
+    "Nose_Rocker": "Phoenix Flight:低(more lift and refinement to the nose outline,但整體仍為 small wave board);Black Diamond:medium to low entry rocker;Sweet Spot 4.0:more nose rocker(較 3.0 略增,用於更陡浪);MF DNA / EE DNA:standard HPSB nose rocker。[uncertain] 廠商未公開具體 nose rocker 吋數。",
+    "Tail_Rocker": "Phoenix Flight:略增於原 Phoenix(refined tail);Black Diamond:中(round pin 提供 hold);Sweet Spot 4.0:more tail rocker(較 3.0 增加);MF DNA / EE DNA:standard HPSB tail rocker。[uncertain] 廠商未公開具體 tail rocker 吋數。",
+    "Entry_Rocker": "Phoenix Flight:dropped entry rocker(資料來源:DHD 官網。讓 BD/Phoenix Flight paddle 容易、前腳 drive 強);Black Diamond:類似 dropped entry rocker;Sweet Spot 4.0:更 progressive entry rocker;MF DNA / EE DNA:standard HPSB。",
+    "Wide_Point_Position": "Phoenix Flight:widest point brought forward(資料來源:DHD 官網 Black Diamond 與 Phoenix Flight 共通哲學)。增加 nose area + 改善 paddle。Sweet Spot 4.0:wide point 略前移(HPSB 中性)。EE DNA:wide point 在中心(squash tail 或 round tail 版本均有)。",
+    "Nose_Width_at_12_inch": "Phoenix Flight 5'10\":約 12.5\"-13\"(寬鼻設計);Black Diamond:約 12.5\";Sweet Spot 4.0 6'0\":約 12\"(HPSB 中性);MF DNA / EE DNA:約 11.5\"-12\"(HPSB 標準)。[uncertain] 廠商 spec sheet 未細列。",
+    "Tail_Width_at_12_inch": "Phoenix Flight 5'10\":約 15.5\"-16\";Black Diamond:約 15.5\";Sweet Spot 4.0 6'0\":約 14.5\"-15\"(HPSB 標準);MF DNA / EE DNA:約 14.5\"(HPSB 標準)。[uncertain] 廠商 spec sheet 未細列。",
+    "Bottom_Contour 板底設計": "Phoenix Flight:shallow single-to-double concave between fins(資料來源:DHD 官網);Black Diamond:single-to-double concave flowing into Vee out the tail(資料來源:DHD 官網);Sweet Spot 3.0:single to double concave;Sweet Spot 4.0:slight single to longer double concave;MF DNA:single concave(資料來源:DHD 官網)。",
+    "Tail_Shape 板尾形狀": "Phoenix Flight:squash tail(資料來源:Boards in the Bay / Boardcave);Phoenix(原版):wide thumb tail;Black Diamond:round pin(資料來源:DHD 官網,提供 hold + smoothness);MF Phoenix:soft thumb tail;Sweet Spot 4.0:squash 或 round 兩版本;EE DNA:squash 或 round tail 兩版本。",
+    "Rail_Profile": "Phoenix Flight:medium low rails(資料來源:Boards in the Bay);Black Diamond:中等 rail volume(平衡 paddle 與 carve);Sweet Spot 4.0:more roll in deck for lower rail(資料來源:DHD 官網);MF DNA / EE DNA:standard HPSB rail(medium-thin)。",
+    "Rail_Volume_Distribution": "Phoenix Flight:中段集中 + nose 區增量;Black Diamond:中段集中,平衡分布;Sweet Spot 4.0:HPSB 中性分布;EE DNA:HPSB 中性分布。",
+    "Foam_Distribution": "Phoenix Flight:foam 集中胸下到鼻部(easy paddle, weight forward);MF Phoenix:'the majority of its volume comes from the fuller wider nose'(資料來源:Boards in the Bay);Black Diamond:中性集中;Sweet Spot 4.0:HPSB 中性分布。",
+    "Outline 輪廓曲線": "Phoenix Flight:curvy outline with refined tail(pulled-in tail);Phoenix(原版):wider 全段;Black Diamond:中性 outline with rounded nose;Sweet Spot 4.0:HPSB 標準 curvy outline;MF DNA:HPSB 標準。"
+  },
+  "fin_setup": {
+    "主要_Setup": "Phoenix Flight:tri-quad fin configuration(資料來源:DHD 官網,「可作 thruster、quad、甚至 twin」);Black Diamond:quad 或 thruster(資料來源:DHD 官網);Sweet Spot 3.0/4.0:thruster(預設);MF DNA:thruster;EE DNA:thruster(Ethan Ewing 官方 fin 為 Futures Ethan Ewing Signature M)。",
+    "Fin_Cant": "Phoenix Flight 配 thruster 時推薦 5°-6°(中性);改 quad 時較 loose。EE DNA / MF DNA 為 pro-spec,推薦 standard 5° drive-oriented cant。[uncertain] 廠商未公開具體 cant 角度。",
+    "Fin_Toe": "EE DNA / MF DNA / Sweet Spot 採典型 drive-oriented 1/16\"-3/32\";Phoenix Flight 採中性。[uncertain] 廠商未公開。",
+    "Fin_Foil": "Phoenix Flight 推薦 inside foil side fins(thruster);Black Diamond 推薦 inside foil(quad / thruster 皆可);EE DNA 推薦 Ethan Ewing Signature Futures fin(inside foil + medium rake)。",
+    "Fin_Rake_Sweep": "Phoenix Flight 推薦 medium rake(平衡 small wave 加速與 carve hold);EE DNA:Ethan Ewing Signature fin 為 medium rake;Sweet Spot 4.0 推薦 medium-large rake(因為較大浪 step-up)。",
+    "Fin_Area_Template": "Phoenix Flight:medium area(Futures John John Florence Medium 或 FCS II Performer Medium);Black Diamond:medium area(平衡 paddle 與 release);Sweet Spot 4.0:medium-large area(因 step-up 哲學);EE DNA / MF DNA:medium area(Futures Ethan Ewing Signature M、Mick Fanning Signature)。",
+    "Quad_Rear_Position": "Phoenix Flight 若改 quad,後 fin 靠 rail 1/4\"-1/2\"(維持中性 release);Black Diamond 改 quad 採 standard quad rear。[uncertain] DHD 官網未公開具體 quad rear distance。",
+    "2plus1_vs_PureTwin": "Phoenix Flight 的 tri-quad 配置可變 thruster / quad / twin,但 DHD 哲學偏好 thruster + quad 為主。MF DNA / EE DNA 為 thruster only,不適合改 twin。Black Diamond 可作 quad 或 thruster,DHD 不推薦改 twin。"
+  },
+  "construction": {
+    "PU_PE 在小浪": "DHD 旗下主要為 PU/PE 構造(澳洲 surfboard 傳統)。PU 版在 Sweet Spot 4.0 等 step-up 板上提供經典 dampening、可預測 carve、knifey rail feel。DHD 為 Ethan Ewing 比賽板採用 PU(資料來源:Surfer.com 對 Ethan 2025 CT 板評測)。",
+    "EPS_Epoxy 在小浪": "DHD 有 EPS 版本(如 Phoenix EPS、Phoenix Flight EPS、EE DNA EPS),適合小浪追求輕量與 acceleration。EPS Phoenix 在 NZ Surf Journal 測試中獲評為「more lively + faster in small waves」。Phoenix Flight EPS 為 DHD 官方推出的小浪 EPS 版本。",
+    "HD_EPS": "DHD 未推出自家 HD EPS 技術(不同於 Firewire Helium 或 Haydenshapes FutureFlex)。EPS 版本為標準 EPS + epoxy laminate。",
+    "Glassing_Schedule": "DHD 標準 glassing:6 × 4x4(資料來源:DHD 官網 Sweet Spot 3.0/4.0 spec),被標示為「Glassed Strong」(平衡耐用與性能)。輕量版可選 4+4/6,旅行用 6+6/6。DHD 旗下 Pro Series(EE DNA、Juliette、MF DNA)glassing 偏輕量(競賽用)。",
+    "新技術": "DHD 與 Haydenshapes / Firewire 不同,DHD 不使用 carbon parabolic frame 或 basalt 等特殊技術,而以傳統 PU/EPS + 高品質 hand-shape 為品牌核心。DHD 旗下 3DV 技術(less prominent)為較新嘗試。資料來源:DHD 官網 / Boardcave。"
+  },
+  "conditions_fit": {
+    "浪高範圍": "Phoenix Flight:1-3ft 為主,可至 head-high(資料來源:DHD 官網);Phoenix(原版):1-4ft;Black Diamond:1-6ft+(true one-board quiver);Sweet Spot 3.0/4.0:3-10ft(step-up);MF Phoenix:1-3ft;MF DNA:3-6ft;EE DNA:2-4ft;Juliette:2-6ft。",
+    "浪質": "Phoenix Flight:軟浪 + 飽滿小浪為主;Black Diamond:全範圍 forgiving;Sweet Spot 3.0/4.0:中至大浪 punchy 浪 / 空心浪;MF DNA:quality waves;EE DNA:多範圍 forgiving HPSB。",
+    "浪型": "Phoenix Flight:beach break 為主,point break 軟段適合;Black Diamond:beach break + point break;Sweet Spot 3.0/4.0:beach break、point break、reef break(step-up 範疇);MF DNA:point break 為主(snapper rocks blood);EE DNA:beach break + point break。",
+    "不適合場景": "Phoenix Flight:overhead+ 陡浪;Black Diamond:overhead+ 大浪(round pin 雖有 hold 但不專為大浪);Sweet Spot 3.0/4.0:純小 mush(會 stuck);MF DNA / EE DNA:純小 mush(HPSB 在 1ft 軟浪無法 generate 速度)。"
+  },
+  "performance": {
+    "划水容易度": "Phoenix Flight:極佳(widest point forward + dropped entry rocker + nose area increase);Black Diamond:極佳(same paddle philosophy);Sweet Spot 3.0/4.0:中至高(daily HPSB 級);MF DNA:中(pro-spec);EE DNA:中(pro-spec)。",
+    "起乘速度": "Phoenix Flight:極快(grovel hybrid 設計核心);Black Diamond:快;Sweet Spot 3.0/4.0:中(因為較中性 rocker);MF DNA / EE DNA:中(HPSB 標準)。",
+    "Glide 平面速度": "Phoenix Flight:高(flat rocker + shallow concave);Black Diamond:高(medium-low entry rocker);Sweet Spot 3.0/4.0:中(較曲 rocker);MF DNA / EE DNA:中(HPSB 標準)。[uncertain] 具體 km/h 量測在 Noel Salas 等影片需個別查證。",
+    "Pump 效率": "Phoenix Flight:極高(shallow concave + 寬尾);Black Diamond:高;Sweet Spot 4.0:中至高(longer double concave 補強);MF DNA / EE DNA:中(HPSB 標準 pump 效率)。",
+    "轉向靈活度": "Phoenix Flight:高(pulled-in tail + thinner profile 比 Phoenix 原版更敏捷);Black Diamond:中至高(round pin 提供 hold 但 swing weight 較 Phoenix Flight 高);Sweet Spot 4.0:高(HPSB 級 turn);EE DNA:極高(pro-spec turn);MF DNA:極高(Mick Fanning Wrap 設計核心)。",
+    "Vertical 能力": "Phoenix Flight:中至高(pulled-in tail 提供 vertical 能力);Black Diamond:中(round pin 偏 carve);Sweet Spot 4.0:高(step-up 級 vertical);EE DNA / MF DNA:極高(pro-spec)。",
+    "空中動作能力": "Phoenix Flight:中(可作 air,EPS 版 air pop 較 PU 版佳);Black Diamond:低至中(round pin 在 air 上不是最佳);Sweet Spot 4.0:中(HPSB 級 air);EE DNA / MF DNA:高(pro 級)。",
+    "Backside_vs_Frontside": "Phoenix Flight:frontside / backside 平衡(pulled-in tail 補強 backside);Black Diamond:平衡(round pin 在 backside 與 frontside 均有良好 hold);Sweet Spot 4.0:HPSB 平衡;EE DNA / MF DNA:平衡。Ethan Ewing 以 backside carve 著稱,EE DNA 為 backside 而最佳化。"
+  },
+  "practical_selection": {
+    "代表板款": "(1) Phoenix Flight:5'10\" × 20.5\" × 2.625\" = 34L、5'8\" × 20\" × 2.5\" = 31L,Darren Handley 設計小浪 weapon;(2) Black Diamond:5'8\"-6'6\" 範圍,DHD true all-rounder,Darren Handley 親自定位為「真正的 one-board quiver」;(3) Sweet Spot 3.0:5'8\"-6'10\",HPSB step-up;(4) Sweet Spot 4.0:6'0\" × 19.125\" × 2.4375\" = 29L,4.0 較 3.0 增加 nose / tail rocker;(5) MF Phoenix:Mick Fanning 復出小浪板,wide thumb tail;(6) EE DNA(squash / round):Ethan Ewing daily comp board。",
+    "常見錯誤": "(1) 把 Sweet Spot 3.0/4.0 當小浪板用(實際為 step-up + daily HPSB,在 1-2ft 軟浪會 stuck);(2) 跟風 Ethan Ewing 騎 EE DNA(EE 體能與技術非常規,一般玩家應選 Phoenix Flight 或 Black Diamond);(3) 把 Black Diamond 取太大尺寸(round pin 取大 = swing weight 重 + 失去 carve 精準);(4) Phoenix Flight 配 large area fin(寬尾 + large area = 過 stuck);(5) MF DNA 在 2ft 軟浪 → 完全 mismatch 浪況;(6) DHD PU 版在台灣濕熱環境 glassing 太薄會 yellow + fragile,建議選 6+4/6 以上。",
+    "升級陷阱": "(1) 從 longboard 直接跳 EE DNA 或 Juliette 5'10\" → 失敗;(2) 跟風 Mick Fanning 騎 MF DNA(60kg 體重 + pro 體能,一般玩家 75kg+ 駕馭不來);(3) 把 Sweet Spot 3.0 當小浪板因為「DHD 出的 = pro 認可」→ Sweet Spot 為 step-up,不專為小浪;(4) 為了「練 air」買 Phoenix Flight EPS,沒有先掌握 HPSB → 應從 Black Diamond 較 forgiving 版本起步。",
+    "搭配_fin 建議": "(1) Phoenix Flight:Futures John John Florence Medium、FCS II Performer PC Medium、Futures AM2;(2) Black Diamond:FCS II Performer PC Medium、Futures AM1;(3) Sweet Spot 3.0/4.0:Futures Mick Fanning Signature、FCS II MF Tri,medium-large area;(4) MF DNA:Futures Mick Fanning Signature(品牌官方推薦);(5) EE DNA:Futures Ethan Ewing Signature M(品牌官方推薦,medium rake)。資料來源:Futures Fins 官網、DHD 官方 fin 推薦。",
+    "二手板評估": "(1) DHD PU 板 stringer 變形是致命傷;(2) 注意 deck 凹陷(腳印區深於 3mm = 失去 paddle 力);(3) DHD 旗下 Pro Series glassing 輕量,二手 dings 機率高;(4) Phoenix Flight EPS 版本與 PU 版本耐用度不同,EPS 版需特別檢查 stringerless 結構是否仍有 spring back;(5) 尾部 30cm 內 ding 為 release 致命傷。",
+    "Quiver 規劃": "DHD 系列建議搭配:(1) Phoenix Flight 為小浪 daily(1-3ft)+ (2) Sweet Spot 3.0/4.0 為大浪 daily(3-6ft)+ (3) Juliette / MF DNA 為比賽 / 大浪。或者:Black Diamond 一塊涵蓋 1-6ft 為 one-board quiver。Mick Fanning quiver:MF Phoenix(小)+ MF DNA(中)+ MF Eclipse(大)。Ethan Ewing 比賽 quiver:EE DNA(squash 與 round)+ Juliette。",
+    "預算建議": "新訂製(海外或澳洲):AUD 950-1300(USD 600-850)。台灣經銷(Sanbah / Boards in the Bay 等海外含稅運):NT$30,000-42,000。本土經銷:NT$28,000-40,000。二手保留性:DHD 在台灣較 Firewire / Haydenshapes 普及度低,二手保值約 60-70%。Pro Series(EE DNA / MF DNA)二手保留性較高(收藏需求)。"
+  },
+  "pro_reference": {
+    "Stab_in_the_Dark": "Kolohe Andino Stab in the Dark 2024 冠軍板為 DHD 設計(Darren Handley 為 Kolohe 設計的客製化板)。資料來源:Stab Magazine。DHD 在 Stab in the Dark 多次測試中為高評板款。[uncertain] Stab in the Dark 2025 winner 詳情在 paywall。",
+    "WSL_CT 選手選擇": "(1) Ethan Ewing:DHD 為其主力品牌,2023 Bells 冠軍板為 Juliette 系列,2025 CT 期間使用 EE DNA(squash / round)、Juliette。資料來源:Surfer.com 對 Ethan 2025 CT 板評測;(2) Mick Fanning:三屆世界冠軍,DHD 旗下 MF DNA 為其代表;(3) Kolohe Andino:DHD 客製;(4) 部分歷史 DHD 騎手包括 Mark Occhilupo、Joel Parkinson(早期)。",
+    "Free_surf 風格參考": "(1) Mick Fanning:retired but Mick 騎 MF Phoenix、MF DNA、MF Eclipse free surf;(2) Ethan Ewing:DHD Pro Series 為其代表(但 Ethan 較少 free surf 影片);(3) Owen Wright(歷史):部分 free surf 使用 DHD。資料來源:DHD 官網 Pro Series 頁。"
+  },
+  "local_taiwan_context": {
+    "浪點適配": "(1) 中角夏季 1-3ft 軟浪:Phoenix Flight 為 DHD 系列首選;(2) 烏石港:Black Diamond 一塊涵蓋 1-5ft;(3) 金樽較陡浪:Sweet Spot 4.0 或 Phoenix Flight EPS;(4) 佳樂水:Phoenix Flight 與 Black Diamond 均適配 beach break;(5) 南灣:Phoenix Flight 為主(Black Diamond 在 1-2ft 軟浪可能 stuck);(6) 東澳粉鳥林夏季西南風小浪:Phoenix Flight EPS 為首選。",
+    "進口_訂製": "DHD 在台灣主要管道:VAST(經銷,部分庫存)、Boards in the Bay 等澳洲直購(含稅運 NT$30,000-42,000)、Sanbah Australia 直購、Surfection 等。DHD 不在台灣設有完整 dealer 網,客製需透過澳洲直訂(custom order 約 12-16 週)。本土 shaper 可訂製類似 Phoenix Flight 設計。",
+    "中文社群迷思": "(1)「DHD 只是 Mick Fanning 板」→ 錯;DHD 旗下有 Phoenix Flight / Black Diamond / Sweet Spot 等多元 lineup,Ethan Ewing 為當代 CT 主力代言;(2)「Phoenix 與 Phoenix Flight 一樣」→ 錯;Flight 為 2024-2025 evolved 版,tail pulled-in、refined nose、thinner profile;(3)「DHD 沒有 EPS」→ 錯;Phoenix EPS、Phoenix Flight EPS 已推出;(4)「Sweet Spot 是小浪板」→ 錯,為 step-up + daily HPSB;(5)「DHD = PU only」→ 錯;EPS 版本已上市但較不普及。",
+    "在地教練建議": "(1) VAST(台北 / 宜蘭):較少推 DHD(更常推 Firewire / Haydenshapes);(2) Boards in the Bay / Sanbah(澳洲直購管道):台灣玩家常透過此路線購買 DHD;(3) JR Surf(墾丁):較少推 DHD;(4) Hooked(宜蘭):較少推 DHD;(5) Decathlon Olaian 線:無 DHD。DHD 在台灣普及度低於 Firewire / Haydenshapes,但 Ethan Ewing 在 WSL 表現後台灣社群關注度上升。[uncertain] 各家具體推薦表單會隨季節 / 庫存變動。"
+  },
+  "uncertain": [
+    "Nose_Rocker",
+    "Tail_Rocker",
+    "Nose_Width_at_12_inch",
+    "Tail_Width_at_12_inch",
+    "Fin_Cant",
+    "Fin_Toe",
+    "Quad_Rear_Position",
+    "Glide 平面速度",
+    "Stab_in_the_Dark",
+    "在地教練建議"
+  ]
+}

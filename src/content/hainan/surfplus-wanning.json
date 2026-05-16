@@ -1,0 +1,106 @@
+{
+  "id": "surfplus_wanning",
+  "basic_info": {
+    "name": "Surfplus Surf School / 冲浪家社区·SURFPLUS 冲浪学校 (Riyue Bay Branch)",
+    "location": "No. 1 Nanhai Fishing Village, Riyue Bay, Liji Town, Wanning City, Hainan Province, China (海南省萬寧市禮紀鎮日月灣南海漁村1號)",
+    "operator": "Surfplus / 冲浪家 - independent surf-community brand co-founded by a group of surf enthusiasts; operates the on-site Surfplus surf school + Surfplus Beach Bar coffee/bar concept; community-driven 'surf + beach lifestyle' model",
+    "opening_date": "N/A (natural-ocean surf school established in the Riyue Bay surf community circa 2018-2020) [uncertain]",
+    "status": "operating",
+    "category": "surf_school"
+  },
+  "technical_specs": {
+    "wave_technology_brand": "N/A (natural ocean surf school using Riyue Bay's beach break and point break)",
+    "pool_size": "N/A - operates in the open ocean at Riyue Bay (~5-7 km of surfable coastline shared with 50+ other clubs)",
+    "wave_height": "Seasonal average 0.6-2.0 m at Riyue Bay; winter peaks (Oct-Mar) regularly produce 1.5-2 m sets, summer/monsoon waves typically 0.5-1.2 m",
+    "wave_height_adjustability": "Not adjustable (natural ocean swell)",
+    "wave_types": "Mix of beach break (sandbar at Beachie / Nanhai Fishing Village frontage for beginner classes) and adjacent left-hand point break (Main Point / Ghost Hotel for intermediate-advanced students)",
+    "waves_per_hour": "N/A (natural ocean)",
+    "wave_count_per_set": "N/A (natural ocean sets, typically 3-6 waves per set with 8-15 second intervals)",
+    "session_length": "120 minutes per class session (covers ~30 min land theory + ~90 min water training); group sessions can extend with bundled multi-session packages",
+    "stance_rotation_schedule": "N/A (natural ocean - no daily rotation; left-hand point break works frontside for Goofy, backside for Regular)",
+    "wave_type_classification": "Beach break (primary teaching zone) plus point break (for progression); suits soft-top funboards for beginners, longboards / shortboards for intermediates"
+  },
+  "pricing_sessions": {
+    "price_range": "Group beginner class 420 RMB per person (3-person class, 2 hours); 1-on-2 (couple/friends) and 1-on-1 private classes available - pricing typically 600-1,000+ RMB per person depending on tier",
+    "session_skill_tiers": "Beginner 3-person group: 420 RMB / 2 hr (includes 30 min theory + 90 min water practice); 1-on-2 progression class: 2 sessions x 120 min in one day, includes equipment, photography, ISA 1-star assessment and certification fee [uncertain on exact RMB]; 1-on-1 private class pricing on request",
+    "equipment_rental": "Surfboard, rashguard / wetsuit (冲浪服), leash, sunscreen mud (防曬泥) and freshwater shower / locker included in lesson fees; standalone board rental ~80-150 RMB/session, soft-top day rental ~150-250 RMB [uncertain]",
+    "coaching_fee": "Group coaching included in 420 RMB beginner package; 1-on-2 progression coaching ~580-780 RMB per person [uncertain]; 1-on-1 private coaching ~800-1,200 RMB per session [uncertain]",
+    "coaching_packages": "Multi-session progression bundles linked to ISA 1-star and 2-star certification; complete package includes equipment, photography, video and certification; multi-day surf camps available on request [uncertain on packages structure]",
+    "membership_program": "No publicly listed annual or 10-pack membership card; multi-session discounts handled on request via WeChat customer service [uncertain]",
+    "corporate_team_building": "Yes - club accepts team-building events and group bookings; can host beach BBQ + surf intro packages combined with the on-site Surfplus Beach Bar; minimum group size and pricing case by case [uncertain]"
+  },
+  "experience_guide": {
+    "best_season": "October to March (NE monsoon swell season at Riyue Bay) for intermediate and advanced students; Apr-Sep gentler conditions ideal for total beginners and kids",
+    "best_swell_window": "October-March: NE swells 0.8-2.5 m, period 7-12 s, offshore NW winds; secondary typhoon swells possible August-September",
+    "crowd_level": "Beginner classes can fill quickly during Spring Festival, May Day, National Day and weekend holidays; weekday mornings and shoulder months (May, Sep) are quietest; lineup at Riyue Bay generally crowded at Main Point in winter",
+    "booking_method": "Direct booking via WeChat (官方微信), Dianping (大眾點評), Meituan (美團), Ctrip (攜程), Qunar (去哪兒); walk-in possible at the Nanhai Fishing Village shopfront subject to coach availability",
+    "booking_platform": "Dianping (大眾點評), Meituan (美團), Ctrip / Trip.com (攜程), Qunar (去哪兒), Xiaohongshu (小紅書), WeChat mini-program / official account, Instagram @surfplus.china",
+    "payment_options": "WeChat Pay and Alipay (default); cash accepted; international credit cards generally not accepted at the small-shop level",
+    "skill_required": "All levels - dedicated zero-base Beginner curriculum (theory + balance + paddling + pop-up); intermediate progression to green-wave shoulders; advanced 1-on-1 coaching for point-break technique",
+    "age_eligibility": "Typically 8-60 years for adult classes; kids' classes available for ages 6-12 with soft-top boards; participants must be able to swim 50 m comfortably [uncertain on exact lower age limit]",
+    "child_friendly_score": "3 out of 5 - kids' soft-tops and patient coaches available, beachfront cafe lets parents wait comfortably, but no dedicated kids' enclosed pool and no minimum-height waiver; better suited to age 8+",
+    "sup_paddleboard_offering": "Not listed as a primary Surfplus offering; SUP rentals available from neighboring Riyue Bay clubs and shops [uncertain]",
+    "photography_video_service": "Photography and video included in the 1-on-2 progression package; standalone photo/video add-on typically 100-300 RMB; complimentary on-site photos for some private bookings",
+    "language_support": "Mandarin Chinese primary; some English support from younger coaches and the cafe staff (school's social presence includes an English-language Instagram @surfplus.china); not as foreigner-oriented as Surfway Hainan",
+    "accessibility_for_disabled": "No publicly listed adaptive surfing program; beach access is sandy with no boardwalks [uncertain]",
+    "stance_preference_input": "Not required when booking (natural ocean - stance assessed during land theory and adjusted during water session)",
+    "safety_notes": "Coaches drawn from the Riyue Bay surf community; mandatory pre-session safety briefing; lifeguards on the main beach during posted hours; surf insurance recommended; reschedule must be made >24 h in advance, <24 h is non-refundable",
+    "events_competitions_calendar": "Surfplus is a community-style school not a competition organizer, but hosts internal Surfplus surf jams, beach parties at Surfplus Beach Bar, and ISA 1-star / 2-star assessment days; students often participate in National Surfing Championships and the Wanning WSL Corona Cero Pro QS held at Riyue Bay each Dec [uncertain on internal jam schedule]"
+  },
+  "surroundings": {
+    "nearby_accommodation": "Riyue Bay surf-village guesthouses (民宿) 200-500 RMB/night; Sweetome Surf Hotel, Forest Inn Riyue Bay Surf Branch ~400-900 RMB; mid-range resort 600-1,500 RMB; SURFLAND on-resort hotels Yue Chao 越潮 + Yu Yue 御越 from 780 RMB; Le Meridien Shimei Bay 1,000-3,000 RMB",
+    "on_site_accommodation": "Surfplus does not directly operate hotel rooms; the Nanhai Fishing Village location is co-located with various small surf guesthouses and apartments. Surfplus Beach Bar (cafe / bar / restaurant on the same premises) provides on-site dining and lounging for guests [uncertain on integrated lodging]",
+    "nearby_food": "Surfplus Beach Bar on-site (cafe / bar serving coffee, light meals, beachside drinks - rated on Ctrip food channel); Riyue Bay surf village cafes (GROM Music Bar, Surf House Cafe), Hainanese seafood restaurants, BBQ stalls, Wenchang chicken; per-person spend 50-150 RMB",
+    "transport": "Self-drive via Hainan East Ring Expressway G98; high-speed train to Shenzhou Station (~10 km / 15 min taxi) or Wanning Station (~30 km); Didi / taxi widely available; free local Riyue Bay electric shuttle 8:00-18:00",
+    "transport_to_nearest_airport": "~1.5 hours / ~110 km drive from Sanya Phoenix International Airport (SYX); ~3 hours / ~190 km from Haikou Meilan International Airport (HAK); high-speed rail to Shenzhou Station ~15 minutes from the bay",
+    "combined_itinerary": "Surfplus AM lesson + Riyue Bay free surf + Surfplus Beach Bar coffee/sunset + Shenzhou Peninsula resort visit + Xinglong Tropical Botanical Garden + Shimei Bay; complementary to SURFLAND PerfectSwell pool at Riyue Bay (combine pool + ocean for a learn-to-surf weekend)"
+  },
+  "reviews_reputation": {
+    "pros": [
+      "Long-established Wanning surf-community brand with strong local cred at Riyue Bay's Nanhai Fishing Village",
+      "Combined surf school + Surfplus Beach Bar creates a relaxed 'surf + lifestyle' hangout with food/drink between sessions",
+      "Affordable group-class pricing (420 RMB / 2 hr) compared to artificial-pool alternatives like SURFLAND",
+      "Includes equipment, wetsuit, photography, sunscreen, freshwater shower and ISA 1-star certification in package pricing",
+      "Active social media community (Instagram, WeChat, Xiaohongshu) and Ctrip rating around 4.7/5 from 23+ reviews"
+    ],
+    "cons": [
+      "Limited English support compared to foreigner-oriented schools like Surfway Hainan or Hang5",
+      "No dedicated kids' enclosed pool and no formal accessibility program",
+      "Wave conditions depend entirely on natural ocean - flat days and crowded lineups in peak winter season",
+      "Cancellation policy is strict (>24 h reschedule required, <24 h non-refundable)",
+      "Less polished operations and less brand-partnership backing than the new China Tourism Group / SURFLAND ecosystem next door"
+    ],
+    "user_reviews": "Ctrip rating ~4.7/5 from 23+ reviews praising patient coaches, photography service and the integrated cafe-bar atmosphere; Xiaohongshu and Dianping reviewers describe Surfplus as a 'community-style' school with good vibe and reasonable prices; some criticism around scheduling flexibility and English support [uncertain]",
+    "recommended_for": "Domestic surf travelers (including Mandarin-speaking foreign residents); first-time surfers wanting a relaxed community vibe; couples and small friend groups; those who want surf + beachside cafe / bar in one stop; intermediate surfers progressing to ISA 1-star / 2-star certification",
+    "operator_brand_partnership": "Independent local Wanning surf-community brand; operates in parallel and complementary to the SURFLAND PerfectSwell resort (which opened Nov 2025); part of the broader Riyue Bay 'Tianxin Village / Nanhai Fishing Village' surf cluster of 50+ clubs; not formally affiliated with China Tourism Group or American Wave Machines"
+  },
+  "verification": {
+    "existence_verified": "true",
+    "verification_sources": [
+      "https://gs.ctrip.com/html5/you/sight/wanning846/130258924.html (Ctrip listing for 万宁冲浪家社区·surfplus冲浪学校)",
+      "https://m.dahepiao.com/jingqu/cljcljlbrywddz/ (Dahepiao listing with Surfplus address, hours, description)",
+      "https://you.ctrip.com/food/846/129935233.html (Ctrip food listing for SURFPLUS BEACH BAR Wanning)",
+      "https://www.instagram.com/surfplus.china/ (Surfplus China official Instagram @surfplus.china)",
+      "https://www.tropicalhainan.com/surfing_hainan_sun_and_moon_bay/ (Riyue Bay surf scene context)",
+      "https://en.hainan.gov.cn/englishsite/Leisure/202507/58eb4438bc70494c9420cb739154c3ae.shtml (Hainan official article on Wanning surf paradise)",
+      "https://zhuanlan.zhihu.com/p/29600179 (Riyue Bay surf guide on Zhihu)",
+      "https://zhuanlan.zhihu.com/p/617339364 (Hainan surf overview including Wanning club ecosystem)"
+    ],
+    "last_updated": "2026-05-15"
+  },
+  "uncertain": [
+    "opening_date",
+    "session_skill_tiers",
+    "equipment_rental",
+    "coaching_fee",
+    "coaching_packages",
+    "membership_program",
+    "corporate_team_building",
+    "age_eligibility",
+    "sup_paddleboard_offering",
+    "accessibility_for_disabled",
+    "events_competitions_calendar",
+    "on_site_accommodation",
+    "user_reviews"
+  ]
+}

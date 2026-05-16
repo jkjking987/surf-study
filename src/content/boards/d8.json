@@ -1,0 +1,103 @@
+{
+  "id": "D8",
+  "basic_info": {
+    "名稱": "Album / Sharp Eye 小浪系列 (Album Twinsman / Insanity / Apex Twin / Disasym;Sharp Eye Modern 2 / Modern 2.5 / #77 / HT2.5 / Storms)",
+    "分類": "品牌板款 — California 工藝派 (Album, Matt Parker) + Brazilian 高性能派 (Sharp Eye, Marcio Zouvi) 的小浪/Alt 系列",
+    "適用程度": "中階至進階 (Album Twinsman / Modern 2 / Insanity 中階友善;#77 / HT2.5 為進階)",
+    "一句話定位": "兩派小浪哲學:Album 用 retro 元素混 modern 性能;Sharp Eye 用 CT 級高性能配方 down-size 到小浪"
+  },
+  "buoyancy_strategy": {
+    "Guild_Factor_GF": "Album 系列 (Twinsman / Insanity / Apex Twin) 建議 GF 0.40-0.46 (groveler 取向);Sharp Eye Modern 2 / Modern 2.5 約 GF 0.38-0.42 (alt/performance hybrid);Sharp Eye #77 / HT2.5 為 HPSB,GF 0.34-0.38。70kg 騎手 Twinsman 取 32-34L、Modern 2 取 30-32L、#77 取 26-27L。",
+    "浮力公式": "Album Twinsman / Insanity: 體重(kg) × 0.43-0.46 = L;Album Disasym (混合型): × 0.40-0.43 = L;Sharp Eye Modern 2: × 0.40-0.42 = L;Sharp Eye HT2.5 / #77: × 0.36-0.38 = L。",
+    "相對日常板浮力增量": "Album Twinsman / Insanity 相對 HPSB +15%~+25%;Album Apex Twin 因 Asher Pacey 風格更 free-flowing 約 +10%~+20%;Sharp Eye Modern 2 約 +10%~+15%;Sharp Eye #77 / HT2.5 約 -5%~+5% (近 HPSB);Disasym 因混 quad+twin 約 +15%。",
+    "浮力範圍_體重對照": "50kg: Twinsman ~24L / Modern 2 ~22L / #77 ~19L。60kg: Twinsman ~27-29L / Modern 2 ~25-26L / #77 ~22-23L。70kg: Twinsman ~32-34L (5'8-5'10 標準) / Modern 2 ~30-32L (5'10) / #77 ~26-27L。80kg: Twinsman ~36-38L (6'0+) / Modern 2 ~34-36L (6'0 = 35.8L E3 Lite) / #77 ~30-32L。90kg+: Twinsman ~40-43L (custom 6'2+) / Modern 2 ~38-40L / #77 ~33-35L (custom)。",
+    "小浪修正係數": "Album Twinsman / Insanity 已是 small-wave grovel 設計,GF 已內含 +3L 修正,不需再加;Modern 2 / Modern 2.5 仍建議 +2~3L (alt 性能板偏 medium 浪);#77 / HT2.5 在 1-3ft 浪建議 +3~5L (它本來是飽滿浪取向)。[uncertain]",
+    "BMI_體脂修正": "肌肉型大體重者:Sharp Eye #77 / HT2.5 thin rail 反而能咬住浪壁,不需大增浮力;脂肪型重量者:選 Twinsman / Insanity 額外 +3-5L 並增寬。Modern 2 寬厚度足夠應付一般體型,不需特別修正。",
+    "年齡_體能修正": ">40 歲或心肺下降:Album 線優於 Sharp Eye HP 線。Twinsman / Insanity 因 relaxed entry rocker + foam-under-chest 設計,paddle threshold 低、起乘輕鬆,正面友善;Sharp Eye Modern 2 是中庸選擇;#77 / HT2.5 高體能板款,40+ 不建議。",
+    "品牌計算器差異": "Album 官網無內建計算器,需透過 dealer (Cleanline / Boardcave) 推薦;Boardcave Album Twinsman 推薦通常較準。Sharp Eye 官網 size chart 偏 Pro 取向 (參考 Toledo 5'10×18.4×2.32×25.4L 為 67kg pro 樣本) ,一般騎手建議 +2~3L 取板。E3 Lite 構造 (EPS) 比 PU 高 +3-4% 感覺,選板可 -1L。",
+    "亞洲體型修正": "亞洲 65-70kg 騎手 Twinsman 取 5'8-5'10 範圍 (32-34L) 即可;Modern 2 取 5'8-5'10 (29-31L);#77 取 5'8-5'9 (24-25L)。比 stock chart 對應的歐美體重 -3~5kg 取板。"
+  },
+  "shape_details": {
+    "Length 板長": "Album Twinsman 主流 5'7\"-6'2\" (Asher Pacey 簽名;標準減短 -3\"~-5\" vs HPSB);Album Insanity 5'2\"-6'5\" (Josh Kerr 設計, HPSB 變體 -1\"~-3\");Album Apex Twin 5'8\"-6'4\" (大 twin template, larger 取向);Album Disasym 5'6\"-6'2\" (混合 asym, -2\"~-4\");Sharp Eye Modern 2 5'4\"-6'4\" (alt 取向 -1\"~-3\");Sharp Eye #77 / HT2.5 5'6\"-6'4\" (HPSB 同尺寸)。",
+    "Width 板寬": "Album Twinsman 19.75\"-20.5\" (5'8=19.75\", 6'0=20.5\");Album Insanity 19 3/8\"-20\" (5'10=19.375\", 6'2=19.875\");Album Apex Twin 19.5\"-20.75\";Album Disasym 19.5\"-20.5\";Sharp Eye Modern 2 19.25\"-20.5\" (5'4=19.25\", 6'0=20.5\");Sharp Eye #77 18.0\"-19.0\" (Toledo 5'10=18.4\");Sharp Eye HT2.5 18.25\"-19.25\"。",
+    "Thickness 板厚": "Album Twinsman 2 3/8\"-2 1/2\" (5'8=2.375, 6'0=2.5\");Album Insanity 2 7/16\"-2 9/16\" (5'9=2.5, 6'2=2.5625\");Album Apex Twin 2.5\"-2.625\";Sharp Eye Modern 2 2.37\"-2.68\" (5'4=2.37, 6'0=2.68\");Sharp Eye #77 2.25\"-2.5\" (Toledo 5'10=2.32\");Sharp Eye HT2.5 2.3\"-2.5\"。",
+    "Nose_Rocker": "Album Twinsman ~4.25-4.5\" (relaxed entry rocker for paddle ease);Album Insanity ~4.5-4.75\" (low entry rocker + retro beak nose);Sharp Eye Modern 2 ~4.5-4.75\" (a bit of entry rocker, full nose);Sharp Eye #77 ~5.25-5.5\" (full entry rocker for steep punchy);Sharp Eye HT2.5 ~5.0-5.25\"。[uncertain]",
+    "Tail_Rocker": "Album Twinsman ~2.25-2.5\" (低,利於 trim);Album Insanity ~2.5-2.625\" (modern exit rocker);Sharp Eye Modern 2 ~2.5-2.625\" (a bit of tail rocker for pocket);Sharp Eye #77 ~2.75-3.0\" (HP exit rocker);Sharp Eye HT2.5 ~2.6-2.75\"。[uncertain]",
+    "Entry_Rocker": "Album 系列普遍走 relaxed/flat entry rocker — Twinsman、Insanity、Apex Twin 都標榜 low entry rocker + foam under chest 讓 paddle threshold 極低;Sharp Eye Modern 2 entry rocker 較 Album 略多 (描述為 'a bit of entry rocker' + 'full rails');Sharp Eye #77 / HT2.5 entry rocker 明顯更陡 (full entry rocker),適合 steep punchy 浪但小浪起乘較慢。",
+    "Wide_Point_Position": "Album Twinsman wide point 中心或中心前 ~1\";Album Insanity wide point 中心 (retro beak nose 把寬度往前推);Sharp Eye Modern 2 wide point 略前 (wide outline);Sharp Eye #77 / HT2.5 wide point 在中心或中心後 ~0.5-1\" (HPSB 標準)。[uncertain]",
+    "Nose_Width_at_12_inch": "Album Twinsman ~12-12.5\" (modern twin, 比 retro fish 窄);Album Insanity ~11.75-12\" (HPSB-ish);Sharp Eye Modern 2 ~12.5-13\" (ample width up front);Sharp Eye #77 ~11.0-11.5\" (HPSB pulled nose);Sharp Eye HT2.5 ~11.5-12\"。[uncertain]",
+    "Tail_Width_at_12_inch": "Album Twinsman ~15.5-16\" (pulled-in tail with 12\" wing for pivot);Album Insanity ~14.5-15\";Sharp Eye Modern 2 ~15.5-16\" (tucked-in fish tail);Sharp Eye #77 ~14.25-14.75\" (HPSB pulled);Sharp Eye HT2.5 ~14.5-15\" (with channel)。[uncertain]",
+    "Bottom_Contour 板底設計": "Album Twinsman: single concave under chest 過渡到 spiral V out of tail;Album Insanity: deep single concave 前段 → slight double through fins → spiral vee off tail (Josh Kerr collab 招牌);Album Disasym: deep single concave + 不對稱 rail line;Sharp Eye Modern 2: single-to-deep-double concave (招牌);Sharp Eye #77: deep single concave run 鼻到尾, deepest 點在 fin 間;Sharp Eye HT2.5: single concave + 一道 channel 在 rear fin 後 (增加 speed / bite / drive)。",
+    "Tail_Shape 板尾形狀": "Album Twinsman: pulled-in tail 加 12\" 處 wing (MR 風 pivot);Album Insanity: round / squash;Album Apex Twin: 大 twin template tail;Album Disasym: 不對稱 (toe 邊長 + heel 邊短);Sharp Eye Modern 2: tucked-in fish tail / swallow;Sharp Eye #77: squash (HPSB);Sharp Eye HT2.5: swallow。小浪 swallow / wing-squash 利於釋放尾段水流、loose 感增加。",
+    "Rail_Profile": "Album Twinsman: thin rail + boxy 中段 (foam pushed to perimeter);Album Insanity: modern rails (中段 boxy → 尾段 down rail);Sharp Eye Modern 2: full rails for forgiveness;Sharp Eye #77: sensitive low rails for maximum control + bite;Sharp Eye HT2.5: medium rail 求平衡。",
+    "Rail_Volume_Distribution": "Album 系列 (尤其 Twinsman) 強調 foam pushed to perimeter — rail volume 均勻分布 → paddle 好但 carve 更敏感;Sharp Eye Modern 2 rail volume 集中中段提供漂浮;Sharp Eye #77 / HT2.5 rail volume 集中中段偏胸下,尾段非常薄以求 carve 敏感度。",
+    "Foam_Distribution": "Album Twinsman / Insanity: 胸下集中型 (foam under chest) — paddle 像夢 + weight forward bias 利於 trim;Album Apex Twin: 均勻型;Sharp Eye Modern 2: 偏均勻 (loaded with volume for great paddling);Sharp Eye #77: 集中於胸下中段,尾段刀刃化;Sharp Eye HT2.5: 中段 + 尾段並重 (channel 增加尾段 hold)。",
+    "Outline 輪廓曲線": "Album Twinsman: MR-inspired pulled nose + pulled tail with 12\" wing (curvy but pivoty);Album Insanity: retro beak nose + modern HPSB outline;Sharp Eye Modern 2: wide outline + bump squash 變體;Sharp Eye #77: HPSB curvy outline + pulled nose/tail;Sharp Eye HT2.5: HPSB + bump squash (Storms 也用)。"
+  },
+  "fin_setup": {
+    "主要_Setup": "Album Twinsman: twin (futures FAM-2 / Asher Pacey signature);Album Insanity: thruster (HPSB 取向);Album Apex Twin: pure twin (大 template);Album Disasym: 不對稱 — toe 邊 twin、heel 邊 quad (futures custom);Sharp Eye Modern 2: 3-fin (可 thruster 也可 twin + small trailer);Sharp Eye #77: thruster (Toledo 偶用 quad);Sharp Eye HT2.5: thruster。",
+    "Fin_Cant": "Album Twinsman 推薦 keel-ish twin 約 5-6°;Album Apex twin 約 6-7° (looseness);Sharp Eye Modern 2 thruster 配 4-5° cant;Sharp Eye #77 配 6.5° cant (CI Upright 或 AM2);Sharp Eye HT2.5 同 #77。",
+    "Fin_Toe": "Album twin 系列 (Twinsman / Apex) 約 1/8\" toe;Album Insanity (thruster) 約 3/32-1/8\";Sharp Eye 系列 thruster 約 1/8\" toe (標準)。[uncertain 確切數值]",
+    "Fin_Foil": "Album Twinsman 用 Pacey 簽名 keel-twin (inside foil hold 提供 drive);Sharp Eye Modern 2 / #77 推薦 inside foil side + 50-50 trailer (FCS II Sharp Eye Tri Fin Set 設計);HT2.5 同。",
+    "Fin_Rake_Sweep": "Album Twinsman 用 Pacey keel-derived 中等 rake;Sharp Eye #77 / HT2.5 推薦 upright fin (less rake) → 加速快、turn 緊湊。FCS II Sharp Eye Tri Fin 為 upright template。",
+    "Fin_Area_Template": "Album Twinsman 推薦 large twin (Futures Pacey AP2 / Captain Fin Twin);Album Insanity 推薦 M2 / AM2 中型 area;Sharp Eye 系列推薦 FCS II Sharp Eye Tri Fin (M area, upright) — Marcio Zouvi 親自設計與 Filipe Toledo 測試;Sharp Eye #77 大浪也可用 L area。",
+    "Quad_Rear_Position": "Album Disasym heel 側 quad,rear fin 靠 rail 約 1/2\" (looseness 取向);Sharp Eye #77 quad 變體 rear 約 1/4-3/8\" 靠 rail。[uncertain]",
+    "2plus1_vs_PureTwin": "Album Twinsman 一般 pure twin (Pacey 風格);若加 nubster trailer 可 backhand 多 hold (Empire Ave 評論建議);Sharp Eye Modern 2 三 fin box 設計上可走 thruster 也可 twin + trailer (官網明確標示),flexibility 高為其賣點。"
+  },
+  "construction": {
+    "PU_PE 在小浪": "Album 主力是 PU/PE — Twinsman / Insanity / Disasym 標準 PU 構造帶來 knifey rail feel、可預測的 carve、入水穩;Sharp Eye 標準 PU 構造的 Modern 2 / #77 / HT2.5 同樣是 CT 選手主流選擇。PU 在 6'0\"+ 小浪板上能維持 momentum 不會過 skittish。",
+    "EPS_Epoxy 在小浪": "Album 可訂 EPS/Epoxy 構造,小浪時更輕快、pump 效率高、可做 air,但 chatter 感增加;Sharp Eye 提供 E3 Lite (EPS + epoxy) 構造 — 例 Modern 2 E3 Lite 6'0=35.8L,Filipe Toledo 練習板常用 E3 Lite 構造取輕量。同浮力數值下 EPS 感覺更高 +3-4%。",
+    "HD_EPS": "Sharp Eye E3 Lite 為其招牌 HD-EPS 系統 (類似 Lost Lightspeed II / Firewire Helium 概念) — 比 PU 輕、比一般 EPS 耐用,介於 PU 與一般 EPS 之間,Marcio Zouvi 視為 Toledo / Igarashi 自由衝浪首選。Album 對應的 HD-EPS 較少行銷,大多透過 customer 訂製。[uncertain Album HD-EPS 命名]",
+    "Glassing_Schedule": "Album / Sharp Eye 標準 PU 採 4+4 / 4 lightweight 或 6+4 / 4 standard;小浪板款 (Twinsman / Modern 2) 中階騎手建議 6+4 / 4 平衡耐用與感覺;CT 板級 (#77 / HT2.5) Pro Toledo 級用 4+4 / 4 light;E3 Lite EPS 構造已內含 carbon parabolic / glass 強化,通常 ~6+4 / 6 等效強度,適合中階長時間使用。",
+    "新技術": "Sharp Eye E3 Lite (HD-EPS + epoxy + 強化骨架) 是 Marcio Zouvi 近年招牌新技術,號稱 'lighter, livelier, longer-lasting';Album 主要透過 Dark Arts Surf (carbon-wrapped premium PU/EPS) 提供高階構造選項。Album Plasmid 等 mid-length 也有 EPS 版本。"
+  },
+  "conditions_fit": {
+    "浪高範圍": "Album Twinsman / Insanity: 1-5ft (sweet spot 2-4ft);Album Apex Twin: 1.5-5ft;Album Disasym: 2-6ft;Sharp Eye Modern 2: 1-5ft (sweet spot 2-5ft, Insanity 評為 3ft+ 即可);Sharp Eye #77: 3-8ft (good punchy waves);Sharp Eye HT2.5: 1-5ft (everyday-conditions HP 取向)。",
+    "浪質": "Album 系列偏好軟浪 / 飽滿浪 / 中等捲度;Sharp Eye Modern 2 兼容軟浪到中等空心;Sharp Eye #77 / HT2.5 需要 punchy 浪壁 (空心+飽滿) 才會發揮,軟浪表現不如 Modern 2。",
+    "浪型": "Album Twinsman / Insanity 適合 beach break (大部分小浪場景) + point break (long open face 利 trim);Sharp Eye Modern 2 同樣 beach + point 通吃;Sharp Eye #77 / HT2.5 在 point / reef break 高質量浪壁表現最佳 (Toledo Trestles / J-Bay 為樣本)。",
+    "不適合場景": "Album Twinsman / Apex Twin 不適合 8ft+ 大浪或空心管浪 (twin 控制力下降);Album Insanity 雖宣稱可到 8-9ft 但實際 6ft+ 開始失去優勢;Sharp Eye #77 / HT2.5 不適合 < 2ft 軟浪 (paddle in 困難);Sharp Eye Modern 2 不適合 6ft+ 飽滿浪 (rail 太 full)。"
+  },
+  "performance": {
+    "划水容易度": "Album Twinsman / Insanity paddle 像夢 (foam under chest + relaxed entry rocker) — 1ft 軟浪也可起;Album Apex Twin paddle 略次於 Twinsman 但仍佳;Sharp Eye Modern 2 paddle 良好 (loaded with volume);Sharp Eye #77 / HT2.5 paddle 需要 minimum 3ft 浪、要求技術。",
+    "起乘速度": "Album 系列 (Twinsman / Insanity) take-off 反應極快;Sharp Eye Modern 2 中等偏快;Sharp Eye #77 / HT2.5 需要主動 paddle 配合浪型,起乘較晚但精準。",
+    "Glide 平面速度": "Album Twinsman down-the-line speed 驚人 (twin + spiral V 釋放 + low entry rocker 直線輸出);Album Insanity 平面速度也佳 (Josh Kerr 強調 spiral vee 滑速);Sharp Eye Modern 2 single-to-double 提供強勁直線速度 ('extremely fast down the line' — 官網語);Sharp Eye #77 號稱 Filipe Toledo 喻為 'the fastest board I've ever ridden';Sharp Eye HT2.5 在 #77 基礎上加 channel 進一步增速。",
+    "Pump 效率": "Album Twinsman pump 效率極佳 (twin 直線 + 輕量);Album Insanity pump 中上;Album Apex Twin 因 larger template 略遜;Sharp Eye Modern 2 pump 效率高 (single-to-double 釋放);Sharp Eye #77 / HT2.5 需要力道帶動但 pro 級 pump 反應靈敏。",
+    "轉向靈活度": "Album Twinsman 12\" wing 設計提供 pivot 點 → tight pocket 表現驚艷 (Cleanline 評論);Album Insanity HPSB-ish 轉向靈活;Album Disasym heel 邊 quad 加 toe 邊 twin → 兩面感覺都優化;Sharp Eye Modern 2 tucked-in fish tail + bump squash 變體增加轉向緊湊度;Sharp Eye #77 vertical snap 表現驚人但 turn arc 大;Sharp Eye HT2.5 因 channel 帶來 'very tight arc with an engaged back foot' (BLINK SURF 評論)。",
+    "Vertical 能力": "Album Twinsman 可 vertical snap 但 twin 本質傾向 carving;Album Insanity vertical 能力佳 (HPSB 變體);Sharp Eye Modern 2 vertical 能力比 Album 系列強;Sharp Eye #77 / HT2.5 是 vertical 王者 (Toledo air-reverse 級表現)。",
+    "空中動作能力": "Album Twinsman air 不是強項但可做 small frontside air;Album Insanity / Apex Twin air 表現中上;Sharp Eye Modern 2 air-ready (Igarashi-style);Sharp Eye #77 air-reverse 為 Toledo signature;Sharp Eye HT2.5 因 channel 略增穩定度,落地稍穩。",
+    "Backside_vs_Frontside": "Album Twinsman pure twin 在 backhand 略缺 hold (建議加 nubster trailer);Album Disasym 設計就是解決此問題 (heel 邊 quad 給 backside hold);Sharp Eye 三 fin 系列兩面平衡;Modern 2 可彈性切換 thruster (backside 更 hold) 或 twin (frontside drive)。"
+  },
+  "practical_selection": {
+    "代表板款": "Album: (1) Twinsman 5'7\"-6'2\" (Asher Pacey signature, MR-modern twin) — 小浪頭號 grovel-killer;(2) Insanity 5'9\"-6'2\" (Josh Kerr collab, HPSB-grovel hybrid) — 3ft 起到 8ft+ 通吃;(3) Apex Twin 5'8\"-6'4\" (large twin template) — Pacey/Kerr style 自由衝浪;(4) Disasym 5'8\"-6'2\" (asymmetrical twin + quad) — solver of frontside vs backside dilemma。Sharp Eye: (1) Modern 2 / Modern 2.5 5'4\"-6'4\" — 'fun + alt performance' summer quiver 必備;(2) #77 5'8\"-6'4\" — Toledo signature HPSB 'fastest board ever';(3) HT2.5 5'6\"-6'4\" — #77 速度加 channel drive;(4) Storms (Kanoa Igarashi pro) 5'8\"-6'2\" — 小浪 performance bump squash。",
+    "常見錯誤": "(1) 把 Album Twinsman 當純魚板買 → 結果 8ft 浪要拿才驚覺它 still has rocker 不適合大浪;(2) Sharp Eye #77 跳級 — 70kg 中階騎手照 Filipe Toledo 5'10×25.4L 取板,結果 paddle 不上小浪;(3) 把 Sharp Eye Modern 2 配厚 rail PU 又選 high volume → 失去 'fun + alt' 風味反而像 longboard 笨重;(4) Album Disasym 不對稱配 stock 對稱 thruster fin → 失去 design intent;(5) Sharp Eye HT2.5 在 < 3ft 軟浪用 — 它 entry rocker 偏多 paddle 起不來。",
+    "升級陷阱": "新手直接照 Filipe Toledo / Kanoa Igarashi pro 板尺取 Sharp Eye 為最常見陷阱 (差 5-10L 浮力);Album 系列陷阱在於 Twinsman 並非真正 retro fish — 它仍有 modern rocker,用 keel fish 心態買會失望;Apex Twin 比 Twinsman 大 template,中階騎手要先試 Twinsman 再判斷是否需要 Apex。",
+    "搭配_fin 建議": "Album Twinsman: Futures Pacey AP2 (signature) 或 Captain Fin Larry Mabile twin、True Ames Greenough G-AM;Album Insanity: Futures AM2 或 FCS II Performer (thruster);Album Apex Twin: 大 template twin 如 Futures Pivot Twin、Album Twin Apex Carbon (NVS 出);Album Disasym: 隨板附 Futures Disasym custom set,勿換對稱對;Sharp Eye 全系列: FCS II Sharp Eye Tri Fin Set (Marcio 親設計 + Toledo 測試) 為標準配;Sharp Eye Modern 2 二 fin 變體用 FCS II Large Twin + nubster。",
+    "二手板評估": "Album / Sharp Eye 二手在台灣中文圈相對少見 (進口品)。檢查 (1) deck 胸下凹陷 (重壓) — Album foam-under-chest 設計反而易凹;(2) rail ding — Sharp Eye thin rail 修復後易影響感覺;(3) fin box 鬆動 — 高性能 thruster 板 fin box 是命脈;(4) E3 Lite 構造的 Sharp Eye 比 PU 耐 ding 但內部 EPS 進水後較難救。",
+    "Quiver 規劃": "兩塊組合建議 — Album Twinsman 5'10\" (32-34L for 70kg) 主打 1-4ft + Sharp Eye #77 或 HT2.5 5'10\" (26-28L) 主打 3-6ft = 完整覆蓋台灣常見浪況;三塊組合 — 加一塊 Sharp Eye Modern 2.5 6'0\" 當 2-5ft 'do everything' middle ground;旅行 quiver — Album Insanity (do-it-all HPSB-grovel) + Sharp Eye #77 (大浪) 兩塊覆蓋。",
+    "預算建議": "Album custom PU 新訂約 USD 1,000-1,200 (Twinsman / Insanity stock 約 USD 950-1,100);Album custom 透過 Dark Arts Surf carbon 構造可達 USD 1,500+;Sharp Eye PU stock 約 USD 850-1,000;Sharp Eye E3 Lite 約 USD 1,000-1,250;台灣進口加運費約 +20-30%。二手良品大約原價 60-70%。預算有限可從 Sharp Eye Storms / Modern 2 PU 二手入手;預算寬鬆 Album Twinsman 訂製 + Sharp Eye E3 Lite 二板組合約 NTD 80,000-100,000。"
+  },
+  "pro_reference": {
+    "Stab_in_the_Dark": "Album 過去多次參與 Stab Joyride / Electric Acid Surfboard Test 系列 — Album Disasym 曾參與 Stab Electric Acid Surfboard Test (Longtom 試用報告 2020 即收錄,2024 再版討論);Sharp Eye #77 為 2017 Stab in the Dark 系列討論的 reference 板款之一 (Toledo Worldwide CT 標準);2023-2025 Stab in the Dark 結果中與 Sharp Eye #77 / HT2.5 / Disco Inferno 相關性高 (Toledo / Igarashi 為核心試騎手)。Album 在 2024-2025 自由衝浪派 Joyride 累積評價持續上升。[uncertain 2025 確切排名]",
+    "WSL_CT 選手選擇": "Sharp Eye: Filipe Toledo (#77 / HT2.5 招牌) — 2022/2023 雙料世界冠軍;Kanoa Igarashi (Storms / Disco Inferno 招牌) — 多年 CT 主力;Jack Robinson (HT 系列) — 2025 CT 強競爭者。Album: Josh Kerr (Insanity collab) 已退役但仍是 R&D 核心;Asher Pacey (Twinsman collab) — 雖非 CT 但 free-surf 影響力大。",
+    "Free_surf 風格參考": "Album 為自由衝浪派精神標誌 — Asher Pacey (Twinsman / Apex Twin), Josh Kerr (Insanity), Trevor Gordon, Tosh Tudor 等;Sharp Eye 較偏 CT 性能取向但 Igarashi 的 Stab in the Dark Joyride 自由衝浪測試影片廣傳。"
+  },
+  "local_taiwan_context": {
+    "浪點適配": "Album Twinsman / Insanity 在中角、烏石 (春秋季 1-3ft 軟浪) 為 grovel 首選;Album Disasym 適合金樽、佳樂水 (左右兩面浪、frontside/backside 都需 hold);Sharp Eye Modern 2 / 2.5 是南灣 / 蜜月灣 1-4ft 軟到中等浪的 alt 性能優選;Sharp Eye #77 / HT2.5 在金樽 punchy 季節 (秋冬颱風 swell 3-6ft) 與東澳粉鳥林 reef break 表現最佳;台灣多數浪點全年小浪占比高,Album 系列使用率會高於 Sharp Eye HP 線。",
+    "進口_訂製": "Album / Sharp Eye 在台灣為純進口 — 主要管道:Hooked Surf Shop、JR Surf、Surfin' Life、VAST、線上 Boardcave 國際運;進口加運費約 +20-30%。少數本土 shaper (如 Saltywave Surfboards) 可仿單訂製 Twinsman 風格 hybrid,成本約 NTD 28,000-35,000 (相比進口 NTD 50,000+) 更彈性但構造與 Album/Sharp Eye 不同。",
+    "中文社群迷思": "(1) 'Sharp Eye = Filipe Toledo 等級才能用' — 實際上 Modern 2 / Modern 2.5 / Storms 都是友善小浪板款,不是只有 #77;(2) 'Album = 復古魚板' — 實際 Album 全線是 modern hybrid,Twinsman 也有現代 rocker,不是純 retro keel fish;(3) PTT/FB 社團常把 Album Twinsman 跟 CI Fishbeard / Lost Puddle Jumper 並列為 'twin 魚板' 但其實 Twinsman 更接近 modern performance twin。",
+    "在地教練建議": "Hooked Surf Shop (台北) 多為 Album / Sharp Eye 國內代理;JR Surf (宜蘭烏石) 常推薦 Album Twinsman 給中階學員;VAST (台中) 偶有 Sharp Eye Modern 2 試騎;Decathlon 不販售此級別。台灣教練普遍認為 Album Twinsman 是 65-75kg 中階騎手 'first non-soft-top non-shortboard' 升級首選。[uncertain 確切代理商]"
+  },
+  "uncertain": [
+    "小浪修正係數",
+    "Nose_Rocker",
+    "Tail_Rocker",
+    "Wide_Point_Position",
+    "Nose_Width_at_12_inch",
+    "Tail_Width_at_12_inch",
+    "Fin_Toe",
+    "Quad_Rear_Position",
+    "HD_EPS",
+    "Stab_in_the_Dark",
+    "在地教練建議"
+  ]
+}

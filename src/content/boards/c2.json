@@ -1,0 +1,96 @@
+{
+  "id": "C2",
+  "basic_info": {
+    "名稱": "Hybrid Shortboard",
+    "分類": "板型分類",
+    "適用程度": "中階至進階(也適合進階初學者作為「一塊式 quiver」)",
+    "一句話定位": "短板手感 + 浮力增加:HPSB 與 groveler 的折衷,真正的「one-board quiver」"
+  },
+  "buoyancy_strategy": {
+    "Guild_Factor_GF": "建議 GF 0.38-0.42。介於 HPSB(0.34-0.36)與經典 groveler(0.42-0.46)之間。Hayden Cox 對 Hypto Krypto 的官方建議:「進階騎手 -1 至 -2 吋於日常 HPSB,新手 +2 吋」;對應 GF 區間正落在 0.38-0.42。資料來源:Haydenshapes 官方 size chart、Boardcave reviews、Stoked For Travel 板評。",
+    "浮力公式": "體重(kg) × 0.38-0.42 = 浮力(L)。70kg 騎手 × 0.40 = 28L,對應 Hypto Krypto 5'8\" × 20 × 2.5 = 31L(略高於計算,因 Hypto 走略大尺寸方向);80kg 騎手 × 0.40 = 32L,對應 Hypto 6'0\" × 20.5 × 2.75 = 36.56L 略大。JS Monsta Box 較中性,計算結果取板偏 -1L。",
+    "相對日常板浮力增量": "相對於 HPSB 增加 +10% 至 +20%。例:日常 HPSB 28L → hybrid 30.8-33.6L。比經典 groveler(+20-30%)節制,以保留 HPSB 手感。Sharpeye Modern 2 設計哲學:「flat entry + boxy rail 提供額外 paddle,但仍維持 HPSB 級的 rail-to-rail 速度」即此區間典型。",
+    "浮力範圍_體重對照": "50kg:19-22L;60kg:23-26L;70kg:27-30L;80kg:31-34L;90kg+:35-40L。對照 Hypto Krypto:5'4\" = 26.2L 給 55-60kg;5'8\" = 31L 給 65-72kg;5'10\" = 33.79L 給 72-78kg;6'0\" = 36.56L 給 78-85kg。JS Monsta Box 同尺寸略低 1-2L。",
+    "小浪修正係數": "+2 至 +4L(介於 HPSB 的 +3L 與經典 groveler 的 +5L 之間)。Hypto Krypto 設計時已內建小浪修正(寬 outline + 低 rocker),故額外修正可較保守。",
+    "BMI_體脂修正": "高 BMI 肌肉型:可採區間下緣;高 BMI 脂肪型:採區間中位數 +1-2L;低 BMI 偏瘦型:採區間中位數。hybrid 的浮力分布偏均勻,對體型差異的修正空間比 groveler 大。",
+    "年齡_體能修正": "年齡 >40 或心肺體能下降:加 +2-3L(較通用 +5-10% 為保守)。hybrid 本身已比 HPSB 多 +10-20%,故無需再大幅增量。50 歲以上玩家直接採區間上緣即可。",
+    "品牌計算器差異": "Haydenshapes(Hypto Krypto)計算器較準,建議直接採用(他們建議「進階 -1 至 -2 吋於 HPSB」是務實值)。JS Industries(Monsta Box)計算器偏保守,實際取板可略小。Sharpeye(Modern 2)計算器較準。Pyzel(Phantom 屬於偏 groveler)與 Slater Designs(FRK Plus 屬於偏 HPSB)分別代表 hybrid 的兩端。CI(Happy Everyday、Mid 6)計算器偏低,需 +1L。",
+    "亞洲體型修正": "亞洲身材偏小(較歐美 -5 至 -10kg 同身高),hybrid 可採 -1 至 -2L(較經典 groveler -2 至 -3L 保守)。原因:hybrid 浮力增量本來就有限,若再減太多會失去 hybrid 的「extra paddle」優勢。"
+  },
+  "shape_details": {
+    "Length 板長": "5'6\" - 6'4\"(較日常 HPSB 縮短 1\"-3\",較經典 groveler 略長)。Hayden Cox 建議 Hypto Krypto:進階 -1 至 -2 吋於 HPSB,新手 +2 吋。代表板款:Hypto Krypto 5'4\"-6'10\";JS Monsta Box 5'6\"-6'6\";Sharpeye Modern 2 5'6\"-6'4\";Slater Designs FRK Plus 5'6\"-6'4\"。",
+    "Width 板寬": "19.5\" - 21.5\"(介於 HPSB 的 18.5-19.5 與 groveler 的 19.5-21 之間)。Hypto Krypto:5'8\" = 20\";5'10\" = 20.25\";6'0\" = 20.5\";6'6\" = 21.5\"。JS Monsta Box 同尺寸略窄 0.25\"。Modern 2 較窄,5'10\" 約 19.75\"。",
+    "Thickness 板厚": "2.5\" - 3.0\"。Hypto Krypto:5'6\" = 2.375\";5'10\" = 2.625\";6'0\" = 2.75\";6'6\" = 3.0\"。JS Monsta Box 較薄,5'10\" 約 2.5\"。Hybrid 通常比 HPSB 厚 0.125-0.25\"。",
+    "Nose_Rocker": "約 4.5\" - 5.0\"。介於 HPSB(5.0-5.5\")與 groveler(4.0-4.5\")之間。Hypto Krypto 描述為「pretty flat rocker with a slight flick in the nose」,即此區間典型。JS Monsta Box 描述為「medium to low entry rocker」。",
+    "Tail_Rocker": "約 2.3\" - 2.7\"。介於 HPSB(2.5-3.0\")與 groveler(2.0-2.5\")之間。Hypto Krypto 在尾段透過「double V」設計補償 tail rocker 不足造成的 stick feeling。",
+    "Entry_Rocker": "中度連續(中庸)。比 HPSB 平、比 groveler 略多,設計目標是「paddle 容易但陡浪仍可 stop」。Hypto Krypto、Modern 2 都採此邏輯。落實:5'10\" Hypto Krypto 前段 12\" 處離地約 2.5-2.8\"(較 HPSB 平 0.2-0.3\")。[uncertain] 具體量測需查 shaper 公開數據。",
+    "Wide_Point_Position": "wide point 接近中心或中心前 0.5-1\"(較 HPSB 略前移,較 groveler 略後)。Hypto Krypto 為典型中心 wide point 設計;Modern 2 略前移;JS Monsta Box 與 HPSB 接近。",
+    "Nose_Width_at_12_inch": "12.2\" - 13.0\"。對比:HPSB 11.5-12\";groveler 12.5-13.5\";twin fish 14\"+。Hypto Krypto 5'10\" 12\"處約 12.8\";JS Monsta Box 同尺寸約 12.5\"。",
+    "Tail_Width_at_12_inch": "15.0\" - 16.0\"。對比:HPSB 14.5-15\";groveler 15.5-16.5\"。Hypto Krypto 5'10\" 12\"處約 15.5-15.8\";JS Monsta Box 約 15.2\";Modern 2 約 15.5\"。寬度設計目的:介於 HPSB carve 精準度與 groveler lift 之間。",
+    "Bottom_Contour 板底設計": "Hypto Krypto:single-to-double concave through main + double V through tail。JS Monsta Box:single concave 進 double concave + nice single concave feed into double。Modern 2:flat entry → vee bottom contour through tail with release。共同點:中段 single concave 提供 paddle drive,尾段 vee 或 double 提供 release。複雜的尾部設計是 hybrid 的標誌。",
+    "Tail_Shape 板尾形狀": "首選 squash(JS Monsta Box、Hypto Krypto 標配、Modern 2 標配)。次選 round(部分 Hypto Krypto 客製版)。罕見 swallow(因為 hybrid 不走 fish 路線)。Squash 在 hybrid 上提供乾淨 release,落地穩定,carve angle 清晰。",
+    "Rail_Profile": "中段 medium boxy(比 HPSB tucked 但比 groveler 收)+ 尾段 tucked-under edge 或 down rail。Hypto Krypto 採均衡 medium rail;Modern 2 採 boxy rail 中段補償 flat rocker;JS Monsta Box 採偏 HPSB 的 tucked rail 但中段加厚。",
+    "Rail_Volume_Distribution": "分布均勻(versatile)是 hybrid 標誌。對 carve 與 paddle 都中性、無極端偏向。Hypto Krypto 為均勻分布代表;JS Monsta Box 中段稍集中但兩端不收得太薄;Modern 2 中段集中型。",
+    "Foam_Distribution": "均勻型(versatile)為主流。Hypto Krypto 為均勻分布代表。JS Monsta Box 描述:「outline hides a surprising amount of area for ease of paddling and generating speed」即均勻 foam 分布。Modern 2 中段稍集中。胸下集中型在 hybrid 中較罕見。",
+    "Outline 輪廓曲線": "curvy outline + 平衡的 hip。介於 HPSB 的 curvy 與 groveler 的 parallel mid 之間。Hypto Krypto 的「balance of tradition and modern performance」設計即此特徵。JS Monsta Box 的「perfectly balanced entry and exit rockers」對應均衡 outline。"
+  },
+  "fin_setup": {
+    "主要_Setup": "thruster 為標配(80%+ hybrid 出貨)。5-fin box 標配讓玩家可選擇改 quad。Hypto Krypto、JS Monsta Box、Modern 2 都首選 thruster。quad 配置在 hybrid 上提供更快 down-the-line(犧牲部分 backside hold)。",
+    "Fin_Cant": "5° - 6.5°。略偏 loose 取向。Futures Modern Series、FCS II Performer Series 在此 cant 角範圍。",
+    "Fin_Toe": "1/16\" - 1/8\"(中性偏 drive)。hybrid 的中性 toe 是讓「daily driver」感覺最直覺的關鍵。",
+    "Fin_Foil": "Inside foil(side fins 提供 hold + lift),50-50 中央 trailer。共識度高,幾乎所有 hybrid 都採此配置。",
+    "Fin_Rake_Sweep": "medium rake 為中性首選(對比 small wave 偏好的 upright)。Hypto Krypto 適合 Futures John John Florence Medium(中性 rake);JS Monsta Box 配 FCS II Performer PC Medium。upright fin(less rake)可選但會偏小浪取向。",
+    "Fin_Area_Template": "中型 area 為基準(M2 / AM1 / CI Upright / FCS Performer Medium)。體重 >80kg 改用 large(M3 / AM2 / CI Large)。hybrid 的中性 area 是讓它 versatile 的關鍵。",
+    "Quad_Rear_Position": "若改 quad,後 fin 中性位置(距 stringer 約 1.0\"-1.25\")。靠 rail 1/4\" 提供 small wave looseness;靠 stringer 1/8\" 提供 head-high+ hold。Hypto Krypto 出廠 5-fin 配置允許玩家自選。",
+    "2plus1_vs_PureTwin": "hybrid 板絕大多數不採用 2+1 或純 twin。如果想玩 twin,應選 twin-specific 板或 RNF 96(屬於 fish-leaning groveler)。Hypto Krypto 部分版本可拆 trailer 玩 quad,但純 twin 不在設計範圍。"
+  },
+  "construction": {
+    "PU_PE 在小浪": "PU/PE 在 hybrid 上提供 dampened feel、可預測 carve、knifey rail。Hypto Krypto PU 版約 USD 750;JS Monsta Box PU 版約 USD 800。對於要把 hybrid 當「daily 通用板」的玩家,PU 是務實選擇:耐用且 dampening 抵銷大浪震動。",
+    "EPS_Epoxy 在小浪": "EPS/Epoxy 在 hybrid 上同浮力數值感覺更輕,小浪 acceleration 表現優於 PU。Haydenshapes FutureFlex(Hypto Krypto 的主力結構)即 EPS-based,加上 carbon parabolic frame 提供 spring back。JS Monsta Box HyFi 也是 EPS-based。",
+    "HD_EPS": "FutureFlex、HyFi、Lost LightSpeed II、Firewire Helium 都屬於 HD EPS 範疇。在 hybrid 上 HD EPS 是熱門選擇,因為平衡了 dampening 與輕量化。",
+    "Glassing_Schedule": "PU 版主流 6+4/6(平衡)。EPS 版常用 4+4/6 或 5+5/5(輕量化)。台灣濕熱建議 6+4/6 或更厚以避免 delamination。Hypto Krypto FutureFlex 的 fiberglass biaxial layup 已內建耐用設計。",
+    "新技術": "Haydenshapes FutureFlex(stringerless EPS + carbon parabolic frame,Hypto Krypto 標配)、JS HyFi(carbon innegra HD EPS)、Firewire Helium(EPS + carbon stringer)、Lib Tech NTL(magnesium fiber)、Lost LightSpeed II。Hypto Krypto FutureFlex 是 hybrid 最具代表性的新技術配置。"
+  },
+  "conditions_fit": {
+    "浪高範圍": "1-8ft(hybrid 的最大優勢:廣 wave range)。Hypto Krypto 官方描述「from small 1-3 ft beach breaks to barrels of up to 8ft」。JS Monsta Box 描述「1-foot slop to 6-foot hollow waves」。最佳甜蜜點:腰至頭高。",
+    "浪質": "全浪質適配(此為 hybrid 設計核心)。軟浪、飽滿浪、空心浪、捲浪都可。在純 mush 1ft 不如經典 groveler;在 head-high+ hollow 不如 HPSB。但「全能」是其價值。",
+    "浪型": "beach break / point break / reef break 都適合(此為 hybrid 設計賣點)。Hypto Krypto 在台灣中角 1-3ft 與宜蘭 head-high beach break 都能用。",
+    "不適合場景": "(1) 追求 1ft 純 mush 極致 paddle → 經典 groveler 較佳;(2) 追求 8ft+ vertical 表現 → HPSB 較佳;(3) 純粹 air 動作練習 → air-specific 較佳;(4) 純 retro feel(fish 玩 twin)→ fish 較佳;(5) 進階騎手追求極致 carve 精準度 → HPSB 較佳。"
+  },
+  "performance": {
+    "划水容易度": "高(較 HPSB 明顯提升)。Hypto Krypto 著名的「paddles unreal」即此設計目標。比經典 groveler 略低,但仍比 HPSB 大幅提升。台灣 1-2ft 浪可起乘 90%+ 浪。",
+    "起乘速度": "快。中度 entry rocker + 寬 outline 提供快速 plane。比 HPSB 快、比經典 groveler 略慢。",
+    "Glide 平面速度": "高。Hypto Krypto 的「low rocker + 中段 single concave + 尾段 double V」配置提供 down-the-line 高速 glide。Stoked For Travel 板評形容「carries great over the dead sections, feels really sparky」。Noel Salas JS Monsta Box HYFI 板測 down-the-line 速度約 30-35 km/h。[uncertain] 具體 km/h 需查實測影片。",
+    "Pump 效率": "高。中性 fin 配置 + 均勻 rail 分布讓 pump 反應直覺。比 HPSB 略慢(因為較寬),比經典 groveler 略快(因為較輕)。JS Monsta Box 設計賣點之一即 pump 效率。",
+    "轉向靈活度": "高。hybrid 的核心優勢即此 — 接近 HPSB 的 carve 精準度,但比 HPSB 更 forgiving。Hypto Krypto 在 head-high reef break 仍可打精準 carve。Modern 2「make tight directional changes with release while maintaining speed」對應此特性。",
+    "Vertical 能力": "中至高。能打 vertical snap 與 lip 動作,接近 HPSB 表現。Hypto Krypto FutureFlex 因 spring back 提供 vertical pop。比經典 groveler 強,比 HPSB 略弱(寬尾代價)。",
+    "空中動作能力": "中。能執行 frontside air 與 basic air reverse,但 swing weight 比 air-specific 大。Hypto Krypto 在 air 表現尚可但非主打。JS Monsta Box 因偏中性 rocker 也可做 air 但非首選。專練 air 應選 air-specific 而非 hybrid。",
+    "Backside_vs_Frontside": "兩面均衡(此即 hybrid 設計賣點)。比經典 groveler 的 backside 更穩定(因為 tail 較窄、rail 較均勻),frontside 與 HPSB 接近。RNF 96 級的 backside 議題在 hybrid 上不明顯。"
+  },
+  "practical_selection": {
+    "代表板款": "(1) Haydenshapes Hypto Krypto(hybrid 代名詞,5'10\" × 20.25 × 2.625 = 33.79L 為熱門尺寸,FutureFlex 結構);(2) JS Industries Monsta Box(2018 / 2019 surfboard of the year,1ft slop to 6ft hollow);(3) Sharpeye Modern 2(Filipe Toledo 簽名板系列,flat entry + boxy rail);(4) Lost Sub Driver 2.0(可視為 hybrid-leaning groveler 邊界,5'9\" = 28L);(5) Slater Designs FRK Plus / Cymatic(hybrid 範疇)。Channel Islands Happy Everyday(Britt Merrick)、CI Mid 6 也屬此範疇。",
+    "常見錯誤": "(1) 浮力給太多(超過 GF 0.42)→ hybrid 變 groveler、失去 HPSB 手感;(2) 浮力給太少(低於 GF 0.38)→ hybrid 變 HPSB、失去 paddle 優勢;(3) 配大 area + drive fin → hybrid 變 stuck;(4) 把 hybrid 當 air-specific 練習 → swing weight 過大、air 動作受限;(5) 跟風 pro size(Hayden Cox 自用 6'2\")→ 多數玩家應選 5'8\"-6'0\";(6) 用 6+6/6 glassing → 失去輕量化優勢、acceleration 變鈍。",
+    "升級陷阱": "(1) 從 mid-length 直接買 Hypto Krypto 5'6\" → 浪感差太多;(2) 進階騎手不照 Hayden 建議 -1 至 -2 吋 → 反而 swing weight 過大;(3) 二手 Hypto Krypto 已使用 2 年以上 → FutureFlex 的 carbon parabolic 可能 stress crack;(4) 為「練 air」買 Hypto Krypto 而非 Puddle Jumper Pro → hybrid 並非 air-specific。",
+    "搭配_fin 建議": "(1) Hypto Krypto → Futures Hayden Cox Signature(自家設計)、Futures John John Florence Medium、FCS II Performer PC Medium;(2) JS Monsta Box → FCS II Filipe Toledo Tri(中性 rake)、FCS II Performer PC Medium;(3) Modern 2 → FCS II Filipe Toledo Tri、Futures Modern Series Medium;(4) Sub Driver 2.0(hybrid-leaning)→ Futures John John Florence Medium。皆採 medium template + medium rake。",
+    "二手板評估": "(1) Hypto Krypto FutureFlex:檢查 parabolic carbon frame 有無 stress crack(沿 rail 細裂縫);(2) JS HyFi:檢查 innegra layer 有無分層;(3) 一般 EPS hybrid 老化:deck 凹陷 >3mm 代表 EPS 已壓潰;(4) PU hybrid 較耐用,3-5 年仍可保持性能;(5) 注意尾部 30 公分內 ding,影響 release。",
+    "Quiver 規劃": "Hybrid 是「one-board quiver」首選 — 單塊可涵蓋 1-6ft 95% 浪況。理想 2-3 塊 quiver:(1) hybrid(Hypto Krypto / Monsta Box)為主力;(2) HPSB 為 head-high+ 升級;(3) twin/fish 為純 retro glide。或 hybrid + air-specific groveler 涵蓋日常與 air 練習。Hypto Krypto 在台灣多數玩家手上即為「最常用板」。",
+    "預算建議": "新訂製:USD 750-900(PU)或 USD 850-1200(FutureFlex / HyFi / LightSpeed II)。Hypto Krypto FutureFlex 官方 USD 849。台灣本土訂製較少做 hybrid 配方(因模仿 Hypto Krypto 結構困難),多數玩家選擇直接進口。海外進口含稅運:NT$30,000-45,000。二手 Hypto Krypto 保留性極高,1 年新板可維持 75-85% 價格;Monsta Box 略低 70-80%。軟頂 hybrid(Catch Surf Odysea 系列)NT$8,000-15,000。"
+  },
+  "pro_reference": {
+    "Stab_in_the_Dark": "Hypto Krypto 多次在 Stab Joyride 板測獲得高分(屬於 hybrid 一塊式 quiver 代表)。Britt Merrick(Channel Islands)的 Happy Everyday 在 Taj Burrow Stab in the Dark 第二名,屬於 hybrid 範疇。Modern 2 在 Stab 2023 板測獲得高評。[uncertain] Stab in the Dark 2025 winner 細節在 paywall。",
+    "WSL_CT 選手選擇": "(1) Filipe Toledo:Sharpeye Modern 2 / Modern Disco 為其 hybrid 配置;(2) Jack Robinson:DHD 系列(屬於 HPSB 但有 hybrid 變體);(3) Ethan Ewing:DHD DX1 Phase 3 與其 hybrid 邊界版本;(4) Gabriel Medina:Johnny Cabianca 客製 hybrid;(5) Kelly Slater:Slater Designs Cymatic / FRK Plus 為其 hybrid 配置。多數 pro 不直接用 Hypto Krypto 比賽,但練習時常見。",
+    "Free_surf 風格參考": "(1) Hayden Cox(Haydenshapes 創辦人):自用 Hypto Krypto 全尺寸範圍;(2) Asher Pacey:雖以 twin fish 著稱,旅行時常帶 Hypto Krypto;(3) Dane Reynolds:Channel Islands Dumpster Diver 屬於 hybrid 邊界;(4) Josh Kerr:JS Monsta Box 是其 daily;(5) Jamie O'Brien:Pyzel Phantom XL 偏 hybrid 範疇。Free-surf 玩家更愛 hybrid 因為「一塊涵蓋多浪況」對 vlog 拍攝便利。"
+  },
+  "local_taiwan_context": {
+    "浪點適配": "(1) 中角:夏季 1-3ft Hypto Krypto 是首選 hybrid;(2) 烏石港:colossal closeout 與 head-high beach break 都可,Hypto Krypto 與 Monsta Box 平衡 paddle 與 carve;(3) 金樽:浪較陡飽滿,Modern 2 與 Sub Driver 2.0(hybrid-leaning)較適合;(4) 佳樂水:beach break 多,所有 hybrid 都適合;(5) 南灣:浪小且軟,Hypto Krypto 在低端浪況也能起乘但較吃力;(6) 東澳粉鳥林:夏季西南風小浪適合任何 hybrid。",
+    "進口_訂製": "海外進口主流:Hypto Krypto(Haydenshapes.com / boardcave / REAL Watersports)、JS Monsta Box(JS Industries / Surf Station)、Modern 2(Sharpeye / boardcave)、CI Happy Everyday(CI.com)。含稅運單價 NT$30,000-45,000。本土 shaper 訂製 hybrid 較少做,因為原板款 carbon parabolic 等結構難複製;多數玩家直接進口。台灣總代理:Haydenshapes 由部分衝浪店進口、JS 在台灣有經銷商。",
+    "中文社群迷思": "(1)「Hypto Krypto 是小浪板」→ 錯;Hypto 是 hybrid,可用 1-8ft;(2)「Hybrid 就是 mid-length 短一點」→ 錯;hybrid 是 HPSB-derived,mid-length 是另一種類;(3)「FutureFlex 容易壞」→ 部分對;比 PU 脆但比一般 EPS 耐用,正常使用 2-3 年無虞;(4)「進階騎手不需要 hybrid」→ 錯;進階騎手在 1-3ft 軟浪仍受益於 hybrid 的 paddle 與 versatility;(5)「Hybrid 就是 groveler」→ 錯,浮力策略與板型細節有明顯差異。",
+    "在地教練建議": "(1) JR Surf(墾丁):Hypto Krypto 是常推薦的 daily 首選;(2) VAST(台北/宜蘭):Hypto Krypto FutureFlex 為「一塊式 quiver」推薦,適合通勤玩家;(3) Hooked(宜蘭):偏好 JS Monsta Box HyFi 為進階 hybrid;(4) Decathlon Olaian 旗下 900 系列軟頂有 hybrid-inspired 設計但結構落差大;(5) 在地店家如墾丁衝浪客、宜蘭衝浪店多代理 Hypto Krypto。[uncertain] 各家具體推薦表單會隨季節變動。"
+  },
+  "uncertain": [
+    "Entry_Rocker",
+    "Glide 平面速度",
+    "Stab_in_the_Dark",
+    "在地教練建議"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "basic_info": {
+    "name": "Desert Point / Bangko-Bangko (Chinese: 沙漠角/邦科邦科; Indonesian: Bangko-Bangko / Desert Point)",
+    "category": "extension_destination",
+    "region": "Lombok",
+    "gps_location": "-8.7569, 115.8186 (Bangko-Bangko / Desert Point, Sekotong, West Lombok; Google Maps: https://maps.app.goo.gl/DesertPointBangkoBangko)",
+    "distance_from_dps_airport_km": "~90-110 km straight-line east-southeast + sea crossing; total travel ~5-9 hrs via Padangbai-Lembar ferry then overland (4-5 hr drive from Lembar Harbor on Lombok via Sekotong peninsula to Bangko-Bangko), or ~3-5 hrs via private boat charter from Benoa/Serangan Harbor direct to Desert Point",
+    "distance_from_canggu_uluwatu_min": "Not applicable directly - requires inter-island transfer; from Bali (Canggu/Uluwatu) typical access is boat charter from Benoa Harbor ~3-5 hrs depending on vessel, or overland via Lembar ferry adds 60-90 min motorbike from Canggu to harbor; from Uluwatu add 30-45 min to harbor"
+  },
+  "surf_conditions": {
+    "wave_type": "World-class long left-hand reef/point break - one of the world's premier left-handers and considered alongside Skeleton Bay (Namibia) for sheer barrel length. Hollow, fast, mechanical tube that breaks over sharp shallow coral on a remote point on Lombok's southwest tip.",
+    "skill_level": "Advanced to Pro only - critical take-off, fast hollow barrel sections over very shallow reef; not suitable for intermediate surfers even on smaller days due to crowd intensity and reef severity",
+    "wave_height_range": "4-12+ ft faces (head-high to triple overhead); typically fires from 4-8 ft, with rare 10-15 ft days; needs proper SW groundswell (typically 6 ft+ at 14s+) to start working",
+    "bottom_type": "Sharp shallow coral reef - extremely shallow at low tide; reef extends along the entire point",
+    "best_season": "Dry season May-October (peak June-September); needs SW Indian Ocean groundswell from southern hemisphere storms; the wave is notoriously fickle and may only fire 10-30 quality days per season",
+    "best_tide": "Low tide only - the wave is extremely tide-sensitive; goes flat at high tide and can transform from double-overhead barrels at low tide to nothing at high tide on the same swell; some configurations work mid-dropping tide",
+    "best_wind": "Offshore E to ENE (east-northeast) trade winds prevailing in dry season; light N wind can give extra shape to barrels; afternoon onshore SW common",
+    "best_swell_direction": "SW (Southwest) groundswell from deep Indian Ocean lows; SSW also works; long-period swells (14-18s) essential for the proper mechanical lined-up barrels",
+    "swell_consistency_rating": "2 (notoriously fickle - 'feast or famine'; can be flat for weeks then fire for 3-5 days when conditions align; requires patient swell-chasing or swell forecasting precision)",
+    "wave_length_meters": "200-300+ meters; legendary rides have been reported up to 300m yielding 15-20 second barrels; on perfect days surfers exit the same barrel they entered after a long tube ride",
+    "wave_speed_rating": "Very fast - one of the fastest hollow waves in Indonesia; requires step-up or specialised tube board (6'2-7'0 step-up typical); reading the section ahead is critical",
+    "takeoff_zone_difficulty": "Very high - ledging fast take-off directly into a barrel section over shallow reef; minimal margin for error; helmets and booties strongly recommended; the take-off zone is small and crowded when firing",
+    "secondary_peaks": "The point has a few named sections: the Take-Off Bowl, the Office (main barrel zone), the Grower, and the Exit/Inside section; on perfect days these link into one continuous tube ride; no significant alternative peaks on the same point",
+    "peak_crowd_level": "4 (when firing the lineup is packed with international tube-hunters and pros; small take-off zone makes it competitive; outside of peak swell windows it can be empty)"
+  },
+  "practical_info": {
+    "access": "Two options: (1) Boat charter from Bali (Benoa/Serangan Harbor) direct to Desert Point - 3-5 hrs via fast boat or overnight via yacht/phinisi; (2) Overland - Padangbai/Sanur fast boat to Lombok (Senggigi/Bangsal/Lembar) then 4-5 hr drive through West Lombok to Sekotong peninsula and unpaved jungle road to Bangko-Bangko (4x4 strongly recommended for final stretch). Boat-based stays (live-aboard) are popular for tube-chasers during major swell events.",
+    "paddle_out_method": "From the rocky/sand point or from a moored boat - paddle out via the channel on the inside of the takeoff zone (avoid paddling over the reef during low tide); local boatmen offer short transfers from beach/anchored boats to lineup; carefully time the paddle-out between sets",
+    "recommended_session_time": "Tide-driven rather than time-driven - schedule around the low-tide window regardless of time of day; dawn-low-tide or afternoon-low-tide both produce; morning sessions favored for offshore wind",
+    "boat_charter_required": "Not strictly required (land-based homestays available) but boat charter is the classic and most efficient access option, especially during big swells when the unpaved road becomes impassable. Most international tube-chasers stay on live-aboard boats anchored in the bay.",
+    "combo_trip_potential": "Excellent - Desert Point is a classic Bali-extension trip; commonly combined with Bali (Bukit), G-Land (Java), Sumbawa (Lakey Peak, Scar Reef, Supersuck), and Sumba/Rote via multi-spot boat charters or 'Indo surf safari' itineraries departing Benoa Harbor",
+    "alternative_spot_within_10min": "Limited - the southwest tip of Lombok is remote; nearby alternatives on Sekotong peninsula are mainly small fishing-village reef setups; on smaller days nearby Gili Gede area offers mellower options. Most boat charters reposition to Belongas Bay (south Lombok) or Are Guling/Mawi on south Lombok coast if Deserts is not working [uncertain]"
+  },
+  "safety_culture": {
+    "hazards": "Extremely sharp shallow coral reef (reef breaks dry at very low tide), strong rip currents along the point, crowded competitive lineup, remote location with slow medical evacuation, malaria-endemic area (West Lombok), dengue, sea urchins, occasional sea snakes, sunburn/dehydration in remote camp conditions",
+    "marine_hazards": "Sea urchins on reef (wear booties), occasional banded sea kraits (highly venomous but rarely aggressive), stonefish possible, reef cuts with very high tropical-water infection risk; sharks not a documented issue",
+    "lineup_etiquette": "Strict tube priority - the inside surfer with the deepest take-off gets priority on the set; do not paddle past the take-off zone or snake locals; respect Indonesian/Bali pros and camp regulars who earn first picks; the lineup gets aggressive when it fires - patience required",
+    "localism_intensity": "Medium to high - not violent localism but talent-stacked lineup of international and Indonesian pros means new visitors will struggle for set waves; respect, patience and demonstration of ability earn waves; smile and chat with locals onshore",
+    "respect_protocol": "Be respectful to Sasak Muslim locals onshore (dress modestly in fishing villages, avoid public alcohol consumption, observe Ramadan etiquette); tip homestay/camp hosts; do not damage reef; help with rescues if needed; share local knowledge gracefully",
+    "resident_local_legends": "Wave 'discovered' by Australian travellers in the late 1970s/early 1980s (variously credited to Bill Heick / Bob Laverty / Aussie crews); has hosted nearly every name in pro surfing including Tom Curren, Kelly Slater, Mick Fanning; legendary deep-tube sessions by names like Bruce Irons and Damien Hobgood [uncertain]",
+    "religious_sensitivity": "Sekotong peninsula is predominantly Sasak Muslim - dress modestly off-beach, avoid public alcohol, observe Ramadan fasting hours discreetly; no major Hindu temple at Bangko-Bangko itself but neighboring areas have animist/Hindu sites",
+    "medical_nearby": "No clinic at Bangko-Bangko itself; nearest health post is at Sekotong village ~1-2 hr drive away (basic puskesmas only); proper hospital is in Mataram (Rumah Sakit Umum Provinsi NTB, Siloam Hospital Mataram) ~3-4 hrs road distance; serious cases evacuated to BIMC/Siloam Bali by sea ambulance or air evacuation",
+    "rescue_jet_ski_available": "No - no permanent rescue jet ski on duty; some boat-charter crews carry skis for tow-in/rescue during big swell events but coverage is informal",
+    "emergency_contact": "Indonesia general emergency: 112; nearest hospital Siloam Mataram +62 370 6175000; for sea/air evacuation contact travel insurance provider or BIMC Bali +62 361 3000 911; satellite phone often required from camps as cell signal is patchy"
+  },
+  "services": {
+    "accommodation_options": "On-point: Desert Point Surf Lodge / Bangko-Bangko Surf Camp / Desert Point Bungalows (basic in-season homestays with shared facilities, generally only open May-October); nearby Sekotong area: Bebaleq Desert Point (Labuhanpoh), various budget homestays; high-end eco-resort Jeeva Beloam Beach Camp (further away on south Lombok); live-aboard yachts and phinisi charters anchored in bay are common - often booked through Bali-based operators",
+    "webcam_url": "Surfline Desert Point spot page: https://www.surfline.com/surf-report/desert-point/5842041f4e65fad6a7708d55 (forecast; live cam coverage limited or absent) [uncertain]",
+    "surf_photographer_available": "Some camps employ in-house photographers during peak season; freelance water/land shooters travel with boat charters; not consistently staffed [uncertain]"
+  },
+  "sustainability": {
+    "water_quality_rating": "Excellent - remote location with no urban runoff; wet-season storms can stir sediment but generally pristine water year-round"
+  },
+  "events_community": {
+    "annual_competition_window": "No regular pro contest currently scheduled at Desert Point; in-season feast-style camp life with informal big-swell gatherings; occasional film/photo shoots organized by surf brands [uncertain]"
+  },
+  "uncertain": [
+    "alternative_spot_within_10min",
+    "resident_local_legends",
+    "webcam_url",
+    "surf_photographer_available",
+    "annual_competition_window"
+  ]
+}

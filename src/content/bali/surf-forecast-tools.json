@@ -1,0 +1,57 @@
+{
+  "basic_info": {
+    "name": "Surf Forecast Tools for Bali (Chinese: 峇里島衝浪預報工具; Indonesian: Alat Prakiraan Selancar Bali)",
+    "category": "surf_resource",
+    "region": "Online (global tools applied to Bali)",
+    "gps_location": "Not applicable - online services. Coverage targets Bali surf spots between approx. -8.42 to -8.82 latitude, 114.78 to 115.55 longitude",
+    "distance_from_dps_airport_km": "Not applicable - online resource accessible from anywhere"
+  },
+  "surf_conditions": {
+    "wave_type": "Tools cover every wave type in Bali: point break (Uluwatu, Padang Padang, Bingin, Medewi, Keramas, Balian), reef break (Dreamland, Balangan, Impossibles, Shipwrecks, Lacerations, Sanur, Nusa Dua), beach break (Canggu Batu Bolong/Berawa/Echo, Kuta, Legian, Pererenan)",
+    "skill_level": "All levels - forecasts inform skill-appropriate spot selection (e.g., Surfline assigns Beginner/Intermediate/Advanced/Expert ratings per spot; Swellnet has detailed skill notes; Baliwaves provides plain-language reports useful for beginners)",
+    "wave_height_range": "Reported swell heights typically 1-15 ft for Bali spots; deep-water buoy data and model output 5-25 ft offshore swell during big southwest pulses",
+    "best_season": "Tools are used year-round; peak query traffic May-October (dry season, west coast working) and during big Indian Ocean storm cycles July-September; east-coast forecasts (Keramas, Sanur, Nusa Dua) get most attention November-April",
+    "best_wind": "Forecasts focus on identifying offshore wind windows - SE trade winds for west-coast Bukit/Canggu in dry season; W/NW wind windows for east coast Keramas in wet season; most tools display wind speed (knots) + direction + gusts hourly",
+    "best_swell_direction": "Bali forecasts emphasize SW (Southwest) groundswell tracking; also S, SSW for Bukit lefts; W/WSW pulses for west coast points; tools display swell period (seconds) and direction (degrees) as critical decision metrics",
+    "swell_consistency_rating": "5 (Indo dry season consistency means most reliable forecast tools achieve high accuracy; ECMWF/GFS models typically reliable 3-5 days out, with 7-10 day extended view useful for trip planning)",
+    "peak_crowd_level": "Forecast tools indirectly drive crowds - perfect-rated swells on Surfline/Magicseaweed produce instant lineup spikes at Uluwatu, Padang Padang and Canggu; serious surfers monitor multiple sources to find less-publicized windows"
+  },
+  "practical_info": {
+    "access": "Web browsers (any device) and dedicated iOS/Android apps; some tools require account registration. Free tiers offer basic forecast (typically 5-day) and reduced cam access; paid Premium tiers unlock 16-day forecasts, ad-free cams, cam rewind/replay, and forecaster notes.",
+    "recommended_session_time": "Tools update multiple times daily - Surfline cams and reports refresh every 15-30 min; Windguru/Windy refresh 4x daily following GFS/ECMWF model runs (00z/06z/12z/18z UTC); plan to check forecast the night before dawn patrol (after 12z run = ~8 PM Bali time) and again 30 min before paddle-out for live cam",
+    "best_time_of_day": "Pre-dawn (4-6 AM local) cam check critical for dawn patrol decisions; 6 PM local for next-day planning (matches new model run availability)",
+    "nearby_warung": "Not applicable",
+    "alternative_spot_within_10min": "Most tools include nearby-spot listings - Surfline 'Nearby Spots' suggestion, Magicseaweed (now Surfline) location maps, Swellnet regional pages help pivot when primary spot is blown out",
+    "boat_charter_required": "Not applicable to tools; tools do indicate when boat-access spots (Shipwrecks/Lacerations Lembongan, Desert Point Lombok, Mentawai) are working"
+  },
+  "safety_culture": {
+    "hazards": "Forecasting hazards: false confidence in model output (Bali microclimate can defy general models, especially around the Bukit cliffs); over-reliance on one source; outdated cams during cloud cover; forecaster notes can lag big sudden swells",
+    "lineup_etiquette": "Forecast tools indirectly affect etiquette - 'Surfline-rated 5-star' days create heavy crowds; etiquette becomes more important on hyped days",
+    "localism_intensity": "Not applicable to the tool itself; high-profile forecasts drive crowds that can trigger localism flare-ups at marquee spots",
+    "respect_protocol": "Forecasters and cam operators sometimes ask users not to publicize secret spots; balicams.com and Surfline omit some sensitive Bukit hidden gems on purpose",
+    "emergency_contact": "Tools occasionally embed weather warnings (tropical storms, tsunami advisories) - BMKG (Indonesian Meteorological Agency, https://www.bmkg.go.id) is the authoritative source for severe weather and tsunami alerts; general emergency 112 in Indonesia"
+  },
+  "services": {
+    "surf_photographer_available": "Several tools partner with or integrate photo services - Surfline cam screenshots, Bali Surf Report photo service, Baliwaves daily photo galleries",
+    "webcam_url": "Primary Bali surf cams: Surfline (paid Premium gives best resolution + rewind) - Uluwatu https://www.surfline.com/surf-report/uluwatu/5842041f4e65fad6a7708b4b ; Canggu Batu Bolong, Berawa, Old Man's, Echo, Keramas, Balian, Bali Village all live on Surfline. Balicams (https://balicams.com) - free live cams: Uluwatu, Impossibles, Bingin, Dreamland, Balangan, Padang Padang, Kuta, Nelayan, River Mouth Canggu, Keramas, Balian, etc. Swellnet (https://www.swellnet.com/reports/indonesia/bali) - paid cams + 16-day forecast. Padang Padang Surf Camp web cam page; Komune Resort Keramas cam (occasionally on social).",
+    "drone_allowed": "Not applicable to forecast tools"
+  },
+  "pricing": {
+    "avg_lesson_price": "Not applicable",
+    "lesson_price_range_idr": "Forecast tool subscription pricing (as of 2025-2026): Surfline Premium USD 15.99/month or USD 119.99/year (US pricing, effective April 8, 2025; previously USD 9.99/mo); Surfline free tier shows 5-day forecast and limited cams. Surfline Premium+ tier (with additional perks) higher. Swellnet PRO USD 7.33/month for ad-free 16-day forecast, premium cams, forecaster notes. Windguru free for basic GFS forecasts; Windguru PRO ~EUR 5/month for higher-frequency updates, extra models, custom spots. Windy.com free with high-resolution ECMWF 9km; Windy Premium ~USD 19/year for 15-day ECMWF, longer forecast, no ads. Baliwaves free (ad-supported). Magicseaweed officially merged into Surfline (MSW.com redirects, app sunset May 2023 - features migrated to Surfline). BMKG Indonesian government weather free. Windfinder, Windy.app, Stormglass, Surf-Forecast.com offer overlapping free/paid tiers.",
+    "board_rental_daily": "Not applicable",
+    "gopro_rental_price": "Not applicable",
+    "peak_vs_offpeak_pricing": "No seasonal pricing variation - subscriptions flat year-round; Surfline raised US prices April 8, 2025; annual plans cheaper than monthly (Surfline ~37% saving vs monthly)"
+  },
+  "sustainability": {
+    "eco_certification": "Not applicable to digital tools; some sites publish responsible-surfing content (Surfline content team, Swellnet editorial). Baliwaves has long-running 'know-your-spot' editorial supporting sustainable travel.",
+    "carbon_offset_option": "Not applicable - digital service; data centers powering these tools are typically not carbon-offset disclosed"
+  },
+  "events_community": {
+    "annual_competition_window": "Forecast tools highlight major Indo events - Rip Curl Cup Padang Padang (Aug 1 - early Sept holding period), WSL Krui Pro, Mentawai Pro - Surfline often hosts live event streams + special forecaster commentary; Swellnet provides Indo coverage; Baliwaves serves long-time local audience",
+    "community_events": "Surfline community forums; Swellnet active forum community (Australian-focused but Indo threads frequent - 'Java, Bali, Lombok, Sumbawa forecast' thread by Craig is a long-running reference); Baliwaves blog and Instagram daily updates; balicams.com chat community"
+  },
+  "uncertain": [
+    "peak_crowd_level"
+  ]
+}

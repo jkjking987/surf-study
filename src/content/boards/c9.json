@@ -1,0 +1,106 @@
+{
+  "basic_info": {
+    "名稱": "Tomo-style Planing Hull (Modern Planing Hull / MPH 板型)",
+    "分類": "板型分類",
+    "適用程度": "中階至進階(intermediate to advanced;小尺寸亦可作為進階初學降階板)",
+    "一句話定位": "parallel rail + deep concave 的科學派 planing hull,以最短長度換最大速度與控制"
+  },
+  "buoyancy_strategy": {
+    "Guild_Factor_GF": "MPH 設計強調以較短板長承載較多容積,使 GF 可以略高於同身高 HPSB 約 5-8%。一般週末玩家在 Sci-Fi 2.0 / Cymatic 上建議 GF 0.38-0.42;有競技體能的進階者可降到 0.36-0.38;新手不建議直接挑戰純 MPH,以 0.45 以上才相對安全 [uncertain]。",
+    "浮力公式": "建議倍率:進階 0.38 x 體重(kg);中階週末玩家 0.42 x 體重;體能下降者或追小浪 0.45 x 體重。例如 70kg 中階玩家小浪 MPH 推 70 x 0.42 ≈ 29.4L,參考 Sci-Fi 2.0 5'7\"(約 28.6L)或 5'8\"(約 30.4L)。",
+    "相對日常板浮力增量": "MPH 因 parallel rail + flat mid rocker,實際 paddle 效率高於同 L 的 HPSB,因此 +5% ~ +15% 即可,不需 +30%。Tomo 官方說明 Sci-Fi 可比 HPSB 短 4-7 吋仍保留同 paddle 力。",
+    "浮力範圍_體重對照": "50kg → 21-24L(Sci-Fi 2.0 5'1-5'3);60kg → 25-28L(Sci-Fi 2.0 5'4-5'6 / Cymatic 5'5);70kg → 29-33L(Sci-Fi 2.0 5'7-5'9 / Omni 5'10);80kg → 33-37L(Sci-Fi 2.0 5'10-6'0 / Cymatic 5'11);90kg+ → 38-45L(Sci-Fi 2.0 6'2-6'4 / Cymatic 6'2+)。",
+    "小浪修正係數": "MPH 因 parallel rail 已有先天容積優勢,小浪修正僅 +2L ~ +3L 即可;不需 groveler 那種 +5L。",
+    "BMI_體脂修正": "高 BMI 肌肉型:浮力可比公式低 1-2L,因爆發力強;高 BMI 脂肪型:建議按公式或 +2L,以免 paddle 吃力;低 BMI 偏瘦型:可下殺 1-2L,體驗 Tomo 設計強調的 vertical rail engagement。",
+    "年齡_體能修正": "40 歲以上或心肺體能下降者:在 Sci-Fi 2.0 / Cymatic 上額外加 5-8% 浮力,優先選 Cymatic 而非 Omni(Cymatic 較好上手)。",
+    "品牌計算器差異": "Firewire / Slater Designs 官方計算器在 MPH 系列偏準確(Firewire 計算器在業界以精準著稱),但因 MPH 短而厚,實際感覺浮力會比同 L 數的 HPSB 多 1-2L,故計算器值可直接採用,不需再上修。",
+    "亞洲體型修正": "亞洲身材偏小可選比公式低 1-2L 的尺寸;在 Sci-Fi 2.0 / Cymatic 上,日本與台灣 shaper 常建議身高 170cm 約 67kg 配 5'6\"(約 26-27L)。 [uncertain]"
+  },
+  "shape_details": {
+    "Length 板長": "極短:Sci-Fi 2.0 5'1\" - 6'4\";Cymatic 5'0\" - 6'4\";Omni 5'2\" - 6'4\"。相較日常 HPSB 縮短 -4\" ~ -7\"(Tomo 設計核心,以短換厚)。",
+    "Width 板寬": "中等偏寬:Sci-Fi 2.0 18 3/8\" - 20 1/8\"(5'5-6'0);Cymatic 17.88\" - 21.25\"(5'0-6'4);Omni 中間值,寬度近似 Cymatic。",
+    "Thickness 板厚": "偏厚:Sci-Fi 2.0 2 3/8\" - 2 13/16\";Cymatic 2.13\" - 3.00\";Omni 約 2 1/4\" - 2 3/4\"。Tomo 透過增厚保留浮力。",
+    "Nose_Rocker": "中等:Sci-Fi 2.0 約 4.6\"-4.8\";Cymatic 因採 snub nose + 較高 rocker,約 4.8\"-5.0\";Omni 略高於 Sci-Fi。 [uncertain]",
+    "Tail_Rocker": "中低:Sci-Fi 2.0 約 2.3\"-2.5\";Cymatic 比 Sci-Fi 增加,約 2.5\"-2.7\";Omni 約 2.4\"-2.6\"。 [uncertain]",
+    "Entry_Rocker": "MPH 設計特色為前段 rocker 偏直 + 後段急轉,使 paddle 效率高。Sci-Fi 2.0 前段比 Cymatic 略平,Cymatic 略提升以增加陡浪安全性。",
+    "Wide_Point_Position": "Tomo 設計普遍 wide point at center 或略前;Sci-Fi 2.0 wide point 前移 1\"(2.0 版重新設計),讓胸下 foam 更集中。 [uncertain]",
+    "Nose_Width_at_12_inch": "MPH 鼻部偏寬以維持 parallel rail:Sci-Fi 2.0 約 12.5\"-13.0\";Cymatic 因 snub nose 切除頂端反而 12\" 處測量值偏窄(實際是看截斷端);Omni 約 12.5\"。 [uncertain]",
+    "Tail_Width_at_12_inch": "Sci-Fi 2.0 約 15.5\"-16\"(2.0 版尾部 pulled in);Cymatic 約 15.5\"(尾段 pulled in 更明顯);Omni 約 15.0\"(round tail 收得最緊)。 [uncertain]",
+    "Bottom_Contour 板底設計": "Tomo 標誌性 Quad Inside Single Concave(QISC):深 single concave 從鼻部延伸到 fin cluster,內側鰭片置於 concave 範圍內。Cymatic 採更深的 QISC,Sci-Fi 2.0 較淺。深度估約 5-8mm。",
+    "Tail_Shape 板尾形狀": "Sci-Fi 2.0 採 Double Bat Tail(雙蝙蝠尾,中央凸起 + 兩側翼)→ 提供 swallow 的 release + squash 的面積 + bat 的中央 hold。Cymatic 採 pulled-in Double Bat Tail。Omni 採 round tail → 適合 carving 但 vertical 受限。小浪表現:Bat tail 提供 swallow 釋放 + 額外 hold,在軟浪也能咬住面。",
+    "Rail_Profile": "中段 boxy(較高體積)+ 尾段 down rail / hard edge。Tomo 強調 hard edge 延伸到 fin 前一段,以最大化 lift。",
+    "Rail_Volume_Distribution": "parallel rail 設計使中段 rail 體積分布均勻,不像 curvy outline 集中在 wide point;對 carve 提供連續支撐,paddle 較直線穩定。",
+    "Foam_Distribution": "胸下集中(wide point 前移)+ 尾段保留(因 bat tail 寬度)→ Easy paddle + skate-feel 並存。",
+    "Outline 輪廓曲線": "parallel rail 為 Tomo 簽名設計:從鼻部到尾部前 12\" 處幾乎平行,與傳統 curvy outline 顯著不同。Omni 的 round tail 是 parallel rail 系列裡最圓的 outline。"
+  },
+  "fin_setup": {
+    "主要_Setup": "Sci-Fi 2.0 標配 5-fin box,可玩 thruster / quad;Cymatic 同 5-fin;Omni 為 thruster 為主。Tomo 個人偏好 quad(QISC 設計搭 quad 效果最佳)。",
+    "Fin_Cant": "MPH 設計建議 fin cant 偏低(3-5°)→ 配合 parallel fin placement 達成最低 drag、最高直線速度。 [uncertain]",
+    "Fin_Toe": "Tomo 公開說明:parallel fin placement(0° tow)提供極佳 drive。實際商品仍保留小幅 toe(約 1/16\"),但比一般 HPSB 偏直。",
+    "Fin_Foil": "Inside foil(前鰭)+ flat foil(後鰭 quad 時)為標準搭配;thruster 時中央鰭片 50-50 foil。",
+    "Fin_Rake_Sweep": "MPH 偏好中等 rake + upright tip。AM2 為熱門搭配,可平衡 drive 與 release。",
+    "Fin_Area_Template": "中型 area 為小浪基準:AM2 / M2 / Slater Designs 自有 SF 模板。Sci-Fi 2.0 6'0\"(35.4L)以下建議中型 area。",
+    "Quad_Rear_Position": "Tomo 設計 quad rear 已 pre-set 在 concave 內(略靠 stringer 一側),保留 drive。小浪可嘗試將 rear quad 略外移 1/4\" 增加 looseness。",
+    "2plus1_vs_PureTwin": "MPH 體系不採 2+1 或 pure twin;Tomo 哲學上偏 thruster / quad,因為 parallel rail 已提供 twin 般的 down-the-line speed。"
+  },
+  "construction": {
+    "PU_PE 在小浪": "MPH 系列 PU 版較少見(Slater Designs / Firewire 以 EPS 為主);若選擇傳統 PU/PE shaper 復刻(如 Tomo 本人手工版),knifey rail + 重量讓入水 carve 更穩、可預測,但 paddle 效率輸 I-Bolic / LFT。",
+    "EPS_Epoxy 在小浪": "Slater Designs 主力為 I-Bolic(EPS + epoxy)→ 輕量利於 pump 與 air;同浮力數值感覺比 PU 多 1-2L,小浪起乘優勢顯著。",
+    "HD_EPS": "Firewire 自家 Helium / LFT 構造為 HD EPS 介於 PU 與 EPS 之間;Slater Designs 主推 I-Bolic(平行內梁結構)為品牌指標。",
+    "Glassing_Schedule": "I-Bolic 為廠製 sandwich construction,不採傳統手工 glassing schedule;耐用性接近 6+4/6 standard,重量接近 4+4/4 lightweight。",
+    "新技術": "Firewire I-Bolic(2024+ 旗艦)→ 用平行內梁(I-beam)取代 stringer,更輕、扭力剛性更高;Slater Designs 全系列 2025 起 Sci-Fi 2.0 / Cymatic / Omni 皆有 I-Bolic 版本。"
+  },
+  "conditions_fit": {
+    "浪高範圍": "Sci-Fi 2.0 全範圍 2-8ft(全方位);Cymatic 1-6ft(小至中浪偏好);Omni 2-5ft(小至中浪 + 較陡的浪)。",
+    "浪質": "MPH 對軟浪、飽滿浪、空心浪皆適配;Cymatic 的 deep QISC 在飽滿浪表現最佳;Omni 的 round tail 在空心浪刀面 carving 最佳。",
+    "浪型": "beach break(Sci-Fi 2.0 / Cymatic 全勝);point break(Omni 因 round tail 線條最美);reef break(Sci-Fi 2.0 因可上探 6-8ft 安全範圍最廣)。",
+    "不適合場景": "8ft+ 大浪或 hollow barrel reef(MPH 短板長使下浪線拉不開、tail 也無法 hold);純競賽 punt 場景仍偏好傳統 HPSB;mush/closeout 小浪不如純 groveler(如 Sweet Potato)。"
+  },
+  "performance": {
+    "划水容易度": "MPH 同 L 數下 paddle 比 HPSB 強 10-15%(parallel rail 直線效率);Sci-Fi 2.0 5'6\"(約 26-27L)可在 1.5ft 起乘。",
+    "起乘速度": "極快;Cymatic 因 deep concave 提供額外 lift,起乘是 MPH 系列最快。",
+    "Glide 平面速度": "Tomo 設計核心追求 top-end speed;Noel Salas 測試 Sci-Fi 在飽滿小浪 down-the-line 速度可比同身高 HPSB 快 15-20% [uncertain]。",
+    "Pump 效率": "QISC + parallel rail = 極高 pump 效率,平段甚至不需 pump,單靠 concave lift 即可滑行。",
+    "轉向靈活度": "Sci-Fi 2.0 / Cymatic 因短板長 + bat tail,tight pocket turn 反應快;Omni 因 round tail 偏 flowy carve。",
+    "Vertical 能力": "Cymatic > Sci-Fi 2.0 > Omni(round tail 較難 vertical)。Cymatic 的 pulled-in bat tail 提供最佳 vertical 投射。",
+    "空中動作能力": "I-Bolic 輕量 + bat tail release 適合小浪 air;Sci-Fi 2.0 是 Yago Dora / Kanoa Igarashi 等選手過去玩 air 的選擇。 [uncertain]",
+    "Backside_vs_Frontside": "thruster / quad 配置使兩面平衡;不像 twin / fish 有明顯 backside hold 不足問題。"
+  },
+  "practical_selection": {
+    "代表板款": "Slater Designs Sci-Fi 2.0(2024-2025 旗艦 MPH,5'1-6'4);Slater Designs Cymatic(Sci-Fi + Omni 混血,深 QISC + bat tail);Slater Designs Omni(round tail MPH,較傳統手感);Tomo Vader / Vanguard(Tomo 個人品牌,更純粹 MPH);Firewire Neutrino(Tomo 較新作,2024 推出的 MPH 進階版)。",
+    "常見錯誤": "1) 直接套用 HPSB 浮力公式 → 給太多 L 反而失去 Tomo 設計的銳利感;2) Cymatic 配傳統 thruster 偏 raked 鰭片 → 抵銷 QISC 的 lift;3) Omni 拿去打 2ft mush → tail 太緊起不來;4) Sci-Fi 2.0 拿去 6ft+ 空心浪而選太短 → bat tail 無法咬住 lip。",
+    "升級陷阱": "Tomo 設計初學者上手有挑戰(parallel rail + 強 concave 需學新的施力方式);新手切忌跳級從 funboard 直接 Sci-Fi 2.0,中間應先過 hybrid groveler(如 Average Joe / Happy Everyday)再進。",
+    "搭配_fin 建議": "Thruster: Futures AM2(中型 area + raked tip,平衡 drive 與 release)/ Slater Designs 自有 SF 模板;Quad: Futures Mayhem Quad / FCS Performer Quad,front 用 inside foil、rear 略小型;Cymatic 推 Mick Fanning Tri 或 AM2 在 thruster 設定。",
+    "二手板評估": "I-Bolic 構造耐用度高,二手板常見問題:1) deck dent 對 EPS 較不明顯但仍影響 flex;2) ding 進水會破壞 EPS 核心,需即時處理;3) fin box 周遭應特別檢查(quad 設定使 4 顆 box 都承受側向力)。",
+    "Quiver 規劃": "MPH 系列當 one-board quiver(2-6ft):Sci-Fi 2.0 為 GO-TO;若搭 2 塊:Cymatic(1-4ft 小浪)+ Omni(3-6ft 較陡浪);若搭 3 塊:Sweet Potato(weakest 1-3ft)+ Sci-Fi 2.0(全方位 2-6ft)+ 傳統 HPSB(6ft+)。",
+    "預算建議": "Slater Designs I-Bolic 新板約 USD 800-950 / NTD 26,000-32,000;LFT 約 USD 700-800;Volcanic 構造 USD 850;二手 Sci-Fi 1.0 / Omni 2018-2021 約 USD 400-500 可入手,是 CP 最高選擇。"
+  },
+  "pro_reference": {
+    "Stab_in_the_Dark": "Sci-Fi 1.0 / Sci-Fi 2.0 雖未進 Stab in the Dark 競賽板序列(Kelly Slater 用自家 model),但 2023 SitD 中 MPH 設計理念影響多位 shaper 參賽板。 [uncertain]",
+    "WSL_CT 選手選擇": "Kelly Slater 個人在 J-Bay / Pipe 自由衝時常用 Sci-Fi 與 Cymatic;Yago Dora 早期 air 訓練板含 Sci-Fi。CT 比賽用板仍以傳統 HPSB 為主,MPH 在 free surf 與 podcast / 影片中曝光最多。 [uncertain]",
+    "Free_surf 風格參考": "Daniel 'Tomo' Thomson 本人(設計者兼 free surfer);Asher Pacey(twin / mid 派但對 MPH 公開讚賞);Noel Salas(YouTube 評測權威,Sci-Fi / Cymatic / Omni 三代皆有深度評測)。"
+  },
+  "local_taiwan_context": {
+    "浪點適配": "中角:Sci-Fi 2.0 / Cymatic 為東北季風期軟浪頂級選擇,parallel rail 在沙岸短截面浪型很合;烏石:小浪期可用 Cymatic,夏季颱風浪用 Sci-Fi 2.0;金樽:point break 線條長,Omni 的 round tail 最美;佳樂水:reef + 飽滿浪適合 Sci-Fi 2.0 探到 6ft;南灣:小 mush 用 Sci-Fi 2.0 短板長(5'3-5'5);東澳粉鳥林:Cymatic 在 hollow beach break 體驗最佳。 [uncertain]",
+    "進口_訂製": "Slater Designs / Firewire 在台灣為進口為主(VAST / 衝浪小店 / Jpsurf 等代理);無國內 shaper 復刻(Tomo 設計涉及專利的 QISC + Bat tail)。MPH 訂製管道僅能透過 Firewire 國際訂單。",
+    "中文社群迷思": "1) 「Tomo 板太怪不能玩」→ 實際 Sci-Fi 2.0 上手難度與 HPSB 同等,只是手感不同;2) 「I-Bolic 比 PU 慢」→ 錯,I-Bolic 同浮力下 paddle / pump 都更快;3) 「Cymatic 是大尺寸板」→ 錯,Cymatic 從 5'0 起跳,主攻小至中浪。 [uncertain]",
+    "在地教練建議": "VAST(台北):進階學員想嘗試新派 MPH 常推 Sci-Fi 2.0;JR Surf:中階以上可考慮 Omni;Decathlon / Olaian:無 MPH 復刻板,初學者請勿直接跳到 Tomo 設計。 [uncertain]"
+  },
+  "uncertain": [
+    "Nose_Rocker",
+    "Tail_Rocker",
+    "Wide_Point_Position",
+    "Nose_Width_at_12_inch",
+    "Tail_Width_at_12_inch",
+    "Fin_Cant",
+    "Glide 平面速度",
+    "空中動作能力",
+    "亞洲體型修正",
+    "Stab_in_the_Dark",
+    "WSL_CT 選手選擇",
+    "浪點適配",
+    "中文社群迷思",
+    "在地教練建議",
+    "Guild_Factor_GF"
+  ]
+}

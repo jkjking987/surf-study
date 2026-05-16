@@ -1,0 +1,101 @@
+{
+  "basic_info": {
+    "name": "Bali Transport for Surfers (Chinese: 峇里島衝浪客交通; Indonesian: Transportasi untuk Peselancar Bali) - covering private driver/charter car IDR 700K-1M/day, scooter/motorbike rental with surf rack IDR 60-100K/day + rack IDR 20-50K/day, IDP International Driving Permit motorbike endorsement requirements, ride-hailing apps (Grab, Gojek, Maxim, InDrive, Bluebird/MyBluebird), and airline surfboard baggage rules for Garuda Indonesia, AirAsia, Singapore Airlines, China Airlines, EVA Air",
+    "category": "practical",
+    "region": "Bali-wide (airport DPS to Canggu/Berawa/Pererenan, Bukit/Uluwatu/Bingin/Padang Padang, East Coast Keramas/Sanur, North Coast Medewi)",
+    "gps_location": "Ngurah Rai International Airport DPS: -8.7482, 115.1672; Bluebird Taxi prepaid counter: International Arrival Hall DPS; Grab official airport lounge: inside DPS International Arrival; Canggu (scooter rental hub): -8.6478, 115.1378; Pererenan: -8.6310, 115.1170; Uluwatu/Pecatu (Bukit scooter rental hub): -8.8290, 115.0880; Sanur: -8.6900, 115.2620",
+    "distance_from_dps_airport_km": "DPS to Kuta/Legian: 3-6 km / 15-25 min; DPS to Seminyak: 8-10 km / 25-40 min; DPS to Canggu/Berawa/Batu Bolong: 18-22 km / 60-90 min (rush 90-120 min); DPS to Pererenan/Seseh: 22-26 km / 75-100 min; DPS to Uluwatu/Pecatu: 18-22 km / 45-70 min; DPS to Bingin/Padang/Balangan: 15-20 km / 40-60 min; DPS to Sanur: 12-15 km / 30-45 min; DPS to Keramas: 35-40 km / 75-100 min; DPS to Medewi: ~75 km / 2.5-3 h"
+  },
+  "surf_conditions": {
+    "wave_type": "N/A - transportation/logistics topic; relevant to enabling access to all wave types from beach breaks (Canggu/Kuta) to reef breaks (Uluwatu/Bingin) to long-drive west coast (Medewi/Balian) and east coast (Keramas)",
+    "skill_level": "N/A - all surf levels need transport; beginner-friendly: pre-booked driver to Kuta/Canggu lesson schools; intermediate: scooter rental with rack for self-navigation around Canggu/Bukit; advanced: long charter trips to multiple breaks (Medewi day-trip, East Coast dawn patrol)",
+    "wave_height_range": "N/A",
+    "bottom_type": "N/A",
+    "best_season": "Year-round - transport options stable across seasons. Driver rates may increase 10-20% during peak Dec-Jan and Jul-Aug; scooter rentals stable year-round; long charter to seasonal coasts (west coast in dry, east coast in wet) defines route choice",
+    "best_tide": "N/A",
+    "best_wind": "N/A",
+    "best_swell_direction": "N/A",
+    "swell_consistency_rating": "N/A",
+    "wave_length_meters": "N/A",
+    "wave_speed_rating": "N/A",
+    "takeoff_zone_difficulty": "N/A",
+    "secondary_peaks": "N/A",
+    "peak_crowd_level": "Canggu traffic peaks 7-9 AM and 4-7 PM (school runs, sunset crowds); Uluwatu Jl. Labuansait gridlock at sunset; DPS arrival queue worst on Bali flights from Australia evening blocks; Saturday Padang Padang lane impassable at peak hours - allow 2-3x normal travel time"
+  },
+  "practical_info": {
+    "access": "FROM DPS: pre-book private driver via WhatsApp (~IDR 350-500K airport transfer to Canggu, IDR 200-400K to Bukit), Bluebird metered taxi (prepaid at counter or via MyBluebird app, ~IDR 200-400K to Canggu/Bukit, no pickup from arrival hall due to taxi syndicate but legal from departure or via app), Grab/Gojek from official airport lounge (~30-40% cheaper than counter taxi). FOR SURFER SCOOTER: rent from Canggu/Uluwatu shop with delivery; ride only with IDP + motorcycle endorsement + helmet. LONGER TRIPS: book driver day-charter (Medewi, Keramas, East Bali) IDR 700K-1M for 10-12h.",
+    "paddle_out_method": "N/A",
+    "entry_fee": "N/A (no entry fee for transport services themselves); parking at surf spots IDR 5,000 (scooter) to IDR 10,000-20,000 (car) per session at most Bali surf breaks",
+    "recommended_session_time": "Driver pre-booking: 24-48h ahead for next day; airport transfers: book 2-3 days ahead; long-day charters (Medewi etc.): 1 week ahead in peak season; scooter rental: book 1-3 days ahead via WhatsApp with delivery to villa; airline surfboard add-ons: book online 7+ days before flight (cheaper than airport rate)",
+    "best_time_of_day": "Scooter for dawn patrol Canggu/Uluwatu: leave 5:00-5:30 AM to beat traffic and catch glassy conditions; private driver for long East Bali/Medewi: depart 4:30-5:00 AM. Avoid Canggu traffic 7-9 AM and 4-7 PM windows for any car movement.",
+    "nearby_warung": "All major surf areas have warung within 100m of typical pickup points; airport has full food court",
+    "alternative_spot_within_10min": "If Grab/Gojek blocked at venue: walk 100-300m to Circle K, Indomaret, or main road; if Bluebird unavailable: try Maxim or InDrive (cheaper, fare-negotiable model); if scooter breakdown: most rental companies offer 24h roadside support via WhatsApp",
+    "boat_charter_required": "No for land transport; boat charter only for inter-island moves (Lembongan/Penida/Gili/Lombok) where surfers commonly use Eka Jaya, Scoot Fast Cruises, OK Fast Cruise from Sanur or Padang Bai"
+  },
+  "safety_culture": {
+    "hazards": "MOTORBIKE: Bali has Indonesia's highest tourist road fatality rate. Risks: gravel/sand on roads, drainage grates, rogue stray dogs, rain-slick scooters, drunk weekend drivers, head-on overtake collisions on narrow roads. WEAR HELMET ALWAYS. CAR: traffic jams cause missed surf windows; choose driver familiar with backroad shortcuts. AIRPORT: taxi-syndicate touts at arrival hall - politely refuse and walk to Grab lounge or prepaid Bluebird counter.",
+    "marine_hazards": "N/A for transport itself; relevant only insofar as accident-related injury treatment",
+    "reef_cut_severity_index": "N/A",
+    "rip_current_pattern": "N/A",
+    "lineup_etiquette": "Driver/scooter parking at surf spots: tip parking attendant IDR 5-10K to ensure board safety; never block locals' access; greet driver with 'Selamat pagi'; offer water/snacks on long day-charters",
+    "localism_intensity": "Medium-high at venue level: local taxi/ojek cooperatives in Canggu (Batu Mejan/Echo Beach) and Uluwatu (Pandawa, Padang lane) enforce 'No Grab/Gojek' zones with hand-painted signs and territorial pressure on app drivers. Workaround: walk 100-300m to neutral pickup point.",
+    "respect_protocol": "Avoid arguing with local taxi reps at no-Grab zones - walk to neutral pickup; tip private driver IDR 50-100K for good service; pay drivers on time; respect that ojek cooperatives provide income to local families; never haggle aggressively on already-fair rates",
+    "resident_local_legends": "Reputable Bali driver agencies: BaliBelin, Pery Bali Driver, Bali Nusa Transport, Bali Holiday Secrets, The Young Villas; reputable scooter rental: Bikago, Balitubes, GFS-Bike, Canggu Scooter, Bali Bike House, Tmax Rental [uncertain on relative ranking]",
+    "religious_sensitivity": "Nyepi Day of Silence (around March 19, 2026 [uncertain exact date]): NO transport allowed on roads for 24 hours - airport closed, no scooter/car/Grab. Plan to be in accommodation. Galungan/Kuningan: heavy ceremony traffic, expect delays. Some Balinese drivers off-duty during Odalan temple ceremonies in their home village.",
+    "medical_nearby": "Canggu: Penta Medical Canggu, Hydro Medical Canggu; Kuta: BIMC Hospital Kuta (24h), Siloam Kuta; Nusa Dua/Bukit: BIMC Nusa Dua, Unicare Pecatu Clinic; Sanur: Siloam Hospital Bali Denpasar; for serious injury: BIMC Nusa Dua has international evacuation coordination to Singapore",
+    "nearest_clinic_distance_km": "From Canggu: Penta Medical ~1-3 km, BIMC Kuta ~8 km; from Uluwatu/Pecatu: Unicare Pecatu ~3-5 km, BIMC Nusa Dua ~15 km; from DPS: BIMC Kuta ~3 km; from Sanur: Siloam Denpasar ~3 km [uncertain]",
+    "rescue_jet_ski_available": "N/A",
+    "emergency_contact": "Indonesia general: 112; tourist police: 110; ambulance: 118 or 119; Bluebird dispatch: +62 361 701111; Grab/Gojek emergency SOS button in app; BIMC Kuta: +62 361 761 263; BIMC Nusa Dua: +62 361 3000 911 [uncertain]"
+  },
+  "services": {
+    "nearest_surf_school": "Not transport service directly - but many surf schools include transfer to lessons (Padang Padang Surf Camp, Balitubes pickup from villa)",
+    "board_rental_availability": "Many rental shops deliver boards to villa via scooter or car - typical delivery fee IDR 50-100K within 5-10 km radius",
+    "surf_photographer_available": "Some surf photographers travel by scooter to spots; pickup by photographer's car for full-day shoots possible at premium [uncertain]",
+    "photographer_recommendation": "N/A - covered under photography research item",
+    "accommodation_options": "Most villas/surf camps include free airport transfer with stays of 5+ nights; budget homestays charge IDR 250-400K for airport pickup",
+    "webcam_url": "Surfline cams (https://www.surfline.com) help surfers and drivers decide route based on which coast is firing - useful tool for day-charter planning",
+    "drone_allowed": "N/A for transport",
+    "coworking_nearby": "Outpost Canggu, Outpost Ulu, Tropical Nomad, Dojo Bali, B Work Bali offer scooter parking; some have on-site scooter rental partnerships"
+  },
+  "pricing": {
+    "avg_lesson_price": "N/A for transport",
+    "lesson_price_range_idr": "N/A",
+    "board_rental_daily": "N/A for transport",
+    "gopro_rental_price": "N/A",
+    "wetsuit_top_rashguard_rental": "N/A",
+    "board_repair_avg_price_idr": "N/A",
+    "surf_camp_weekly_package": "N/A",
+    "camp_package_inclusions": "N/A",
+    "peak_vs_offpeak_pricing": "Private drivers: peak Dec-Jan / Jul-Aug rates +10-20%; scooter rentals: largely stable but weekly/monthly discount 30-50% vs daily; airline surfboard fees: same year-round but seat availability tighter peak season; ride-hailing surge pricing on Grab/Gojek during rain or peak demand (2-3x normal fare)"
+  },
+  "sustainability": {
+    "water_quality_rating": "N/A",
+    "eco_certification": "Few transport operators carry formal eco-certification [uncertain]; some EV scooter rental options emerging in Canggu (e.g., Niu electric, Smoot) - quiet and zero local emissions but limited range (~70km)",
+    "carbon_offset_option": "Most airlines (Garuda, Singapore Airlines, EVA, AirAsia, China Airlines) offer voluntary carbon offset at booking; private driver companies rarely offer offsets [uncertain]"
+  },
+  "events_community": {
+    "annual_competition_window": "N/A",
+    "community_events": "N/A"
+  },
+  "visa_logistics": {
+    "visa_type_recommended": "All visa types permit driving with valid IDP (VoA, e-VoA, B211A/C1, E33G KITAS); KITAS holders may convert IDP to local Indonesian SIM Internasional after 6 months",
+    "visa_application_method": "N/A (covered in Visa research item)",
+    "monthly_living_cost_idr": "TRANSPORT MONTHLY BUDGET: Scooter rental monthly IDR 700K-1.2M + petrol IDR 200-400K = IDR 900K-1.6M/month (USD 60-105); private driver day-trips IDR 700K-1M each (used 4-6x/month ~IDR 3-6M); ride-hailing daily users ~IDR 1.5-3M/month; Bluebird daily ~IDR 2-4M/month",
+    "tourist_levy": "Tourist levy (IDR 150K) separate from transport; KITAS holders exempt",
+    "customs_declaration": "Surfboard bags must be declared in All Indonesia e-Arrival Card customs section if carrying commercial quantity; personal surfboard for own use is standard tourist baggage - declare on customs form. Up to USD 500 personal effects allowance.",
+    "surfboard_air_baggage": "GARUDA INDONESIA (FLAG): generous - 23 kg of additional free sports equipment baggage; board bag must not exceed 23 kg or 300 cm; aircraft constraints - CRJ max 230 cm, ATR max 160 cm (relevant for connection flights to Lombok/Sumbawa). AIRASIA (LCC): Free Surfboard Policy on international flights to/from Australia (1 board up to 15 kg free); other international routes including Taipei-Bali, KUL-DPS, BKK-DPS: pre-book 'Sports Equipment' online (MYR 100-250 / USD 20-55 per board up to 200 cm); domestic AirAsia: full fee by weight. Always pre-book online (airport rate 30-50% more expensive). SINGAPORE AIRLINES: surfboards count toward standard checked baggage allowance (Economy typically 30 kg, Premium Eco 35 kg); board bag must not exceed 200 cm length, 75 cm width, 80 cm height - boards over 200 cm subject to oversize charge; pre-notify 48h. CHINA AIRLINES (Taiwan/CI): surfboard treated as oversize sports baggage; standard Economy 30 kg allowance applies if within limit; oversize handling fee per leg ~USD 100-150 [uncertain]; max length typically ~300 cm; require padded board bag, fins removed. EVA AIR (Taiwan/BR): up to 2 boards per bag accepted; dimensions ≤277 cm (109 in): NO oversize charge - this is the surfer-friendly headline; dimensions 277-292 cm (109-115 in): charged at 2 pieces of excess baggage rate; >292 cm: accepted only if cargo hold allows. Standard 30 kg Economy weight allowance. EVA Air is generally considered surfer-friendly for Taipei-Bali route due to the 277cm free oversize threshold. GENERAL TIPS: pre-book online (often half the airport price); use padded board bag/coffin; remove fins; check aircraft type for short-haul connections; pre-notify 48h; consider Garuda for direct domestic Bali-Lombok-Sumbawa connections.",
+    "idp_motorbike_license": "IDP (International Driving Permit) is MANDATORY for foreigners driving any motorized vehicle in Indonesia, including scooters/motorbikes. CRITICAL: IDP must include motorcycle category endorsement (Class A2 per 1949 Convention or Class A per 1968 Convention) AND home-country driver's license must show motorcycle authorization. A car-only license + IDP does NOT cover scooter riding. ENFORCEMENT (2026): Bali police task force runs daily checkpoints in tourist corridors (Canggu Berawa, Uluwatu Jl. Labuansait, Kuta Legian) targeting foreigners on scooters. On-the-spot fines IDR 250,000-1,000,000 for lacking IDP/STNK/helmet. INSURANCE: riding without proper IDP + motorcycle endorsement INSTANTLY VOIDS travel insurance (World Nomads, SafetyWing etc.) - any crash injury becomes 100% out-of-pocket. Motorbike crashes are the #1 cause of tourist hospitalization in Bali. WHERE TO GET IDP: from home country auto club BEFORE travel (AAA in US, Taiwan DMV, AA in UK, AAA Singapore, JAF in Japan, KAMA in Korea); in-country IDP from Indonesia possible but bureaucratic. Always wear helmet (legal requirement, IDR 250,000 fine if not). For surfers using board racks: extra caution at checkpoints, secure straps to prevent fall risk.",
+    "surf_travel_insurance": "All surf travel insurance (World Nomads, SafetyWing, IMG, Allianz, etc.) requires valid IDP + motorcycle endorsement for scooter accident claims. Verify before purchase: (1) motorcycle/scooter activity must be explicitly included, (2) requires valid IDP, (3) requires helmet worn at time of accident, (4) some policies require ≤125cc engine size. Coverage typically includes emergency medical, evacuation to Singapore (USD 500,000+ recommended), reef cut treatment, board bag baggage cover. For E33G KITAS holders: travel insurance often NOT accepted by immigration - need proper international health insurance (Cigna Global, IMG Global, Allianz Care)."
+  },
+  "uncertain": [
+    "religious_sensitivity",
+    "resident_local_legends",
+    "surf_photographer_available",
+    "nearest_clinic_distance_km",
+    "emergency_contact",
+    "peak_vs_offpeak_pricing",
+    "eco_certification",
+    "carbon_offset_option",
+    "monthly_living_cost_idr"
+  ]
+}

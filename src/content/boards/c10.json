@@ -1,0 +1,105 @@
+{
+  "basic_info": {
+    "名稱": "Wide Swallow / Bat Tail Groveler (寬燕尾 / 蝙蝠尾 groveler)",
+    "分類": "板型分類",
+    "適用程度": "全程度(初學-進階皆有對應尺寸;進階者可玩 bat tail,初中階可玩 wide swallow)",
+    "一句話定位": "靠加寬尾 + 燕/蝙蝠開口解放尾速,小浪 paddle 強、turn 仍夠靈活"
+  },
+  "buoyancy_strategy": {
+    "Guild_Factor_GF": "Wide swallow / bat tail groveler 屬於小浪專用,建議 GF 比 HPSB 高 0.03-0.06:進階 0.38-0.40;中階 0.40-0.45;新手 0.45-0.55。Sweet Potato 2026 為極端 case,GF 可達 0.55+(短而厚)。",
+    "浮力公式": "建議倍率:進階 0.40 x 體重;中階 0.45 x 體重;體能下降者 0.48 x 體重。例如 70kg 中階玩家:70 x 0.45 = 31.5L,對應 Sweet Potato 2026 5'4\"(34.6L)或 Cymatic 5'7\"(約 31L)。",
+    "相對日常板浮力增量": "相對 HPSB 建議 +20% ~ +35%。Wide swallow 因 outline 更寬 + 短,需更多 L 才能維持等同 paddle 力;bat tail(較窄版)+15% ~ +25%。",
+    "浮力範圍_體重對照": "50kg → 23-28L(Sweet Potato 2026 5'2\"=31L 偏多/Cymatic 5'2\");60kg → 28-34L(Sweet Potato 5'4\"=34.6L / Cymatic 5'5);70kg → 33-40L(Sweet Potato 5'6\"=37.8L / Phantom 5'8);80kg → 38-46L(Sweet Potato 5'8-5'10);90kg+ → 45-55L(Sweet Potato 5'10-6'2)。",
+    "小浪修正係數": "Groveler 專用 +5L 已經內建在 wide swallow 設計;不需額外加。若用 bat tail(較窄/拉腰的 Cymatic 風)則 +3L。",
+    "BMI_體脂修正": "高 BMI 肌肉型:可選範圍下限,因爆發力大;高 BMI 脂肪型:選範圍上限,paddle 較吃力;低 BMI 偏瘦型:可下殺到範圍中下,享受 wide swallow 的釋放感。",
+    "年齡_體能修正": "40 歲以上:在 Wide swallow groveler 上加 5-10% 浮力(改選 Sweet Potato);bat tail(Cymatic)較難,不建議高齡降級。",
+    "品牌計算器差異": "Lost / CI 自家計算器偏低(Sweet Potato 的 Mannkine 偏推進階規格,中階玩家應 +1-2L);Firewire 計算器準;Mick Fanning Softboards 等軟頂普遍誇大實際感覺浮力。",
+    "亞洲體型修正": "亞洲 60-70kg 玩家,Sweet Potato 5'4\"(34.6L)或 5'6\"(37.8L)為熱門;bat tail 派(Cymatic 5'5-5'7)約 27-31L。 [uncertain]"
+  },
+  "shape_details": {
+    "Length 板長": "極短:Sweet Potato 2026 5'2\"-6'4\";Cymatic 5'0\"-6'4\";Channel Islands Phantom(wide squash + diamond hint)5'7\"-6'4\"。相對日常 HPSB 縮短 -4\"~-7\"(wide swallow)或 -3\"~-5\"(bat tail)。",
+    "Width 板寬": "寬:Sweet Potato 2026 21.44\"-23.13\"(全系列 wide);Cymatic 17.88\"-21.25\";Phantom 約 19.5\"-21\"。Wide swallow 在板寬上明顯勝過 bat tail。",
+    "Thickness 板厚": "厚:Sweet Potato 2026 2.31\"-3.25\";Cymatic 2.13\"-3.00\";Phantom 約 2 3/8\"-2 3/4\"。Wide swallow 同長板厚常多 1/4-3/8 inch。",
+    "Nose_Rocker": "極低:Sweet Potato 2026 約 4.0\"-4.4\"(超平);Cymatic 約 4.8\"-5.0\"(snub nose 但 rocker 仍中等);Phantom 約 4.5\"-4.8\"。 [uncertain]",
+    "Tail_Rocker": "中低:Sweet Potato 2026 約 2.0\"-2.3\"(平 + 寬尾 = 極致小浪 lift);Cymatic 約 2.5\"-2.7\"(增加 rocker 換取陡浪適性);Phantom 約 2.3\"-2.5\"。 [uncertain]",
+    "Entry_Rocker": "Sweet Potato 採極平 entry rocker 換取 paddle / wave catching;Cymatic 折衷,保留略 curvy entry 以防陡浪 pearl;Phantom 偏 mid-rocker。",
+    "Wide_Point_Position": "Wide swallow(Sweet Potato)wide point at center 或略前 1\";Cymatic 因 snub + pulled tail,wide point 偏前 1-2\";Phantom wide squash 接近 center。 [uncertain]",
+    "Nose_Width_at_12_inch": "Sweet Potato 2026 約 13.5\"-14.5\"(極寬,接近 fish);Cymatic 因 snub 約 12.0\"-12.5\"(實際截斷端);Phantom 約 13.0\"-13.5\"。 [uncertain]",
+    "Tail_Width_at_12_inch": "重點欄位 — Sweet Potato 2026 約 16.5\"-17.5\"(wide swallow 簽名);Cymatic pulled bat tail 約 15.0\"-15.5\";Phantom wide squash with diamond hint 約 16.0\"-16.5\"。 [uncertain]",
+    "Bottom_Contour 板底設計": "Sweet Potato 2026 採 deep double barrel concave(深雙桶 concave,深度估 8-12mm)讓寬板感覺窄 + 釋放尾速;Cymatic 採 Quad Inside Single Concave(QISC,深 5-8mm);Phantom 採 single-to-double + slight V exit。",
+    "Tail_Shape 板尾形狀": "Wide swallow(Sweet Potato 2026):深開口 + 寬尾,小浪 paddle / lift 最強,backside hold 為弱項;Bat tail(Cymatic):中央凸起 + 兩翼,結合 swallow 的 release + squash 的面積 + 中央 grip;Wide squash with diamond hint(Phantom):大面積 + diamond 提供視覺與功能性轉折,中性平衡。",
+    "Rail_Profile": "Sweet Potato 偏 boxy 中段 + soft rail 尾段(易上手、忍受失誤);Cymatic boxy mid + hard edge 尾段(進階手感);Phantom 採中性 medium rail。",
+    "Rail_Volume_Distribution": "Wide swallow groveler rail volume 集中在 wide point 後半段,尾段保留厚度以支撐寬尾;bat tail 體積分布偏均勻。",
+    "Foam_Distribution": "胸下集中 + 尾部寬廣(double-zone distribution);Sweet Potato 因雙桶 concave 在中央 paddle 槽道有額外 foam 集中;Cymatic 更均勻;Phantom 較傳統 shortboard 分布。",
+    "Outline 輪廓曲線": "Sweet Potato 2026 寬而圓的 fishy outline;Cymatic 切掉 nose + 收窄 tail = 中軸對稱菱形感;Phantom wide-point-at-center 的對稱菱形(diamond hint)。"
+  },
+  "fin_setup": {
+    "主要_Setup": "Sweet Potato 2026:Quad 或 5-fin(quad 為原意,小浪極致釋放);Cymatic:5-fin(thruster / quad 皆可,quad 更貼合 QISC);Phantom:thruster 或 5-fin。",
+    "Fin_Cant": "小浪 wide swallow 建議 fin cant 6-7°(loose 取向)→ 加強 release;bat tail(Cymatic)可用 4-5°(drive 取向)平衡 looseness。 [uncertain]",
+    "Fin_Toe": "Wide swallow 建議 toe 1/8\"+(增加 looseness 對應寬尾);bat tail 1/16\"-3/32\"(中性)。",
+    "Fin_Foil": "Front fin: Inside foil(hold + lift);Rear quad: flat foil(speed);Thruster center: 50-50。",
+    "Fin_Rake_Sweep": "Wide swallow groveler 強烈推薦 upright fin(less rake) → 短 turn radius、快 acceleration。Cymatic 可用中等 rake。",
+    "Fin_Area_Template": "中型 area 為基準:Sweet Potato 推 Futures Mayhem Quad / Rusty Fish Quad;Cymatic 推 AM2(thruster)或 Mayhem Quad;Phantom 推 AM2 / CI Upright。體重 80kg+ 改用大 area。",
+    "Quad_Rear_Position": "Sweet Potato 2026 quad rear 建議靠 rail 1/2\"(release 取向、小浪 looseness);Cymatic quad rear 建議靠 stringer 1/4\"(drive 取向,搭配 QISC)。",
+    "2plus1_vs_PureTwin": "Wide swallow 系列大多不採 2+1(主要靠寬尾自身浮力);Pure twin 在 wide swallow 上提供最大 drive 但 backside hold 弱(需配 trailer 或選 quad)。Cymatic / Phantom 不採 2+1。"
+  },
+  "construction": {
+    "PU_PE 在小浪": "Wide swallow groveler 在 PU/PE 構造下:knifey rail feel 對寬板 rail-to-rail 控制有幫助、入水更穩;但 PU 厚重 wide groveler 整體偏鈍,失去小浪靈巧。Lost / CI 仍提供 PU 版 Sweet Potato / Phantom。",
+    "EPS_Epoxy 在小浪": "Wide swallow groveler 在 EPS 構造下:Firewire Helium(HD EPS sandwich)是 Sweet Potato 旗艦選擇,輕量利於 pump 與 air;同浮力數值感覺多 2-3L(更明顯)。",
+    "HD_EPS": "Lost Lightspeed II(Sweet Potato 派);Firewire Helium / I-Bolic(Cymatic 派);Channel Islands TL Pro Carbon(Phantom 派,Surftech 製)。HD EPS 介於 PU 與標準 EPS,壽命與手感平衡。",
+    "Glassing_Schedule": "Wide groveler 通常採 6+4/6 standard 以承受寬尾扭力;進階競賽版偶有 4+4/4 lightweight comp(易碎但快);旅行版採 6+6/6。",
+    "新技術": "Firewire Helium(HD EPS + airlite sandwich)為 Sweet Potato 2026 主推;Slater Designs I-Bolic(平行內梁)為 Cymatic 旗艦;Lib Tech NTL / Haydenshapes FutureFlex 為其他寬尾 groveler 的選項。"
+  },
+  "conditions_fit": {
+    "浪高範圍": "Sweet Potato 2026:1-5ft(極軟浪到中浪);Cymatic:1-6ft(全方位小至中浪);Phantom:1-4ft 為主(wide squash 小浪靈活)。",
+    "浪質": "Wide swallow:軟浪 / 飽滿浪 best;空心浪不佳(寬尾難收線);Bat tail(Cymatic):飽滿浪 + 中等空心浪皆可;Wide squash + diamond(Phantom):軟到中等浪面皆可,真空心浪轉用 HPSB。",
+    "浪型": "beach break 全勝(寬尾 paddle 力 + 短截面起乘優勢);point break 中等(線條較緊但 wide tail 在長平段可滑行);reef break 不建議(寬尾 + 短長度在陡 hollow 面難 hold)。",
+    "不適合場景": "1) 6ft+ 大浪或 hollow barrel(寬尾無法 hold);2) 高速 point break carving line(wide outline 拉不開);3) backside vertical snap(swallow / bat 偏 frontside);4) 競賽 punt scoring(non-HPSB 板款 air 落地穩定度受評審心理影響 [uncertain])。"
+  },
+  "performance": {
+    "划水容易度": "Wide swallow 是 paddle 力之王(寬度 + 短長 + 厚度 + flat rocker);Sweet Potato 2026 5'6\"(37.8L)可在 1ft mush 划得起來;Cymatic 略遜但仍勝 HPSB。",
+    "起乘速度": "極快;wide tail + flat rocker = 早起浪、最低浪能要求。",
+    "Glide 平面速度": "Sweet Potato 2026 在平段 down-the-line 速度勝過同身高 HPSB 約 10-20%;Cymatic 因 QISC 在略陡浪面速度可超越 Sweet Potato。 [uncertain]",
+    "Pump 效率": "Wide swallow 不需太多 pump(寬尾自身產 lift);Cymatic / Phantom 透過 pump 也能釋放更多速度。",
+    "轉向靈活度": "Wide swallow tight pocket 受限(寬尾轉小半徑難);Cymatic / Phantom 因 pulled-in tail 仍可 tight pocket。Bat tail 中央 grip 提供 swallow 缺乏的 pivot 感。",
+    "Vertical 能力": "Wide swallow vertical 較弱(寬尾難 release lip);Cymatic 因 pulled tail + QISC vertical 反應好;Phantom diamond hint 提供視覺 release 點。",
+    "空中動作能力": "Wide swallow 因 lift 充足,small wave air 落地穩;Bat tail 對 frontside air 釋放快;均比 HPSB 易玩 small wave air。",
+    "Backside_vs_Frontside": "Wide swallow 在 backside 因寬尾 hold 不足略弱(尤其純 twin);Bat tail / wide squash 兩面較平衡(thruster / quad 設定)。"
+  },
+  "practical_selection": {
+    "代表板款": "Lost / Firewire Sweet Potato 2026(wide swallow 進化版,Dan Mann 設計的新尾型);Slater Designs Cymatic(bat tail,Tomo 設計);Channel Islands Phantom(wide squash with diamond hint,2024-2025 新作 [uncertain]);Lost RNF Retro Twin(wide swallow + retro twin fin);JS Industries Black Baron 2(wide outline swallow / squash 混合);Pyzel Phantom(同名不同款,wide squash 派 [uncertain])。",
+    "常見錯誤": "1) Sweet Potato 拿去玩陡浪 → wide tail 無法 hold;2) bat tail 配大 rake fin → 抵銷 QISC lift;3) glassing 太重 → 失去 wide swallow 的小浪靈巧;4) 浮力給太多(+50%)→ 寬尾本來就浮,變成只能滑;5) 用 wide swallow 學 backside snap → 卡住挫折。",
+    "升級陷阱": "Sweet Potato 是 fun 板但不是進階 progression 板,長期只用會錯失 vertical / barrel 技巧;Cymatic 較 progression-friendly。新手切忌跳級買 Cymatic(QISC 需高技術駕馭)。",
+    "搭配_fin 建議": "Sweet Potato 2026:Quad Futures Mayhem Quad(MR Twin+1)或 Rusty Fish Quad;Cymatic:Thruster Futures AM2 / FCS Performer / Slater Designs SF 模板;Phantom:Thruster Futures AM2 / CI Upright。寬尾 quad rear 略外移加 looseness。",
+    "二手板評估": "Wide swallow 二手板:檢查尾翼 tip(易撞 ding)、deck dent(寬板腳印明顯);Firewire / Helium 二手價穩;PU 版 wide swallow 多年後 stringer 變形是常見問題。",
+    "Quiver 規劃": "Sweet Potato + HPSB = 2-board quiver 涵蓋 1-6ft;Sweet Potato + Cymatic + HPSB = 3-board 完整涵蓋 1ft 到 head-high+。Wide swallow 與 bat tail 互補(不重複)。",
+    "預算建議": "Firewire Helium Sweet Potato 新板 USD 800-950 / NTD 26,000-32,000;Slater Designs Cymatic I-Bolic 約 USD 850-950;CI Phantom PU 約 USD 700-800;軟頂類似板款(Catch Surf Odysea wide tail)USD 350-500。二手 wide swallow 約 USD 400-500 很容易找到。"
+  },
+  "pro_reference": {
+    "Stab_in_the_Dark": "Stab in the Dark 2024 / 2025 多次出現 wide tail groveler / bat tail 設計參賽;Sweet Potato 系列雖未直接進入 SitD 競賽,但 Lost Pisces / Lost Puddle Jumper HP 等同類 wide swallow 曾入圍。Cymatic 因 Kelly Slater 主導,常以對照組身分出現。 [uncertain]",
+    "WSL_CT 選手選擇": "CT 比賽板仍以 HPSB 為主,wide swallow / bat tail 多在 freesurf 環節使用;Kelly Slater 在 podcast 多次推薦 Cymatic 為小浪 go-to;Gabriel Medina 在 Pipe 練習時用過 bat tail 設計 [uncertain]。",
+    "Free_surf 風格參考": "Asher Pacey(twin / wide tail 派代表);Dan Mann(Sweet Potato 設計者本人);Daniel Tomo Thomson(Cymatic / bat tail 設計者);Mikey February(Twin Pin 風格與 wide swallow 有共鳴)。"
+  },
+  "local_taiwan_context": {
+    "浪點適配": "中角:Sweet Potato 是東北季風 mush wave 神器;烏石:夏季小颱風浪用 Sweet Potato / Cymatic 皆可;金樽:point break 較長線條,Cymatic 比 Sweet Potato 線條更美;佳樂水:reef 飽滿浪用 Cymatic 比 Sweet Potato 安全;南灣:小 mush 是 Sweet Potato 絕配;東澳粉鳥林:hollow beach break 不適合純 wide swallow,推 Cymatic 或 Phantom。 [uncertain]",
+    "進口_訂製": "Firewire Sweet Potato / Slater Designs Cymatic / CI Phantom 在台灣為進口為主,VAST / Jpsurf / 各大衝浪店有現貨或代訂;國內 shaper(如 Decathlon Olaian 不在此列)復刻 wide swallow 較常見、bat tail 因專利幾乎沒有。",
+    "中文社群迷思": "1) 「Sweet Potato 是新手板」→ 半對,新手可玩但要選大一號;進階者反而也愛;2) 「Cymatic 跟 Sci-Fi 一樣」→ 不同,Cymatic tail 更收 + rocker 更高;3) 「wide swallow 不能 frontside snap」→ 錯,只是線條不同;4) 「diamond tail 是裝飾性」→ Phantom 的 diamond hint 有功能性釋放點。 [uncertain]",
+    "在地教練建議": "VAST / Jpsurf 對中階以上學員推 Sweet Potato 入手 wide swallow;Hooked Taiwan 對進階推 Cymatic;Decathlon 階段建議軟頂寬尾,先建立小浪 paddle / takeoff 基礎再進階。 [uncertain]"
+  },
+  "uncertain": [
+    "Nose_Rocker",
+    "Tail_Rocker",
+    "Wide_Point_Position",
+    "Nose_Width_at_12_inch",
+    "Tail_Width_at_12_inch",
+    "Fin_Cant",
+    "Glide 平面速度",
+    "亞洲體型修正",
+    "Stab_in_the_Dark",
+    "WSL_CT 選手選擇",
+    "浪點適配",
+    "中文社群迷思",
+    "在地教練建議",
+    "代表板款"
+  ]
+}

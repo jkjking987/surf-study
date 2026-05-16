@@ -1,0 +1,101 @@
+{
+  "id": "C8",
+  "basic_info": {
+    "名稱": "Performance Soft-top (高階軟頂)",
+    "分類": "板型分類",
+    "適用程度": "全程度,但設計上偏向中階至進階騎手與『想在 mush 浪保有 performance 感』的玩家",
+    "一句話定位": "Futures fin box + EVA deck + 真實 shortboard outline 的高階軟頂,職業在大浪也敢用"
+  },
+  "buoyancy_strategy": {
+    "Guild_Factor_GF": "Performance soft-top 普遍 GF 0.50-0.70,比同尺寸 PU 短板更高。Almond Secret Menu 5'4\" (36.4L) → 70kg 騎手 GF 0.52;Catch Surf Skipper JOB Pro 5'6\" (42L) → 70kg GF 0.60。Jamie O'Brien 等職業可壓到 GF 0.40-0.45",
+    "浮力公式": "建議倍率:體重(kg) × 0.55-0.75 = 浮力(L)。Catch Surf 官方建議 5'6\" Pro Skipper 適 60-80kg;6'0\" Skipper (48L) 適 70-90kg;6'6\" Skipper (55L) 適 80-100kg+",
+    "相對日常板浮力增量": "相對 HPSB +30% 至 +60%。Almond Secret Menu 5'4\" 因 mini Simmons 短寬設計,foam 比同長度 PU 短板多 +30%;Catch Surf 同尺寸比 PU shortboard 多 +20-40% foam 設定。Performance soft-top 與 groveler 浮力策略類似",
+    "浮力範圍_體重對照": "50kg:30-36L;60kg:35-42L;70kg:40-48L;80kg:46-54L;90kg+:52-60L。Almond R-Series 5'4\" Secret Menu (36.4L) / Pleasant Pheasant 6'4\" (50L) / Joy 8'0\" (72.2L) 涵蓋此區間;Catch Surf Skipper 5'6\"-6'6\" (42-55L) 對應中量級主力區",
+    "小浪修正係數": "Performance soft-top 已內建 +3-5L groveler 級浮力修正。在 1-2ft 軟浪不需再額外加,板款本身定位即為 mushy 浪武器",
+    "BMI_體脂修正": "高 BMI 肌肉型:選靠下限(5'4\" 36L Secret Menu / 5'6\" 42L Skipper);高 BMI 脂肪型:取上限避免起乘掙扎(6'0\"+);低 BMI 偏瘦型:performance soft-top 是輕量騎手探索小浪極端的最佳選擇",
+    "年齡_體能修正": "40+ 騎手可選大 0.5\" (5'6\" → 6'0\" Skipper);軟頂特有的 forgiving 特性對年長騎手友善,膝蓋衝擊與起乘失誤成本低",
+    "品牌計算器差異": "Almond R-Series 官方標示精準(closed-cell foam 浮力穩定);Catch Surf 官方體重區間建議偏保守(實際可下修 -1 size);JS Big Baron softboard 浮力與其 PU 同款相當(因採 EPS 核 + 同款 shape);[uncertain] 大多數 soft-top 品牌不公開精確 L 數演算法",
+    "亞洲體型修正": "亞洲 60-70kg 騎手 Catch Surf 5'6\" Pro Skipper (42L) 或 Almond 5'4\" Secret Menu (36.4L) 為首選;比歐美建議 6'0\"+ 略短。日本 / 台灣騎手實證 5'4\" Secret Menu 在 165-175cm 騎手身上非常順手"
+  },
+  "shape_details": {
+    "Length 板長": "5'4\" - 7'0\" 為主力區間。Almond R-Series Secret Menu 5'4\";Catch Surf Pro Skipper 5'6\"/6'0\"/6'6\";Catch Surf Pro Log 7'0\";JS Big Baron Softboard 6'4\"-7'6\";Surftech Blacktip 6'2\"-8'0\"。Jamie O'Brien 在 Pipeline 拍片用過 5'6\" Pro Skipper 與 8'0\" Fun Day soft-top",
+    "Width 板寬": "20\" - 22.5\";Almond Secret Menu 5'4\" 約 21.5\";Catch Surf Pro Skipper 5'6\" = 21.0\", 6'0\" = 21.5\", 6'6\" = 22.0\";JS Big Baron 6'4\" 約 21\"+;Surftech 系列偏寬 21.5\"-23\"",
+    "Thickness 板厚": "2.5\" - 3.5\";Catch Surf Skipper 5'6\" = 2.875\", 6'0\" = 3.0\", 6'6\" = 3.125\";JS Big Baron 6'4\" 約 2.5\"-2.7\";Almond R-Series 普遍 3\"+。比同長 PU 短板多 0.25\"-0.5\" 厚度(EVA + EPS 結構需要)",
+    "Nose_Rocker": "3.5\" - 5\";Performance soft-top 多採低 nose rocker (3.5-4.5\") 利於 paddle 與 mushy 浪 plane。JS Big Baron『overall flat rocker』;Almond Secret Menu mini Simmons 設計低 nose rocker;[uncertain] 各品牌精確值不公開",
+    "Tail_Rocker": "1.5\" - 2.5\";比 PU 短板略平 -0.5\"。JS Big Baron 強調 flat rocker generates and holds momentum;Catch Surf Skipper 約 2-2.25\";[uncertain] 精確值",
+    "Entry_Rocker": "極平 entry rocker 是 performance soft-top 共性,前段平直利於起乘與 mushy 速度,但在陡浪 stop 較難。JOB 在 Pipeline 騎 soft-top 證明此設計仍可駕馭陡浪,但需更高技術",
+    "Wide_Point_Position": "中心或中心前 1\";Almond Secret Menu (mini Simmons) wide point 在中心;Catch Surf Skipper 中心前 0.5-1\";JS Big Baron 中心前 1\";偏 groveler/fish 配置",
+    "Nose_Width_at_12_inch": "[uncertain] 約 12.5\" - 14\" 區間;比 HPSB (11.5\"-12\") 寬 +1\" 以上;不同於傳統軟頂(寬鼻 14.5\"+),performance soft-top 略收窄保留 performance feel",
+    "Tail_Width_at_12_inch": "[uncertain] 約 15.5\" - 17\";Almond Secret Menu wide tail (mini Simmons 設計);Catch Surf Skipper 偏寬;JS Big Baron 偏中等",
+    "Bottom_Contour 板底設計": "JS Big Baron 採『vee throughout the board from nose to tail with added double concave through the fins』,與 PU 同款 shape 一致;Almond R-Series 為 closed-cell foam 整片 + 模壓底部曲線(細節不公開);Catch Surf Pro 系列為 HDPE slick 底 + 模壓 single concave",
+    "Tail_Shape 板尾形狀": "Squash / Swallow / Fish tail 為主;Almond Secret Menu = wide tail (mini Simmons 偏 squash);Catch Surf Skipper = fish/swallow;Catch Surf Log Pro = squash;JS Big Baron = wide squash。Performance soft-top 為 air、release 取向,少用 pin",
+    "Rail_Profile": "EVA 軟頂 rail 普遍 boxy / 50-50 偏軟,不像 PU 的 hard down rail。但 Performance soft-top 板尾 rail 已模壓收薄至接近 down rail,JS Big Baron『relatively low rails allowing you to still turn at high speed』",
+    "Rail_Volume_Distribution": "中段集中 + 中後段保留 foam (因 EVA 殼增加整體厚度)。比 PU 板 rail volume 大 +15-25%,但 performance soft-top 已盡力收薄 rail",
+    "Foam_Distribution": "胸下集中型(easy paddle);Catch Surf Skipper / Almond Secret Menu 都採 foam 前傾分布。Jamie O'Brien 在 Pipeline 用得起 5'6\" soft-top 與其 foam 集中胸下提供 paddle 速度有關",
+    "Outline 輪廓曲線": "Mini Simmons / Fish / Modern shortboard outline 為主流;Almond Secret Menu = mini Simmons (straight rails + wide tail);Catch Surf Skipper = fish/keel-fish outline;JS Big Baron = modern shortboard outline (與 PU 同款 plan)"
+  },
+  "fin_setup": {
+    "主要_Setup": "Quad 為 performance soft-top 主流(Almond Secret Menu, Catch Surf Pro Skipper Quad);Twin 為 retro 取向(Catch Surf Beater);Thruster 部分款支援(JS Big Baron 為 twin)。Performance soft-top 共通特色:採 Futures 真 fin box 而非 fixed-in fin",
+    "Fin_Cant": "標準 quad 4-5° cant (drive 取向);純 twin 採 standard 6.5-7° cant",
+    "Fin_Toe": "Quad front 1/8\";rear 1/16\";twin 1/8\";與 PU 同款 toe 設定",
+    "Fin_Foil": "Inside foil 為主流 (quad / twin);可用標準 Futures 或 FCS II fin",
+    "Fin_Rake_Sweep": "Performance soft-top 偏 upright pivot fin(短板小浪通用配置);也可裝 keel twin (Mick Mackie / Captain Fin Asher Pacey)",
+    "Fin_Area_Template": "中型 area(M):Futures Rasta Medium / FCS II Performer Medium;搭配 5'4\"-6'0\" performance soft-top 為主",
+    "Quad_Rear_Position": "Catch Surf / Almond 模壓固定 quad rear 位置(無法調),約靠 rail 3/8\"-1/2\" (鬆、加速 in mushy)",
+    "2plus1_vs_PureTwin": "Performance soft-top 較少 2+1;少數 Log Pro 版本(Catch Surf Log JOB 7'0\")為 2+1 single fin + side bites,提供 longboard-style trim"
+  },
+  "construction": {
+    "PU_PE 在小浪": "Performance soft-top 不採 PU 核(改用 EPS / fused cell EPS 核 + EVA / PE 外殼)。但部分品牌(JS Big Baron)的 PU 版本仍存在,提供 hard board 體驗",
+    "EPS_Epoxy 在小浪": "JS Big Baron Softboard 採 EPS core + 4oz × 2 deck + 1× 4oz bottom 玻纖 + 碳纖維 T-stringer + 3mm PE 軟殼 + microdot thermoform 底。同浮力數值體感更輕,pump / 起乘 / air 反應接近 PU",
+    "HD_EPS": "Almond R-Series 採 closed-cell foam (細節接近 HD EPS);Catch Surf Pro 系列為 fused cell EPS core + triple maple-ply stringers (3 木條 stringer)。Performance soft-top 構造基本都比 entry soft-top 強化 -- 接近 HD EPS 概念",
+    "Glassing_Schedule": "JS Big Baron 是少數標明 glass schedule 的 soft-top(2× 4oz deck + 1× 4oz bottom),強化抗變形;Almond R-Series 為 closed-cell 整片無傳統 glass schedule;Catch Surf Pro 為 maple-ply stringer + EPS + 模壓構造",
+    "新技術": "JS Big Baron 的『carbon T-stringer + EPS + PE 軟殼』是當前 performance soft-top 最 hi-tech 構造;Almond R-Series 強調 recyclable closed-cell foam + 環保導向;Catch Surf 推出 OG Deck 2.0 升級版改善 responsiveness 與 durability"
+  },
+  "conditions_fit": {
+    "浪高範圍": "1-6ft 為主場;Jamie O'Brien 紀錄片證實 6'0\"+ soft-top 可駕馭 Pipeline 8-10ft,但需頂尖技術",
+    "浪質": "軟浪 / 飽滿浪 / 中等空心浪皆可;極軟 mushy 是 performance soft-top 最閃光場景;陡空心浪可勉強但需技術",
+    "浪型": "Beach break 為最佳;Point break 也佳(Catch Surf 在 Snapper、Rincon 拍過大量片);Reef break 中等浪可用,陡 reef 需 JOB 級技術",
+    "不適合場景": "(1) Contest 級 vertical 動作:soft-top 仍稍 stiff;(2) 4ft+ 嚴重 onshore 風浪:軟殼較難穿風;(3) 學術上 step-down 已能勝任的 2-4ft 飽滿浪:PU step-down 仍是首選"
+  },
+  "performance": {
+    "划水容易度": "極佳。EVA 殼浮力高、foam 集中胸下,paddle threshold 可下探至腳踝高浪。Jamie O'Brien 證實 5'6\" Pro Skipper 在 2-3ft 軟浪 paddle 比同浮力 PU 更輕鬆",
+    "起乘速度": "極快。flat entry rocker + wide tail + 高 foam 等於 paddle-to-take-off 反應極快",
+    "Glide 平面速度": "中等偏高。JS Big Baron『overall flat rocker generates and holds momentum』;Catch Surf JOB Pro 在 Pipeline 拍片證實 down-the-line 速度可比 PU。EVA 殼與水的摩擦係數略高於玻纖,理論上略慢 [uncertain] 具體 km/h 數據",
+    "Pump 效率": "中。EVA 殼相對 sluggish in pump,但 carbon T-stringer (JS Big Baron) 改善此問題。比 entry soft-top pump 效率高 +50%",
+    "轉向靈活度": "中。Performance soft-top 在 Futures fin box 加持下 carve 接近 PU;但 EVA rail 仍 softer,tight pocket 反應略慢",
+    "Vertical 能力": "中下。Jamie O'Brien 與 Catch Surf 廣告片證實 soft-top 可作 vertical snap 與 close-out lip;但 fin 仍是 quad/twin 流動配置,純 thruster 軟頂少",
+    "空中動作能力": "中。Wide tail + flat rocker 提供 air launch pad;EVA 殼吸震對 air 落地有優勢(JOB『boards don't break, ideal for aggressive surfing』);但 air rotation 因板重略受限",
+    "Backside_vs_Frontside": "Frontside 為主場;Backside 在 quad 配置下保有 hold;純 twin 配置 backside 較弱"
+  },
+  "practical_selection": {
+    "代表板款": "(1) Almond R-Series Secret Menu 5'4\" (36.4L, mini Simmons quad, Futures fin box, recyclable closed-cell foam);(2) Catch Surf Odysea Pro Skipper Jamie O'Brien 5'6\"/6'0\"/6'6\" (42/48/55L, fish quad, hi-performance fin system, fused EPS + triple maple stringer);(3) JS Industries Big Baron Softboard 6'4\"-7'6\" (34.3L-57.9L, twin/quad, EPS + carbon T-stringer + PE 殼);(4) Surftech Super Soft / Blacktip / L2S Softop (偏 funboard/初學);(5) Catch Surf Log Jamie O'Brien Pro 7'0\" (2+1 longboard 版);(6) Almond R-Series Joy 8'0\" / Pleasant Pheasant 6'4\" (50L);(7) Mick Fanning MF SuperSoft (Beastie / DNA Soft) 為主流訓練軟頂;[uncertain] DHD MF Black Diamond Soy 軟頂為 Mick Fanning 環保版本",
+    "常見錯誤": "(1) 把 performance soft-top 當入門軟頂買 → 36-42L 對純新手仍可能太短;(2) 用 thruster 入門 fin → 應裝 quad 取得最大 mushy 表現;(3) 期待當 PU 短板用 → EVA 殼 carve 永遠略 softer;(4) 在大浪硬 carry → soft-top 設計可下大浪但操控需頂尖技術;(5) 不檢查 fin box → 老舊 Catch Surf 軟頂可能 fin box 鬆動",
+    "升級陷阱": "從 entry soft-top 直接跳 performance soft-top 容易感覺『仍是軟頂』而失望;應該明白 performance soft-top 解決的問題是『PU 易壞 + 旅行 + mushy 浪 + 多人浪點安全性』,不是『取代 PU』",
+    "搭配_fin 建議": "(1) Almond Secret Menu quad 主搭:Futures Rasta Quad / Futures Mayhem Quad;(2) Catch Surf Pro Skipper quad 主搭:標配 hi-performance quad (Futures-compatible);(3) JS Big Baron twin 主搭:Captain Fin Mick Mackie Keel / FCS II MR Twin;(4) Log JOB Pro 2+1 主搭:Captain Fin Tyler 8.5\" + 4\" side bites",
+    "二手板評估": "Soft-top 二手要檢查:(1) Deck 是否有大塊 EVA 脫膠 / 掀起(JOB 級重騎易出現);(2) Fin box 是否鬆動 (Futures 螺絲是否還能鎖緊);(3) Bottom HDPE 是否大塊割傷漏水至 EPS 核;(4) 整體是否變形(soft-top 老化易整體軟塌)",
+    "Quiver 規劃": "Performance soft-top 是 quiver 安全網與旅行板:1 塊 HPSB + 1 塊 step-down + 1 塊 performance soft-top = 涵蓋全部浪況,且 soft-top 解決旅行托運與多人浪點安全。也可作為單板 quiver (Jamie O'Brien 部分時期僅用軟頂)",
+    "預算建議": "Almond R-Series 5'4\" Secret Menu USD 545-650;Catch Surf Odysea Pro Skipper JOB USD 425-550;JS Big Baron Softboard USD 595-750;Surftech Super Soft USD 350-450 (偏入門);Catch Surf JOB Log 7'0\" USD 600-750。Performance soft-top 比同尺寸 PU 短板貴 USD 100-200(構造材料成本與 brand premium)"
+  },
+  "pro_reference": {
+    "Stab_in_the_Dark": "[uncertain] Performance soft-top 並非 Stab in the Dark 主流(該賽事為 HPSB),但 Stab Joyride 多次特別測試 Catch Surf 與 Almond 軟頂;Stab 2022/2023 曾發布 Jamie O'Brien 在 Pipeline 軟頂的 mini-doc",
+    "WSL_CT 選手選擇": "WSL CT 選手私下持有但 contest 不用 soft-top;Mick Fanning 退役後推 MF Softboards (MF SuperSoft, Beastie) 為自家軟頂品牌;Joel Parkinson 偶爾用 Catch Surf 玩。Filipe Toledo / Kelly Slater 等較少公開使用",
+    "Free_surf 風格參考": "Jamie O'Brien 是 performance soft-top 第一代表(Catch Surf Pro JOB 系列、Pipeline 8'0\" Fun Day soft-top 8ft 大浪實證);Mick Fanning 推自家 MF Softboards (MF SuperSoft / Beastie);Asher Pacey 亦有 soft-top 玩款 [uncertain]"
+  },
+  "local_taiwan_context": {
+    "浪點適配": "中角(1-3ft 灘浪):Almond Secret Menu / Catch Surf 5'6\" Pro Skipper 完美;烏石港(2-4ft 灘浪含風):Catch Surf 6'0\" Skipper 抗風適中;金樽(2-5ft 右點):JS Big Baron 6'4\"-7'0\" 為 mid-soft 通吃;佳樂水(reef 1-3ft):軟頂安全性對 reef 摔倒友善;南灣(冬北浪 1-3ft):Almond Secret Menu / Catch Surf JOB 5'6\";東澳粉鳥林(2-4ft):Catch Surf Skipper 系列",
+    "進口_訂製": "進口 Almond R-Series Secret Menu 在台公定價約 NTD 19,000-23,000;Catch Surf Pro Skipper NTD 16,000-21,000;JS Big Baron Softboard NTD 22,000-28,000。本土沒有對應 performance soft-top 訂製管道(模具成本高,本土品牌只做 entry soft-top)",
+    "中文社群迷思": "迷思 1:『軟頂等於初學板』→ 錯,Performance soft-top 是進階小浪武器,Jamie O'Brien 等職業實證可下大浪;迷思 2:『軟頂划得動就一切 OK』→ 錯,Catch Surf Pro 系列若沒有體能與技術反而難駕馭;迷思 3:『軟頂不需要好 fin』→ 錯,Futures Rasta / Mick Mackie 等好 fin 對軟頂 carve 有顯著提升;迷思 4:『所有軟頂都防水』→ 錯,EVA 殼割傷後 EPS 核會吸水",
+    "在地教練建議": "JR Surf (宜蘭) 對 Catch Surf JOB 系列有實際庫存可試;VAST (北部) 有部分 Almond / Catch Surf 進口;Decathlon 只賣 entry soft-top (非 performance 等級);Hooked (墾丁) 進階教練熟悉 performance soft-top 配置;建議透過 Surfboard Vault、Single Quiver、Cleanline Surf 等海外網購補進口空白"
+  },
+  "uncertain": [
+    "Nose_Rocker",
+    "Tail_Rocker",
+    "Nose_Width_at_12_inch",
+    "Tail_Width_at_12_inch",
+    "Glide 平面速度",
+    "Stab_in_the_Dark",
+    "Free_surf 風格參考",
+    "品牌計算器差異",
+    "DHD MF Black Diamond Soy 軟頂 (代表板款項末)"
+  ]
+}

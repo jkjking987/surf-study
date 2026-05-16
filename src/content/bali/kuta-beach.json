@@ -1,0 +1,107 @@
+{
+  "basic_info": {
+    "name": "Kuta Beach / 庫塔海灘 / Pantai Kuta",
+    "category": "surf_spot",
+    "region": "West Coast",
+    "gps_location": "-8.7184, 115.1686 (https://maps.google.com/?q=-8.7184,115.1686)",
+    "distance_from_dps_airport_km": 3,
+    "distance_from_canggu_uluwatu_min": "Canggu ~25 min, Uluwatu ~30 min by scooter"
+  },
+  "surf_conditions": {
+    "wave_type": "Beach break, sand-bottom, predominantly left and right peaks with multiple shifting sandbars (Halfway Kuta is the most reliable peak)",
+    "skill_level": "Beginner; small days suit intermediates on longboards",
+    "wave_height_range": "1-4 ft typical; up to 6 ft on bigger swells",
+    "bottom_type": "sand",
+    "best_season": "Dry season (May-October); wet season (Nov-Mar) is onshore and has rubbish/poor water quality",
+    "best_tide": "Mid to high tide for cleaner faces; low to mid tide for whitewater learning",
+    "best_wind": "Offshore from E/NE/N (early morning best before sea-breeze turns onshore SW)",
+    "best_swell_direction": "SW to S groundswells",
+    "swell_consistency_rating": 4,
+    "wave_length_meters": "30-80 m depending on sandbar configuration",
+    "wave_speed_rating": "slow to medium",
+    "takeoff_zone_difficulty": "Easy, soft sand-bottom take-offs with low drop; very forgiving for beginners",
+    "secondary_peaks": "Multiple shifting peaks along the beach; Halfway Kuta is the main peak, with inside whitewater reforms ideal for learners",
+    "peak_crowd_level": "5 (very crowded year-round, peak July-Aug and Dec-Jan with surf schools dominating the inside)"
+  },
+  "practical_info": {
+    "access": "Walk directly onto the sand from Jalan Pantai Kuta; public beach with multiple access points; no stairs or scrambling required",
+    "paddle_out_method": "Walk out from the sand through whitewater; duck-dive or push through small inside waves; no channel required",
+    "entry_fee": "Free beach access; scooter parking IDR 5,000, car parking IDR 10,000",
+    "recommended_session_time": "Dawn patrol (5:30-8:00 AM) for cleanest conditions and lighter crowd; sunset session for ambience",
+    "best_time_of_day": "Before 8 AM to avoid surf-school crowds and onshore wind",
+    "nearby_warung": "Numerous beachfront warungs, cafés, and coconut stalls along Pantai Kuta; Made's Warung, Kuta Beachwalk food court within walking distance",
+    "alternative_spot_within_10min": "Legian Beach (5 min north), Seminyak / Double Six (10 min north), Tuban / Halfway Kuta (5 min south)",
+    "boat_charter_required": "No",
+    "combo_trip_potential": "[uncertain] Typically not a combo-trip base; mainly a learner day-spot. Could pair with Bukit day-trips."
+  },
+  "safety_culture": {
+    "hazards": "Rip currents (especially on bigger swells), heavy beachgoer traffic, jet-skis and banana boats in adjacent zones, occasional wet-season debris/jellyfish",
+    "marine_hazards": "Minor jellyfish stings during wet season; rare blue-bottle (Portuguese man o' war) sightings; no reef, no urchins; treat jellyfish stings with vinegar and warm water",
+    "reef_cut_severity_index": "0 / N-A (pure sand bottom, no reef cuts)",
+    "rip_current_pattern": "Rips form between sandbars; identifiable as darker, calmer channels of water moving seaward, often with foam/debris streaks. Swim/paddle parallel to shore to escape.",
+    "lineup_etiquette": "Standard right-of-way rules (surfer closest to peak has priority); be courteous to surf-school groups who occupy the inside; no drop-ins; smile and say hi",
+    "localism_intensity": "low",
+    "respect_protocol": "Tip beach attendants and parking guards; do not interfere with surf-school lessons on the inside; pick up your trash",
+    "resident_local_legends": "[uncertain] Kuta has produced many Indonesian pro surfers historically; specific named locals less iconic than Bukit reefs",
+    "religious_sensitivity": "Pura Segara nearby; during Nyepi (Balinese Day of Silence, March) the beach is closed and no surfing is allowed; respect ceremonies (melasti processions) on the beach",
+    "medical_nearby": "BIMC Hospital Kuta (Jl. Bypass Ngurah Rai 100X), Siloam Hospitals Denpasar, Kasih Ibu Hospital Kuta",
+    "nearest_clinic_distance_km": 2,
+    "rescue_jet_ski_available": "Balawista lifeguards on duty with rescue boards and occasional jet-ski; lifeguard towers along the beach",
+    "emergency_contact": "Balawista Bali Lifeguard: +62 361 755660; Ambulance: 118; Police: 110; BIMC Kuta: +62 361 761263"
+  },
+  "services": {
+    "nearest_surf_school": "Odyssey Surf School, Kuta Surf School, Pro Surf School Bali, Rip Curl School of Surf, Chandra's Surfing Bali - all directly on or adjacent to Kuta Beach",
+    "board_rental_availability": "Widely available beachfront; soft-tops, funboards, shortboards from IDR 100,000/day",
+    "surf_photographer_available": "Yes, land-based photographers along the beach offering pay-per-session photos",
+    "photographer_recommendation": "[uncertain] Various freelance beach photographers; typical rate IDR 200,000-500,000 per session/photo package",
+    "accommodation_options": "Hard Rock Hotel Bali, Hotel Indigo Bali Seminyak Beach, Poppies Lane 1 & 2 budget homestays, Kuta Seaview Boutique Resort, surf camps like Padang Padang Surf Camp (nearby)",
+    "webcam_url": "https://www.surfline.com/surf-report/kuta-beach/640a67e745190540b0a65fe6 (Surfline Kuta cam) [uncertain exact URL]",
+    "drone_allowed": "Generally yes for recreational use; commercial use requires permit; avoid flying over crowds and during ceremonies",
+    "coworking_nearby": "Tropical Nomad (Canggu, ~25 min), Dojo Bali (Canggu), B Work Bali (Berawa) - no major coworking directly in Kuta"
+  },
+  "pricing": {
+    "avg_lesson_price": "IDR 350,000-650,000 (USD 22-42 / TWD 700-1,350) per 2-hour group lesson",
+    "lesson_price_range_idr": "IDR 250,000 (budget group) - IDR 850,000 (private 1-on-1)",
+    "board_rental_daily": "IDR 100,000-200,000 (USD 6-13) per day for soft-tops/shortboards",
+    "gopro_rental_price": "[uncertain] Typically IDR 150,000-250,000/day including SD card",
+    "wetsuit_top_rashguard_rental": "[uncertain] Rashguards usually included with lesson; standalone rental ~IDR 50,000/day",
+    "board_repair_avg_price_idr": "[uncertain] Small ding repair IDR 100,000-300,000 depending on size",
+    "surf_camp_weekly_package": "[uncertain] Not a primary surf-camp hub; nearby camps (Padang Padang Surf Camp, Odyssey) offer 7-day packages from USD 600-1,200",
+    "camp_package_inclusions": "[uncertain] Typical inclusions: accommodation, breakfast, daily lessons, board use, airport transfer, video analysis",
+    "peak_vs_offpeak_pricing": "[uncertain] Peak season (Jul-Aug, Dec-Jan) ~15-25% higher than shoulder months"
+  },
+  "sustainability": {
+    "water_quality_rating": "Moderate to poor in wet season (Nov-Mar) due to runoff and plastic pollution; acceptable to good in dry season; ongoing beach clean-up initiatives by Sungai Watch and local community",
+    "eco_certification": "[uncertain] No spot-level certification; individual schools may hold certifications",
+    "carbon_offset_option": "[uncertain] Some surf camps in greater Bali offer carbon offsets, not specific to Kuta"
+  },
+  "events_community": {
+    "annual_competition_window": "[uncertain] Kuta historically hosted Coca-Cola Kuta Pro and various junior events; currently fewer pro events; community contests during dry season",
+    "community_events": "Daily Balawista beach clean-ups; informal sunset gatherings; Bali Spirit Festival nearby; surf school graduations and weekly contests"
+  },
+  "visa_logistics": {
+    "visa_type_recommended": "N-A (spot-level, not practical category)",
+    "visa_application_method": "N-A",
+    "monthly_living_cost_idr": "N-A",
+    "tourist_levy": "N-A",
+    "customs_declaration": "N-A",
+    "surfboard_air_baggage": "N-A",
+    "idp_motorbike_license": "N-A",
+    "surf_travel_insurance": "N-A"
+  },
+  "uncertain": [
+    "combo_trip_potential",
+    "resident_local_legends",
+    "webcam_url",
+    "photographer_recommendation",
+    "gopro_rental_price",
+    "wetsuit_top_rashguard_rental",
+    "board_repair_avg_price_idr",
+    "surf_camp_weekly_package",
+    "camp_package_inclusions",
+    "peak_vs_offpeak_pricing",
+    "eco_certification",
+    "carbon_offset_option",
+    "annual_competition_window"
+  ]
+}

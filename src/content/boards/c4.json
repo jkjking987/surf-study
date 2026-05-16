@@ -1,0 +1,95 @@
+{
+  "id": "C4",
+  "basic_info": {
+    "名稱": "Modern Twin Fin (現代雙鰭短板)",
+    "分類": "板型分類",
+    "適用程度": "中階至進階(部分大尺寸/帶 stab 選項可下放中階)",
+    "一句話定位": "2021-2026 最大趨勢;鎖定 shortboard 板長/曲線、配 twin fin 設定的新獨立板型"
+  },
+  "buoyancy_strategy": {
+    "Guild_Factor_GF": "Modern Twin Fin 建議 GF 約 0.38-0.44;比 HPSB(0.34-0.38)高一級,但比 Fish/Groveler(0.42-0.50)略低,因為它保留 shortboard 曲線需要技術掌控。頂尖玩家(如 Asher Pacey)壓到 0.36-0.38;中階週末玩家 0.40-0.44。例:CI Twin Pin 5'11 為 ~32-33L,適合 70-80kg 中階(GF ≈ 0.41-0.47)。",
+    "浮力公式": "體重(kg) × 0.40-0.44 = 建議浮力(L)。例如 75kg × 0.42 = 31.5L。CI Twin Pin 與 Album Twinsman 官方建議「比 HPSB 大 2-3L、長 2-3 吋」。",
+    "相對日常板浮力增量": "相對 HPSB +10% 至 +15%;比 Modern Fish 的 +15-20% 略保守。HPSB 28L 玩家 → Modern Twin Fin 31-32L;HPSB 32L 玩家 → 35-37L。",
+    "浮力範圍_體重對照": "50kg → 21-23L (5'4-5'6 Twinsman/Black Baron);60kg → 24-27L (5'6-5'8);70kg → 28-31L (5'8-5'10,例 Twinsman 5'10 33.6L 略上限);80kg → 32-36L (5'10-6'0,例 Tiger Twin 6'0 37.3L);90kg+ → 36-42L (6'0-6'4,Big Baron 系列)。",
+    "小浪修正係數": "Modern Twin Fin 已具備 small-wave DNA,軟浪建議在計算結果上 +2-3L;Tiger Twin / Black Baron 等帶 wing-swallow 板可 +3L,純 Twin Pin / Twinsman 因設計可衝大浪只 +2L。",
+    "BMI_體脂修正": "高 BMI 肌肉型 → GF 取 0.38-0.40 區間下限,享受 rail-to-rail 反應;高 BMI 脂肪型 → 取 0.44 上限 +2L,因 Twin Fin 無中央 trailer 起乘須 paddle 力;低 BMI 偏瘦型 → 取中位 0.42,過浮會難壓 rail。",
+    "年齡_體能修正": "40 歲以上或體能下降者 +5-10%;Twin Fin 因 paddle 推進不如 Fish 那麼寬尾,建議 45 歲以上玩家額外 +3L。",
+    "品牌計算器差異": "CI(Twin Pin)計算器普遍偏低,實取需 +1-2L;JS(Black Baron) 自家計算器較準;Pyzel(Tiger Twin)計算器中性偏準;Album(Twinsman)計算器保守,Boardcave 評論多建議 +1-2L。",
+    "亞洲體型修正": "亞洲玩家(60-75kg 為大宗)可從計算結果 -2 至 -3L,因歐美計算器以平均 75-85kg 校準;但若浪況糊或 paddle 體能不足則不要扣減。"
+  },
+  "shape_details": {
+    "Length 板長": "Modern Twin Fin 典型 5'6 至 6'4;相對 HPSB 縮短 -2 至 -4 吋(比 Modern Fish -4 至 -6 吋更接近原 HPSB)。代表:CI Twin Pin 5'8-6'4;Album Twinsman 5'0-6'4;Pyzel Tiger Twin 5'0-6'2;JS Black Baron 5'3-6'2。",
+    "Width 板寬": "19.5\" 至 21\";Twinsman 5'10 為 20 1/2\";Twin Pin 5'11 約 19 3/4\";Tiger Twin 6'0 為 20 5/8\";Black Baron 5'4 為 19 5/8\"。比 Modern Fish 收窄 0.5-1\",比 HPSB 寬 0.5-1\"。",
+    "Thickness 板厚": "2.3\" 至 2.75\";Twinsman 5'7 為 2.35\";Tiger Twin 6'0 為 2 3/4\" (2.75\");Black Baron 5'4 為 2 1/4\"。中段集中、尾段收薄是常見配方。",
+    "Nose_Rocker": "典型 4.5\" 至 5.0\";比 Modern Fish 的 4.0-4.5\" 稍翹,比 HPSB 5.0-5.5\" 稍平。Twin Pin 約 4.7\",Twinsman 約 4.6\"(relaxed entry rocker),Tiger Twin 約 4.5\"(lower rocker)。",
+    "Tail_Rocker": "典型 2.3\" 至 2.7\";Twin Pin 約 2.5\"(較傳統 twin 高),Twinsman 約 2.5-2.6\"(比 fish 多 exit rocker),Tiger Twin 約 2.4\",Black Baron 約 2.2-2.3\"(flat rocker)。",
+    "Entry_Rocker": "Modern Twin Fin 採 continuous but slightly relaxed entry,比 HPSB 平、比 Fish 翹;Twinsman 與 Twin Pin 為招牌「twin 速度 + shortboard 上唇」的關鍵;Tiger Twin entry 較平有 paddle 優勢。",
+    "Wide_Point_Position": "Modern Twin Fin wide point 多落在板中或中心前 1\";比 Modern Fish 後移、比 HPSB 前移。Twinsman 與 Twin Pin wide point 接近中心(類 MR 1980s 設計);Tiger Twin 與 Black Baron 因 wing 設計實際 effective wide point 偏前。",
+    "Nose_Width_at_12_inch": "Modern Twin Fin 12\" nose width 約 12.5\"-13.5\";Twinsman 為「pulled-in nose to prevent catching in steep waves」設計,12\" 寬約 12.5-13\";Twin Pin 因 pin tail 同樣 nose 較窄。比 Modern Fish 的 14\"+ 明顯收。",
+    "Tail_Width_at_12_inch": "Modern Twin Fin 12\" tail width 約 14.5\"-16\";比 Modern Fish 17\"+ 明顯收;Twin Pin 因 pin tail 約 14.5\";Twinsman 約 15\"(有 wing 收窄);Tiger Twin 與 Black Baron 約 15-15.5\"(wing swallow);這也是它能「衝大」的關鍵。",
+    "Bottom_Contour 板底設計": "Modern Twin Fin 主流為 single concave 進 double concave 接 vee/spiral vee;Twin Pin「flat 過 mid → slight roll + vee 後半」;Twinsman「single concave 過前腳 → 雙凹 fins 間 → vee 出尾」;Tiger Twin「double concave 大部分 → flat panel vee off tail」;Black Baron「vee 從鼻到尾 + 雙凹 fins 間」。",
+    "Tail_Shape 板尾形狀": "三大主流:(1) Swallow / wing-swallow(Tiger Twin / Black Baron / Twinsman)— 兼具 hold 與 release;(2) Pin / round-pin(CI Twin Pin)— 大浪 hold、point break 拉長線;(3) Round / squash(部分 Twinsman 客製)— 平衡。Wing 是 Modern Twin Fin 招牌:在 tail 12\" 處用 wing 收窄,增加 pivot。",
+    "Rail_Profile": "Twin Pin 為「low rails」(down rail 較多);Twinsman 為中段 boxy + 尾段 tucked-edge;Tiger Twin / Black Baron 採 medium-full rails(配合 flat rocker 提供 paddle)。整體比 HPSB 稍 fuller,但比 Fish 收薄。",
+    "Rail_Volume_Distribution": "Modern Twin Fin volume 從中段 evenly 延伸到尾(比 Modern Fish 平均、比 HPSB 飽);這是 twin fin 能 generate drive 的關鍵。",
+    "Foam_Distribution": "均勻型(versatile)為主流,部分(Tiger Twin / Black Baron) 為胸下集中型;Twin Pin / Twinsman 更接近 versatile 配方,讓重心可調整。",
+    "Outline 輪廓曲線": "Modern Twin Fin outline 較 curvy,中段 parallel rail 短(比 fish 短),tail 收窄(wing 或 pin)。Twin Pin 採 pintail 拉長 outline 曲線;Twinsman「pulled-in nose + wing tail」為 MR 1980s 復刻+現代化。"
+  },
+  "fin_setup": {
+    "主要_Setup": "Modern Twin Fin 核心設定為 pure twin(無 stabilizer);Twin Pin / Twinsman / Black Baron 多為純 twin。但同板款常有 twin+stab(2+1)選項作為過渡(如 Tiger Twin 預設 2+1)。差異:純 twin = maximum drive + looseness;twin+stab = backhand hold + 進階場景。",
+    "Fin_Cant": "Modern Twin Fin 偏好較大 cant 6.0-6.5°(比 Modern Fish thruster 的 4-5° 大),讓 rail-to-rail 反應更 lively;Shapers AP Twin、FCS MR、Futures Pyzel Twin 都採用此區間。",
+    "Fin_Toe": "Modern Twin Fin 多為 toe 1/8\";比傳統 keel(toe 較少)更積極,促進 pivot turn 能力,讓 twin 不只能直線飛而能上唇。",
+    "Fin_Foil": "Inside foil 為主(提供 hold + lift);Asher Pacey 的 Shapers AP twin 為 medium flex inside foil;FCS MR Twin 為經典 80s 翻版 inside foil;Futures Pyzel Twin 同採 inside foil。",
+    "Fin_Rake_Sweep": "Modern Twin Fin 偏好中等 rake(less rake than keel,more rake than upright thruster);Twin Pin 用 Britt Merrick 設計「between keel and upright」的特殊 template;Twinsman 配 Apex twin(中等 rake);Black Baron 配 JS twin(medium rake)。",
+    "Fin_Area_Template": "中型 area 為基準;Futures AP Twin / FCS MR Twin / Pyzel Twin (Futures) / NVS Album Apex 為代表;體重 80kg+ 改用 large template;55-65kg 用 medium-small 如 FCS Modern Keel medium。",
+    "Quad_Rear_Position": "不適用於純 twin;若 Modern Twin Fin 採 2+1 設定,則中央 stabilizer 位置在 tail 內 3-4\"。Twinsman 客製版可選 twin+small trailer;Twin Pin 純 twin 設計不留 stab plug。",
+    "2plus1_vs_PureTwin": "Modern Twin Fin 多保留純 twin 哲學 — maximum drive、style flow、Asher Pacey 路線。2+1 選項(Tiger Twin / 客製 Twinsman)提供 backhand hold + 大浪 control,但會犧牲 twin 招牌的 looseness 與 down-the-line speed。"
+  },
+  "construction": {
+    "PU_PE 在小浪": "PU/PE Modern Twin Fin(Twin Pin PU / Black Baron PU / Twinsman PU)提供 knifey rail feel,carve 預測性高、style 流暢;Asher Pacey 與 Mikey February 多用 PU。劣勢:重量大、同浮力反應較慢。",
+    "EPS_Epoxy 在小浪": "EPS/Epoxy Modern Twin Fin(JS HYFI Black Baron / Album EPS / CI Spine-Tek Twin Pin)輕量利於 pump 與 air;同浮力數值感覺較飄(實感 +1L);適合糊浪需要主動加速的玩家。",
+    "HD_EPS": "Pyzel Tiger Twin 在 Futures HD-EPS 構造下表現中性;Album EPS / Future-Flex 也屬 HD-EPS 路線。介於 PU 扎實與輕 EPS 飄之間,耐用度高。",
+    "Glassing_Schedule": "Modern Twin Fin 標配多為 4+4/4(輕 comp) 或 4x4x4 standard;CI Twin Pin stock 4x4x4 評論為「dent 少、crack 無」;Twinsman PU 標配 4+4/4;Black Baron 6+4/6 為 EPS HYFI 構造;追求耐用選 6+4/6 或 6+6/6。",
+    "新技術": "Haydenshapes FutureFlex(HK Twin 用);Firewire Helium / Thunderbolt(部分 modern twin);Lib Tech NTL (eXc) 在 Lost / Album twin 上見;Pyzel Tiger Twin 提供 Futures EPS HD;CI 提供 Spine-Tek 構造。"
+  },
+  "conditions_fit": {
+    "浪高範圍": "Modern Twin Fin 寬幅 1-6ft(齊膝至胸上),Twin Pin 可衝到 head-high+,Twinsman 與 Black Baron 在 1-4ft 最佳,Tiger Twin 1-3ft 軟浪利器。",
+    "浪質": "軟浪到飽滿浪皆強;Twin Pin 因 pin tail 連空心浪都能 hold,Twinsman 在飽滿浪表現最佳;Tiger Twin / Black Baron 偏軟浪 generate speed。",
+    "浪型": "beach break 軟浪到頭高皆強;point break 為 Modern Twin Fin 主場(Snapper Rocks / J-Bay Asher Pacey style);reef break 視板款,Twin Pin 與 Twinsman 在 reef 可信。",
+    "不適合場景": "(1) 6ft+ 強勁陡浪(twin 設定無 stab 在大浪 backhand hollow 會 spin out);(2) 純初學者(twin fin 起乘前需先掌握 rail-to-rail,否則 slide out);(3) 需要 vertical air-reverse 的玩家(rocker 與 fin 設定不利);(4) Backhand 為主場且不練 weight forward 者(twin backside hold 較弱)。"
+  },
+  "performance": {
+    "划水容易度": "良好;比 Modern Fish 略遜(因 nose 較收、wide point 較後)但仍優於 HPSB;可划上齊腰到胸上浪,Twin Pin 因 outline 拉長 paddle 反而非常順。",
+    "起乘速度": "快;Twinsman 的「relaxed entry rocker」設計專為早起乘;Tiger Twin / Black Baron 因 flatter rocker 起乘更早;Twin Pin 比其他略晚但仍快於 HPSB。",
+    "Glide 平面速度": "頂級;Modern Twin Fin 招牌就是 down-the-line speed 與 glide;BlinkSurf 與 Stoked For Travel 多次強調 Twinsman「在 flat 段感覺像被推著走」;Pacey style 的 trim glide 為標誌。",
+    "Pump 效率": "極高;Modern Twin Fin 因 wide stance + twin fin 釋放,pump 起來很省力;Tiger Twin 為「易加速」代表;但需要 wider stance 與正確 weight transfer。",
+    "轉向靈活度": "Modern Twin Fin 比傳統 keel twin 更能 pivot,Twinsman 與 Twin Pin 設計目標就是「holding turn 同時保有 looseness」;tight pocket 仍不及純 thruster 但比 Fish 強。",
+    "Vertical 能力": "中等;Twin Pin 與 Twinsman 為新一代 modern twin 招牌「能上唇」例證;比 Modern Fish 強、不及 HPSB;Pacey / February 證明 Twin Pin 可 vertical snap。",
+    "空中動作能力": "可玩 frontside air,但落地穩定性弱於純 thruster(無 center fin recovery);Pacey / Kerr 偶爾完成 air-reverse 但需技術;Tiger Twin 與 Black Baron 因板較輕活做 air 較順。",
+    "Backside_vs_Frontside": "招牌議題;純 twin 在 backside hollow 段 hold 較弱,容易 spin out;Twin Pin 為解決此議題的代表(pin tail 強化 backside hold);Twinsman 也比傳統 twin 在 backside 強;若想徹底解決則升級到 2+1(C5)。"
+  },
+  "practical_selection": {
+    "代表板款": "(1) CI Twin Pin (Britt Merrick x Mikey February) — pintail twin,5'8-6'4,主打 hold + speed;(2) Album Twinsman (Matt Parker) — 5'0-6'4,MR 80s 復刻 + 現代 rocker,33.6L @ 5'10;(3) Pyzel Tiger Twin (Jon Pyzel) — 5'0-6'2,2+1 設定,37.3L @ 6'0;(4) JS Black Baron (Jason Stevenson) — 5'3-6'2,vee bottom flat rocker,26.3L @ 5'4;(5) Haydenshapes Hypto Krypto Twin (Hayden Cox) — 經典 Hypto 轉 twin。",
+    "常見錯誤": "(1) 浮力照搬 HPSB(GF 0.36)→ Twin Fin 變難 paddle;(2) 配錯 fin(用 thruster side fin 當 twin)→ drive 不足;(3) 縮太短追隨 Pacey(他 73kg 騎 5'6,亞洲玩家不一定能對應);(4) glassing 太重 → 失去 twin 招牌活力;(5) 把 Twin Pin 當 Fish 期待,反被陡浪段嚇到。",
+    "升級陷阱": "從 HPSB 跳 Twin Pin / Twinsman 過渡需 4-6 次磨合,前 2-3 次會覺得「spin out 太多」是正常;追隨 Pacey pro model dim(5'6 23L)不切實際,亞洲玩家應拉到 +5-7L;直接買純 twin 沒過渡建議先借朋友 2+1 試。",
+    "搭配_fin 建議": "Twin Pin → 原廠 Britt Merrick BMT (FCS II) 或 Futures BMT;Twinsman → Shapers AP twin 或 NVS Album Apex twin;Tiger Twin → Futures Pyzel Twin(2+1 含 trailer);Black Baron → JS Twin (FCS II) 或 FCS MR;通用 modern twin 高效率組合:FCS II MR PC 或 Shapers AP 5.59。",
+    "二手板評估": "Modern Twin Fin 因尾窄,fin plug 周圍 stress 較大,務必檢查 plug 是否鬆動或滲水;rocker 是 twin 的命脈,變形(放置壓彎 stringer)會嚴重影響;CI Spine-Tek / Album EPS 構造若 deck 凹陷影響反應大。",
+    "Quiver 規劃": "2-3 塊 quiver 中,Modern Twin Fin 為「軟到飽滿浪通用主板」(年使用率 50-60%);搭配 HPSB(陡浪比賽段)+ step-up(大浪);也可與 Modern Fish 並存形成「twin+fish」二板 quiver 涵蓋 1-5ft 範圍。",
+    "預算建議": "二手 PU(Twinsman / Black Baron / Twin Pin)約 NTD 16,000-23,000;新進口 PU 約 NTD 26,000-34,000(Twin Pin 較貴 NTD 30K+);EPS(Spine-Tek / HYFI)約 NTD 32-38K;台灣本土訂製 modern twin 約 NTD 22-28K。"
+  },
+  "pro_reference": {
+    "Stab_in_the_Dark": "Modern Twin Fin 在 Stab in the Dark 系列出現頻率上升;Stab Recommends 系列 2023 推薦 Pyzel Tiger Twin;2024 多次評測 Twinsman、Twin Pin 為 modern twin renaissance 代表;[uncertain] 2025 winner board 具體配置在 paywall 內。",
+    "WSL_CT 選手選擇": "Mikey February(WSL CT)為 CI Twin Pin 共同設計者並常用於比賽 free-surf;Filipe Toledo / Gabriel Medina 比賽日仍以 HPSB 為主,free-surf 偶用 twin;Kelly Slater 在 2022 後也釋出他的 Boss Up mid-length 與 twin 系列;Ethan Ewing 偏 thruster shortboard。",
+    "Free_surf 風格參考": "Asher Pacey — Shapers AP twin 的代名詞,Snapper Rocks free-surf 教父;Torren Martyn — Stab 報導其為「surfing 最 versatile twin fin」演繹者(Needessentials team);Dane Reynolds — Album team rider,實驗多 twin 板;Mikey February — Twin Pin 代言,style 流派代表;Josh Kerr — Album Apex twin 設計顧問。"
+  },
+  "local_taiwan_context": {
+    "浪點適配": "中角 1-3ft 軟浪 → Tiger Twin / Black Baron paddle + speed 利器;烏石 beach 變化大 → Twinsman 為一年 60% 使用率主板(陡段也能上唇);金樽 point → Twin Pin 王者(Mikey February 風格演繹 long trim);佳樂水 reef → Twin Pin / Twinsman 在 chest+ 可信;南灣軟浪 → Tiger Twin / Black Baron;東澳粉鳥林軟點 → Twinsman / Tiger Twin 都適合。",
+    "進口_訂製": "CI Twin Pin 海外進口(Boardcave / Cleanline / 日本)約 USD 950+ 含運稅 NTD 32K+;Lost / Album 在台有代理通路;Pyzel Tiger Twin 透過代理 NTD 28-32K;台灣本土 shaper 可訂製 modern twin 約 NTD 22-26K;[uncertain] 台灣本土具體 modern twin 經驗 shaper 名單需在地確認。",
+    "中文社群迷思": "(1)「Twin Fin 只能玩傳統 keel」—— Modern Twin Fin 配 upright/medium-rake template 可上唇;(2)「Twin Fin 不能衝陡浪」—— Twin Pin / Twinsman 證明可以;(3)「Pacey 5'6 我也能騎」—— 體重與技術差距常被忽略;(4)「Twin Fin 是復古退步」—— 2021-2026 是 modern twin renaissance,屬於進步派;(5)「Fish 與 Twin 是同一類」—— Modern Twin Fin 已獨立於 fish/groveler。",
+    "在地教練建議": "Hooked Surf、JR Surf、VAST 等店家 2024 起明顯增加 modern twin 庫存,常推薦 Twinsman 給已能 cut-back 的中階玩家;Decathlon 暫無 modern twin 系列;[uncertain] 各店家具體推薦庫存以實地詢問為準。"
+  },
+  "uncertain": [
+    "Stab_in_the_Dark",
+    "進口_訂製",
+    "在地教練建議"
+  ]
+}

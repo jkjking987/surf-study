@@ -1,0 +1,64 @@
+{
+  "basic_info": {
+    "name": "Bali Surf Competitions (Chinese: 峇里島衝浪賽事; Indonesian: Kompetisi Selancar Bali) - umbrella entry covering Rip Curl Cup Padang Padang, WSL Indonesia events, Liga Surfing Indonesia (LSI), Krui Pro, Nias Pro, Rip Curl GromSearch International Final and Uluwatu Single Fin Classic",
+    "category": "event_culture",
+    "region": "Bali-wide (with Sumatra and Nias for related Indonesian-circuit events)",
+    "gps_location": "Multiple venues - primary Bali contest sites: Padang Padang (-8.8104, 115.1031), Uluwatu (-8.8154, 115.0884), Keramas (-8.5895, 115.3245), Pererenan (-8.6402, 115.1136), Canggu Old Man's/Batu Bolong (-8.6566, 115.1322); Sumatra: Krui West Lampung (-5.1751, 103.9398); Sumatra: Sorake Beach Nias (1.0237, 97.5747)",
+    "distance_from_dps_airport_km": "Padang Padang ~20 km; Uluwatu ~22 km; Keramas ~35 km; Canggu ~20 km; Pererenan ~22 km; Krui Sumatra requires flight (DPS -> CGK -> TKG Bandar Lampung, then 6-7 hr drive); Nias requires flight (DPS -> Medan KNO, then ferry or domestic to Gunungsitoli)",
+    "distance_from_canggu_uluwatu_min": "Padang Padang: 60-70 min from Canggu / 5-10 min from Uluwatu; Keramas: 60-75 min from Canggu / 60-75 min from Uluwatu; Pererenan: 10-15 min from Canggu / 70 min from Uluwatu"
+  },
+  "surf_conditions": {
+    "wave_type": "Rip Curl Cup: Left-hand reef tube (Padang Padang Lefts), needs 6-12 ft solid SW groundswell to fire. LSI Grand Final: Right and left sandbars at Pererenan River Mouth. WSL CT (when run at Keramas/Uluwatu): right-hand reef at Keramas, left-hand reef at Uluwatu. Krui Pro: right-hand reef-sand combo at Karang Nyimbor / Ujung Bocur. Nias Pro: right-hand reef point at Sorake Beach. GromSearch: typically Keramas right-hand reef.",
+    "skill_level": "Pro / Advanced only for all WSL CT and Rip Curl Cup events; QS events Open (Pro/Advanced); LSI Indonesian national circuit includes Open, Junior, Women and Masters divisions. Spectators all levels.",
+    "wave_height_range": "Rip Curl Cup contest day: 6-12+ ft Padang. WSL CT (Keramas/Uluwatu): 4-10 ft preferred. Krui Pro 2025 ran in 3-6 ft conditions. Nias Pro 2025: 3-6 ft at Sorake. LSI events: 2-6 ft depending on venue.",
+    "best_season": "Dry season May-October is peak window for Bukit/west coast contests (Rip Curl Cup August 1 - early September; Single Fin Classic mid-August; GromSearch typically October-November; LSI Grand Final September). Krui Pro and Nias Pro run June. WSL Bali Pro (Challenger Series) targeted mid-May 2026.",
+    "best_swell_direction": "SSW to SW groundswell for all Bukit contests; S/SW for Keramas (east coast wraps); SW for Sumatra Krui; SW-S for Nias Sorake"
+  },
+  "practical_info": {
+    "access": "Padang Padang: walk-in via cave stairs from Jl. Labuan Sait (free public access; designated VIP/media areas during contest). Uluwatu / Single Fin Classic: cliff stairs and Single Fin viewing terrace. Keramas: Komune Resort terrace public viewing; beach access free. Pererenan (LSI): direct beach access at river mouth. Krui Pro and Nias Pro: village access via 6-7 hr drive from regional airports.",
+    "entry_fee": "Spectator entry to all WSL and Rip Curl Cup events is FREE; Padang Padang beach charges standard IDR 15,000 entry + IDR 5,000-10,000 parking; Single Fin Classic and LSI events free public viewing; Komune Keramas terrace open for guests/diners",
+    "recommended_session_time": "Rip Curl Cup contest day announced ~24-48 hr in advance via Rip Curl Indonesia Instagram (@ripcurl_indonesia) and Surfline live stream; arrive at Padang Padang by 6-7 AM for finals. WSL events streamed live on worldsurfleague.com. Opening ceremonies typically held 1-2 weeks before holding period opens.",
+    "best_time_of_day": "Heats run dawn to ~4 PM; finals usually late morning into early afternoon. Padang Padang prime barrels mid-tide morning. Single Fin Classic culminates in sunset prize-giving party.",
+    "nearby_warung": "Padang Padang: Drifter Surf Cafe, Single Fin, Mango Tree, Suka Espresso. Uluwatu cliff cafes: Single Fin, Delpi Rock Lounge. Keramas: Komune Beach Club, Sea Vu Play. Canggu Pererenan: La Brisa, Pererenan Surf Cafe, La Baracca. Krui and Nias have basic local warungs and homestays.",
+    "boat_charter_required": "No - all Bali contest venues land-accessible. Sumatra venues road/flight; Mentawai-related events would require boat charter."
+  },
+  "safety_culture": {
+    "hazards": "Heavily-crowded lineup during opening ceremonies and finals; reef hazards as per each venue (Padang Padang: very shallow sharp reef; Uluwatu: sharp limestone; Keramas: shallow inside section; Pererenan: river-mouth sediment); jet ski rescue patrols only operate during actual contest days",
+    "marine_hazards": "Sea urchins, occasional jellyfish; reef cut infection risk; treat all cuts immediately with antiseptic",
+    "lineup_etiquette": "Lineup is closed to non-invitees during heats; surfing during a running heat will get you removed; respect the holding period - locals and pros prioritize Padang Padang for tube practice in lead-up week",
+    "localism_intensity": "High at Padang Padang and Keramas during contests; visiting surfers should not attempt to paddle out before/after heats without local approval; Single Fin Classic is more inclusive and entry-open within longboard categories",
+    "respect_protocol": "Attend the Kecak Dance opening ceremony respectfully; do not interrupt prize-givings; Padang Padang temple sits at the gate - keep dress modest near temple; ceremonies pause for any Hindu rituals at adjacent Pura Padang Padang or Pura Luhur Uluwatu",
+    "resident_local_legends": "Mega Semadhi (2x Rip Curl Cup champion 2011, 2016); Made Bol Adi Putra (2x champion, record-4x finalist); Rizal Tandjung (Padang Padang pioneer, founder Rip Curl Indonesia); Garut Widiarta (2014 champion); Pepen Hendrik; Raditya Rondi; Betet Merta; Mustofa Jeksen; Bronson Meidy. International winners include Jack Robinson (2013/2018), Bruce Irons, Jamie O'Brien, Chris Ward. 2025 Rip Curl Cup champion Westen Hirst (Bukit local, age 16, first Indonesian man since Mega in 2016).",
+    "religious_sensitivity": "All contest days respect Nyepi (Day of Silence, typically March) - no surfing or beach access islandwide. Contests do not run on Galungan, Kuningan, or major temple anniversaries. Padang Padang opening ceremony begins with Hindu blessing.",
+    "medical_nearby": "Padang Padang/Uluwatu: Unicare Pecatu Clinic, BIMC Nusa Dua (~25-30 min), Siloam Denpasar (~45 min). Keramas: BIMC Nusa Dua or Sanglah Hospital Denpasar (~30-40 min). Krui: limited local clinic; Bandar Lampung hospital ~6 hr away.",
+    "rescue_jet_ski_available": "Yes during contest days only - Padang Padang gets multiple jet skis on contest day; WSL contests deploy water safety teams; outside contest dates no permanent rescue presence at any Bali break",
+    "emergency_contact": "Indonesia general emergency: 112; Ambulance: 118/119; BIMC Hospital Nusa Dua: +62 361 3000 911; Unicare Pecatu: +62 361 8493039; WSL events on-site medical during contest only"
+  },
+  "services": {
+    "surf_photographer_available": "Yes - all major events have credentialed media; freelance land/water photographers cover Padang Padang barrels and Keramas right; Rip Curl Indonesia and WSL provide official photo galleries post-event",
+    "photographer_recommendation": "Padang Padang Surf Camp media team; Pulpo Bali; Bali Surf Photographers (Instagram); WSL official photo bank for licensed images. Freelance shoots IDR 200,000-1,500,000 per session [uncertain]",
+    "accommodation_options": "Padang Padang Surf Camp; Uluwatu Surf Villas; Kala Surf Camp; Suarga Padang Padang; The Edge Bali; Komune Resort Keramas (LSI/CT host venue); Pererenan villas; Old Man's-adjacent guesthouses; Krui: Damai Bungalows / Ujung Bocur Surf Camp; Nias: Sorake Beach homestays",
+    "webcam_url": "Padang Padang: https://www.surfline.com/surf-report/padang-padang/5842041f4e65fad6a7708d44 ; Uluwatu: https://www.surfline.com/surf-report/uluwatu/5842041f4e65fad6a7708b4b ; Keramas: https://www.surfline.com/surf-report/keramas/5842041f4e65fad6a7708d05 ; live WSL event streams: https://www.worldsurfleague.com/ ; Rip Curl Cup stream: https://www.ripcurl.co.id/pages/ripcurlcup-padang-padang",
+    "drone_allowed": "Personal drones restricted during contest holding periods - only accredited media drones permitted in air-space over event area. Standard Indonesian drone permits apply outside contests."
+  },
+  "pricing": {
+    "avg_lesson_price": "Not applicable - events are competitions, not lessons. WSL Krui Pro 2025 was a QS 6000 with USD prize purse (prize money varies by tier). Rip Curl Cup 2023 launched a women's prize purse equal to men's (~USD 50,000 combined historically) [uncertain]",
+    "board_rental_daily": "Not applicable - competitors bring own quivers; spectator surf rentals at neighboring beaches IDR 150,000-250,000/day",
+    "peak_vs_offpeak_pricing": "Accommodation in Bukit and Canggu spikes 30-50% during Rip Curl Cup window (early August - early September) and during WSL Bali Pro window; book 4-8 weeks ahead during these periods"
+  },
+  "sustainability": {
+    "water_quality_rating": "Good in dry-season contest windows (May-October); Pererenan LSI venue can have river-mouth runoff after rain - rinse cuts thoroughly",
+    "eco_certification": "WSL has 'WSL PURE' sustainability initiative; Rip Curl Cup partners with local clean-up groups; Komune Resort Keramas operates with eco-resort practices including reef monitoring [uncertain]",
+    "carbon_offset_option": "WSL offers per-event sustainability messaging but no consumer-facing carbon offset for spectators; Rip Curl brand has product-level recycling programs (Search the Surf)"
+  },
+  "events_community": {
+    "annual_competition_window": "Rip Curl Cup Padang Padang: holding period August 1 - early September each year (22-year history since 2003, invitation-only, ~16 men + 8 women invitees; 2025 winners Westen Hirst and Jasmine Studer, both age 16). WSL Krui Pro: June 10-17 in West Lampung Sumatra (QS 6000 since 2025; 2025 men's winner Reef Heazlewood AUS, women's winner Lucy Callister AUS). WSL Nias Pro: June 10-17 at Sorake Beach, South Nias (QS event). Liga Surfing Indonesia (LSI / Bintang Crystal LSI): national circuit with multi-leg regular season and Grand Final - LSI 2025 Grand Final at Pererenan September 26-28; LSI 2024 Grand Final at Uluwatu October 18-20. Uluwatu Single Fin Classic: longboard/single-fin invitational, mid-August (6th annual held August 16, 2025). Rip Curl GromSearch International Final: junior surfers age 16-and-under, typically held in Bali (recent edition November 13-17, 2024, Keramas; 2024 winners Lukas Skinner GB and Eden Walla USA). Bali Surfing Championships: April 9-11, 2026 (Keramas Beach, divisions for Pro and Amateur). Indonesian National Surf Series Bali Leg: August 20-22, 2026 [uncertain]. WSL Challenger Series Bali Pro 2026: May 14-16 (location Keramas vs Uluwatu pending official WSL confirmation) [uncertain]. WSL CT has previously activated emergency Uluwatu CT (last in 2024 replacing canceled Western Australia leg, won by Willian Cardoso) but 2026 CT calendar does not currently list a permanent Bali CT stop.",
+    "community_events": "Rip Curl Cup opening ceremony (early August) at Single Fin with Kecak Dance, Hindu blessing, live music, invitee introductions; LSI opening events feature live music and grom clinics; Single Fin Classic culminates with cliff-top awards party; WSL events bring expat surf community gatherings; Bali Ocean Week (La Brisa-hosted, June-July) combines beach clean-ups with surf contest and music; viewing parties at Single Fin (Uluwatu) and Old Man's (Canggu) during major event finals"
+  },
+  "uncertain": [
+    "photographer_recommendation",
+    "avg_lesson_price",
+    "eco_certification",
+    "annual_competition_window"
+  ]
+}

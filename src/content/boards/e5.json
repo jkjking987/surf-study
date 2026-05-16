@@ -1,0 +1,99 @@
+{
+  "id": "E5",
+  "basic_info": {
+    "名稱": "亞洲體型修正 (Asian Body-Type Volume Correction)",
+    "分類": "特殊情境 — 跨地區體型差異的板選擇修正",
+    "適用程度": "全程度 (所有亞洲騎手都應考慮;但初學會被軟頂掩蓋差異,中高階差異最顯著)",
+    "一句話定位": "亞洲騎手平均比歐美輕 5-10kg,直接套用歐美浮力公式偏大 2-3L,應整體下修 -2 至 -3L"
+  },
+  "buoyancy_strategy": {
+    "Guild_Factor_GF": "亞洲體型修正 GF 計算上不需改變理論值 (GF 是體重百分比已自動 scale),但實務上歐美 chart 與 review 多以 75-85kg 騎手 base 案例導致 size up 偏向;亞洲 60-70kg 騎手套用該 chart 等於 GF 自然 +0.03-0.05 偏移 → 解方是按理論 GF (頂尖 0.34-0.36 / 中階 0.38-0.42 / 週末 0.40-0.50) 嚴格計算自己體重,而非看 chart;台灣 / 香港 / 日本本土代理通常已內建 -2L 修正版的 size chart。",
+    "浮力公式": "亞洲體型通用修正公式:歐美 chart 浮力(L) - 2-3L = 亞洲建議浮力。或直接用 GF 公式按自己實際體重計算:中階亞洲 60kg × 0.40 = 24L、70kg × 0.40 = 28L (而非歐美 chart 多會推到 30-32L);頂尖亞洲 70kg × 0.36 = 25.2L (Filipe Toledo 等 CT 等級才會這麼低,亞洲業餘進階多在 28-32L)。",
+    "相對日常板浮力增量": "亞洲體型修正後相對歐美同 GF 浮力數值絕對值較低 (因為體重低);若亞洲騎手追隨歐美 reviewer 案例 (多 80kg+) 而 size up 至同型號板的較大尺寸,等於浮力增量 +15-25% 過剩;正確做法是亞洲體型對應該板的 standard 尺寸甚至 size down 一個 dim;例:歐美 80kg reviewer 推薦 Hypto Krypto 6'0\" (35L),亞洲 65kg 騎手對應應該是 5'8\"-5'10\" (29-32L) 而非 6'0\"。",
+    "浮力範圍_體重對照": "亞洲體型對照 (修正後) — 45kg: 18-22L (歐美 chart 多無此區間,本土代理才有);55kg: 22-26L (Lost RNF 5'2\"-5'4\" / Pyzel Gremlin 5'2\" / CI Average Joe 5'3\"=29.6L 略偏 paddle 但仍合理);65kg: 26-31L (Hypto Krypto 5'10\"=33.7L 略偏大,5'9\" 約 31L 較準);75kg: 30-36L (Hypto Krypto 6'0\"=35L 較準);85kg: 35-42L (Hypto Krypto 6'2\"=38.4L 為亞洲大體型基準);相對歐美同體重 baseline -2-3L。",
+    "小浪修正係數": "亞洲體型 + 小浪雙重情境:亞洲 baseline GF + 小浪 +5L (歐美一般 +3L) — 因為亞洲體型相對 fin 板 / glassing 等結構性質量影響稍大,小浪 paddle 需更多餘裕;一般日本 surf 媒體 (NicSurf / Once a Week) 建議日本浪偏軟整體浮力 +5-10% (這已是亞洲體型修正 + 小浪修正組合);Pyzel Gremlin / CI Average Joe / Firewire Sweet Potato 為亞洲小浪 size-down 後的甜蜜點。",
+    "BMI_體脂修正": "亞洲 BMI 標準偏低 (健康範圍 18.5-24,過重 24+;歐美健康範圍 18.5-25,過重 25+);亞洲低 BMI 高肌肉型 (常見於日台青壯年男性) -1-2L;亞洲高 BMI 脂肪型 (女性 / 中年男性常見) +2-3L;亞洲整體體脂率比同 BMI 歐美高 5-10% (即同 BMI 數值的肌肉量低於歐美),導致同體重的亞洲騎手 paddle 推進力略弱 → 浮力可不必再下修。",
+    "年齡_體能修正": "亞洲文化中 35+ 才開始衝浪比例高 (歐美多 20-30 開始);亞洲 35-45 歲新手 + 體脂偏高 + 心肺折扣 整體建議 +5-10% 浮力 (對應 GF 從 0.40 拉到 0.45);亞洲 55+ 銀髮衝浪人口在台灣 / 日本快速增加,板款向 mid-length 與 longboard 移轉,GF 0.50-0.65 普遍。",
+    "品牌計算器差異": "Firewire Japan / Firewire Asia 計算器已內建亞洲體型修正 (-2-3L 於 Firewire global);Lost 計算器無亞洲特化但 JR Surf (台灣總代理) 會建議 -1-2L;CI 計算器無亞洲版本,Concrete Surf (台灣代理) 建議 -2-3L;Pyzel 無區域版本但 VAST Surf Shop 提供亞洲化建議;Haydenshapes 的 Hypto Krypto chart 在歐美 75-85kg 為 base,亞洲套用 -1 dim (例 6'0\" → 5'10\")。",
+    "亞洲體型修正": "(此欄位即本 item 主題) — 亞洲騎手 (台灣 / 香港 / 中國 / 日本 / 韓國) 平均比歐美 (澳洲 / 加州 / 葡萄牙 / 巴西) 同身高騎手輕 5-10kg;原因組合:(1) 身高基數較低 (台灣男性平均 171cm vs. 澳洲 178cm);(2) 體脂分布不同;(3) 飲食結構差異;(4) 文化體型期待差異。Board chart 影響:歐美 review / size chart 多以 75-85kg 為基準案例,亞洲 60-70kg 主流騎手套用偏大 2-3L;解方:(a) 用 GF 公式按自己體重計算,不看 chart;(b) 看亞洲總代理推薦尺寸;(c) 看 IG / Threads 上同體型亞洲 reviewer 的實測;(d) 在台訂製可直接溝通縮放 -1 dim。"
+  },
+  "shape_details": {
+    "Length 板長": "亞洲體型主流板長分布:60-70kg 騎手 5'8\"-6'0\" HPSB / hybrid (歐美同體重會被推 5'10\"-6'2\");75-85kg 騎手 6'0\"-6'4\" (歐美同體重會 6'2\"-6'6\");相對歐美 chart 縮 -2\"-4\"。亞洲女性 50-58kg 主流 5'2\"-5'6\" 短板 (歐美 chart 無此區間)。台灣本土代理普遍建議 size down 1 dim 於歐美 stock chart。",
+    "Width 板寬": "亞洲體型主流板寬 19\"-20.5\" (60-75kg 區間),歐美同重段建議 20\"-21\";亞洲女性 / 小體重 50-58kg 板寬 18.5\"-19.5\";相對歐美 chart 縮 -0.25\"-0.75\";但板寬縮放幅度小於板長與板厚的縮放,因為寬度直接影響 paddle 穩定度。",
+    "Thickness 板厚": "亞洲體型主流板厚 2.4\"-2.6\" (60-75kg);亞洲女性 / 小體重 2.25\"-2.45\";相對歐美同板款 -0.05\"-0.15\";板厚縮放影響浮力 -2-3L 的主要實現方式 (而非板長)。",
+    "Nose_Rocker": "Nose rocker 不因體型修正而改變;但亞洲騎手選 paddle-aware 設計 (low entry rocker 4.25\"-4.75\") 比例較高,因為亞洲浪況普遍偏軟 + 體型小需要 paddle 餘裕。[uncertain 確切吋數因板款而異]",
+    "Tail_Rocker": "Tail rocker 不因體型修正而改變;但亞洲騎手選 groveler tail rocker (2.2\"-2.5\") 比例較高。[uncertain]",
+    "Entry_Rocker": "亞洲騎手偏好 relaxed / low entry rocker (paddle 友善);歐美 reviewer 多推薦 modern entry rocker;這是設計取向偏好,並非體型修正必然。",
+    "Wide_Point_Position": "Wide point 不因體型修正而改變,但亞洲女性 / 小體重騎手偏好 wide point 中心或中心前 (Lost RNF / Pyzel Gremlin / CI Average Joe 路線);亞洲男性中階多選 wide point 中心或中心後 0.5\" 走 modern hybrid。[uncertain]",
+    "Nose_Width_at_12_inch": "Nose width 規格不直接因體型修正,但亞洲總代理為亞洲體型訂製版有時會略縮 -0.25\"-0.5\";本土訂製 shaper (蕃薯 / Saltywave) 可按客戶體型直接調整,12\" 處 nose width 可比進口版 -0.5\"。[uncertain]",
+    "Tail_Width_at_12_inch": "Tail width 規格不直接因體型修正,但亞洲短板段 (5'2\"-5'8\") 的 12\" 處 tail width 自然比歐美 6'0\"-6'4\" 段 -1\"-2\" 因板長短 12\" 處接近 wide point 區。[uncertain]",
+    "Bottom_Contour 板底設計": "Bottom contour 不因體型修正而改變;亞洲騎手選 single-to-double + slight vee 為主流,與歐美 hybrid 同。",
+    "Tail_Shape 板尾形狀": "Tail shape 不因體型修正,但亞洲女性 / 小體重騎手偏好 swallow / wide squash 比例高 (因為小浪 + 小體重需要 looseness);亞洲男性中階以 squash / round tail 為主流。",
+    "Rail_Profile": "Rail profile 規格上不因體型修正,但亞洲總代理或本土 shaper 可調整 rail volume 對應小體重 (板薄 + rail 細化);典型亞洲女性 5'4\" board rail 比歐美男性 6'2\" board rail 結構性薄 30-40%。",
+    "Rail_Volume_Distribution": "Rail volume distribution 不變,但亞洲體型對應的絕對 volume 較低 (例 50kg 騎手用 24L 板 rail 整體 volume 比 80kg 騎手 38L 板低)。",
+    "Foam_Distribution": "Foam distribution 不變,但亞洲體型騎手的 foam 絕對量自然較少 (因板小);胸下集中型 foam 對亞洲小體重特別重要 (paddle 餘裕補償)。",
+    "Outline 輪廓曲線": "Outline 不直接因體型修正,但亞洲市場偏好 round-nose fish (Lost RNF) / hybrid grovel (Hypto Krypto / Insanity / Sweet Potato) / mid-length (CI Mid) 比例高,純 HPSB 偏少 (因浪況限制)。"
+  },
+  "fin_setup": {
+    "主要_Setup": "亞洲體型 fin setup 與歐美無設計差異,但小體重騎手 (50-60kg) 用 small (S) template 比例高,中等 (60-75kg) 用 medium (M),大體型 (75kg+) 用 medium-large 至 large。Quad 模式在小浪 + 小體重亞洲女性騎手特別受歡迎。",
+    "Fin_Cant": "Fin cant 不因體型修正而改變;但亞洲偏好 looseness 取向 (cant 5-6°) 比例高,因為浪況軟 + 體型小需要 fin 帶來更多 release。",
+    "Fin_Toe": "Fin toe 不因體型修正而改變。",
+    "Fin_Foil": "Fin foil 不因體型修正而改變;但亞洲小體重騎手用 inside foil 提供 lift 比例特別高 (補償 paddle 推進力不足)。",
+    "Fin_Rake_Sweep": "Rake / sweep 不因體型修正,但亞洲女性 / 小體重多用 upright fin (Futures AM1 small / FCS II Performer PC2) 走 quick-turn 取向;亞洲大體型用 medium-large rake 走 long-arc。",
+    "Fin_Area_Template": "亞洲體型 fin area template 對應體重段比歐美 baseline 整體小一級:亞洲 60-70kg 用 S-M 對應歐美 70-80kg 用 M;亞洲 75kg+ 用 M-ML 對應歐美 85kg+ 用 L;這也是 fin 系統 (Futures / FCS II) 出 Junior / XS / S template 的主因。",
+    "Quad_Rear_Position": "Quad rear position 不因體型修正而改變;但小體重亞洲騎手 quad 設定多選 rear fin 靠 rail (looseness) 因為小浪 + 小體重 drive 餘裕大。",
+    "2plus1_vs_PureTwin": "Mid-length 2+1 在亞洲特別受歡迎 (因台灣金樽 / 日本各地長 point break 多);pure twin 在亞洲女性 / free-surf 派受歡迎 (Album Twinsman / Bonzer Biscuit twin)。"
+  },
+  "construction": {
+    "PU_PE 在小浪": "PU 構造對亞洲小體重騎手較重 (板款絕對重量同尺寸 PU 比 EPS +0.5-1kg,對 50-60kg 騎手是 +1-2% 體重負擔);亞洲女性 / 小體重騎手偏好 EPS 構造比例略高於同段歐美騎手。",
+    "EPS_Epoxy 在小浪": "EPS / Epoxy 為亞洲小體重騎手首選,輕量 + paddle 友善 + pump 效率高;Firewire Helium / Lost Lightspeed II / Haydenshapes FutureFlex 為亞洲市場頂級首選;Pyzel FST (Firewire 系統) 為亞洲 paddle-aware 經典。",
+    "HD_EPS": "HD-EPS 在亞洲市場滲透率高於歐美 — 因為(1) 旅行需求多 (颱風季外國 surf trip 為亞洲文化);(2) 浪況軟需 pump 效率;(3) 高消費力代理推進高階構造。Firewire Helium / Lost Lightspeed II / Sharp Eye E3 Lite 在台日 surf shop 普及。",
+    "Glassing_Schedule": "亞洲小體重騎手 glassing 標準與歐美同 — 4+4 / 4 lightweight (比賽);6+4 / 4 為主流;6+4 / 6 旅行;但因小體重騎手對板的物理壓力較小 (deck dent / stringer 變形機率較低),light glassing 可考慮用 longer 一些 (歐美 4+4 / 4 可用 1 年,亞洲女性 5'4\" 4+4 / 4 用 2 年仍 OK)。",
+    "新技術": "亞洲市場新技術接受度高:Firewire Helium (HDPE Springer + EPS) 在日台普及度高;Lost Lightspeed II EPS + carbon parabolic 在台灣 grom 與成人段都熱門;Haydenshapes FutureFlex 在台旅行 OBQ 市場為標竿;JS HYFI 與 DHD DSD EPS 構造在台日漸入。"
+  },
+  "conditions_fit": {
+    "浪高範圍": "亞洲體型修正後對應浪況 — 適用浪高範圍與板款一致 (1-8ft 視板款);但亞洲騎手在浪 > 4ft 時體型限制較明顯 (paddle out 距離 + 體能折扣),建議在浪 > 5ft 時 size up step-up 板而非用日常 quiver 硬撐。",
+    "浪質": "亞洲體型在軟浪 / mush 浪 / 飽滿浪表現與歐美無差異;空心管浪因體型小 take-off 角度容易 → 反而是亞洲體型優勢;極大開放浪 (Cloudbreak / Teahupoo) 亞洲體型需專業訓練。",
+    "浪型": "Beach break / point break / reef break 全適用;但亞洲體型對長距離 paddle out (outer reef) 體能挑戰大,需 step-up 規格輔助。",
+    "不適合場景": "亞洲體型本身無 'absolute 不適合' 浪型,但週末玩家亞洲體型在雙倍頭以上浪況一律建議先 step-up + 在地嚮導陪同,單獨用日常 quiver 不安全。"
+  },
+  "performance": {
+    "划水容易度": "Paddle 友善度:同 GF 下亞洲體型 paddle 體驗略弱於歐美 (因肌肉絕對量低),解方是選 paddle-aware 設計 (low entry rocker + foam-under-chest + wide-point 前移) 而非 size up 浮力。",
+    "起乘速度": "起乘速度與板款相關,亞洲體型優勢:體型小 take-off 角度容易、重心靈活;劣勢:絕對推進力較低。Net effect 中性。",
+    "Glide 平面速度": "Glide 速度主由板款決定,亞洲體型優勢:體重輕 wetted surface 小阻力小;劣勢:絕對推進力低 pump 加速 amplitude 小;Net effect 在無力浪略佔劣勢,在中等浪持平,在 push 強浪略佔優勢。",
+    "Pump 效率": "Pump 效率主由構造 (EPS vs PU) 與體重決定;亞洲體型小體重 pump 反應快但 amplitude 小;需要 high-flex EPS 構造補償 (Lost Lightspeed II / Firewire Helium 為亞洲 pump 首選)。",
+    "轉向靈活度": "亞洲體型在 tight pocket / quick top-turn 有絕對優勢 (體型小慣量小);turn radius 自然小於同板款的歐美大體型騎手。",
+    "Vertical 能力": "Vertical 能力與技術相關 > 體型;但亞洲體型在 vertical snap 有 amplitude 優勢 (慣量小起跳容易);Kanoa Igarashi (日裔) 為 vertical 能力代表。",
+    "空中動作能力": "亞洲體型在 air 動作有理論優勢 — 起跳輕、落地慣量小;但實務上 air 需要 punchy section,亞洲浪況限制練習機會;Kanoa Igarashi 在亞洲 air 排名第一。",
+    "Backside_vs_Frontside": "Backside / frontside 與體型無關;但亞洲女性騎手 (regular footer 為主) 在台灣金樽 right point break 享受 frontside 主場。"
+  },
+  "practical_selection": {
+    "代表板款": "亞洲體型修正後代表板款 (亞洲標準尺寸建議):(1) Hypto Krypto FutureFlex 5'8\"-6'2\" (29.5-38.4L) — 亞洲 60-85kg 旅行 OBQ 標竿 (size 比歐美 chart 同體重 -1 dim);(2) Lost RNF '96 5'4\"-5'10\" (27-33L) — 台日小浪 fish hybrid 經典,亞洲標 size;(3) Firewire Sweet Potato 5'4\"-5'10\" (28-35L) — 亞洲小浪 grovel 首選之一 (Tomo design);(4) Pyzel Gremlin 5'2\"-5'8\" (24.8-31L) — 亞洲女性與小體重男性主流;(5) Pyzel Phantom 5'8\"-6'2\" (28-34L) — 亞洲 60-75kg 男性 HPSB 首選;(6) CI Average Joe 5'5\"-5'9\" (29.6-34L) — 亞洲中階 paddle-aware;(7) CI Mid 6'8\"-7'0\" (40-44.9L) — 亞洲 mid-length 路線首選;(8) Album Insanity 5'8\"-6'2\" (29.5-34L) — Josh Kerr collab,亞洲多用 5'10\"-6'0\";(9) JS Forget Me Not II custom 5'8\"-6'0\" (28-33L) — 亞洲進階小體重競技。",
+    "常見錯誤": "(1) 亞洲騎手照搬歐美 reviewer 案例 (Stab / The Surfers View 多 80-90kg reviewer) → 板 size up 偏大 2-3L;(2) 亞洲女性套用歐美男性 board chart → 完全錯尺寸區間;(3) 看 IG 上歐美 grom 騎手 board → 縮放邏輯不對,歐美 grom 多 50-60kg,亞洲女性成人也 50kg 但不適合 grom 板 outline;(4) 信奉 'Pro 用什麼我就用什麼' → CT pro 多 70-80kg 用 28-30L,亞洲業餘 70kg 該用 30-35L paddle;(5) 不向台灣總代理諮詢直接海外網購 → 失去亞洲化建議;(6) 'Size up 保險' 邏輯 → 對亞洲體型反而難 carve。",
+    "升級陷阱": "(1) 亞洲新手跳級到 Pro model HPSB → 浮力過低 + outline 過 performance,paddle 不上去;(2) 亞洲女性看 男友 / 男教練 board 跟著買大塊 → 浮力對自己過剩;(3) 跟風買日本 / 澳洲 pro 板款 → Pro 用尺寸極端,業餘需 +5-7L;(4) 銀髮初學亞洲騎手買中階 hybrid → 應該先軟頂或 longboard 紮根;(5) 兒少 grom 父母買 'one size up 撐一年' → grom 體型快速變化但板 outline 縮放邏輯不能 ignore。",
+    "搭配_fin 建議": "亞洲體型 fin 對應體重:(a) 45-55kg: Futures EA Small / FCS II Performer XS-S 或 Pyzel Grom set;(b) 55-65kg: Futures AM1 / HS2 small / FCS II Performer S;(c) 65-75kg: Futures HS2 M / AM2 M / FCS II Performer PC M;(d) 75-85kg: Futures HS2 ML / FCS II AM-PC ML;(e) 85kg+: Futures JJF Large / FCS II AM-PC L;比歐美同體重段降一級 fin area。",
+    "二手板評估": "亞洲二手板市場特色:(1) 台日韓二手板源管道多 (JR Surf / VAST / 浪人台東 / 阿水 / FB 社團 / PTT Surf 板二手 / Mercari Japan / 蝦皮);(2) 亞洲小體重騎手二手板週轉率高 (體型變化 / 升級頻繁);(3) Reef break 板 (佳樂水 / 沖繩 reef / 日本本州 reef) ding 量大需檢查;(4) Pro grom 二手 board 因賽季結束流入市場,常是好性價比進階選擇;(5) 亞洲 shaper 訂製 PU 二手 NTD 8,000-15,000、進口 EPS 二手 NTD 15,000-25,000。",
+    "Quiver 規劃": "亞洲體型修正後 quiver 規劃建議:(1) 兩塊 quiver:groveler 5'8\"-5'10\" (-2L 修正後 28-32L) + HPSB 5'10\"-6'0\" (28-32L);(2) 三塊 quiver:加 mid-length 6'8\"-7'0\" 或 OBQ 6'0\"-6'2\";(3) 四塊以上:加軟頂 / fish twin / step-up;亞洲體型每塊板比歐美 -1 dim,整體 quiver 重量輕 5-10kg,旅行體驗顯著友善。",
+    "預算建議": "亞洲市場預算建議:本土訂製 PU NTD 18,000-28,000;進口 PU stock NTD 25,000-35,000;進口 HD-EPS (Helium / FutureFlex / Lightspeed II) NTD 32,000-45,000;高階 custom 訂製海外 shaper NTD 45,000-65,000;Pro grom 二手板 NTD 12,000-22,000;板袋 NTD 2,500-5,000;wetsuit (3/2mm) NTD 6,000-15,000;台灣 / 日本進口稅與運費可省 10-15% 透過代理。"
+  },
+  "pro_reference": {
+    "Stab_in_the_Dark": "Stab in the Dark 與 Stab Joyride 測試多用 75-85kg reviewer,直接套用結論不適用亞洲 60-70kg 主流;Kanoa Igarashi (USA-Japan dual citizenship, 60kg ish, 5'11\") 是少數真正亞洲體型代表的 CT 級 reviewer;他的板選邏輯 (例 Sharp Eye / Channel Islands 縮放版) 對亞洲體型最直接參考。[uncertain 2025 Kanoa 確切板款]",
+    "WSL_CT 選手選擇": "WSL CT 中亞洲血統選手:Kanoa Igarashi (Japan 代表,Sharp Eye 主用,小浪用 Sharp Eye HT 系列)、Connor O'Leary (Japan 代表,DHD / FCD 主用)、Owen Wright (退役) 等;這些選手板款縮放邏輯比歐美 / 巴西 / 澳洲選手更貼近亞洲體型範本。Japan QS 選手如 Igarashi 兄弟 (Kanoa & Keanu) 為日本男性 60-65kg 板選 reference。",
+    "Free_surf 風格參考": "亞洲 free-surf 風格參考:Kanoa Igarashi 在日本各地 free-surf 影響大;Mahina Maeda (日 / Hawaii) 為亞洲女性騎手代表;Heitor Alves (巴西) 因常旅居印尼有亞洲體型平行案例;Sierra Kerr (女性 grom team)、Erin Brooks 為小體重 grom 板選代表;台灣的 Ariel Lin (李采霓) / Yi-Ting Hsu (許薏婷) 為本土代表。"
+  },
+  "local_taiwan_context": {
+    "浪點適配": "台灣浪點亞洲體型修正影響:(1) 中角 / 烏石夏天 mush 浪 60-70kg 騎手用 30-34L (歐美套用會用 33-38L 過剩);(2) 金樽 point break 65-75kg 騎手用 30-36L 配 mid-length 享受 long ride;(3) 佳樂水 / 粉鳥林 reef break 70-80kg 騎手用 28-34L HPSB (歐美套用 32-38L 偏大);(4) 南灣 mush 浪 60-70kg 騎手用 32-36L wide groveler;(5) 烏石冬天 step-up 75-85kg 騎手用 32-38L (歐美套用 36-42L);亞洲 size chart -2-3L 在每個浪點都成立。",
+    "進口_訂製": "亞洲化進口管道:(a) JR Surf 強尼玫瑰 (Lost 總代,直接提供亞洲化 size 建議);(b) VAST Surf Shop (Firewire 代理,Firewire Japan / Asia 計算器已內建亞洲修正);(c) Concrete Surf (CI 代理,亞洲化 -2L 建議);(d) Hooked Surf Shop (Haydenshapes / Album,Hypto Krypto 亞洲多用 5'10\"-6'0\");(e) Beachaccess Surf / Nanazero (混合);(f) 香港 BoardRiders / 日本 Murasaki / 韓國 Kuk Surf Shop 為平行管道參考;本土訂製優勢:可直接溝通 -1 dim 縮放;劣勢:海外品牌名氣 / 構造技術差距。",
+    "中文社群迷思": "(1) '歐美 review 不能信' — 部分對,要看 reviewer 體重;(2) '台灣 = 日本 = 中國 = 韓國 體型完全一樣' — 整體相近但日本男性平均略瘦 (60-65kg),台灣中年男性偏重 (70-80kg 漸多),韓國男性身高最高,中國北方男性體型最接近歐美 baseline;(3) '亞洲女性騎手選板沒有教學' — 漸有但仍少,IG / Threads / YouTube 中文版有限資源;(4) '亞洲體型衝浪天花板比歐美低' — 純體能差但體型小在 tight surfing 有優勢;Kanoa Igarashi 為反例;(5) 'PTT Surf 板太冷清' — 精華區仍是中文衝浪知識最完整 archive 之一,新討論轉到 FB / IG / Threads;(6) '日本浪比台灣強很多' — 部分日本浪點 (千葉 / 湘南 / 沖繩) 與台灣浪況差不多,真正大浪要去鹿兒島 / 北海道;(7) '亞洲沒有 surf culture' — 日本 surf 人口百萬級,台灣 / 韓國 / 中國海南快速成長。",
+    "在地教練建議": "(1) JR Surf 強尼玫瑰:Lost 板選一條龍,亞洲化 -1-2L 建議;(2) VAST Surf Shop:Firewire 亞洲化 chart 直接提供,Pyzel Phantom / Gremlin 為亞洲體型甜蜜點;(3) Hooked Surf Shop:Haydenshapes Hypto Krypto / Album Insanity 亞洲尺寸建議;(4) Concrete Surf:CI 系列 -2-3L 建議;(5) 浪人台東:亞洲體型 mid-length 嘗試的基地;(6) 蕃薯衝浪 / Switchfoot / 阿水 / Saltywave:本土 shaper 直接溝通亞洲體型訂製;(7) 日本 Firewire Japan / 香港 BoardRiders / 韓國 Kuk Surf Shop:亞洲平行管道參考。台灣 PTT Surf 板與 FB 衝浪社團累積 15+ 年亞洲體型討論為自學資源。[uncertain 各店確切數據]"
+  },
+  "uncertain": [
+    "Nose_Rocker",
+    "Tail_Rocker",
+    "Wide_Point_Position",
+    "Nose_Width_at_12_inch",
+    "Tail_Width_at_12_inch",
+    "Stab_in_the_Dark",
+    "在地教練建議"
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": "E3",
+  "basic_info": {
+    "名稱": "小體重騎手小浪解方 (Light Surfer / Grom Small-Wave Solutions, 45-55kg-)",
+    "分類": "特殊情境 — 小體重 / 兒少 / 女性騎手版型縮放與浮力對應",
+    "適用程度": "全程度 (初學至進階皆需縮放;Pro grom 用 GF 0.32-0.36,週末小體重玩家用 GF 0.45-0.55)",
+    "一句話定位": "55kg 以下騎手以 20-28L 浮力 + 縮 -3\"板長/-1.5\"板寬的 grom 縮放邏輯選板,避免浮力過剩"
+  },
+  "buoyancy_strategy": {
+    "Guild_Factor_GF": "小體重騎手 GF 區間與成人略同但絕對值很低 — Pro grom / 高體能青少年 0.32-0.36 (45-50kg → 14-18L,實際 Pro grom 多用 16-20L 略偏 paddle);中階小體重 (50-55kg) 0.40-0.45 → 20-25L;週末小體重玩家 0.45-0.55 → 22-28L;初學小體重騎手 0.65-0.80 → 30-44L (參考日本 surf 媒體 nicsurf 體重 × 0.65-0.8 初學區間)。小浪情境一律 +0.05 GF。",
+    "浮力公式": "小體重 (45-55kg) 衝小浪 groveler 公式:體重(kg) × 0.45-0.50 = 浮力(L)。例:50kg × 0.48 = 24L (對應 Lost RNF '96 5'2\" 24.75L / Pyzel Gremlin 5'2\" 24.8L);55kg × 0.46 = 25.3L (對應 CI Average Joe 5'3\" 29.6L 略偏 paddle / RNF 5'5\" 28.5L);兒少 grom 35-45kg × 0.45-0.50 = 16-22L (對應 RNF Grom 4'10\"=21.25L / 4'11\"=22L)。",
+    "相對日常板浮力增量": "小體重騎手小浪 groveler 浮力 +15-25% 於同體重日常 HPSB:50kg 日常 HPSB 約 20-22L (GF 0.40-0.44),小浪 groveler 拉到 24-27L (+15-25%);兒少 30-40kg 日常 HPSB 約 14-18L,小浪 groveler 18-22L (+20-25%)。重點是絕對值都很低,不能照搬成人 +3L 公式 → 對 50kg 騎手 +3L 等於 +12% 已是顯著增量。",
+    "浮力範圍_體重對照": "30kg (小 grom): 14-18L (Lost RNF '96 Grom 4'8\")、4'10\"=21.25L 略偏 paddle;35kg: 16-19L (Pyzel Gremlin 4'10\"-5'0\" 客製 / Lost RNF '96 Grom 4'10\");40kg: 18-22L (Lost RNF '96 Grom 4'11\"=22L / Pyzel Gremlin 5'0\");45kg: 20-24L (Lost RNF '96 5'0\"-5'2\"=24.75L);50kg: 22-26L (Lost RNF '96 5'2\"-5'4\" / Pyzel Gremlin 5'2\"=24.8L / DHD Sweet Spot custom 5'4\");55kg: 24-28L (CI Average Joe 5'3\"=29.6L 略 paddle 偏向 / RNF '96 5'5\"=28.5L / Pyzel Gremlin 5'4\")。",
+    "小浪修正係數": "小體重 + 小浪雙重情境建議 +3-5L 修正 (相對純 HPSB GF 計算結果);軟頂與初學情境直接拉到 GF 0.65-0.80 (50kg 騎手 32-40L 蛋型軟頂如 Catch Surf Odysea Plank 7'0\");兒少 grom 由於肌力極限,小浪 + 軟肥情境的修正係數應 +4-6L (相對 pure HPSB) 才有足夠 paddle threshold。",
+    "BMI_體脂修正": "小體重騎手 BMI 普遍偏低,但仍區分:低 BMI 偏瘦 (尤其兒少 grom) 取浮力下限即可 (肌力雖弱但身體輕);低 BMI 高肌肉 (青少年競技 grom) 可下調 -1-2L;若小體重 + 高體脂 (少見) 反而需要 +2-3L 因為水阻較高。台灣女性騎手 45-55kg 多落在低 BMI 區間,取下限 ~+2L 為佳。",
+    "年齡_體能修正": "兒少 grom (8-14 歲) 肌力與心肺尚未完整,儘管體重低仍建議 +3-5L 餘裕 (對應 GF 從 0.35 拉到 0.45-0.50);青少年 grom (14-18 歲) 體能已成熟可用標準 GF;成人小體重女性 45-55kg 若 >35 歲或運動頻率低 +5-10% 浮力 (對應 +1-2.5L);兒少體能差別比體重差別更影響取板。",
+    "品牌計算器差異": "Firewire 計算器在小體重區間 (45-60kg) 較合理 (內建 0.40-0.50 區間);Lost 計算器與 size chart 對 grom 區間有專屬 'RNF 96 Grom' 系列 (4'8\"-4'11\") 內建縮放;CI 計算器對小體重普遍偏低 (取 Average Joe 需 +1-2L 比計算器);Pyzel Gremlin 系列由 Shane Dorian 設計,5'2\"=24.8L 在小體重 50-55kg 偏 paddle 是設計意圖;日本品牌 (NSP / Pukas 日本線) 縮放更貼近 60kg 以下亞洲體型。",
+    "亞洲體型修正": "亞洲小體重騎手 (45-55kg) 比歐美同身高 light surfer 平均輕 3-5kg,等效歐美 50-60kg;但歐美少有真正 50kg 以下成人 surf board chart,因此小體重台灣 / 香港 / 日本 / 韓國女性騎手常面臨 board 偏大問題。實務上建議在歐美計算器算出的浮力結果上 -2L 取板,或直接買亞洲總代理推薦尺寸 (例 Firewire Japan / JR Surf 為亞洲體型背書的尺碼)。"
+  },
+  "shape_details": {
+    "Length 板長": "小體重 / grom 小浪 board 板長 4'8\"-5'5\" 為主流區間 (相對成人 HPSB 5'10\"-6'2\" 縮短 -5\"-17\");典型參考:Lost RNF '96 Grom 4'8\"-4'11\" (兒少)、Lost RNF '96 5'0\"-5'5\" (青少年 / 小體重成人)、Pyzel Gremlin 5'2\"-5'4\" (50-60kg 成人小體重)、CI Average Joe 5'3\"-5'5\" (55-65kg 中間區)、DHD Sweet Spot 4.0 custom 5'4\" (60kg 小體重)、JS Forget Me Not II custom 5'5\"-5'8\" (55kg+ 中階性能取向)。相對成人標準 HPSB 縮短 -3\" 至 -5\" 為常見換算。",
+    "Width 板寬": "小體重 grom / 小浪板板寬 18\"-20.875\" 區間;Lost RNF '96 Grom 4'10\"=18.13\"、4'11\"=18.25\";RNF '96 5'2\"=18.75\";Pyzel Gremlin 5'2\"=19.25\";CI Average Joe 5'3\"=20.875\" (寬鼻寬尾刻意拉寬);相對 HPSB 標準寬 19\"-19.75\" 略縮 -0.5\"-1\" (Lost RNF Grom 縮放邏輯) 或維持 / 略寬 (Average Joe / Gremlin 走寬鼻 grovel 路線)。-1.5\" 寬度縮放主要對應 Lost grom 系列的 paddle-aware 設計。",
+    "Thickness 板厚": "小體重 board 板厚 2.13\"-2.375\" 區間;Lost RNF '96 Grom 4'10\"=2.13\"、4'11\"=2.15\";RNF '96 5'2\"=2.25\";Pyzel Gremlin 5'2\"=2.25\";CI Average Joe 5'3\"=2.375\";相對成人 HPSB 2.5\"-2.75\" 減 -0.25\"-0.5\";厚度縮放是 grom board 浮力降低的主因。",
+    "Nose_Rocker": "小體重 / grom 小浪板 nose rocker 約 4.25\"-4.75\" (groveler 路線),比 HPSB 5\"-5.5\" 減 -0.5\"-1\";Lost RNF '96 / Pyzel Gremlin / CI Average Joe 都採 low nose rocker + flat entry 設計利於兒少 paddle threshold 拉低。[uncertain 具體 Grom 系列 nose rocker 吋數,品牌未公開]",
+    "Tail_Rocker": "小體重 grom 小浪板 tail rocker 約 2.2\"-2.5\";低於 HPSB 2.5\"-3\";Pyzel Gremlin 強調 'curve through tail rocker to keep performance' tail rocker 保留略多 (~2.5\");CI Average Joe deep concave-to-vee 配置讓 tail rocker 視覺平緩。[uncertain 具體吋數]",
+    "Entry_Rocker": "Grom / 小體重小浪板 entry rocker 一致 'low / relaxed' 設計 — Pyzel Gremlin 官方語 'low entry rocker for easy speed and glide through weakest, slowest sections';Lost RNF '96 Grom 維持 round nose fish 招牌 flat entry;CI Average Joe 'light single concave for the first 1/3' 搭 flat entry。設計意圖是讓小體重騎手在無力浪也能 catch wave。",
+    "Wide_Point_Position": "Grom 系列 wide point 多在中心或中心前 0.5-1\" (round nose fish 路線);CI Average Joe wide point 推前約中心前 1\" (寬鼻 + 短 outline);Pyzel Gremlin wide point 中心 (egg-grovel 配置);相對成人 HPSB wide point 略前移 0.5-1\"。[uncertain 確切吋數]",
+    "Nose_Width_at_12_inch": "Grom 板鼻段 12\" 處寬度約 12\"-13\" (RNF '96 Grom 4'10\"-4'11\" 短板段 12\" 處接近 wide point);CI Average Joe 寬鼻設計 12\" 處約 13.5-14\";Pyzel Gremlin 約 12.5-13\";相對 HPSB 11.5-12\" 略寬,提供 paddle 餘量。[uncertain 確切吋數]",
+    "Tail_Width_at_12_inch": "Grom 板尾段 12\" 處寬度約 14\"-15.5\";Lost RNF '96 Grom swallow tail 12\" 處寬約 14.5\";CI Average Joe 寬尾 hip-tail 12\" 處約 15.5-16\";Pyzel Gremlin 12\" 處約 14.5-15\";相對 HPSB 14.5-15\" 略寬到顯著寬。[uncertain 確切吋數]",
+    "Bottom_Contour 板底設計": "小體重 grom 小浪板底主流 single-to-double concave + slight vee 尾段 — Pyzel Gremlin: 'single to double concave with a nice bit of Vee running off tail';CI Average Joe: 'light single concave for first 1/3 to deepening concave vee throughout';Lost RNF '96 Grom: single concave 過 double 過微 vee (fish 招牌);深度比成人版略淺 (因板厚薄)。",
+    "Tail_Shape 板尾形狀": "Grom / 小體重小浪板尾以 swallow 與 squash 為主 — Lost RNF '96 Grom: swallow tail (fish 招牌,小浪 looseness);Pyzel Gremlin: squash tail (穩定 + 全能);CI Average Joe: hip-tail squash (寬尾保持 drive);DHD Sweet Spot: pulled squash (略偏 performance);JS Forget Me Not II: round 或 squash 雙選。Grom 階段建議從 swallow / squash 入手,避免 round-pin 或 pin (小浪 hold 過多)。",
+    "Rail_Profile": "Grom 板 rail 設計中段偏 boxy (foam-relative)、尾段 tucked-under edge 或 down rail 細化;由於 grom 板厚薄 (2.13\"-2.25\") 即使 rail 看似 full 絕對厚度仍輕薄,carve hold 充足。Pyzel Gremlin 'rolled deck adds volume in center, giving lower & refined rail' 是典型 grom rail 設計;CI Average Joe 'full rails keep high volume in short outline'。",
+    "Rail_Volume_Distribution": "Grom / 小浪小體重板 rail volume 均勻分布為主,wide-point 區域略集中;胸下 foam 略多以幫助 paddle (Pyzel Gremlin 強調);Lost RNF '96 Grom 維持 round nose fish 對稱分布;CI Average Joe 'foam distributed to maximize wave catching' 中段集中。",
+    "Foam_Distribution": "Grom 小浪板 foam 分布兩派 — (a) 胸下集中型 (Pyzel Gremlin / CI Average Joe / Lost RNF '96 Grom) 適合大多數 grom 與初中階小體重騎手;(b) 均勻分布型 (JS Forget Me Not II / DHD Sweet Spot 4.0 custom) 適合進階小體重騎手;兒少 grom 從 (a) 起步,進階後再考慮 (b)。",
+    "Outline 輪廓曲線": "Grom / 小體重小浪板 outline 兩派 — (a) Fish-inspired round nose + swallow tail (Lost RNF '96 Grom) 經典 grom 入門選擇;(b) Hybrid grovel egg-inspired (Pyzel Gremlin / CI Average Joe / Average Joe) 寬鼻寬尾走全能路線;(c) Performance-shrunk HPSB (DHD Sweet Spot 4.0 custom 5'4\" / JS Forget Me Not II 5'5\") 縮放成人 pro 板給進階 grom 競技。最常見入門 grom outline 為 (a) Round-nose fish 因 paddle 餘裕最大。"
+  },
+  "fin_setup": {
+    "主要_Setup": "Grom / 小體重小浪板主要 setup:thruster (進階 grom 競技與小浪通用) 或 twin+stabilizer (Lost RNF '96 Grom 標配 2+1 / pure twin / thruster 三種可選);CI Average Joe / Pyzel Gremlin / JS Forget Me Not II 多採 5-fin 兼容 thruster 與 quad;兒少 grom 競技 (ISA junior) 一律 thruster 為主。",
+    "Fin_Cant": "Grom thruster 配置 cant 4-5° (標準 drive 取向) — Futures Honeycomb Grom / FCS II Grom Performer Series 都採此設定;Twin+stabilizer 配 6-6.5° cant (looseness);青少年競技 grom 開始模仿 pro 板配置 4° cant。",
+    "Fin_Toe": "Grom 1/8\" toe-in 為標準 (與成人板同) — fin 系統有 grom 專屬尺寸但 toe/cant 不變;quad 設定後 fin 1/16\" toe 給 looseness。",
+    "Fin_Foil": "Grom 推薦 inside foil side + 50-50 trailer (Futures Grom Series / FCS II Performer Grom);如果初學 grom 用 5-fin 全 50-50 提供穩定;進階 grom 換 inside foil 學 drive。",
+    "Fin_Rake_Sweep": "Grom 小浪板 fin rake 中等偏 upright (對應 small wave 'turn faster, less drive needed');Futures EA Small (Ethan Ewing junior 模板) 或 FCS II Performer Grom Neo Glass 為主流;極小體重 / 兒少 grom 用 XS template 避免 fin 過度 dampen。",
+    "Fin_Area_Template": "Grom fin area 對應體重縮放 — XS template (FCS II XS / Futures XS) 用於 30-50kg 騎手;S template 用於 50-65kg;M template 用於 65-80kg (成人標準);兒少 grom 用 XS template 才能讓 fin drive 不過量。Futures EA Small / Pyzel Grom template 為小浪小體重黃金組合。",
+    "Quad_Rear_Position": "Grom quad 設定 rear fin 靠 rail 1/4-3/8\" (比成人靠 rail 稍少,保留更多 hold 給 grom 體重不足的 drive);Lost RNF '96 Grom 預設 quad position 已優化 grom 體重段。",
+    "2plus1_vs_PureTwin": "Lost RNF '96 Grom 預設可選 2+1 (twin + stabilizer) 或 pure twin 或 thruster;2+1 給 grom backhand hold + frontside looseness 平衡 (推薦兒少 / 初中階 grom);pure twin 給進階 grom 在 long-face point break 玩 free-surf 風格 (Asher Pacey 風格);thruster 給競技 grom 與小浪 vertical 練習。"
+  },
+  "construction": {
+    "PU_PE 在小浪": "Grom / 小體重小浪板 PU/PE 構造優點 — carve 可預測、入水更穩、knifey rail feel;缺點是重量對小體重 grom 推進負擔較大 (PU 板可比同尺寸 EPS 重 0.5-1kg,對 35kg grom 是 +1.5-3% 體重負擔)。兒少 grom 建議優先 EPS / HD-EPS 路線,成年小體重競技進階騎手可考慮 PU 走 knifey rail。",
+    "EPS_Epoxy 在小浪": "Grom / 小體重小浪首選 EPS/Epoxy — 輕量 (對體能尚未完整的 grom 至關重要)、pump 效率高 (小浪靠 pump 加速)、同浮力數值感覺更高 +3-4% (對 paddle threshold 友善)。Lost RNF '96 Grom Lightspeed II (EPS + carbon parabolic) 為 grom EPS 經典;Firewire Helium / FST EPS 構造也常見於 grom 系列。",
+    "HD_EPS": "Grom / 小體重高階構造首選 HD-EPS — Lost Lightspeed II (RNF '96 Grom Lightspeed 為旗艦)、Firewire Helium / FST (Pyzel Gremlin 在 Firewire 系統下有 Helium 版本)、Haydenshapes FutureFlex (Hypto Krypto 5'8\"-5'10\" 為小體重旅行兼容)、Sharp Eye E3 Lite;HD-EPS 對兒少 grom 耐摔性也比純 PU 強,適合學習階段。",
+    "Glassing_Schedule": "Grom 板 glassing 標準 4+4/4 (lightweight comp,輕量但易壓壞) 為入門;進階 grom 用 4+6/4 (deck 雙層強化) 為平衡;兒少初學 grom 應該用 6+4/6 strong 給較多耐摔 buffer (但稍重),或直接買 soft-top 入門;EPS 版本 grom 板 glassing 等效強度比 PU 略低,要靠 HD-EPS 框架技術補足。",
+    "新技術": "(1) Lost Lightspeed II (RNF '96 Grom Lightspeed) — EPS + parabolic carbon,grom 進階旗艦;(2) Firewire Helium / FST (Pyzel Gremlin Helium / Tomo Vader Helium grom 尺寸) — Sustainable HDPE + EPS,耐摔輕量;(3) JS HYFI EPS (Forget Me Not II HYFI) — 同樣 EPS + 強化技術但 grom 體重段不一定容易找尺寸;(4) Catch Surf / Softech / Beater 為兒少 grom 軟頂入門選擇 (小浪初學黃金路線)。"
+  },
+  "conditions_fit": {
+    "浪高範圍": "Grom / 小體重騎手小浪板適配 0.5-3ft (主場景)、3-5ft 進階 grom 仍可勝任;兒少 grom 一般在 0.5-2ft 玩 grom contest 或學習新動作;55kg 進階小體重騎手用 Lost RNF '96 5'4\" 可衝到 4-5ft 中等浪。",
+    "浪質": "小體重 grom 對軟浪 / 飽滿浪適配最佳;空心浪 grom 需要 step-up 規格但縮放仍在 5'2\"-5'8\" 區間;極軟肥浪需要 soft-top 或大 foam 板,Pure HPSB grom 反而 paddle 不上去。",
+    "浪型": "Grom / 小體重小浪板主場為 beach break (烏石 / 中角 / 南灣);point break (金樽) 進階 grom 也常見;reef break (佳樂水 / 粉鳥林) 兒少 grom 不建議因 ding 風險高 + paddle out 體能挑戰。",
+    "不適合場景": "(1) 雙倍頭以上大浪 (grom 板 rocker 與 hold 不足);(2) 極長距離 outer reef paddle 出去 (grom 體能無法承擔);(3) 極大流場景 (grom 體能受限於浮力與體重);(4) 兒少 grom 不適合冬季強季風浪況 (烏石冬天 1.5m+ 浪)。"
+  },
+  "performance": {
+    "划水容易度": "Grom / 小體重小浪板 paddle threshold 為 grom 訴求最重要指標 — Pyzel Gremlin / CI Average Joe / Lost RNF '96 Grom 都在 1ft 軟浪可 paddle 起來;Lost RNF '96 5'2\" (24.75L) 對 50kg 騎手是 GF 0.495 paddle 餘裕充足;兒少 grom 35kg 配 RNF '96 Grom 4'10\" (21.25L) 是 GF 0.607,小浪 paddle 不費力。",
+    "起乘速度": "Grom 板 take-off 反應快 (短板長 + low entry rocker);RNF '96 Grom 短 outline 5'0\" 以下起乘極快;Pyzel Gremlin 'quick acceleration' 為設計訴求;CI Average Joe '增加 wave count' 為主打,起乘容易度為 grom 段第一順位。",
+    "Glide 平面速度": "Grom 板 glide 在 down-the-line 段較成人板短 (5'2\" 板長制約);但 EPS/Helium 構造 Pyzel Gremlin / Lost RNF '96 Lightspeed Grom 在 open face 速度仍可達 small wave 中段水準;小體重騎手體重輕本身就讓 glide 流暢度高。",
+    "Pump 效率": "Grom EPS 構造 pump 效率高 (輕量 + carbon parabolic frame);兒少 grom 因體重輕、肌力相對體重比高,pump 反應快但 amplitude 小;小體重成人 (50-55kg) 在 RNF '96 / Gremlin 上 pump 後加速明顯,small wave glide 表現好。",
+    "轉向靈活度": "Grom 短板 + 縮放 rail 設計轉向極靈活 — 5'2\" 板長轉向半徑可比成人 6'0\" 板小 30-40%;兒少 grom 學 quick top-turn / bottom-turn 的入門首選 RNF '96 Grom 或 Pyzel Gremlin。",
+    "Vertical 能力": "Grom 板可玩 vertical snap (進階 grom 競技目標) — DHD Sweet Spot 4.0 custom 5'4\" / JS Forget Me Not II custom 5'5\" 為 vertical 能力最強選擇;入門 grom 從 Pyzel Gremlin / CI Average Joe 慢慢培養 vertical 訴求。",
+    "空中動作能力": "進階 grom (青少年競技) 可玩 small air-frontside / reverse;Lost RNF '96 Lightspeed Grom 與 JS Forget Me Not II HYFI 在 air 動作落地較穩;兒少 grom 階段不強求 air 動作,先紮實 basic turn。",
+    "Backside_vs_Frontside": "Grom thruster 設定 backside 與 frontside 平衡;Pure twin RNF '96 Grom backside 略缺 hold 但 grom 體重輕影響不大;2+1 設定 (RNF '96 Grom 2+1) 為 grom backside-frontside 平衡最佳選擇。"
+  },
+  "practical_selection": {
+    "代表板款": "(1) Lost RNF '96 Grom (Lightspeed II) 4'8\"-4'11\" — 14-22L,兒少 grom 標竿,Matt Biolos 親自為 grom team rider 設計,team 包含 Kainehe Hunt / Kobi Clements;(2) Lost RNF '96 5'0\"-5'5\" (24.75-28.5L) — 青少年到小體重成人 50-55kg 主流,Lib Tech Lost RNF '96 Light Bicy/Eco-Impacto 構造耐摔;(3) Pyzel Gremlin 5'2\"-5'4\" (24.8-27L) — Shane Dorian 設計小浪 grovel grom 兼容,paddle-aware 'low entry rocker';(4) CI Average Joe 5'3\"-5'5\" (29.6-32L) — Britt Merrick 設計增加 wave count 取向,55kg+ 與小體重初中階女性騎手主流;(5) DHD Sweet Spot 4.0 custom 5'4\" — Mark Phipps 為小體重 grom 競技訂製;(6) JS Forget Me Not II custom 5'5\"-5'8\" — Jason Stevenson 為 grom 與小體重競技騎手設計 paddle-aware HPSB。",
+    "常見錯誤": "(1) 照搬成人 GF 公式給 grom → 公式適用 50kg+,30-40kg grom 需要 GF +0.05-0.10;(2) 父母給兒少 grom 買 'one size up' 想 '撐一年' → grom 衝小浪需要剛好的尺寸,過大反而 carve 無法練習;(3) 小體重騎手 (女性 / 兒少) 套用歐美 size chart → 偏大 2-3L,paddle 過剩反而難穩定 take-off;(4) 兒少 grom 用 PU 板 → 重量負擔過大,EPS / soft-top 更合適;(5) 五吋以下 grom 板配成人 fin (M template) → drive 過量,turn 太遲鈍;(6) 直接買 progressive pro grom 模板 (例 DHD Sweet Spot 4.0 競技款) 給新手 grom → 進階板設計對新手 grom 太困難。",
+    "升級陷阱": "(1) 兒少 grom 從軟頂跳級到 RNF '96 Grom 太快 → 應該中間有 epoxy + foam 配置的中間板 (NSP / Catch Surf 進階款);(2) 競技 grom 追隨 Pro grom team rider 同尺寸 → Pro grom 已是頂尖體能,週末 grom 應 +3-4L 取板;(3) 小體重女性騎手追隨 men's pro model 縮放 → women's / unisex grom shape 更適合 (Album Twinsman 縮放版 / Lost Smooth Operator 短尺寸);(4) 跳級到 5'10\"+ 成人 board → 小體重 50-55kg 仍應保持 5'2\"-5'6\" 區間,paddle 餘裕來自寬度厚度而非長度。",
+    "搭配_fin 建議": "(1) Lost RNF '96 Grom + Futures Grom Performer XS thruster set 或 Pyzel Grom template;(2) Pyzel Gremlin + FCS II Performer Grom Series PG-3 或 PG-5 (Pyzel 出 Gremlin 專屬 fin 套組);(3) CI Average Joe + Futures AM1 Small 或 FCS II MR Twin + Stabilizer (走 retro 路線);(4) DHD Sweet Spot 4.0 grom + Futures EA Small (Ethan Ewing junior 模板);(5) JS Forget Me Not II grom + JS / Futures JS Industries Grom set。",
+    "二手板評估": "Grom 二手板評估重點:(1) 兒少 grom 板由於使用週期短 (1-2 年體型就成長),二手板供應豐富,建議在 jrsurf.com / 蕃薯衝浪二手區 / FB 衝浪二手社團;(2) Grom 板 deck dent 嚴重程度通常較輕 (兒少體重輕);(3) Stringer 變形要注意 (grom 板薄,容易在沙灘上踩斷);(4) fin box plug 4 個都要檢查;(5) Lost RNF '96 Grom Lightspeed II 二手約原價 50-60%。",
+    "Quiver 規劃": "(1) 兒少 grom 入門 quiver:soft-top 7'0\" 軟頂 + Lost RNF '96 Grom 4'10\"-4'11\" 兩塊;(2) 青少年競技 grom quiver:RNF '96 Grom 4'11\" + Pyzel Gremlin 5'0\" + DHD Sweet Spot grom 5'2\" 三塊覆蓋小浪到中浪;(3) 小體重成人 (50-55kg) quiver:Lost RNF '96 5'2\"-5'4\" (groveler) + CI Average Joe 5'4\" (mush) + 小體重 HPSB 5'6\"-5'8\" (進階浪) 三塊;(4) 若旅行為主,小體重 OBQ 為 5'6\"-5'8\" Hypto Krypto / Album Insanity custom 縮放版。",
+    "預算建議": "(1) 兒少 grom 軟頂 (Catch Surf / Softech) NTD 6,000-12,000;(2) Lost RNF '96 Grom PU 版 NTD 18,000-22,000、Lightspeed II EPS 版 NTD 25,000-32,000;(3) Pyzel Gremlin / CI Average Joe PU 版 NTD 22,000-28,000、FST/Helium 版 NTD 30,000-35,000;(4) DHD Sweet Spot / JS Forget Me Not II custom 進階 grom 版 NTD 28,000-36,000;(5) 台灣本土 shaper grom 訂製 PU 板 NTD 15,000-22,000 為預算友善選項;(6) 二手 grom 板 NTD 8,000-18,000 為兒少快速成長階段最 cost-effective 選擇。"
+  },
+  "pro_reference": {
+    "Stab_in_the_Dark": "Stab in the Dark 主要測試成人 HPSB,grom 規格不在主賽 — 但 Stab 旗下 Stab High Junior / Electric Acid Surfboard Test 偶有 grom 段測試;Lost RNF '96 系列在多次 Stab Joyride 測試中表現優異,直接影響 RNF '96 Grom 設計;Pyzel Gremlin (Shane Dorian 設計) 多次在 Stab grovel 測試出現。[uncertain Stab 2025 grom 具體名單]",
+    "WSL_CT 選手選擇": "WSL CT 多為 65-75kg 成人選手,grom 規格不適用;但 Junior Pro / WSL World Junior Champion 級 grom rider:Kainehe Hunt (Lost team grom)、Kobi Clements (Lost team)、Erin Brooks (Pyzel grom)、Sierra Kerr (Josh Kerr 女兒,Album grom)、Caroline Marks 早期 (DHD grom)、Eala Stranger (Tom Curren 孫 grom rider);這些 grom 騎手對 board chart 影響大。",
+    "Free_surf 風格參考": "Free-surf grom 風格參考 — Tosh Tudor (Del Mar,20 歲,5'5\" twin-fin Thomas Bexon shape 為主)、Sierra Kerr (Album grom collab,衝小浪日常)、Erin Brooks (Pyzel grom 與 Phantom 縮放版);這些 free-surf grom 影響整代小體重騎手的 board 選擇審美 — 短 / twin / 寬鼻 / 復古路線增加。"
+  },
+  "local_taiwan_context": {
+    "浪點適配": "台灣 grom / 小體重小浪板適配:(1) 烏石港 (沙底 beach break) 為 grom 主場,夏天 0.3-0.7m 完美 grom 訓練浪;(2) 中角灣 (北部 reef+sand mix) grom 進階浪況訓練 + 春末小浪;(3) 南灣 (墾丁 sand) 夏天 grom 度假浪;(4) 金樽 (台東 point) 進階小體重騎手用 mid-length 變化;(5) 佳樂水 (屏東 reef) grom 不建議 (ding 風險);(6) 東澳粉鳥林 (reef) grom 不適合。",
+    "進口_訂製": "台灣 grom 板進口管道:(a) JR Surf 強尼玫瑰 為 Lost 總代理,RNF '96 Grom 整套尺寸有現貨或可訂;(b) VAST Surf Shop 為 Firewire 與 Pyzel 代理,Pyzel Gremlin 系列穩定供貨;(c) Concrete Surf 為 Channel Islands 代理,Average Joe / Bonzer Biscuit 等小體重友善款庫存;(d) 本土 shaper Saltywave / 蕃薯 / Switchfoot 可仿 grom 概念訂製 PU 版,費用 NTD 15,000-20,000 比進口低 30-40%;(e) 香港 / 日本進口 grom 板偶在台二手市場出現。",
+    "中文社群迷思": "(1) '小孩衝浪只能用軟頂' — 實際 epoxy grom 板 (RNF '96 Grom Lightspeed) 既安全又能練 performance;(2) '女生 / 小體重應該買大塊一點 paddle 容易' — 過大反而轉不動,GF 0.45-0.50 + 寬鼻寬尾 grovel 設計才是答案;(3) 'grom 板用一年就要換' — 雖然兒少體型快速成長,但 4'10\"-5'2\" 區間其實涵蓋 30-50kg 廣泛體重,壽命可 2-3 年;(4) '小體重騎手不能玩 step-up' — 50-55kg 也有對應的小體重 step-up 5'8\"-6'0\" 縮放規格,但需要 custom order;(5) '兒少 grom 越早練 thruster 越好' — 實際 RNF '96 Grom twin 配置給 grom 練 flow 比 thruster 更直觀。",
+    "在地教練建議": "(1) JR Surf 強尼玫瑰外澳店為 Lost / RNF '96 Grom 北台灣主力,grom 課程 + 板款一條龍;(2) VAST Surf Shop 推薦 Pyzel Gremlin 與 Firewire FST grom 構造為 paddle-aware 首選;(3) 浪人台東 (金樽衝浪小屋) 提供小體重騎手 mid-length 5'10\"-6'8\" 嘗試空間 (適合 50-55kg 進階女性騎手 point break);(4) 阿飛衝浪店 (墾丁 / 南灣) 為兒少 grom 軟頂入門場景;(5) Tribe 1173 Surf Shop (南灣) 提供小體重 grom 軟頂與初階板。Decathlon (迪卡儂) Olaian 系列也有兒少 grom 軟頂便宜替代品 NTD 4,000-8,000。[uncertain 各店確切 grom 庫存]"
+  },
+  "uncertain": [
+    "Nose_Rocker",
+    "Tail_Rocker",
+    "Wide_Point_Position",
+    "Nose_Width_at_12_inch",
+    "Tail_Width_at_12_inch",
+    "Stab_in_the_Dark",
+    "在地教練建議"
+  ]
+}

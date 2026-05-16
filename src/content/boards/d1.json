@@ -1,0 +1,103 @@
+{
+  "basic_info": {
+    "名稱": "Channel Islands 小浪系列 (Channel Islands Small Wave Family: FishBeard / Twin Pin / Happy Everyday / Average Joe / CI Mid / CI Mid Twin / G-Skate / Peregrine)",
+    "分類": "品牌板款",
+    "適用程度": "全程度(全系列涵蓋初學 Average Joe → 進階 Peregrine);CI Mid / Mid Twin 為中階以上 mid-length;FishBeard / Twin Pin 偏進階 retro twin;Happy Everyday / G-Skate 為中階主流。",
+    "一句話定位": "Al Merrick / Britt Merrick 旗下橫跨 retro twin、hybrid、shortboard、midlength 的完整小浪艦隊"
+  },
+  "buoyancy_strategy": {
+    "Guild_Factor_GF": "Average Joe / Happy Everyday(hybrid groveler):GF 0.40-0.48;FishBeard / Twin Pin(retro twin):GF 0.40-0.46;G-Skate(skate hybrid):GF 0.38-0.44;CI Mid / Mid Twin:GF 0.55-0.65(mid-length 高浮力);Peregrine(高性能小浪):GF 0.34-0.38。",
+    "浮力公式": "建議倍率:Average Joe(中階小浪 1.5-3ft)= 體重 x 0.45;Happy Everyday(中階全方位)= 體重 x 0.42;FishBeard(retro twin)= 體重 x 0.45;Twin Pin(versatile twin)= 體重 x 0.42;CI Mid = 體重 x 0.6;G-Skate(skate-feel)= 體重 x 0.40;Peregrine(HP)= 體重 x 0.36。",
+    "相對日常板浮力增量": "Average Joe / Happy Everyday +20%-30%;FishBeard / Twin Pin +15%-25%;G-Skate +10%-15%;CI Mid / Mid Twin +50% 以上(mid-length 性質);Peregrine -5% ~ +5%(接近 HPSB)。",
+    "浮力範圍_體重對照": "50kg(範例 70kg 中階以 Happy Everyday 為例:約 28-32L 範圍對應 5'8-5'9):Average Joe 5'3\" 29.6L 約給 60-65kg;Happy Everyday 5'8\" 約 30-32L 給 70kg;FishBeard 5'9\" 31-32L 給 70kg;Twin Pin 5'11\" 32.9L 給 75kg;CI Mid 6'8\" 40.2L 給 75-85kg。",
+    "小浪修正係數": "Average Joe / Happy Everyday 已內建小浪修正(設計即為小浪);FishBeard / Twin Pin / G-Skate 偏好 +3L 在原 HPSB 公式之上;CI Mid 不需(體積已多);Peregrine +2L。",
+    "BMI_體脂修正": "高 BMI 肌肉型:Peregrine / G-Skate 可下殺 1-2L;高 BMI 脂肪型:Average Joe / Happy Everyday 加 2-3L;低 BMI 偏瘦型:FishBeard / Twin Pin 可享受最浮的快樂感。",
+    "年齡_體能修正": "40 歲以上中階玩家建議從 CI Mid Twin 或 Average Joe 入手,paddle 與 stability 皆強;Peregrine 與 G-Skate 對體能要求高。",
+    "品牌計算器差異": "Channel Islands 自家官網有 board finder + volume guide;但業界普遍認為 CI 計算器偏低(實際取板需 +1~2L)。Britt Merrick 個人 podcast 中也曾建議「先選大一號」。亞洲玩家更明顯。",
+    "亞洲體型修正": "亞洲身材偏小(比歐美輕 5-10kg),CI 板款建議比官方表低一檔(例如 70kg 玩家 Happy Everyday 取 5'8 而非 5'9);CI Mid 則因 mid-length 性質,亞洲玩家常選 6'6\"-6'10\" 為 sweet spot。 [uncertain]"
+  },
+  "shape_details": {
+    "Length 板長": "FishBeard 5'4\"-6'4\"(retro twin 全範圍);Twin Pin 5'7\"-6'5\"(略長 retro twin);Happy Everyday 5'4\"-6'4\";Average Joe 5'3\"-6'1\";CI Mid 6'3\"-7'5\"(midlength);CI Mid Twin 6'6\"-7'1\"(短 1\" 比原 CI Mid);G-Skate 5'2\"-6'6\";Peregrine 5'6\"-6'4\"(HP shortboard 範圍)。",
+    "Width 板寬": "FishBeard 18 7/8\"-20\"+ ;Twin Pin 18 7/8\"-19 7/8\";Happy Everyday 約 19 1/4\"-20 1/4\";Average Joe 20 7/8\"-22 7/8\"(全系列最寬);CI Mid 20.75\"-21.75\";Mid Twin 略寬於 CI Mid;G-Skate 18.75\"-21.75\";Peregrine 約 18 3/4\"-20 1/4\"。",
+    "Thickness 板厚": "FishBeard 2 1/4\"-2 5/8\";Twin Pin 2 7/16\"-2 11/16\";Happy Everyday 2 1/4\"-2 5/8\";Average Joe 2 3/8\"-2 7/8\";CI Mid 2.63\"-3.00\";G-Skate 2.31\"-3.00\";Peregrine 較薄(官網建議比平時下 1/8\")。",
+    "Nose_Rocker": "Average Joe / Happy Everyday:約 4.4\"-4.7\"(staged rocker low entry);FishBeard:約 4.6\"-4.8\";Twin Pin:約 4.8\"-5.0\";CI Mid:約 4.5\"-4.8\";G-Skate:約 4.7\"-5.0\";Peregrine:約 5.0\"-5.4\"(HPSB 標準)。 [uncertain]",
+    "Tail_Rocker": "Average Joe / Happy Everyday:約 2.2\"-2.5\";FishBeard:約 2.3\"-2.5\";Twin Pin:約 2.4\"-2.6\";CI Mid:約 2.5\"-2.7\";G-Skate:約 2.4\"-2.7\";Peregrine:約 2.6\"-2.9\"。 [uncertain]",
+    "Entry_Rocker": "Happy Everyday 為「staged rocker」(分段而非連續):前段低 entry rocker 直到 fin 前突 hip 才轉折;Average Joe 採近乎 flat rocker(全系列最平);FishBeard / Twin Pin 中段平直、尾段釋放;CI Mid / Mid Twin 低 entry rocker + 漸進尾段;G-Skate 低 entry rocker 配 wide point forward。",
+    "Wide_Point_Position": "Average Joe / Happy Everyday:wide point 略前於 center(配合 Merrick Hip);FishBeard / Twin Pin:retro 風格 wide point 較前;CI Mid:wide point at center(egg outline);G-Skate:wide point forward(skate feel);Peregrine:wide point at center 或略後(HPSB)。 [uncertain]",
+    "Nose_Width_at_12_inch": "Average Joe(寬鼻):約 13.5\"+;Happy Everyday:約 12.5\"-13\";FishBeard:約 13.0\"-13.5\"(因 NB2 redesign);Twin Pin:約 12.5\"-13\";CI Mid:約 14\"+(egg 寬鼻);G-Skate:約 12.5\"-13\";Peregrine:約 11.8\"-12.2\"(HPSB 標準)。 [uncertain]",
+    "Tail_Width_at_12_inch": "Average Joe:約 15.5\"-16\"+(Merrick Hip 後相對窄但板身寬);Happy Everyday:約 15\"-15.5\";FishBeard:約 15.5\"-16\"(swallow 寬尾);Twin Pin:約 14.5\"-15\"(pintail 收窄);CI Mid:約 15.5\"-16\"(egg);G-Skate:約 15.5\"-16\"(swallow);Peregrine:約 14.5\"-15\"(HPSB squash)。 [uncertain]",
+    "Bottom_Contour 板底設計": "Average Joe:single concave to concave V(前段 single,後段 deepening concave vee);Happy Everyday:single concave under front foot → double concave between fins;FishBeard:single to double concave(NeckBeard 2 改版);Twin Pin:flat from nose → slight roll/vee 後半段;CI Mid:double-barrel concave + graduated rocker;G-Skate:light single to double concave;Peregrine:4-channel(獨特設計)+ single concave to flat tail。",
+    "Tail_Shape 板尾形狀": "FishBeard:Swallow(retro fish tail,搭 keel fins);Twin Pin:Pintail / Pin(收窄尾,Mikey February 簽名);Happy Everyday:Squash with Merrick Hip;Average Joe:Squash with Hip(略 wing);CI Mid:Round / Squash(egg 風格);CI Mid Twin:Round;G-Skate:Swallow(retro skate fish);Peregrine:Squash(HPSB)。",
+    "Rail_Profile": "Average Joe / Happy Everyday:medium tucked rail;FishBeard / Twin Pin:medium-full rounded retro rail;CI Mid / Mid Twin:medium hard tucked rail;G-Skate:contemporary shortboard rail(短 5\" rail line);Peregrine:medium-full round。",
+    "Rail_Volume_Distribution": "Average Joe:均勻 + chest 集中;Happy Everyday:從 hip 前較飽滿;FishBeard / Twin Pin:retro 風格 rail volume 集中後半;CI Mid:均勻分布以維持 trim;G-Skate:rail line 縮短後集中於中段;Peregrine:中段集中。",
+    "Foam_Distribution": "Average Joe:胸下集中(easy paddle);Happy Everyday:略前移配合 lowered entry rocker;FishBeard:胸下到中段(retro 風);Twin Pin:中段(versatile);CI Mid / Mid Twin:foam-forward(midlength trim);G-Skate:wide point forward → 前移;Peregrine:均勻偏中(HPSB)。",
+    "Outline 輪廓曲線": "Average Joe:寬而漸收 + Merrick Hip;Happy Everyday:略 curvy + Merrick Hip;FishBeard:retro fish 寬鼻 + 寬尾 + swallow;Twin Pin:Egg-pin hybrid outline;CI Mid:egg/midlength outline;G-Skate:wide-point-forward retro skate outline;Peregrine:curvy HPSB outline。"
+  },
+  "fin_setup": {
+    "主要_Setup": "FishBeard:Twin(CI Keel,推 Futures AMK Keel);Twin Pin:Twin(Britt Merrick Twin 模板);Happy Everyday:Thruster 或 5-fin;Average Joe:Thruster(box);CI Mid:2+1(twin + single trailer);CI Mid Twin:Pure twin;G-Skate:2+1(twin + trailer);Peregrine:Thruster 四通道(Thruster only)。",
+    "Fin_Cant": "Twin / keel(FishBeard):cant 3-5° drive 取向;Twin Pin BMT:5-6° 平衡;Thruster(Happy Everyday / Average Joe / Peregrine):6.5°+ 標準;2+1(G-Skate / CI Mid):側鰭 6° + 中央 trailer 0°。 [uncertain]",
+    "Fin_Toe": "Keel(FishBeard)約 1/8\" toe(較大);Twin Pin BMT 約 1/8\";Thruster 約 3/16\"-1/4\";4-channel Peregrine 因設計需精準 toe placement。",
+    "Fin_Foil": "Keel(FishBeard):flat foil 外側;BMT(Twin Pin):inside foil 但偏 flat;Thruster:inside foil 前 + 50-50 中央;Peregrine 4-channel 需 inside foil 配合 channel water flow。",
+    "Fin_Rake_Sweep": "Keel(FishBeard):high rake(retro);BMT(Twin Pin):mid rake(現代 upright + retro keel 混血);AM2 在 Happy Everyday / Average Joe / Peregrine 為標配中等 rake。",
+    "Fin_Area_Template": "Average Joe / Happy Everyday:AM2 / CI Upright(中型);FishBeard:AMK Keel(大型 retro keel);Twin Pin:BMT(中型);CI Mid:2+1 中型 trailer;G-Skate:CI Upright / Performer twin(中型);Peregrine:AM2 / AM3 / AMT(中至大型,看尺寸)。",
+    "Quad_Rear_Position": "CI 小浪系列幾乎不採 quad 配置;5-fin box 版本玩 quad 時 rear 建議靠 rail 1/4-1/2\" 增加 looseness。",
+    "2plus1_vs_PureTwin": "CI Mid(2+1)vs CI Mid Twin(pure twin):2+1 提供 backhand hold 與一定 thruster 感、適合長線條 carve;pure twin 提供 maximum drive 與下浪段直線速度,backside 較難 hold 是 trade-off。G-Skate 同樣以 2+1 取得平衡。"
+  },
+  "construction": {
+    "PU_PE 在小浪": "Channel Islands 主流仍為 PU/PE(美國加州本土製);PU 在 CI 小浪系列提供:knifey rail feel(中階以上玩家偏好)、入水穩定、carve 可預測、典型 Al Merrick / Britt Merrick 設計感。FishBeard / Twin Pin / Peregrine 經典 PU 版為玩家首選。",
+    "EPS_Epoxy 在小浪": "CI 提供 TL Pro Carbon(Surftech 製 EPS sandwich)版本;Average Joe / Happy Everyday / FishBeard / CI Mid 都有 TL Pro Carbon 選項。EPS 版本輕、paddle 強、感覺浮力多 1-2L,適合小浪 + 飛行運輸。",
+    "HD_EPS": "CI 沒有自家 HD EPS 技術;以 Spine-Tek(Surftech 製,帶碳纖維 spine 的 EPS)為對應產品,介於 PU 與標準 EPS。 [uncertain]",
+    "Glassing_Schedule": "CI 小浪系列標準 glassing:6+4/6(平衡);競賽 / 進階玩家可訂 4+4/4 lightweight comp;旅行 / 入門玩家選 6+6/6。",
+    "新技術": "Channel Islands 與 Surftech 合作的 TL Pro Carbon / TL2 構造(2024 持續演進);Mikey February Twin Pin 與 G-Skate 也有 PU 與 Spine-Tek 雙構造選項。 [uncertain]"
+  },
+  "conditions_fit": {
+    "浪高範圍": "FishBeard 1-6ft;Twin Pin 1ft 到 double overhead(versatile);Happy Everyday 1-5ft;Average Joe 1-4ft(全系列最 grovel);CI Mid 1-5ft(實際偏 shoulder-high+);CI Mid Twin shoulder-high 到 overhead(speed 最強);G-Skate 1-5ft;Peregrine waist 到 ceiling-high(本質 HP shortboard)。",
+    "浪質": "FishBeard / Twin Pin:軟到飽滿浪 + 略 hollow(twin 仍可 hold);Happy Everyday:全方位飽滿浪;Average Joe:軟浪 / mush 至上;CI Mid / Mid Twin:長線條飽滿浪;G-Skate:軟到中等飽滿浪;Peregrine:飽滿到中等 hollow。",
+    "浪型": "FishBeard / Twin Pin / G-Skate:beach break + point break 通用;Happy Everyday / Average Joe:beach break 主場;CI Mid / Mid Twin:point break(長線條趣味)最佳;Peregrine:beach break + reef break 高性能浪型。",
+    "不適合場景": "Average Joe 不適合 4ft+ 真有力浪;FishBeard 雖可上 6ft 但 backside hold 仍弱;Twin Pin 在 double overhead 可玩但需高技術駕馭;CI Mid 在 1ft mush 雖可滑但失去其設計初衷;Peregrine 在 1-2ft 過小,paddle 不夠;G-Skate 在 6ft+ 開始 tail 撐不住。"
+  },
+  "performance": {
+    "划水容易度": "Average Joe > Happy Everyday > CI Mid / Mid Twin > FishBeard > Twin Pin > G-Skate > Peregrine。Average Joe 是 CI 全系列 paddle 之王。",
+    "起乘速度": "Average Joe / Happy Everyday / CI Mid 起乘最快(設計即為 easy take-off);FishBeard / Twin Pin retro twin 起乘中等;G-Skate 中等;Peregrine 較 demanding(浪要有 push)。",
+    "Glide 平面速度": "CI Mid Twin(twin pure speed)= 全系列最快平面;Twin Pin / FishBeard 次之;Happy Everyday / Peregrine 中等;Average Joe 速度不是強項(以易駕馭為核心)。 [uncertain]",
+    "Pump 效率": "Peregrine(4-channel)= pump 效率最高;Happy Everyday / G-Skate / FishBeard 中等;Average Joe / CI Mid 不依賴 pump(靠 trim 行進);Twin Pin twin fin 配 versatile outline,pump 效率中上。",
+    "轉向靈活度": "G-Skate 與 Peregrine = 全系列最 tight pocket;Happy Everyday 中等;FishBeard 後段腰部以下 pivot 強;Twin Pin 線條較長;Average Joe 緊湊轉但因寬而需更多力量;CI Mid / Mid Twin 偏 flowy。",
+    "Vertical 能力": "Peregrine(thruster + 4-channel)最強 vertical;Happy Everyday / G-Skate 次之;FishBeard / Twin Pin(twin fin)vertical 受限但仍可玩;CI Mid / Mid Twin vertical 不是強項(以 flow / trim 為主);Average Joe vertical 受寬尾限制。",
+    "空中動作能力": "Peregrine 為 CI 小浪系列裡 air 之王(HP shortboard 性質);G-Skate / Happy Everyday 中等;FishBeard / Twin Pin twin 在 frontside air 落地較野;CI Mid / Mid Twin 不為 air 設計;Average Joe 不為 air 設計。",
+    "Backside_vs_Frontside": "Twin fin(FishBeard / Twin Pin / CI Mid Twin):frontside 強、backside 需技術;2+1(G-Skate / CI Mid):兩面平衡;Thruster(Happy Everyday / Average Joe / Peregrine):兩面平衡。"
+  },
+  "practical_selection": {
+    "代表板款": "FishBeard(retro twin fish + NeckBeard 2 nose,5'4-6'4,推 24.9-32.5L);Twin Pin(Mikey February x Britt Merrick 二年研發 twin pintail,5'7-6'5,27.9-35.3L+);Happy Everyday(小浪 high-performance squash + Merrick Hip,5'4-6'4,22.4-40.9L);Average Joe(CI 員工最愛的 user-friendly groveler,5'3-6'1,29.6-50L);CI Mid(Devon Howard 合作 egg midlength 6'3-7'5,37.5-53.5L);CI Mid Twin(CI Mid 短 1\" 的 twin 版,6'6-7'1);G-Skate(Gudauskas 兄弟 + Britt Merrick 合作 2+1 skate hybrid,5'2-6'6,25.3-47.2L);Peregrine(4-channel HP shortboard,thruster only)。",
+    "常見錯誤": "1) 把 CI Mid 拿去 1-2ft mush(設計者明說「小浪請用 fish / longboard」);2) Average Joe 給進階玩家當主力板 → 進階 progression 受限;3) FishBeard 配傳統 thruster 而非 keel → 失去 retro fish 速度;4) Peregrine 配大型 fin → 已有 4-channel 提供 drive,fin 應選中型;5) Twin Pin 在亞洲玩家身上配 Mikey February 同尺寸(5'9-5'11)→ 對 60-70kg 亞洲體型偏大,應 -2\"~-3\"。",
+    "升級陷阱": "Average Joe → Happy Everyday → Peregrine 是 CI 自然 progression 路徑;跳級買 Peregrine 而 paddle 不夠是常見錯誤;FishBeard / Twin Pin 為 retro side quiver 而非 progression 板;CI Mid / Mid Twin 是 quiver complement,不應為唯一板。",
+    "搭配_fin 建議": "FishBeard:Futures AMK Keel(官方推);Twin Pin:Britt Merrick Twin(BMT,專屬模板);Happy Everyday:Futures AM2(thruster)/ CI Upright;Average Joe:AM2 / M2 / FCS Performer;CI Mid:Greenough 4A 或 Captain Fin Mid Trailer;CI Mid Twin:Britt Merrick Twin 或 Captain Fin Twin Special;G-Skate:CI Upright Twin + small trailer;Peregrine:AM2 / AM3 / AMT(看尺寸)。",
+    "二手板評估": "CI 二手板市場活躍(美國 / 亞洲皆是);PU 版 deck dent 對小尺寸影響大;FishBeard / Twin Pin / G-Skate 二手板需檢查 twin fin box 受力是否變形;CI Mid 二手板因 mid-length 性質壽命長(扭力低)。Spine-Tek / TL Pro Carbon 二手保值較好。",
+    "Quiver 規劃": "CI 完整小浪 quiver 範例:Average Joe / Happy Everyday(1-3ft 小浪)+ FishBeard 或 Twin Pin(2-5ft retro twin 樂趣)+ Peregrine(3-6ft HP shortboard)+ CI Mid 或 Mid Twin(point break + 飽滿線條)。2-board 簡化:Happy Everyday + Peregrine。3-board:加 FishBeard。",
+    "預算建議": "PU 版 CI 小浪板新訂 USD 750-900 / NTD 24,000-29,000;TL Pro Carbon 版 USD 850-1000;Spine-Tek 約 USD 850;二手 PU 約 USD 400-550;Mikey February Twin Pin 因聯名稍高 USD 850+;Channel Islands 在台代理 VAST / Hooked / Jpsurf,軟頂類似板款 USD 350-500。"
+  },
+  "pro_reference": {
+    "Stab_in_the_Dark": "Channel Islands 過去多次參與 Stab in the Dark:2021 SitD Kelly Slater 系列、2023 / 2024 Britt Merrick 設計多次入圍。Peregrine 與相關 HP shortboard 為 SitD 競賽常見;FishBeard / Twin Pin 為 freesurf showcase 而非競賽。 [uncertain]",
+    "WSL_CT 選手選擇": "CI 為 WSL CT 最大支持品牌之一;歷代簽約選手:Kelly Slater、Dane Reynolds、Bobby Martinez、Conner Coffin、Lakey Peterson、Yago Dora(部分時期)。Peregrine 為 Britt Merrick 自家簽名;Mikey February 為 Twin Pin 簽名(雖未在 CT 但 WSL 影響力強);Devon Howard 為 CI Mid 簽名(longboard 風格 free surfer)。",
+    "Free_surf 風格參考": "Mikey February(Twin Pin / 流暢 free surf 派代表);Dane Reynolds(CI 老將,各種小浪 hybrid);Asher Pacey(雖非 CI 簽約但用 Twin Pin 與類似 retro twin);Noel Salas(YouTube 評測,CI 全系列深度評測影片)。"
+  },
+  "local_taiwan_context": {
+    "浪點適配": "中角:Happy Everyday / Average Joe / FishBeard 為東北季風小浪主力;烏石:夏季用 Peregrine 颱風浪,小浪 Happy Everyday;金樽:point break 長線條 = CI Mid Twin 或 Twin Pin 為樂;佳樂水:Peregrine 為 reef break 利器,小浪日改 Happy Everyday;南灣:Average Joe / Sweet Potato 類似定位;東澳粉鳥林:Happy Everyday / G-Skate 可駕 hollow beach break。",
+    "進口_訂製": "Channel Islands 在台灣為進口為主,VAST / Hooked / Jpsurf / Surfer Mag Taiwan 等代理;訂製可透過 CI 美國官網 + 代理商收件,週期 3-6 個月;國內 shaper 復刻 fishbeard / happy everyday 風格較常見(但無 Merrick logo)。",
+    "中文社群迷思": "1) 「Average Joe 就是初學板」→ 半對,亦為中階小浪利器;2) 「CI Mid 適合小浪」→ 錯,Britt Merrick 自己說小浪請用 fish / longboard;3) 「Peregrine 配大 fin 才安全」→ 錯,4-channel 已提供 drive,大 fin 反而拖速;4) 「FishBeard 與 NeckBeard 一樣」→ 不同,FishBeard 是 NB2 改尾 + 配 keel fins。",
+    "在地教練建議": "VAST 對中階推 Happy Everyday;Hooked 對進階推 Peregrine;JR Surf / Jpsurf 對 retro twin 派推 FishBeard / Twin Pin;Decathlon 與 Olaian 階段建議軟頂後再進 Average Joe 為入手板。 [uncertain]"
+  },
+  "uncertain": [
+    "Nose_Rocker",
+    "Tail_Rocker",
+    "Wide_Point_Position",
+    "Nose_Width_at_12_inch",
+    "Tail_Width_at_12_inch",
+    "Fin_Cant",
+    "Glide 平面速度",
+    "亞洲體型修正",
+    "HD_EPS",
+    "新技術",
+    "Stab_in_the_Dark",
+    "在地教練建議"
+  ]
+}

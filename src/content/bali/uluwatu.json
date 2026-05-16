@@ -1,0 +1,78 @@
+{
+  "basic_info": {
+    "name": "Uluwatu (Chinese: 烏魯瓦圖; Indonesian: Uluwatu)",
+    "category": "surf_spot",
+    "region": "South Bukit Peninsula",
+    "gps_location": "-8.8154, 115.0884 (Google Maps: https://maps.app.goo.gl/Uluwatu)",
+    "distance_from_dps_airport_km": "18-22 km (approx. 45-60 min drive)",
+    "distance_from_canggu_uluwatu_min": "From Canggu: ~60-75 min by motorbike (~30-35 km); From Uluwatu town: 0 min (this is the namesake spot, ~5 min from Pecatu)"
+  },
+  "surf_conditions": {
+    "wave_type": "Left-hand point/reef break (world-class). Multiple peaks along same reef: Outside Corner, The Peak (Main Peak), Racetracks, Temples, The Bombie, Inside",
+    "skill_level": "Intermediate to Advanced/Pro (Temples inside section is the most forgiving; Outside Corner is Pro-only on 8ft+ days)",
+    "wave_height_range": "3-15 ft (most consistent 4-8 ft; Outside Corner switches on at 8 ft+; epic at 6-10 ft)",
+    "bottom_type": "Sharp coral/limestone reef (karang)",
+    "best_season": "Dry season May-October (peak June-August); shoulder season late September-October offers best value with consistent swell and fewer crowds",
+    "best_tide": "Mid to high tide for inner peaks (Peak, Racetracks, Temples); low tide for Outside Corner. Surfable on all tides depending on section.",
+    "best_wind": "Offshore SE (Southeast) trade winds typical in dry season",
+    "best_swell_direction": "SW (Southwest) groundswell; also handles S and SSW",
+    "swell_consistency_rating": "5 (ultra-consistent; one of the most reliable spots on the planet during dry season)",
+    "wave_length_meters": "100-300+ meters depending on section and swell; long rides linking sections possible on bigger days [uncertain]",
+    "wave_speed_rating": "Medium to fast (Racetracks section is notably fast and hollow; Temples is slower and more forgiving)",
+    "takeoff_zone_difficulty": "Moderate to high difficulty; steep drop on bigger days especially at Outside Corner and The Peak; shallow reef under takeoff zone requires precise positioning",
+    "secondary_peaks": "Yes - Outside Corner (outside), The Peak (main), Racetracks (south section), Temples (inside/closer to cliff), The Bombie (offshore big-wave peak), Inside",
+    "peak_crowd_level": "5 (very crowded, especially when surf is small/head-high); thins out at 6 ft+. Most crowded 9am-4pm in dry season."
+  },
+  "practical_info": {
+    "access": "Drive to clifftop parking at end of Jl. Mamo (off Jl. Labuansait), walk ~200m down stairs through warungs/shops on cliff face, then narrow stairs through the iconic cave to reef/beach. Three staircase options as backup for big days.",
+    "paddle_out_method": "Exit cave at high tide and paddle straight out through the channel; at low tide walk ~100m across sharp reef before paddling. Channel between Peak and Racetracks is the main paddle-out channel.",
+    "entry_fee": "Parking: ~IDR 5,000-10,000 motorbike, IDR 10,000-20,000 car; no surf entry fee [uncertain]",
+    "recommended_session_time": "Dawn patrol (5:30-7:30 AM) for glassy conditions and lighter crowds; sunset session for golden-hour photos",
+    "best_time_of_day": "Before 8 AM (dawn patrol) to avoid crowds; or late afternoon after 4 PM when day-trippers leave",
+    "nearby_warung": "Numerous warungs and cafes along the cliff stairs (Single Fin, Delpi Rock Lounge, Mango Tree Cafe, Suka Espresso, Drifter Surf Cafe nearby in Pecatu)",
+    "alternative_spot_within_10min": "Padang Padang (5 min), Bingin (10 min), Impossibles (10 min), Balangan (15 min by motorbike)",
+    "boat_charter_required": "No - land access via stairs and cave"
+  },
+  "safety_culture": {
+    "hazards": "Sharp shallow reef, strong currents, crowded lineup, waves pounding cliff face at high tide near cave entry, reef cuts, occasional sea urchins",
+    "marine_hazards": "Sea urchins on reef (wear booties), occasional jellyfish, rare sea snakes; treat reef cuts immediately with antiseptic and check tetanus status; no shark issues",
+    "reef_cut_severity_index": "High - sharp limestone/coral karang reef; booties strongly recommended especially at low tide and through Racetracks section",
+    "rip_current_pattern": "Strong rip current runs from inside reef out through the channel between The Peak and Racetracks - useful for paddle-out but dangerous if caught while exiting. Currents drag surfers south toward Padang Padang on big days.",
+    "lineup_etiquette": "Strict priority system, wait your turn, do not paddle around or snake locals. Smile and say hi to locals. Do not drop in - locals will call you out. Be patient when crowded.",
+    "localism_intensity": "Medium to High - lineup is competitive especially at The Peak; respect Balinese locals and long-term expats; localism more pronounced on epic swell days",
+    "respect_protocol": "Show respect to local Balinese surfers, do not snake or burn waves, wait your turn, acknowledge priority, no dropping in. Avoid arrogance - many locals are pro-level.",
+    "resident_local_legends": "Mega Semadhi (2016 Rip Curl Cup champion, Bingin/Bukit local), Rizal Tandjung, Made Switra, Marlon Gerber, Bol Adyaksa, Garut Widiarta - many of Indonesia's top surfers grew up surfing the Bukit",
+    "religious_sensitivity": "Pura Luhur Uluwatu (cliff temple) sits directly above; respect sacred site, dress modestly when visiting temple, do not climb temple walls. Nyepi (Day of Silence, typically March) - no surfing or beach access allowed islandwide. Avoid surfing during temple ceremonies.",
+    "medical_nearby": "Unicare Pecatu Clinic (closest, ~5-10 min); BIMC Hospital Nusa Dua (~25-30 min); Siloam Hospital Denpasar (~45 min)",
+    "nearest_clinic_distance_km": "Unicare Pecatu Clinic: ~3-5 km",
+    "rescue_jet_ski_available": "No dedicated rescue jet ski permanently stationed; safety patrols during Rip Curl Cup event only",
+    "emergency_contact": "Indonesia general emergency: 112; Ambulance: 118/119; BIMC Nusa Dua: +62 361 3000 911"
+  },
+  "services": {
+    "nearest_surf_school": "Padang Padang Surf Camp (Pecatu), Kala Surf Camp (Jl. Labuansait 318, Pecatu), Bali Bisa Surf School, Dawn Patrol Bali, WaveHouse Bali, Bali Surf Pro - most operate beginner lessons at Balangan/Padang Padang Right rather than Uluwatu itself",
+    "board_rental_availability": "Yes - widely available; Bali Surfboard Rental and multiple shops along Jl. Labuansait/Suluban. ~IDR 200,000/day, IDR 1,000,000/week, IDR 3,000,000/month",
+    "surf_photographer_available": "Yes - multiple land and water photographers shoot daily at The Peak; freelance photographers stationed at cliff cafes (Single Fin) and at cave",
+    "photographer_recommendation": "Padang Padang Surf Camp photography service; freelance shooters along the cliff. Photos typically IDR 100,000-300,000 per shot or IDR 500,000-1,500,000 per session [uncertain]",
+    "accommodation_options": "Uluwatu Surf Villas (clifftop boutique, $150-800+/night), Kala Surf Camp (from IDR 978,000/night with coaching), Padang Padang Surf Camp, Dreamsea Bali Uluwatu, WaveHouse Bali, Mu Bali, The Edge Bali, numerous mid-range homestays on Jl. Labuansait",
+    "webcam_url": "https://www.surfline.com/surf-report/uluwatu/5842041f4e65fad6a7708b4b ; https://balicams.com/camera/uluwatu",
+    "drone_allowed": "Generally allowed for personal use but increasingly restricted by Indonesian regulations; commercial drone work requires permit. Avoid flying over Uluwatu Temple (sacred site). [uncertain]",
+    "coworking_nearby": "Outpost Ulu Pecatu, Tropical Nomad (Canggu - too far), B Work Bali Pecatu, Bukit Cafe (laptop-friendly), Suka Espresso (laptop-friendly)"
+  },
+  "pricing": {
+    "avg_lesson_price": "USD 25-50 / IDR 400,000-800,000 per group lesson (most beginner lessons held at Balangan or Padang Padang Right, not Uluwatu main peak)",
+    "board_rental_daily": "IDR 150,000-250,000/day (~USD 10-17) for shortboards; performance boards may cost more"
+  },
+  "sustainability": {
+    "water_quality_rating": "Good in dry season (May-October); declines significantly in wet season (Nov-April) due to runoff and sewage from cliff developments. Pecatu/Bukit has minimal river runoff so cleaner than west coast Canggu."
+  },
+  "events_community": {
+    "annual_competition_window": "Rip Curl Cup Padang Padang (held at neighboring Padang Padang, not Uluwatu itself) - holding period August 1 to early September each year, waiting for solid 6-8 ft+ swell. Single Fin Sunday parties at Single Fin bar above the cave year-round.",
+    "community_events": "Single Fin Sunday (weekly sunset party at Single Fin bar); Rip Curl Cup viewing parties in August; occasional Volcom and local brand events; full-moon ceremonies at Uluwatu Temple"
+  },
+  "uncertain": [
+    "wave_length_meters",
+    "entry_fee",
+    "photographer_recommendation",
+    "drone_allowed"
+  ]
+}

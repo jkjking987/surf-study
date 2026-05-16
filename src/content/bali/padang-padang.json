@@ -1,0 +1,76 @@
+{
+  "basic_info": {
+    "name": "Padang Padang (Chinese: 帕當帕當; Indonesian: Pantai Padang Padang; nickname: Balinese Pipeline)",
+    "category": "surf_spot",
+    "region": "South Bukit Peninsula",
+    "gps_location": "-8.8104, 115.1031 (Jl. Labuan Sait, Pecatu; Google Maps: https://maps.app.goo.gl/PadangPadang)",
+    "distance_from_dps_airport_km": "~20 km (approx. 45-55 min drive)",
+    "distance_from_canggu_uluwatu_min": "From Canggu: ~60-70 min by motorbike (~30 km); From Uluwatu (Suluban): ~5-10 min by motorbike"
+  },
+  "surf_conditions": {
+    "wave_type": "Left-hand reef break, world-class barrel/tube wave (nicknamed 'Balinese Pipeline'). Two distinct breaks: Padang Padang Lefts (advanced) and Baby Padang/Padang Padang Rights (beginner-intermediate)",
+    "skill_level": "Padang Padang Lefts: Advanced to Pro only (head-high to double-overhead+ at high tide possible for strong intermediates). Baby Padang (Rights): Beginner to Intermediate.",
+    "wave_height_range": "Lefts: 4-12+ ft (works best 6-12 ft; needs solid swell to break); Rights/Baby Padang: 1-4 ft",
+    "bottom_type": "Sharp shallow coral/limestone reef",
+    "best_season": "Dry season May-October (peak June-August); needs a substantial SW groundswell to wake up - not as consistent as Uluwatu",
+    "best_tide": "Mid tide is best for consistency; low tide produces biggest top-to-bottom barrels (but extremely dangerous, dry-reef risk); high tide is safer for intermediates with head-high swell",
+    "best_wind": "Offshore SE (Southeast) trade winds; light offshores essential for clean barrels",
+    "best_swell_direction": "SSW to SW (long-period groundswell critical; short-period swell does not produce the tube)",
+    "swell_consistency_rating": "3 (less consistent than Uluwatu - needs a proper swell event; can be flat between pulses but fires hard when on)",
+    "wave_length_meters": "75-150 meters (relatively short but extremely intense tube ride; 2-4 distinct barrel sections before deep-water channel) [uncertain]",
+    "wave_speed_rating": "Fast (one of the fastest, most hollow waves in Bali; barrel pinches and throws over shallow reef)",
+    "takeoff_zone_difficulty": "High - take-off itself is approachable on a deeper part of the reef, but the drop is fast and directly into the pit; positioning is everything; locals dominate the peak",
+    "secondary_peaks": "Yes - Baby Padang (Padang Padang Rights) is a separate, much mellower beginner-intermediate right adjacent in the same bay",
+    "peak_crowd_level": "5 (extremely crowded when on; talent-stacked lineup of Indonesia's top tube riders plus visiting pros; only the heaviest days thin the crowd)"
+  },
+  "practical_info": {
+    "access": "Park at the entrance on Jl. Labuan Sait near the bridge; walk through the gateway and pay entry fee; descend stone/cement stairs through a narrow limestone cave passage between large rocks down to the beach",
+    "paddle_out_method": "Paddle from the beach out through the rip in the channel on the south end of the bay; use the rip to your advantage to get out to the lineup; avoid paddling over the impact zone reef",
+    "entry_fee": "IDR 15,000 per person entry fee (separate from parking IDR 5,000-10,000 motorbike)",
+    "recommended_session_time": "Dawn patrol (5:30-7:30 AM) for glassy and less crowded conditions; mid-tide windows in early morning are gold",
+    "best_time_of_day": "Sunrise to ~9 AM before crowds and onshore winds build; late afternoon as winds calm",
+    "nearby_warung": "Several warungs at the entry/parking area along Jl. Labuan Sait and at the beach; nearby Single Fin (Uluwatu), Drifter Surf Cafe, Mango Tree Cafe, Suka Espresso in Pecatu",
+    "alternative_spot_within_10min": "Uluwatu (5-10 min), Impossibles (5 min walking from Padang along reef at low tide), Bingin (10 min), Balangan (15 min)",
+    "boat_charter_required": "No - land access via stairs through cave"
+  },
+  "safety_culture": {
+    "hazards": "Extremely shallow sharp reef especially at low tide, intense hold-downs, fast pinching barrel section, dry-reef risk on big low-tide days, strong rip currents, crowd-related drop-in collisions",
+    "marine_hazards": "Sea urchins on reef, occasional jellyfish; treat reef cuts immediately - infection risk high in tropical water; rare sea snake sightings",
+    "reef_cut_severity_index": "Very High - one of the most severe reef cut risks in Bali; multiple barrel sections fire over shallow shelf; booties strongly recommended; serious reef grating possible on wipeouts",
+    "rip_current_pattern": "Strong rip runs through the channel on the south side of the bay (used as paddle-out lane); side current can drag surfers toward the inside reef section at low tide",
+    "lineup_etiquette": "Strict priority; locals and known regulars get priority; do not drop in; do not snake. Wait for sets and your turn. Burning a local is a serious offense here.",
+    "localism_intensity": "High - one of the more heavily localized spots on the Bukit; talent-stacked lineup of pro and semi-pro Indonesians; visitors expected to demonstrate respect and skill before being given waves",
+    "respect_protocol": "Show respect to local Balinese surfers, do not snake or burn, acknowledge priority, observe the lineup before paddling out, do not paddle out if you cannot handle the wave - injury and harassment are likely",
+    "resident_local_legends": "Mega Semadhi (2016 Rip Curl Cup champion, Bukit local), Made Bol Adi Putra, Rizal Tandjung, Pepen Hendrik, Betet Merta, Garut Widiarta, Westen Hirst (2025 Rip Curl Cup champion - first Indonesian man since Mega in 2016)",
+    "religious_sensitivity": "Pura Padang Padang temple sits at the entry gate; respect sacred space, no inappropriate behavior on stairs/beach. Nyepi (Day of Silence, ~March) - no surfing or beach access islandwide. Avoid surfing during temple ceremonies.",
+    "medical_nearby": "Unicare Pecatu Clinic (closest), BIMC Hospital Nusa Dua (~25-30 min), Siloam Hospital Denpasar (~45 min)",
+    "nearest_clinic_distance_km": "Unicare Pecatu Clinic: ~3-5 km",
+    "rescue_jet_ski_available": "Yes - during Rip Curl Cup event period (August); no permanent rescue jet ski outside of contest window"
+  },
+  "services": {
+    "nearest_surf_school": "Padang Padang Surf Camp (oldest and best-known in area, Jl. Labuan Sait, Pecatu); WaveHouse Bali, Kala Surf Camp, Dawn Patrol Bali, Bali Bisa - most schools teach beginners at Baby Padang (Rights) not Lefts",
+    "board_rental_availability": "Yes - widely available on Jl. Labuan Sait and at the beach entrance; ~IDR 150,000-250,000/day",
+    "surf_photographer_available": "Yes - multiple land photographers regularly shoot Padang Padang barrels from the beach and cliff; water photographers during big swells and during Rip Curl Cup",
+    "photographer_recommendation": "Padang Padang Surf Camp photography team; freelance shooters available at the beach. Photo packages typically IDR 200,000-500,000+ per session [uncertain]",
+    "accommodation_options": "Padang Padang Surf Camp (Jl. Labuan Sait), Padang Padang Yoga Surf Bungalow Villa, The Edge Bali (luxury cliffside), Suarga Padang Padang Resort, numerous guesthouses on Jl. Labuan Sait, Kala Surf Camp short drive away in Pecatu",
+    "webcam_url": "https://www.surfline.com/surf-report/padang-padang/5842041f4e65fad6a7708d44 ; https://balicams.com/camera/padang-padang",
+    "drone_allowed": "Generally allowed for personal use but heavy restrictions during Rip Curl Cup (only accredited media). Avoid flying over temple. Commercial use requires permit. [uncertain]",
+    "coworking_nearby": "Outpost Ulu Pecatu, B Work Bali (Pecatu), Suka Espresso, Bukit Cafe"
+  },
+  "pricing": {
+    "avg_lesson_price": "USD 25-50 / IDR 400,000-800,000 group lesson (taught at Baby Padang/Padang Padang Rights for beginners, not the Lefts)",
+    "board_rental_daily": "IDR 150,000-250,000/day (~USD 10-17)"
+  },
+  "sustainability": {
+    "water_quality_rating": "Good in dry season; declines in wet season (Nov-April) due to runoff. Beach itself can get litter on crowded days but reasonably clean compared to north Bali."
+  },
+  "events_community": {
+    "annual_competition_window": "Rip Curl Cup Padang Padang - 22+ year history; one-month holding period typically August 1 to early September each year, contest day called only on epic 6-8 ft+ swell. 2025 winners: Westen Hirst (men, age 16) and Jasmine Studer (women, age 16).",
+    "community_events": "Rip Curl Cup opening ceremony with Kecak Dance and live music (early August); pre-contest invitee gatherings; viewing parties at Single Fin (Uluwatu); occasional Volcom, Rip Curl, and local brand events"
+  },
+  "uncertain": [
+    "wave_length_meters",
+    "photographer_recommendation",
+    "drone_allowed"
+  ]
+}

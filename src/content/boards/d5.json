@@ -1,0 +1,101 @@
+{
+  "id": "D5",
+  "basic_info": {
+    "名稱": "Firewire / Slater Designs 小浪系列(Sweet Potato / Seaside / Sci-Fi 2.0 / Cymatic / Mashup)",
+    "分類": "品牌板款",
+    "適用程度": "全程度(Sweet Potato / Seaside 對中階以下友善;Sci-Fi 2.0 / Cymatic 偏中進階;Mashup 中階至進階皆可)",
+    "一句話定位": "Kelly Slater / Rob Machado / Dan Mann / Tomo 在 Firewire EPS 構造下打造的小浪 quiver 矩陣"
+  },
+  "buoyancy_strategy": {
+    "Guild_Factor_GF": "Sweet Potato 與 Mashup 採高 GF(0.45-0.55,純 grovel 邏輯);Sci-Fi 2.0 / Cymatic 採中性 GF(0.38-0.42,因 EPS + I-Bolic 體感更輕快);Seaside 落於中間(0.42-0.48,fish blood 加 EPS)。Slater Designs / Firewire 計算器在三大主流計算器中被視為最準確(資料來源:Cleanline Surf size guide、Firewire 官網 board finder)。",
+    "浮力公式": "Sweet Potato:體重(kg) × 0.50-0.60 = 浮力(L)(75kg × 0.55 = 41L,對應 5'8\" 41.4L)。Mashup:體重(kg) × 0.42-0.48(75kg × 0.44 = 33L,對應 5'8\" 32.81L)。Sci-Fi 2.0 / Cymatic:體重(kg) × 0.38-0.42(75kg × 0.40 = 30L,對應 5'9\" 30.6L)。Seaside:體重(kg) × 0.42-0.50(70kg × 0.45 = 31.5L,對應 5'6\"-5'7\")。",
+    "相對日常板浮力增量": "Sweet Potato 為純 grovel:相對 HPSB +40-60%(極端 paddle-first 設計)。Mashup:+20-30%(Seaside 與 Spitfire 融合,平衡 paddle 與 vertical)。Sci-Fi 2.0:+5-15%(屬於 hybrid HPSB,僅輕度增量)。Cymatic:+10-20%(較 Sci-Fi 多一點 ease of use)。Seaside:+25-35%(quad fish hybrid)。",
+    "浮力範圍_體重對照": "Sweet Potato:50kg → 5'2\" 31L;60kg → 5'4\" 34.6L;70kg → 5'6\" 37.8L;80kg → 5'8\" 41.4L;90kg+ → 5'10\"-6'0\" 45-49L。Mashup:50kg → 5'2\" 24.9L;60kg → 5'4\"-5'6\" 27-30L;70kg → 5'6\"-5'8\" 30-33L;80kg → 5'8\"-5'10\" 33-37L;90kg+ → 6'0\"+ 38-47L。Sci-Fi 2.0:50kg → 5'5\" 24.9L;60kg → 5'7\"-5'8\" 27-29L;70kg → 5'9\" 30.6L;80kg → 5'10\"-5'11\" 32-34L;90kg+ → 6'0\"+ 35L+。Seaside:60kg → 5'4\"-5'5\";70kg → 5'6\"-5'7\";80kg → 5'8\"-5'10\"。",
+    "小浪修正係數": "Sweet Potato / Mashup 已內建 grovel +5L 修正,實取板可直接按計算器值;Sci-Fi 2.0 / Cymatic 建議在 EPS 數值上再 +2-3L 補償小浪(因 EPS 同浮力體感較輕);Seaside 採 +3L 修正(quad fish 本身已是 grovel friendly)。",
+    "BMI_體脂修正": "高 BMI 肌肉型:Sci-Fi 2.0 / Cymatic 為首選(體能足、可駕馭較少浮力的 EPS 板)。高 BMI 脂肪型:Sweet Potato / Mashup 為主(paddle threshold 更低、寬尾 plane area 大)。低 BMI 偏瘦型:Mashup / Seaside 中性區間 +1-2L,Sweet Potato 過寬反而 carve 無力。",
+    "年齡_體能修正": "年齡 >40:Sweet Potato 與 Mashup 為首選(極大 plane area、低 rocker、paddle threshold 極低)。Sci-Fi 2.0 / Cymatic 在 50 歲以上玩家可加 +3-5L(尺寸往上 1 階)。Helium 構造的輕量化幫助體能下降的玩家節省 pump 能量。",
+    "品牌計算器差異": "Firewire 計算器(Board Finder)在 Cleanline Surf / Surf Station 評測中被視為「相對精準」,推算結果通常落在 ±1L 範圍內,優於 Lost(偏低 2L)、CI(偏低 2L)。Slater Designs / Firewire 官網 board finder 整合 Dan Mann、Rob Machado、Tomo、Kelly Slater 各家 size chart,推薦 dim 通常符合玩家實際取板。Helium 與 I-Bolic 構造同 volume 但體感較 PU 輕 5-10%,使用計算器時可考慮往「實體感」加 1-2L。",
+    "亞洲體型修正": "亞洲身材(體重輕 5-10kg、肌肉量低)取 Sweet Potato 可採 5'4\"-5'6\" 區間(歐美同身高常取 5'8\"+);Mashup 取 5'4\"-5'6\";Sci-Fi 2.0 取 5'7\"-5'9\";Seaside 取 5'4\"-5'6\"。容積整體可較歐美建議 -2 至 -3L。"
+  },
+  "shape_details": {
+    "Length 板長": "Sweet Potato:5'2\" - 6'4\"(明顯短於 HPSB,典型 grovel 縮短 6\"-8\")。Mashup:5'2\" - 6'6\"(寬範圍,從純 grovel 到大體重 daily)。Sci-Fi 2.0:5'5\" - 6'0\"+(Tomo 哲學:比日常板短 1\")。Cymatic:5'3\" - 5'11\"(Kelly Slater 騎 5'3\");Seaside:5'4\" - 6'0\"(fish 短款,比日常 -4\"~-5\")。資料來源:Firewire 官方 size chart、Cleanline Surf。",
+    "Width 板寬": "Sweet Potato 為三系列中最寬:5'2\" 21.44\" → 6'4\" 23.13\"(明顯比 HPSB 19\" 寬 2-4\")。Mashup:5'2\" 約 20\" → 6'6\" 22\"(中寬)。Sci-Fi 2.0:5'9\" 19.375\" / 5'10\" 19.625\" / 5'11\" 19.875\"(中性 HPSB 寬度)。Cymatic:5'7\" 19.625\"(中性)。Seaside:典型 fish 5'6\" 約 20.5\"(寬而短)。",
+    "Thickness 板厚": "Sweet Potato:5'2\" 2.31\" → 6'4\" 3.25\"(極厚,grovel 標竿)。Mashup:5'6\" 2.5625\" / 5'8\" 2.6875\" / 6'4\" 3.125\"。Sci-Fi 2.0:5'9\" 2.5\" / 5'10\" 2.5625\" / 5'11\" 2.625\"。Cymatic:5'7\" 2.5625\"。Seaside:中段約 2.5\"-2.75\"。",
+    "Nose_Rocker": "Sweet Potato:極低(設計核心,被 Cleanline 形容為「probably the flattest you will ever surf」)。Mashup:低至中(Seaside + Spitfire 折衷)。Sci-Fi 2.0:中性偏低(Tomo Modern Planing Hull 哲學)。Cymatic:略高於 Sci-Fi(增加 ease of use)。Seaside:低(fish 標準)。具體 nose rocker 廠商不公開,但 Sweet Potato < Mashup < Seaside < Sci-Fi 2.0 < Cymatic。[uncertain] 廠商未公開具體 nose rocker 吋數。",
+    "Tail_Rocker": "Sweet Potato:低且 flat(release 極快)。Mashup:低至中(較 Seaside 多一點以補 vertical)。Sci-Fi 2.0:中(較 Cymatic 略平)。Cymatic:中(略高於 Sci-Fi 以增加 1-5ft 範圍)。Seaside:低(fish 標準)。[uncertain] 具體 tail rocker 吋數未公開。",
+    "Entry_Rocker": "Sweet Potato:極平 entry(no-paddle takeoff 標竿);Sci-Fi 2.0 / Cymatic 採 Tomo Modern Planing Hull 的連續 entry rocker(從 wide nose 平緩過渡);Seaside 與 Mashup 採典型 fish-like 平直 entry。代價:Sweet Potato 在 4ft+ 陡浪 pearl 風險高,Sci-Fi 2.0 連續 entry rocker 在較陡的 1-5ft 處理仍 OK。",
+    "Wide_Point_Position": "Sweet Potato:wide point 接近中心(寬度均勻分布,符合 grovel 全段 plane 邏輯)。Mashup:wide point 略前移。Sci-Fi 2.0:wide point 前移(Daniel Tomson 為了讓板可短 1\")。Cymatic:wide point 略前移(融合 Omni 圓鼻邏輯)。Seaside:wide point 在中心偏前(fish 標準)。",
+    "Nose_Width_at_12_inch": "Sweet Potato 5'6\":約 14\"+(極寬鼻,grovel 標竿)。Mashup 5'6\":約 13.5\"。Sci-Fi 2.0 5'9\":約 13\"(Tomo 圓鼻略寬於 HPSB)。Cymatic 5'7\":約 13\"(融合 Omni 圓鼻)。Seaside 5'6\":約 13.5\"-14\"(fish 寬鼻)。[uncertain] 廠商 spec sheet 未細列。",
+    "Tail_Width_at_12_inch": "Sweet Potato 5'6\":約 17\"+(極寬尾,grovel 極致)。Mashup 5'6\":約 15.5\"-16\"。Sci-Fi 2.0 5'9\":約 15\"-15.5\"(bat tail 增加有效尾寬)。Cymatic 5'7\":約 15\"-15.5\"。Seaside 5'6\":約 16\"+(fish 寬尾)。[uncertain] 廠商 spec sheet 未細列。",
+    "Bottom_Contour 板底設計": "Sweet Potato:trademark deep double barrel concave(「splits the board in half when tipped over」,讓板感覺比實際寬度窄);Mashup:single-to-double + Vee out the back;Sci-Fi 2.0 / Cymatic:Tomo's Quad Inside Single Concave(quad concave 嵌入 single concave 內,提供 lift + rail-to-rail);Seaside:single concave 為主,fish 結構平滑過渡。",
+    "Tail_Shape 板尾形狀": "Sweet Potato 2026:refined swallow tail(增加 pocket maneuverability);Mashup:swallow tail(Seaside + Spitfire 融合);Sci-Fi 2.0:Double Bat Tail(Tomo 標誌設計,兩個凸點增加 hold);Cymatic:Double Bat Tail(較 Sci-Fi 略 pulled-in);Seaside:swallow tail(quad fish 標準)。Sweet Potato 早期版本為 double-bump swallow,2026 版精修為更乾淨的 swallow。",
+    "Rail_Profile": "Sweet Potato:極 boxy rail(維持極端浮力,中段 boxy + 尾段 tucked under edge);Mashup:中等 boxy(平衡 paddle 與 release);Sci-Fi 2.0:medium down rail(Tomo 哲學:rail 不過 boxy,讓 carve 精準);Cymatic:類似 Sci-Fi 但略 fuller;Seaside:soft mid + harder tail(fish 標準)。",
+    "Rail_Volume_Distribution": "Sweet Potato:極前移分布(胸下 + 鼻部都有大量泡棉);Mashup:中性集中;Sci-Fi 2.0 / Cymatic:Tomo 的「均勻 + parabolic」分布,讓 rail 全段 active;Seaside:中段集中(fish 標準)。",
+    "Foam_Distribution": "Sweet Potato:foam 集中胸下到中段、向尾段保留體積(便於 plane);Mashup:foam 胸下集中型;Sci-Fi 2.0 / Cymatic:foam 均勻分布(Tomo 設計哲學「全板都活」);Seaside:foam 胸下集中(easy paddle, fish 標配)。",
+    "Outline 輪廓曲線": "Sweet Potato:極 parallel midsection + 圓鼻 + swallow tail;Mashup:curvy outline + 適度 parallel mid;Sci-Fi 2.0:Tomo's Modern Planing Hull 哲學的對稱 outline + Bat Tail;Cymatic:更圓的 nose(融合 Omni)+ Bat Tail;Seaside:typical fish outline(寬 mid + swallow tail)。"
+  },
+  "fin_setup": {
+    "主要_Setup": "Sweet Potato:thruster(2026 版主流,5-fin box 可改 quad);Mashup:thruster(5-fin box 可改 quad);Sci-Fi 2.0:thruster(Tomo 設計時為 thruster);Cymatic:thruster(quad-fin concept 但 fin box 配置為 thruster + quad);Seaside:quad(Rob Machado 指定配置,有 quad keel option);亦推出 Seaside Twin 版本。",
+    "Fin_Cant": "Sweet Potato / Mashup:約 6.5°(更 loose);Sci-Fi 2.0 / Cymatic:約 5°(Tomo drive-oriented);Seaside:quad 配置採典型 5-6° cant。[uncertain] 廠商未公開具體 cant 角度。",
+    "Fin_Toe": "Sweet Potato 推薦 medium toe;Sci-Fi 2.0 採較 drive 取向的 1/16\"-3/32\";Seaside 採 quad 標準 toe。[uncertain] 廠商未公開。",
+    "Fin_Foil": "Sci-Fi 2.0 / Cymatic 推薦 inside foil side fins + 50-50 trailer;Sweet Potato 推薦 medium inside foil;Seaside 採 keel-style foil(K2 keel 推薦)。",
+    "Fin_Rake_Sweep": "Sweet Potato / Mashup 推薦 upright fin(less rake → 緊湊 turn);Sci-Fi 2.0 / Cymatic 推薦中性 rake(Tomo's Modern Planing Hull 鎖住 rail-to-rail);Seaside 推薦 keel 或 modified keel(本身寬大 rake)。",
+    "Fin_Area_Template": "Sweet Potato / Mashup:medium area(M2 / AM1 / CI Upright);Sci-Fi 2.0 / Cymatic:medium 至 medium-large(Futures John John Florence Medium、FCS II Performer Medium);Seaside:Futures K2 Keel(Hayden 推薦)、FCS II Machado Seaside PG Quad、Futures Rasta Keel。資料來源:Surf Station Store fin guide、Futures fin product page。",
+    "Quad_Rear_Position": "Sweet Potato / Mashup 若改 quad,後 fin 靠 rail 1/2\"-3/4\"(極 loose);Sci-Fi 2.0 / Cymatic 改 quad 時保持靠 stringer 1.5\"(維持 drive)。Seaside 標配 quad box 已固定位置。",
+    "2plus1_vs_PureTwin": "Seaside 為 pure quad,Seaside Twin 為 pure twin keel;Sci-Fi 2.0 / Cymatic 不適合改 twin(會失去 bat tail 設計初衷);Sweet Potato 2026 提供 5-fin box 可變 thruster / quad。Mashup 主要 thruster 用法,並非 twin board。"
+  },
+  "construction": {
+    "PU_PE 在小浪": "Firewire 系列以 EPS 為主,但部分板款(如 Mashup、Sweet Potato)仍有 PU 版於選配。PU 版在小浪提供 dampening、可預測 carve;但 Firewire 哲學偏好 EPS(認為小浪需要的是 acceleration 與 lift)。",
+    "EPS_Epoxy 在小浪": "Firewire 全系列以 EPS/Epoxy 為核心。EPS 在小浪的優勢:(1) 同浮力數值體感較輕,pump 容易;(2) acceleration 快,小浪 generate 速度更輕鬆;(3) 適合做 air。Sci-Fi 2.0 / Cymatic / Sweet Potato / Mashup / Seaside 全部以 EPS 配 Helium 或 Volcanic 或 I-Bolic 構造為主。",
+    "HD_EPS": "Firewire Helium 屬於高密度 EPS(stringerless EPS core + Paulownia + Balsa parabolic rail),比一般 EPS 更穩定、感覺較像 PU。Helium 同尺寸比 FST 輕 15%,flex 與 rebound 更快(資料來源:Cleanline Surf、Firewire 官網)。",
+    "Glassing_Schedule": "Firewire 標準 Helium 為 stringerless EPS + biaxial fiberglass + Paulownia/Balsa parabolic rail。Volcanic Lamination:double 4 oz basalt cloth on deck + single 4 oz basalt cloth on bottom(Volcanic 比一般 fibreglass 強度高、彈性更自然)。I-Bolic 2.0:18mm HD foam stringer + 16mm HD foam parabolic rail + 5mm bottom springer。Volcanic 為最耐用,Helium 為最輕快。",
+    "新技術": "Firewire 三大技術(2024-2026 主流):(1) Helium 2.0:輕量、彈性、適合小浪;(2) I-Bolic 2.0:替代 LFT,提供 LFT 的 stiffness 加 Helium 的 spring-back(資料來源:The Inertia 對 Kelly Slater 訪談);(3) Volcanic Lamination:basalt 火山岩纖維,可與 Helium 2.0 或 I-Bolic 2.0 搭配。Linear Flex Technology(LFT)已被 I-Bolic 2.0 取代。"
+  },
+  "conditions_fit": {
+    "浪高範圍": "Sweet Potato:0.5-3ft(knee-to-waist 甜蜜點);Mashup:0.3-1.5m(約 1-5ft);Sci-Fi 2.0:1ft - double overhead(極大範圍,本質為 hybrid HPSB);Cymatic:1-5ft;Seaside:1-6ft(fish 標準範圍)。",
+    "浪質": "Sweet Potato 專為「flat-faced, gutless, soft mush」設計(其他人都不想下水的條件);Mashup 軟浪 + 飽滿浪皆可;Sci-Fi 2.0 / Cymatic 全範圍適應(從 flat 到 hollow 都可);Seaside 軟浪、飽滿浪、輕度空心皆可。",
+    "浪型": "Sweet Potato:beach break grovel 為主;Mashup:beach break、point break;Sci-Fi 2.0 / Cymatic:全 break types(包括 reef);Seaside:beach break、point break。",
+    "不適合場景": "Sweet Potato:陡浪、空心浪(極寬尾 + 平 rocker 會 pearl);Mashup:overhead+ 陡浪;Sci-Fi 2.0 / Cymatic:純小 mush(其他 grovel 更適合);Seaside:overhead+ 大浪(fish blood 在大浪欠 hold)。"
+  },
+  "performance": {
+    "划水容易度": "Sweet Potato:極佳(grovel 設計核心,no-paddle takeoff);Mashup:極佳(融合 Seaside paddle 與 Spitfire vertical);Sci-Fi 2.0:中至高(Tomo 設計允許比日常 -1\");Cymatic:中至高;Seaside:極佳(fish 標準 paddle)。",
+    "起乘速度": "Sweet Potato:極快(flat entry + 寬尾 plane area);Mashup:快;Sci-Fi 2.0 / Cymatic:中(Tomo design 不專注於 grovel takeoff);Seaside:快(fish paddle 強)。",
+    "Glide 平面速度": "Sweet Potato:極高(flat rocker 與寬尾提供強 plane);Mashup:高;Sci-Fi 2.0 / Cymatic:高(Tomo's Quad Inside Single Concave 提供 lift);Seaside:高(fish 標準)。[uncertain] Noel Salas km/h 量測未在搜尋結果出現,需個別影片查證。",
+    "Pump 效率": "Sweet Potato:極高(double barrel concave + 寬尾 plane area);Mashup:高(Seaside + Spitfire 融合);Sci-Fi 2.0 / Cymatic:極高(Tomo's Quad Inside Single Concave 是 pump 效率標竿);Seaside:高。",
+    "轉向靈活度": "Sweet Potato:中(寬尾代價:carve radius 較大,但 deep double barrel concave 補償了部分);Mashup:中至高(Spitfire 血統補償);Sci-Fi 2.0:高(Tomo design 為 HPSB 級 turn);Cymatic:高;Seaside:中至高(fish + quad 平衡)。",
+    "Vertical 能力": "Sweet Potato:低至中(grovel 本質,vertical 不是強項);Mashup:中至高(Spitfire 血統補強 vertical drive);Sci-Fi 2.0 / Cymatic:高(Tomo design 可達 HPSB 級 vertical);Seaside:中(fish 在 vertical 範圍受限)。",
+    "空中動作能力": "Sweet Potato:低(grovel 寬尾 air 不易 pop);Mashup:中至高(EPS Helium 輕量 + Spitfire vertical 提供 air pop);Sci-Fi 2.0 / Cymatic:高(Tomo design 廣為 freesurf air 使用);Seaside:中(fish 在 air 較不主流)。",
+    "Backside_vs_Frontside": "Sweet Potato:frontside 略優(wide nose backside 抓 rail 較難);Mashup:frontside / backside 平衡;Sci-Fi 2.0 / Cymatic:frontside / backside 對稱表現(Tomo's symmetrical 設計);Seaside:frontside 略優,backside 因 quad 後 fin 提供補強。"
+  },
+  "practical_selection": {
+    "代表板款": "(1) Sweet Potato 2026:5'2\" × 21.44\" × 2.31\" = 31L,5'8\" × 22.31\" × 2.69\" = 41.4L,Dan Mann 設計純 grovel;(2) Mashup:5'6\" × 19.625\" × 2.5625\" = 30.1L,5'8\" × 19.875\" × 2.6875\" = 32.81L,Rob Machado + Dan Mann 融合;(3) Sci-Fi 2.0:5'9\" × 19.375\" × 2.5\" = 30.6L,5'10\" × 19.625\" × 2.5625\" = 32.2L,Tomo 設計;(4) Cymatic:5'7\" × 19.625\" × 2.5625\",Kelly Slater 騎 5'3\";(5) Seaside:Rob Machado 設計,quad fish,5'4\"-6'0\" 範圍。",
+    "常見錯誤": "(1) 浮力給太多:Sweet Potato 6'0\" 49L 對 70kg 玩家 = 死板(GF 0.70,無法 carve);(2) 把 Sci-Fi 2.0 當 grovel 取大尺寸,失去其 HPSB 性能優勢;(3) 把 Mashup 當純 grovel(實際更偏 hybrid,小浪能力不如 Sweet Potato);(4) Seaside 配錯 fin:用 thruster fin 套在 quad box 會失去 fish flow;(5) Helium 構造 6+6/6 glassing 太重 → 失去輕量化優勢;(6) 把 Cymatic 當 grovel(實際為 HPSB hybrid)。",
+    "升級陷阱": "(1) 跟風 Kelly Slater 5'3\" Cymatic dim(Kelly 體能與技術非常規);(2) 從 longboard 直接跳 Sci-Fi 2.0(Tomo 設計需要 HPSB 基礎);(3) 看到 Sweet Potato 評論「最寬最平」就買 → 體重 / 浪質不符可能完全划不動(寬尾太大反而 swing weight 重);(4) 為了「練 air」買 Sweet Potato → 應選 Mashup 或 Sci-Fi 2.0。",
+    "搭配_fin 建議": "(1) Sweet Potato:FCS II Performer Medium、Futures AM2、Slater Designs / Tomo Performance Twin(若改 twin);(2) Mashup:FCS II Performer PC Medium、Futures John John Florence Medium、Futures AM1;(3) Sci-Fi 2.0:Slater Designs Twin Inverse Fin、Futures John John Florence Medium、FCS II Performer PC Carbon Medium;(4) Cymatic:同 Sci-Fi 2.0;(5) Seaside:Futures K2 Keel(Hayden 推薦)、FCS II Machado Seaside PG Quad、Futures Rasta Keel。資料來源:Surf Station fin guide、FCS / Futures 官網。",
+    "二手板評估": "(1) Helium / I-Bolic 構造的二手板要檢查 deck 凹陷(EPS 壓潰會降低 paddle 力);(2) 注意 stringerless EPS 板的 spring back 是否疲勞(老化會失去 flex 性能);(3) Volcanic basalt 構造耐用度高,二手保留性最佳;(4) 尾部 30cm 內 ding 為 release 致命傷;(5) Sweet Potato 寬尾若有 stress crack,carve 表現會大幅下降。",
+    "Quiver 規劃": "Firewire 系列建議搭配:(1) HPSB(非 Firewire,如 CI / Lost)+ (2) Sci-Fi 2.0 / Cymatic 作為小至中浪 daily + (3) Sweet Potato 或 Mashup 作為純 grovel。或者:Mashup 一塊涵蓋 1-5ft,Seaside 作為 fish 補充。Sweet Potato + Seaside + Sci-Fi 2.0 是 Firewire 純品牌 quiver 的「黃金三角」。",
+    "預算建議": "新訂製(海外):USD 850-1100(Helium / Volcanic / I-Bolic 構造均在此區間)。台灣含稅運單價:NT$32,000-48,000。本土經銷(VAST、JR Surf、Hooked):售價約 NT$32,000-45,000。二手保留性:Sweet Potato / Hypto Krypto / Sci-Fi 2.0 / Cymatic 在台灣二手市場長年高需求,3-6 個月新板可保 70-80% 價格。"
+  },
+  "pro_reference": {
+    "Stab_in_the_Dark": "Kelly Slater 自家 Slater Designs 系列(Sci-Fi 2.0、Cymatic)為 Stab in the Dark 多年的標竿。Cymatic 在 Stab Magazine 「An Honest Review」中獲高評。Sweet Potato 與 Mashup 為 Stab Joyride 系列常評板。Sci-Fi 2.0 在 GearJunkie 與 Surfd 等媒體獲「Magic surfboard」評價。[uncertain] Stab in the Dark 2025 winner 詳情在 paywall。",
+    "WSL_CT 選手選擇": "(1) Kelly Slater:Sci-Fi 2.0 / Cymatic / Sweet Potato,小浪比賽配置;(2) Italo Ferreira(歷史):曾使用 Firewire Vader 系列;(3) Slater Designs team:Mason Ho、Jack Robinson(部分階段)等。Sci-Fi 2.0 與 Cymatic 在 Kelly Slater 2019-2024 比賽中多次出現。",
+    "Free_surf 風格參考": "(1) Rob Machado:Seaside / Mashup / Too Fish 是其代表(quad fish 哲學);(2) Dan Mann:Sweet Potato 是其代表小浪板;(3) Daniel Tomson:Sci-Fi 2.0 / Cymatic / Omni 為其 Modern Planing Hull 哲學;(4) Mason Ho:Slater Designs 系列;(5) Asher Pacey:雖以 twin fish 著稱,Seaside 為其周期使用板。Rob Machado 在 Hawaiian South Shore、Cleanline Surf 等媒體頻繁示範 Seaside / Mashup。"
+  },
+  "local_taiwan_context": {
+    "浪點適配": "(1) 中角夏季 1-3ft 軟浪:Sweet Potato 與 Mashup 為首選(grovel 最強);(2) 烏石港:Mashup 平衡 paddle 與 vertical,Sci-Fi 2.0 在 head-high 表現好;(3) 金樽較陡浪:Sci-Fi 2.0 / Cymatic 為主(Tomo 設計可處理陡度);(4) 佳樂水:Mashup、Sweet Potato 與 Seaside 均適配 beach break;(5) 南灣:Sweet Potato 為純 grovel 唯一選擇;(6) 東澳粉鳥林夏季西南風小浪:Sweet Potato 與 Seaside 為首選。",
+    "進口_訂製": "Firewire 系列在台灣的進口管道:VAST(經銷)、Hooked(經銷)、Cleanline Surf 海外訂(含稅運 NT$35,000-45,000)、Hawaiian South Shore(夏威夷直購)。Firewire 不接受 100% 客製(模具量產),但有 Prestige 系列為 Hayden Cox 親手 shape 的高端版本。本土 shaper 可訂製類似哲學的板款(如 Saltywave、JR Surf)。",
+    "中文社群迷思": "(1)「Helium 構造容易壞」→ 部分誤解;Helium 1.0 確有壓 deck 問題,Helium 2.0 已大幅改善;(2)「Slater Designs = Firewire」→ 部分正確,Slater Designs 為 Firewire 旗下的設計師合作品牌;(3)「Sweet Potato 越大越好」→ 錯,寬尾 swing weight 大會難 carve;(4)「Sci-Fi 2.0 是 grovel」→ 錯,屬於 HPSB hybrid,grovel 應選 Sweet Potato 或 Mashup;(5)「Volcanic 等於 carbon fiber」→ 錯,Volcanic 是 basalt 火山岩纖維,不是 carbon。",
+    "在地教練建議": "(1) VAST(台北 / 宜蘭):常推 Hypto Krypto FutureFlex(Haydenshapes 非 Firewire)為一塊 quiver,Firewire 系列推 Sci-Fi 2.0;(2) Hooked(宜蘭):較常推 Mashup、Seaside 作為 fish-leaning groveler;(3) JR Surf(墾丁):常推 Sweet Potato 與 Sci-Fi 2.0 給不同程度的玩家;(4) Decathlon Olaian 線:無 Firewire 系列,主推自家中價位 EPS 板。[uncertain] 各家具體推薦表單會隨季節 / 庫存變動。"
+  },
+  "uncertain": [
+    "Nose_Rocker",
+    "Tail_Rocker",
+    "Nose_Width_at_12_inch",
+    "Tail_Width_at_12_inch",
+    "Fin_Cant",
+    "Fin_Toe",
+    "Glide 平面速度",
+    "Stab_in_the_Dark",
+    "在地教練建議"
+  ]
+}

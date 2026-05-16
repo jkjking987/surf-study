@@ -1,0 +1,96 @@
+{
+  "id": "A1",
+  "basic_info": {
+    "名稱": "極軟浪情境 (Knee-to-Waist 膝~腰 / Extreme Soft Mush)",
+    "分類": "浪況情境 (Wave Condition Scenario)",
+    "適用程度": "全程度 (初學者最易上手;進階者亦需此情境專用板)",
+    "一句話定位": "推力近乎為零的膝~腰小浪,需用最大浮力 + 最平 rocker + 最寬 outline 來划上浪。"
+  },
+  "buoyancy_strategy": {
+    "Guild_Factor_GF": "極軟浪情境建議 GF 比一般日常情境 +0.05~+0.08:頂尖/高體能 0.40-0.44、一般體能+中高技術 0.42-0.46、週末玩家 0.46-0.52、新手 0.55-0.65。原因:槳力極弱,沒有足夠浮力幾乎追不到浪,寧可超浮(來源:Surfertoday volume calculator、Catalyst Surfboard Volume Guide)。",
+    "浮力公式": "建議公式:體重(kg) × 0.42~0.55 = 浮力(L)。例如 70kg 中階騎手 × 0.46 ≈ 32.2L;同人騎標準小浪 (A2) 約 28L,日常 HPSB 約 25.5L。極軟浪倍率比 HPSB 多 +30~50%。",
+    "相對日常板浮力增量": "相對 HPSB 增加 +25%~+40% 是極軟浪場景的安全範圍。+10% 不夠用、+20% 勉強堪用、+30% 為主流推薦、+40% 為「絕對追不到才再加」的保底。Lost Mayhem「Bro Dims」概念正是把日常浮力 +4~6L 來面對軟浪。",
+    "浮力範圍_體重對照": "50kg → 24-28L;60kg → 28-33L;70kg → 32-38L;80kg → 37-44L;90kg+ → 42-50L。最低端適合進階小體能、最高端適合新手。新手不會浪費容易翻;高手如要做 air 也不應超過 38L (70kg)。",
+    "小浪修正係數": "一般小浪 +3L 公式不夠用,極軟浪建議 +5~7L (groveler 專用 +5L 為起跳)。如 Firewire Sweet Potato、Lost Puddle Jumper、Pyzel Gremlin 等專屬 groveler 設計即內建此補償。",
+    "BMI_體脂修正": "肌肉型高 BMI:浮力可比公式低 -2~3L (肌肉密度高、心肺強);脂肪型高 BMI:依公式給足甚至 +2L (脂肪雖浮但體能差);低 BMI 偏瘦型:依公式或略低 -1~2L (易翻身) [uncertain]。",
+    "年齡_體能修正": "年齡 >40 或心肺體能下降:極軟浪場景再 +10~15% 浮力 (大於一般場景的 +5~10%);70 歲長者甚至建議直接挑 mid-length 35-45L。",
+    "品牌計算器差異": "Firewire 計算器在極軟浪場景仍偏保守,實際取板建議 +1L;Lost 計算器以 HPSB 為基準,套用到 Puddle Jumper 等 groveler 需 +2~3L;CI 計算器低估約 1-2L (建議實際取板 +1L);JS Industries / Rusty 自家計算器列表通常較準。極軟浪場景一律建議比計算器再 +2L。",
+    "亞洲體型修正": "亞洲身材比歐美輕 5-10kg 但極軟浪仍需足夠 paddle threshold,故 -2~3L 修正可保留 (例如 70kg 亞洲人 ≈ 75kg 歐美人 -3L);但若新手且划水能力不佳,不建議扣減。"
+  },
+  "shape_details": {
+    "Length 板長": "建議比日常 HPSB 縮短 -3\"~-5\"。常見區間:4'10\"~5'8\" (體重 50-90kg)。例:Firewire Sweet Potato 5'2\"~6'0\";Lost Puddle Jumper 5'2\"~6'8\";Pyzel Gremlin 5'4\"~6'4\"。極軟浪場景越短越好,但需以浮力守住下限。",
+    "Width 板寬": "建議 20\"~22\" (HPSB 約 18.5\"~19.5\"),寬度提供 paddle 與 planing。Sweet Potato 5'3\" 達 23\" 寬;Puddle Jumper 5'10\" 約 20.5\";Gremlin 5'9\" 約 20\"。",
+    "Thickness 板厚": "建議 2.4\"~2.75\"。Sweet Potato 5'3\" 約 2.59\";Puddle Jumper HP 5'9\" 約 2.40\";Sub Driver 2.0 6'0\" 約 2.5\"。EPS 板可比 PU 薄 0.05~0.1\" 仍同浮力。",
+    "Nose_Rocker": "極軟浪建議 4.0\"~4.5\" (HPSB 約 5\"~5.5\")。極平 entry rocker 是 paddle threshold 的關鍵。Lost Puddle Jumper 採用「兩條 rocker 線」設計:中心線更平、rail 線略翹。",
+    "Tail_Rocker": "極軟浪建議 2.0\"~2.5\" (HPSB 約 2.5\"~3\")。低 tail rocker 提升 down-the-line 速度,代價是 vertical 能力受限。",
+    "Entry_Rocker": "前段曲線需要極連續且平直,以最大化早起乘 (early paddle-in)。Firewire Sweet Potato 的 entry rocker 屬於業界最平之一;Sub Driver 2.0 略多 entry 以兼顧 stop 能力,但仍比 HPSB 平。",
+    "Wide_Point_Position": "wide point 通常前移到中心點或中心前 1\"~2\"。Sweet Potato wide point 約中心前 1.5\";Puddle Jumper 約中心前 1\"。前移 wide point 將 paddle volume 集中在胸前,利於早起乘。",
+    "Nose_Width_at_12_inch": "極軟浪 groveler 建議 12.5\"~14\"。Sweet Potato 約 13.5\"~14\";Puddle Jumper 約 12.8\";Gremlin 約 12.5\"。比 HPSB (~11.5-12\") 寬 1-2\"。",
+    "Tail_Width_at_12_inch": "極軟浪 groveler 建議 15.5\"~17\"。Sweet Potato 5'3\" 達 17\"+;Puddle Jumper 5'10\" 約 16.0\";Sub Driver 2.0 6'0\" 約 15.5\"。寬尾提供 planing 與 release。",
+    "Bottom_Contour 板底設計": "極軟浪首選 single-to-double concave (深度 3/16\"~1/4\") 或 deep double barrel concave。Sweet Potato 採 deep double concave 提供 lift;Puddle Jumper 採 single → double concave 過渡;Gremlin 採 flatter entry 銜接 double concave through fins。極軟浪不採 vee bottom (太慢)。",
+    "Tail_Shape 板尾形狀": "首選 wide squash 或 swallow tail。Squash 提供穩定 planing 與快速 release;swallow tail (如 Sub Driver 3.0 Swallow、RNF '96) 提供雙接觸點與更鬆的 feel。極軟浪不建議 pin / round pin (太緊)。",
+    "Rail_Profile": "中段 boxy 提供浮力與 paddle、尾段 down rail (tucked under edge) 提供 release。Sweet Potato 中段 boxy 偏厚;Puddle Jumper 採薄 tail rail 配厚中段;Sub Driver 2.0 採 \"vee deck\" 來降低 rail 體積但保留中心浮力。",
+    "Rail_Volume_Distribution": "極軟浪偏好中段集中 (chest area) 而非均勻分布。集中於中段利於 paddle、release tail 易做動作。若 rail volume 均勻分布則 carve 較穩但難擺脫慢段。",
+    "Foam_Distribution": "胸下集中型 (easy paddle, weight forward) 是極軟浪的首選。Sweet Potato 與 Puddle Jumper 均為此典型;Sub Driver 2.0 採 \"added thickness along center stringer\" 的胸前集中設計。",
+    "Outline 輪廓曲線": "Parallel rail (中段平行) 提供長 planing 區、curvy outline 過 wide point 後快速收尾。Sweet Potato outline 為「胖洋芋」型;Puddle Jumper 接近 retro fish 但較窄尾;Gremlin outline 介於 fish 與 shortboard。"
+  },
+  "fin_setup": {
+    "主要_Setup": "thruster (drive 取向、適合進階) 或 quad (極軟浪首選、提速最快)、現代 twin (loose + fast,如 Sweet Potato 配 Machado Twin)。極軟浪建議從 quad 起手;若要做 air 用 thruster;追求復古 glide 用 twin。",
+    "Fin_Cant": "極軟浪建議 6.5°~7° (loose 取向),如 Futures AM1/AM2 系列;追 drive 可用 4°~5° (CI Upright);過大的 cant 在極軟浪會 lose drive。",
+    "Fin_Toe": "極軟浪建議 1/8\"+ (looseness),提升轉向反應;1/16\" 在小浪會太緊。",
+    "Fin_Foil": "side fins inside foil (hold + lift);quad rear flat foil (speed);若用 2+1 trailer 用 50-50 foil。極軟浪首選 inside foil。",
+    "Fin_Rake_Sweep": "小浪偏好 upright fin (less rake) → 加速快、turn 範圍緊。如 CI Upright、Futures AM1。極軟浪 rake 過大反而拖速 (Boardcave fin guide)。",
+    "Fin_Area_Template": "極軟浪建議中型 area 為基準:60-75kg 用 medium AM1/M2/CI Upright;75kg+ 用 large AM2。Quad 配置可略增 area 補足 trailer 缺失的 drive。",
+    "Quad_Rear_Position": "極軟浪建議 quad rear 靠 rail 1/4\"~1/2\" (loose);若要 down-the-line drive 移向 stringer (tight)。Lost RNF 96 quad 配置即典型。",
+    "2plus1_vs_PureTwin": "極軟浪 2+1 (twin + trailer) 提供 backhand hold (適合中階以下);pure twin 提供 maximum drive + skate feel (進階)。Asher Pacey twin 套組通常含 optional trailer 即此邏輯。"
+  },
+  "construction": {
+    "PU_PE 在小浪": "PU/PE 在極軟浪場景的優勢:knifey rail feel 入水穩定、carve 可預測、damp 振動。劣勢:同浮力下重量較重,paddle threshold 較高,極軟浪不易啟動。建議浮力比 EPS 多 +1~2L 補償。",
+    "EPS_Epoxy 在小浪": "EPS/Epoxy 在極軟浪場景的優勢:輕量利於 pump、acceleration、air;同浮力數值「感覺」高 1-2L,paddle 更易;float 久不疲勞。劣勢:rail 偏硬、carve 較跳。極軟浪是 EPS 最佳發揮場景。Firewire Helium、Lost Lightspeed 為代表。",
+    "HD_EPS": "Lost Lightspeed II、Firewire Helium 屬 HD EPS,介於 PU 與 EPS 之間:比純 EPS 沉穩、比 PU 輕快。Sub Driver 2.0 Lightspeed II 為極軟浪 HD EPS 代表板。",
+    "Glassing_Schedule": "極軟浪場景建議偏輕:4+4/4 lightweight comp (最快但易壞,適合進階+短期使用);6+4/6 standard (平衡,推薦給多數人);6+6/6 (耐用旅行,EPS 板可選此 schedule 仍輕)。極軟浪不建議過重的 6+6/6 PU 配置。",
+    "新技術": "Haydenshapes FutureFlex (carbon innegra wrap、強回彈)、Firewire Helium (HD EPS + bamboo deck)、Lib Tech NTL (碳負排放 EPS) 均強調輕量 + 彈性,在極軟浪場景能放大 pump 效率。"
+  },
+  "conditions_fit": {
+    "浪高範圍": "0.5-2.5ft (膝~腰)。最佳區間 1-2ft;低於 0.5ft 應改用 SUP/longboard。",
+    "浪質": "軟浪 (mushy)、無風天的小水池浪、河口/灣區無推力浪;偶能應付飽滿軟浪過渡到 A2/A3 場景。",
+    "浪型": "Beach break 小浪首選;point break 低潮乾段;reef break 大退潮的內側軟浪。台灣場景:中角灣冬季小浪、宜蘭烏石港退潮、南灣夏季無風天。",
+    "不適合場景": "陡浪、空心浪、台肩 (head-high+)、捲管浪、強流的點/礁區。極軟浪 groveler 在 4ft+ 浪會 spin out、過軟難 hold rail、tail 過寬難 vertical。"
+  },
+  "performance": {
+    "划水容易度": "paddle threshold 極低:能划上膝高浪 (一般 HPSB 至少需腰高)。70kg 騎手在 32-35L groveler 上幾乎能划上任何站得起來的浪。",
+    "起乘速度": "極快 (paddle-to-take-off 1-2 動作)。低 entry rocker + 寬 chest area 讓板平躺即滑。",
+    "Glide 平面速度": "下沖速度中等偏快,過慢段 (flat section) 表現極佳。Noel Salas 在 Sweet Potato 測試顯示 down-the-line 速度約 20-25 km/h (小浪基準) [uncertain]。",
+    "Pump 效率": "pump 效率高:寬中段 + 平 rocker 在最少身體動作下產生最多速度。但需 \"front foot driven\" 推進,後腳壓尾反而慢。",
+    "轉向靈活度": "緊湊轉彎能力中等:wide tail 利於 release 但 tight pocket 反應較鈍。bottom turn 弧線較大、適合 down-the-line 路線。",
+    "Vertical 能力": "vertical snap 能力有限:tail 過寬、rocker 過平,難以打到 lip。極軟浪場景本身也不該追求 vertical。",
+    "空中動作能力": "frontside air 落地穩定 (寬尾 + 浮力高);reverse 較難 (rail 太厚難 release)。專做 air 應考慮 B4 air-specific groveler 而非極軟浪 groveler。",
+    "Backside_vs_Frontside": "frontside 較易發揮 (寬尾推動容易);backside 在 thruster 配置仍可掌控,twin 配置 backside 需要更多技術。"
+  },
+  "practical_selection": {
+    "代表板款": "1) Firewire Sweet Potato (Dan Mann,5'2\"-6'0\",27-50L,deep double concave,wide squash,thruster/quad/twin 多 fin 選擇);2) ...Lost Puddle Jumper '25 / HP (Mayhem,5'2\"-6'8\",27-51L,兩條 rocker 線);3) Pyzel Gremlin (5'4\"-6'4\",25-40L,Pyzel 系最寬最平);4) Lost Sub Driver 2.0/3.0 (5'5\"-6'8\",24-43.5L,小浪 competition 取向);5) Channel Islands Fishbeard (NeckBeard 2 + CI Fish,keel 配置)。",
+    "常見錯誤": "1) 浮力給太多 (>0.55 GF) 反而難轉、carve 慢、duck dive 困難;2) 配錯 fin (用大 rake hpsb fin) 在小浪會拖速;3) glassing 太重 (6+6/6 PU) 失去輕量優勢;4) 縮太短沒考慮浮力 (5'2\" 配 25L 對 70kg 是災難);5) 把 groveler 當主板使用,在 chest+ 浪失去 carve 樂趣。",
+    "升級陷阱": "跳級太快:剛從 mini-mal 跳到 5'4\" Sweet Potato 會划不上;追隨 pro model (如 Kolohe Andino 用的 Sub Driver) 卻不調整 Bro Dims 浮力,結果體能不足無法駕馭。建議:先 +30% HPSB 浮力,確認可駕馭再嘗試 +40%。",
+    "搭配_fin 建議": "thruster 配置:Futures AM1 (medium)、CI Upright、FCS II Performer Tri (small wave 取向);quad 配置:Futures Performer Quad、FCS II Performer Quad;twin 配置:Captain Fin Mikey February、Shapers AP Twin、Machado Twin (Sweet Potato 原廠選項)。",
+    "二手板評估": "ding 對小浪表現影響有限 (極軟浪不需高精度);glassing 老化 (delam) 在 EPS 板更危險;stringer 變形 (二手 PU) 會破壞 rocker 對稱;5+ 年舊 EPS 易吸水增重 +1~2L。建議檢查 chest 區凹陷 (heel dent) 與 tail 鰭片箱周圍裂痕。",
+    "Quiver 規劃": "2 塊涵蓋:極軟浪 groveler (35L for 70kg) + HPSB (26L for 70kg);3 塊涵蓋:加一塊 mid-length (40L) 處理長浪 + 增加 wave count。",
+    "預算建議": "軟頂 (Catch Surf Beater 等) USD 200-400 entry;二手 PU groveler USD 300-500 (台灣 NTD 8,000-15,000);新訂製 USD 700-900 / NTD 22,000-30,000;新訂製 EPS (Firewire/Helium) USD 850-1,000 / NTD 28,000-35,000。"
+  },
+  "pro_reference": {
+    "Stab_in_the_Dark": "2024 Stab in the Dark 由 DHD 獲勝 (Kolohe Andino 騎),但 SITD 多數年份在中型浪測試,groveler 場景參考性有限。Britt Merrick (CI) 為 SITD 三冠王,Happy Everyday 在 Taj Burrow 場次拿過第二名。2025 SITD 結果尚不明確 [uncertain]。",
+    "WSL_CT 選手選擇": "WSL CT 選手在極軟浪 (如 Hurley Pro Trestles 部分 heat) 多用 Sub Driver 系列 (Kolohe Andino)、Happy Everyday 偏小尺寸 (Conner Coffin)、JS Sub Xero (Julian Wilson)、Pyzel Gremlin (Italo Ferreira 早期)。Filipe Toledo 仍偏好 lighter HPSB 而非真正 groveler。",
+    "Free_surf 風格參考": "Asher Pacey 在 Snapper Rocks 軟浪用自家 twin fin 設計;Dane Reynolds 偏好 ...Lost grovelers (Couch Potato、Bottom Feeder);Josh Kerr 設計 DRAG groveler;Jamie O'Brien 在 Pipe 退潮時也帶 Sweet Potato。"
+  },
+  "local_taiwan_context": {
+    "浪點適配": "中角灣冬季膝~腰浪:Sweet Potato 或 Puddle Jumper 5'6\"~5'10\";烏石港退潮:Gremlin 5'8\";金樽軟段 (淡季):Mid 6 過渡到 groveler;佳樂水夏季弱浪:Sub Driver 2.0;南灣夏季膝~腰:Sweet Potato (寬尾配 quad);東澳粉鳥林颱風後殘浪:Puddle Jumper twin。",
+    "進口_訂製": "海外進口:Firewire Sweet Potato 透過 Boardriders / VAST 約 NTD 28,000-32,000 含稅運;Lost / CI 透過 nanazero、JR Surf、Hooked 等代理。國內訂製:本土 shaper (Saltywave、KOA Surfboards、海平面 Sealevel 等) 約 NTD 18,000-25,000,可量身定做亞洲體型修正版型 [uncertain — 部分本土 shaper 名單在中文資源有限]。",
+    "中文社群迷思": "PTT/FB 衝浪社團常見迷思:1) 「小浪只能用魚板」— 現代 groveler、hybrid 都比 retro fish 更全能;2) 「浮力越高越好划」— 過高會難轉、duck dive 困難;3) 「短就是進階」— 縮短不配浮力反而退步;4) 「貴的版型在小浪一定強」— pro model 多為中浪 HPSB,小浪反而吃虧。",
+    "在地教練建議": "JR Surf (烏石、福隆) 多推 Firewire Sweet Potato、Hypto Krypto 給中階學員;VAST Surf Shop 推 Lost Puddle Jumper、Pyzel Gremlin;Decathlon Tribord 自家 900 系列軟頂可作為入門;Hooked Surf 推 CI Happy Everyday、Twin Pin 給進階。"
+  },
+  "uncertain": [
+    "BMI_體脂修正",
+    "Glide 平面速度",
+    "Stab_in_the_Dark",
+    "進口_訂製"
+  ]
+}

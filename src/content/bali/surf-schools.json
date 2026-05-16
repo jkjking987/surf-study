@@ -1,0 +1,74 @@
+{
+  "basic_info": {
+    "name": "Surf Schools in Bali - Major Operators (Chinese: 峇里島衝浪學校 - 主要業者; Indonesian: Sekolah Selancar di Bali). Coverage: Rip Curl School of Surf (Legian + Sanur), Odysseys Surf School (Kuta), Pro Surf School & Camp (Kuta/Tuban), Dian Surf School (Canggu Batu Bolong), WaveHouse Bali (Canggu Berawa + Uluwatu/Bingin).",
+    "category": "surf_business",
+    "region": "Bali-wide",
+    "gps_location": "Rip Curl School of Surf Legian: -8.7042, 115.1700 (Jl. Padma Utara, Legian) + Sanur branch at -8.6857, 115.2628. Odysseys Surf School: -8.7268, 115.1696 (Mercure Hotel Arcade, Jl. Pantai Kuta). Pro Surf School & Camp: -8.7232, 115.1689 (Jl. Pantai Kuta, between Wyndham Garden and The Stones Hotel, Halfway Kuta). Dian Surf School: -8.6535, 115.1330 (Batu Bolong Beach, Canggu). WaveHouse Canggu: -8.6605, 115.1395 (5 min from Berawa Beach); WaveHouse Uluwatu: -8.8101, 115.1100 (cliffs above Bingin Beach).",
+    "distance_from_dps_airport_km": "Rip Curl Legian ~9 km / Sanur ~13 km; Odysseys Kuta ~5 km; Pro Surf School Kuta ~5 km; Dian Surf School Canggu ~17 km; WaveHouse Canggu ~17 km / Uluwatu Bingin ~17 km. All within 25-40 min taxi from DPS depending on traffic."
+  },
+  "surf_conditions": {
+    "wave_type": "Lessons primarily on beach-break/sand-bottom waves at Kuta/Legian/Berawa/Batu Bolong (sand bottom, gentle whitewash on inside) for beginners; intermediate progression sessions move to Padang Padang Right, Balangan inside, Old Man's, or Sanur on the right swell. Rip Curl Sanur branch runs Level 2+ on reef breaks; WaveHouse Uluwatu operates at intermediate-friendly Bingin/Padang Padang Right.",
+    "skill_level": "Beginner to advanced; most lessons cater to absolute beginners (white-water then green-wave progression); intermediate/improver classes available at all five operators; advanced coaching (Pro Surf School, WaveHouse, Rip Curl Sanur, Dian Surf School improver program) offered.",
+    "wave_height_range": "Lessons run 1-3 ft typically (small inside white-water and reformed waves); progression sessions 2-4 ft; intermediate guided sessions up to 4-6 ft at Old Man's/Padang Right.",
+    "bottom_type": "Sand at primary beginner beaches (Kuta, Legian, Berawa, Batu Bolong, Sanur sand pocket); reef/coral at intermediate progression spots (Padang Padang Right, Bingin, Sanur Hyatt Reef).",
+    "best_season": "Year-round operation; dry season May-Sep offers cleaner west-coast surf (Kuta/Legian/Canggu); wet season Oct-Mar suits east-coast lessons (Sanur, Rip Curl Sanur branch, Keramas guided trips); operators flexibly switch coasts based on conditions.",
+    "best_tide": "Beginner-friendly mid-to-high tide at sand-bottom beaches (Kuta/Legian/Berawa/Batu Bolong); intermediate sessions follow each spot's tide window.",
+    "best_wind": "West coast schools prefer morning offshore E winds before SE/SW onshore picks up; east coast (Rip Curl Sanur) prefers offshore W winds in wet season.",
+    "best_swell_direction": "SW for west coast lessons; E/SE for east coast (Sanur) lessons; not normally a constraint for beginner classes which use any small windswell.",
+    "swell_consistency_rating": "5 (Bali coasts deliver near-daily beginner-suitable surf year-round via coastal-switching strategy)",
+    "peak_crowd_level": "4-5 at primary beginner beaches in high season (Kuta sandbar morning sessions extremely busy; Canggu Old Man's lessons crowded; surf-school zones marked by colored rashguards/buoys)"
+  },
+  "practical_info": {
+    "access": "All operators run pickup/drop-off from major tourist zones (Kuta/Legian/Seminyak/Canggu/Uluwatu/Sanur) included or for small fee; lessons typically meet at school office/beach base; WaveHouse and Pro Surf School operate as combined camps with on-site accommodation.",
+    "recommended_session_time": "Morning sessions 7:00-10:00 AM (cleanest conditions, calmer wind); second sessions 10:00 AM-1:00 PM; afternoon sessions 2:00-5:00 PM still available though onshore winds typical; dawn-patrol private lessons available on request.",
+    "nearby_warung": "All five operators are in dense tourist zones with abundant warungs, cafes, bars; Pro Surf School and WaveHouse have on-site restaurants/bars; Odysseys is at Mercure Hotel arcade with cafe access; Dian Surf School is on Batu Bolong with dozens of beachfront warungs and cafes adjacent.",
+    "alternative_spot_within_10min": "All operators have backup-spot protocols: Kuta operators (Rip Curl Legian, Odysseys, Pro Surf) shift between Kuta/Legian/Seminyak sandbars or transport to Canggu/Sanur; Canggu operators (Dian, WaveHouse Canggu) move between Batu Bolong/Berawa/Pererenan/Echo Beach; WaveHouse Uluwatu rotates Bingin/Padang Padang Right/Balangan/Dreamland."
+  },
+  "safety_culture": {
+    "hazards": "Beginner crowd density (collision risk in marked surf-school zones), sharp fins/boards in crowded lineups, jellyfish blooms (Oct-Mar wet season), strong rip currents at Canggu/Kuta (school zones avoid main rip channels), sunburn/dehydration, occasional reef cuts during intermediate progression sessions, scooter accidents in transit.",
+    "marine_hazards": "Jellyfish (Portuguese man o' war and box jellyfish occasionally during wet-season N winds), sea urchins at intermediate reef breaks (booties recommended for progression sessions), no shark issues, occasional sea snakes; first-aid kit and trained staff standard at all five operators.",
+    "lineup_etiquette": "Schools enforce zone-segregation - colored rashguards, designated learn-to-surf areas marked by buoys/flags at Kuta/Legian/Sanur; students taught right-of-way basics before paddling out; intermediate progression students given lineup-etiquette briefings; respect for free-surfers and other students emphasized.",
+    "localism_intensity": "Low at school-zone beaches (Kuta/Legian/Berawa/Batu Bolong/Sanur sand pocket); medium at intermediate spots; schools have working relationships with locals at Padang Right, Bingin, Sanur Reef, Old Man's.",
+    "respect_protocol": "Tip instructors (IDR 50,000-150,000 typical per lesson if happy); arrive on time; respect equipment (don't drop boards on rocks); follow instructor instruction in water for safety; do not paddle outside zone before being passed up to intermediate.",
+    "medical_nearby": "Rip Curl Legian/Odysseys/Pro Surf: BIMC Kuta hospital 5-10 min, Siloam Denpasar 15-20 min; Dian/WaveHouse Canggu: BIMC Nusa Dua via toll road ~30 min, Siloam Denpasar 25 min, Penta Medical Canggu 5 min; WaveHouse Uluwatu: Unicare Pecatu 5 min, Siloam Denpasar 30-40 min via toll road.",
+    "rescue_jet_ski_available": "No - school zones rely on instructor water-safety coverage (1 instructor per 2-4 students standard ratio); WaveHouse advertises 1:2-3 ratio; Rip Curl 1:4; Odysseys 1:4 group, 1:1 private; rescue boards on beach standard."
+  },
+  "services": {
+    "board_rental_availability": "All five operators rent foam soft-tops and progress-level boards by hour/day to existing students; Pro Surf School and WaveHouse offer broader rental quivers; Dian Surf School has a rental shop on Batu Bolong; Odysseys rents from Mercure base. Rates ~IDR 75,000-150,000/hour or IDR 150,000-300,000/day for soft tops.",
+    "surf_photographer_available": "Rip Curl, Pro Surf, WaveHouse, Dian Surf School all offer in-house land/water photographers for lesson documentation; photo packages typically included in private-lesson upgrades or sold separately IDR 200,000-500,000/session; Odysseys offers GoPro and photo packages.",
+    "photographer_recommendation": "In-house photographers at all five schools; for higher-end portfolio shooting, schools can refer freelance shooters (Bali Surf Photo, freelance Indonesian shooters via Instagram). [uncertain on per-shooter rates]",
+    "accommodation_options": "Pro Surf School & Camp operates on-site camp accommodation (private rooms + dorms with sea-facing balconies, pool, restaurant, under IDR 1,500,000/night standard); WaveHouse operates Surf & Stay camps in Canggu (Berawa) and Uluwatu (Bingin) with private/shared rooms; Rip Curl School of Surf is co-located with Ovolo Mamaka hotel (Surf Academy package); Odysseys partners with Mercure Hotel arcade; Dian Surf School partners with nearby Canggu villas/homestays.",
+    "webcam_url": "Schools use Surfline cams for Kuta (https://www.surfline.com/surf-report/kuta-beach), Canggu Batu Bolong (https://www.surfline.com/surf-report/canggu-batu-bolong), Berawa, Bingin and Padang Padang Right for lesson planning; live cam access often included in WaveHouse member portal. [uncertain on operator-specific cams]",
+    "drone_allowed": "Schools typically allow personal drone use during lessons for student footage; commercial filming requires permit; some Canggu beaches have local restrictions during Hindu ceremonies. [uncertain]",
+    "coworking_nearby": "Kuta operators near Outpost Kuta (limited), Hubud (now closed - moved to Ubud); Canggu operators near Outpost Canggu, Tropical Nomad, BWork, Dojo Bali; WaveHouse Uluwatu near Outpost Ulu, ZIN Cafe Bingin, several work-friendly cafes."
+  },
+  "pricing": {
+    "avg_lesson_price": "Group lesson 2-hr average IDR 600,000-770,000 (USD 40-50) across the five operators; semi-private USD 50-65; private 1-on-1 USD 65-90 (Rip Curl private from USD 73; Odysseys from USD 35 group). Pro Surf School group from IDR 500,000-750,000; Dian Surf School group from IDR 400,000; WaveHouse single-session pass from ~USD 45-60.",
+    "lesson_price_range_idr": "Rip Curl: group 2-hr IDR 700,000 + 10% tax (USD 50+); private from USD 73 (IDR ~1,150,000). Odysseys: group from USD 35 (IDR ~550,000); semi-private ~USD 50 (IDR ~780,000); private ~USD 70 (IDR ~1,100,000). Pro Surf School: group IDR 500,000-750,000; private IDR 900,000-1,250,000. Dian Surf School: from IDR 400,000 group; private IDR 750,000-1,000,000. WaveHouse single sessions ~IDR 700,000-1,000,000; mostly sold as multi-day Surf & Stay packages.",
+    "board_rental_daily": "IDR 150,000-300,000/day soft-top; IDR 200,000-400,000/day shortboard or longboard depending on operator and season.",
+    "gopro_rental_price": "IDR 150,000-300,000/session at most operators including SD card; some offer GoPro+photo package IDR 250,000-500,000.",
+    "wetsuit_top_rashguard_rental": "Rashguards included free in all lessons; wetsuit tops (1mm-2mm) for occasional cool wet-season mornings rented IDR 50,000-100,000/day; full wetsuits not common in Bali (water 27-29 C). [uncertain]",
+    "board_repair_avg_price_idr": "Schools handle minor dings in-house for own quivers; for student/guest boards: IDR 150,000-400,000 for minor dings; IDR 500,000-1,500,000 for structural repairs; recommended shops: Drifter Surf Shop Seminyak repair, Naruki Surf Repair Canggu, local glassers in Kuta gang.",
+    "surf_camp_weekly_package": "Pro Surf School & Camp: ~USD 600-1,200/week including 5-6 lessons + accommodation + transfers; WaveHouse Surf & Stay: ~USD 800-1,500/week (Canggu) to USD 1,000-1,800/week (Uluwatu) including 5-6 sessions + accommodation + video analysis + bike + insurance + breakfast; Rip Curl Surf Academy at Ovolo Mamaka: ~USD 700-1,400/week; Odysseys partner-hotel packages: ~USD 500-1,000/week; Dian Surf School works on lesson-only basis with referral to nearby accommodations.",
+    "camp_package_inclusions": "Typical inclusions: 5-6 group lessons (2 hrs each), all equipment (soft-top boards, rashguard, leash, surf wax), accommodation (varies by tier), breakfast (most camps), airport transfer (some), video/photo analysis (WaveHouse standard, others optional), free bike rental (WaveHouse Uluwatu), basic insurance (WaveHouse); Pro Surf School includes pool access, on-site restaurant credit, daily yoga at some camps. Alcohol, lunch/dinner, advanced sessions, and tips not typically included.",
+    "peak_vs_offpeak_pricing": "Peak season Jun-Aug + Dec-Jan commands 15-30% premium; shoulder Apr-May/Sep-Nov standard rate; low Feb-Mar (wet season) some operators offer 10-20% discount but Kuta-Legian-Sanur rotation continues lessons year-round. [uncertain on exact percentages]"
+  },
+  "sustainability": {
+    "eco_certification": "Pro Surf School and Rip Curl School of Surf participate in Coastal Cleanup beach drives (Beach Clean Bali events); WaveHouse markets sustainability ethos (reef-safe sunscreen, reusable water bottles, plastic-free policy); Dian Surf School and Odysseys participate in local cleanups but no formal industry certification visible. [uncertain on third-party certifications]",
+    "carbon_offset_option": "Not standard; some camp packages partner with travel-offset platforms on opt-in basis. [uncertain]"
+  },
+  "events_community": {
+    "annual_competition_window": "Schools host internal student contests/grad days; participate in ISA Indonesia events, Coca-Cola Bali Open and Krui Pro qualifying events; Rip Curl Cup Padang Padang invitational held annually in Aug-Oct windows is sponsored by Rip Curl parent brand. [uncertain on individual school competition calendars]",
+    "community_events": "Beach cleanups (Bye Bye Plastic Bags partnerships), International Women's Surfing Day events at Canggu (June), free intro days at Old Man's, surf-yoga retreats, full-moon student parties at Pro Surf School and WaveHouse, weekly grom sessions for Indonesian kids at Rip Curl School of Surf (community engagement program)."
+  },
+  "uncertain": [
+    "photographer_recommendation",
+    "webcam_url",
+    "drone_allowed",
+    "wetsuit_top_rashguard_rental",
+    "peak_vs_offpeak_pricing",
+    "eco_certification",
+    "carbon_offset_option",
+    "annual_competition_window"
+  ]
+}

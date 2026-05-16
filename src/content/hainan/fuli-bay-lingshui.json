@@ -1,0 +1,109 @@
+{
+  "id": "fuli_bay_lingshui",
+  "basic_info": {
+    "name": "Fuli Bay (Fuli Wan) / 陵水富力灣 (within Xiangshui Bay / 香水灣)",
+    "location": "Fuli Bay, Yunhaige (云海阁), Guangpo Town (光坡镇), Lingshui Li Autonomous County, Hainan Province, China; located within the larger Xiangshui Bay (Perfume Bay) tourism resort area; ~90 km / 1.5 hr drive northeast of Sanya Phoenix International Airport, ~20 min by high-speed rail to Lingshui Station",
+    "operator": "Natural surf zone fronting the R&F Group (富力集团) Fuli Bay resort development (3,200-mu / ~213 ha integrated resort with Marriott Resort Xiangshui Bay anchor); local surf operators include Hang5 Surf School (the first ASI-accredited surf school in China) and the on-site Xiangshui Bay Marriott surf shop",
+    "opening_date": "N/A (natural surf spot)",
+    "status": "operating",
+    "category": "natural_surf_spot"
+  },
+  "technical_specs": {
+    "wave_technology_brand": "N/A (natural waves)",
+    "pool_size": "Natural bay; Fuli Bay sits inside the broader Xiangshui Bay coastline (roughly 6 km of beach), with four distinct surf zones / peaks identified along the Fuli Bay shoreline catering to different ability levels [uncertain]",
+    "wave_height": "Seasonal average 0.5-1.8 m; winter NE monsoon peaks (Nov-Mar) deliver the largest, most organized sets up to ~2 m; summer SE swells (Mar-Oct) typically 0.4-1.2 m and gentler",
+    "wave_height_adjustability": "Not adjustable (natural ocean swell driven by NE winter monsoon and SE summer monsoon, with occasional typhoon groundswell)",
+    "wave_types": "Mix of mellow beach break (sandy bottom, gentle slope) for beginners and a left point setup on the headland for intermediate-to-advanced surfers; described as having four peaks of varying difficulty within the bay",
+    "waves_per_hour": "N/A (natural surf spot)",
+    "wave_count_per_set": "N/A (natural ocean sets, typically 3-6 waves per set with 8-14 second intervals depending on swell period) [uncertain]",
+    "session_length": "N/A (open ocean access; surf school lessons typically 90-120 minutes)",
+    "stance_rotation_schedule": "N/A (natural break; left point favors goofy frontside, beach break peaks work for both stances)",
+    "wave_type_classification": "Beach break with adjacent left point break; sandy bottom with gentle gradient makes it one of Hainan's most beginner-tolerant natural spots while still offering quality lines for intermediates"
+  },
+  "pricing_sessions": {
+    "price_range": "Free open-ocean access; beginner surf lessons at Hang5 and Marriott surf shop typically 380-580 RMB per person (2 hr group, includes board, rashguard, leash); private lessons ~600-900 RMB [uncertain]",
+    "session_skill_tiers": "Hang5 offers Surf Wise certificate progression (Beginner / Improver / Intermediate); group beginner ~380-500 RMB, private 1-on-1 ~600-900 RMB, multi-day camps and ASI-aligned certificate courses on request [uncertain]",
+    "equipment_rental": "Soft-top board rental ~80-150 RMB per session or ~200-300 RMB per day; rashguards ~30-50 RMB; leash typically included with board hire [uncertain]",
+    "coaching_fee": "Group lesson 380-500 RMB per person (2 hr); private 1-on-1 ~600-900 RMB; ASI Level 1 certified instructors available at Hang5 [uncertain]",
+    "coaching_packages": "Multi-day surf camps and Surf Wise certificate packages offered by Hang5 (pricing on request); team-building and corporate programs available; Marriott in-house surf packages bundled with rooms [uncertain]",
+    "membership_program": "10-session punch cards offered by some local clubs (~2,000-3,000 RMB range); no formal bay-wide membership [uncertain]",
+    "corporate_team_building": "Yes - Hang5 explicitly offers team-building programs; Marriott Resort Xiangshui Bay has 14 event rooms and outdoor spaces and bundles surf-themed corporate experiences; minimum group typically 10+ people [uncertain]"
+  },
+  "experience_guide": {
+    "best_season": "Year-round surfable; winter (Nov-Mar) is the prime season with consistent NE monsoon swell; summer (Jun-Sep) is one of the best summer surf options in Hainan thanks to SE monsoon and occasional typhoon swell",
+    "best_swell_window": "Nov-Mar: NE monsoon swells 0.8-2 m, period 7-12 s, offshore W-NW winds; Jun-Sep secondary window with SE swells 0.5-1.2 m and possible typhoon groundswell",
+    "crowd_level": "Low to moderate; described in Chinese surf media as having a 'wide tolerance zone with very few people' even during winter big-wave days; significantly less crowded than Wanning Riyue Bay or Sanya Houhai",
+    "booking_method": "Walk-in at the on-site Hang5 Surf School and Marriott surf shop; advance booking via WeChat mini-programs of individual operators, Dianping (大眾點評), Meituan (美團), or through Marriott Resort Xiangshui Bay concierge",
+    "booking_platform": "Dianping (大眾點評), Meituan (美團), WeChat mini-programs (Hang5 official account), Marriott Bonvoy / Trip.com / Ctrip (攜程) for hotel-bundled surf packages, Xiaohongshu (小紅書) DM for guesthouse-based clubs",
+    "payment_options": "WeChat Pay and Alipay universally accepted; cash widely accepted; international credit cards accepted at the Marriott resort but rarely at independent surf shops",
+    "skill_required": "All levels - beginner-friendly inside zones with gentle sand-bottom waves, plus intermediate/advanced peaks at the point; recognized as one of the best Hainan spots for first-timers seeking uncrowded waves",
+    "age_eligibility": "Hang5 and most clubs accept ages 6+; participants must be able to swim; no formal upper age limit but lessons subject to instructor discretion based on fitness [uncertain]",
+    "child_friendly_score": "4/5 - gentle beach gradient, soft-top boards, kids' programs at Hang5; on-site Marriott family facilities; uncrowded lineup reduces collision risk",
+    "sup_paddleboard_offering": "Yes - SUP rentals and lessons available via the Marriott water sports desk and local operators",
+    "photography_video_service": "Photo/video service offered by clubs; typical pricing 100-300 RMB for session photos, 300-580 RMB for edited video [uncertain]",
+    "language_support": "Limited English at most local clubs; Hang5 offers some English-capable instruction (founder is ASI-certified and ASI materials are bilingual); Marriott Resort staff speak English; Mandarin dominant elsewhere",
+    "accessibility_for_disabled": "No formal adaptive surfing program advertised; Marriott Resort itself has wheelchair-accessible facilities; beach access is sandy [uncertain]",
+    "stance_preference_input": "Not required when booking; both stances accommodated (beach break peaks suit both, point favors goofy frontside)",
+    "safety_notes": "Generally calm with gentle gradient; lifeguards present at Marriott beach section but not full bay; ISA / ASI certified coaches available at Hang5; surf insurance recommended; watch for stronger rips during winter big-swell days",
+    "events_competitions_calendar": "Used as auxiliary national-team training zone; no major WSL/ISA championship events currently scheduled at Fuli Bay (those remain centered at Wanning Riyue Bay) [uncertain]"
+  },
+  "surroundings": {
+    "nearby_accommodation": "Within the Xiangshui Bay resort cluster: Marriott Resort & Spa Xiangshui Bay (~800-2,000 RMB), Holiday Inn Xiangshui Bay (~600-1,200 RMB), Summer Surfing Resort / Crand Rezen Hotel & Resort (~500-1,000 RMB), Sheraton Shenzhou Peninsula nearby; Hang5 school apartments 200-300 RMB; nearby guesthouses 150-500 RMB",
+    "on_site_accommodation": "Marriott Resort & Spa Xiangshui Bay sits directly behind the Fuli Bay surf zone (north beach surfable from the resort grounds); Hang5 Surf School operates apartments at 200-300 RMB/night including community gym, pool, cinema and sports court access [uncertain pricing]",
+    "nearby_food": "Marriott resort restaurants (Asian, international, all-day dining), Xiangshui Bay commercial street (~25,000 m2 retail strip planned/operating with seafood, Hainanese local fare, cafes), nearby Yingzhou Old Street seafood stalls; per-person spend 50-300 RMB depending on venue",
+    "transport": "Self-drive via G98 East Ring Highway (Lingshui exit); high-speed rail to Lingshui Station then ~20 min taxi/Didi; Didi/online cars and local taxis readily available; resort shuttle from Marriott to nearby attractions",
+    "transport_to_nearest_airport": "~90 km / ~1.5 hr drive from Sanya Phoenix International Airport (SYX) via G98; ~20 min by high-speed rail from Lingshui Station (~10 km from Fuli Bay) connecting to Sanya in ~30 min and Haikou in ~2 hr",
+    "combined_itinerary": "Common 3-5 day itinerary: Fuli Bay surf + Fenjiezhou Island (分界洲島) snorkeling/diving + Nanwan Monkey Island (南灣猴島) + Xiangshui Bay beach + Wuzhizhou Island day trip; pairs naturally with a Wanning Riyue Bay surf extension (~50 km north)"
+  },
+  "reviews_reputation": {
+    "pros": [
+      "Recognized in Chinese surf community as 'the best surf spot inside Xiangshui Bay' with very low crowd levels",
+      "Year-round surfable with strong summer wave window - one of Hainan's best summer options when Wanning is flat",
+      "Very beginner-friendly sandy gradient with adjacent intermediate point peaks for progression",
+      "Premium accommodation directly on the wave (Marriott Resort & Spa Xiangshui Bay walk to beach)",
+      "First ASI-accredited surf school in China (Hang5) offers internationally recognized instruction"
+    ],
+    "cons": [
+      "Less developed surf-village infrastructure than Wanning Riyue Bay or Sanya Houhai (fewer shops, bars, surfer cafes)",
+      "Travel time from Sanya airport ~1.5 hr discourages short trips",
+      "Limited English support outside the Marriott and Hang5",
+      "Wave size in summer can be small - not ideal for advanced surfers seeking power",
+      "Resort/private-development feel may not appeal to surfers seeking authentic surf-village vibe"
+    ],
+    "user_reviews": "Xiaohongshu (小紅書) and Zhihu (知乎) surf guides consistently rank Fuli Bay as a 'hidden gem' alternative to Riyue Bay - praised for uncrowded peaks, clean water, and beginner-friendly sandbar; Marriott Resort Xiangshui Bay holds ~4.5/5 on Trip.com / Ctrip; Hang5 Surf School positively reviewed on Dianping for instructor quality [uncertain ratings]",
+    "recommended_for": "Beginners seeking uncrowded learning conditions; intermediate surfers wanting quality lines without Riyue crowds; families combining luxury resort stay with surf lessons; couples; corporate team-building groups",
+    "operator_brand_partnership": "R&F Group (富力集团) developed the 3,200-mu Fuli Bay integrated resort with Marriott International (Marriott Resort & Spa Xiangshui Bay); surf instruction by Hang5 Surf School (ASI / Academy of Surfing Instructors international accreditation - first in China)"
+  },
+  "verification": {
+    "existence_verified": "true",
+    "verification_sources": [
+      "https://www.academyofsurfing.com/schools/hang5-surf-school/surf",
+      "https://www.stormrider.surf/region/hainan",
+      "https://www.surfeconomics.com/surf-travel/surf-guide-hainan-china/",
+      "https://www.marriott.com/en-us/hotels/syxxb-marriott-resort-xiangshui-bay/overview/",
+      "http://www.rfchina.com/product.aspx?type=14&pid=165",
+      "https://zhuanlan.zhihu.com/p/617339364",
+      "https://zhuanlan.zhihu.com/p/354029948",
+      "https://zhuanlan.zhihu.com/p/674020682",
+      "https://www.surfline.com/travel/china/hainan/lingshui-li-autonomous-county-surfing-and-beaches/12324201"
+    ],
+    "last_updated": "2026-05-15"
+  },
+  "uncertain": [
+    "pool_size",
+    "wave_count_per_set",
+    "price_range",
+    "session_skill_tiers",
+    "equipment_rental",
+    "coaching_fee",
+    "coaching_packages",
+    "membership_program",
+    "corporate_team_building",
+    "age_eligibility",
+    "photography_video_service",
+    "accessibility_for_disabled",
+    "events_competitions_calendar",
+    "on_site_accommodation",
+    "user_reviews"
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "basic_info": {
+    "name": "Yeh Sumbul (Chinese: 葉松布 / 耶松布; Indonesian: Pantai Yeh Sumbul)",
+    "category": "surf_spot_hidden",
+    "region": "West Coast",
+    "gps_location": "Approx. -8.4366, 114.7708 (Pantai Yeh Sumbul, Desa Yeh Sumbul, Kec. Mendoyo, Kabupaten Jembrana, Bali 82261; just west of Medewi across the bay) [uncertain]",
+    "distance_from_dps_airport_km": "~85-95 km (approx. 2.5-4 hours drive; 1.5 km west of Medewi point, similar drive time)",
+    "distance_from_canggu_uluwatu_min": "From Canggu: ~125-155 min by motorbike (~70-80 km); From Uluwatu: ~155-190 min by motorbike (~100 km)"
+  },
+  "surf_conditions": {
+    "wave_type": "Beach break with soft cobblestone/sand peaks - mixed sand and cobblestone bottom; lefts and rights along a long stretch of beach; mellower and softer than Medewi point",
+    "skill_level": "Beginner to Intermediate (on small to medium days when sandbanks are working); can produce heavier barrels for advanced surfers when Medewi is maxing out",
+    "wave_height_range": "1-5 ft (best at 1-4 ft); too small/disorganized on tiny days, gets messy/closeout on bigger swells",
+    "bottom_type": "Mixed sand and cobblestone (rocks washed across from rocky Medewi side of the bay; sandier on the southern end)",
+    "best_season": "Dry season April-October (peak May-September); workable year-round but wet season brings river pollution and inconsistent sandbanks",
+    "best_tide": "Mid tide best (water depth slows the wave just enough to form organised peaks); higher tide also workable; low tide exposes rocks",
+    "best_wind": "Offshore N to NE; light winds or early-morning land breeze (offshore created by cold air flowing down from the mountains)",
+    "best_swell_direction": "S to SW (same window as Medewi); needs similar groundswell exposure",
+    "swell_consistency_rating": "3 (decent year-round but wave quality varies significantly with sandbank conditions and wind) [uncertain]",
+    "wave_length_meters": "30-100 meters per peak (short beach-break rides; multiple peaks scattered along the long stretch of beach) [uncertain]",
+    "wave_speed_rating": "Slow to medium (forgiving, mellow walls on most days; punchier when bigger)",
+    "takeoff_zone_difficulty": "Low - soft beach-break take-off; ideal for surf-school students and beginners learning to pop up; advanced surfers find punchier sections on bigger swells",
+    "secondary_peaks": "Yes - multiple shifting beach-break peaks along the ~1.5 km stretch between Yeh Sumbul and Medewi; surfers walk the beach to find the best peak of the day",
+    "peak_crowd_level": "1-2 (very low; one of the quieter beach breaks in Bali; mostly surf-school groups from local homestays and the occasional traveler escaping Medewi crowds)"
+  },
+  "practical_info": {
+    "access": "Drive west on Jalan Raya Denpasar-Gilimanuk past Medewi; turn south toward the beach via Jalan Bahari or village access roads in Yeh Sumbul (Mendoyo); park at one of the beachfront homestays (e.g. Kelapa Surf Villa, Wide Sands) and walk onto the sand",
+    "paddle_out_method": "Straightforward beach paddle-out from the sand; pick a sand-dominated channel between peaks; watch for rocks washed in from the Medewi side - booties optional but useful at low tide",
+    "entry_fee": "No formal entry fee; informal parking tips ~IDR 5,000-10,000 motorbike if parking at homestays/warungs",
+    "recommended_session_time": "Dawn patrol (5:30-7:30 AM) for offshore land breeze and clean sandbanks; afternoon sessions also possible if winds stay light",
+    "best_time_of_day": "Early morning before crossshore SE trade winds build; late afternoon glass-off when winds soften",
+    "nearby_warung": "Small homestay warungs along Jl. Bahari and the beachfront (Kelapa Surf Villa kitchen, Ayolah Surf House, Wide Sands cafe); Wakey Wakey Coffee, Warung Gede and other Medewi warungs ~5 min east",
+    "alternative_spot_within_10min": "Medewi Point (5-10 min east by motorbike along the highway) for the long left point; Medewi Right/Rivermouth in same bay; Pulukan and Pekutatan beach breaks slightly further west",
+    "boat_charter_required": "No - direct beach access"
+  },
+  "safety_culture": {
+    "hazards": "Rocks scattered across the sand (washed in from Medewi side), occasional barnacle-covered stones, river pollution during/after rain (Yeh Sumbul river drains into the beach), mild rip currents on bigger days, isolated location",
+    "marine_hazards": "Sea urchins around rocky patches, occasional jellyfish, very rare sea snake sightings; same west-Bali profile as Medewi but generally lower exposure due to sandier bottom",
+    "reef_cut_severity_index": "Low to medium - mostly sand but rocks present; risk is lower than at Medewi point; cuts mostly from barnacles or stepping on stones at low tide",
+    "rip_current_pattern": "Generally mild beach-break rips between sandbar peaks; identifiable by darker calmer-looking water channels; rivermouth current after rain",
+    "lineup_etiquette": "Relaxed - mostly beginners and surf schools; standard rules apply (no snaking, take turns, beginners stay clear of more experienced surfers); minimal pressure",
+    "localism_intensity": "Low - sleepy fishing/farming village, friendly hosts; surf-tourism is welcomed by homestays; almost no localism pressure compared to Bukit",
+    "respect_protocol": "Respect Muslim cultural context (modest dress in the village; quiet during prayer times and Ramadan); support local homestay warungs; be considerate of fishing boats/nets on the beach; greet locals with a smile",
+    "resident_local_legends": "Local Yeh Sumbul/Mendoyo surfers attached to Medewi Boardriders Club; longstanding guide-instructors at Ayolah Surf House and Kelapa Surf Villa [uncertain]",
+    "religious_sensitivity": "Predominantly Muslim village (like Medewi); five daily calls to prayer from village mosques (audible from beachfront accommodations - bring earplugs); Hindu Pura Rambut Siwi a short drive west; Nyepi (Day of Silence ~March) - no surfing or beach access islandwide",
+    "medical_nearby": "Puskesmas Pekutatan (basic primary care, ~10-15 min east) and Puskesmas Mendoyo; RSU Negara hospital (~30-40 min west); BIMC/Siloam Denpasar 2.5-3 hours east for serious cases",
+    "nearest_clinic_distance_km": "~5-10 km to Puskesmas Pekutatan/Mendoyo; ~25-30 km to RSU Negara hospital",
+    "rescue_jet_ski_available": "No permanent rescue service; surf instructors and lifeguards at surf camps act as informal rescuers",
+    "emergency_contact": "Indonesia general emergency 112; Police 110; Ambulance 118/119 [uncertain on local numbers]"
+  },
+  "services": {
+    "nearest_surf_school": "Ayolah Surf House & Surf Camp (Yeh Sumbul - lessons for all levels, 15+ years experience), Kelapa Surf Villa (in-house surf guides), Wide Sands Beach Retreat (lessons), Makai Medewi / House of Surf (operates across Medewi and Yeh Sumbul), and Medewi-based schools (Brown Sugar, Medewi Surf Camp) 5 min east",
+    "board_rental_availability": "Yes - from homestays and surf camps (Kelapa Surf Villa, Ayolah, Wide Sands); ~IDR 80,000-150,000/day soft-tops and hard boards; same pricing as Medewi area",
+    "surf_photographer_available": "Limited - no permanent land photographer; some surf-school instructors offer GoPro/iPhone shots during lessons; freelance shooters from Medewi side occasionally cross over [uncertain]",
+    "photographer_recommendation": "Inquire through Ayolah or Kelapa Surf Villa; or coordinate with Medewi-based freelance photographers; expect IDR 150,000-400,000 per session [uncertain]",
+    "accommodation_options": "Kelapa Surf Villa (beachfront, surfer favorite with free BBQ weekends), Wide Sands Beach Retreat (1.5 km from Medewi point, excellent value), Bali Tiger Hideaway, Ayolah Surf House & Surf Camp, Medewi Good Vibes Stay & Surf (Sumbul Surf Lodge), Sapulidi Resort, various homestays",
+    "webcam_url": "No dedicated Yeh Sumbul webcam; nearest is Medewi Surfline cam (https://www.surfline.com/surf-report/medewi/5842041f4e65fad6a7708d43) - views similar conditions",
+    "drone_allowed": "Generally permitted; respect Muslim village privacy and avoid mosques/temple ceremonies; no specific local restrictions reported [uncertain]",
+    "coworking_nearby": "No dedicated coworking; surf-camp wifi (Wide Sands, Kelapa, Ayolah) sufficient for light remote work; nearest serious coworking is Tabanan/Canggu (~2 hours east) [uncertain]"
+  },
+  "pricing": {
+    "avg_lesson_price": "IDR 300,000-500,000 (~USD 20-35) for 1-on-1 hour lesson; group lessons IDR 250,000-400,000 per person; Ayolah package deals available",
+    "board_rental_daily": "IDR 80,000-150,000/day (~USD 5-10) - soft-tops and shortboards available at homestays/camps"
+  },
+  "sustainability": {
+    "water_quality_rating": "Good in dry season; significantly worse in wet season - the Yeh Sumbul river drains agricultural land and village waste, flushing plastic, agricultural runoff and human waste into the beach during/after heavy rains; avoid surfing for 24-48 hours after storms"
+  },
+  "events_community": {
+    "annual_competition_window": "No regular formal competition; occasional local Medewi Boardriders Club beginner/longboard events spill across the bay [uncertain]",
+    "community_events": "Surf-camp social events (free BBQ at Kelapa Surf Villa on weekends, group dinners at Wide Sands/Ayolah); Muslim community festivals (Eid, Ramadan iftar); occasional yoga and wellness gatherings hosted by homestays [uncertain]"
+  },
+  "uncertain": [
+    "gps_location",
+    "swell_consistency_rating",
+    "wave_length_meters",
+    "resident_local_legends",
+    "emergency_contact",
+    "surf_photographer_available",
+    "photographer_recommendation",
+    "drone_allowed",
+    "coworking_nearby",
+    "annual_competition_window",
+    "community_events"
+  ]
+}

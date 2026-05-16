@@ -1,0 +1,97 @@
+{
+  "id": "A3",
+  "basic_info": {
+    "名稱": "飽滿軟浪情境 (Chest+ Soft/Fat / Full-Bodied Soft Wave)",
+    "分類": "浪況情境 (Wave Condition Scenario)",
+    "適用程度": "中階至進階(初學者可選此情境的較寬版型練 down-the-line)",
+    "一句話定位": "有浪壁但不陡、推力中等的胸+浪,適合速度型板款 (modern twin / mid / hybrid HPSB) 走 down-the-line + 寬弧 carve。"
+  },
+  "buoyancy_strategy": {
+    "Guild_Factor_GF": "飽滿軟浪建議 GF 接近日常 HPSB:頂尖/高體能 0.34-0.38、一般體能+中高技術 0.36-0.40、週末玩家 0.40-0.44、新手 0.46-0.55。比 A2 略低 0.02~0.04,因 chest+ 浪本身推力足、寬尾 hybrid 在此會 spin/失 hold (Surfertoday、JS Industries volume calculator)。",
+    "浮力公式": "體重(kg) × 0.36~0.42 = 浮力(L)。例:70kg × 0.40 = 28L,正是 Channel Islands Twin Pin 5'11\" / 32.9L 對 75kg 騎手或 5'9\" / 30L 對 70kg 騎手的典型數值。",
+    "相對日常板浮力增量": "相對 HPSB +5%~+15%。比 A1 (+25-40%) 和 A2 (+15-25%) 大幅減少。飽滿軟浪場景的重點不是「加浮力換 paddle」,而是「優化版型換 speed + glide」。如 CI Twin Pin 比 HPSB 多 +2L,但版型偏長偏窄。",
+    "浮力範圍_體重對照": "50kg → 20-24L;60kg → 24-28L;70kg → 28-32L;80kg → 32-37L;90kg+ → 37-42L。比 A2 各區段 -2~3L,因 chest+ 浪有足夠 push 不需多餘浮力。",
+    "小浪修正係數": "飽滿軟浪「+3L 法則」可酌情使用 (+2L 為主),groveler 專用 +5L 法則不適用此場景 (會 spin out)。Modern twin (CI Twin Pin、JS Black Baron) 直接取消「+5L 修正」邏輯。",
+    "BMI_體脂修正": "高 BMI 肌肉型:浮力下限取值,可體驗 rail 貼水;高 BMI 脂肪型:依公式取中位;低 BMI 偏瘦型:下限,因 chest+ 浪推力足、過多浮力反而 rail 不沉。",
+    "年齡_體能修正": "飽滿軟浪場景對體能要求中等 (有推力 + 較長浪壁可休息),年齡修正可降至 +5% 浮力。50 歲 70kg 騎手從 30L 拉到 31-32L 即可。",
+    "品牌計算器差異": "飽滿軟浪場景,Firewire 計算器最準;Lost 計算器略低 (Driver 3.0 +1L);CI 計算器約準 (Twin Pin 5'11\" 32.9L 為標準對照);JS 計算器列表清楚 (Black Baron 5'10\" 29L 為對照);Rusty 計算器列表分等級。本場景跟計算器準確度最高。",
+    "亞洲體型修正": "亞洲玩家可比歐美建議 -1L 或不調整 (因 chest+ 浪推力足、亞洲身材彈性高)。例 70kg 亞洲玩家 Twin Pin 取 5'9\" / 30L 而非 5'11\" / 32.9L。"
+  },
+  "shape_details": {
+    "Length 板長": "建議比日常 HPSB 縮短 -0\"~-2\"、或同長度但版型偏寬。modern twin 趨勢:5'8\"-6'0\";hybrid:5'9\"-6'2\";speed-oriented mid:6'2\"-6'8\"。例:CI Twin Pin 5'9\"/5'11\";JS Black Baron 5'8\"-6'2\";JS Big Baron 6'0\"-6'8\";Pyzel Phantom 5'10\"-6'2\"。",
+    "Width 板寬": "建議 19\"~20.5\" (比 A2 略窄 0.5\",回到接近 HPSB)。Twin Pin 5'11\" 為 19.5\";Black Baron 5'10\" 約 19.75\";Big Baron 6'4\" 約 20.75\";Sub Driver 3.0 6'0\" 約 20.13\"。",
+    "Thickness 板厚": "建議 2.4\"~2.65\"。Twin Pin 5'11\" 為 2.625\" (低 rail volume + 略厚 deck);Black Baron 5'10\" 約 2.5\";Big Baron 6'4\" 約 2.75\"。Britt Merrick 設計 Twin Pin 「low rails、ride 1/8\" thicker than shortboard」即此哲學。",
+    "Nose_Rocker": "建議 4.6\"~5.1\" (比 A2 略多、比 HPSB 略平)。Twin Pin 約 4.8\";Black Baron 約 4.7\";Mid 6 約 4.5\"。較多 nose rocker 是因為 chest+ 浪 face 有陡度。",
+    "Tail_Rocker": "建議 2.4\"~2.8\"。Twin Pin 約 2.5\";Black Baron 約 2.4\";Mid 6 約 2.4\"。",
+    "Entry_Rocker": "前段曲線平 + 連續 (有利於 down-the-line speed),但比 A1/A2 多一點 stop 能力。CI Twin Pin 採 \"flat-bottom 進 slight roll 進 vee\";Black Baron 採 \"flat to subtle single concave\" 提供長段加速。",
+    "Wide_Point_Position": "wide point 在中心或中心前 0.5\"~1\"。Twin Pin 在中心略前;Black Baron 在中心;Big Baron 在中心略前。回到接近 HPSB 的中性位置。",
+    "Nose_Width_at_12_inch": "建議 11.8\"~13\"。Twin Pin 約 12.0\";Black Baron 約 12.2\";Big Baron 約 12.5\"。比 A1/A2 略窄,回到 HPSB-like 寬度。",
+    "Tail_Width_at_12_inch": "建議 14.5\"~15.8\"。Twin Pin 5'11\" 約 14.8\" (\"pulled-in pin\");Black Baron 5'10\" 約 15.5\";Big Baron 6'4\" 約 14.8\" (round tail pulled-in);Sub Driver 3.0 約 15.5\"。比 A2 略窄,提供 chest+ 浪所需的 hold。",
+    "Bottom_Contour 板底設計": "飽滿軟浪首選:flat-to-slight-roll-to-vee (CI Twin Pin 經典)、單 concave 過 double concave 過 vee (JS Black Baron)、subtle single concave 配 vee (modern mid)。Twin Pin 的 flat-then-vee 提供 \"buttery、both responsive and solid\";Black Baron 的 single-to-double concave 提供長段加速 + carve hold。",
+    "Tail_Shape 板尾形狀": "modern twin 多採 pin / round-pin (Twin Pin、Big Baron);hybrid 採 round / squash (Black Baron round squash);swallow 較少 (因 chest+ 浪需 hold)。Britt Merrick 將 Twin Pin 設為 pin tail 即為了「chest+ 浪 hold + drive」設計。",
+    "Rail_Profile": "low rails (Twin Pin 經典)、down rail 過 tail、medium-to-thin 中段。Twin Pin: \"rails are low、ride 1/8\" thicker than shortboard\";Black Baron: medium boxy 配 down rail tail。低 rail 是飽滿軟浪場景 carve 的關鍵。",
+    "Rail_Volume_Distribution": "均勻分布或略尾部集中 (skate feel)。Twin Pin 採均勻 + low rail;Black Baron 採均勻 + speed-oriented tail rail。比 A1/A2 (中段集中) 更接近 HPSB 分布。",
+    "Foam_Distribution": "均勻型 (versatile) 為主流,部分 modern twin 偏前移以利 paddle (Big Baron)、部分偏中心 (Twin Pin)。飽滿軟浪場景強調 \"穩定平衡\" 而非極端胸下集中。",
+    "Outline 輪廓曲線": "接近 HPSB outline + 略寬中段或略長 nose。Twin Pin outline 為 \"pulled-in pin tail + medium parallel rails\" 像 6'0\" gun 縮版;Big Baron 為 mid-length outline + 收緊 round tail;Black Baron 為 hybrid outline + 中等 parallel rails。"
+  },
+  "fin_setup": {
+    "主要_Setup": "modern twin 為飽滿軟浪場景最大趨勢 (2021-2026):CI Twin Pin、JS Black Baron、JS Big Baron 均為純 twin 設計;thruster 仍為穩妥選 (Pyzel Phantom、Mid 6 配 thruster);2+1 (twin + trailer) 提供 backhand hold。",
+    "Fin_Cant": "modern twin 建議 5°~6.5° (中性偏 drive);thruster 5°~6°。CI 為 Twin Pin 設計專用 twin fin template,介於 keel 與 upright 之間,cant 約 5°。",
+    "Fin_Toe": "1/16\"~3/32\":1/16\" drive 取向 (twin pin、chest+ 浪 carve);3/32\" 中性。比 A1/A2 略偏 drive。",
+    "Fin_Foil": "twin side fins 採 inside foil (hold + lift);thruster 用 \"unreleased MF Twin Fin template\" (Twin Pin 場景) 或 CI Upright (Phantom 場景);中央 trailer 50-50 foil。",
+    "Fin_Rake_Sweep": "飽滿軟浪偏好 medium rake (5.5-6.5\" depth、medium sweep):提供 hold + drive。完全 upright (低 rake) 在 chest+ 浪會 spin;完全大 rake 則拖速。",
+    "Fin_Area_Template": "medium-to-large area:75kg 騎手 thruster 用 medium-large (Futures AM2、FCS Performer M+、FCS MR Twin+Stab);twin 用 keel-template variation (CI 自家 Twin Pin fin、Modern Keels for crappy waves)。",
+    "Quad_Rear_Position": "飽滿軟浪場景 quad 用得少 (modern twin 取代趨勢);若用 quad,rear 靠 stringer 1/2\" (drive 取向)、避免靠 rail (loose) 在 chest+ 浪會失 hold。",
+    "2plus1_vs_PureTwin": "飽滿軟浪場景:pure twin 提供 maximum drive + speed (適合長浪壁 down-the-line);2+1 提供 backhand hold (適合 reef / point chest+ 浪)。CI Twin Pin 設計者明確說 \"unreleased MF Twin Fin\" 為好浪用、\"Modern Keels\" 為 crappy 浪用,2+1 trailer 為過渡。"
+  },
+  "construction": {
+    "PU_PE 在小浪": "飽滿軟浪場景 PU/PE 表現極佳:chest+ 浪有 push,PU 的 \"weighted\" feel 反而帶 momentum + 穩定 carve。多數 modern twin (Twin Pin、Black Baron) 預設 PU 版本即此邏輯。",
+    "EPS_Epoxy 在小浪": "EPS/Epoxy 在飽滿軟浪有特殊用途:Black Baron 特別出 \"epoxy + specifically engineered flex pattern\" 版本,專為「需自己 generate speed」的 smaller surf 設計 (JS 官方)。但純 EPS 在 chest+ 浪推力足時略 \"輕浮\",PU 仍主流。",
+    "HD_EPS": "Lost Lightspeed II、Firewire Helium、Haydenshapes FutureFlex 在 chest+ 浪表現平衡:輕量 + 穩定。Sub Driver 3.0 Lightspeed II Swallow 為此場景代表。",
+    "Glassing_Schedule": "飽滿軟浪場景主流 6+4/6 standard;進階體能 + 短期使用可選 4+4/4 lightweight;旅行/重騎手 6+6/6。Twin Pin 預設 6+4/6 PU 為平衡選擇;Black Baron epoxy version 採 \"specifically engineered flex pattern\" 即特殊 carbon innegra 補強 schedule。",
+    "新技術": "Haydenshapes FutureFlex (Hypto Krypto、Love Buzz、Slab 等)、Firewire Helium、Lib Tech NTL、Lost Lightspeed II。FutureFlex 強回彈在 chest+ 浪有 \"snap back\" 效果。Hypto Krypto 為 1-8ft 全能、Love Buzz 為 1-6ft chest+ 浪首選。"
+  },
+  "conditions_fit": {
+    "浪高範圍": "3-5ft (chest+ 軟)。最佳區間 3-4.5ft;低於 2.5ft 偏 A2 場景、5ft+ 偏 HPSB 或 step-up。Twin Pin 官方建議「1-5ft」但實際 sweet spot 在 chest+。",
+    "浪質": "有浪壁但不陡、推力中等的 \"fat\" 浪;軟 chest+ 浪、退潮的 chest peeling 浪。不是空心 hollow 浪。",
+    "浪型": "point break chest+ 是飽滿軟浪場景的天堂 (台灣金樽、佳樂水);reef break 中潮位 chest 浪 (烏石北堤、佳樂水)、beach break chest peeling (中角灣、福隆)。",
+    "不適合場景": "head-high+ 陡浪 (需 HPSB step-up);空心捲管浪 (twin fin 在 hollow 浪 spin、pin tail 太緊 paddle);knee/waist 軟浪 (推力不足、modern twin 浮力不夠 paddle)。"
+  },
+  "performance": {
+    "划水容易度": "paddle threshold 中等:能划上 chest 浪、勉強 waist+。70kg 騎手 Twin Pin 5'11\" / 32.9L 在 chest 浪划水順暢,knee/waist 軟浪 paddle 顯著吃力。",
+    "起乘速度": "中等 (paddle-to-take-off 2-4 動作)。比 A2 慢、比 HPSB 快。Twin Pin 因 wide point 在中央 + low rocker 仍可 \"早起乘\"。",
+    "Glide 平面速度": "飽滿軟浪場景的 glide 王者:Twin Pin、Big Baron、Mid 6 在 chest+ 浪 down-the-line speed 達 25-32 km/h (Noel Salas 測試 Twin Pin 約 28 km/h) [uncertain]。長浪壁的 trim 是這類版型的招牌。",
+    "Pump 效率": "pump 效率高 + 加速順:flat-to-vee bottom 在 chest+ 浪推力下能 \"自帶速度\";Black Baron 的 single-to-double concave 加速線條順暢;Big Baron 的 mid-length 慣性甚至不需 pump 即可保持速度。",
+    "轉向靈活度": "轉彎弧線偏大但流暢:Twin Pin pin tail 提供 wider arc carve (\"draws wider arcs、if you have space that's perfect\");Black Baron round 提供 tighter pivot 與 wider hold 兼具;Big Baron round tail mid-length 弧線最大。緊湊 pocket 轉彎略弱於 HPSB。",
+    "Vertical 能力": "vertical snap 能力中等:Twin Pin 在 chest+ 浪可打 70-80% lip;modern twin 因 pin tail + low rails 可做 \"speed-into-snap\" 但不如 HPSB 純 vertical。",
+    "空中動作能力": "frontside air 可做但不是強項;reverse 較難 (pin tail 不易 release)。飽滿軟浪場景的玩家通常追求 carve 與 trim 而非 air。Mikey February 在 Twin Pin 偶爾打小 air 為典型風格。",
+    "Backside_vs_Frontside": "pure twin 配置 backside hold 較弱於 frontside (Twin Pin、Black Baron 均有此議題);2+1 (twin + trailer) 改善 backside hold。CI Twin Pin 設計者 Britt Merrick 明確建議 \"backside good waves use unreleased MF Twin Fin template\" 即為 backside hold 解方。"
+  },
+  "practical_selection": {
+    "代表板款": "1) Channel Islands Twin Pin (Britt Merrick + Mikey February,5'5\"-6'2\",24-36L,pin tail twin);2) JS Industries Black Baron (5'6\"-6'4\",hybrid twin epoxy);3) JS Industries Big Baron (6'0\"-6'8\",mid-length twin,round tail);4) Haydenshapes Love Buzz (5'8\"-6'4\",hybrid HPSB);5) Channel Islands Mid 6 / Mid Twin (6'6\",37.8L,Britt Merrick mid-length);6) Lost Sub Driver 3.0 Swallow Lightspeed II (5'5\"-6'8\")。",
+    "常見錯誤": "1) 用 A1/A2 寬尾 groveler 上 chest+ 浪 → spin out、失 hold;2) 用 HPSB step-up 上飽滿軟浪 → 太重難起 carve、paddle threshold 高;3) modern twin 配錯 fin (用 keel 反而拖) → CI Twin Pin 必用 Britt 設計專用 twin template;4) pin tail 板裝太多浮力 → 失去 carve 樂趣;5) 把 Twin Pin 帶上 head-high overhead → tail 太窄無 hold。",
+    "升級陷阱": "從 A2 hybrid 跳級到 modern twin 需重新學「twin fin 是 frontside hand drag、weight 在前腳」的騎法;跟風買 Mikey February 5'11\" Twin Pin 但體重不到 75kg 反而過浮;誤把 mid-length (Big Baron 6'4\") 當 HPSB 替代,結果 vertical 與 air 全失去。",
+    "搭配_fin 建議": "CI Twin Pin 必用 Britt 設計 \"Twin Pin Twin Fin template\" (CI Upright Twin) 或 Modern Keels (crappy 浪);Black Baron 用 FCS II Mark Richards Twin、Captain Fin CF Twin、Shapers AP Twin;Big Baron 用 Captain Fin 6.5\" keel 或 Twin Pin template;Love Buzz 用 Haydenshapes Hypto fin (FCS II Hayden HK Tri/Quad)。Mikey February 親自推薦 Twin Pin 5'9\" 配 \"unreleased MF Twin Fin template\"。",
+    "二手板評估": "modern twin 二手:檢查 pin tail 角是否 chip (常見磕碰處);twin fin box 內側裂痕 (壓力集中);PU 板 stringer 變形會破壞 carve 對稱;Twin Pin 5'11\" 二手約原價 60-70% (因稀缺)。",
+    "Quiver 規劃": "2 塊 quiver:modern twin (32L for 75kg) + HPSB (28L) 涵蓋 2-6ft;3 塊:加 mid-length (Big Baron 或 Mid 6,38L) 涵蓋 4-8ft 長浪。Mikey February 個人 quiver:5'9\" Twin Pin、5'11\" Twin Pin、CI Twin Fin (短 twin)。",
+    "預算建議": "二手 PU CI Twin Pin 約 NTD 18,000-25,000 (稀缺);新 PU CI Twin Pin NTD 32,000-38,000;新 JS Black Baron epoxy NTD 30,000-35,000;新 JS Big Baron NTD 32,000-38,000;新 Haydenshapes Love Buzz FutureFlex NTD 35,000-42,000;台灣本土 shaper 仿 modern twin 約 NTD 22,000-28,000 [uncertain — 價格依匯率波動]。"
+  },
+  "pro_reference": {
+    "Stab_in_the_Dark": "Mikey February 為 CI 隊員、Twin Pin 設計參與者,常出現於 SITD 替代節目;2024 SITD 由 DHD 獲勝 (Kolohe Andino 測試),DHD Phoenix 與 Twin Pin 同屬 chest+ 浪 hybrid 範疇。2025 SITD 結果尚不明確 [uncertain]。",
+    "WSL_CT 選手選擇": "Mikey February (free surfer + WSL CT 過往) 為 CI Twin Pin 旗艦騎手;Ethan Ewing 在 Bells 等 point break chest+ 浪用 DHD hybrid;Joel Parkinson、Mick Fanning 退役後常騎 Big Baron / mid-length;Kelly Slater 設計 KS Wizard 5 與 7 為 chest+ 浪取向。",
+    "Free_surf 風格參考": "Mikey February 為 modern twin 在 chest+ 浪的旗手,風格 \"smooth、stylish、speed-based\";Asher Pacey 在 Snapper Rocks chest+ 浪用自家 twin (Free Scrubber、Album);Dane Reynolds 偶用 ...Lost Smooth Operator;Torren Martyn 在 Pacific 長 right point 用 Morning of the Earth twin。"
+  },
+  "local_taiwan_context": {
+    "浪點適配": "金樽 chest+ 浪 (秋冬主場):CI Twin Pin 5'11\" 或 JS Big Baron 6'4\" 為理想配置;佳樂水主峰 chest+ 浪:CI Twin Pin 5'9\";烏石北堤 chest 飽滿浪:Black Baron 5'10\" 或 Love Buzz 5'10\";中角灣 chest peeling 浪:Twin Pin 或 Black Baron;南灣陡 chest+ 浪 (夏季稀有 swell):Sub Driver 3.0 Swallow;東澳粉鳥林 chest+ 浪壁:Mid 6 6'6\"。",
+    "進口_訂製": "海外進口:CI Twin Pin (Boardriders、VAST、Hooked 代理) NTD 33,000-38,000;JS Black Baron / Big Baron (透過 JS 台灣經銷或代訂) NTD 30,000-35,000;Haydenshapes Love Buzz / Hypto Krypto (透過 VAST) NTD 35,000-42,000。本土訂製優勢:可選 modern twin 板型 + 在地材料 (Saltywave、海平面 Sealevel、KOA 等),NTD 22,000-28,000 [uncertain — 本土 shaper 對 modern twin 板型熟練度不一]。",
+    "中文社群迷思": "PTT/IG/FB 衝浪社團常見:1) 「modern twin 沒用」— 實際是 2021-2026 全球最大板型趨勢;2) 「twin fin 就是 fish 板」— modern twin (Twin Pin、Black Baron) 與 retro fish 完全不同板型;3) 「pin tail 只能大浪」— modern twin pin tail 設計就是為 chest+ 軟浪 down-the-line;4) 「mid-length 都是長板」— Big Baron / Mid 6 為 short-feel mid-length,carve 反應比 longboard 快數倍。",
+    "在地教練建議": "JR Surf 教練多推 CI Twin Pin、Pyzel Phantom 給金樽/烏石中階以上;VAST Surf Shop 推 JS Black Baron、Haydenshapes Love Buzz;Hooked Surf 推 CI Twin Pin、Mid 6 給佳樂水/金樽長浪壁玩家;Decathlon 自家 900 系列暫無 modern twin 對應板款 [uncertain]。多數教練建議「先掌握 Sub Driver / Happy Everyday 再升級 Twin Pin」,因 modern twin 騎法不同。"
+  },
+  "uncertain": [
+    "Glide 平面速度",
+    "Stab_in_the_Dark",
+    "預算建議",
+    "進口_訂製",
+    "在地教練建議"
+  ]
+}

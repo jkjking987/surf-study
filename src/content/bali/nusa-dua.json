@@ -1,0 +1,78 @@
+{
+  "basic_info": {
+    "name": "Nusa Dua (Chinese: 努沙杜瓦; Indonesian: Nusa Dua)",
+    "category": "surf_spot",
+    "region": "East Coast",
+    "gps_location": "-8.8089, 115.2347 (offshore reef in front of Geger Beach / Nusa Dua Beach near Mulia & St. Regis resorts; Google Maps: https://maps.app.goo.gl/NusaDuaReef)",
+    "distance_from_dps_airport_km": "~12-15 km (~25-35 min drive)",
+    "distance_from_canggu_uluwatu_min": "From Canggu: ~60-75 min by motorbike (~28 km); From Uluwatu: ~25-35 min by motorbike (~15 km)"
+  },
+  "surf_conditions": {
+    "wave_type": "Right-hand reef break (with secondary left at Temple Lefts); long, powerful, shifty peaking right-handers that can barrel and peel for 200m+ or shut down; multiple peaks along a 2 km reef including Temple Peaks (Temple Lefts), Main Peak (XXL big wave), Elevators (right), Keyhole Left/Right, and Chickens (right)",
+    "skill_level": "Intermediate to Advanced (Main Peak is Pro/big-wave only on large swells; smaller peaks like Temple Lefts and Chickens are accessible to confident intermediates)",
+    "wave_height_range": "Works 2-15+ ft; sweet spot 3-8 ft for intermediates; Main Peak fires 8-15+ ft on big SW groundswells (XXL big-wave venue)",
+    "bottom_type": "Sharp coral/limestone reef over an open-ocean reef shelf stretching ~2 km",
+    "best_season": "Wet season November-April (peak December-March); January typically the biggest, March often the most consistent. Works in dry season too on east/SE swell pulses but offshore winds reverse",
+    "best_tide": "Variable by peak: Temple Lefts, Elevators, Keyhole and Main Peak prefer lower/outgoing tides; Chickens prefers incoming-to-high tide; mid tide generally workable somewhere on the reef",
+    "best_wind": "Offshore W to NW winds (wet season trade winds); light N winds also work at lower tides",
+    "best_swell_direction": "S to SW (Main Peak fires on long-period SW groundswells from the Roaring Forties); SE swells also produce waves; some peaks like Chickens prefer SW",
+    "swell_consistency_rating": "4 (very consistent during wet season - the most reliable east-coast spot when west coast is blown out; almost always a wave breaking somewhere along the 2 km reef)",
+    "wave_length_meters": "100-250 meters on a good day at Main Peak; shorter (50-100 m) at Temple Lefts and Chickens",
+    "wave_speed_rating": "Medium to fast (Main Peak is fast and powerful with heavy top-to-bottom barrels; other peaks are more playful and medium-paced)",
+    "takeoff_zone_difficulty": "High at Main Peak (steep drop, shallow reef, life-threatening hold-downs on big days); moderate at Temple Lefts, Elevators and Chickens; positioning across a wide shifting reef makes take-off less predictable than point breaks",
+    "secondary_peaks": "Yes - multiple distinct peaks along 2 km reef: Temple Peaks/Temple Lefts (inside), Main Peak (outside, big-wave), Elevators, Keyhole Left/Right, Chickens (south end). Different peaks suit different tides, sizes and skill levels",
+    "peak_crowd_level": "3 (moderate; crowd factor often cited as 6/10; less crowded than Uluwatu/Padang due to long paddle and big-wave intimidation, but lineup spreads across multiple peaks)"
+  },
+  "practical_info": {
+    "access": "Land access via Geger Beach or Nusa Dua Beach (in front of Mulia and St. Regis resorts) through resort beach paths or Pura Geger temple car park; long paddle out (one of the longest in Bali, up to 1 km to Main Peak); boat shuttle available from beach for shorter access",
+    "paddle_out_method": "Option 1: paddle through the keyhole/channel by the temple at higher tide; Option 2: walk along the reef at low tide and jump off the south side of the reef using the channel; Option 3: hire a boat from Geger or Nusa Dua Beach pickup point - boat drops you outside the reef at the chosen peak",
+    "entry_fee": "Parking IDR 2,000-5,000 motorbike at Geger Beach / temple car park; resort beach access free if you walk through; no formal surf entry fee",
+    "recommended_session_time": "Dawn patrol (5:30-7:30 AM) for glassy conditions and lighter offshore winds; mid-morning if tides align with peak choice",
+    "best_time_of_day": "Early morning before onshore winds build (typically clean until ~10 AM); late afternoon can clean up again as winds drop",
+    "nearby_warung": "Warungs and seafood shacks along Geger Beach; Bumbu Bali, Nusa Dua Beach Grill, Sundara at Four Seasons (upscale), several small warungs near the Pura Geger temple car park. Limited budget warungs compared to Bukit - this is a resort area",
+    "alternative_spot_within_10min": "Sri Lanka / Sawangan reef (5-10 min south by motorbike), Serangan (~30 min north - but on the same east coast wet-season window), Black Stone (very close)",
+    "boat_charter_required": "No - but strongly recommended due to long paddle. Boat shuttle ~IDR 50,000-100,000 one-way from Geger Beach or Nusa Dua Beach"
+  },
+  "safety_culture": {
+    "hazards": "Long paddle out and back (up to 1 km), strong currents that 'move like a river' at higher tides especially across reef, shallow sharp coral reef, severe hold-downs at Main Peak on big swells, seaweed farms on inside paddle path can cause hand/foot cuts, sea urchins in reef crevices",
+    "marine_hazards": "Sea urchins (abundant in reef cracks), coral heads, occasional jellyfish, possible sea snakes, seaweed farm ropes on inside lagoon paths. Treat reef cuts and urchin spines promptly - infection risk in tropical water",
+    "reef_cut_severity_index": "High at Main Peak/Elevators (shallow shelf can suck dry on bigger sets); moderate at Temple Lefts and Chickens; booties recommended for low-tide sessions",
+    "rip_current_pattern": "Strong sweeping current runs along the reef especially at higher tides - can drag surfers down the line; use the keyhole channel at temple as a paddle-out lane; channel on south side of reef also functions as exit",
+    "lineup_etiquette": "Generally relaxed and respectful - 'cruisey dudes' who respect the wave; standard priority/no-snake rules apply. Smile, wait your turn, do not drop in on Main Peak veterans",
+    "localism_intensity": "Low (cited as ~1/10) - not heavily localized compared to Bukit spots; small dedicated regular crew, but visitors are welcomed if respectful and competent",
+    "respect_protocol": "Show respect to Balinese surfers, observe lineup before paddling, do not drop in, acknowledge priority. Do not attempt Main Peak unless you are genuinely big-wave capable",
+    "resident_local_legends": "Local Nusa Dua/Bukit big-wave chargers including Mega Semadhi, Made Adi Putra, Marlon Gerber (frequently shoots Main Peak); various Indonesian big-wave riders on call when Main Peak goes XXL [uncertain]",
+    "religious_sensitivity": "Pura Geger temple sits at the cliff/beach entry - respect the temple, no inappropriate behavior. Nyepi (Day of Silence, ~March) - no surfing or beach access islandwide. Avoid surfing during temple ceremonies. Resort area also imposes general decorum",
+    "medical_nearby": "BIMC Hospital Nusa Dua (very close, ~5-10 min), Siloam Hospital Denpasar (~30-40 min), Unicare Pecatu (~20 min)",
+    "nearest_clinic_distance_km": "BIMC Hospital Nusa Dua: ~2-4 km",
+    "rescue_jet_ski_available": "No permanent rescue jet ski; some safety boats occasionally during big swells at Main Peak when pros are out [uncertain]"
+  },
+  "services": {
+    "nearest_surf_school": "Odyssey Surf School (Tanjung Benoa, ~10-15 min), Rip Curl School of Surf at Sofitel Nusa Dua, Padang Padang Surf Camp (offers Nusa Dua sessions in wet season). Most beginners are taught at Tanjung Benoa or Geger Beach inside rather than the outer reef",
+    "board_rental_availability": "Limited at the spot itself; available at surf shops in Tanjung Benoa and through hotels/surf camps; ~IDR 150,000-250,000/day",
+    "surf_photographer_available": "Yes - land photographers shoot Main Peak from the cliff/beach on big swells; water photographers occasional during XXL events. Less consistent coverage than Uluwatu",
+    "photographer_recommendation": "Freelance shooters via Instagram (search #nusaduasurf); specialist big-wave shooters during XXL events. Rates ~IDR 300,000-700,000+ per session [uncertain]",
+    "accommodation_options": "Luxury resorts dominate: The Mulia, St. Regis Bali Resort, Sofitel Nusa Dua, Grand Hyatt, The Bale, Kimpton Naranta Bali, Four Seasons Jimbaran; budget options in Tanjung Benoa nearby. Few dedicated surf camps in Nusa Dua itself - most surfers stay in Bukit or Canggu and drive over",
+    "webcam_url": "https://www.surfline.com/surf-report/nusa-dua/5842041f4e65fad6a7708d47 ; https://www.surf-forecast.com/breaks/Nusadua",
+    "drone_allowed": "Generally allowed for personal use over the surf zone; resort beaches may restrict; avoid flying over temple and resort grounds without permission [uncertain]",
+    "coworking_nearby": "Limited compared to Canggu/Bukit; Tanjung Benoa has a few small co-working cafes; resort lobbies often double as workspaces. B Work Bali Pecatu and Outpost Ulu (~25-30 min away) are the nearest serious coworking options"
+  },
+  "pricing": {
+    "avg_lesson_price": "USD 35-60 / IDR 550,000-950,000 group lesson at nearby surf schools (Rip Curl, Odyssey) - typically taught at Geger Beach inside rather than the outer reef",
+    "board_rental_daily": "IDR 150,000-250,000/day (~USD 10-17)"
+  },
+  "sustainability": {
+    "water_quality_rating": "Generally good - far from major river outflows; minor seaweed-farm impacts on inside paddle. Some runoff in heavy wet-season rain but cleaner than Kuta/Legian beach"
+  },
+  "events_community": {
+    "annual_competition_window": "Has historically hosted big-wave / Volcom contests when Main Peak fires; no fixed annual event currently as of 2026 [uncertain]",
+    "community_events": "Informal big-wave sessions when Main Peak comes alive in January-March; surf camps run group sessions during wet season"
+  },
+  "uncertain": [
+    "resident_local_legends",
+    "rescue_jet_ski_available",
+    "photographer_recommendation",
+    "drone_allowed",
+    "annual_competition_window"
+  ]
+}

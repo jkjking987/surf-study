@@ -1,0 +1,102 @@
+{
+  "id": "C6",
+  "basic_info": {
+    "名稱": "Modern Mid-length (5'10\"~7'0\") 現代中長板",
+    "分類": "板型分類",
+    "適用程度": "中階至進階為主;部分款式 (CI Mid, Pyzel MLC) 適合中階以上單 fin / 2+1 操作",
+    "一句話定位": "兼具 shortboard 操控與 longboard glide 的 2021-2025 新興 5'10\"-7'0\" 板型"
+  },
+  "buoyancy_strategy": {
+    "Guild_Factor_GF": "Modern Mid-length 在中階騎手身上常落在 GF 0.45-0.60(以 70kg 騎手騎 40-44L 計算約 0.57-0.63),屬於『偏大浮力但配 performance outline』的策略。進階騎手在 6'6\"-6'10\" mid 上常壓到 0.50-0.55,新手導向(7'0\"+ 50L+)會推到 0.65-0.75",
+    "浮力公式": "建議倍率:中階 = 體重(kg) × 0.55-0.65;進階 = 體重(kg) × 0.50-0.55;初心進階 = 體重(kg) × 0.65-0.75。例如 70kg 中階騎手 → 70 × 0.6 = 42L,落在 6'8\" CI Mid (40.2L) 至 7'0\" CI Mid (44.9L) 區間",
+    "相對日常板浮力增量": "相對 HPSB +20% 至 +40%。範例:70kg 騎手日常 HPSB 約 30L,Modern Mid-length 建議 38-44L(+25% 至 +45%)。比 step-down/groveler 多 +5% 至 +10%,主因為延長至 6'6\"+ 後 foam 需平均分佈",
+    "浮力範圍_體重對照": "50kg:30-36L (6'2\"-6'6\");60kg:35-42L (6'4\"-6'10\");70kg:40-48L (6'6\"-7'2\");80kg:46-54L (6'10\"-7'4\");90kg+:52-62L (7'0\"-7'8\")。Pyzel Mid Length Crisis 範圍 36.30L (6'6\") 至 58.40L (7'10\") 正好涵蓋此區間",
+    "小浪修正係數": "Modern Mid-length 本身已是小浪/中浪解決方案,內建 +3L 至 +5L 的 foam 相對於同浮力 HPSB。在 1-2ft 軟浪可再 +2L 取最大版本(如選 6'10\" 而非 6'8\")",
+    "BMI_體脂修正": "高 BMI 肌肉型:可選靠下限(較短較窄)以發揮力量;高 BMI 脂肪型:取靠上限,foam 集中胸下 paddle 更省力;低 BMI 偏瘦型:Modern Mid 是極佳選擇,額外 foam 補體能不足",
+    "年齡_體能修正": "40+ 騎手在 Modern Mid-length 上特別受益,+5% 至 +15% 浮力等於選大 0.5\"(6'8\" → 6'10\" 或 6'10\" → 7'0\")。日本 / 加州 50+ 騎手族群是此分類興起主要推力之一",
+    "品牌計算器差異": "CI Mid 系列 CI 官方計算器偏低(實取建議 +2L);Pyzel MLC 計算器較為精準;Harley Ingleby Mid 6 Thunderbolt 因結構偏硬挺,可比計算器值 -1L;Album Plasmic 計算器普遍偏低 +2-3L",
+    "亞洲體型修正": "亞洲體型 60-70kg 騎手,可從歐美建議 6'8\"/40L 下修至 6'6\"/37-38L,操控性更佳;Pyzel MLC 6'6\" (36.30L) 是亞洲身高 165-175cm 的甜蜜點"
+  },
+  "shape_details": {
+    "Length 板長": "5'10\" - 7'0\" 是核心區間,擴展至 6'4\"-7'4\"。相對日常 HPSB (約 6'0\") 延長 +4\" 至 +14\"。CI Mid 提供 6'6\"/6'8\"/7'0\"/7'6\";Pyzel MLC 6'6\"-7'10\";Harley Ingleby Mid 6 主打 6'4\"/6'8\"/7'0\"/7'6\"/7'10\"",
+    "Width 板寬": "20 1/4\" - 22 1/4\";CI Mid 6'8\" = 20 3/4\",7'0\" = 21 1/8\";Pyzel MLC 6'6\" = 20 3/8\",7'10\" = 22 1/4\";Album Plasmic 7'8\" 約 21 1/2\"-22\";HI Mid 6 7'0\" 約 20 1/2\"",
+    "Thickness 板厚": "2 1/2\" - 3 1/8\";CI Mid 6'8\" = 2 5/8\",7'0\" = 2 3/4\";Pyzel MLC 6'6\" = 2 9/16\",7'10\" = 3 1/8\";HI Mid 6 7'0\" = 2 5/8\";Album 7'8\" Plasmic 約 2 7/8\"-3\"",
+    "Nose_Rocker": "4.5\" - 5.5\";Modern Mid 比傳統 funboard (~3.5-4\") 多 nose flip,比 HPSB (5-5.5\") 略小或相當。HI Mid 6 有明顯 nose flip 加 performance entry rocker;CI Mid 為 low entry rocker;[uncertain] 各品牌精確數值需訂購時詢問 shaper",
+    "Tail_Rocker": "2.25\" - 2.75\";Pyzel MLC 約 2.5\";CI Mid 偏向 2.25-2.5\" 配 gradually accelerated rocker;HI Mid 6 略高約 2.5-2.75\";[uncertain] 各品牌精確數值",
+    "Entry_Rocker": "Modern Mid 的核心差異是『前段曲線連續度』:CI Mid 採 low entry rocker + 前移 foam 利於 paddle/trim;HI Mid 6 採『performance entry rocker』犧牲一點 paddle 換 nose flip 可進 pocket;Pyzel MLC 為 smooth/blended entry。整體比 funboard 更彎、比 longboard 更陡",
+    "Wide_Point_Position": "Pyzel MLC = wide-point forward (鼻部前 1\" 至中心前 1.5\"),sleek/racey 取向;CI Mid = 中心略前 (foam a tad forward);HI Mid 6 = wide point just forward of centre + 中段 flatter;Album Plasmic = forward wide point。相較傳統 funboard 中心 wide point,Modern Mid 多前移 1-2\"",
+    "Nose_Width_at_12_inch": "[uncertain] 一般在 11.5\" - 13\" 區間;比 HPSB (11.5-12\") 略寬,比傳統 funboard (13.5\"+) 略窄。具體數據各品牌不公開",
+    "Tail_Width_at_12_inch": "[uncertain] 一般在 15\" - 16.5\" 區間;Pyzel MLC fine round pin tail 偏窄;CI Mid 細收 squash;Album 偏寬。具體 12\" 數據各品牌不公開",
+    "Bottom_Contour 板底設計": "兩大流派:(1) Spiral Vee = mild vee with double concave (Pyzel MLC),rail-to-rail 流暢;(2) Single-to-double + 加速 rocker(CI Mid:double-barrel concave + gradually accelerated rocker)。HI Mid 6 採 6 channels 加 vee。整體比傳統 mid 多 modern 板底語彙",
+    "Tail_Shape 板尾形狀": "Round pin / Diamond / Squash / Round 為主流。Pyzel MLC = fine round pin(順暢、適 down-the-line);CI Mid = squash 偏 round;HI Mid 6 = round pin;Joel Tudor Diamond Tail 系列為復古 diamond。在小浪 round pin/squash 比 swallow 更適合 mid 上的 carve",
+    "Rail_Profile": "中段 boxy/medium + 尾段 tucked under edge / down rail。CI Mid 描述為『hard, slightly tucked rails』,Pyzel MLC 為 rolled deck + 細薄 rails 給敏感度。整體比 funboard 細、比 HPSB 飽滿",
+    "Rail_Volume_Distribution": "Foam 集中中段(rolled deck 設計),rails 細收以保留 sensitivity。例如 Pyzel MLC『meat in the middle of the board』+『thinned out rails』。中段 boxy paddle 順、rail 細給操控",
+    "Foam_Distribution": "屬於『胸下集中型』+『中央偏前 wide point』組合,paddle 容易、trim 穩定。相比 funboard 更前移、比 HPSB 更集中。HI Mid 6 強調 flatter rocker through middle 配中央 wide point",
+    "Outline 輪廓曲線": "Sleek / racey / semi-traditional 是常見描述;Pyzel MLC 自述『semi-traditional wide-point forward outline,sleek and racey』;CI Mid 為 egg-like template;HI Mid 6 為 curvy plan shape。相較傳統 funboard 直線、相較 HPSB 平緩"
+  },
+  "fin_setup": {
+    "主要_Setup": "2+1 是黃金標準(CI Mid, Pyzel MLC, HI Mid 6 標配 2+1 single box);Twin (CI Mid Twin, Pyzel Crisis Twin) 為 2024-2025 興起的版本;部分款也可單 fin 騎(CI Mid 配 8.5\" single)。Thruster 較少見於此分類",
+    "Fin_Cant": "2+1 中央 single 通常 0° (longboard 規);side bites 採 standard 6.5° cant。Twin 配置時用 standard twin fin cant 約 6.5-7°",
+    "Fin_Toe": "Side bites 在 2+1 配置時 toe 約 3/16\"(longboard 規);純 twin 約 1/8\"。比 HPSB side fin 更外開",
+    "Fin_Foil": "Inside foil 為主流(2+1 side bites 與 twin 均用 inside foil)。Center single fin 為 50-50 對稱 foil",
+    "Fin_Rake_Sweep": "Center single 偏 traditional rake (高 rake);side bites 偏 upright/中等 rake。Twin 配置在 mid 上常選 upright pivot twin (如 Asher Pacey twin) 或 keel twin",
+    "Fin_Area_Template": "Single fin 主流為 7.5\"-8.5\";CI Mid 官方建議 8.5\" single + 7 或 7.25\" side bites。Twin 配置常選 6.5\"-7\" keel 或 upright twin",
+    "Quad_Rear_Position": "Modern Mid 較少純 quad 配置,主要為 2+1 與 twin",
+    "2plus1_vs_PureTwin": "2+1 提供最大彈性:抽 side bites = 純 single fin glide,裝 side bites = 較多 drive 與 hold。純 twin (CI Mid Twin, Crisis Twin) 提供 maximum looseness 與 skate-feel,但 backhand hold 較弱"
+  },
+  "construction": {
+    "PU_PE 在小浪": "Modern Mid PU 版本(CI Mid PU/Poly, Pyzel MLC stock 4 bottom / 6+4 deck)在小浪有 knifey rail feel、入水穩定。傳統 fiberglass 重量在 mid-length 上反而是優勢,給予 trim 時的 momentum",
+    "EPS_Epoxy 在小浪": "Thunderbolt Red/Black (HI Mid 6) 與部分 Album 採 EPS/epoxy/carbon。同浮力下感覺輕、pump 反應快、利於空中(小浪 mid 較少空中)。缺點為小浪低 momentum 時 glide 不如 PU",
+    "HD_EPS": "[uncertain] Modern Mid 較少採 HD EPS 構造,主要為 PU/PE 或 high-tech EPS (Thunderbolt)",
+    "Glassing_Schedule": "CI Mid stock 採 6+4/6;Pyzel MLC stock 4 bottom / 6+4 deck (略強化耐用);Thunderbolt (HI Mid 6) 為 carbon + 玻纖外層複合結構。Modern Mid 較少做 4+4/4 lightweight comp",
+    "新技術": "Thunderbolt Red/Black(carbon fiber 內部結構 + 玻纖外層) 是 HI Mid 6 主流;Firewire (含 Mick Fanning DNA 等) 為 EPS/epoxy 構造,但 Mick Fanning 較少做純 mid-length;[uncertain] Album 是否提供 FutureFlex 構造選項"
+  },
+  "conditions_fit": {
+    "浪高範圍": "1-5ft 為甜蜜點;部分 (HI Mid 6) 可上 6-8ft 中等浪",
+    "浪質": "軟浪 / 飽滿浪 / 中等空心皆可;weaker、slower 的 mushy 浪是 mid-length 真正勝過 HPSB 的場景。空心 barrel 浪 mid-length 不如 HPSB 靈活",
+    "浪型": "Point break 為最佳場景(down-the-line trim + 連續 carve);Beach break 軟浪日完美;Reef break 中等浪可勝任。極快、極陡的 reef barrel 不適合",
+    "不適合場景": "(1) 4ft 以上的快速空心浪;(2) 需大量 vertical lip air 的 contest 級表現浪;(3) 極小 < 1ft 的灘浪(不如純 longboard 划得到)"
+  },
+  "performance": {
+    "划水容易度": "極佳。Foam 集中胸下 + 6'6\"+ 長度,paddle threshold 可下探至腰高軟浪。Pyzel MLC『full bodied enough to provide added stability and glide in weaker, slower waves』",
+    "起乘速度": "中等偏快。比 longboard 慢、比 HPSB 快很多,因 length 與 foam 提供 momentum",
+    "Glide 平面速度": "極佳。down-the-line glide 是 Modern Mid 賣點,Noel Salas 多次測試 CI Mid Twin 與 Twin Fin 給出『surprisingly high top-end speeds』;[uncertain] 具體 km/h 數據未公開",
+    "Pump 效率": "中等。比 HPSB 需要更大 rail-to-rail 動作,但因 length 與 spiral vee/double concave 設計可有效 pump",
+    "轉向靈活度": "中等。比傳統 funboard 大幅提升,但仍不如 HPSB 緊湊。CI Mid『drivey bottom turns or redirections out on the open face』為典型表現",
+    "Vertical 能力": "中下。Modern Mid 不是 vertical snap 板,但可做開放 face 的 carve 與 mid-face hit。HI Mid 6 因 performance entry rocker 比同類更可向上",
+    "空中動作能力": "低。Modern Mid 設計不為 air,但 6'6\" 以下 + EPS 構造的 mid 可做小幅 air reverse",
+    "Backside_vs_Frontside": "Frontside 為主場(carve、trim、down-the-line)。Backside 在 2+1 配置時可接受;純 twin 版本 backside hold 較弱"
+  },
+  "practical_selection": {
+    "代表板款": "(1) CI Mid 6'6\"-7'6\" 2+1 single box / Mid Twin 6'3\"-6'11\";(2) Pyzel Mid Length Crisis 6'6\"-7'10\" (Jon Pyzel),Crisis Twin 為 twin 版本;(3) Harley Ingleby Mid 6 6'4\"-7'10\" Thunderbolt;(4) Album Plasmic 7'4\"-7'10\" / Album Darkness;(5) Joel Tudor Diamond Tail 系列(復古傾向);(6) Mick Fanning Mid 6 [uncertain](需確認是否為現役產品線)",
+    "常見錯誤": "(1) 跳級買太長(身高 170cm 直接買 7'6\" mid 操控不來);(2) 浮力給太多 → 卡 trim 難 rail-to-rail;(3) 配錯 fin(2+1 用了 longboard 大 single 變成 funboard 感);(4) 期待當 longboard 用 → mid 划水仍不如 9'0\";(5) 期待當 HPSB 用 → mid 無法做 vertical contest 動作",
+    "升級陷阱": "從 longboard 跳 mid 容易,從 HPSB 跳 mid 需重新學 trim 與 rail line。追隨 pro 騎 6'4\" mid 但自己體能不夠 → 應從 6'8\"-7'0\" 起步",
+    "搭配_fin 建議": "(1) 2+1 主搭:中央 7.5\"-8.5\" single (Captain Fin Tyler Warren / True Ames Greenough 4A / FCS II Connect PG) + 4\" side bites;(2) Twin 主搭:Pacey Twin (FCS) / Mick Mackie Keel / True Ames Keel 6\"+;(3) 純 single 主搭:8\"-9\" classic flex single fin",
+    "二手板評估": "Mid-length 長度長,中段 buckle (跨腳壓痕) 是首要檢查項;rail ding 在 mid 上影響 trim line;old EPS 二手吸水風險高(check stringer 變色)",
+    "Quiver 規劃": "Modern Mid 是新興『one board quiver』中流砥柱:1 塊 6'8\"-7'0\" mid + 1 塊 HPSB(對應 contest 浪)= 涵蓋 1-6ft 完整範圍。3 塊版:加 1 塊 9'0\" log 應付 1ft 以下日。Modern Mid + step-down (C7) 為熱門軟浪雙板組合",
+    "預算建議": "新訂製 PU:約 USD 750-950 (CI Mid / Pyzel MLC stock);Thunderbolt 構造:USD 1100-1400 (HI Mid 6);Album 訂製:USD 900-1200;二手好品相約原價 50-60%;軟頂版本 (JS Big Baron softboard) USD 500-650"
+  },
+  "pro_reference": {
+    "Stab_in_the_Dark": "[uncertain] Modern Mid-length 並非 Stab in the Dark contest 主流板款(該賽事為 HPSB 為主),但 2024-2025 多位選手私下被拍到帶 mid quiver",
+    "WSL_CT 選手選擇": "WSL CT 比賽中 Modern Mid 極少使用(規則偏 HPSB),但 free surf 與 layday 多有出現。Asher Pacey 雖非 CT 選手但是 mid twin / fish 推手;Devon Howard、Harrison Roach 等 alternative pro 帶動 mid 文化",
+    "Free_surf 風格參考": "Asher Pacey 為 twin mid 代表人物;Harrison Roach、Jared Mell、Devon Howard 為傳統 mid;Torren Martyn (mid 7'0\" twin) 拍片風格大量影響此分類;[uncertain] Jamie O'Brien 主要為 soft-top,非 mid 代表"
+  },
+  "local_taiwan_context": {
+    "浪點適配": "中角(灘浪 1-3ft 軟):6'6\"-6'10\" mid 完美;烏石港(灘浪含風):6'8\"-7'0\" 抗風加分;金樽(右點浪 2-5ft):6'10\"-7'2\" mid 為 down-the-line 神器;佳樂水(reef 中等浪):選 HI Mid 6 此類較 performance 取向;南灣(冬北浪細浪):6'6\" mid 平衡之選;東澳粉鳥林(地形多變):6'8\" 通吃",
+    "進口_訂製": "進口 CI / Pyzel / Album 含關稅後 NTD 38,000-55,000;國內訂製本土 shaper (JR Surf 等) NTD 22,000-32,000 + 客製 outline 與浮力。Modern Mid 因 outline 較新,本土 shaper 經驗值因人而異,建議帶英文/中文 spec 參考圖去訂",
+    "中文社群迷思": "迷思 1:『mid-length 等於 funboard』→ 錯,outline、rocker、rail 完全不同;迷思 2:『身高不到 175 不能騎 7'0\"』→ 錯,亞洲 168cm 騎 6'8\"-7'0\" mid 常見;迷思 3:『mid 只能直線 trim』→ 錯,CI Mid Twin、HI Mid 6 都能做相當 critical 的 carve",
+    "在地教練建議": "JR Surf (宜蘭) 對 mid-length 有實際庫存可試;VAST (北部) 偏向 funboard 與 longboard;Decathlon 軟頂無 modern mid 替代品;Hooked (墾丁) 對進階浪況 mid 較少見。建議向有日本進貨管道的店家詢問(日本是 mid-length 第二大消費市場)"
+  },
+  "uncertain": [
+    "Nose_Rocker",
+    "Tail_Rocker",
+    "Nose_Width_at_12_inch",
+    "Tail_Width_at_12_inch",
+    "HD_EPS",
+    "新技術",
+    "Glide 平面速度",
+    "Stab_in_the_Dark",
+    "Free_surf 風格參考",
+    "Mick Fanning Mid 6 (代表板款最後一項)"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "basic_info": {
+    "name": "Bingin (Chinese: 賓岡; Indonesian: Pantai Bingin)",
+    "category": "surf_spot",
+    "region": "South Bukit Peninsula",
+    "gps_location": "-8.8019, 115.1156 (Jl. Suara Ombak, Pecatu, Kuta Selatan, Badung 80163; Google Maps: https://maps.app.goo.gl/Bingin)",
+    "distance_from_dps_airport_km": "~18-20 km (approx. 40-50 min drive)",
+    "distance_from_canggu_uluwatu_min": "From Canggu: ~55-70 min by motorbike; From Uluwatu (Suluban): ~10-15 min by motorbike"
+  },
+  "surf_conditions": {
+    "wave_type": "Left-hand reef break - short, hollow, mechanical tube. ~50-meter wall that throws over a very shallow inside reef, often producing one or two clean barrels per ride; described as wave-pool consistent",
+    "skill_level": "Intermediate to Advanced (friendly to intermediates on medium-size days at mid tide; advanced/expert only at low tide and on bigger days)",
+    "wave_height_range": "3-8 ft (works best 3-5 ft at mid tide for intermediates; low tide for advanced; slightly overhead is optimum)",
+    "bottom_type": "Sharp shallow coral/limestone reef",
+    "best_season": "Dry season May-October (peak June-August); same SE trade-wind window as the rest of the Bukit",
+    "best_tide": "Mid tide is best (longer rides, safer); low tide for advanced (heaviest barrels, dry-reef risk); high tide breaks but has strong rip and is less defined",
+    "best_wind": "Offshore E to SE (East/Southeast) trade winds",
+    "best_swell_direction": "SW (Southwest) groundswell",
+    "swell_consistency_rating": "4 (very consistent during dry season, picks up smaller swells than Outside Corner Uluwatu)",
+    "wave_length_meters": "~50 meters (short, intense ride - 1-2 barrel sections is typical)",
+    "wave_speed_rating": "Fast (mechanical, throws hard and fast over shallow reef)",
+    "takeoff_zone_difficulty": "High - tight take-off zone with mid-steep drop directly into the barrel; small peak area means competition for position; very shallow reef under takeoff",
+    "secondary_peaks": "Little Bingin is a smaller, mellower wave adjacent to the main peak (works on smaller swell, more forgiving for intermediates); Impossibles connects from the north on big swells",
+    "peak_crowd_level": "5 (very crowded; dense lineup of good locals and tourists battling for the small peak)"
+  },
+  "practical_info": {
+    "access": "Park at the clifftop on Jl. Pantai Bingin/Jl. Suara Ombak; walk down narrow path through remaining clifftop buildings, then descend steep stairs to the beach near Kelly's Warung area. Note: Following the July-September 2025 demolition of 48+ cliffside structures, access paths are less developed than before; many stairways and businesses were removed.",
+    "paddle_out_method": "Paddle ~100m from shore, with quickest route to the lineup via the south of the break; on bigger days start paddle out very far to the south as current will sweep you into the takeoff zone. Time entry between sets to avoid being pounded on shallow reef.",
+    "entry_fee": "Parking ~IDR 5,000-10,000 (motorbike), IDR 10,000-20,000 (car). Beach entry fee historically minimal (~IDR 5,000) but logistics are in flux post-2025 demolition. [uncertain]",
+    "recommended_session_time": "Dawn patrol (5:30-7:30 AM) for glassy conditions and to avoid crowds; mid-tide sessions are gold; sunset session for golden-hour barrels",
+    "best_time_of_day": "Sunrise to ~9 AM before crowds peak; weekday early sessions less crowded than weekends",
+    "nearby_warung": "Significantly reduced after 2025 demolition - many iconic beach warungs (including Kelly's Warung at the base and numerous cliffside cafes) were removed. Remaining options on the clifftop (Mu Bungalows, Mick's Place) and inland on Jl. Pantai Bingin. New temporary stalls emerging in 2026.",
+    "alternative_spot_within_10min": "Impossibles (5 min walk along reef at low tide; or short drive), Padang Padang (10 min), Dreamland (10 min), Balangan (10-15 min); you can walk from Bingin to Balangan at low tide along the reef",
+    "boat_charter_required": "No - land access (now with reduced infrastructure)"
+  },
+  "safety_culture": {
+    "hazards": "Extremely shallow sharp reef especially at low tide, dangerous getting to/from lineup, strong current that sweeps you into takeoff zone, heavy crowd, high collision/drop-in risk in tight peak, post-demolition unstable cliff paths and exposed construction debris in some areas",
+    "marine_hazards": "Sea urchins on reef (booties recommended), occasional jellyfish, rare sea snakes; reef cuts get infected quickly in tropical water",
+    "reef_cut_severity_index": "Very High - reef is very shallow under takeoff and inside section; classic 'Bingin tattoo' is a rite of passage; full set of booties strongly recommended for everyone",
+    "rip_current_pattern": "Strong current sweeps from north (Impossibles direction) into the takeoff zone, especially on bigger days; rip channel on the south side of the wave used for paddle-out",
+    "lineup_etiquette": "Strict priority for locals and known regulars; small peak means few waves to go around; do not paddle past locals; observe before paddling out; use 'thanks, please, and sorry'",
+    "localism_intensity": "High - one of the most localized spots in Bali; tight-knit local crew that has surfed there for decades; respectful visitors who demonstrate skill and patience are accepted, but offenders are quickly called out",
+    "respect_protocol": "Acknowledge and respect local Balinese surfers, do not drop in, do not snake, do not arrive in a large group and dominate the lineup, sit further back than you think appropriate, smile and greet people. As Mega Semadhi advises: 'thanks, please, and sorry'.",
+    "resident_local_legends": "Mega Semadhi (the 'Bingin Boy', 2016 Rip Curl Cup champion, grew up surfing Bingin), the Tandjung family (Rizal Tandjung), Bol Adyaksa, Made Switra, Garut Widiarta",
+    "religious_sensitivity": "Small temples scattered around Pecatu and on the cliffs; respect canang sari offerings on stairs/beach (do not step on them); Nyepi (Day of Silence, ~March) - no surfing islandwide. Avoid surfing during temple ceremonies. Demolition events affected local Hindu cultural sites.",
+    "medical_nearby": "Unicare Pecatu Clinic (closest, ~5-10 min); BIMC Hospital Nusa Dua (~25-30 min); Siloam Hospital Denpasar (~45 min)",
+    "nearest_clinic_distance_km": "Unicare Pecatu Clinic: ~3-5 km",
+    "rescue_jet_ski_available": "No - no permanent rescue jet ski stationed at Bingin",
+    "emergency_contact": "Indonesia general emergency: 112; Ambulance: 118/119; BIMC Nusa Dua: +62 361 3000 911"
+  },
+  "services": {
+    "nearest_surf_school": "Froggy Surf School (Bingin/Balangan), WaveHouse Bali (Bingin cliffs), Padang Padang Surf Camp, Bali Bisa, Kala Surf Camp - some operations affected by 2025 demolition; check current status before booking",
+    "board_rental_availability": "Yes - still available on the clifftop and inland post-demolition; daily rental ~IDR 150,000-250,000",
+    "surf_photographer_available": "Yes - land-based photographers regularly shoot Bingin barrels from the cliff and beach; water photographers on big swells",
+    "photographer_recommendation": "Freelance photographers at the cliff and through surf camps; rates approximately IDR 200,000-500,000 per session [uncertain]",
+    "accommodation_options": "Post-2025 demolition, beach-level accommodation is gone. Remaining options are clifftop or inland: Mick's Place (clifftop, expat-run), Mu Bungalows (clifftop), WaveHouse Bali (Bingin cliffs), The Temple Lodge, plus inland Pecatu villas. Many traditional homestays were destroyed.",
+    "webcam_url": "https://www.surfline.com/surf-report/bingin/5842041f4e65fad6a7708d3b ; https://balicams.com (Bingin cam)",
+    "drone_allowed": "Generally allowed for personal use; commercial use requires permit. Increased sensitivity post-demolition; some local hostility toward drones. [uncertain]",
+    "coworking_nearby": "Outpost Ulu Pecatu, B Work Bali (Pecatu), Suka Espresso (laptop-friendly), Bukit Cafe"
+  },
+  "pricing": {
+    "avg_lesson_price": "USD 30-50 / IDR 500,000-800,000 group lesson (beginner lessons usually held at nearby Balangan rather than Bingin's reef)",
+    "board_rental_daily": "IDR 150,000-250,000/day (~USD 10-17)"
+  },
+  "sustainability": {
+    "water_quality_rating": "Improved after 2025 demolition due to reduced runoff and construction waste; ocean clarity reportedly distinctly improved. Generally good in dry season; declines in wet season."
+  },
+  "events_community": {
+    "annual_competition_window": "No major annual contest at Bingin itself (the Rip Curl Cup is at Padang Padang next door, August). Bingin occasionally hosts smaller local Indonesian Surfing League / WSL QS events. [uncertain]",
+    "community_events": "Pre-demolition: regular beach gatherings, sunset hangs at warungs (now mostly demolished). 2025-2026: community legal action and protest events related to demolition; ongoing community lawsuits against Badung Regency Government filed July 22, 2025."
+  },
+  "uncertain": [
+    "entry_fee",
+    "photographer_recommendation",
+    "drone_allowed",
+    "annual_competition_window"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "basic_info": {
+    "name": "Surf Photography & Videography in Bali (Chinese: 峇里島衝浪攝影; Indonesian: Jasa Foto Selancar Bali)",
+    "category": "surf_business",
+    "region": "Bali-wide (primary clusters: South Bukit - Uluwatu/Padang Padang/Bingin/Balangan; West Coast - Canggu Batu Bolong/Berawa/Echo/Pererenan; East Coast - Keramas; West Bali - Medewi)",
+    "gps_location": "Multi-location service category, not a single GPS pin. Key meet-up points: Single Fin Uluwatu (-8.8154, 115.0884); Bingin clifftop warung area (-8.8060, 115.1130); Old Man's Batu Bolong, Canggu (-8.6593, 115.1336); Keramas beach in front of Komune Resort (-8.5867, 115.3201); Medewi point (-8.4225, 114.7790).",
+    "distance_from_dps_airport_km": "Varies by shoot location: Uluwatu/Padang Padang 18-22 km; Canggu 22-25 km; Keramas 38-42 km; Medewi 75 km"
+  },
+  "surf_conditions": {
+    "wave_type": "N/A - service category; photographers cover all wave types (point break, reef break, beach break, left/right, barrel/wall) [uncertain]",
+    "skill_level": "Service is offered to all skill levels from beginner (Batu Bolong, Padang Padang Right, Balangan) to advanced (Uluwatu, Padang Padang Left, Keramas, Desert Point)",
+    "best_season": "Dry season May-October for west-coast Bukit (Uluwatu, Padang Padang, Bingin) and offshore-wind clean conditions; wet season November-April better for east coast (Keramas, Sanur, Nusa Dua, Serangan); shoulder months April and October offer best light + manageable crowds for premium shoots",
+    "peak_crowd_level": "5 (lineups at Uluwatu, Padang Padang, Bingin and Canggu Batu Bolong are very crowded mid-morning; photographers prefer dawn patrol or late-afternoon golden-hour sessions for cleaner frames)"
+  },
+  "practical_info": {
+    "access": "Most services are mobile - the photographer meets the client at the surf spot (parking, beach entry, or surf-school base) at an agreed time, usually 30 minutes before paddle-out. Water photographers paddle out with the surfer; land photographers shoot from cliff (Uluwatu, Bingin) or shore (Canggu, Keramas); drone operators shoot from cliffs or boats.",
+    "recommended_session_time": "Dawn patrol (sunrise to ~9 AM) and golden-hour late-afternoon (4 PM to sunset) deliver the best light and least crowded lineups; midday avoided due to harsh overhead light and peak crowd. Most published Bali surf-photo packages are 1.5-2 hour sessions.",
+    "best_time_of_day": "Sunrise dawn-patrol session (~5:30-7:30 AM) for glassy water, golden light, and minimal crowd; late afternoon (4:00 PM to sunset) for warm tones and silhouette work",
+    "alternative_spot_within_10min": "Photographers are flexible - if primary spot is blown out, they reposition to nearest alternative (e.g., Uluwatu -> Padang Padang/Bingin; Canggu Batu Bolong -> Berawa/Echo/Pererenan; Keramas -> Sanur/Serangan)",
+    "boat_charter_required": "No for mainland Bali; Yes/optional for shoots at boat-access spots (Nusa Lembongan, Nusa Penida Playgrounds, Lombok Desert Point, Mentawai charters) where photographer either rides the boat or shoots from a chase tender"
+  },
+  "safety_culture": {
+    "hazards": "Water photographers face same hazards as surfers - shallow reef (Uluwatu, Padang Padang, Bingin, Keramas), strong currents, board-strikes from inexperienced surfers, sea urchins; drone operators must avoid surfers, cliffs and temples; land shooters on Bukit cliffs face fall risk and slippery stairs",
+    "marine_hazards": "Reef cuts (sharp limestone karang on Bukit), occasional sea urchins, rare jellyfish/sea snake; water photographers wear booties and fins, carry hard-housing on Liquid Eye-style grips",
+    "lineup_etiquette": "Water photographers must respect priority - they do not paddle for waves, stay outside the takeoff zone, do not block locals. Recommended to communicate with the client surfer on which waves are theirs to avoid confusion. Many Bukit locals dislike unknown water photographers shooting their waves without permission, so courtesy matters.",
+    "localism_intensity": "Medium - established Bali photographers know lineup politics and rarely have issues; visiting photographers should brief themselves on each spot's culture, especially Uluwatu Peak and Padang Padang on big swells",
+    "respect_protocol": "Ask permission before shooting locals' waves; avoid filming children/women in temple-adjacent areas; never fly drones over Uluwatu Temple or active ceremonies; do not block the channel paddle-out",
+    "religious_sensitivity": "Drone flight restricted within 5 km of sacred sites without Banjar (village council) consent; no shoots on Nyepi (Day of Silence, typically March - islandwide silence including beaches); avoid shooting during temple ceremonies (odalan) at Tanah Lot, Uluwatu Temple, Petitenget."
+  },
+  "services": {
+    "surf_photographer_available": "Yes - hundreds of freelance and agency-based land photographers, water photographers, drone operators and full-service videographers operate across Bali. Major hubs: Bukit (Uluwatu, Padang Padang, Bingin), Canggu, Medewi, Keramas.",
+    "photographer_recommendation": "Notable services: Island Vision Surf (full-service photo/video/drone agency, Mengwi-based, covers all Bali); Padang Padang Surf Camp (in-house water/land/drone shooters at Bukit); BjMs (Medewi specialists); Indo Eye (drone/cinema agency); Bali Drone Pro / Surf Eye Bali (drone-focused, Canggu); Boddhi Surf School (Uluwatu coaching + filming); Bali Surf Vision @bali_surf_vision (Instagram-based freelancer); Bali Surf Report Photo Service (Padang Padang); Chandra's Surfing Bali (Legian, budget option); Suka Surf Bali (Canggu add-on); Made Topia (Bingin local, also wedding/architecture); freelance shooters stationed at Single Fin (Uluwatu) and Old Man's (Canggu) cliffside.",
+    "drone_allowed": "Generally allowed for licensed/registered operators; as of January 2025 DGCA Directive 008/2025 ended the 250g registration exemption - all drones must be registered via SIPP-TA before flight. 15 km no-fly buffer around DPS airport (covers Kuta, Legian, Seminyak, parts of Canggu/Berawa); flights near sacred sites (Uluwatu Temple, Tanah Lot, Pura Petitenget) need Banjar consent; daylight only, line-of-sight only.",
+    "webcam_url": "Photographers commonly reference Surfline (https://www.surfline.com) and balicams.com (https://balicams.com) live cams to time their shoots; some photographers also publish daily lineup highlights on Instagram"
+  },
+  "pricing": {
+    "avg_lesson_price": "Not applicable (photography service - no surf lesson). Typical service pricing: IDR 100,000 to IDR 5,000,000 per session depending on package (land vs water vs drone, solo vs group, edit turnaround).",
+    "lesson_price_range_idr": "Photography pricing tiers observed in Bali (2025-2026): Budget land/cliff shooter at Bukit or Canggu freelancer: IDR 100,000-300,000 per session or per-photo IDR 50,000-150,000 (Chandra's Surfing Bali ~IDR 100,000; Suka Surf Bali add-on ~IDR 250,000). Mid-tier surf-school in-house package: IDR 300,000-800,000 per session (Bali Surf Report ~IDR 550,000). Premium professional agency: in-water photography IDR 2,500,000 / landscape photography IDR 1,500,000 / drone videography IDR 2,500,000 (Island Vision Surf, 2-hour cap, additional participants IDR 500,000-1,000,000 each). Padang Padang Surf Camp drone session ~GBP 50 (~IDR 1,000,000). Bali destination photographer hourly rates from USD 200-325+ for non-surf lifestyle/portrait shoots (Localgrapher, Flytographer, SweetEscape).",
+    "board_rental_daily": "Not applicable (photography service)",
+    "gopro_rental_price": "IDR 150,000-300,000/day for GoPro + SD card at most Canggu and Bukit surf schools (not the same as professional photo service but a budget alternative for self-shot footage) [uncertain]",
+    "peak_vs_offpeak_pricing": "Most Bali surf photographers maintain flat year-round rates; some premium agencies surcharge 10-20% during July-August peak and Christmas/New Year window; deposit normally 50% with refund if cancelled 24h+ in advance [uncertain]"
+  },
+  "sustainability": {
+    "eco_certification": "No standardized eco-certification for surf photography services in Bali; informal best practices include avoiding single-use plastic, not chasing wildlife with drones, respecting Banjar/temple boundaries [uncertain]",
+    "carbon_offset_option": "Not commonly offered by Bali surf photographers as of 2026 [uncertain]"
+  },
+  "events_community": {
+    "annual_competition_window": "Major events that boost photo-service demand: Rip Curl Cup Padang Padang (holding period August 1 - early September), Krui Pro / Nias Pro / Mentawai charter season May-September, WSL Bali Pro / Krui CT events when scheduled at Keramas; many agencies are accredited media partners",
+    "community_events": "Single Fin Sunday at Uluwatu (weekly sunset gathering - popular for surf-portrait sessions); Old Man's Wednesday parties Canggu; Komune Resort Night Surfing at Keramas (artificial-light night surf - unique photo opportunity, runs select evenings during dry season)"
+  },
+  "uncertain": [
+    "wave_type",
+    "gopro_rental_price",
+    "peak_vs_offpeak_pricing",
+    "eco_certification",
+    "carbon_offset_option"
+  ]
+}

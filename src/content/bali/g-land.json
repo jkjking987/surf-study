@@ -1,0 +1,83 @@
+{
+  "basic_info": {
+    "name": "G-Land / Plengkung (Chinese: G浪/普倫昆; Indonesian: Plengkung / Pantai Plengkung / G-Land)",
+    "category": "extension_destination",
+    "region": "Java",
+    "gps_location": "-8.7197, 114.3617 (Plengkung Beach, Alas Purwo National Park, Banyuwangi, East Java; Google Maps: https://maps.app.goo.gl/Plengkung)",
+    "distance_from_dps_airport_km": "~140 km straight-line east + sea crossing (Bali Strait); total transfer ~3-4 hrs via fast boat from Jimbaran/Benoa, or 7-10 hrs overland via Gilimanuk-Ketapang ferry",
+    "distance_from_canggu_uluwatu_min": "Not applicable directly - requires inter-island transfer; from Jimbaran/Benoa fast boat ~2-3 hrs; from Canggu add 60-90 min motorbike to harbor; from Uluwatu add 30-45 min motorbike to harbor"
+  },
+  "surf_conditions": {
+    "wave_type": "World-class long left-hand reef/point break along east side of Grajagan Bay; one of the world's premier left-handers. Multiple named sections from top to bottom: Kongs (top, 200-400m walls), Money Trees (main world-class barreling section), Launching Pads (backdoor section), Speedies (fastest/heaviest barrel section), and the Inside.",
+    "skill_level": "Advanced to Pro only (especially Money Trees, Launching Pads, and Speedies); Kongs section is more approachable for strong intermediates on smaller days but still over sharp coral reef",
+    "wave_height_range": "2-12+ ft Hawaiian scale (approx. 4-25 ft faces); Kongs holds 2-12 ft, Money Trees 2-10 ft, Speedies 2-8 ft+ - massive swells can render Speedies unrideable",
+    "bottom_type": "Sharp shallow coral reef (extending hundreds of metres along the point); reef becomes shallower further down the point",
+    "best_season": "Dry season mid-April to mid-October (peak May-September); one of the most consistent waves in the world during season with reliable SW Indian Ocean groundswell and offshore SE trade winds",
+    "best_tide": "Mid to high tide preferred for safer reef coverage especially at Money Trees and Speedies; low tide produces hollowest barrels but dangerously shallow over reef",
+    "best_wind": "Offshore SE (Southeast) trade winds prevailing in dry season; light wind ideal; afternoon onshore SW common",
+    "best_swell_direction": "SW (Southwest) groundswell from deep Indian Ocean lows; SSW also works; long-period swells essential for proper barrels through Money Trees/Speedies",
+    "swell_consistency_rating": "5 (one of the most consistent world-class waves on the planet during April-October season)",
+    "wave_length_meters": "200-500+ meters; full Kongs-to-Speedies link-up on big clean days can yield 600m+ rides (multiple sections)",
+    "wave_speed_rating": "Medium to very fast (Kongs slower wall, Money Trees medium-fast world-class barrel, Speedies extremely fast hollow tube)",
+    "takeoff_zone_difficulty": "High to very high - shallow reef, fast drops, ledging waves especially at Speedies; positioning critical; Speedies has caused most serious injuries documented at G-Land",
+    "secondary_peaks": "Yes - the wave has 4-5 named sections that can link or break independently: Kongs (outside top), Money Trees, Launching Pads (between MT and Speedies), Speedies, and Inside; also '20-20s' less-frequented outside peak",
+    "peak_crowd_level": "3-4 (busy in season especially when Money Trees fires; crowds are largely camp guests plus visiting boat trips; thins on smaller days; can feel uncrowded by world-class-wave standards but lineup competitive for set waves)"
+  },
+  "practical_info": {
+    "access": "Two options: (1) Fast boat from Bali (Jimbaran, Benoa, Grand Mirage or Kuta beach) - 'G-Land Express' departs early morning ~6 AM, takes 2-3 hrs across Bali Strait; (2) Overland via Gilimanuk-Ketapang ferry then 3-4 hr drive through Alas Purwo National Park (long, bumpy jungle road; 4x4 recommended). Most surfers book through camp packages which include transfer.",
+    "paddle_out_method": "From camp beach paddle around the inside reef to channel between sections; usually walk along sand to the takeoff zone of the desired section then paddle out via channels (each section has a paddle-out channel); local boatmen offer ski/boat tows to the lineup on bigger days",
+    "entry_fee": "Alas Purwo National Park entry fee ~IDR 150,000-250,000 per person (foreigner rate; varies weekday/weekend) plus separate vehicle permit; surf camp packages typically include the park fee",
+    "recommended_session_time": "Dawn patrol (5:30-7:30 AM) for cleanest offshore conditions before trade winds build; second session mid-afternoon after wind drops; mid-tide windows around morning peak ideal",
+    "best_time_of_day": "Early morning (5:30-9:00 AM) for glassy conditions; late afternoon (3:30-6:00 PM) often cleans up again",
+    "nearby_warung": "No standalone warungs - the only food/drink available is at the surf camps (Bobby's, Joyo's, Jack's Surf Camp, Jawa Jiwa); meals included in all camp packages; bring snacks if day-tripping by boat",
+    "alternative_spot_within_10min": "No nearby alternative surf spots - G-Land is isolated within Alas Purwo National Park; closest alternatives are Tiger Tracks (just inside Grajagan Bay) on smaller days, or Red Island (Pulau Merah) which is a 2+ hr drive away",
+    "boat_charter_required": "No - land-based stay at surf camps is standard; boat is used as transport from Bali but the wave itself is paddle-from-beach. Some big-day operations use jet skis/boats for tow-ups."
+  },
+  "safety_culture": {
+    "hazards": "Extremely sharp shallow coral reef, powerful Indian Ocean waves (pelvic fractures historically documented), strong currents along point, malaria-prone area (mosquito-borne disease), dengue, sunburn/sunstroke in equatorial heat, remote location (slow medical evacuation), occasional sea snakes and stonefish on reef, jungle wildlife (panthers, dholes, snakes in Alas Purwo)",
+    "marine_hazards": "Sea urchins on reef, stonefish (camouflaged on reef - extremely venomous, immerse wound in hot water), occasional sea snakes (highly venomous but non-aggressive), reef cuts with high infection risk in tropical water; sharks rarely reported as aggressive at G-Land",
+    "reef_cut_severity_index": "Very High - one of the most severe reef-cut risks in Indonesia; live coral reef extends hundreds of meters; booties strongly recommended; Money Trees and Speedies wipeouts can grate skin across long reef sections; camp medics (Joyo's Puma) skilled at stitching",
+    "rip_current_pattern": "Strong rip channel along the reef edge between sections (useful for paddle-outs); main current flows out to sea around the southwest tip of the point; deeper-water channel between Money Trees and Speedies is the primary paddle-out lane",
+    "lineup_etiquette": "Respect priority based on positioning at takeoff zone; locals (camp staff and Indonesian/Bali pros) earn first priority; pros visiting from boat charters often demand priority on set waves; do not snake, do not paddle around to inside",
+    "localism_intensity": "Medium - generally friendly compared to Bukit Bali but lineup is talent-stacked with pros and serious surfers; respect required; competitive for set waves at Money Trees",
+    "respect_protocol": "Respect Alas Purwo National Park rules (no littering, no removing flora/fauna, sacred site Pura Luhur Giri Salaka inside the park), be courteous to camp staff and other surfers, observe priority, do not surf beyond your ability - rescue is slow and far from definitive care",
+    "resident_local_legends": "Gerry Lopez (American), Peter McCabe (Australian) put G-Land on the map in 1983; Mike Boyum (Bobby's father, original camp founder); Mega Semadhi and other Bali/Indonesian pros are regulars; numerous WSL CT pros visit (Mick Fanning, Joel Parkinson, Kelly Slater have all surfed Money Trees)",
+    "religious_sensitivity": "Alas Purwo is one of Bali-Java's most spiritually significant Hindu sites - Pura Luhur Giri Salaka temple inside the national park is highly sacred; respect ceremonies and pilgrim activity; modest behavior in the park; local Javanese majority is Muslim - dress modestly in Banyuwangi town",
+    "medical_nearby": "On-camp medical: Joyo's Surf Camp has skilled medic 'Puma' for stitching reef cuts; Bobby's and Jack's have first-aid kits and trained staff. Nearest hospital: Banyuwangi (Rumah Sakit Blambangan, RSUD Banyuwangi) ~3-4 hrs overland. For serious cases evacuation to BIMC Bali (7-10 hrs overland, 3 hrs fast boat, helicopter on request) is required.",
+    "nearest_clinic_distance_km": "On-camp first-aid 0 km; nearest proper hospital RSUD Banyuwangi ~80-100 km road distance (3-4 hrs); BIMC Bali ~200+ km incl. ferry crossing",
+    "rescue_jet_ski_available": "No permanent rescue jet ski; some camps deploy jet skis on big days for tow-in and water rescue but coverage is informal",
+    "emergency_contact": "Indonesia general emergency: 112; Camp emergency line via Bobby's/Joyo's/Jack's office; BIMC Bali +62 361 3000 911; consult travel insurance for helicopter evacuation; satellite phone available at camps as cell signal limited"
+  },
+  "services": {
+    "nearest_surf_school": "G-Land is not a beginner destination; no formal surf school; coaching available informally through Dawn Patrol Bali advanced surf trips and via guides at camps for intermediate-advanced surfers wanting line-reading help [uncertain]",
+    "board_rental_availability": "Limited rental at camps (typically gun/step-up boards for big days); most surfers bring their own quivers (recommended: 6'4 to 7'2 step-up for Money Trees, 7'4-8'0 gun for big Kongs/Speedies)",
+    "surf_photographer_available": "Yes - several camps employ in-house photographers (Bobby's, Joyo's, Jack's); freelance water/land photographers shoot during the season; package upgrades available",
+    "photographer_recommendation": "Camp-employed photographers offer daily photo packages ~USD 50-100/day; established shooters like Surfing Visions and freelance Bali-based photographers visit in season [uncertain]",
+    "accommodation_options": "Three primary surf camps at the point: (1) Bobby's Surf Camp (oldest, founded by Mike Boyum) USD 640 (3D)/870 (6D)/1,140 (9D); (2) G-Land Joyo's Surf Camp - AC rooms with hot water, ~USD 750/week deluxe; (3) G-Land Jack's Surf Camp from USD 840 (3N)/1,040 (6N) including round-trip fast boat. Jawa Jiwa is a newer camp option. All include meals, transfers from Bali, and basic amenities.",
+    "webcam_url": "Surfline G-Land spot/cam: https://www.surfline.com/surf-report/g-land/5842041f4e65fad6a7708d30 (forecast + occasional live cam)",
+    "drone_allowed": "Generally allowed by camps for personal use; Alas Purwo National Park has wildlife/cultural restrictions - check with camp manager; commercial drone requires Indonesian permit [uncertain]",
+    "coworking_nearby": "None - G-Land is remote jungle; camps offer WiFi (often slow and intermittent); not suitable for digital nomad work, designed for full surf focus [uncertain]"
+  },
+  "pricing": {
+    "avg_lesson_price": "Not a lesson destination; private coaching/guiding can be arranged informally USD 100-200/day [uncertain]",
+    "board_rental_daily": "Limited; if available ~USD 25-40/day at camps for step-up/gun boards [uncertain]"
+  },
+  "sustainability": {
+    "water_quality_rating": "Excellent - inside protected Alas Purwo National Park, no nearby urban/agricultural runoff; the bay is clean year-round though wet season storms can stir sediment"
+  },
+  "events_community": {
+    "annual_competition_window": "Quiksilver Pro G-Land held intermittently 1995-1997 (legendary contest era); WSL CT briefly returned in 2022 with the Quiksilver Pro G-Land won by Italo Ferreira (men) and Tatiana Weston-Webb (women) - first WSL CT event there in 25 years. Not a regular contest stop currently [uncertain on current schedule]",
+    "community_events": "Camp life centered around dawn patrol surf, post-surf meals and Bintang beers; occasional pro visitor sessions create informal community vibe; annual season-opening parties at camps [uncertain]"
+  },
+  "combo_trip_potential": "Excellent - G-Land is the classic Bali extension trip; commonly combined with Bali (Bukit), Nusa Lembongan reef breaks, or paired with onward boat charters to Lombok (Desert Point), Sumbawa (Lakey Peak), and the Mentawais via Bali. Boat charters from Bali frequently stop at G-Land as part of multi-spot Indonesian surf safaris.",
+  "uncertain": [
+    "nearest_surf_school",
+    "photographer_recommendation",
+    "drone_allowed",
+    "coworking_nearby",
+    "avg_lesson_price",
+    "board_rental_daily",
+    "annual_competition_window",
+    "community_events"
+  ]
+}

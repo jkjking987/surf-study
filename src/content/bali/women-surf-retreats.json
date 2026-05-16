@@ -1,0 +1,110 @@
+{
+  "basic_info": {
+    "name": "Women-Only Surf Retreats in Bali (Chinese: 峇里島女性專屬衝浪渡假村; Indonesian: Retret Selancar Khusus Wanita di Bali) - including Surf Goddess Retreats, Escape Haven, Salti Hearts, Bliss Sanctuary for Women, and Women + Waves Society (Bali Island Retreat)",
+    "category": "surf_business",
+    "region": "Bali-wide (primary locations: Seminyak, Canggu/Berawa, Nusa Lembongan)",
+    "gps_location": "Surf Goddess Retreats: Seminyak (~-8.6915, 115.1632) [uncertain]; Escape Haven: Jl. Canggu Padang Linjong No.85D, Canggu (~-8.6478, 115.1378); Salti Hearts: Umalas/Canggu area (~-8.6700, 115.1500) [uncertain]; Bliss Sanctuary: Seminyak + Canggu sanctuaries; Women + Waves Bali: Nusa Lembongan beachfront (~-8.6800, 115.4500) [uncertain]",
+    "distance_from_dps_airport_km": "Seminyak retreats (Surf Goddess, Bliss Seminyak): ~10-12 km (30-40 min); Canggu retreats (Escape Haven, Salti Hearts, Bliss Canggu): ~18-22 km (50-75 min depending on traffic); Women + Waves Nusa Lembongan: ~30 min drive to Sanur Harbor + 30 min fast boat to Lembongan"
+  },
+  "surf_conditions": {
+    "wave_type": "Roving programs - retreats take guests to a range of beach breaks suited to skill level: Kuta Beach, Legian, Seminyak, Berawa, Batu Bolong (Old Mans), Pererenan sandbars (Canggu retreats); Padang Padang Right and Balangan for intermediates. Women + Waves uses Nusa Lembongan reef breaks (Playgrounds, Lacerations, Shipwrecks) for intermediate guests. [uncertain]",
+    "skill_level": "All levels - majority of retreats are pitched at beginner to intermediate women; programs adapt to skill (Salti Hearts and Women + Waves cater to progressors/intermediates; Bliss and Goddess Retreats lean beginner-friendly)",
+    "wave_height_range": "Lessons typically conducted in 1-4 ft waves at sand-bottom beach breaks suitable for beginners; intermediate sessions up to 4-6 ft on reef breaks [uncertain]",
+    "bottom_type": "Sand for beginner lessons (Kuta/Legian/Canggu); coral reef for intermediate sessions (Lembongan, Bukit) [uncertain]",
+    "best_season": "Dry season May-October ideal for South Coast and Bukit spots (offshore winds, cleaner waves); retreats run year-round - wet season Nov-April uses east coast (Keramas/Sanur) when west coast is blown out. Salti Hearts runs March-November.",
+    "best_tide": "Mid to high tide for beginner beach breaks (softer, more rolling waves); mid tide for Lembongan reef [uncertain]",
+    "best_wind": "Offshore SE/E winds for west coast spots (dry season); E/NE for east coast spots (wet season)",
+    "best_swell_direction": "SW groundswell for Canggu/Seminyak/Bukit; S/SE for Nusa Lembongan",
+    "swell_consistency_rating": "4-5 (Bali is one of the most consistent surf destinations year-round) [uncertain]",
+    "wave_length_meters": "50-150 m typical for the sand-bottom beach breaks used in lessons [uncertain]",
+    "wave_speed_rating": "Slow to medium - retreats deliberately select forgiving, slower waves for women learners",
+    "takeoff_zone_difficulty": "Low to moderate - retreats select beginner-friendly take-off zones; small drops on sandbars",
+    "secondary_peaks": "Multiple peaks used across the week - roving program rotates spots based on conditions and tide",
+    "peak_crowd_level": "Variable - Canggu beach breaks 4-5 (very crowded); Lembongan reefs 2-3 (less crowded). Retreats often start dawn patrol to beat crowds. [uncertain]"
+  },
+  "practical_info": {
+    "access": "Pick-up from DPS airport included in all package prices; daily transfers to surf spots by van/driver; all logistics handled by retreat staff",
+    "paddle_out_method": "Beach paddle for sand-bottom spots (Kuta/Canggu); channel paddle for reef spots (Lembongan, Bukit) under instructor supervision",
+    "entry_fee": "Included in package - retreats absorb parking, beach access fees, and any boat fees [uncertain]",
+    "recommended_session_time": "Dawn patrol sessions (6-9 AM) for cleaner waves and lighter crowds; second sessions or yoga in afternoon",
+    "best_time_of_day": "Morning surf followed by midday yoga/spa, second afternoon session optional",
+    "nearby_warung": "Seminyak/Canggu retreats: surrounded by hundreds of cafes, warungs, healthy food spots (Crate, Shady Shack, Peloton Supershop, La Brisa, Old Mans); Lembongan: Mahalo Beach Club, The Deck, Pondok Baruna",
+    "alternative_spot_within_10min": "Canggu retreats access Berawa, Batu Bolong, Echo Beach, Pererenan within 10-15 min; Seminyak retreats access Legian, Kuta, Double Six within 10 min; Lembongan options include Mushroom Bay, Dream Beach",
+    "boat_charter_required": "Generally no (Bali main island); Women + Waves Lembongan retreat requires fast boat transfer to/from Sanur. Some retreats include optional Lembongan or Nusa Penida day-trips by boat."
+  },
+  "safety_culture": {
+    "hazards": "Reef cuts (Lembongan, Bukit, Padang Padang Right), strong currents, sea urchins, jellyfish (seasonal), shallow reef on low tide. Retreats mitigate via supervised lessons, certified ISA instructors, and rashguard/booties provision.",
+    "marine_hazards": "Sea urchins on reef (booties provided), occasional jellyfish (especially Nov-Feb), minor reef cuts, sunburn. No serious shark/stonefish risk at typical lesson spots.",
+    "reef_cut_severity_index": "Low at beach-break lesson spots (sand bottom); Moderate at Padang Padang Right and Lembongan reef sessions",
+    "rip_current_pattern": "Canggu beach breaks have rip currents between sandbars - instructors brief students daily on rip identification; lifeguards on duty at Kuta/Legian/Seminyak from ~8am-6pm",
+    "lineup_etiquette": "Retreats teach surf etiquette as part of curriculum - priority rules, paddle around (not through) the lineup, no dropping in, smile and respect locals. All-women group dynamics reduce intimidation in the lineup.",
+    "localism_intensity": "Low at beginner spots (Kuta/Legian/Seminyak/Batu Bolong); Medium at Canggu peak sandbar and Padang Padang Right; retreats avoid high-localism spots like Uluwatu/Bingin for guest lessons",
+    "respect_protocol": "Dress modestly outside the beach (no bikinis in temples/villages); offerings (canang sari) on sidewalks - do not step on them; respect Hindu ceremonies; tip local instructors fairly",
+    "resident_local_legends": "Surf Goddess Retreats partners with Rip Curl School of Surf (founded by Tipi Jabrik); Indonesian women pros like Diah Rahayu, Dhea Natasya, and Taina Izquierdo are role models in the women's surf community [uncertain]",
+    "religious_sensitivity": "Nyepi Day of Silence (March, varies) - all retreats pause; no surfing or beach access islandwide for 24 hours. Menstrual taboo at some temples - women on period not permitted to enter sacred temple interiors. Galungan/Kuningan festivals (every 210 days) may affect transfer logistics.",
+    "medical_nearby": "Seminyak/Canggu retreats: BIMC Hospital Kuta (24/7), Siloam Hospital Denpasar, Penta Medical Canggu; Lembongan: Pondok Baruna Clinic (basic), serious cases air-evac to Sanur",
+    "nearest_clinic_distance_km": "Canggu retreats: Penta Medical or BIMC Kuta within 5-8 km; Seminyak retreats: BIMC Kuta within 3-5 km; Lembongan: clinic on island ~1-2 km from beachfront [uncertain]",
+    "rescue_jet_ski_available": "No dedicated retreat-owned jet ski; standard lifeguard rescue services at Kuta/Legian/Seminyak/Canggu beaches",
+    "emergency_contact": "Indonesia general emergency: 112; Ambulance: 118/119; BIMC Hospital Kuta: +62 361 761 263; Bali Tourist Police: +62 361 754 599. Each retreat provides 24/7 staff contact line."
+  },
+  "services": {
+    "nearest_surf_school": "Self-contained - retreats employ in-house female surf coaches or partner with established schools: Surf Goddess partners with Rip Curl School of Surf; Escape Haven uses in-house ISA-certified coaches; Salti Hearts has founder Yeni and team of female coaches; Women + Waves uses certified female surf coaches; Bliss arranges 1:1 lessons with vetted local instructors",
+    "board_rental_availability": "All boards included in package - retreats provide foam soft-tops, mini-mals, funboards, and shortboards sized to skill level; surfboard + leash + wax all included",
+    "surf_photographer_available": "Salti Hearts includes daily photo/video (surfing, yoga, lifestyle) with copy of footage to take away; Women + Waves and Escape Haven offer photography as add-on; Surf Goddess often has a photographer on shoot days [uncertain]",
+    "photographer_recommendation": "In-house or partnered photographers - Salti Hearts daily photo/video included; freelance Canggu/Uluwatu photographers IDR 500K-1.5M per session if booked separately [uncertain]",
+    "accommodation_options": "Self-contained luxury villa accommodation - Surf Goddess: dedicated villa Seminyak with multiple room tiers (Harmony USD 1,995 to Divine USD 2,895); Escape Haven: boutique villa Canggu with twin/private options; Salti Hearts: Salti villa Umalas/Canggu twin (USD 1,590) and private (USD 1,890) rooms; Bliss Sanctuary: 3 sanctuaries (Seminyak x 2 + Canggu) with private suites; Women + Waves: beachfront bungalows Nusa Lembongan",
+    "webcam_url": "Surfline cams for retreat areas: Canggu (https://www.surfline.com/surf-report/canggu/5842041f4e65fad6a7708cab); Seminyak/Kuta (https://www.surfline.com/surf-report/kuta-beach/); Nusa Lembongan reefs visible on Magicseaweed",
+    "drone_allowed": "Allowed for personal use at most beach breaks; retreats often offer drone/photo packages as upsell; commercial drone work requires Indonesian permit [uncertain]",
+    "coworking_nearby": "Canggu retreats: Outpost Canggu, Tropical Nomad, Dojo Bali, B Work Bali (5-10 min away); Seminyak retreats: Tropical Nomad Seminyak; Lembongan: limited - Bali Eco Stay coworking spots [uncertain]"
+  },
+  "pricing": {
+    "avg_lesson_price": "Included in package - cost-per-day equivalent ~USD 250-400/day all-inclusive depending on retreat; standalone lesson day-rate not offered. Day-rate equivalent for surf lesson portion alone ~USD 50-80 [uncertain].",
+    "lesson_price_range_idr": "Surf Goddess 7-day: USD 1,995-2,895 (~IDR 31-45 million); Escape Haven 7-day: USD 2,295-2,595+ (~IDR 36-41 million); Salti Hearts 7-day: USD 1,590-1,890 (~IDR 25-30 million); Salti Hearts 5-day: from USD 1,090 [uncertain]; Bliss Sanctuary 7-day: USD 2,500-4,500+ (custom quote, ~IDR 39-70 million) [uncertain]; Women + Waves 10-night Bali: ~USD 2,800-3,500 [uncertain]",
+    "board_rental_daily": "Included in package; standalone equivalent IDR 150,000-250,000/day for shortboard, IDR 100,000-150,000/day for foam/longboard",
+    "gopro_rental_price": "Not typically offered as standalone; Salti Hearts includes photo/video documentation; add-on day-rate ~IDR 200,000-300,000 if booked outside [uncertain]",
+    "wetsuit_top_rashguard_rental": "Rashguards and surf-specific UV gear typically provided complimentary; wetsuit tops not usually needed in Bali (water 27-29°C year-round) [uncertain]",
+    "board_repair_avg_price_idr": "Not applicable - retreats handle any board damage internally; guests not charged for normal use ding repairs [uncertain]",
+    "surf_camp_weekly_package": "Surf Goddess: USD 1,995-2,895 (7 days); Escape Haven: from USD 2,295 (twin) / USD 2,595 (private); Salti Hearts: USD 1,590 (twin) / USD 1,890 (private); Bliss Sanctuary: custom quote starting ~USD 2,500-3,000 typical; Women + Waves Bali Island Retreat (10 nights): ~USD 2,800-3,500 [uncertain]",
+    "camp_package_inclusions": "Typical inclusions across all 5 operators: airport transfers, 7-10 nights villa accommodation, daily breakfast/lunch/dinner (some dinners excluded - Escape Haven 2 dinners out), daily surf lessons with female coaches, daily yoga (Vinyasa/Hatha/Yin), spa treatments (Surf Goddess: unlimited; Escape Haven/Bliss: 2-4 included), cultural day trip, women's circle/empowerment workshop, surfboard + leash + rashguard, water/coffee/tea/healthy snacks, goodie bag (Salti Hearts: organic top/sticker/sarong/water bottle). Excluded typically: international flights, travel insurance, visa, alcohol, optional extras (cooking class, additional spa).",
+    "peak_vs_offpeak_pricing": "Peak season (June-September): full rates; Off-peak (Feb-March, Nov): up to USD 700-800 off via early-bird and shoulder-season promotions. Surf Goddess offers $800 off and 120-day advance booking deposits of only $900. [uncertain]"
+  },
+  "sustainability": {
+    "water_quality_rating": "Variable by location and season - dry season excellent at all retreat surf spots; wet season (Nov-March) west coast (Canggu/Seminyak/Kuta) water quality drops due to monsoon runoff and sewage outflow; Nusa Lembongan stays cleaner year-round",
+    "eco_certification": "Women + Waves Society partners with Mossy Earth's Wilder Reefs Project for coral reef restoration on Nusa Lembongan; Escape Haven and Surf Goddess promote single-use plastic minimization but no formal third-party eco-certification across the group [uncertain]",
+    "carbon_offset_option": "Women + Waves contributes to reef rewilding (functions as eco-restoration offset); other retreats do not explicitly offer carbon offset packages but encourage refillable water bottles and reusable items in goodie bags [uncertain]"
+  },
+  "events_community": {
+    "annual_competition_window": "Not competition-focused - retreats orient around women's surf community building rather than competitions; some align with International Women's Day (March 8) for themed retreats [uncertain]",
+    "community_events": "Salti Hearts runs monthly retreats March-November + holds women's circles; Women + Waves runs UK coaching weekends + international holidays; Surf Goddess and Escape Haven host alumni events and reunions; Bliss Sanctuary hosts seasonal foodie/wellness events. International Surfing Day (June 20) often marked with community paddle-outs."
+  },
+  "visa_logistics": {
+    "visa_type_recommended": "VoA (Visa on Arrival) or e-VoA 30 days (extendable once to 60 days) sufficient for 7-10 night retreats; B211A 60-day tourist visa for longer stays combining retreat + independent travel"
+  },
+  "uncertain": [
+    "gps_location",
+    "wave_type",
+    "wave_height_range",
+    "bottom_type",
+    "best_tide",
+    "swell_consistency_rating",
+    "wave_length_meters",
+    "peak_crowd_level",
+    "entry_fee",
+    "resident_local_legends",
+    "nearest_clinic_distance_km",
+    "surf_photographer_available",
+    "photographer_recommendation",
+    "drone_allowed",
+    "coworking_nearby",
+    "avg_lesson_price",
+    "lesson_price_range_idr",
+    "gopro_rental_price",
+    "wetsuit_top_rashguard_rental",
+    "board_repair_avg_price_idr",
+    "surf_camp_weekly_package",
+    "peak_vs_offpeak_pricing",
+    "eco_certification",
+    "carbon_offset_option",
+    "annual_competition_window"
+  ]
+}

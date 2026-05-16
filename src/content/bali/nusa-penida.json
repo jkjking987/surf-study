@@ -1,0 +1,91 @@
+{
+  "basic_info": {
+    "name": "Nusa Penida (Chinese: 努沙佩尼達; Indonesian: Nusa Penida)",
+    "category": "surf_spot",
+    "region": "Nearby Islands",
+    "gps_location": "-8.7271, 115.5444 (island center; Crystal Bay surf corner approx. -8.7148, 115.4561; Google Maps: https://maps.app.goo.gl/NusaPenida)",
+    "distance_from_dps_airport_km": "~30 km straight-line + sea crossing from Sanur (35-50 min fast boat); total transfer ~1.5-2 hrs from DPS airport",
+    "distance_from_canggu_uluwatu_min": "From Canggu: ~75-90 min motorbike to Sanur Harbor + 35-50 min fast boat (total ~2-2.5 hrs); From Uluwatu: ~90 min motorbike to Sanur + 35-50 min boat"
+  },
+  "surf_conditions": {
+    "wave_type": "Novelty/rare reef breaks rather than world-class waves. Main spots: Crystal Bay (small left-hand reef corner at southern end), Gamut Bay (novelty reef wave), Tamarind Point area, and occasional waves at Mushroom Bay-facing reefs. Generally reef breaks but inconsistent.",
+    "skill_level": "Advanced (despite small wave sizes, sharp reef, isolation, and lack of rescue services make these spots advanced-only). Not suitable for beginners despite mellow wave faces.",
+    "wave_height_range": "1-4 ft on typical days; needs medium-to-large SW groundswell (6 ft+ at outer reefs) to wake up novelty spots [uncertain]",
+    "bottom_type": "Sharp shallow coral reef",
+    "best_season": "Dry season May-October (peak June-August) when SW groundswells funnel through the Lombok Strait; needs sizable swell to activate Penida reefs which are sheltered relative to Lembongan/Ceningan",
+    "best_tide": "Mid to high tide for safer reef coverage; low tide exposes shallow reef and increases hazard",
+    "best_wind": "Offshore SE (Southeast) trade winds typical in dry season; same wind pattern as Bukit peninsula",
+    "best_swell_direction": "SW to SSW groundswell; needs solid long-period swell to wrap around the island",
+    "swell_consistency_rating": "1-2 (very inconsistent; Penida is largely sheltered from open ocean swell; novelty wave status confirmed by multiple guides) [uncertain]",
+    "wave_length_meters": "20-60 meters typical short rides; Crystal Bay corner produces short straight-line waves to the beach [uncertain]",
+    "wave_speed_rating": "Slow to medium (most Penida waves are mellow when they break; not the fast hollow waves of nearby Lembongan) [uncertain]",
+    "takeoff_zone_difficulty": "Low to moderate take-off difficulty itself, but the bigger hazard is the shallow sharp reef and isolation from help",
+    "secondary_peaks": "Yes - several scattered novelty reef setups around the island (Crystal Bay south corner, Gamut Bay, Tamarind Point reef, Mushroom Bay reef channels); no defined main peak/inside/outside structure [uncertain]",
+    "peak_crowd_level": "1 (very low crowds; rarely surfed; you may have it to yourself or share with a couple of local kids on rare working days)"
+  },
+  "practical_info": {
+    "access": "Boat access required from Sanur Harbor (fast boat 35-50 min, IDR 150,000-250,000 one-way) or private charter; then land transfer (scooter rental IDR 75,000-100,000/day or car charter IDR 600,000-800,000/day) to specific bay. Crystal Bay accessible by paved road from Toya Pakeh; Gamut Bay and remote reefs require 4x4 or boat charter.",
+    "paddle_out_method": "Paddle from beach in Crystal Bay corner; for outer reefs (Gamut Bay), boat drop-off and paddle into lineup; channel paddles where available. Local fisherman boats can be hired for outer-reef access.",
+    "entry_fee": "Nusa Penida tourist retribution ~IDR 25,000-50,000 per person; Crystal Bay parking ~IDR 5,000-10,000; no surf-specific fee [uncertain]",
+    "recommended_session_time": "Dawn patrol (5:30-7:30 AM) before trade winds build and tourist boats arrive at Crystal Bay (Crystal Bay gets very crowded with snorkelers from 10 AM)",
+    "best_time_of_day": "Early morning (before 9 AM) to avoid Crystal Bay tourist boats and onshore wind; check tide window carefully due to shallow reef",
+    "nearby_warung": "Crystal Bay has several warungs and beach cafes; remote reefs have no facilities - bring water, snacks, first-aid. Toya Pakeh harbor area has more options.",
+    "alternative_spot_within_10min": "Nusa Lembongan reef breaks (Shipwrecks, Playgrounds, Lacerations, Razors) accessible by short boat from Toya Pakeh / Nusa Penida north coast - much more consistent and rideable. Mahana Point on Nusa Ceningan also nearby by boat.",
+    "boat_charter_required": "Yes for outer reefs and serious surf trips; Crystal Bay corner can be paddled from beach but most quality waves around Penida require boat access from Sanur or local fisherman charter."
+  },
+  "safety_culture": {
+    "hazards": "Sharp shallow coral reef, powerful and sudden currents (the channel between Bali and Penida and around the island has notorious currents from Lombok Strait), isolation from rescue services, lack of experienced surfers/locals to assist, occasional boat traffic from snorkel/dive operations, big drop-offs near cliffs",
+    "marine_hazards": "Sea urchins on reef (wear booties), occasional jellyfish, rare sea snakes; sharks occasionally seen but no incidents documented at surf zones; manta rays present at Manta Point (not a surf zone) - non-aggressive but startling. Reef cuts can become infected fast - treat with antiseptic immediately.",
+    "reef_cut_severity_index": "High - sharp coral/limestone reef; booties strongly recommended; reef is exposed at low tide. Combined with remoteness this elevates risk over similarly-sharp Bukit reefs.",
+    "rip_current_pattern": "Strong tidal currents flow through the Badung Strait and around Nusa Penida headlands; rips can pull surfers away from shore and into open channel water. Currents can switch direction with tide changes. Crystal Bay has channel current toward the south end.",
+    "lineup_etiquette": "Rarely any lineup to speak of; if local kids or fishermen are surfing, smile, say hi, and respect their priority. Low key culture - no aggressive localism due to lack of crowds.",
+    "localism_intensity": "Low - rarely crowded; few resident surfers; visitors mostly day-trippers from Lembongan/Bali",
+    "respect_protocol": "Respect Crystal Bay as a temple-adjacent (Pura Puncak Mundi nearby on island) and tourist-popular site; avoid surfing through snorkeling tour boats; ask local fishermen before launching from their beach; standard Balinese respect to locals; do not litter on remote beaches.",
+    "resident_local_legends": "No widely-documented resident surf legends on Nusa Penida itself; most Nusa Islands surf talent is based on Lembongan (e.g., the Hartanto family / We Surf Lembongan crew) [uncertain]",
+    "religious_sensitivity": "Nusa Penida is considered spiritually powerful in Balinese tradition (home of Ratu Gede Mecaling and Pura Puncak Mundi, Pura Goa Giri Putri, Pura Dalem Ped); avoid wearing swimsuits at temples, dress modestly when passing temple grounds; Nyepi (Day of Silence, ~March) - no boat operations or beach access islandwide.",
+    "medical_nearby": "Klinik Pratama Nusa Medika Penida (Sampalan, ~30 min from Crystal Bay); Klinik 24 Jam Puskesmas Nusa Penida; serious cases require boat evacuation to Sanur/Denpasar (BIMC, Siloam Denpasar). Limited 24-hour care on island.",
+    "nearest_clinic_distance_km": "Klinik/Puskesmas Nusa Penida: ~15-20 km from Crystal Bay; Sampalan clinic ~25 km",
+    "rescue_jet_ski_available": "No dedicated rescue jet ski; dive operators may assist in emergencies but no formal water rescue service",
+    "emergency_contact": "Indonesia general emergency: 112; Ambulance: 118/119; Coast guard Bali: +62 361 754845; nearest hospital evacuation requires boat back to Sanur"
+  },
+  "services": {
+    "nearest_surf_school": "No surf schools based on Nusa Penida; closest options are We Surf Lembongan and Monkey Activities on Nusa Lembongan (short boat from Toya Pakeh). [uncertain]",
+    "board_rental_availability": "Very limited or none on Nusa Penida itself; bring your own board via fast boat (some fast boats charge IDR 50,000-100,000 board fee) or rent on Lembongan and boat-transfer [uncertain]",
+    "surf_photographer_available": "No resident surf photographers; bring your own or arrange via Lembongan-based shooters [uncertain]",
+    "photographer_recommendation": "No specific Penida-based recommendations; Lembongan photographers can be arranged on request [uncertain]",
+    "accommodation_options": "Adiwana Warnakali, Penida Bambu Green, Semabu Hills Hotel, Adiwana Cliffside Diving Resort, Coco Resort Penida, plus numerous homestays and bungalows in Toya Pakeh, Ped, and Sampalan; for surf access, stay near Toya Pakeh or Crystal Bay area",
+    "webcam_url": "No dedicated Nusa Penida surf cam; Surfline / MagicSeaweed forecast pages for region; Lembongan webcams nearest reference [uncertain]",
+    "drone_allowed": "Generally allowed for personal use at non-temple sites; restrictions near temples and military areas; Indonesian commercial drone permit required for commercial work [uncertain]",
+    "coworking_nearby": "Penida Colada (cafe with WiFi), Amok Sunset Penida, Penida Co-living/Kerthi Bali Sanctuary; coworking infrastructure is far less developed than Bali mainland or Lembongan"
+  },
+  "pricing": {
+    "avg_lesson_price": "No structured surf lesson market on Nusa Penida; transfer to Lembongan for lessons (USD 35-50 / IDR 500,000-800,000 group lesson on Lembongan) [uncertain]",
+    "board_rental_daily": "Very limited; expect IDR 200,000-300,000/day if available via homestay or by importing from Lembongan [uncertain]"
+  },
+  "sustainability": {
+    "water_quality_rating": "Generally good - Penida has clear water (manta rays, vibrant reefs) due to deep-water currents; some concerns at Crystal Bay during peak tourist hours (sunscreen, boat fuel); wet season runoff less pronounced than Bali mainland"
+  },
+  "events_community": {
+    "annual_competition_window": "No annual surf competitions on Nusa Penida; events focus on diving (manta ray) and triathlon (Nusa Penida Half Marathon / Ocean Festival) [uncertain]",
+    "community_events": "Nusa Penida Festival (cultural festival), Sasih Kapat ceremonies at Pura Dalem Ped, Galungan/Kuningan; surf community sparse [uncertain]"
+  },
+  "uncertain": [
+    "wave_height_range",
+    "swell_consistency_rating",
+    "wave_length_meters",
+    "wave_speed_rating",
+    "secondary_peaks",
+    "entry_fee",
+    "resident_local_legends",
+    "nearest_surf_school",
+    "board_rental_availability",
+    "surf_photographer_available",
+    "photographer_recommendation",
+    "webcam_url",
+    "drone_allowed",
+    "avg_lesson_price",
+    "board_rental_daily",
+    "annual_competition_window",
+    "community_events"
+  ]
+}

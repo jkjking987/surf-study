@@ -1,0 +1,86 @@
+{
+  "basic_info": {
+    "name": "Gili Trawangan & Gili Air - Bongkas Reef (Chinese: 吉利群島 - 邦卡斯礁; Indonesian: Gili Trawangan & Gili Air - Bongkas Reef)",
+    "category": "surf_spot",
+    "region": "Nearby Islands",
+    "gps_location": "Gili Trawangan Bongkas (south end): -8.3712, 116.0297; Gili Air south reef: -8.3681, 116.0832 (approx.). Google Maps: https://maps.app.goo.gl/GiliTrawangan",
+    "distance_from_dps_airport_km": "~110-120 km straight-line + sea crossing; total travel ~3-4 hrs (DPS to Padangbai/Serangan fast boat 1.5-2 hrs + transfers), or DPS to Lombok International + 1 hr taxi to Bangsal + 15 min boat",
+    "distance_from_canggu_uluwatu_min": "From Canggu: 60-90 min motorbike to Serangan/Padangbai + 1.5-2.5 hr fast boat (total ~3-4 hrs); From Uluwatu: ~90-120 min motorbike to harbor + 1.5-2.5 hr fast boat"
+  },
+  "surf_conditions": {
+    "wave_type": "Gili Trawangan Bongkas: left-hand reef break (fast, hollow, powerful). Gili Air: right-hand reef break off southeast/southwest coast (mellower on small days, fast and hollow on size). Both are coral reef breaks.",
+    "skill_level": "Intermediate to Advanced (Bongkas Trawangan on small days is intermediate-friendly; on size it becomes advanced-only due to fast hollow take-offs over shallow reef). Gili Air similar - mellow for intermediates small, advanced when big.",
+    "wave_height_range": "2-6 ft typical (Bongkas works well 2-5 ft); needs sizable SW swell to start working; can hold up to 6-8 ft on rare days [uncertain]",
+    "bottom_type": "Sharp shallow live coral reef (300m shelf at Trawangan)",
+    "best_season": "Dry season May-September (peak SW swell window); some sources note wet season Jan-March also works with cleaner northern wind. Gili Air shines occasionally during wet season Jan-March with N winds.",
+    "best_tide": "Mid to high tide essential - the reef shelf is dangerously shallow at low tide; do not paddle/boat over reef at low tide",
+    "best_wind": "Offshore E to SE winds; light cross-offshore acceptable; afternoon onshore SW common in wet season",
+    "best_swell_direction": "SW to W swell wraps around southern tip of Lombok and hits the Gili reefs; SSW long-period works best for Bongkas Trawangan",
+    "swell_consistency_rating": "2 (Gilis are known as 'fickle' - require proper swell event; Gili Air described as a near-myth that only fires occasionally) [uncertain]",
+    "wave_length_meters": "50-300 meters at Trawangan Bongkas on best days (full shelf rides possible); Gili Air typically shorter 30-80m rides [uncertain]",
+    "wave_speed_rating": "Fast (Bongkas is known for fast hollow sections; Gili Air gets hollow and fast on bigger days; both are quick steep waves)",
+    "takeoff_zone_difficulty": "Moderate to high - sharp quick take-offs over shallow reef; positioning is critical; Bongkas has reputation for heavy steep drops",
+    "secondary_peaks": "Gili Trawangan has Bongkas (left, south end) plus an A-frame setup sometimes called 'Playgrounds/Secrets' off the southwest corner; Gili Air has the main right-hander off southern tip plus occasional left peelers [uncertain]",
+    "peak_crowd_level": "2 (low crowds - especially compared to Bali Bukit; Gili Air often empty; Bongkas Trawangan picks up some traffic from surf schools and visitors)"
+  },
+  "practical_info": {
+    "access": "From Bali: fast boat from Padangbai/Serangan/Amed to Gili Trawangan (1.5-2.5 hrs, IDR 350,000-700,000 one-way) or via Lombok mainland Bangsal Harbor (15-min public boat). No motorized vehicles on islands - walk, bicycle, or cidomo (horse cart) to break. Bongkas Trawangan is short walk/cycle from south harbor area.",
+    "paddle_out_method": "Paddle from beach at south end of Gili Trawangan to Bongkas (relatively short paddle); for Gili Air right, a longer paddle (or short boat hop) from southern tip beach to reef edge - watch the channel and currents",
+    "entry_fee": "No surf entry fee; Gili islands fast boat fees and tourist levy (~IDR 50,000) apply; some hotels charge beach loungers separately",
+    "recommended_session_time": "Dawn patrol (5:30-7:30 AM) for glassy water and to catch the high-tide window; late afternoon often picks up onshore wind",
+    "best_time_of_day": "Early morning around the high-tide window; check tide chart - mid-to-high tide is the safer window over coral",
+    "nearby_warung": "Numerous warungs, cafes, and beach clubs on Gili Trawangan (especially south harbor area: Pearl Beach Lounge, Casa Vintage Beach, La Moomba, Pesona Cafe); Gili Air has Mowie's Bar, Gili Air Hostel cafe, Scallywags",
+    "alternative_spot_within_10min": "Within Gili archipelago: switch between Bongkas (Trawangan) and Gili Air right depending on swell and wind; Lombok mainland breaks (Senggigi area) ~30 min boat back to Lombok; truly local alternative is the Trawangan SW 'Playgrounds' peak",
+    "boat_charter_required": "Not strictly required for Bongkas Trawangan (paddle from beach) or Gili Air south reef; some surfers take short outrigger boat (~IDR 100,000-200,000) to save energy and avoid reef walk"
+  },
+  "safety_culture": {
+    "hazards": "Shallow sharp coral reef (especially low tide), sea urchins, strong tidal currents through Lombok Strait, occasional jellyfish, deceptive flat water that can turn powerful on swell, lack of motorized rescue (no jet skis), boat traffic in channels between islands",
+    "marine_hazards": "Sea urchins on reef (wear booties), occasional box jellyfish in season, blue-ringed octopus rare, lionfish on reef; sea snakes occasional; no shark issues; reef cuts very common - treat with antiseptic immediately",
+    "reef_cut_severity_index": "High - live coral reef is sharp and biological (high infection risk); booties strongly recommended; deeper grating injuries possible during low-tide wipeouts",
+    "rip_current_pattern": "Tidal currents flow strongly between Gili Trawangan-Meno-Air (Lombok Strait) and can pull surfers off-island; current direction switches with tide; the 300m reef shelf at Trawangan has a notable outflow channel on the southwest corner",
+    "lineup_etiquette": "Friendly and laid-back lineup compared to Bukit Bali; locals welcoming; standard etiquette - wait your turn, don't drop in, ask locals/surf school for tips on takeoff zone",
+    "localism_intensity": "Low - one of the friendliest surf cultures in Indonesia; locals from Bongkas Surf School and Kubu Surf School happy to share waves and tips",
+    "respect_protocol": "Be respectful to local Sasak culture (Muslim majority on Lombok and Gilis - dress modestly off-beach; avoid public alcohol consumption in Muslim quarters; observe Ramadan fasting hours discreetly during fasting month). On the water: standard surfing courtesy, no drop-ins, smile and chat with locals.",
+    "resident_local_legends": "Bongkas Surf School founders/instructors are island regulars; Kelly Slater notably mentioned Gili Air right-hander as a favorite fun wave (per Surf Atlas and other sources) [uncertain]",
+    "religious_sensitivity": "Predominantly Muslim Sasak community on the Gilis (mosques broadcast call to prayer five times daily); dress modestly off-beach especially in village areas; Ramadan and Eid observance important; some no-alcohol zones near mosques",
+    "medical_nearby": "Multiple clinics on Gili Trawangan: Blue Island Medical Clinic, Warna Medica (Empat Pillar Medika), Island Medical Service, Gili Medical Care (GEMS), Gili Emergency Clinic - several offer 24-hour service; Gili Air has Gili Air Clinic Center (Empat Pillar Medika). No hospital on Gilis - serious cases evacuated to Lombok mainland or Bali by speedboat ambulance / helicopter.",
+    "nearest_clinic_distance_km": "On Gili Trawangan: clinics are within 1-2 km walk/bicycle of Bongkas; on Gili Air: clinic 0.5-1 km from south surf area; mainland Lombok hospital (Mataram) is ~10-20 km + sea crossing",
+    "rescue_jet_ski_available": "No - no jet skis allowed in Gili waters (eco/marine park rules); rescue is by speedboat or sea ambulance only",
+    "emergency_contact": "Indonesia general emergency: 112; Gili Emergency Clinic: contact via giliemergency.com / Blue Island Clinic 24-hour line; sea ambulance arranged through clinics; helicopter evacuation via medical insurance providers"
+  },
+  "services": {
+    "nearest_surf_school": "Bongkas Surf School (south end Gili Trawangan, on Bongkas Reef itself), Sunny Surf School Gili Trawangan, Kubu Surf School (5-day surf camp packages); Gili Air has smaller schools and freelance instructors via Aquaholic / Villa Burung referrals",
+    "board_rental_availability": "Yes - Bongkas Surf School, Kubu Surf School, and several rental shacks on Gili Trawangan rent shortboards, longboards, and SUPs; Gili Air has more limited rental, ask at Villa Burung or local surf shacks. ~USD 10-15/day SUPs; surfboard rates vary [uncertain]",
+    "surf_photographer_available": "Limited - Bongkas Surf School offers drone footage of sessions for IDR 150,000; freelance photographers occasional, no permanent water photographer stationed",
+    "photographer_recommendation": "Bongkas Surf School drone package IDR 150,000; arrange water photography via surf schools or social media DM to local shooters [uncertain]",
+    "accommodation_options": "Gili Trawangan: Pearl Beach Resort, Hotel Vila Ombak, Karma Reef, Le Pirate Beach Club, Gili Mansion, plus dozens of mid-range bungalows and hostels (Manta Dive Gili Air for combined dive+surf). Gili Air: Villa Burung Gili Air (recommended for surfers), 7Seas Cottages, Sunrise Resort, Begadang Bungalows. Kubu Surf School and Bongkas Surf School offer surf camp packages.",
+    "webcam_url": "Surfline Gili Trawangan spot page: https://www.surfline.com/surf-report/gili-trawangan/640a68024eb37506299e109e (forecast; live cam coverage limited) [uncertain]",
+    "drone_allowed": "Generally allowed for personal use over beaches and reefs; respect privacy and avoid flying over mosques/temples; commercial use requires Indonesian permit [uncertain]",
+    "coworking_nearby": "Gili Trawangan: Trawangan Cocoon (cafe with WiFi), Pearl Beach Lounge work zone, Casa Vintage; Gili Air: Mowie's Bar daytime, Begadang Mat & Co; limited dedicated coworking compared to Bali"
+  },
+  "pricing": {
+    "avg_lesson_price": "USD 35-55 / IDR 500,000-850,000 per group lesson (1.5-2 hrs incl. board); private lessons USD 60-90 / IDR 900,000-1,400,000 [uncertain]",
+    "board_rental_daily": "IDR 150,000-300,000/day (~USD 10-20) for shortboards; SUPs from USD 10/day at Bongkas Surf School [uncertain]"
+  },
+  "sustainability": {
+    "water_quality_rating": "Generally excellent - Gili Marine Park status, clear water, healthy reefs; some concerns around south harbor with boat fuel and snorkeler sunscreen; wet season runoff minimal compared to Bali main island"
+  },
+  "events_community": {
+    "annual_competition_window": "No major annual surf competition on the Gili Islands; occasional informal surf days hosted by Bongkas Surf School and Kubu Surf School [uncertain]",
+    "community_events": "Sasak cultural events on Lombok mainland; full-moon parties on Gili Trawangan (Sama Sama Reggae Bar, Tir Na Nog); occasional reef clean-up events organized by Gili Eco Trust and dive shops; Ramadan/Eid observance"
+  },
+  "uncertain": [
+    "wave_height_range",
+    "swell_consistency_rating",
+    "wave_length_meters",
+    "secondary_peaks",
+    "resident_local_legends",
+    "board_rental_availability",
+    "photographer_recommendation",
+    "webcam_url",
+    "drone_allowed",
+    "avg_lesson_price",
+    "board_rental_daily",
+    "annual_competition_window"
+  ]
+}

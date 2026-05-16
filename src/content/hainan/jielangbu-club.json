@@ -1,0 +1,85 @@
+{
+  "basic_info": {
+    "name": "Jielangbu Surf Club / JALENBOO Surf Club (戒浪不沖浪俱樂部, also written 戒浪·不; English brand: JALENBOO; previously Riyue Bay Surf Club / Surfing Hainan)",
+    "location": "Riyue Bay (Sun & Moon Bay), Liji Town, Wanning City, Hainan Province, China - the original Riyue Bay flagship store sits on the main surf beach; additional branches in Qingshui Bay (清水灣, Hainan) and Shilaoren (石老人, Qingdao, Shandong)",
+    "operator": "Hainan Wanning Riyue Bay Surf Service Co., Ltd. (海南萬寧日月灣衝浪服務有限公司); legal representative Zeng Shan (曾山); registered capital 1.25 million RMB; ~33 employees as of 2023; supported by the Wanning municipal government under a 'government + enterprise' surf-industry model",
+    "opening_date": "2011-12-30 (parent company registered 2011-08-31; Riyue Bay flagship opened 2011-12-30; rebranded from 'Riyue Bay Surf Club' to 'JALENBOO / 戒浪不')",
+    "status": "operating",
+    "category": "surf_club"
+  },
+  "technical_specs": {
+    "wave_technology_brand": "N/A - natural ocean surf spot (not an artificial wave pool); coaching delivered on the natural waves of Riyue Bay",
+    "pool_size": "Operates along the ~2 km natural Riyue Bay surf beach (not a wave pool)",
+    "wave_height": "Roughly 0.5-2.5 m seasonal range at Riyue Bay; ~0.5-1.0 m soft/peeling whitewater inside zone for beginners; up to 2-3 m faces during the October-March NE monsoon swell window",
+    "wave_height_adjustability": "No - natural waves; the school selects coaching zones (whitewater inside vs. green-wave outside) and date windows to match student level",
+    "wave_types": "Natural beach break with reef-influenced sections; soft whitewater for beginners, peeling shoulders for intermediate, occasional steeper faces and short barrel sections during peak NE swell for advanced",
+    "waves_per_hour": "N/A - natural ocean surf, wave count depends on swell and tide",
+    "wave_count_per_set": "N/A - natural ocean swell sets, typically 3-6 waves per set with 8-15 second intervals depending on swell period [uncertain]",
+    "session_length": "120 minutes (2-hour group lesson is the standard format)",
+    "stance_rotation_schedule": "N/A - natural beach break, no stance rotation; both Goofy and Regular work equally",
+    "wave_type_classification": "Natural beach break / point-style peel at Riyue Bay - longboard-friendly, suitable for soft-tops in beginner zone and shortboards on the outside"
+  },
+  "pricing_sessions": {
+    "price_range": "Group lesson approximately 400 RMB per session (2 hours); 3-session package ~1,080 RMB; price typically includes coaching, board and leash use during the lesson",
+    "session_skill_tiers": "Primary tiers: Beginner group class (1 coach to up to 3 students, 2 hours, ~400 RMB/person); multi-class package (3 sessions ~1,080 RMB); private and progression classes available on request [uncertain]",
+    "equipment_rental": "Soft-top and hard-top surfboard, leash and rashguard typically bundled with the lesson; standalone board rental ~80-150 RMB/day; wetsuit rental ~40-80 RMB/day [uncertain]",
+    "coaching_fee": "Group coaching ~400 RMB/2-hour session (1:3 ratio max); private 1-on-1 coaching available at higher rate [uncertain]",
+    "coaching_packages": "3-class bundle ~1,080 RMB; multi-class cards can be shared across people and across the Riyue Bay, Qingshui Bay and Qingdao branches (拼課 / 拼卡)",
+    "membership_program": "Class-card / multi-session card system that allows pooling between students and use across all three Jielangbu branches; specific tier pricing not published online [uncertain]",
+    "corporate_team_building": "Yes - the club hosts events, school/university training camps and corporate group bookings; specific minimum group size and pricing handled case by case [uncertain]"
+  },
+  "experience_guide": {
+    "best_season": "October to March is the prime surf season at Riyue Bay (NE monsoon swell, water ~22-26 C); April-September is smaller and more beginner-friendly; club operates year-round",
+    "best_swell_window": "October to March (NE monsoon); typhoon swells in summer/early autumn can also produce quality waves",
+    "crowd_level": "Riyue Bay has ~33 surf clubs and 170+ instructors as of 2023, making the lineup busy on weekends, Spring Festival, May Day and National Day; weekday mornings (9-11) and afternoons (15-17) are calmer; 2021 was peak with up to 4 full classes/day at Jielangbu",
+    "booking_method": "Reserve via the official website, Taobao store, WeChat (official account / mini-program), or via OTA listings on Ctrip / Dianping; walk-ins also accepted at the Riyue Bay store",
+    "booking_platform": "Official site jalenboo.com; Taobao (淘寶) flagship store; WeChat official account; Dianping (大眾點評); Ctrip / Trip.com (攜程); Xiaohongshu (小紅書) DM",
+    "payment_options": "Alipay, WeChat Pay, Chinese bank cards and cash; international cards not consistently supported [uncertain]",
+    "skill_required": "All levels - school is best known as a zero-base beginner entry point; also runs intermediate and progression coaching",
+    "age_eligibility": "Generally accepts students from ~6 years old upward with a parent/guardian for minors; upper age limit flexible based on health and swimming ability [uncertain]",
+    "child_friendly_score": "4 out of 5 - dedicated kids' surf camps, soft-top equipment, gentle inside whitewater zone; kids' programs run during summer and Chinese national holidays",
+    "sup_paddleboard_offering": "Limited - core focus is surfing; SUP rentals available informally on the bay through partner operators [uncertain]",
+    "photography_video_service": "Lesson photo / video coverage offered as add-on; specific pricing not published online [uncertain]",
+    "language_support": "Mandarin Chinese is primary; some coaches and front-desk staff handle basic English; foreign-language depth is below dedicated foreigner-facing schools [uncertain]",
+    "accessibility_for_disabled": "No publicly listed adaptive surfing program or barrier-free in-water lesson [uncertain]",
+    "stance_preference_input": "Not required at booking - natural beach break works for both Goofy and Regular; coaches assess stance during the land warm-up",
+    "safety_notes": "Mandatory pre-lesson land briefing and warm-up; helmets and leashes provided; lifeguards on the bay; coaching team includes long-time local surfers who help train candidates for the China national surf squad and have produced national-championship-level athletes (e.g. Dong Yao, men's shortboard champion at the 2024 Hainan Province Surf Championships); not all coaches hold the international ISA certification - industry-wide ISA-certified coverage in Riyue Bay is reported at under 5%, so verify the specific instructor's credentials when booking [uncertain]",
+    "events_competitions_calendar": "Long-running organizer of Riyue Bay surf events including the 'Riyue Bay World Surf Day' (drew nearly 10,000 participants by 2023), Hainan Open and the early XSories Jalenboo Surf and Skate Competition (since 2013); supports national-team trials and provincial championships"
+  },
+  "surroundings": {
+    "nearby_accommodation": "Riyue Bay surf village offers 50+ guesthouses and surf hostels priced ~250-1,200 RMB/night; on-bay options include Sweetome Surf Hotel and Forest Inn Riyue Bay Surf Branch; the new SURFLAND Wanning Surf Resort (Yue Chao + Yu Yue, 132 rooms) sits adjacent to the bay with rates from ~780 RMB/night",
+    "on_site_accommodation": "Jielangbu operates surf-themed lodging at its Riyue Bay base with private rooms and dorm-style hostel beds for surf students; meals and accommodation are included for staff and long-stay students [uncertain]",
+    "nearby_food": "Riyue Bay surf village has surf-cafe brunch spots, Hainanese seafood restaurants, hotpot, and beachfront bars; the SURFLAND X-LIVIN Street inside the adjacent resort adds upscale cafes, restaurants and a live-music venue",
+    "transport": "Self-drive, Didi ride-hailing, taxi or club shuttle from Wanning city, Sanya or Haikou; many travelers take Hainan high-speed rail to Shenzhou Station and connect by 20-minute taxi",
+    "transport_to_nearest_airport": "~70 minutes by car from Sanya Phoenix International Airport (SYX); ~20 minutes from Shenzhou high-speed rail station; ~2 hours from Haikou Meilan International Airport (HAK)",
+    "combined_itinerary": "Half-day surf at Riyue Bay + half-day pool session at SURFLAND PerfectSwell (next door) + Xinglong Tropical Botanical Garden + Shenzhou Peninsula day trip + Wanning city seafood dinner; multi-day learn-to-surf packages popular with university clubs and youth camps"
+  },
+  "reviews_reputation": {
+    "pros": "1) One of the longest-running and largest surf clubs in China (since 2011), strong brand recognition; 2) Multi-branch network (Wanning, Qingshui Bay, Qingdao) lets students reuse class cards across cities; 3) Pricing is mid-market and transparent (~400 RMB / 2-hour group class); 4) Strong competition pedigree - has trained athletes who reached provincial championship and national-team levels; 5) Widely recommended on Zhihu, Xiaohongshu and travel guides as a safer alternative to ad-hoc 'beach freelance' coaches",
+    "cons": "1) Riyue Bay lineup is very crowded during NE swell season and Chinese holidays; 2) Like much of the Riyue Bay industry, only a small share of coaches hold international ISA certification - quality varies by individual instructor; 3) English support is limited compared with foreigner-focused schools (e.g. Surfway Hainan); 4) Local press coverage in 2024 ('Riyue Bay is no longer a surf utopia') notes price competition and overcrowding has eroded the village's relaxed vibe; 5) Limited transparent online pricing for private lessons, photos and accommodation packages",
+    "user_reviews": "Generally positive on Dianping, Xiaohongshu, Zhihu and travel blogs - praised as Riyue Bay's most established and reliable surf school, considered safer and more professional than informal beach freelance coaches; Riyue Bay scenic area itself rates ~4.9 on Dianping; criticism centers on holiday-season crowding, varying coach skill levels, and the broader bay becoming more commercial",
+    "recommended_for": "Zero-base beginners and intermediate surfers from mainland China; university student groups and youth surf camps; travelers who want a long-running brand with class-card flexibility across multiple cities; competitive surfers preparing for Hainan Province Championships",
+    "operator_brand_partnership": "Hainan Wanning Riyue Bay Surf Service Co., Ltd. (private company, founded 2011) - early partner of XSories for the 2013 XSories Jalenboo Surf and Skate Competition; supported by Wanning municipal government as part of Hainan's surf-industry promotion; serves as a practice base for Chinese university leisure-sports programs and feeds athletes into the China national surf team training pool"
+  },
+  "verification": {
+    "existence_verified": "true",
+    "verification_sources": "1) Baidu Baike entry for 日月湾冲浪俱乐部 (founding date, legal representative, registered capital, 3,000+ trained members, sub-brand JALENBOO); 2) Trip.com / Ctrip listing for 戒浪不沖浪俱樂部（日月灣店）attraction id 80246727; 3) Jalenboo official site jalenboo.com; 4) Tripadvisor 'Riyue Bay Surf Club' page (Wanning, Hainan); 5) Zhihu article 'Hainan surf clubs - 10 high-popularity recommendations' (zhuanlan.zhihu.com/p/369288263); 6) Zhihu article 'Hainan surfing - this one article is enough' (zhuanlan.zhihu.com/p/617339364); 7) KickerClub 2013 coverage of the XSories Jalenboo 戒浪.不 Surf and Skate Competition; 8) Tencent News 2024 feature '日月湾，不再是冲浪乌托邦' (industry context and pricing); 9) Driftwoodrhythms travel guide 'Riyue Bay - China's Surfing Capital'",
+    "last_updated": "2026-05-15"
+  },
+  "uncertain": [
+    "wave_count_per_set",
+    "session_skill_tiers",
+    "equipment_rental",
+    "coaching_fee",
+    "membership_program",
+    "corporate_team_building",
+    "payment_options",
+    "age_eligibility",
+    "sup_paddleboard_offering",
+    "photography_video_service",
+    "language_support",
+    "accessibility_for_disabled",
+    "safety_notes",
+    "on_site_accommodation"
+  ]
+}

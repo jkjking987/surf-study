@@ -1,0 +1,99 @@
+{
+  "id": "E1",
+  "basic_info": {
+    "名稱": "One-Board Quiver 旅行板 (一支打天下旅行用衝浪板)",
+    "分類": "特殊情境 — 跨浪況通用 + 旅行託運耐用",
+    "適用程度": "中階至進階 (需具備一定技術才能讓單板覆蓋多種浪況)",
+    "一句話定位": "EPS/Epoxy + 加重 glassing 的 hybrid/mid-length 板,單板覆蓋 1-8ft 浪況並承受託運衝擊"
+  },
+  "buoyancy_strategy": {
+    "Guild_Factor_GF": "旅行 OBQ 通常拉高至 GF 0.40-0.48 (相對日常 HPSB 多 +10-20%) — 因要兼顧軟浪起乘並考量旅行疲勞、不同浪點適應期。65kg 騎手取 30-32L、75kg 取 33-37L、85kg 取 38-42L。GF 0.42-0.45 為大多數中階旅行者建議區間。",
+    "浮力公式": "體重(kg) × 0.42-0.46 = OBQ 浮力 (L)。例:70kg × 0.44 = 31L (略偏 paddle 友善);若旅行目的地多軟浪 (Bali Padang / 印尼 G-Land 雨季 / 馬爾地夫 dry season) 用 × 0.46。",
+    "相對日常板浮力增量": "OBQ 相對日常 HPSB +15-25% 浮力 — 因為單板需在不熟悉浪點快速進入狀況,paddle 餘裕重要;若旅行多大浪 (Mentawai / Cloudbreak) 也要考量 step-up 兼容,所以 25%+ 並不離譜。Hypto Krypto 的設計即典型 +20% 邏輯。",
+    "浮力範圍_體重對照": "50kg: 22-25L (5'10\" hybrid);60kg: 26-30L (6'0\" hybrid / Hypto Krypto 5'10\"-5'11\");70kg: 31-35L (Hypto Krypto 6'0\"=36.3L / Album Insanity 6'0\"=34L / CI Mid 6'8\"=40L 略偏大);80kg: 36-42L (Hypto Krypto 6'2\"=38.4L / CI Mid 6'8\"=40.2L / JS Monsta Box 6'2\");90kg+: 42-50L (CI Mid 7'0\"=44.9L / JS Big Baron 6'8\"+ / 大尺寸 Hypto Krypto)。",
+    "小浪修正係數": "若旅行目的地軟浪占比 > 50% (台灣本島、Bali off-season、馬爾地夫淡季) 在 OBQ 基準上 +3L;若旅行目的地以中浪為主 (Mentawai、Indo dry season、墨西哥) 維持基準;一般保守做法是統一 +3L 求 paddle 餘裕。",
+    "BMI_體脂修正": "高 BMI 肌肉型:OBQ 不需特別 +L (肌力能彌補);高 BMI 脂肪型:+3-5L 並增寬 (1/4-1/2\");低 BMI 偏瘦型:OBQ 可 -2L 但會 sacrifice paddle 餘裕,旅行不建議。",
+    "年齡_體能修正": ">40 歲旅行者 +5-10% 浮力 (時差、疲勞、心肺折扣);夜飛+早起接駁的 surf trip 體能下降明顯,建議 OBQ 直接拉到 GF 0.45-0.48 (而非 0.40-0.42 日常 GF)。",
+    "品牌計算器差異": "Haydenshapes 官網 Hypto Krypto size chart 偏準 (60-100kg 體重對照 5'10\"-6'4\");CI 計算器普遍偏低,取 OBQ 需在計算結果 +2-3L;JS 自家計算器列表 Monsta Box / Big Baron 偏準。Firewire (HD-EPS Helium) 計算器是 OBQ 最準的代表 — 已內建 EPS 與 PU 差異 +3%。",
+    "亞洲體型修正": "亞洲 65-70kg 旅行騎手 OBQ 取 5'10\"-6'0\" 範圍 (對應 32-36L);比歐美同體重騎手 -3L 取板。台灣旅行者前往 Bali / 沖繩前最常見錯誤是照歐美 review chart 取板太大塊。"
+  },
+  "shape_details": {
+    "Length 板長": "OBQ 主流分兩派 — (a) Hybrid 短板派 5'10\"-6'4\" (Hypto Krypto / JS Monsta Box / Album Insanity / Lib Tech Lost Quiver Killer);(b) Mid-length 派 6'8\"-7'4\" (CI Mid 6'8\"=40L / 7'0\"=44.9L / Album Plasmic 7'8\");相對日常 HPSB 加長 +2-6\" (Hybrid 派) 或 +14-20\" (Mid-length 派)。中階騎手最常用 6'0\"-6'4\" Hybrid。",
+    "Width 板寬": "Hybrid OBQ 20\"-21.5\" (Hypto Krypto 5'10\"=20.25\" / 6'0\"=20.5\" / 6'2\"=20.75\");Mid-length OBQ 20.75\"-22\" (CI Mid 6'8\"=20.75\" / 7'0\"=21.125\");相對 HPSB 加寬 +0.5\"-1.5\"。",
+    "Thickness 板厚": "Hybrid OBQ 2.5\"-2.875\" (Hypto Krypto 5'10\"=2.625\" / 6'0\"=2.75\" / 6'2\"=2.75\");Mid-length OBQ 2.625\"-3\" (CI Mid 6'8\"=2.625\" / 7'0\"=2.75\");相對 HPSB 加厚 +0.1\"-0.25\"。",
+    "Nose_Rocker": "Hybrid OBQ ~4.5-5.25\" (Hypto Krypto 的 flat rocker 為典型);Mid-length OBQ ~4.75-5.5\" (CI Mid 主流);相對 HPSB 減少 -0.25\"-0.5\" nose rocker (paddle 易、catch wave 早)。[uncertain 確切吋數]",
+    "Tail_Rocker": "Hybrid OBQ ~2.4-2.75\" (Hypto Krypto 約 2.5\");Mid-length OBQ ~2.5-2.75\";相對 HPSB 減少 -0.1\"-0.25\";若旅行目的地多 punchy 浪 (Mentawai) 反而要保留 tail rocker。[uncertain 確切吋數]",
+    "Entry_Rocker": "OBQ 一致採 'relaxed / low entry rocker' 設計 — Hypto Krypto 招牌 flat rocker;Album Insanity 'low entry rocker';CI Mid 'gentle relaxed entry';目的是讓 paddle threshold 低、catch wave 早。代價是陡浪 nose pearl 風險增加,因此 wide nose 設計常配合 (寬鼻面積大彌補 pearl 機率)。",
+    "Wide_Point_Position": "Hybrid OBQ wide point 在中心或中心前 ~0.5-1\" (Hypto Krypto 寬鼻設計推 wide point 前移);Mid-length OBQ wide point 在中心 (egg-inspired 設計平衡漂浮與轉向);相對 HPSB 將 wide point 前移 0.5-1\"。[uncertain 確切位置]",
+    "Nose_Width_at_12_inch": "Hybrid OBQ ~12.5-13.5\" (Hypto Krypto 寬鼻是招牌);Mid-length OBQ ~13-14\" (CI Mid);相對 HPSB +1\"-2\" 寬度。[uncertain 確切吋數]",
+    "Tail_Width_at_12_inch": "Hybrid OBQ ~15.5-16.5\" (Hypto Krypto pin tail 但 12\" 處仍寬);Mid-length OBQ ~16-17\" (CI Mid);相對 HPSB +1\"-2\"。[uncertain 確切吋數]",
+    "Bottom_Contour 板底設計": "OBQ 主流為 single-to-double concave 並過渡到 vee/spiral V 尾段 — Hypto Krypto: single concave 過 double 過 vee;Album Insanity: single → slight double through fins → spiral vee off tail;CI Mid: subtle single concave 為主搭 vee off tail;JS Monsta Box: single-to-double 為主。Mid-length 派偶見 belly + V 配置 (egg-inspired 板)。深度約 single 1/8-3/16\"、double 1/16-1/8\"。",
+    "Tail_Shape 板尾形狀": "Hybrid OBQ: pulled-in pin (Hypto Krypto 招牌) / round-pin (CI Mid 6'8\" pin tail 變體) / squash (JS Monsta Box) / swallow (Album Insanity 變體);Mid-length OBQ: round-pin 或 squash 主流。Pin/Round-pin 給 hold 在中大浪、swallow/squash 給 looseness 在小浪;OBQ 通常選 round-pin 平衡。",
+    "Rail_Profile": "OBQ rail 設計中段稍 boxy (foam 餘量 + paddle 友善) + 尾段 tucked-under-edge 或 down rail (carve hold);Hypto Krypto 的 'low tucked rails' 為典型;CI Mid mid-length 派 rail 偏 50-50 中段過渡至 down 尾段;比 HPSB rail 略 full 但不能像 retro fish 那麼 boxy 否則大浪轉不動。",
+    "Rail_Volume_Distribution": "OBQ rail volume 偏均勻分布 (前中後都需要漂浮);但 wide point 區域與胸下集中略多,提供 paddle 與 trim 雙效。比 HPSB 集中中段更均勻、比 retro fish 集中中段更分散。",
+    "Foam_Distribution": "OBQ 採均勻型 foam distribution 或胸下略集中 — Hypto Krypto 強調 'high amount of volume under chest';Album Insanity 'hidden foam under your chest';CI Mid 'foam distributed through nose/center/tail';目的是讓 paddle 像 longboard 一樣穩、但 carve 又能像 shortboard 一樣靈活。",
+    "Outline 輪廓曲線": "OBQ Hybrid 派:fish-like nose + pulled tail (Hypto Krypto 為標誌) 或 parallel rail (JS Monsta Box);Mid-length 派:egg-inspired curvy outline (CI Mid) 或 classic teardrop。Outline 整體曲線比 HPSB 更 parallel (寬鼻寬尾) 但比 retro fish 更 pulled (pulled tail) — 折衷之美。"
+  },
+  "fin_setup": {
+    "主要_Setup": "OBQ 主流配 5-fin 系統 (thruster + quad 兼容) — Hypto Krypto: 5-fin (推薦 thruster 一般 / quad 大浪);CI Mid 6'8\"-7'0\": 2+1 (single + side bites) 或 thruster;JS Monsta Box: thruster;Album Insanity: thruster + side bite 可選;Lib Tech Lost Quiver Killer: 5-fin。彈性最重要。",
+    "Fin_Cant": "OBQ thruster 配 4-5° cant 為主 (平衡 drive 與 looseness);quad 模式配 5-6° cant (looseness 取向);Mid-length 2+1 配 trailer 4° cant + side bite 5°。",
+    "Fin_Toe": "Thruster 設定 1/8\" toe;quad 後 fin 1/16\";Mid-length 2+1 side bite 1/8\";設計 OBQ 通常採標準設定不偏激。",
+    "Fin_Foil": "OBQ 推薦 inside foil side fin + 50-50 trailer (Futures Honeycomb / Performance Core 為主流);側鰭 inside foil 提供 lift + drive,trailer 50-50 提供方向穩定;旅行可帶 thruster + quad 兩組變化浪況。",
+    "Fin_Rake_Sweep": "OBQ 推薦中等 rake (Futures AM2 / Honeycomb HS2 / FCS II Performer) — 不要太 upright (太緊在大浪失控) 也不要太 sweep (太鬆在 punchy 浪缺 drive);中等 rake 是 OBQ 黃金中庸。",
+    "Fin_Area_Template": "OBQ 推薦 medium-to-large area 模板 (Futures HS2 medium 或 AM2 / FCS II Performer M);體重 75kg+ 騎手或多大浪旅行用 L area (Futures John John Florence Large);旅行帶 M + L 兩組更全面。",
+    "Quad_Rear_Position": "OBQ quad 模式 rear fin 靠 rail 約 1/4-3/8\" (中度 looseness);若旅行目的地多 long open-face point break (Bali Keramas / Imp's) 可移到 1/2\";若多 punchy beach break 移近 stringer 1/8\"。",
+    "2plus1_vs_PureTwin": "Mid-length OBQ (CI Mid) 主推 2+1:single trailer + side bite 在 backhand 仍提供 hold,且 single 易調整深度。pure twin OBQ 較少 (Album Apex Twin 屬例外);Hybrid OBQ thruster 為主因平衡且學習曲線低。"
+  },
+  "construction": {
+    "PU_PE 在小浪": "OBQ 採 PU/PE 的優點:carve 可預測、入水穩、knifey rail feel、價格較低;缺點:重量較重 (旅行託運怕摔重力);多用於非託運型 OBQ 或本地 OBQ (不託運出國)。",
+    "EPS_Epoxy 在小浪": "OBQ 旅行版核心構造選擇 — EPS 比 PU 輕 15-25% (託運省力)、epoxy 殼比 polyester 更耐衝擊、同浮力數值感覺更高 +3-4% (旅行疲勞時 paddle 餘裕重要)。小浪 pump 效率 EPS 比 PU 高 — 在無力浪靠 pump 加速時感受明顯。代價:chatter 感增加 (高速 vibration),空心管浪 rail 入水較浮表面感。",
+    "HD_EPS": "OBQ 高階旅行構造 — Firewire Helium (Hypto Krypto 招牌)、Haydenshapes FutureFlex (parabolic carbon frame + EPS core)、Lost Lightspeed II、Sharp Eye E3 Lite — 介於 PU 與一般 EPS 之間,保留 PU 的 dampened feel + EPS 的輕量;Lib Tech NTL (Lost Quiver Killer) 為 'eco-impacto 2 lite' 路線,標榜旅行耐摔。最推薦旅行 OBQ 構造。",
+    "Glassing_Schedule": "OBQ 旅行專用 glassing 必加重 — 標準 OBQ 採 6+4 / 4 (deck 雙層 6oz + 4oz,bottom 4oz) 為入門;耐用旅行版採 6+4 / 6 (deck 6+4oz, bottom 6oz) 為主流;極端託運耐用採 6+6 / 6 (重但耐衝擊)。FutureFlex / Helium / Lightspeed II 等 HD-EPS 內含 carbon parabolic 框架可視為等效 6+4 / 6 強度 + 較輕。對應 'EPS + Epoxy + 加重 glassing 6+4/6' 即為旅行 OBQ 黃金配方。",
+    "新技術": "(1) Haydenshapes FutureFlex (parabolic carbon frame + EPS) — Hypto Krypto 標誌構造,2018 起為旅行 OBQ 業界標竿;(2) Firewire Helium (Sustainable HDPE Springer + EPS) — eco + 輕 + 強,2020+ 持續更新;(3) Lib Tech NTL/Eco-Impacto 2 Lite — Lost Quiver Killer 旅行專用,耐摔測試極佳;(4) Sharp Eye E3 Lite — CT 級 HD-EPS,旅行 + 性能兼具;(5) Album / Dark Arts Surf carbon wrap — premium OBQ 訂製選項。"
+  },
+  "conditions_fit": {
+    "浪高範圍": "OBQ 設計覆蓋 1-8ft (Hypto Krypto 官方語 'knee-high to 8ft');實際 sweet spot 2-5ft;Hybrid 派 (Hypto Krypto / Insanity) 較適合 1-5ft;Mid-length 派 (CI Mid) 較適合 1-3ft 軟浪 + 4-6ft point break。",
+    "浪質": "OBQ 強項在軟浪到中等空心浪;對極空心管浪 (Cloudbreak / Teahupoo) 不適 — 此時需 step-up;對極軟肥浪 (台灣春末) 仍可勝任。",
+    "浪型": "OBQ 主場為 beach break (旅行最常見) + point break (Bali / 印尼);reef break 可勝任但極淺礁需特別小心 ding 損壞旅行 quiver;river-mouth 與 outer reef 兼容。",
+    "不適合場景": "(1) 雙倍頭以上空心管浪 (需 step-up,OBQ rocker 不夠);(2) 極長距離 outer-reef paddle 出去 (需要 step-up 划水);(3) 比賽情境 (需專用 HPSB);(4) 純 progressive air 訓練 (需更短更輕的 air board)。"
+  },
+  "performance": {
+    "划水容易度": "OBQ paddle threshold 極低 — Hypto Krypto / Album Insanity 可在 1ft 軟浪 paddle 起來;Mid-length OBQ (CI Mid 6'8\") 接近 longboard 起乘輕鬆度;旅行疲勞時尤其有感。Foam-under-chest 設計加 relaxed entry rocker 是 paddle 餘裕來源。",
+    "起乘速度": "OBQ 起乘比 HPSB 快 (paddle 早 + flat entry rocker 容易就位);比 retro fish 略慢 (因仍有 modern rocker)。",
+    "Glide 平面速度": "OBQ Hybrid 派 down-the-line speed 高 (single-to-double + low rocker);Mid-length 派 glide 更綿長 (長板效應)。Hypto Krypto 在 open face 速度為其招牌賣點;CI Mid 7'0\" 在 long point break 滑行可達 longboard 等級。",
+    "Pump 效率": "OBQ EPS/Epoxy 構造 pump 效率高 (輕量 + 強 flex memory);PU 構造 OBQ pump 效率中等;Mid-length 派靠 trim 而非 pump 來維持速度,pump 效率不是重點。",
+    "轉向靈活度": "OBQ Hybrid 派轉向比 HPSB 略慢 (foam 多+wide tail) 但比 retro fish 靈活 (pulled tail + 尾 rocker 餘量);Mid-length 派靠 hip+wide-point 來轉,turn arc 大但流暢。",
+    "Vertical 能力": "OBQ Hybrid 派可做 vertical snap 但 amplitude 不如 HPSB;Mid-length 派 vertical 較不適合 (egg outline + wide tail);旅行為主的騎手通常不會在 OBQ 上追求 vertical 而是 long-flowing carve。",
+    "空中動作能力": "OBQ Hybrid 派可做 small air-frontside / reverse,但落地穩定度依重量而定 (EPS 較易飛、PU 較穩);Mid-length OBQ 不適合 air。Hypto Krypto FutureFlex 構造在 air 落地 carbon parabolic frame 提供 rebound,優於同浮力 PU。",
+    "Backside_vs_Frontside": "OBQ Hybrid 派 thruster 設定 backside 與 frontside 平衡;quad 模式 backside 略缺 hold (CI Mid 2+1 trailer 補強);純 twin OBQ (少數) backside 較弱;旅行最穩選擇是 5-fin thruster default 設定。"
+  },
+  "practical_selection": {
+    "代表板款": "(1) Haydenshapes Hypto Krypto FutureFlex 5'10\"-6'4\" (33.7-38.4L) — 業界 OBQ 標竿,FutureFlex 構造為旅行 gold standard;(2) Channel Islands CI Mid 6'8\"-7'0\" (40.2-44.9L) — Mid-length 派 OBQ,2+1 fin 設定;(3) Album Insanity 5'10\"-6'2\" (31.5-34L) — Josh Kerr collab HPSB-grovel hybrid,catch 3ft 起到 8ft+;(4) JS Industries Monsta Box (含 Monsta Box HYFI EPS 版) 5'10\"-6'4\" — 1ft slop 到 6ft hollow 通吃,可選 HYFI EPS 旅行構造;(5) Lib Tech x Lost Quiver Killer (EcoIMPACTO 2 Lite) 5'10\"-6'4\" — 極致耐摔旅行 OBQ。次選:Firewire Seaside & Beyond / Album Apex / Pyzel Phantom / Sharp Eye Modern 2.5。",
+    "常見錯誤": "(1) 把 OBQ 當 step-up 用 → OBQ 雖宣稱 8ft 可用但實際 6ft+ 後 control 下降,大浪該配真 step-up;(2) 選 PU 構造當旅行 OBQ → 託運過後 ding 機率與重量都吃虧;(3) glassing 太輕 (4+4 / 4 light) 託運後一次摔變 pressure dent → 應採 6+4 / 6 標配;(4) Mid-length OBQ 配錯 fin (single 太小或 side bite 太大) → 失去 paddle + carve 平衡;(5) 旅行帶 OBQ 卻沒帶備用 fin 套組 → 旅行地 fin 規格不合或遺失。",
+    "升級陷阱": "新手過度依賴 OBQ 想 'one board 解決一切' — 實際 OBQ 是中階以上騎手的工具,新手 OBQ 應該是 'soft-top mid-length' (例 Catch Surf Odysea Log) 而非 Hypto Krypto;另一陷阱是中階看 Pro Hypto Krypto review 心動,但 Pro 用尺寸對中階偏小、應 +5-7L 取板。",
+    "搭配_fin 建議": "OBQ 黃金配:5-fin box + Futures HS2 thruster set 或 FCS II Performer Performance Core (中等 rake / medium area / inside foil);旅行 quiver 額外帶 quad set (例 Futures Quad Honeycomb) 應對 Indo point break 純滑行;Mid-length OBQ (CI Mid) 主推 True Ames Greenough 4-A single fin + FCS II Mid Length Side Bites。",
+    "二手板評估": "OBQ 二手評估重點 — (1) 託運耐用構造優先 (FutureFlex / Helium / NTL 二手仍值得入手);(2) 檢查 stringerless EPS 板有無進水痕跡 (旅行 ding 修復不徹底常見);(3) fin box 4 個 plug 都要檢查 (旅行多次更換 fin);(4) 鼻段壓痕 (託運常見);(5) deck 胸下與腳掌壓痕 (Hypto Krypto 常見);二手良品約原價 60-70%。",
+    "Quiver 規劃": "若 OBQ 為旅行唯一板:6'0\"-6'2\" Hypto Krypto FutureFlex / Album Insanity / JS Monsta Box 中階體型最常見;若 OBQ + step-up 兩塊組合:OBQ 6'0\" + step-up 6'4\"-6'8\" (例 Pyzel Ghost / CI Two Happy);若 OBQ + grovel 兩塊組合 (本地小浪):OBQ 6'0\" + Album Twinsman / Lost Puddle Jumper 5'8\";三塊 quiver:加 mid-length CI Mid 6'8\" 應對 longboard 心情或 mush 浪。",
+    "預算建議": "OBQ PU stock 約 USD 750-900;OBQ FutureFlex / Helium / Lightspeed II 約 USD 950-1,250;OBQ Lib Tech NTL 約 USD 950-1,100;Mid-length OBQ (CI Mid) 約 USD 950-1,100;高階 custom Album / Dark Arts carbon wrap 約 USD 1,400+;台灣進口加運費約 +20-30%;旅行 OBQ 含板袋 (Pro-Lite / FARO 8'0\" travel bag, USD 250-450) 總投資約 NTD 45,000-60,000。預算有限可選 PU 加重 glassing 二手 OBQ + 強化板袋。"
+  },
+  "pro_reference": {
+    "Stab_in_the_Dark": "OBQ 設計理念跟 Stab in the Dark 直接相關性低 (Stab in the Dark 偏好 HPSB CT 板款),但 Stab Joyride 系列定期測試 OBQ 級板款 — Hypto Krypto 多年蟬聯 Joyride 評論前列;Album Disasym / Insanity 在 Stab Electric Acid Surfboard Test 2020/2024 有討論;Lost Quiver Killer (Lib Tech 合作) 在 2023-2025 Stab 自由衝浪 round-up 出現頻次高。[uncertain 2025 確切結果]",
+    "WSL_CT 選手選擇": "OBQ 在 CT 選手間並非主流 (Pro 多用 HPSB) 但 free-surf 時段常見 — Mick Fanning 自由衝浪用 Hypto Krypto 等 OBQ 級板;Italo Ferreira 自由衝浪用 Mayhem Lost Hydra/RNF;Josh Kerr (Album collab) 退役後力推 Insanity;Filipe Toledo / Kanoa Igarashi 大部份只用 HPSB 不用 OBQ。",
+    "Free_surf 風格參考": "OBQ 是自由衝浪派招牌 — Asher Pacey 用 Album Twinsman + Apex Twin 環球自由衝浪;Dane Reynolds 自由衝浪雜用各種 OBQ 風格板;Jamie O'Brien 自由衝浪 fun board;Conner Coffin (CI) 旅行帶 CI Mid;Dion Agius / Craig Anderson 用 Album / Haydenshapes 旅行。"
+  },
+  "local_taiwan_context": {
+    "浪點適配": "台灣本身就需要 OBQ 心態 — 全年浪高小、品質落差大、單塊板需覆蓋 1-6ft;Hypto Krypto / Album Insanity 在中角、烏石、南灣為最常見 OBQ;CI Mid 6'8\"-7'0\" 在金樽、佳樂水 point break 滑行特別匹配;東澳粉鳥林 reef break 用 OBQ + quad 設定;颱風季 (秋冬) 出國 (Bali / Philippines / Maldives) 也是 OBQ 黃金應用場景。",
+    "進口_訂製": "OBQ 在台灣管道 — Hooked Surf Shop 為 Haydenshapes / Album 進口商;JR Surf / VAST / Surfin' Life 偶有 JS Monsta Box / CI Mid 庫存;台灣本土 shaper (Saltywave / Wave Maker / 訂製管道) 可仿 OBQ 概念訂製 PU 版本,成本約 NTD 30,000-38,000 (進口同等構造 NTD 50,000-65,000);旅行用 OBQ 建議直接購買 EPS HD-EPS 構造而非本土 PU 訂製。",
+    "中文社群迷思": "(1) 'OBQ = 萬能板' — 實際 OBQ 在 8ft+ 大浪與極軟肥浪都有極限,不是真正萬能;(2) 'Hypto Krypto = 唯一 OBQ' — 實際 Album Insanity / JS Monsta Box / CI Mid 都是同級替代;(3) 'OBQ 越大越好' — 過大反而 carve 受限,中階騎手最易誤判;(4) 'EPS 容易壞' — 加重 glassing + HD-EPS 構造耐摔程度遠超 PU。",
+    "在地教練建議": "Hooked Surf Shop 主推 Haydenshapes Hypto Krypto FutureFlex 為旅行 OBQ 首選;JR Surf 教練偏好 Album Insanity 與 CI Mid;台灣多數教練同意 65-75kg 中階騎手最佳 OBQ 是 6'0\"-6'2\" FutureFlex Hypto Krypto (35-38L);第一次出國 surf trip 的學員會被建議直接買 OBQ 而非帶平常的 HPSB。[uncertain 確切代理商]"
+  },
+  "uncertain": [
+    "Nose_Rocker",
+    "Tail_Rocker",
+    "Wide_Point_Position",
+    "Nose_Width_at_12_inch",
+    "Tail_Width_at_12_inch",
+    "Stab_in_the_Dark",
+    "在地教練建議"
+  ]
+}

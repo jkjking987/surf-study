@@ -1,0 +1,113 @@
+{
+  "id": "A5",
+  "basic_info": {
+    "名稱": "跨季風雜亂小浪情境 (Onshore/Choppy 1-3ft)",
+    "分類": "浪況情境",
+    "適用程度": "全程度(初學~進階皆需處理風浪;funformance 取向最適合中階)",
+    "一句話定位": "用浮力與寬尾換取在雜亂海面下的 fun count;不追求 hi-perf"
+  },
+  "buoyancy_strategy": {
+    "Guild_Factor_GF": "建議將 GF 抬到 0.42-0.50,刻意較標準小浪再加碼。在 onshore chop 中,浪壁不穩定、需要更多 wave count 補強學習與娛樂,過低浮力會讓騎手在 paddle stage 被 chop 推離浪;Lost Puddle Jumper、Firewire Sweet Potato、CI Average Joe、CI Rocket Wide 等代表 groveler 的標準推薦點都落在 0.42-0.48 GF。",
+    "浮力公式": "建議倍率區間 0.42 ~ 0.50。範例:70kg 騎手 → 70 × 0.46 = 32.2L,套用小浪修正(+3L)與 chop 修正(+2L 為穩定度)後實際取板 ~37-39L;同 70kg 在標準小浪(A2)建議約 31-33L。 chop 場景就是要『故意肥一點』。",
+    "相對日常板浮力增量": "建議相對日常 HPSB 增量 +25%~+40%。日常板 28L → onshore chop 板 35-39L。理由:1)chop 中 paddle 力量會被打斷,需要更高浮力代償;2)寬尾與短長度的 groveler 在低速 trim 也能維持;3)funformance 取向不在乎『轉得多狠』而在乎 wave count。",
+    "浮力範圍_體重對照": "50kg → 24-28L;60kg → 28-32L;70kg → 33-38L;80kg → 38-43L;90kg+ → 44-50L。代表板款 Firewire Sweet Potato 2026 在 5'4\" 為 34.6L (適合 60-70kg);Lost Puddle Jumper HP 5'11\" 為 36.8L (適合 70-80kg) [uncertain]。",
+    "小浪修正係數": "Chop 場景修正係數較高,建議 +3-5L。一般 chop 浪 +3L 足夠;若是極弱 chop(沒推力的腰下風浪),建議直接用 Sweet Potato 類 groveler 並 +5L,以便 paddle 上更小的浪。",
+    "BMI_體脂修正": "高 BMI 肌肉型:在 chop 中力量足,可較公式 -1L;高 BMI 脂肪型:保持公式;低 BMI 偏瘦型:+2-3L,因 chop 中瘦弱型 paddle 容易被打斷。",
+    "年齡_體能修正": "Chop 場景對體能要求極高(連續被打斷),年齡 >40 建議 +5-7L,>50 建議 +7-10L。 fun 取向的長者選 Performance Soft-top(如 Almond R-Series)是更聰明的選擇,而非硬挑高浮力短板。",
+    "品牌計算器差異": "Firewire 計算器在 chop 場景仍最接近實戰;Lost 計算器對 Puddle Jumper 偏低 2L 左右(實取建議 +2L);Channel Islands 對 Average Joe / Rocket Wide 的官方推薦偏 conservative,在 chop 中可加 +1L;Pyzel 對 White Tiger / Gremlin 等 chop 板的浮力建議偏準 [uncertain]。Soft-top(Catch Surf / Almond)沒有正規計算器,可依硬板 -2L 取板。",
+    "亞洲體型修正": "亞洲身材輕 5-10kg,在 chop 場景可 -2L。但因 chop 場景本來就需要 over-volume,建議只 -1L,避免 paddle 階段力不從心。"
+  },
+  "shape_details": {
+    "Length 板長": "建議 4'10\" ~ 5'10\"。Sweet Potato 5'4\" 是典型短而寬;Puddle Jumper HP 5'8\"-5'11\" 為主流;CI Average Joe / Rocket Wide 多為 5'6\"-5'10\"。相對日常短板縮短 -2\" ~ -5\",為 chop 場景換取 maneuver 在小空間內完成。",
+    "Width 板寬": "建議 20\" ~ 22\"。Sweet Potato 5'4\" 板寬 21 11/16\";Puddle Jumper HP 5'11\" 約 20.25\";CI Average Joe 5'9\" 約 20.5\" [uncertain]。更寬的板能在 chop 中提供更穩定 paddle 平台,但太寬(>22\")會在 rail-to-rail 顯得遲鈍。",
+    "Thickness 板厚": "建議 2.5\" ~ 2.85\"。Sweet Potato 5'4\" 為 2 7/16\";Puddle Jumper HP 5'11\" 約 2.6\";CI Rocket Wide 約 2.55\" [uncertain]。Chop 場景厚度比薄度重要(過薄會在 chop 中失去 deck stability)。",
+    "Nose_Rocker": "建議偏低,約 4.5\" ~ 5\"。Sweet Potato 約 4.5\";Puddle Jumper 約 4.75\"。Chop 場景需要平直 nose rocker 來提高 paddle threshold,但要避免完全 flat(會 pearl)。",
+    "Tail_Rocker": "建議 2.0\" ~ 2.5\"。Sweet Potato 約 2.0\";Puddle Jumper 約 2.4\"。低 tail rocker 是 chop groveler 的 DNA,提供 down-the-line speed,但 chop 中過低會讓板在 chop 頂端失去咬合 [uncertain]。",
+    "Entry_Rocker": "前段曲線需『平直且短』,Sweet Potato 採極平 entry rocker(『widest flattest thickest small wave board』);Puddle Jumper HP 採『flat rocker in the middle』。CI Rocket Wide 採稍多 entry rocker 提升 chop 中 stop 能力。Chop 中過平 entry 會在 chop 頂被推鼻,需取捨。",
+    "Wide_Point_Position": "建議 wide point 在中心或中心前 0.5\"-2\"。Sweet Potato 為『wide point pushed forward』典型;Puddle Jumper 為中心略前;CI Average Joe 為中心搭配 hip tail。前移 wide point 在 chop 中提供更早的 plane time。",
+    "Nose_Width_at_12_inch": "建議 12.5\" ~ 14\"。Groveler 在 chop 中需要較寬 nose @12\" 提供 paddle stability;Sweet Potato 約 13.5\";Puddle Jumper 約 12.5-13\" [uncertain]。",
+    "Tail_Width_at_12_inch": "建議 15.5\" ~ 17\"。Sweet Potato 採極寬 tail @12\",約 16.5-17\";Puddle Jumper 約 15.5-16\";Album Twinsman 中號約 14.5-15\"(較窄)[uncertain]。Chop 場景偏好寬 tail 因為在 chop 頂仍能 hold plane。",
+    "Bottom_Contour 板底設計": "建議 deep double concave(Sweet Potato 的 double-barrel concave 為代表);或 single-to-double(Puddle Jumper);CI Rocket Wide 採 single + flat panel。深 concave 在 chop 中提供水流加速;flat panel 在 chop 中提供穩定。Vee 在 chop 中容易 wobble,不建議。",
+    "Tail_Shape 板尾形狀": "建議 wide squash / swallow / bat tail。Sweet Potato 2026 採用 swallow tail (從原本 squash 更新);Puddle Jumper HP 採 squash;Lost RNF 系列採 swallow;CI Rocket Wide 採 squash + hip。Swallow 提供 release,squash 提供穩定。Chop 中過寬的 squash 容易在頂端失控。",
+    "Rail_Profile": "建議中段 boxy / 50-50 + 尾段 down rail。Chop 中需要 boxy 中段提供 paddle 浮力;尾段 down rail 提供 release;若是 soft-top 則全板 soft rail,在 chop 中更 forgiving。",
+    "Rail_Volume_Distribution": "建議中段集中。Chop 中需要『middle-heavy』分布,讓騎手即使重心後移也能維持 plane;Sweet Potato 是極端中段集中代表;Puddle Jumper 也是中段集中但比 Sweet Potato 略均勻。",
+    "Foam_Distribution": "建議『胸下集中、weight forward』型。在 chop 中,前移浮力可讓 paddle 更不受影響、起乘更早;Sweet Potato 與 Puddle Jumper 皆為此設計。完全均勻型在 chop 中反而會 paddle 較慢。",
+    "Outline 輪廓曲線": "建議 curvy outline 或 parallel-with-hip。Sweet Potato 與 Puddle Jumper 是 wide curvy outline(看起來像水滴);CI Average Joe 採 parallel-with-tuned-tail。 Chop 中需要 outline 提供足夠 planing area,過 parallel 在 chop 中容易 chatter。"
+  },
+  "fin_setup": {
+    "主要_Setup": "建議 thruster 或 quad。Chop 中:1)thruster 提供穩定的 trailer hold,給初~中階騎手在 chop 中重拾信心;2)quad 提供 down-the-line speed,讓騎手在 chop 中『撞過』雜亂段。Twin 也可但 chop 中不容易控制,建議純 twin 在 chop 中加裝 trailer (2+1)。Sweet Potato 為 5-fin (可 thruster 或 quad),Puddle Jumper 主推 thruster。",
+    "Fin_Cant": "建議 6.5°+。Chop 場景偏 loose 取向,較大 cant 提供更 forgiving 的轉向感;若騎手追求 drive(如 Pyzel Gremlin 的快速 release),可選 5° cant 提供 chop 中的 drive。",
+    "Fin_Toe": "建議 1/8\" 或更多。Chop 中偏 loose toe-in,讓 fin 在 chop 上有更多 forgiveness;若是 drive 取向的 Lost / CI groveler 配 thruster,1/16\" 也可,但會在 chop 中稍微 stiff。",
+    "Fin_Foil": "建議 Inside foil 為主(hold + lift)。Chop 中 inside foil 提供 chop 頂的 grip;若 quad 配置,後 fin 採 50-50 foil 增加 release。Flat foil 在 chop 中容易 slide-out 不建議初~中階使用。",
+    "Fin_Rake_Sweep": "Chop 場景建議 medium-low rake。低 rake (upright) 提供緊湊轉彎,但在 chop 中過 upright 會讓板感 jumpy;medium rake (如 AM2 / M5) 是平衡選擇 [uncertain]。",
+    "Fin_Area_Template": "建議中-大 area。Chop 中需要大 fin area 提供穩定;FCS Performer M5、Captain Fin CMC M、Futures Pancho M 都是 chop 的好選擇;體重 80kg+ 可選 L template 增加 hold [uncertain]。",
+    "Quad_Rear_Position": "Chop 場景採 quad 時,後 fin 建議靠 rail 1/2\"-3/4\",較鬆釋放讓板在 chop 中不會卡住;若是 Sweet Potato 的 split keel quad,後 fin 位置已預設,可直接使用 Machado 配套 fin。",
+    "2plus1_vs_PureTwin": "Chop 中強烈建議 2+1 而非 pure twin。中央 trailer 提供 chop 中的穩定 hold,讓騎手敢於在不穩定海面下 commit turn。FCS MR Twin+1 是 chop 友善的 2+1 經典 fin set。"
+  },
+  "construction": {
+    "PU_PE 在小浪": "Chop 中 PU 有獨特優勢:重量讓板在 chop 頂不會 chatter;knifey rail feel 在 chop 中提供可預測的 carve。但 chop 通常 wave count 高,板會被頻繁推上 reef/沙岸,PU 容易受損。CI Average Joe PU 在 chop 中口碑穩定 [uncertain]。",
+    "EPS_Epoxy 在小浪": "EPS+Epoxy 在 chop 中是兩極評價:輕量利於 pump、acceleration、small air,但 Stoked For Travel 等評測指出 Helium 構造在 chop 時『過輕、感覺像 chatter 在 chop 上』;同浮力下感覺更高(實取 EPS 可較 PU -2L)。Lost Lightspeed II 在 chop 中比 Firewire Helium 略穩定 [uncertain]。",
+    "HD_EPS": "Lost Lightspeed II 是 chop 中 EPS 與 PU 之間的折衷選擇;Firewire Helium 2 提升了 chop 表現(比第一代 Helium 更穩),但仍偏輕;Haydenshapes FutureFlex 在 Hypto Krypto 上的 chop 表現被認為非常好,因 carbon parabolic frame 提供 chop 中的 flex 穩定性。",
+    "Glassing_Schedule": "建議 6+4/6 標準或 6+6/4(deck 加重)。Chop 場景常需要重複從 chop 下推水起乘,glass 過薄(4+4/4 lightweight comp)易壞、過重(6+6/6 旅行)反應遲鈍。6+6/4 在 chop 中提供 deck stability 同時保持 bottom 速度 [uncertain]。",
+    "新技術": "Catch Surf Beater Pro / Almond R-Series Performance Soft-top 為 chop 場景近年新趨勢:soft rail 在 chop 中更 forgiving、人在 chop 中跌摔不易受傷、價格較硬板低。 Firewire Helium 2 與 Haydenshapes FutureFlex 是 chop 場景的 mid-tier 新技術選擇;Lib Tech NTL 在 Lost 合作板上提供另一耐用選擇。"
+  },
+  "conditions_fit": {
+    "浪高範圍": "1-3 ft (knee to chest high)",
+    "浪質": "風浪 / 雜亂海面 / 軟堆 / 偶有 chop 頂浪壁;不挑浪質、只要有移動感即可",
+    "浪型": "Beach break 為主場景(台灣中角、烏石、宜蘭烏石以南皆有 chop 場景);也適合在 mushy reef break 的 chop 日;不適合 reef point chop 過大時",
+    "不適合場景": "lined-up 長浪(浪費 groveler 的浪 count 強項)、空心浪(需要更陡 entry rocker)、頭高以上 chop(危險、需要更長更窄的板)、需要 vertical performance 的場景"
+  },
+  "performance": {
+    "划水容易度": "極佳。Chop 場景下 Sweet Potato / Puddle Jumper / Average Joe 的 paddle threshold 是市場上最低的:Sweet Potato 號稱可划上 knee-high 浪;Puddle Jumper HP 在 chop 中 paddle 不被打斷的能力被 Stoked For Travel 評論為『最強 onshore 表現』。",
+    "起乘速度": "極快",
+    "Glide 平面速度": "中。Chop 場景的 glide 不是主要目標,但 Sweet Potato 在『沒有 chop 的長段』能保持驚人速度;Puddle Jumper 與 CI Rocket Wide 在 chop 中需要 pump 才能維持 down-the-line speed [uncertain]。",
+    "Pump 效率": "極高。Chop groveler 的核心能力就是 pump:Sweet Potato 的 deep double concave 設計讓 pump 在 chop 中產生最大加速;Puddle Jumper 的中段 flat rocker 也讓 pump 高效。",
+    "轉向靈活度": "高(小空間)。Chop 中需要的轉向是『小範圍 quick redirect』而非『長弧 arcing turn』,short fat groveler 在這方面是強項;CI Rocket Wide 的 tuned tail + Merrick Hip 設計就是為 chop 中的 quick turn 而生。",
+    "Vertical 能力": "中-低。Chop 中能做 vertical snap 但難度高(雙重不穩定);Sweet Potato 因為太寬不適合 vertical;Puddle Jumper HP 在 chop 中可做 small vertical;CI Happy Everyday 是 chop+vertical 的最佳平衡。",
+    "空中動作能力": "中-低。Chop 中做 air 是進階騎手娛樂,因 chop 頂不穩定 launch + chop 中 landing。Puddle Jumper HP 與 Lost RNF 系列在 chop air 上的表現比 Sweet Potato 好得多;Sweet Potato 主要為划得到浪,不為 air。",
+    "Backside_vs_Frontside": "Chop groveler 在 frontside 與 backside 的差異不像 twin 那麼明顯,因為 thruster/quad 配置在兩面都有 hold。但 chop 中 backside 仍較困難,因要對抗 chop 同時看不到浪頭發展;CI Average Joe 的 hip tail 對 backside 有幫助。"
+  },
+  "practical_selection": {
+    "代表板款": "1) Firewire Sweet Potato 2026 (5'4\"×21 11/16\"×2 7/16\"/34.6L, swallow tail, Helium 構造);2) Lost Puddle Jumper HP (5'11\" 約 36.8L, squash tail, thruster/quad 5-fin);3) Channel Islands Average Joe (5'6\"-5'10\", 略多 nose rocker + tuned tail);4) Channel Islands Rocket Wide (5'6\"-5'10\", small-wave performance groveler);5) Channel Islands Happy Everyday (5'7\"-5'10\", chop 中保留 vertical 能力的折衷)。Soft-top 替代:Catch Surf Beater Pro 5'6\"、Almond R-Series 5'8\"。",
+    "常見錯誤": "1) Chop 中還想用 HPSB → 浮力不夠 + paddle 被 chop 打斷,結果整場零 wave;2) 配 thin glass(4+4/4) chop 板 → 板會在 chop 中 chatter 加速磨損;3) Quad fin 後 fin 太靠 stringer → chop 中過 drive 失去 release;4) Sweet Potato 配 thruster 用在 head high → 板太寬反而 unstable(該款只適合 1-4ft);5) Soft-top 騎進 chop 才發現 fin 太軟,造成 chop 中失去 hold(建議升級 hard fin)。",
+    "升級陷阱": "1) 看 Asher Pacey 在乾淨點 break 的 twin 影片就買純 twin 到 chop 中用,結果 backside 完全控不住;2) 跟風買 Stab in the Dark 比賽板(如 Sharp Eye Synergy 28.5L),在 chop 中浮力嚴重不足;3) 跳級買 Pyzel CT model(Phantom EX),小 chop 浪根本不上;4) 認為 mid-length 在 chop 中也能用,但 mid-length 在 chop 中其實會 chatter(過長過薄)。",
+    "搭配_fin 建議": "Puddle Jumper HP thruster:FCS Performer PC5/PC7、Captain Fin CMC M、Futures Pancho M;Puddle Jumper HP quad:Futures Mayhem Quad、FCS Mick Fanning Tri-Quad;Sweet Potato quad:Firewire Machado Quad Keel(標配)、Futures Rob Machado Keel;Average Joe / Rocket Wide:FCS H4 thruster、Captain Fin CMC M;Soft-top 升級:升級 FCS II 硬 fin 取代軟 fin (Performer M2/M3)。",
+    "二手板評估": "Chop 場景常見 ding 在 nose 與 rail(因 chop 中常被打到底);二手 chop groveler 評估要點:1) deck soft spot 在前手 / 後腳位置(Sweet Potato 與 Puddle Jumper 經常在這兩處出現 pressure dent);2) 寬尾 swallow 的 swallow notch 是否有 stress crack(較細的 tip 容易出問題);3) Helium 構造的 paulownia rail 經 5 年以上會脫膠,需檢視 rail-deck 接縫 [uncertain]。",
+    "Quiver 規劃": "兩塊規劃:1) Puddle Jumper HP 或 Average Joe 一塊吃掉 chop + 標準小浪 (A2/A5);2) HPSB 5'10\" 吃掉 chest+ 飽滿浪。三塊規劃:加一塊 Sweet Potato 處理極小 chop + 軟堆 (A1/A5 極端) + Mid-length 處理 lined-up 慢浪(A4/A6)。在台灣四季多 chop 的情況下,Puddle Jumper HP 是『一支打天下』的最強候選。",
+    "預算建議": "高階新訂製(Lost / CI / Pyzel 進口):NTD 28,000-38,000;Firewire Helium Sweet Potato:NTD 30,000-36,000;Performance Soft-top(Catch Surf / Almond):NTD 8,000-14,000(極具性價比);本土訂製類似 outline 的 groveler:NTD 16,000-24,000 [uncertain];二手良好:NTD 12,000-20,000。"
+  },
+  "pro_reference": {
+    "Stab_in_the_Dark": "Stab in the Dark 比賽板以 HPSB 為主,但 Joyride / Board Test 系列有針對 chop / groveler 的測試:Joyride Lost Puddle Jumper HP 評測為『One of the best all round surfboards』;Joyride Sweet Potato 系列在 Hawaii 與 California 都有實戰測試;Hypto Krypto Twin 的 Joyride Test 提到『在 sub par 條件 grovel 能力驚人』。Stab in the Dark 沒有 onshore chop 特定優勝者,但 2024 賽事多在 Indo 乾淨點測試,與 chop 場景不直接相關 [uncertain]。",
+    "WSL_CT 選手選擇": "Filipe Toledo 在比賽 chop 場景仍堅持高階 HPSB(因比賽 air 取向);Italo Ferreira 個人練習在 chop 中愛用 Mayhem-shaped 短而厚的 groveler;Kelly Slater 私下偏好 Slater Designs Sci-Fi 2.0 / Cymatic 處理 chop(Tomo parallel rail 在 chop 中穩定);Jordy Smith 在南非 chop 場景常用 Channel Islands Happy 系列;Ethan Ewing 偶爾在 chop 中用 CI Happy Everyday 練習 [uncertain]。",
+    "Free_surf 風格參考": "Dane Reynolds 為 chop free surf 風格代表,長期使用 Lost / Channel Islands chop-friendly 板;Jamie O'Brien 為 chop+soft-top 趣味風格代表,常以 Catch Surf Beater 在 chop 中娛樂;Josh Kerr 為 chop air 與 funboard 風格代表;Mikey February 在 chop 中以 twin fin glide 著稱 [uncertain]。"
+  },
+  "local_taiwan_context": {
+    "浪點適配": "台灣 chop 場景極為普遍,適配如下:1) 中角秋冬東北季風天 → Puddle Jumper HP 5'10\" 或 Average Joe;2) 烏石港冬日 chop → Sweet Potato 或 Rocket Wide;3) 南灣夏季西南風 chop → Puddle Jumper 或 Soft-top;4) 金樽冬季雜亂日 → Average Joe 或 Hypto Krypto FutureFlex;5) 東澳粉鳥林風浪天 → Sweet Potato 為主流選擇 [uncertain]。",
+    "進口_訂製": "進口 Sweet Potato / Puddle Jumper 在台灣可由 JR Surf、SurfShop 等代理取得,新板 NTD 28,000-36,000;本土訂製 chop groveler(JR Surf、Wei's、阿伯訂製、SK 等)價格 NTD 15,000-22,000,但細節 contour(尤其 double concave 深度)的準確度視 shaper 經驗;Performance Soft-top 在 Decathlon 與 Hooked 都有低價選擇 [uncertain]。",
+    "中文社群迷思": "PTT/IG 衝浪社團 chop 場景常見迷思:1)『chop 中只能用軟板』→ 實際上 Sweet Potato / Puddle Jumper 等 high-perf groveler 在 chop 中表現遠勝普通軟板;2)『板越寬越好 paddle』→ 實際上過寬(>22\")在 chop 中 rail-to-rail 慢、反而失分;3)『chop 中浮力越大越好』→ 實際上 >0.50 GF 在 chop 中會 chatter 失控;4)『Soft-top 是初學專用』→ 實際上 Catch Surf Beater Pro 在 chop 中 funformance 是全程度玩家的選擇。",
+    "在地教練建議": "JR Surf 在中角區對 chop 場景的 groveler 配置建議經常見諸 IG / FB 社團;VAST 偏向高階選手, chop 建議較少;Decathlon 在 chop 場景主推 Olaian 軟板與低價硬板;Hooked Taiwan 與中角 BeachSide 等店家對 Beach Access Surf 系列日系 groveler 有客製經驗 [uncertain]。"
+  },
+  "uncertain": [
+    "浮力範圍_體重對照",
+    "品牌計算器差異",
+    "Width 板寬",
+    "Thickness 板厚",
+    "Tail_Rocker",
+    "Nose_Width_at_12_inch",
+    "Tail_Width_at_12_inch",
+    "Fin_Rake_Sweep",
+    "Fin_Area_Template",
+    "PU_PE 在小浪",
+    "EPS_Epoxy 在小浪",
+    "Glassing_Schedule",
+    "Glide 平面速度",
+    "二手板評估",
+    "預算建議",
+    "Stab_in_the_Dark",
+    "WSL_CT 選手選擇",
+    "Free_surf 風格參考",
+    "浪點適配",
+    "進口_訂製",
+    "在地教練建議"
+  ]
+}

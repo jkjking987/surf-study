@@ -1,0 +1,98 @@
+{
+  "id": "C7",
+  "basic_info": {
+    "名稱": "Step-Down (區別於 Step-Up)",
+    "分類": "板型分類",
+    "適用程度": "中階 / 進階(已有 HPSB 日常板,要 build quiver 才會買 step-down)",
+    "一句話定位": "比日常 HPSB 短 2-4\"、加寬加厚的『同感覺小浪板』,維持 HPSB 操控手感"
+  },
+  "buoyancy_strategy": {
+    "Guild_Factor_GF": "Step-down 的 GF 通常比日常板高 +0.04 至 +0.08。70kg 騎手日常 GF 0.43(30L HPSB)→ step-down GF 0.49-0.52 (約 34-36L)。中階 GF 0.45-0.55,進階 GF 0.42-0.48。Stab Magazine 採訪 Matt Biolos 提到 step-down 應比日常板加 3-5L",
+    "浮力公式": "step-down 浮力 = HPSB 浮力 × 1.10 至 1.20。範例:70kg 騎 30L HPSB → step-down 33-36L。另一公式:體重(kg) × 0.48-0.55 = step-down 浮力(L)",
+    "相對日常板浮力增量": "相對 HPSB +10% 至 +20% 為標準 step-down;+20% 至 +30% 進入 hybrid / groveler 領域;+30%+ 進入 Modern Mid-length 領域。Matt Biolos 多次強調 step-down 不是 groveler:『+3-5L 是甜蜜點』",
+    "浮力範圍_體重對照": "50kg:25-30L;60kg:30-35L;70kg:34-40L;80kg:40-46L;90kg+:46-54L。對應 Channel Islands Happy Everyday / Lost Puddle Jumper / Pyzel Phantom 等典型 step-down 板款",
+    "小浪修正係數": "Step-down 本身已含 +3L (Matt Biolos 標準) 的小浪修正。在極小 1-2ft 軟浪可再 +2L(進入 groveler 區);若 step-down 用於『同浪況更輕鬆代日常板』則維持 +3L 即可",
+    "BMI_體脂修正": "高 BMI 肌肉型:可選靠下限,foam 不必過多,wider 板寬已給 paddle 助力;高 BMI 脂肪型:取上限 +5L 避免起乘掙扎;低 BMI 偏瘦型:step-down 是體型偏瘦的最佳 quiver 板,foam 補體能",
+    "年齡_體能修正": "40+ 加 +3L (約等於從 +10% 變 +15%);50+ 加 +5L (進入 +20% 區間,接近 hybrid)。Matt Biolos 指出『年紀越大,step-down 越接近 groveler 配置』",
+    "品牌計算器差異": "CI Happy/Average Joe 系列計算器較準;Lost (Puddle Jumper, Sub Driver) 計算器普遍偏低 +1-2L;Pyzel Phantom step-down 計算器精準;JS Black Box / Big Baron 計算器偏實際。Firewire (Sweet Potato) 因 EPS 構造同 L 數體感更輕,建議 +1L",
+    "亞洲體型修正": "亞洲 65-70kg 騎手日常 28L → step-down 31-33L;比歐美建議 35-38L 略低。寬度方面亞洲多選 20\"-20.5\" 而非歐美主流 20.75\"-21\""
+  },
+  "shape_details": {
+    "Length 板長": "比日常 HPSB 短 2\"-4\" 為核心定義。例如日常 6'0\" HPSB → step-down 5'8\"-5'10\";日常 6'2\" → step-down 5'10\"-6'0\"。CI Happy Everyday 主流 5'7\"-6'2\";Lost Puddle Jumper 主流 5'4\"-5'10\";Pyzel Phantom 5'8\"-6'2\"。低於 HPSB -4\" 就進入 groveler / mini-fish 領域",
+    "Width 板寬": "比日常 HPSB 寬 0.25\"-0.75\"。日常 HPSB 19\" → step-down 19.25\"-19.75\";日常 19.5\" → step-down 19.75\"-20.25\"。CI Happy Everyday 5'10\" 約 19.75\";Lost Puddle Jumper 5'8\" 約 19.5\"-19.75\"",
+    "Thickness 板厚": "比日常 HPSB 厚 0\"-0.1\"。step-down 厚度增加幅度小,主要靠 width 與 foam distribution 拉浮力。HPSB 2.5\" → step-down 2.5\"-2.6\";HPSB 2.55\" → step-down 2.6\"-2.65\"。Lost Puddle Jumper 5'8\" 約 2.55\"-2.60\"",
+    "Nose_Rocker": "比 HPSB 略平 -0.25\" 至 -0.5\";典型 step-down nose rocker 4.5\"-5\" (HPSB 約 5\"-5.5\")。CI Happy Everyday 偏 HPSB 端 (約 4.75\"-5\");Lost Puddle Jumper 偏低(約 4.5\");[uncertain] 各品牌精確值不公開",
+    "Tail_Rocker": "與 HPSB 接近或略低 -0.1\";典型 2.25\"-2.55\";Lost Puddle Jumper 偏低(約 2.25-2.4\") 增加 looseness;CI Happy 接近日常板(2.4-2.55\");[uncertain] 精確值不公開",
+    "Entry_Rocker": "Entry rocker 相對 HPSB 略平,曲線連續度提升以增加 paddle。但不像 groveler 那麼平,Step-down 保留陡浪 stop 能力。Matt Biolos 設計哲學:『step-down 是 small-wave HPSB,不是 hybrid』",
+    "Wide_Point_Position": "與 HPSB 接近(中心或中心後 0.5\")。Step-down 不像 groveler 那樣 wide point 大幅前移,保持 HPSB-like 中心感。Lost Puddle Jumper 為中心 wide point",
+    "Nose_Width_at_12_inch": "11.75\" - 12.5\";比 HPSB (11.5\"-12\") 略寬 +0.25-0.5\",但比 groveler (12.5\"-13.5\") 窄;[uncertain] 精確值",
+    "Tail_Width_at_12_inch": "15\" - 16\";比 HPSB (14.5-15\") 略寬 +0.5-1\",比 wide-tail groveler / twin fish (16.5\"+) 窄;[uncertain] 精確值",
+    "Bottom_Contour 板底設計": "通常採『HPSB 同款 bottom + 略加深』:single-to-double concave 為主流。Lost Puddle Jumper 為 concave 過渡到 vee in the tail 增加 lift。Pyzel Phantom 採 single-to-double。CI Happy 為 single-to-double + subtle V-out tail",
+    "Tail_Shape 板尾形狀": "Squash tail 為主流(維持 HPSB 同感覺);部分款用 wide squash 或 diamond。Step-down 較少用 swallow(swallow 進入 fish 領域)。CI Happy = squash;Lost Puddle Jumper = squash 偏寬;Pyzel Phantom = squash;Lost Sub Driver = squash",
+    "Rail_Profile": "Step-down 維持 HPSB rail 哲學:中段 medium boxy + 尾段 hard down rail / tucked edge。比 groveler/fish 細,比 HPSB 略飽。Lost 系列描述為『modern HP rail with slightly more foam』",
+    "Rail_Volume_Distribution": "中央 - 中後段集中,與 HPSB 一致。差異在於 step-down 中段多 0.05\"-0.1\" 厚度,foam 分布更均勻不至於 ass-heavy",
+    "Foam_Distribution": "均勻型,維持 HPSB-like 平衡。胸下 foam 略增、tail foam 維持 thin。Step-down 設計核心是『日常板感 + 多一點 paddle 助力』,不像 groveler 把 foam 大量塞胸下",
+    "Outline 輪廓曲線": "比 HPSB 略 fuller(中段加 0.25-0.5\" 寬),但保留 HPSB 的曲線特徵。視覺上仍像短板,不像 fish / groveler 那麼 fat。Stab Magazine 形容『a slightly bumped up shorty』"
+  },
+  "fin_setup": {
+    "主要_Setup": "Thruster 為標準配置(維持 HPSB 同感覺是 step-down 核心)。Quad 為次選(更多速度生成 in mushy)。Twin + trailer (5-fin) 為部分款選項。Step-down 鮮少用純 twin(純 twin 進入 fish/twin 領域)",
+    "Fin_Cant": "Thruster 採 HPSB 同 cant 6.5°;Quad rear 約 4-5° cant(較直立增加 drive)",
+    "Fin_Toe": "Side fin toe 1/8\" 為標準(同 HPSB);step-down 不需要改 toe-in",
+    "Fin_Foil": "Inside foil 為主流;Center thruster fin 為 50-50。Quad rear 為 inside foil",
+    "Fin_Rake_Sweep": "Step-down 偏好 upright/中等 rake (小浪加速快);若用 HPSB 高 rake template 會偏 stiff。CI 推薦 AM2 / M5;FCS Performer / Performer Neo 為通用安全選擇",
+    "Fin_Area_Template": "中型 area(M / Medium):FCS II Performer PC Medium、Futures Rasta Medium、AM2、CI Upright。體重大者用 large area",
+    "Quad_Rear_Position": "Step-down quad rear 靠 rail 1/4\"-1/2\"(較鬆、加速 in mushy)。比 HPSB quad rear 略靠後 1/4\" 多 hold",
+    "2plus1_vs_PureTwin": "Step-down 一般不用 2+1。少數款支援 5-fin 可玩 thruster/quad/twin+trailer,trailer 提供 backhand hold。純 twin 在 step-down 不常見"
+  },
+  "construction": {
+    "PU_PE 在小浪": "PU step-down(CI Happy PU, Lost Puddle Jumper PU)在小浪有 knifey rail feel、carve 可預測。Step-down PU 較不像 groveler 的 EPS 那麼 corky,trim 更穩定。Stab Joyride 多數測試員偏好 PU step-down",
+    "EPS_Epoxy 在小浪": "Lib Tech x Lost Puddle Jumper (NTL/FC) 為 EPS/epoxy,輕量利於 pump / 起乘 / 空中。同浮力數值感覺更高(體感 +2L)。但 carve 時 corky 感是 trade-off",
+    "HD_EPS": "Lost Lightspeed II (HD EPS) 在 Puddle Jumper / Sub Driver 上廣為應用;Firewire Helium 為類似定位。HD EPS 介於 PU 與標準 EPS 之間,是 step-down 構造的甜蜜點",
+    "Glassing_Schedule": "Step-down 標準 6+4/6 (與 HPSB 同 glassing schedule),維持耐用度。比賽級 4+4/4 lightweight 可用但較易壞 in step-down 反覆 paddle 場景",
+    "新技術": "Lib Tech NTL (Lost Puddle Jumper FC) / Firewire Helium (Lost Lightspeed II) / Haydenshapes FutureFlex 都有對應 step-down 板款。新技術在 step-down 上的優勢是『輕量 + 同浮力數值體感更高』,但耐用度與 trim 穩定度低於 PU"
+  },
+  "conditions_fit": {
+    "浪高範圍": "1-4ft 為甜蜜點;5ft 可勉強;6ft+ 換 HPSB",
+    "浪質": "軟浪、半飽滿浪、weaker/mushy 浪。空心浪可勉強(因仍保留 HPSB rocker),但 swallow / wide groveler 更適合 mushy",
+    "浪型": "Beach break 為最佳場景;Point break 軟段亦佳;Reef break 軟浪可用,陡 reef 不如 HPSB",
+    "不適合場景": "(1) 4ft+ 快速空心 reef:仍用日常 HPSB;(2) 極軟 1ft 以下:用 groveler/Modern Mid;(3) Contest 級別 vertical performance:step-down 不夠靈活"
+  },
+  "performance": {
+    "划水容易度": "比 HPSB +10-20% paddle 助力,可下探至腰高浪。Stab Joyride 形容『paddles like a bigger board, surfs like a normal shortboard』",
+    "起乘速度": "比 HPSB 快(+10-20% 浮力與寬度);比 groveler 略慢(維持 HPSB rocker)",
+    "Glide 平面速度": "中等。比 HPSB 略快(寬度提供 planing),比 fish/groveler 略慢(保留 rocker 不夠 flat)。Noel Salas CI Average Joe 測試提及『surprisingly fast in dead sections』",
+    "Pump 效率": "高。Step-down 設計核心就是 pump 效率,wider tail + single-to-double 板底 = 最少能量 generate speed",
+    "轉向靈活度": "高。維持 HPSB 同款 carve、tight pocket、bottom turn 反應。是 step-down 區別於 groveler/mid 的關鍵賣點",
+    "Vertical 能力": "中。比 HPSB 略弱(因 -2-4\" 縮短),但仍可 snap、close-out lip 動作",
+    "空中動作能力": "中。Step-down 可作 frontside air、reverse,輕量 EPS 版本(Lost Puddle Jumper FC)air ability 接近 HPSB。Wide tail 給 air launch pad",
+    "Backside_vs_Frontside": "Frontside / Backside 表現一致(thruster 配置)。比 twin 配置 step-down 兩面更均衡"
+  },
+  "practical_selection": {
+    "代表板款": "(1) Channel Islands Happy Everyday / Average Joe / Fishbeard(Britt Merrick step-down 旗艦);(2) ...Lost Puddle Jumper / Puddle Jumper HP / Sub Driver 2.0 (Matt Biolos 經典);(3) Pyzel Phantom / Pyzel Ghost step-down;(4) JS Industries Black Box / Black Baron / Big Baron;(5) DHD MF Twin / Phoenix step-down 版本;(6) Firewire Sweet Potato (極 wide step-down/groveler 過渡)",
+    "常見錯誤": "(1) 把 step-down 當 groveler 買 → 縮太短或加太多浮力,失去 HPSB 操控感;(2) 配錯 fin(裝 longboard rake fin → 變 stiff);(3) 期待小浪表現 → step-down 主要場景是 2-4ft mushy,不是 1ft 死浪;(4) glassing 太重 → step-down 應保持輕快;(5) 與 HPSB 同尺寸買 → 沒有 step-down 意義",
+    "升級陷阱": "從 funboard / 軟頂跳直接買 step-down 容易感覺『不夠浮、不穩定』;step-down 假設你已能掌握 HPSB。Pro model step-down (CI Fishbeard, Lost Driver 3.0) 對中階騎手過 stiff",
+    "搭配_fin 建議": "(1) Thruster 主搭:FCS II Performer PCC Medium / Futures Rasta / Futures AM2 / Captain Fin Twin Plus 1 Medium;(2) Quad 主搭:Futures Quad Rasta / FCS II MR Twin + side 改 quad;(3) 進階騎手 + 1.5kg 以上肌肉量:換 Large size",
+    "二手板評估": "Step-down 因短小,二手 buckle 較少;但因常用於 mushy 浪可能 nose ding 累積;rail ding 影響 carve;tail kick 變形(輕踩 tail 不會凹) 是必檢項",
+    "Quiver 規劃": "Step-down 是 2-3 板 quiver 必備:1 塊 HPSB (4ft+ 飽滿浪) + 1 塊 step-down (2-4ft mushy) = 涵蓋 80% 日常浪況。3 板版:加 Modern Mid 或 longboard 應付 1ft 以下日。Step-down + Modern Mid (C6) 比 step-down + log 更通吃 2025 風潮",
+    "預算建議": "新訂製 PU:USD 700-900 (CI Happy, Lost PJ);Lightspeed II / NTL 版本:USD 1000-1300;Stock PU 比 modern mid 略便宜(因板長較短);二手好品相 50-60% 原價;軟頂版本(JS Big Baron) USD 500-650"
+  },
+  "pro_reference": {
+    "Stab_in_the_Dark": "Stab in the Dark 2023 (Italo Ferreira) 涵蓋 step-down 對應板款;2024 (Filipe Toledo) 與 2025 [uncertain winner board 細節] 都有 step-down 設計的 finalists。Lost Driver 3.0 / CI Happy Everyday 為 Stab Joyride 常勝軍",
+    "WSL_CT 選手選擇": "WSL CT 軟浪日(如 Hossegor 軟浪、巴西 Saquarema 軟段)選手會帶 step-down:Filipe Toledo (Sharp Eye Disco)、Italo Ferreira (Sharp Eye Inferno)、Ethan Ewing (DHD)、Gabriel Medina (Channel Islands)。Kelly Slater 仍偏好客製 step-down (Slater Designs Cymatic / Sci-Fi 2.0)",
+    "Free_surf 風格參考": "Dane Reynolds 是 step-down 文化推手 (...Lost);Josh Kerr 多年於 Slater Designs 推 Cymatic;Craig Anderson、Kael Walsh 等 freesurfer 帶動 step-down + EPS 構造組合;[uncertain] Jamie O'Brien 主要為 soft-top,非 step-down 代表"
+  },
+  "local_taiwan_context": {
+    "浪點適配": "中角(灘浪 1-3ft):step-down 5'8\"-5'10\" 完美;烏石港(灘浪 2-4ft 含風):5'10\"-6'0\" step-down 抗風加分;金樽(右點浪 2-5ft):step-down 不如 mid-length,直接騎 HPSB 或選略長 step-down 6'0\";佳樂水(中等 reef):step-down 可用但需 thruster 維持 hold;南灣(冬北):5'8\" step-down 是甜蜜點;東澳粉鳥林:5'10\" step-down 通吃",
+    "進口_訂製": "進口 CI Happy / Lost PJ 含關稅 NTD 32,000-42,000;國內訂製本土 shaper NTD 18,000-26,000。Step-down outline 對本土 shaper 較熟悉(類似改良 HPSB),客製化體驗較好",
+    "中文社群迷思": "迷思 1:『step-down 就是 groveler』→ 錯,step-down 維持 HPSB 操控,groveler 為小浪極端化;迷思 2:『板短就是 step-down』→ 錯,沒有加寬加厚不算;迷思 3:『step-down 適合新手』→ 錯,新手該選 funboard / 軟頂,step-down 假設你已有 HPSB 經驗",
+    "在地教練建議": "JR Surf 對 Lost / CI step-down 有實際庫存;VAST 偏向 funboard 較少 step-down 路線;Decathlon 沒有 step-down 對應產品;Hooked 進階教練可指導 step-down 配置。建議向有 Lost / CI / Pyzel 進口管道的店家詢問試騎"
+  },
+  "uncertain": [
+    "Nose_Rocker",
+    "Tail_Rocker",
+    "Nose_Width_at_12_inch",
+    "Tail_Width_at_12_inch",
+    "Stab_in_the_Dark",
+    "Free_surf 風格參考"
+  ]
+}

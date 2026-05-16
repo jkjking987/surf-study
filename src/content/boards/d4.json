@@ -1,0 +1,102 @@
+{
+  "basic_info": {
+    "名稱": "JS Industries 小浪系列 (JS Industries - Small Wave Family)",
+    "分類": "品牌板款 - 小浪 / Mid-length / Daily Driver / Hybrid",
+    "適用程度": "全程度 (Big Baron / Bullseye 中階友善;Black Baron 2.1 / Monsta Box 中階以上;Monsta Box 為 JS 2018-2019 surfboard of the year,進階更顯威力)",
+    "一句話定位": "Jason Stevenson (JS) 打造的 mid-length 到 hybrid 全譜系,Monsta Box 為 surfboard of the year 2018-2019"
+  },
+  "buoyancy_strategy": {
+    "Guild_Factor_GF": "Big Baron mid-length twin GF 0.50-0.60 (mid 取向);Black Baron 2.1 GF 0.42-0.50;Monsta Box GF 0.36-0.44 (daily driver,介於 HPSB 與 grovel);Bullseye groveler GF 0.42-0.50",
+    "浮力公式": "Big Baron:體重(kg) × 0.50-0.60 = 浮力(L);Black Baron 2.1:× 0.42-0.50;Monsta Box:× 0.36-0.44;Bullseye:× 0.42-0.50 [uncertain]",
+    "相對日常板浮力增量": "Monsta Box 比 HPSB (Monsta) 多 +10~15%;Black Baron 2.1 比 HPSB +20~30% (twin/2+1);Bullseye 比 HPSB (Raging Bull) +15~25% (短 2-3\" 而 wider);Big Baron mid +30~50% (mid-length 全 cat)",
+    "浮力範圍_體重對照": "50kg:Monsta Box 19-22L / Black Baron 2.1 22-25L / Bullseye 22-25L / Big Baron 26-32L;60kg:Monsta Box 22-26L / Black Baron 2.1 26-30L / Bullseye 26-30L / Big Baron 32-38L;70kg:Monsta Box 26-30L / Black Baron 2.1 30-34L / Bullseye 30-34L / Big Baron 36-44L;80kg:Monsta Box 30-34L / Black Baron 2.1 33-38L / Bullseye 33-38L / Big Baron 40-48L;90kg+:Monsta Box 33-38L / Black Baron 2.1 36-42L / Bullseye 36-42L / Big Baron 45-55L [uncertain]",
+    "小浪修正係數": "Bullseye / Black Baron 2.1 為 small-wave 取向已 packed foam,+3L 即可;Monsta Box 為 daily driver,1-3ft 建議 +3~5L;Big Baron mid 為 mid-length 已 abundant foam 無需額外",
+    "BMI_體脂修正": "高 BMI 肌肉型可直接 JS 計算器建議;高 BMI 脂肪型 Monsta Box 與 Bullseye 加 2-3L;低 BMI 偏瘦型可挑 Black Baron 2.1 偏小尺寸換 looseness",
+    "年齡_體能修正": "40 歲以上加 5-10% 浮力,建議 Monsta Box 升級 Bullseye 或直接 Big Baron mid-length;心肺差者選 Big Baron 或 Bullseye 偏大尺寸",
+    "品牌計算器差異": "JS 自家 Boardroom 計算器 (us.jsindustries.com / jsindustries.com.au) 算是相對準確 (與 Pyzel 類似,不像 Lost / CI 偏低);JS 的板款說明會直接給「+X liter than your standard board」具體建議 [uncertain]",
+    "亞洲體型修正": "亞洲 65kg 男性 Monsta Box 推薦 5'8\"-5'9\" (約 25-27L);Black Baron 2.1 推薦 5'6\"-5'7\" (29-30L);Bullseye 推薦 5'5\"-5'6\" (25-26L);Big Baron mid 推薦 6'4\"-6'8\" (34-38L);整體比 JS 官方歐美建議 -1\" 或 -2L"
+  },
+  "shape_details": {
+    "Length 板長": "Big Baron mid:6'4\"-7'8\" (主流 6'4\"-7'0\",mid-length 主力);Black Baron 2.1:5'4\"-6'0\" (比原 Black Baron 長 2\");Monsta Box:5'5\"-6'4\" (主流 5'8\"-5'10\",與日常 HPSB 同長或 -1\");Bullseye:5'5\"-6'4\" (比 Raging Bull 短 2-3\")",
+    "Width 板寬": "Big Baron:20.5\"-21.75\" (6'4\" 約 20.75\");Black Baron 2.1:19\"-21.25\" (5'5\" = 19,5'6\" = 20\",6'0\" = 21.25\");Monsta Box:約 18.5\"-20.25\" (5'10\" = 19.25\");Bullseye:18.875\"-20.75\" (5'8\" = 19.5\",6'0\" = 20.5\",5'5\" = 18.875\")",
+    "Thickness 板厚": "Big Baron:2.75\"-2.875\" (6'4\" = 2.75\");Black Baron 2.1:2.25\"-2.8125\" (5'5\" = 2.4375\");Monsta Box:2.1875\"-2.625\" (5'10\" = 2.4375\");Bullseye:2.25\"-2.6875\" (5'8\" = 2.4375\",6'0\" = 2.6875\")",
+    "Nose_Rocker": "Big Baron mid:約 4.4\"-4.7\" (overall flat rocker generates momentum);Black Baron 2.1:約 4.8\"-5.0\" (increased rocker over original BB);Monsta Box:約 5.0\"-5.2\" (more rocker than Blak Box 3);Bullseye:約 4.7\"-5.0\" (flatter entry rocker for paddle) [uncertain]",
+    "Tail_Rocker": "Big Baron:約 2.2\"-2.4\";Black Baron 2.1:約 2.4\"-2.6\";Monsta Box:約 2.4\"-2.6\";Bullseye:約 2.3\"-2.5\" [uncertain]",
+    "Entry_Rocker": "Big Baron:overall flat rocker (mid-length glide);Black Baron 2.1:tapered HP rail + 增加 rocker entry;Monsta Box:medium entry rocker (介於 Monsta 與 Blak Box 3);Bullseye:flatter entry rocker + 鼻段 slight vee (利於起 turn) → 起乘極快",
+    "Wide_Point_Position": "Big Baron mid:wide point 接近中心 (mid-length);Black Baron 2.1:wide point 略前移 (stretched out BB);Monsta Box:wide point 中心 (HP);Bullseye:wide point 大幅前移 (foam under chest/front foot)",
+    "Nose_Width_at_12_inch": "Big Baron:約 14\"+ (mid-length wide nose);Black Baron 2.1:約 12.5\"-13\";Monsta Box:約 12\"-12.5\";Bullseye:約 12.5\"-13\" [uncertain]",
+    "Tail_Width_at_12_inch": "Big Baron:約 16\"-16.5\";Black Baron 2.1:約 15.5\"-16.25\";Monsta Box:約 14.75\"-15.5\";Bullseye:約 15\"-15.75\" [uncertain]",
+    "Bottom_Contour 板底設計": "Big Baron:overall flat rocker + vee nose-to-tail + 雙凹 (double concave) 透過 fins;Black Baron 2.1:deep single concave → double concave through fins (Sanbah / Surf Station 多源證實);Monsta Box:single concave under front foot → double concave between fins,JS 採「reverse concave」(中段較深,兩端較淺);Bullseye:slight vee nose + moderate single-to-double concave + 利於 rail-to-rail",
+    "Tail_Shape 板尾形狀": "Big Baron:wide swallow / squash (JS 預設 swallow);Black Baron 2.1:swallow (傳承 Black Baron);Monsta Box:squash 與 swallow 雙版本;Bullseye:round tail (round tail 為主,亦有 swallow)。小浪解析:swallow (Big Baron / Black Baron 2.1) 提供 looseness + drive 平衡;squash (Monsta Box) HP 取向;round (Bullseye) 流暢 carve",
+    "Rail_Profile": "Big Baron:relatively low rails (允許高速 turn);Black Baron 2.1:tapered rail (比 OG BB 更 HP);Monsta Box:medium rails (well-blended curves to hide foam);Bullseye:medium rails + 鼻段 boxy",
+    "Rail_Volume_Distribution": "Big Baron 均勻分布 (mid-length 標準);Black Baron 2.1 中段集中 + 尾段 tapered;Monsta Box 中段集中 + 尾段 HP rail;Bullseye 鼻段+中段集中 (foam 前移)",
+    "Foam_Distribution": "Big Baron:均勻型 mid-length 飽滿;Black Baron 2.1:中段集中;Monsta Box:均勻型 (JS 形容「fuller and flatter than Monsta」);Bullseye:胸下 / 前腳集中 (wide point forward + flatter entry)",
+    "Outline 輪廓曲線": "Big Baron:fuller, rounder mid-length outline + 寬尾 swallow;Black Baron 2.1:stretched out BB,fish-influenced outline;Monsta Box:narrower outline than Blak Box 3 + 更 rocker;Bullseye:forward wide point + round tail = grovel-friendly outline"
+  },
+  "fin_setup": {
+    "主要_Setup": "Big Baron:twin (mid-length twin);Black Baron 2.1:twin + 中央 box (2+1) 可換 thruster / twin+trailer;Monsta Box:thruster (3-fin 標準);Bullseye:5-fin (可 thruster / quad / twin+trailer,Empire Ave 測 1-2ft 用 quad / twin+trailer 最佳)",
+    "Fin_Cant": "Big Baron / Black Baron 2.1 twin 用 cant 5° (MR-style);Monsta Box thruster 用 cant 5-6°;Bullseye 多模式 thruster 5-6°,quad 6-7° [uncertain]",
+    "Fin_Toe": "Big Baron twin 約 3/16\";Black Baron 2.1 twin 約 3/16\";Monsta Box thruster 1/16\";Bullseye thruster 1/16\" / quad 1/8\"",
+    "Fin_Foil": "twin (Big Baron / Black Baron 2.1) 用 inside foil + flat side;Monsta Box / Bullseye thruster 用 inside foil",
+    "Fin_Rake_Sweep": "Big Baron 用 MR / Power Twin 風格 (medium rake);Black Baron 2.1 同 (官方建議 JS Power Twin 或 MR 2+1);Monsta Box 用 medium rake (JS team template);Bullseye 用 medium rake",
+    "Fin_Area_Template": "Big Baron:large twin area (Power Twin / T1);Black Baron 2.1:medium-large twin area + 中央 small trailer;Monsta Box:medium thruster (JS Web Pyzel-ish);Bullseye:medium 5-fin 可換 quad / twin+trailer 適 1-2ft",
+    "Quad_Rear_Position": "Bullseye 5-fin quad 模式建議後鰭靠 rail 1/4-1/2\" 取 looseness (1-2ft 軟浪);Monsta Box 沒有 quad 設定 [uncertain]",
+    "2plus1_vs_PureTwin": "Black Baron 2.1 為 JS 系列中經典 2+1 (twin + trailer 提供 backhand hold);Big Baron 為純 twin (maximum drive,mid-length 取向);純 twin 適合 frontside cruise,2+1 是日常通用解"
+  },
+  "construction": {
+    "PU_PE 在小浪": "JS 主流為 PU/PE,Stab / BlinkSurf / Empire Ave 評測多以 PU 為主;PU 在小浪提供 carve 可預測性,JS Power Twin 模組搭 PU 為經典組合",
+    "EPS_Epoxy 在小浪": "JS 提供 HYFI 2.0 / HYFI 3.0 系列 (Epoxy stringer-less core + carbon Diamond construction);HYFI 在 1-3ft 軟浪 pump 效率與輕量明顯加分;JS 自稱 HYFI 比 standard PU 強 30% 輕 20%",
+    "HD_EPS": "JS HYFI 為 epoxy + carbon 強化結構,介於傳統 PU 與純 EPS 之間,類似 Firewire Helium 概念;HYFI 3.0 為 2023+ 更新版本 (再強化 + 控制 flex)",
+    "Glassing_Schedule": "JS 標配 4+4 / 4 (lightweight comp) 或 6+4 / 6 (standard);HYFI 構造為獨立壓制 (不用 traditional fiberglass schedule);Carbon Fusion 系列為 PU + carbon stringer 強化版",
+    "新技術": "HYFI 2.0 / HYFI 3.0 (專利 epoxy stringer-less + carbon Diamond,2022-2025 主推);Carbon Fusion (PU + carbon strip);JS Softboard (Big Baron / Black Baron 軟頂版,2023-2024 推出)"
+  },
+  "conditions_fit": {
+    "浪高範圍": "Big Baron:knee-high to slightly overhead (1-5ft);Black Baron 2.1:1-6ft (官方 created to handle when waves pushing 6ft);Monsta Box:2-6ft (Surf Station / BlinkSurf 評 1ft slop 到 6ft hollow 全包);Bullseye:waist-high to a couple of feet overhead (1-4ft,sweet spot 1-2ft)",
+    "浪質": "Big Baron:weak / playful 為主 (mid-length 不適合短 dumpy);Black Baron 2.1:軟浪 + 飽滿浪 + 適度空心;Monsta Box:全浪質 (crumbly to hollow);Bullseye:flatter weaker 為主 + 適度 fun points/reefs",
+    "浪型": "Big Baron 在 long point break 最佳 (gold coast 風格);Black Baron 2.1 全 break 適配;Monsta Box 全 break 適配;Bullseye 全 break (everyday zone)",
+    "不適合場景": "Big Baron 不適合 short sharp waves (mid-length 失去靈活);Black Baron 2.1 在 6ft+ 大浪不夠 control (JS Monsta 接手);Monsta Box 不適合純 1ft 微浪 (Bullseye 接手) 與 8ft+ 大浪 (Monsta 6 接手);Bullseye 不適合 head-high+ 空心浪 (Monsta Box / Raging Bull 接手)"
+  },
+  "performance": {
+    "划水容易度": "Big Baron > Bullseye > Black Baron 2.1 > Monsta Box (Empire Ave 評 Bullseye 「earns its keep」於 waist-to-OH;Big Baron mid-length paddle 為全系列最易)",
+    "起乘速度": "Bullseye / Big Baron 即刻起乘 (flat entry + foam 前移);Black Baron 2.1 快速 (paddles like mid-length);Monsta Box 中等 (HP 取向但 fuller than Monsta)",
+    "Glide 平面速度": "Big Baron > Black Baron 2.1 > Bullseye > Monsta Box (Big Baron flat rocker 在 long wave 速度卓越;Black Baron 2.1 deep single concave 速度佳;Monsta Box 速度均衡)",
+    "Pump 效率": "Monsta Box pump 效率最佳 (JS 自稱 single-to-double 為 fastest);Bullseye 用 wide tail squirt 在 flat 段擠速度;Black Baron 2.1 twin 風格 pump (前後 weight 切換);Big Baron mid pump 效率較低 (靠 glide 不靠 pump)",
+    "轉向靈活度": "Monsta Box vs Black Baron 2.1 在 small pocket 都靈活;Bullseye 靠 round tail 流暢 carve;Big Baron mid 不擅長 tight pocket (mid 取向);Black Baron 2.1 在 6ft 仍維持 control",
+    "Vertical 能力": "Monsta Box vertical snap 表現佳 (HP 取向);Black Baron 2.1 vertical 中等 (twin 設定 limit);Bullseye vertical 不主打;Big Baron mid 不打 vertical",
+    "空中動作能力": "Monsta Box airs 表現佳 (JS 2018-2019 surfboard of the year DNA);Black Baron 2.1 air 中等 (winged hold);Bullseye air 不主打;Big Baron mid 不主打 air",
+    "Backside_vs_Frontside": "Big Baron / Black Baron 2.1 twin 設定 backside 略弱,Black Baron 2.1 加 trailer 改善;Monsta Box / Bullseye thruster 兩面表現均衡"
+  },
+  "practical_selection": {
+    "代表板款": "1. Monsta Box (JS 2018-2019 surfboard of the year,1-6ft daily driver 標竿);2. Black Baron 2.1 (twin + 2+1,5'4\"-6'0\");3. Big Baron (mid-length twin,6'4\"-7'8\");4. Bullseye (groveler 5-fin,5'5\"-6'4\");5. Raging Bull (Bullseye 加長 2-3\" HP 升級版);6. JS Softboard (Big Baron / Black Baron 軟頂);7. HYFI 2.0 / 3.0 系列 (各板款 epoxy 構造選項)",
+    "常見錯誤": "1. Monsta Box 配 4-rib 大 fin 反而太重,JS team 用 medium 即可;2. Black Baron 2.1 純 twin 玩 backhand 不加 trailer → spin out;3. Big Baron 取太短 → 6'4\" 對台灣 65kg 男性已是上限,失去 mid-length glide 意義;4. Bullseye 全裝 thruster 而忽略 quad / twin+trailer 的 1-2ft 解放;5. 跳過 Monsta Box 直接買 Monsta (HP) → 中階小浪日吃癟",
+    "升級陷阱": "新手直接買 Monsta (CT HPSB) → 應從 Monsta Box 或 Bullseye 起步;Big Baron 跳到 7'6\" 太長失去 maneuverability,初次 mid-length 建議 6'8\"-7'0\";Black Baron 2.1 跳級 5'5\" 太短 → 應比日常短板 -1\" 取 paddle 容易度",
+    "搭配_fin 建議": "Monsta Box:Futures John John Florence Medium / FCS Mick Fanning Medium / Futures Pyzel JJF;Black Baron 2.1:FCS JS Power Twin + Trailer / FCS MR 2+1 / Futures T1 (官方建議);Big Baron:Futures T1 / FCS MR Twin Special / Captain Fin Twin Special;Bullseye:Futures John John Florence 5-fin / FCS Mick Fanning 5-fin (Empire Ave 1-2ft 推 quad 或 twin+trailer)",
+    "二手板評估": "JS PU 二手須查 deck delam 與 stringer 變形 (尤其 wide outline 的 Big Baron / Bullseye);HYFI 構造耐用度極高,二手仍佳 (carbon Diamond 不易斷);Black Baron 2.1 中央 fin box 漏水為常見 ding (2+1 設定須額外檢查)",
+    "Quiver 規劃": "兩塊:Monsta Box (2-6ft daily) + Bullseye 或 Black Baron 2.1 (1-3ft 軟浪);三塊:加 Big Baron mid (long point cruise) 或 Monsta (head-high+ HP);四塊:加 Xero (small 競賽) / Raging Bull (HP 升級);Monsta Box + Black Baron 2.1 為 JS 經典雙板搭配,涵蓋 1-6ft 全範圍",
+    "預算建議": "JS PU 海外進口 (Cleanline / Surfection) 約 USD 850-1100 (台幣 28k-35k);HYFI 2.0 / 3.0 約 USD 1000-1300 (台幣 32k-42k);JS Softboard 約 USD 500-700;台灣代理 (JR Surf / Hooked) [uncertain] 約 NT$ 30k-42k;Custom 訂製 8-12 週,費用 USD 950-1300 加運費關稅"
+  },
+  "pro_reference": {
+    "Stab_in_the_Dark": "2024 Stab in the Dark with Kolohe Andino:JS 提交「Monsta 10」(5'10\"x18.75x2.25x26L) 為 Jason Stevenson 親手 shape;歷史上 JS 為 Stab 系列常客,Julian Wilson 為 JS team rider 在多屆 Stab 出現;Monsta Box 為 JS 2018 與 2019 連續兩年 surfboard of the year",
+    "WSL_CT 選手選擇": "Julian Wilson (JS team) / Ethan Ewing (JS team,WSL CT 主力,2023-2025 衝冠) / Jack Robinson (歷史 JS team,後轉 Lost 上 Stab 2022);Mick Fanning (退役後仍代言);Ethan Ewing 用 JS Xero / Monsta 系列",
+    "Free_surf 風格參考": "Asher Pacey 騎 Big Baron / Black Baron 風格 (mid-length twin Gold Coast 復古);Torren Martyn (雖偏 Morning of the Earth) 提供 mid-length 風格參考;Mick Fanning 在 free surf 用 Monsta Box;Ethan Ewing 在 Snapper / Kirra 用 JS 全系列"
+  },
+  "local_taiwan_context": {
+    "浪點適配": "中角 (1-3ft 軟浪 / 4-5ft 中浪):Monsta Box 主力,小浪日換 Bullseye 或 Black Baron 2.1;烏石 (3-5ft beach break):Monsta Box 為 daily driver;金樽 (3-6ft point + reef):Monsta Box / Big Baron mid (Asher Pacey 風格);佳樂水 (reef 2-5ft):Monsta Box;南灣 (1-3ft):Bullseye / Black Baron 2.1 / Big Baron mid 玩 cruise;東澳粉鳥林 (1-4ft):Monsta Box 或 Bullseye;Big Baron mid 在台灣 long point 不多,適合金樽好天 / 南灣 cruise",
+    "進口_訂製": "JS 海外進口 (Cleanline / Sanbah / Surfection Mosman) PU 約 USD 850-1100,HYFI 約 USD 1000-1300;台灣代理 (JR Surf / Hooked) [uncertain] 約 NT$ 30k-42k;Custom 訂製 (JS Boardroom 透過 dealer) 等 8-12 週,USD 950-1300;JS 為澳洲品牌,從澳洲訂貨運送時間較美牌短",
+    "中文社群迷思": "PTT/IG 常見「JS = 大浪比賽板」忽略 Monsta Box 為 daily driver 且為 2018-2019 surfboard of the year;「Black Baron 一定要純 twin」忽略 2.1 版本有 2+1 設計即為 fin 變化用;「Big Baron 太長學習成本高」忽略 mid-length 學習曲線比 longboard 短;「HYFI 太硬不好碰」實際 HYFI flex 設計恰好接近 PU 但更耐用",
+    "在地教練建議": "JR Surf (中角) 為 JS 歷史代理 [uncertain],推 Monsta Box / Black Baron 2.1 雙板搭配;VAST Surf (烏石) [uncertain] 推 Monsta Box 為小浪 + 中浪通用主力;南灣 / 後壁湖店家小浪日推 Bullseye 或 Black Baron 2.1;Big Baron mid 在台灣 mid-length 文化興起後 (2023-2025) 漸多人玩"
+  },
+  "uncertain": [
+    "Nose_Rocker",
+    "Tail_Rocker",
+    "Nose_Width_at_12_inch",
+    "Tail_Width_at_12_inch",
+    "浮力公式 (Big Baron mid 倍率)",
+    "浮力範圍_體重對照",
+    "品牌計算器差異 (JS Boardroom 內部演算法)",
+    "Fin_Cant",
+    "Quad_Rear_Position (Monsta Box / Bullseye 設定)",
+    "預算建議 (台灣代理身份)",
+    "在地教練建議 (JR Surf / VAST 是否為 JS 代理)"
+  ]
+}

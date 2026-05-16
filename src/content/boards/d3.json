@@ -1,0 +1,102 @@
+{
+  "basic_info": {
+    "名稱": "Pyzel 小浪系列 (Pyzel Surfboards - Small Wave Family)",
+    "分類": "品牌板款 - 小浪 / Daily Driver / Groveler / Mid-length",
+    "適用程度": "全程度 (Phantom 中-進階通吃;Gremlin / White Tiger 中階友善;Tiger Twin / Crisis Twin 中階以上;Mini Ghost 中階以上 mid-length 玩家)",
+    "一句話定位": "Jon Pyzel 以 JJF Ghost 為核心衍生的小浪全譜系,Phantom 是 daily driver 標竿"
+  },
+  "buoyancy_strategy": {
+    "Guild_Factor_GF": "Phantom 為 daily driver,GF 0.38-0.44 普遍;Gremlin / White Tiger groveler GF 0.42-0.48;Tiger Twin / Happy Twin retro twin GF 0.40-0.46;Mini Ghost 短肥 mid GF 0.45-0.55;Crisis Twin mid-length twin GF 0.50-0.60",
+    "浮力公式": "Phantom:體重(kg) × 0.38-0.44 = 浮力(L);Gremlin:× 0.42-0.48;White Tiger:× 0.42-0.48 (與 Gremlin 接近,稍 flatter rocker);Tiger Twin:× 0.40-0.46;Mini Ghost:× 0.45-0.55;Crisis Twin mid:× 0.50-0.60 [uncertain]",
+    "相對日常板浮力增量": "Phantom 相對 HPSB (Ghost) +5~10% (Ghost 5'10\" = 27L,Phantom 5'9\" = 28.6L → 對應 +1-2L);Gremlin / White Tiger +20~30%;Mini Ghost 比 Ghost XL 多 +5L 同尺寸 (Ghost XL 5'10\" = 28.8L vs Mini Ghost 5'10\" = 31.3L);Tiger Twin +15~20%;Crisis Twin mid +30~40%",
+    "浮力範圍_體重對照": "50kg:Phantom 21-25L / Gremlin 24-27L / Tiger Twin 22-25L / Mini Ghost 28-32L;60kg:Phantom 26-30L / Gremlin 28-32L / Tiger Twin 26-30L / Mini Ghost 32-36L;70kg:Phantom 30-34L / Gremlin 32-36L / Tiger Twin 30-34L / Mini Ghost 35-40L;80kg:Phantom 34-38L / Gremlin 36-40L / Mini Ghost 38-44L;90kg+:Phantom 38-43L / Gremlin 40-46L / Mini Ghost 42-50L [uncertain]",
+    "小浪修正係數": "Gremlin / White Tiger 為純 groveler 已內建小浪 foam,額外 +3L 即可;Phantom 在 1-3ft 建議 +3~5L (Stab Joyride 評為 user-friendly,加浮力影響不大);Tiger Twin 在 1-3ft 建議 +2~3L;Mini Ghost / Crisis Twin 已是 small-wave 機型,無需額外",
+    "BMI_體脂修正": "高 BMI 肌肉型 (Pyzel 計算器友善):選 Phantom 標準;高 BMI 脂肪型:Phantom 加 2-3L 或直接跳 Gremlin;低 BMI 偏瘦型 (亞洲常見):選 White Tiger / Tiger Twin 偏小尺寸換 looseness",
+    "年齡_體能修正": "40 歲以上加 5-10% 浮力,建議從 Phantom 升到 Gremlin / White Tiger;心肺體能差者直接 Mini Ghost 或 Phantom XL",
+    "品牌計算器差異": "Pyzel 官方 boardcave 計算器相對準確 (比 Lost / CI 接近實測);Boardcave 為 Pyzel 主流通路,計算器較貼近 Ghost / Phantom 系列;Pyzel 自家 Pyzel Surfboards 網站亦提供 size run [uncertain]",
+    "亞洲體型修正": "亞洲 65kg 男性 Phantom 推薦 5'7\"-5'8\" (26.7-27.3L);Gremlin 建議 5'4\"-5'5\" (26-27L);Mini Ghost 5'9\"-5'10\" (29.9-31.3L);整體比 Pyzel 官方歐美建議 -1\" 或 -2L"
+  },
+  "shape_details": {
+    "Length 板長": "Phantom:5'6\"-6'6\" (主流 5'8\"-5'10\",與日常 HPSB 同長);Gremlin:5'2\"-6'2\" (比日常短 -2~4\");White Tiger:5'3\"-6'2\" (比日常短 -2~4\");Tiger Twin:5'4\"-6'2\" (-2~4\");Mini Ghost:5'5\"-6'2\" (Koa Smith 5'5\" 設計起點);Crisis Twin (mid):6'8\"-7'8\" mid-length",
+    "Width 板寬": "Phantom:18.875\"-21\" (5'9\" = 19.25\");Gremlin:約 19.13\"-20.75\" (5'4\" = 19.25\");White Tiger:約 19.13\"-20.5\" (5'3\" = 19.13\");Tiger Twin:約 19.5\"-21\";Mini Ghost:19.375\"-20.5\" (5'9\" = 19.375\",5'10\" = 19.5\",5'11\" = 19.75\");Crisis Twin:約 20.5\"-21.75\"",
+    "Thickness 板厚": "Phantom:2.312\"-3.00\" (5'9\" = 2.437\");Gremlin:2.25\"-2.625\" (5'4\" = 2.31\");White Tiger:2.25\"-2.625\" (5'3\" = 2.31\");Tiger Twin:約 2.3\"-2.7\";Mini Ghost:2.5\"-2.75\" (5'9\" = 2.5\",6'2\" = 2.75\");Crisis Twin:約 2.75\"-3.0\"",
+    "Nose_Rocker": "Phantom:約 5.0\"-5.2\" (繼承 Ghost rocker);Gremlin:約 4.7\"-4.9\" (low entry rocker);White Tiger:約 4.5\"-4.8\" (略低於 Gremlin);Tiger Twin:約 4.6\"-4.9\" (lower 取向);Mini Ghost:約 4.7\"-5.0\" (Ghost 縮版 + 加 foam);Crisis Twin mid:約 4.2\"-4.5\" [uncertain]",
+    "Tail_Rocker": "Phantom:約 2.5\"-2.7\";Gremlin:約 2.4\"-2.6\" (medium tail rocker);White Tiger:約 2.3\"-2.5\" (比 Gremlin 略低);Tiger Twin:約 2.4\"-2.6\";Mini Ghost:約 2.5\"-2.7\";Crisis Twin mid:約 2.2\"-2.5\" [uncertain]",
+    "Entry_Rocker": "Phantom:Ghost rocker 中段加 single concave 拉平 (Pyzel 官方:adds single concave to flatten center);Gremlin:low entry rocker 利於小浪起乘;White Tiger:更平的 entry (比 Gremlin 略平);Tiger Twin:lower rocker profile;Mini Ghost:beak nose + 中段 foam → 起乘極快;Crisis Twin mid:semi-traditional 平直 entry",
+    "Wide_Point_Position": "Phantom:中心 (HP outline);Gremlin:wide point 前移 (Pyzel 官方:wide point front from center);White Tiger:wide point 前移;Tiger Twin:wide point 略前;Mini Ghost:wide point 前移 + 平 deck;Crisis Twin:wide point 大幅前移 (wide-point forward outline)",
+    "Nose_Width_at_12_inch": "Phantom:約 12\"-12.5\" (HP 標準);Gremlin:約 12.8\"-13.2\";White Tiger:約 13\"-13.5\";Tiger Twin:約 13\";Mini Ghost:約 13\"-13.5\" (modern beak nose 加 foam);Crisis Twin mid:約 13.5\"-14\" [uncertain]",
+    "Tail_Width_at_12_inch": "Phantom:約 14.75\"-15.25\";Gremlin:約 15.5\"-16\";White Tiger:約 15.5\"-16\" (略寬於 Gremlin);Tiger Twin:約 16\"-16.5\" (single winged swallow);Mini Ghost:約 15.5\"-16.25\";Crisis Twin mid:約 15.5\"-16\" [uncertain]",
+    "Bottom_Contour 板底設計": "Phantom:single concave (Ghost rocker 加深 single concave 拉平 center) → double 出尾;Gremlin:flat belly (Pyzel 官方:relatively flat) + medium tail rocker;White Tiger:flatter deck and bottom 比 Gremlin → more down-the-line speed;Tiger Twin:lower rocker + single concave (源自 White Tiger 與 Happy Twin);Mini Ghost:single-to-double concave 沿用 Ghost;Crisis Twin:semi-traditional concave + 速度導向",
+    "Tail_Shape 板尾形狀": "Phantom:squash 主打,另有 round tail 版;Gremlin:squash;White Tiger:squash;Tiger Twin:single winged swallow (winger + swallow 提升 maneuverability);Mini Ghost:squash 或 round (Mini Ghost Squash / Mini Ghost Round 兩版);Crisis Twin:swallow 或 round (mid-length 變化)。小浪建議:wide squash (Gremlin / White Tiger) 加 grovel 速度;winged swallow (Tiger Twin) 加 looseness + hold;round (Mini Ghost Round / Phantom Round) 加 carve 流暢",
+    "Rail_Profile": "Phantom:medium-full rails (Stab 評「full but not chunky」);Gremlin:medium rails;White Tiger:中段 boxy + 尾段 down rail (利於小浪);Tiger Twin:medium-boxy + winged 段加邊;Mini Ghost:thicker boxy rails (Pyzel 官方:thicker and more boxy rails);Crisis Twin:medium-traditional rails",
+    "Rail_Volume_Distribution": "Phantom 分布均勻;Gremlin / White Tiger 中段集中;Tiger Twin 中段集中;Mini Ghost 中段 + 鼻段集中 (Pyzel:keep more foam under chest and nose);Crisis Twin 均勻偏鼻",
+    "Foam_Distribution": "Phantom:均勻型 (versatile);Gremlin:胸下集中 (Pyzel:wide point front);White Tiger:胸下集中 + 平 deck;Tiger Twin:胸下集中 + 尾段 winged;Mini Ghost:胸下集中 + 平 deck + 寬鼻 (modern beak nose 留 foam);Crisis Twin:鼻段集中 (mid-length 標準)",
+    "Outline 輪廓曲線": "Phantom:HP 略 fuller outline (parallel rail 偏短);Gremlin:典型 groveler curvy outline;White Tiger:略 parallel + 平 deck;Tiger Twin:single winged swallow outline;Mini Ghost:widened outline + beak nose (shrunk Ghost);Crisis Twin:wide-point forward outline,sleek 與 racey"
+  },
+  "fin_setup": {
+    "主要_Setup": "Phantom:thruster (亦有 5-fin 版可變 quad);Gremlin:thruster;White Tiger:thruster;Tiger Twin:twin (winged swallow);Mini Ghost:5-fin (官方 Futures x 5 / FCS II);Crisis Twin:twin",
+    "Fin_Cant": "Phantom thruster 用 cant 5-6° (loose-drive 中間);Gremlin / White Tiger 用 cant 6-7° (loose 取向);Tiger Twin twin 用 cant 5°;Mini Ghost 5-fin 可換不同 cant [uncertain]",
+    "Fin_Toe": "Phantom 1/16-3/32\";Gremlin / White Tiger 1/8\";Tiger Twin twin 約 3/16\";Mini Ghost 標準 1/16\" thruster",
+    "Fin_Foil": "thruster 系列用 inside foil;Tiger Twin / Crisis Twin twin 用 inside foil + flat side",
+    "Fin_Rake_Sweep": "Phantom 用 medium rake (Pyzel JJF medium rake);Gremlin 偏 upright;White Tiger 偏 upright (less rake) → 加速快;Tiger Twin 偏 keel-ish twin",
+    "Fin_Area_Template": "Phantom:Futures JJF medium (Jon John Florence 簽名 template);Gremlin / White Tiger:medium-small area;Tiger Twin:large twin area;Mini Ghost:medium area + 可換 quad;體重 >80kg 全系列升大號",
+    "Quad_Rear_Position": "Phantom 5-fin quad 模式後鰭靠 rail 1/4-1/2\";Mini Ghost quad 設定靠 rail 取 looseness [uncertain]",
+    "2plus1_vs_PureTwin": "Tiger Twin / Crisis Twin 為純 twin (maximum drive,winged 加 hold);無 2+1 設定 (Pyzel 不主推 2+1)"
+  },
+  "construction": {
+    "PU_PE 在小浪": "Pyzel 主流為 PU/Poly,Stab 與 Cleanline 測試 Phantom / Gremlin / White Tiger 皆為 PU;PU 在小浪提供 knifey rail feel + carve 預測性",
+    "EPS_Epoxy 在小浪": "Pyzel 提供 EPS 選項 (生產 6-8 週);EPS 在 1-3ft 軟浪 pump 效率與輕量化加分,但 Pyzel 團隊與 JJF 普遍仍偏 PU",
+    "HD_EPS": "Pyzel 無自家 HD-EPS 技術 (對比 Lost Lightspeed / Firewire Helium);若需 HD-EPS 等同產品可考慮 JJF Florence 自有品牌的 Tomo / Slater Designs",
+    "Glassing_Schedule": "Pyzel 標配 4+4 / 4 (lightweight comp) 或 6+4 / 6 (standard);PU/Poly 生產時間 4-6 週;custom 顏色加 1-2 週",
+    "新技術": "Pyzel 主要堅守 PU/Poly 傳統;對比 Firewire Helium / Lib Tech NTL / Haydenshapes FutureFlex 為較保守的 shaper,但 PU 飽和度與 carve 可預測性是優勢"
+  },
+  "conditions_fit": {
+    "浪高範圍": "Phantom:2-7ft (Boardcave 官方);Gremlin:1-4ft (Cleanline 評最佳 sweet spot 1-3ft);White Tiger:1-4ft (Cleanline 評 1-3ft mushy waves);Tiger Twin:1-4ft;Mini Ghost:1-5ft (Koa Smith 北岸用);Crisis Twin mid:1-5ft (mid-length speed 取向)",
+    "浪質": "Phantom:全浪質 (waist-to-overhead 表現均衡);Gremlin / White Tiger:軟浪、mushy 為主 (with little texture 也行);Tiger Twin:軟浪 + 飽滿浪 (winged hold);Mini Ghost:全浪質 (daily driver versatile);Crisis Twin mid:軟浪 + 飽滿浪 (speed 取向)",
+    "浪型": "全系列適配 beach break;Phantom / Mini Ghost 在 reef / point 也行;Crisis Twin mid 在 point break 表現最佳;Gremlin / White Tiger 在 beach mush 最好",
+    "不適合場景": "Phantom 在 0.5-1ft 微浪略力不從心 (Gremlin / White Tiger 接手);Gremlin / White Tiger 在 4ft+ overhead 不夠 hold (Phantom 接手);Tiger Twin / Crisis Twin 在大浪 / 空心 barrel 不夠 control;Mini Ghost 在 air-show 比賽不適合 (mid-length 取向)"
+  },
+  "performance": {
+    "划水容易度": "Mini Ghost > White Tiger > Gremlin > Tiger Twin > Crisis Twin (mid) > Phantom;Phantom 雖 daily driver 但 paddle 仍維持 HP 取向不及 groveler",
+    "起乘速度": "White Tiger / Gremlin / Mini Ghost 即刻起乘 (flat entry rocker + wide point forward);Phantom 中等;Tiger Twin 快速 (lower rocker);Crisis Twin mid 因 length 較長 take-off 平緩但 effortless",
+    "Glide 平面速度": "White Tiger > Mini Ghost > Gremlin > Phantom (Cleanline:White Tiger 比 Gremlin more down-the-line speed);Crisis Twin mid 在 flat 段速度卓越 (sleek racey outline);Tiger Twin 中等",
+    "Pump 效率": "Phantom pump 效率最佳 (Ghost rocker + 加深 single concave);Gremlin / White Tiger 在 flat section 用 wide tail squirt;Tiger Twin 純 twin pump 風格 (前後 weight 切換);Mini Ghost / Crisis Twin pump 效率中等 (mid-length 靠 glide)",
+    "轉向靈活度": "Phantom 在 small pocket fits well + 維持 control (Stab:fits well in small pockets);Tiger Twin maneuverability 極高 (winged swallow 加靈活);Mini Ghost 短而 chunky 但靈活;Gremlin / White Tiger 中等;Crisis Twin mid 在 carve 流暢但 tight pocket 不靈活",
+    "Vertical 能力": "Phantom vertical snap 表現佳 (HP edge);Tiger Twin 在小浪可 vertical (winged 提供 hold);Mini Ghost 中等;Gremlin / White Tiger 偏 horizontal grovel;Crisis Twin mid 不主打 vertical",
+    "空中動作能力": "Phantom airs 表現佳 (JJF Ghost DNA);Tiger Twin air 可玩 (winged 加落地 hold);Mini Ghost airs 中等;Gremlin / White Tiger air 落地不穩 (太 flat rocker);Crisis Twin 不主打 air",
+    "Backside_vs_Frontside": "Tiger Twin / Crisis Twin twin 設定 backside 略弱 (傳統 twin 通病,但 winged 緩解);其餘 thruster 系列兩面表現均衡;Mini Ghost 5-fin 兩面表現均衡"
+  },
+  "practical_selection": {
+    "代表板款": "1. Phantom (小浪 daily driver 標竿,T3 與 Stab Joyride 雙評最 user-friendly HP);2. Gremlin (1-4ft groveler,squash tail);3. White Tiger (Gremlin 升級平 deck 版,JJF 與 Pyzel 共同開發);4. Tiger Twin (winged swallow twin,結合 White Tiger + Happy Twin);5. Mini Ghost (Koa Smith 5'5\" 短肥版 Ghost);6. Crisis Twin (mid-length twin,源自 Mid Length Crisis);7. Phantom XL / Mini Ghost Round (尺寸變體)",
+    "常見錯誤": "1. 直接買 Ghost 用於小浪 → Ghost 太 narrow,Phantom 才是正解 (相同 rocker 但加 single concave + wider);2. White Tiger 與 Gremlin 混淆 → Gremlin 高 performance 取向,White Tiger 更平 deck 更 down-the-line;3. Tiger Twin 純 twin 但配 keel fin → winged 設計搭 upright twin 才對;4. Mini Ghost 取大尺寸 → 設計為短肥 5'5\"-5'7\",尺寸跳大失去 chunky fun;5. 配 Phantom 用 4-rib AM2 → JJF medium 才符合設計意圖",
+    "升級陷阱": "新手追隨 JJF 直接買 Ghost → 應從 Phantom 起步;Phantom 升級到 Ghost 太快 → narrow outline 與 less foam 會 surf 不到;Tiger Twin 跳 Happy Twin → 沒 winger 的 Happy Twin 更純粹但 hold 較弱;Mini Ghost 與 Phantom 重疊 → 兩塊一起買浪費,需求清楚再選",
+    "搭配_fin 建議": "Phantom:Futures JJF Medium / FCS Pyzel JJF / Futures Pyzel JJF;Gremlin:Futures AM1 / FCS Carver Medium;White Tiger:Futures Pancho / Futures AM1 (medium upright);Tiger Twin:Futures Rasta Twin / FCS MR-TFX / Captain Fin Twin Special;Mini Ghost:Futures John John Florence 5-fin set / FCS JJF;Crisis Twin:Futures T1 / FCS Power Twin",
+    "二手板評估": "Pyzel PU 二手須查 deck delam (尤其 stand-up area);Phantom / Mini Ghost 寬版 outline 易因運輸壓彎 stringer;Custom 板 (Pyzel 工廠特訂) 二手罕見,多為 dealer 庫存標準尺寸",
+    "Quiver 規劃": "兩塊:Phantom (2-6ft daily) + Gremlin 或 White Tiger (1-3ft grovel);三塊:加 Tiger Twin (retro looseness) 或 Mini Ghost (mid-length 替代);四塊:加 Ghost (head-high+) / Crisis Twin mid (long glide);Phantom + Gremlin 已涵蓋 90% 台灣浪況",
+    "預算建議": "Pyzel 海外進口 (Boardcave / Cleanline) 約 USD 850-1100 (台幣 28k-35k);台灣代理 (Pyzel Taiwan / Hooked) 約 NT$ 30k-40k [uncertain];Custom (Pyzel 工廠特訂) 等 4-6 週,費用 USD 950-1200;軟頂 (Pyzel Surftech 系列) 約 USD 500-700"
+  },
+  "pro_reference": {
+    "Stab_in_the_Dark": "Pyzel 蝉聯 2 次冠軍 (Dane Reynolds + Jordy Smith) 為歷史並列最多;2024 Stab in the Dark with Kolohe Andino:Pyzel 提交「The Prime」(5'10\"x18.63x2.31x26L) 為 Phantom 與 Ghost 融合衍生板;Dane Reynolds 對 Pyzel 冠軍板留下正面評價;Phantom 在 Stab Joyride 系列為長期推薦 daily driver",
+    "WSL_CT 選手選擇": "John John Florence (JJF) 為 Pyzel 主力 team rider,Ghost / Phantom / White Tiger 皆有參與設計;Koa Smith 主導 Mini Ghost;Jordy Smith 用 Phantom XL / Ghost 系列;Sebastian Zietz 用 Phantom / Padillac;Barron Mamiya 為 Pyzel team rider",
+    "Free_surf 風格參考": "Koa Smith 在北岸用 Mini Ghost / Tiger Twin 自由風;Dane Reynolds 曾騎 Pyzel Stab 冠軍板;Asher Pacey 風格雖偏 Album / Bing,但 Pyzel Tiger Twin / Crisis Twin 為類似風格亞洲 alternative"
+  },
+  "local_taiwan_context": {
+    "浪點適配": "中角 (1-3ft 軟浪 / 4-5ft 中浪):Phantom 主力,小浪日換 Gremlin / White Tiger;烏石 (3-5ft beach break):Phantom 或 Tiger Twin;金樽 (3-6ft point + reef):Phantom / Ghost (升級);佳樂水 (reef 2-5ft):Phantom;南灣 (1-3ft):Gremlin / White Tiger / Tiger Twin;東澳粉鳥林 (1-4ft):Phantom 或 Mini Ghost;Mini Ghost 在台灣較少見 (mid-length 取向偏特殊)",
+    "進口_訂製": "Boardcave (英國 / 美國) 為 Pyzel 主要海外通路 USD 850-1050;Cleanline Surf / REAL Watersports / Surfari 為美國 dealer;台灣代理 (Hooked / 部分店家) 約 NT$ 30k-40k [uncertain];Custom 訂製 PU 4-6 週 / EPS 6-8 週,費用約 USD 950-1200 加運費關稅;Mini Ghost 在台灣可能需 special order",
+    "中文社群迷思": "PTT/IG 常見「Pyzel = JJF 板」忽略 Phantom 才是 user-friendly daily driver,Ghost 對台灣 65kg 平均體重者太 narrow;「Gremlin 等於 White Tiger」實際 White Tiger 更平 deck、down-the-line 速度更好;「Tiger Twin 是純 retro」忽略 winged 設計提升現代 maneuverability;「小浪要買 Mini Ghost」實際 Mini Ghost 為 short-fat HP,並非純 grovel,純 grovel 應選 Gremlin / White Tiger",
+    "在地教練建議": "VAST Surf / Hooked Surf Shop 等台灣代理推 Phantom 為小浪 + 中浪通用主力 [uncertain];JR Surf (中角) 推中浪用 Phantom 或 Ghost;南灣 / 後壁湖店家小浪日推 White Tiger 或 Gremlin;Mini Ghost / Crisis Twin 在台灣較難買到 stock,需 Boardcave 海外訂"
+  },
+  "uncertain": [
+    "Nose_Rocker",
+    "Tail_Rocker",
+    "Nose_Width_at_12_inch",
+    "Tail_Width_at_12_inch",
+    "浮力公式 (Crisis Twin mid 倍率)",
+    "浮力範圍_體重對照 (大體重區間)",
+    "品牌計算器差異 (Pyzel 計算器內部演算法)",
+    "Fin_Cant",
+    "Quad_Rear_Position (Mini Ghost / Phantom quad 設定)",
+    "預算建議 (台灣代理確實身份)",
+    "在地教練建議 (具體店家 Pyzel 代理身份)"
+  ]
+}

@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8" />
+<title>後端工程交接 · The Surf Study</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="common.css" />
+<style>
+  body { overflow-x: hidden; }
+  .doc {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 40px 28px 80px;
+  }
+  .doc-mast {
+    border-bottom: 4px double var(--ink);
+    margin-bottom: 28px;
+    padding-bottom: 18px;
+  }
+  .doc-mast .kicker {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: .18em;
+    text-transform: uppercase;
+    color: var(--vermillion-d);
+    margin-bottom: 6px;
+  }
+  .doc-mast h1 {
+    font-family: var(--display);
+    font-size: clamp(48px, 7vw, 84px);
+    line-height: .92;
+    margin: 0 0 6px;
+  }
+  .doc-mast .sub {
+    font-family: var(--display-2);
+    font-style: italic;
+    font-size: 22px;
+    color: var(--ocean);
+    margin: 0;
+  }
+  .doc-mast .meta {
+    font-family: var(--mono);
+    font-size: 10.5px;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    margin-top: 12px;
+  }
+
+  .doc h2 {
+    font-family: var(--display);
+    font-size: 38px;
+    line-height: 1.05;
+    margin: 44px 0 14px;
+    padding-top: 18px;
+    border-top: 2px solid var(--ink);
+  }
+  .doc h2 .num {
+    color: var(--vermillion);
+    margin-right: 12px;
+  }
+  .doc h3 {
+    font-family: var(--display-3);
+    font-size: 16px;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    margin: 26px 0 8px;
+    color: var(--ink-soft);
+  }
+  .doc p, .doc li {
+    font-family: var(--serif);
+    font-size: 15.5px;
+    line-height: 1.65;
+    color: var(--ink);
+  }
+  .doc ul, .doc ol { padding-left: 22px; }
+  .doc li { margin-bottom: 6px; }
+  .doc li strong { color: var(--vermillion-d); }
+  .doc code, .doc pre {
+    font-family: var(--mono);
+    font-size: 12.5px;
+    background: var(--paper-deep);
+    border: 1px solid var(--ink);
+    padding: 2px 5px;
+    color: var(--ink);
+  }
+  .doc pre {
+    padding: 14px 16px;
+    overflow-x: auto;
+    line-height: 1.55;
+    white-space: pre;
+  }
+  .doc pre code { background: transparent; border: 0; padding: 0; }
+
+  .doc table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0;
+    border: 1.5px solid var(--ink);
+    font-family: var(--serif);
+    font-size: 14px;
+  }
+  .doc th {
+    background: var(--ink);
+    color: var(--paper);
+    padding: 8px 12px;
+    text-align: left;
+    font-family: var(--display-3);
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+  .doc td {
+    padding: 8px 12px;
+    border-bottom: 1px solid var(--ink);
+    vertical-align: top;
+  }
+  .doc tr:last-child td { border-bottom: 0; }
+  .doc td:first-child { font-family: var(--display-3); font-size: 13px; }
+
+  .gap-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 14px 0 8px;
+  }
+  @media (max-width: 720px){
+    .gap-grid { grid-template-columns: 1fr; }
+  }
+  .gap-cat {
+    border: 1.6px solid var(--ink);
+    background: var(--paper);
+    padding: 14px 16px;
+  }
+  .gap-cat h3 {
+    margin-top: 0;
+    color: var(--vermillion-d);
+  }
+  .gap-cat .gap-meta {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    margin-bottom: 8px;
+  }
+  .gap-cat ol { padding-left: 18px; margin: 0; }
+  .gap-cat li { margin-bottom: 4px; font-size: 14px; }
+
+  .prompt-block {
+    background: var(--ink);
+    color: var(--paper);
+    border: 2px solid var(--ink);
+    padding: 18px 22px;
+    margin: 14px 0;
+    font-family: var(--mono);
+    font-size: 12.5px;
+    line-height: 1.6;
+    white-space: pre-wrap;
+    overflow-x: auto;
+    box-shadow: 6px 6px 0 var(--vermillion);
+  }
+  .prompt-block .prompt-hd {
+    color: var(--vermillion);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .14em;
+    font-size: 11px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid var(--paper);
+    padding-bottom: 6px;
+  }
+  .copy-btn {
+    background: var(--vermillion);
+    color: var(--paper);
+    border: 0;
+    padding: 6px 12px 5px;
+    font-family: var(--mono);
+    font-size: 10.5px;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-bottom: 8px;
+  }
+  .copy-btn:hover { background: var(--paper); color: var(--ink); }
+
+  .phases {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 16px 0;
+  }
+  .phase {
+    display: grid;
+    grid-template-columns: 110px 1fr 120px;
+    align-items: start;
+    gap: 14px;
+    padding: 12px 14px;
+    border: 1.5px solid var(--ink);
+    background: var(--paper);
+  }
+  .phase .ph-tag {
+    font-family: var(--display-3);
+    font-size: 14px;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--vermillion-d);
+  }
+  .phase .ph-tag strong {
+    display: block;
+    font-family: var(--display);
+    font-size: 30px;
+    line-height: 1;
+    color: var(--vermillion);
+  }
+  .phase .ph-body { font-family: var(--serif); font-size: 14px; }
+  .phase .ph-body strong { font-family: var(--display-2); font-size: 17px; display: block; margin-bottom: 4px; }
+  .phase .ph-time {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: .08em;
+    text-align: right;
+    color: var(--ink-soft);
+  }
+
+  .cost-card {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    border: 1.6px solid var(--ink);
+    padding: 6px 14px;
+    background: var(--paper);
+    font-family: var(--mono);
+    font-size: 12px;
+    margin: 4px 0;
+  }
+  .cost-card .cost {
+    color: var(--vermillion-d);
+    font-weight: 700;
+  }
+
+  .stack {
+    display: grid;
+    grid-template-columns: 130px 1fr;
+    gap: 0;
+    border: 1.6px solid var(--ink);
+    margin: 12px 0;
+  }
+  .stack > * {
+    padding: 8px 12px;
+    border-bottom: 1px solid var(--ink);
+  }
+  .stack > *:nth-last-child(-n+2) { border-bottom: 0; }
+  .stack .k {
+    font-family: var(--display-3);
+    font-size: 12px;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    background: var(--paper-deep);
+    border-right: 1px solid var(--ink);
+    color: var(--ink-soft);
+  }
+  .stack .v { font-family: var(--mono); font-size: 12.5px; }
+
+  .nav-back {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    text-decoration: none;
+    margin-bottom: 18px;
+  }
+  .nav-back::before { content: "←"; color: var(--vermillion); }
+  .nav-back:hover { color: var(--ink); }
+
+  .callout {
+    border: 2px solid var(--vermillion);
+    background: var(--paper);
+    padding: 14px 18px;
+    margin: 16px 0;
+    font-family: var(--serif);
+    font-size: 14.5px;
+    line-height: 1.65;
+    position: relative;
+  }
+  .callout::before {
+    content: "TL;DR";
+    position: absolute;
+    top: -10px;
+    left: 14px;
+    background: var(--vermillion);
+    color: var(--paper);
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: .14em;
+    padding: 3px 8px 2px;
+  }
+</style>
+</head>
+<body>
+
+<div class="doc">
+
+  <a class="nav-back" href="index.html">回到主期刊 / Back to Surf Study</a>
+
+  <header class="doc-mast">
+    <div class="kicker">Engineering Handoff · 工程交接文件</div>
+    <h1>The Surf Study<br/><span style="font-family:var(--serif); font-weight:900; font-size:.45em; letter-spacing:.1em; color:var(--ink-soft);">後端工程交接 · 缺什麼 + 工程 Prompt</span></h1>
+    <p class="sub">把靜態原型變成正式網站需要做的事。</p>
+    <div class="meta">v1 · 2026.05.15 · 用 Claude Code / Cursor / 工程師都通用</div>
+  </header>
+
+  <div class="callout">
+    <strong>整理:</strong> 現在這個原型用 vanilla JS + 靜態 JSON 寫的。要當正式網站,最大缺口是 <strong>SEO-friendly 路由</strong>(每個 entry 一個 URL)、<strong>真實照片</strong>、<strong>使用者系統</strong>。最快路徑是用 <strong>Astro 重寫</strong>,2–3 週可上線。如果只要部署:今天就能丟 Cloudflare Pages,加 PWA + sitemap 就 95% 達標。
+  </div>
+
+  <h2><span class="num">01</span>現況快照</h2>
+  <p>目前是 <strong>100% 靜態原型</strong>,部署到任何靜態託管都能跑。</p>
+  <table>
+    <tr><th>項目</th><th>內容</th></tr>
+    <tr><td>檔案</td><td>4 HTML + 3 JS + 4 CSS + 3 JSON</td></tr>
+    <tr><td>框架</td><td>無 — vanilla JS + ES2020 + CSS variables</td></tr>
+    <tr><td>路由</td><td>URL hash (<code>#detail=Uluwatu</code>) — <em>非 SEO 友善</em></td></tr>
+    <tr><td>互動狀態</td><td>全在 <code>localStorage</code></td></tr>
+    <tr><td>資料</td><td>3 個靜態 JSON,共 <strong>104 entries × 平均 25 欄位</strong> = ~2,600 個欄位</td></tr>
+    <tr><td>圖片</td><td>0 張真實照片 — 全 SVG / 佔位</td></tr>
+    <tr><td>使用者系統</td><td>無 — 沒登入、沒同步、沒個人化</td></tr>
+  </table>
+
+  <h2><span class="num">02</span>變成正式網站缺什麼</h2>
+
+  <div class="gap-grid">
+
+    <div class="gap-cat">
+      <div class="gap-meta">A · 基礎建設</div>
+      <h3>Infrastructure</h3>
+      <ol>
+        <li>Hosting + DNS + SSL(<strong>Cloudflare Pages</strong> 或 Vercel)</li>
+        <li>CDN 快取</li>
+        <li>Error monitoring(<strong>Sentry</strong>)</li>
+        <li>Analytics(<strong>Plausible</strong> / PostHog · 隱私友善)</li>
+        <li>Uptime monitoring</li>
+        <li>CI/CD pipeline(GitHub Actions)</li>
+      </ol>
+    </div>
+
+    <div class="gap-cat">
+      <div class="gap-meta">B · 框架重構</div>
+      <h3>Framework</h3>
+      <ol>
+        <li>改用 <strong>Astro 4</strong> — 每個 entry 自己的 URL,SEO + 分享</li>
+        <li>改用 <strong>TypeScript</strong> + Zod schema</li>
+        <li>Build pipeline + asset optimization</li>
+        <li>i18n(至少加 English)</li>
+        <li>把 vanilla JS 拆成 Astro Islands</li>
+      </ol>
+    </div>
+
+    <div class="gap-cat">
+      <div class="gap-meta">C · 資料層</div>
+      <h3>Data Layer</h3>
+      <ol>
+        <li>Schema 定義 + 編譯時驗證(Zod)</li>
+        <li>靜態內容 → Markdown + frontmatter</li>
+        <li>變動資料(價格 · 活動) → DB</li>
+        <li>使用者資料 → DB</li>
+        <li>CMS(<strong>Sanity</strong> / <strong>Payload</strong> / Markdown-in-repo)</li>
+        <li>資料版本歷史</li>
+        <li>不確定欄位的校驗工作流程</li>
+      </ol>
+    </div>
+
+    <div class="gap-cat">
+      <div class="gap-meta">D · 使用者</div>
+      <h3>Users</h3>
+      <ol>
+        <li>驗證(<strong>Supabase Auth</strong> · Google / Apple / LINE)</li>
+        <li>User profile(體重 / 等級 / 家鄉浪點 / quiver)</li>
+        <li>Saved trips 雲端同步</li>
+        <li>localStorage → DB 遷移流程</li>
+        <li>評論 / 評分 / 浪況回報(視商業模式)</li>
+      </ol>
+    </div>
+
+    <div class="gap-cat">
+      <div class="gap-meta">E · 即時資料</div>
+      <h3>Live Data</h3>
+      <ol>
+        <li>Surf forecast API — <strong>Open-Meteo Marine</strong>(免費)/ Stormglass($10/月) / Surfline(企業方案,貴)</li>
+        <li>Tide chart — NOAA / TideForecast</li>
+        <li>Webcam — Surfline iframe embed</li>
+        <li>Weather — Open-Meteo / OpenWeather</li>
+        <li>Maps — <strong>Mapbox</strong> 取代 SVG 手繪</li>
+        <li>賽事日程 — 手動 / 爬蟲</li>
+      </ol>
+    </div>
+
+    <div class="gap-cat">
+      <div class="gap-meta">F · 影像</div>
+      <h3>Imagery</h3>
+      <ol>
+        <li>每個浪點 1 張英雄圖 + 3-5 張 lineup / takeoff</li>
+        <li>來源:Unsplash · 授權 stock · surf photographer · 社群</li>
+        <li>Image hosting + 優化(<strong>Cloudflare Images</strong>)</li>
+        <li>影片(drone shot)— 可延後</li>
+        <li>板型剪影升級為 shaper 提供的官方輪廓</li>
+      </ol>
+    </div>
+
+    <div class="gap-cat">
+      <div class="gap-meta">G · SEO / 發布</div>
+      <h3>SEO &amp; Publishing</h3>
+      <ol>
+        <li>每個 entry 一個 URL(<code>/bali/spots/uluwatu</code>)</li>
+        <li>JSON-LD structured data(schema.org/TouristAttraction)</li>
+        <li>Open Graph + Twitter cards(每頁專屬 OG image)</li>
+        <li>sitemap.xml + robots.txt</li>
+        <li>Canonical URLs + redirects</li>
+        <li>RSS feed + Newsletter</li>
+      </ol>
+    </div>
+
+    <div class="gap-cat">
+      <div class="gap-meta">H · 法規 / 商業</div>
+      <h3>Legal &amp; Compliance</h3>
+      <ol>
+        <li>Privacy policy + Cookie consent</li>
+        <li>Terms of service</li>
+        <li>Affiliate disclosure</li>
+        <li>Source attribution UI(verification_sources 結構化)</li>
+        <li>Content license(CC-BY-SA / 保留)</li>
+      </ol>
+    </div>
+
+    <div class="gap-cat">
+      <div class="gap-meta">I · 效能</div>
+      <h3>Performance</h3>
+      <ol>
+        <li>Code splitting(每個 issue 各自 bundle)</li>
+        <li>Static generation pre-render 所有頁面</li>
+        <li>PWA / Service Worker — 離線版,出國沒網路也能查</li>
+        <li>Image lazy loading</li>
+        <li>Noto 字型 subset</li>
+        <li>Lighthouse 90+ all axes</li>
+      </ol>
+    </div>
+
+    <div class="gap-cat">
+      <div class="gap-meta">J · 進階 (可選)</div>
+      <h3>Nice-to-have</h3>
+      <ol>
+        <li>天氣 → 浪況 ML 預測</li>
+        <li>AI assistant(接 Claude API)— "本週末 3 天 Bali 中階,排我去"</li>
+        <li>Marketplace(二手板 / 教練預約)</li>
+        <li>Mobile app(React Native / Expo)</li>
+        <li>多 surfer 行程協作</li>
+      </ol>
+    </div>
+
+  </div>
+
+  <h2><span class="num">03</span>建議技術選型</h2>
+
+  <p><strong>推薦組合(boring tech, fast)</strong>:</p>
+  <div class="stack">
+    <div class="k">Frontend</div><div class="v">Astro 4 + TypeScript strict + Tailwind</div>
+    <div class="k">Hosting</div><div class="v">Vercel / Cloudflare Pages</div>
+    <div class="k">DB + Auth</div><div class="v">Supabase (Postgres · Auth · Storage · Realtime)</div>
+    <div class="k">Search</div><div class="v">Pagefind (static, $0) → Meilisearch ($10/mo)</div>
+    <div class="k">Maps</div><div class="v">Mapbox GL JS</div>
+    <div class="k">Images</div><div class="v">Cloudflare Images</div>
+    <div class="k">CMS</div><div class="v">Markdown in repo (簡單) 或 Sanity (編輯體驗好)</div>
+    <div class="k">Analytics</div><div class="v">Plausible</div>
+    <div class="k">i18n</div><div class="v">Astro built-in (zh-TW + en)</div>
+    <div class="k">Email</div><div class="v">Resend</div>
+    <div class="k">Forecast</div><div class="v">Open-Meteo Marine API (free)</div>
+  </div>
+
+  <p><strong>為什麼 Astro 而不是 Next.js</strong>:大部分內容是靜態,Astro 預設零 JS;互動小區塊用 <code>&lt;island&gt;</code> 注入 React/Svelte(只有那一塊吃 JS);內建 i18n、image optimization、content collections。比 Next 簡單,部署快。</p>
+
+  <p><strong>簡化路徑(個人 / side project)</strong>:不重構,維持靜態 + Pagefind + PWA manifest。月成本 &lt; $5。</p>
+
+  <h2><span class="num">04</span>遷移路線圖</h2>
+
+  <div class="phases">
+    <div class="phase">
+      <div class="ph-tag"><strong>0</strong>立即上線</div>
+      <div class="ph-body">
+        <strong>Cloudflare Pages deploy</strong>
+        把現有靜態檔案直接 push,5 分鐘上線。買 domain、加 SSL、加 Plausible、生 sitemap。
+      </div>
+      <div class="ph-time">1 天</div>
+    </div>
+
+    <div class="phase">
+      <div class="ph-tag"><strong>1</strong>Astro 重寫</div>
+      <div class="ph-body">
+        <strong>Static rewrite + SEO</strong>
+        Astro skeleton + content collections + 把 3 JSON 轉成 104 Markdown + Zod schema 驗證 + 每 entry 一個 URL + Pagefind + Astro Islands 包現有互動。
+      </div>
+      <div class="ph-time">1-2 週</div>
+    </div>
+
+    <div class="phase">
+      <div class="ph-tag"><strong>2</strong>加使用者</div>
+      <div class="ph-body">
+        <strong>Auth + Sync</strong>
+        Supabase auth(Google / LINE / email)、localStorage 收藏遷移到 DB、saved trips 雲端、簡單 user profile。
+      </div>
+      <div class="ph-time">1-2 週</div>
+    </div>
+
+    <div class="phase">
+      <div class="ph-tag"><strong>3</strong>接活資料</div>
+      <div class="ph-body">
+        <strong>Live forecast + Maps</strong>
+        Open-Meteo Marine API → 每 spot 顯示未來 7 天浪況、Surfline webcam embed、Mapbox 取代 SVG、forecast × spot 條件 → "今天適合 Top 3"。
+      </div>
+      <div class="ph-time">1-2 週</div>
+    </div>
+
+    <div class="phase">
+      <div class="ph-tag"><strong>4</strong>CMS + i18n</div>
+      <div class="ph-body">
+        <strong>Editing flow + English</strong>
+        Sanity Studio 或 Markdown-as-CMS。English 翻譯(原始研究已是中英混合)。Research → review → publish 流程。
+      </div>
+      <div class="ph-time">2-3 週</div>
+    </div>
+
+    <div class="phase">
+      <div class="ph-tag"><strong>5</strong>社群</div>
+      <div class="ph-body">
+        <strong>UGC + commerce</strong>
+        評論 / 浪況回報 / 照片上傳 / Newsletter。Affiliate(booking / 教練)。視商業模式決定要不要做。
+      </div>
+      <div class="ph-time">4+ 週</div>
+    </div>
+  </div>
+
+  <p style="margin-top:10px; font-family:var(--serif); font-size:14px; color:var(--ink-soft);">
+    一人全職 ~ 6-8 週可上線到 Phase 3。
+  </p>
+
+  <h2><span class="num">05</span>工程 Prompt</h2>
+  <p>把下面這段直接貼給工程師或 Claude Code / Cursor / Devin。</p>
+
+  <button class="copy-btn" onclick="copyPrompt()">⎘ 複製到剪貼簿</button>
+
+  <pre class="prompt-block" id="prompt-text"><span class="prompt-hd">PROMPT FOR ENGINEER · COPY BELOW</span>
+# 任務:把「衝浪研究室」靜態原型重構成 Astro 網站
+
+## 背景
+我有一個 4 頁的靜態 HTML 原型(index.html、bali.html、hainan.html、board.html),
+是用 vanilla JS + CSS variables 寫的衝浪研究田野誌。資料是 3 個 JSON 檔
+(data/bali.json 50 項、data/hainan.json 21 項、data/board.json 33 項)。
+
+請把它重構成正式可上線的 Astro 4 網站,保留設計系統與互動功能,
+但讓每個 entry 有自己的 URL,SEO 友善,效能達標 Lighthouse 90+。
+
+## 技術需求 (固定)
+- Astro 4 + TypeScript (strict)
+- Tailwind CSS (把現有 CSS variables 遷移成 Tailwind theme config)
+- Astro Content Collections + Zod schemas
+- Pagefind for static search
+- Mapbox GL JS for maps (取代 SVG 手繪)
+- Open-Meteo Marine API for live forecast
+- Plausible analytics
+- Deploy target: Cloudflare Pages
+
+## 資料層
+1. 把 3 JSON 轉成 104 Markdown,放在:
+   - src/content/bali/{key}.md
+   - src/content/hainan/{key}.md
+   - src/content/boards/{key}.md
+   Frontmatter 保留 surf_conditions、safety_culture、buoyancy_strategy 等所有結構化欄位。
+   [uncertain] 標記用 frontmatter `uncertain: [...]` 保留。
+2. 用 Zod schema 在 src/content/config.ts 嚴格定義每種 collection。
+3. Schema 對齊原 JSON 結構,但加入 type narrowing
+   (e.g. region: z.enum([...])、category: z.enum([...]))。
+4. 編譯時若有 entry 不符 schema,build 直接失敗。
+
+## 路由
+- /                                — 主期刊 masthead
+- /bali                              — Bali issue index
+- /bali/spots/uluwatu                — entry detail
+- /bali/season                       — season calendar
+- /bali/skill-match                  — skill matcher
+- /bali/trip-planner                 — trip planner
+- /bali/map                          — Mapbox 地圖
+- /bali/compare?keys=Uluwatu,Bingin  — compare 用 query param
+- 同樣 pattern 給 hainan 與 boards
+- 全部支援 og:image (用 @vercel/og 或 Satori 程式生成)
+
+## 互動 Islands
+這些做成 React/Solid/Svelte component,用 client:visible:
+- &lt;TweaksPanel /&gt;            — 4 themes + density + uncertain toggle + print
+- &lt;GlobalSearch /&gt;           — "/" 鍵開,Pagefind 索引
+- &lt;SeasonCalendar /&gt;         — 12 月 × spot 矩陣
+- &lt;SkillMatcher /&gt;
+- &lt;TripPlanner /&gt;
+- &lt;CompareTable /&gt;
+- &lt;BaliMapbox /&gt;              — 取代當前 SVG
+- &lt;HainanMapbox /&gt;
+- &lt;BoardSelector /&gt;            — volume calculator + recommendations
+- &lt;BoardSilhouette spec={...} /&gt; — 保留 SVG 但做成可參數化 component
+- &lt;FavoriteButton issue={...} key={...} /&gt;
+  (初期 localStorage,後加 Supabase sync)
+
+## 設計系統
+- 把 style.css 的 CSS variables 移成 Tailwind theme tokens
+- 保留 4 個 theme(vermillion / ocean / zine / jungle)
+  → 用 data-theme 屬性 + CSS custom properties
+- 字型保留(Abril Fatface / Noto Serif TC / Noto Sans TC /
+  JetBrains Mono / DM Serif Display / Yeseva One)
+- 字型 subset:用 subfont 或 fontaine 自動處理 Noto,
+  只載入實際出現的字
+- 紙紋 SVG noise overlay 保留
+- 半色調 dot pattern 保留
+
+## SEO
+- 每個 entry 自動產生 &lt;meta&gt; + &lt;link rel="canonical"&gt;
+- JSON-LD:
+  - 浪點 → schema.org/TouristAttraction + Place
+  - 浪池 → schema.org/SportsActivityLocation
+  - 板款 → schema.org/Product
+- sitemap.xml 自動產生
+- robots.txt 開放
+- OG image:每個 entry 程式生成一張(背景用 theme 配色 +
+  大字 entry 名 + region tag)
+
+## 效能目標
+- LCP &lt; 2s on 4G
+- 每個 entry 頁 &lt; 50 KB JS (只載入需要的 islands)
+- Pagefind index &lt; 200 KB total
+- Lighthouse Performance / Accessibility / Best Practices / SEO ≥ 90
+
+## 不要做的事
+- 不要加任何 backend / DB (第一版純靜態)
+- 不要加 user auth (收藏先用 localStorage)
+- 不要加 comments / 評論
+- 不要重新設計 UI — 100% 保留現有視覺與互動模式
+- 不要重寫資料 — schema 對齊原 JSON 欄位
+
+## Deliverables
+1. git clone-able Astro repo,pnpm i && pnpm dev 直接跑
+2. pnpm build 產生靜態檔可丟 Cloudflare Pages
+3. README.md 含:
+   - 本地開發步驟
+   - 內容更新流程("要改一個浪點 → 編 src/content/bali/uluwatu.md")
+   - 部署步驟
+   - 環境變數清單(Mapbox token、Open-Meteo 不用 key)
+4. 每個 Astro Island 有對應的 Storybook story 或測試案例
+5. 至少一個 Playwright e2e test 跑通 critical path
+   (home → bali index → uluwatu detail → 收藏 → tweaks 換主題)
+6. Lighthouse CI 跑在 GitHub Actions,&lt; 90 分時 fail
+
+## 階段交付
+- Week 1: Astro skeleton + content collections + 路由 + 靜態 entry 頁
+- Week 2: Islands (search、map、selector、trip planner、compare、season)
+- Week 3: Theme system、OG images、SEO、Lighthouse 達標
+- Week 4: Deploy + monitoring
+
+## 開始第一步
+1. pnpm create astro@latest surf-study --template basics --typescript strict
+2. 在 src/content/config.ts 定義 3 個 Zod schema
+3. 寫個 Node 腳本把原 JSON → 104 個 .md 檔
+4. 把第一個 entry 頁 /bali/spots/uluwatu 跑通
+5. Demo 給我看,我會決定要不要繼續
+
+問我問題:
+- 翻譯英文時你要幫我做還是只做架構保留中文?
+- 真實照片你要不要先放 placeholder 等我提供?
+- Mapbox token 我要不要先去申請?</pre>
+
+  <h2><span class="num">06</span>成本估算</h2>
+  <p>個人 / 早期階段:</p>
+  <div class="cost-card"><span>Domain (.com)</span><span class="cost">~$1/月</span></div>
+  <div class="cost-card"><span>Cloudflare Pages</span><span class="cost">$0</span></div>
+  <div class="cost-card"><span>Supabase free (&lt; 50k MAU)</span><span class="cost">$0</span></div>
+  <div class="cost-card"><span>Mapbox free (&lt; 50k loads)</span><span class="cost">$0</span></div>
+  <div class="cost-card"><span>Plausible Analytics</span><span class="cost">$9</span></div>
+  <div class="cost-card"><span>Sentry free</span><span class="cost">$0</span></div>
+  <div class="cost-card"><span>Resend (&lt; 3k emails/月)</span><span class="cost">$0</span></div>
+  <div class="cost-card"><span>Open-Meteo Marine API</span><span class="cost">$0</span></div>
+  <div class="cost-card"><span>Cloudflare Images (100k stored)</span><span class="cost">$5</span></div>
+  <div class="cost-card" style="border-width:2.5px; background:var(--paper-deep);"><strong>總計</strong><span class="cost"><strong>~$15/月</strong></span></div>
+  <p style="font-family:var(--serif); font-size:13.5px; color:var(--ink-soft); margin-top:10px;">
+    升級到付費 tier 大約是 MAU &gt; 10k 或內容量過 1k entries 才需要。
+  </p>
+
+  <h2><span class="num">07</span>如果你只想最快上線</h2>
+  <p>不重構也能做的事(週末就能完成):</p>
+  <ol>
+    <li><strong>Cloudflare Pages deploy</strong> — 拖整個資料夾,5 分鐘上線</li>
+    <li><strong>加 Pagefind 靜態索引</strong> — <code>npx pagefind --site .</code>,把當前 global search 換掉</li>
+    <li><strong>加 PWA manifest</strong> — 手機能加到主畫面、離線可用</li>
+    <li><strong>加 sitemap.xml</strong> — 腳本生成</li>
+    <li><strong>加 OG images</strong> — 一張通用大圖就行</li>
+    <li><strong>加 Plausible script</strong> — 一行 <code>&lt;script&gt;</code> 引入</li>
+  </ol>
+  <p>到這就 <strong>95% 訪客體驗達標</strong>。Astro 重構是當你要長期維護、加新功能、做 SEO 流量才值得投入。</p>
+
+  <div style="margin-top: 50px; padding-top: 20px; border-top: 2px solid var(--ink); display: flex; justify-content: space-between; font-family: var(--mono); font-size: 10.5px; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-soft); flex-wrap: wrap; gap: 10px;">
+    <span>The Surf Study · Engineering Handoff v1</span>
+    <span>2026.05.15</span>
+    <span><a href="HANDOFF.md" style="color:inherit;">下載 Markdown 版本 →</a></span>
+  </div>
+
+</div>
+
+<button id="search-fab" onclick="openGlobalSearch()">⌕ SEARCH ALL <small>/</small></button>
+
+<script src="common.js"></script>
+<script>
+  function copyPrompt(){
+    const text = document.getElementById('prompt-text').textContent.replace(/^PROMPT FOR ENGINEER · COPY BELOW\n/, '');
+    navigator.clipboard.writeText(text).then(() => {
+      const btn = event.target;
+      const old = btn.textContent;
+      btn.textContent = '✓ 已複製';
+      setTimeout(() => btn.textContent = old, 1800);
+    });
+  }
+</script>
+
+</body>
+</html>

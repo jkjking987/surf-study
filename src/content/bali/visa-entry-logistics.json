@@ -1,0 +1,102 @@
+{
+  "basic_info": {
+    "name": "Bali Visa & Entry Logistics (Chinese: 峇里島簽證與入境物流; Indonesian: Visa dan Logistik Masuk Bali) - covering Visa on Arrival (VoA) 30d, electronic Visa on Arrival (e-VoA) 30d, B211A/C1 Single Entry Visit Visa 60d, E33G Remote Worker KITAS 1-year (launched 1 April 2024), Bali Tourist Levy IDR 150,000 via Love Bali portal, and All Indonesia e-Arrival Card (consolidates e-CD electronic customs declaration, immigration arrival card, SATUSEHAT health declaration) submitted within 72 hours before arrival",
+    "category": "practical",
+    "region": "Bali-wide (entry at Ngurah Rai International Airport DPS; immigration extension offices in Denpasar, Jimbaran, Singaraja)",
+    "gps_location": "Ngurah Rai International Airport DPS: -8.7482, 115.1672; Kantor Imigrasi Kelas I TPI Denpasar (Renon): -8.6800, 115.2367 [uncertain]; Kantor Imigrasi Kelas II Non TPI Jimbaran (Bukit/Uluwatu): -8.7860, 115.1670 [uncertain]; Love Bali portal: https://lovebali.baliprov.go.id; Indonesia e-Visa portal: https://evisa.imigrasi.go.id; All Indonesia e-Arrival: https://allindonesia.imigrasi.go.id",
+    "distance_from_dps_airport_km": "0 km (entry point itself); Denpasar Immigration Office ~12 km / 30-45 min from DPS; Jimbaran Immigration Office ~5-7 km / 15-25 min from DPS (closest office for Bukit-based surfers)"
+  },
+  "surf_conditions": {
+    "wave_type": "N/A - administrative entry process, not a surf spot",
+    "skill_level": "N/A - all surfers regardless of level need to complete entry formalities",
+    "wave_height_range": "N/A",
+    "bottom_type": "N/A",
+    "best_season": "Year-round - same entry rules apply regardless of surf season. Plan visa extension timing to avoid Nyepi week (March, immigration offices closed) and Idul Fitri / Indonesian public holidays which delay processing",
+    "best_tide": "N/A",
+    "best_wind": "N/A",
+    "best_swell_direction": "N/A",
+    "swell_consistency_rating": "N/A",
+    "wave_length_meters": "N/A",
+    "wave_speed_rating": "N/A",
+    "takeoff_zone_difficulty": "N/A",
+    "secondary_peaks": "N/A",
+    "peak_crowd_level": "DPS immigration arrival queues peak during July-August and December-January peak tourist season; e-VoA pre-payment avoids the VoA cash counter queue. Extension office foot traffic heaviest Monday mornings; recommend booking online M-PASPOR appointment for extensions [uncertain]"
+  },
+  "practical_info": {
+    "access": "DIGITAL: e-VoA (evisa.imigrasi.go.id), C1/B211A (e-Visa portal via sponsor), E33G KITAS (online via agent + biometric on arrival), Love Bali tourist levy (lovebali.baliprov.go.id or Love Bali app), All Indonesia e-Arrival Card (allindonesia.imigrasi.go.id or app, within 72h of arrival). ON ARRIVAL FALLBACK: VoA cash counter at DPS (IDR 500,000 cash or card), tourist levy BRI Bank counter in International Arrival Hall, paper customs form. EXTENSIONS: must visit local immigration office in person (rule effective June 2025) - bring passport, ticket out, accommodation proof; book M-PASPOR app slot.",
+    "paddle_out_method": "N/A",
+    "entry_fee": "VoA / e-VoA: IDR 500,000 (~USD 35) per 30 days; VoA extension: additional IDR 500,000; B211A/C1 60-day Visit Visa: IDR 2,000,000 government fee (~USD 130) + agent service fee IDR 1.5-3M (total ~USD 200-300); C1 extension fee per 60 days IDR 2M government + agent fee; E33G Remote Worker KITAS: government fee IDR 7,000,000 (~USD 430) + permit fees ~IDR 2,700,000 (~USD 165), agency total USD 600-1,000; Bali Tourist Levy: IDR 150,000 (~USD 10) per person per visit, single payment regardless of stay length; All Indonesia e-Arrival Card / e-CD: FREE (zero government fee, beware of scam .com/.org sites charging fees). Overstay penalty: IDR 1,000,000 per day.",
+    "recommended_session_time": "e-VoA: apply at least 48 hours (recommended 1-2 weeks) before departure; All Indonesia e-Arrival Card: must be submitted within 72 hours before arrival; Bali Tourist Levy: pay anytime before arrival or on arrival at BRI counter; B211A/C1: apply 2-4 weeks before travel (processing 3-7 business days); E33G KITAS: apply 4-8 weeks before travel due to multi-stage processing including biometric appointment. VoA extension: start 7-14 days before expiry at immigration office.",
+    "best_time_of_day": "Visit immigration office for extension early morning 8-9 AM (offices typically 8 AM - 4 PM, closed weekends/public holidays). Avoid Friday afternoons (early closure for prayers).",
+    "nearby_warung": "Denpasar Imigrasi Renon: surrounded by warung Renon, Bali Buda Renon, Livingstone Cafe nearby; Jimbaran Imigrasi: Jimbaran Bay seafood warung 5 min away; DPS Airport: full food court airside and landside",
+    "alternative_spot_within_10min": "If e-VoA portal is down: switch to VoA on-arrival cash counter at DPS; if Love Bali portal fails: pay at BRI Bank counter in International Arrival Hall; if All Indonesia e-Arrival site is down: paper forms still accepted on arrival as fallback",
+    "boat_charter_required": "No - all entry is air-based via DPS or sea-based via designated ports (e.g. Benoa for cruise arrivals); same e-Arrival Card and visa rules apply"
+  },
+  "safety_culture": {
+    "hazards": "SCAM RISK: lookalike domains for Love Bali (.com / .org versions charging IDR 300,000+ vs official .go.id at IDR 150,000); third-party sites charging fees for the free All Indonesia e-Arrival Card; unscrupulous agents promising guaranteed E33G approval without meeting the USD 60,000 income requirement. OVERSTAY: IDR 1,000,000/day penalty, deportation risk for stays over 60 days overstay, immigration blacklist. WORK PROHIBITION: VoA, e-VoA and C1/B211A do NOT permit work; E33G is the only legal remote-work permit and only for income from non-Indonesian entities.",
+    "marine_hazards": "N/A for visa process; surfers should separately review reef/urchin/snake/rip hazards (see Season_Safety_Medical research item)",
+    "reef_cut_severity_index": "N/A",
+    "rip_current_pattern": "N/A",
+    "lineup_etiquette": "At DPS immigration: be patient, have all documents ready (passport, e-VoA QR or VoA cash, return ticket, accommodation booking, Bali Tourist Levy QR, All Indonesia e-Arrival QR). At extension office: dress respectfully (no singlets, short shorts, flip-flops), be polite to officers, Bahasa Indonesia greeting (Selamat pagi/siang) appreciated.",
+    "localism_intensity": "Low at airport (international staff); medium at extension offices (more formal Indonesian bureaucracy - use of agents smooths the process)",
+    "respect_protocol": "Dress modestly at immigration offices (covered shoulders, long pants preferred); never offer bribes to immigration officers (corruption risk for traveler); use licensed visa agent for E33G/C1 sponsor; respect that work-on-tourist-visa enforcement has tightened with task force inspections in Canggu/Uluwatu since 2024",
+    "resident_local_legends": "Reputable Bali visa agents: Lets Move Indonesia, Flado Indonesia, ILA Global Consulting, Bali Visas, Bali Business Consulting, MPG Bali, Visa Agent Bali (VABC), Indonesianvisas.com [uncertain on relative ranking]",
+    "religious_sensitivity": "Immigration offices closed on Nyepi Day of Silence (around March 19, 2026 [uncertain exact date]); reduced staffing during Galungan / Kuningan and Idul Fitri; Bali Tourist Levy revenue funds cultural and religious preservation programs",
+    "medical_nearby": "DPS Airport medical clinic on-site; BIMC Hospital Kuta 5-10 min from DPS; Siloam Hospital Denpasar near Renon immigration; Unicare Pecatu Clinic near Jimbaran immigration / Bukit",
+    "nearest_clinic_distance_km": "DPS Airport medical: 0 km; BIMC Kuta from DPS: ~3 km; Siloam Denpasar from Renon Immigration: ~2 km [uncertain]; Unicare Pecatu from Jimbaran Immigration: ~10 km [uncertain]",
+    "rescue_jet_ski_available": "N/A",
+    "emergency_contact": "Indonesia general emergency: 112; Tourist police Bali: 110; DPS Airport info: +62 361 9351011 [uncertain]; Directorate General of Immigration call center: 1500-101; Bali Tourist Levy support: info@lovebali.baliprov.go.id"
+  },
+  "services": {
+    "nearest_surf_school": "N/A",
+    "board_rental_availability": "N/A for visa process",
+    "surf_photographer_available": "N/A",
+    "photographer_recommendation": "N/A",
+    "accommodation_options": "Booking confirmation required as supporting document for VoA / C1 application and All Indonesia e-Arrival Card; address of stay must be entered on arrival card; KITAS E33G applicants need long-term accommodation address (villa lease typically required)",
+    "webcam_url": "N/A - not applicable to visa process",
+    "drone_allowed": "N/A",
+    "coworking_nearby": "For E33G KITAS holders working from Bali: Outpost Canggu, Outpost Ulu Pecatu, Tropical Nomad, Dojo Bali, B Work Bali (Canggu and Pecatu), Lazy Cats Berawa - relevant when proving address for remote-work setup"
+  },
+  "pricing": {
+    "avg_lesson_price": "N/A",
+    "lesson_price_range_idr": "N/A",
+    "board_rental_daily": "N/A",
+    "gopro_rental_price": "N/A",
+    "wetsuit_top_rashguard_rental": "N/A",
+    "board_repair_avg_price_idr": "N/A",
+    "surf_camp_weekly_package": "N/A",
+    "camp_package_inclusions": "N/A",
+    "peak_vs_offpeak_pricing": "Visa government fees are flat year-round; agent service fees may rise 10-20% during peak travel periods Dec-Jan and Jul-Aug [uncertain]; rush processing (24-48h) typically costs 30-100% premium over standard processing"
+  },
+  "sustainability": {
+    "water_quality_rating": "N/A",
+    "eco_certification": "Bali Tourist Levy (Pungutan Wisatawan Asing) explicitly funds cultural preservation, environmental conservation (beach cleanup, rice terrace protection, forest preservation), and waste management infrastructure - effectively an eco/cultural levy. Pemprov Bali publishes annual report on usage of levy revenue.",
+    "carbon_offset_option": "Not built into the visa/entry process; voluntary offset via airlines or third-party providers (e.g., Cool Effect, Atmosfair) [uncertain]"
+  },
+  "events_community": {
+    "annual_competition_window": "N/A",
+    "community_events": "N/A"
+  },
+  "visa_logistics": {
+    "visa_type_recommended": "TRIP LENGTH MATCHING: Up to 30 days (short surf trip): VoA or e-VoA (IDR 500,000); 30-60 days (medium trip, multiple board changes): VoA + 30-day extension (total IDR 1,000,000) OR B211A/C1 60-day (better value if you know you need 60 days); 60-180 days (extended surf season chase): C1 with up to two 60-day extensions (max 180 days continuous); 6 months - 1 year (digital nomad surfer): E33G Remote Worker KITAS (must prove USD 60,000 annual income from non-Indonesian source). Note that B211A code is retired and replaced by C1 since January 2024.",
+    "visa_application_method": "VoA: pay IDR 500,000 cash/card on arrival at DPS counter; e-VoA: apply at evisa.imigrasi.go.id 48h+ before departure, pay online, receive e-Visa PDF via email, present at immigration; extension: one (1) 30-day extension allowed, must visit immigration office in person (rule effective June 2025), bring passport + booking + return ticket, pay IDR 500,000. B211A/C1: apply offshore via evisa.imigrasi.go.id with Indonesian sponsor (licensed agent or hotel/family); requires passport 6+ month validity, USD 2,000 bank balance proof; valid 60 days, extendable twice (each +60 days) up to 180 days total. E33G KITAS: 1-year permit, requires USD 60,000 annual salary proof, employment contract with non-Indonesian company, passport 12+ month validity, USD 2,000 bank balance, international health insurance (travel insurance NOT accepted); 90-day entry window after issuance (use it or lose it); not renewable in-country - must exit and re-apply (typically used for ~2 years consecutively via one re-application). Online application via Molina/eVisa system + biometric at Indonesian immigration office post-arrival.",
+    "monthly_living_cost_idr": "Indicative for surfers: Canggu IDR 18-35M/month (USD 1,150-2,250) for villa + scooter + meals + lessons; Uluwatu/Bukit IDR 15-30M/month (USD 950-1,900); Sanur IDR 12-22M/month; budget homestay route IDR 8-15M/month. E33G income floor USD 60,000/year (~IDR 78M/year, ~IDR 6.5M/month) is well above living costs and is income proof, not spending requirement. [uncertain on exact 2026 figures]",
+    "tourist_levy": "Bali Tourist Levy (Pungutan Wisatawan Asing) IDR 150,000 (~USD 10) per foreign visitor per visit, regardless of stay length. OFFICIAL channels only: (1) Love Bali web portal lovebali.baliprov.go.id (only .go.id domain is official), (2) Love Bali mobile app (iOS/Android), (3) on arrival at BRI Bank counter in International Arrival Hall at DPS. Payment options: credit card, bank transfer, QRIS. Receive QR voucher via email after online payment, present at QR scan gates at DPS. Domestic Indonesians and KITAS/KITAP holders are exempt. Children pay full IDR 150,000. Scam warning: lookalike .com/.org sites charge IDR 300,000+; verify only .go.id domain. App can be unstable - if it fails, pay on arrival at BRI counter.",
+    "customs_declaration": "All Indonesia e-Arrival Card (consolidates e-CD electronic customs declaration + immigration arrival card + SATUSEHAT health declaration + quarantine form) must be submitted within 72 hours BEFORE arrival via allindonesia.imigrasi.go.id or All Indonesia app (iOS/Android). FREE - no fee. Required info: passport details (name, number, expiry), flight number, accommodation address in Indonesia, customs declarations (currency over USD 10,000, restricted goods, prohibited items). QR code generated upon submission, sent to email, must be presented at immigration and customs upon arrival. Applies to all international entry points including DPS Bali. Scam warning: third-party .com sites charge for what is a free government service - use only the official allindonesia.imigrasi.go.id portal.",
+    "surfboard_air_baggage": "GARUDA INDONESIA: surfboards accepted as part of standard checked baggage (typically up to 1 board bag with max 23-32 kg depending on fare class, sum of dimensions max ~300 cm); excess oversize fee ~USD 100-200 per leg [uncertain]. AIRASIA: surfboards classified as sports equipment; pre-book 'Sports Equipment' add-on online (cheaper than airport rate); typical fee MYR 100-250 (~USD 20-55) per board up to 200 cm; longer than 200 cm or heavier than 25 kg may require cargo. SINGAPORE AIRLINES: surfboards accepted as checked sports equipment within standard baggage allowance if within weight; oversize fee applies if exceeding 158 cm sum dimensions or 32 kg; advise pre-notify 48h. CHINA AIRLINES (Taiwan-based): surfboards accepted as one piece of checked baggage; standard allowance applies (Economy typically 30 kg); excess oversize handling fee per leg around USD 100-150; must be in a hard or padded board bag, max length ~300 cm. EVA AIR (Taiwan-based): surfboards as sports baggage, included in checked allowance if within weight; oversize/overweight fees apply, generally board bag up to 277 cm and 32 kg with pre-notification 48h; longer boards may require cargo. GENERAL TIP: board socks/coffins must be padded; fins removed; mark FRAGILE; book direct flights to minimize handling damage; check airline's latest sports baggage policy 1 week before flight as rules change. [pricing largely uncertain; airline policies updated frequently]",
+    "idp_motorbike_license": "International Driving Permit (IDP) is mandatory in Indonesia for foreigners driving cars or motorbikes. IDP must include motorcycle endorsement (Class A2 for under 125cc per 1949 Convention, or motorcycle category per 1968 Convention) to legally ride a scooter/motorbike in Bali. Without IDP + matching motorcycle category on home-country license: police fines IDR 250,000-1,000,000 at checkpoints and (critically) travel insurance will void medical claims if injured in scooter accident. From October 2024, Bali police task force (Dishub + Polisi) has been conducting daily checkpoints targeting foreigners on scooters - helmet, IDP, license, registration checked. Always wear helmet (legal requirement, IDR 250,000 fine if not). For surfers carrying boards on scooter racks, additional caution at checkpoints. (See Transport_Logistics research item for rental and rack details.)",
+    "surf_travel_insurance": "WORLD NOMADS: globally popular among surfers; covers surfing as a standard activity (no separate adventure add-on for most plans); covers medical, reef cut treatment, emergency evacuation; surfboard/equipment cover under baggage section (typically USD 500-1,500 per item depending on plan tier, with deductible); claims process online with receipts/photos. SAFETYWING (Nomad Insurance): popular with digital nomads on E33G KITAS; subscription model USD 45-65/month; covers medical and emergency evacuation; lower baggage cover for boards; surfing covered as standard activity. INSUREMYTRIP / IMG / Allianz alternatives also available. KEY CHECKPOINTS for surf-specific policies: (1) confirm surfing covered (non-pro recreational), (2) check baggage limit per item and overall (most policies USD 500-2,500 per item), (3) confirm reef-cut / wound infection treatment covered, (4) confirm motorbike/scooter accident coverage IF you have proper IDP + motorcycle endorsement (most insurers void if no valid license), (5) emergency evacuation to Singapore from Bali should be USD 500,000+ in coverage (BIMC International or Siloam can stabilize but complex cases evacuate). For E33G KITAS: international health insurance is MANDATORY (travel insurance like World Nomads short-term policies typically NOT accepted - need proper international health insurance like Cigna Global, IMG Global, Allianz Care, GeoBlue)."
+  },
+  "uncertain": [
+    "gps_location",
+    "peak_crowd_level",
+    "nearest_clinic_distance_km",
+    "emergency_contact",
+    "religious_sensitivity",
+    "resident_local_legends",
+    "monthly_living_cost_idr",
+    "peak_vs_offpeak_pricing",
+    "carbon_offset_option",
+    "surfboard_air_baggage"
+  ]
+}

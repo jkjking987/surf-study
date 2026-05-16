@@ -1,0 +1,112 @@
+{
+  "id": "shimei_shenzhou_wanning",
+  "basic_info": {
+    "name": "Shimei Bay & Shenzhou Peninsula / 萬寧·石梅灣 與 神州半島",
+    "location": "Shimei Bay (石梅湾) and Shenzhou Peninsula (神州半岛, Dong'ao town area), Wanning City, Hainan Province; ~10-20 km north of Riyue Bay along Hainan east coast; ~100-110 km north of Sanya, ~3 hours south of Haikou; both bays accessed via Hainan East Ring Highway (G98) and high-speed Shenzhou Railway Station",
+    "operator": "Multi-resort destinations - no single surf operator; Shimei Bay anchored by Le Meridien Shimei Bay (开维 Le Meridien) and The Westin Shimei Bay Resort plus Aloft and Sheraton; Shenzhou Peninsula anchored by Grand Hyatt Shenzhou Peninsula Resort, Le Meridien Shenzhou Peninsula and Howard Johnson; surf services run by independent pro surf shops on each beach; broader Wanning surf cluster managed under Wanning Tourism Bureau as alternative breaks to flagship Riyue Bay",
+    "opening_date": "N/A (natural surf spots; both areas developed as resort/leisure destinations from late 2000s; surf scene secondary to Riyue Bay since ~2015)",
+    "status": "operating",
+    "category": "natural_surf_spot"
+  },
+  "technical_specs": {
+    "wave_technology_brand": "N/A (natural waves)",
+    "pool_size": "Shimei Bay: ~6 km arcing silver-sand beach with primary surf zone at adjacent Yangkou Bay (洋口湾) ~15 minutes west of main bay; Shenzhou Peninsula: ~10 km of east-facing sandy beaches surrounded by sea on three sides with multiple peak setups [uncertain exact lengths]",
+    "wave_height": "Shimei Bay: seasonal average 0.4-1.2 m, gentle wave-kindergarten waters; Shenzhou Peninsula: 0.5-1.5 m typical, can build to 2 m in winter NE monsoon, summer 0.3-0.8 m; both lower-energy than adjacent Riyue Bay's point breaks",
+    "wave_height_adjustability": "Not adjustable (natural ocean swell driven by NE monsoon Oct-Mar and occasional summer typhoon swells)",
+    "wave_types": "Shimei Bay: predominantly mellow beach break over flat seafloor producing small, regular, beginner-friendly waves (locally nicknamed 'wave kindergarten' 浪花幼儿园); Shenzhou Peninsula: mix of beach break and minor point setups - sandy bottoms with consistent peelers; both bays NE-facing pick up the same NE monsoon swell as Riyue Bay but with smaller, less powerful waves",
+    "waves_per_hour": "N/A (natural surf spot)",
+    "wave_count_per_set": "N/A (natural ocean sets, typically 3-5 waves per set with 8-12 second intervals on NE monsoon days) [uncertain]",
+    "session_length": "N/A (open ocean access; surf-school lessons typically 90-120 minutes when offered by mobile coaches from Riyue Bay)",
+    "stance_rotation_schedule": "N/A (beach breaks offer both lefts and rights; no daily stance rotation needed)",
+    "wave_type_classification": "Predominantly beach break over sand at both Shimei Bay and Shenzhou Peninsula; some minor point/cove setups on the peninsula's southern tip; secondary alternative breaks for advanced surfers when Riyue Bay is over-crowded or wind-blown out"
+  },
+  "pricing_sessions": {
+    "price_range": "Free open-ocean access at both bays; lessons less standardized than at Riyue/Houhai - typical 300-500 RMB for 2-hour group lesson; private lessons 500-800 RMB; resort-arranged surf experiences via Le Meridien/Westin/Grand Hyatt 600-1,200 RMB including transfer [uncertain]",
+    "session_skill_tiers": "Limited tiered structure; mostly beginner group lessons (~300-400 RMB) at Shimei Bay's wave-kindergarten zone; intermediate/advanced surfers typically self-guide and seek the alternative spots when Riyue Bay is too crowded; resort surf packages combine lesson + photography [uncertain]",
+    "equipment_rental": "Soft-top board ~100-200 RMB/day; resort hotels (Le Meridien Shimei Bay, Grand Hyatt Shenzhou) provide complimentary or paid surf board rental for guests; SUP and kayak rentals widely offered; rashguard typically included with lesson [uncertain pricing]",
+    "coaching_fee": "Group lesson 300-500 RMB per person (2 hours); private 1-on-1 lesson 500-800 RMB; mobile coaches often travel from Riyue Bay's Tianxin Village cluster; resort-arranged sessions priced higher with concierge surcharge [uncertain]",
+    "coaching_packages": "Multi-day surf retreats less common than at Riyue Bay; resort + surf packages bundled by Le Meridien Shimei Bay and Grand Hyatt Shenzhou; photo/video add-on 200-500 RMB; multi-day intermediate camps 1,500-3,500 RMB through Riyue-Bay-based schools (GROM, Shaka) using these as overflow breaks [uncertain]",
+    "membership_program": "No formal bay-wide membership; resort hotel loyalty programs (Marriott Bonvoy at Le Meridien/Westin/Sheraton, World of Hyatt at Grand Hyatt Shenzhou) provide booking benefits; some Riyue-Bay-based clubs sell 10-session punch cards usable at multiple bays [uncertain]",
+    "corporate_team_building": "Resort properties (Westin, Le Meridien, Grand Hyatt) actively market beach team-building, MICE packages and corporate retreats; Shenzhou Peninsula hosts annual large-scale events (China Beach Ultimate Open with 200+ players Sep 20-21, 2025) demonstrating capacity; minimums 20+ people typical [uncertain]"
+  },
+  "experience_guide": {
+    "best_season": "October to April for surf (NE monsoon, ~80% surf days Nov-Feb); July-August occasional bigger swells for advanced surfers; year-round resort/beach holiday destination with average water 26C",
+    "best_swell_window": "October-March: NE monsoon swells 0.5-2.0 m, period 7-12 s, offshore-cross winds; summer south-swell windows April-October produce smaller (~30% surf days) but cleaner days; typhoon swells Aug-Sep can deliver larger waves but often blown out",
+    "crowd_level": "Significantly less crowded than Riyue Bay or Houhai year-round - both bays attract beach-resort tourists rather than dedicated surfers; Shenzhou Peninsula slightly busier due to Grand Hyatt and event venues; Shimei Bay especially uncrowded outside Le Meridien stretch; advanced surfers use these as overflow when Riyue Bay too crowded",
+    "booking_method": "Surf lessons booked via resort concierge at Le Meridien Shimei Bay, Westin Shimei Bay, Grand Hyatt Shenzhou Peninsula, or directly through Riyue-Bay-based mobile coaches via WeChat; Trip.com/Ctrip and Klook list activity packages; walk-in surf rentals available on beach during peak season",
+    "booking_platform": "Trip.com / Ctrip (携程), Marriott Bonvoy / Hyatt apps for resort packages, Dianping (大众点评), Meituan (美团), Xiaohongshu (小红书), WeChat mini-programs of mobile coaches, Klook",
+    "payment_options": "WeChat Pay and Alipay universally accepted; cash accepted; international credit cards accepted at Le Meridien, Westin, Sheraton, Aloft, Grand Hyatt and other 5-star resorts (key advantage over Riyue/Houhai for foreign visitors); small beach vendors WeChat/Alipay only",
+    "skill_required": "Shimei Bay wave-kindergarten waters suit zero-base beginners; Shenzhou Peninsula suits beginner to intermediate; both serve advanced surfers seeking quieter alternative when Riyue Bay over-crowded; not the spot for true big-wave or expert tube hunting",
+    "age_eligibility": "Resort-organized lessons typically accept ages 6+ with parental supervision; no formal upper age limit; participants must be able to swim; resort kids' clubs supervise younger children on beach activities",
+    "child_friendly_score": "4/5 - both bays have shallow sandy entry, beach-resort amenities, kids' clubs at Grand Hyatt Shenzhou and Le Meridien Shimei; cleaner and quieter than Houhai; some debris on outer non-resort beach sections",
+    "sup_paddleboard_offering": "Yes - SUP and kayak rentals available at all major resorts and at the beach; Shenzhou Peninsula popular for SUP given consistent gentle conditions; resort water-sport huts also offer parasailing, jet ski, banana boat",
+    "photography_video_service": "Resort photographers and independent freelancers offer beach/surf shoots ~300-800 RMB; surf-lesson packages may include GoPro footage; drone shoots arranged via concierge ~500-1,000 RMB [uncertain]",
+    "language_support": "English support strong at all 5-star resorts (Le Meridien, Westin, Sheraton, Aloft, Grand Hyatt, Le Meridien Shenzhou); limited English at independent beach surf vendors; Mandarin dominant outside resort property",
+    "accessibility_for_disabled": "Resort properties (Westin, Grand Hyatt) provide accessible rooms and lobby ramps; beach access not formally certified; no adaptive surfing program documented [uncertain]",
+    "stance_preference_input": "Not required when booking; beach breaks accommodate both stances",
+    "safety_notes": "Generally safer than Riyue Bay's stronger point breaks; sandy bottoms, no significant reef hazards; lifeguards on resort-managed beaches during operating hours; rip currents can develop in winter NE monsoon; sun exposure intense year-round; resorts offer insured water-sport packages",
+    "events_competitions_calendar": "Shenzhou Peninsula hosts China Beach Ultimate Open (Sep 20-21, 2025) and various beach Xgames events; Shimei Bay used for music festivals, wedding events, and Sheraton/Westin MICE programs; not on WSL/ISA surf circuit (those go to Riyue Bay); occasional national surf-team training and qualifier events at peninsula's southern peaks [uncertain]"
+  },
+  "surroundings": {
+    "nearby_accommodation": "Shimei Bay: The Westin Shimei Bay Resort (~700-1,500 RMB), Le Meridien Shimei Bay Beach Resort & Spa (~1,000-2,000 RMB; appeared in 'If You Are the One 2'), Sheraton Shimei Bay Resort, Aloft Shimei Bay; budget guesthouses in Huarun residential area 10-15 min walk to beach (~200-400 RMB); Shenzhou Peninsula: Grand Hyatt Shenzhou Peninsula Resort (~1,500-3,000 RMB), Le Meridien Shenzhou Peninsula Resort, Howard Johnson Resort Shenzhou Peninsula, Sheraton Shenzhou Peninsula",
+    "on_site_accommodation": "All surf-adjacent stays are integrated 5-star resort hotels (no surf-house lodge culture as at Riyue/Houhai); surf gear stored or rented through resort water-sports concierge; nearest surf-camp lodging is at Tianxin Village in Riyue Bay ~15-30 km away [uncertain pricing details]",
+    "nearby_food": "Resort restaurants (Westin Latitude, Le Meridien Latest Recipe, Grand Hyatt international and Cantonese restaurants); Shimei Bay 400 m commercial area with seafood, Sichuan, noodle and bakery options plus Phoenix Nine-Li Bookhouse cafe; Wanning specialties: Hele crab, Dongshan mutton, Houan chicken, fresh coconut; per-person spend 100-500 RMB at resorts, 50-150 RMB at village restaurants",
+    "transport": "Self-drive via Hainan East Ring Highway (G98); high-speed train to Shenzhou Station (35 min from main bay) or Wanning Station (more onward connections); resort shuttle services from rail stations (book in advance); Didi/taxi from local towns; electric bike rentals on Shenzhou Peninsula scenic road",
+    "transport_to_nearest_airport": "Shimei Bay: ~100 km / 1.5 hour drive from Sanya Phoenix International Airport (SYX); ~190 km / 2.5 hour drive from Haikou Meilan International Airport (HAK); Shenzhou Peninsula: ~110 km / 2 hour drive from SYX, ~180 km / 2.5 hour from HAK; high-speed rail to Shenzhou Station ~35 min from Sanya, ~1 hour from Haikou",
+    "combined_itinerary": "Wanning surf-resort triangle: Riyue Bay (surf training base) + Shimei Bay (wave kindergarten + Le Meridien luxury) + Shenzhou Peninsula (Grand Hyatt + lighthouse + scenic coastal road); combine with Xinglong Tropical Botanical Garden (兴隆热带植物园) and Dongshan Ridge (东山岭); typical 3-5 day Wanning resort + surf itinerary"
+  },
+  "reviews_reputation": {
+    "pros": [
+      "Significantly less crowded than Riyue Bay or Houhai - peaceful waves and beaches",
+      "Luxury 5-star resort infrastructure (Le Meridien, Westin, Grand Hyatt) with English support, international cards and amenities",
+      "Shimei Bay 'wave kindergarten' truly safe for absolute beginners and small children",
+      "Pristine 6 km silver sand beach (Shimei) and palm-lined scenic coastal road (Shenzhou Peninsula)",
+      "Easy alternative breaks for intermediate/advanced surfers when Riyue Bay is over-crowded or wind-blown"
+    ],
+    "cons": [
+      "Far fewer surf clubs and instructors than Riyue Bay or Houhai - lessons must be pre-arranged",
+      "Waves smaller and less powerful than Riyue Bay's flagship point breaks - not ideal for advanced wave hunters",
+      "No surf-village vibe - mostly resort guests and beach tourists rather than surf community",
+      "Some non-resort beach sections accumulate debris and lack lifeguard coverage",
+      "Higher overall cost when staying at flagship resorts (1,000-3,000 RMB/night)"
+    ],
+    "user_reviews": "Trip.com / Tripadvisor: Shimei Bay 4.0-4.5/5 (rated 'Hainan's Most Beautiful Bay' by China National Geographic), Shenzhou Peninsula 4.0-4.5/5; Xiaohongshu features as quieter resort alternative to Sanya; Dianping reviews praise beach quality and hotel service, note distance from Sanya as drawback; surf-specific reviews label both as 'overflow' or 'kindergarten' breaks for beginners and intermediates seeking refuge from Riyue Bay crowds",
+    "recommended_for": "Beginner-to-intermediate surfers seeking quieter alternative to Riyue Bay; family resort holidays; couples on luxury beach escape; advanced surfers using as backup when Riyue Bay crowded or blown out; corporate retreat / MICE groups; international visitors needing English-speaking resort infrastructure",
+    "operator_brand_partnership": "Shimei Bay anchored by Marriott group (Le Meridien, Westin, Sheraton, Aloft); Shenzhou Peninsula anchored by Hyatt (Grand Hyatt) and Marriott (Le Meridien, Sheraton); both bays jointly promoted by Wanning Tourism Bureau as 'Wanning Surf Triangle' alongside Riyue Bay; surf services typically subcontracted to mobile coaches from Riyue Bay Tianxin Village cluster (GROM, Shaka, Hi Surf) [uncertain partnership details]"
+  },
+  "verification": {
+    "existence_verified": "true",
+    "verification_sources": [
+      "https://intotravelchina.com/attractions/wanning-attraction/shimei-bay.html",
+      "https://www.trip.com/moments/poi-shimei-bay-75965/",
+      "https://www.tripadvisor.com/ShowUserReviews-g616021-d503336-r127956271-Shimei_Bay-Wanning_Hainan.html",
+      "https://www.topchinatravel.com/china-attractions/shenzhou-peninsula.htm",
+      "https://www.tripadvisor.com/Attraction_Review-g616021-d1859634-Reviews-Shenzhou_Peninsula-Wanning_Hainan.html",
+      "https://www.agoda.com/grand-hyatt-shenzhou-peninsula/hotel/wanning-cn.html",
+      "https://traveldayztravel.com/wanning-day-trip-itinerary/",
+      "https://www.stormrider.surf/region/hainan",
+      "https://www.surfeconomics.com/surf-travel/surf-guide-hainan-china/",
+      "https://en.hainan.gov.cn/englishsite/Leisure/202507/58eb4438bc70494c9420cb739154c3ae.shtml",
+      "https://www.tropicalhainan.com/china-beach-ultimate-open-returns-to-wannings-shenzhou-peninsula/",
+      "https://hk.trip.com/moments/detail/wanning-846-128003457/",
+      "https://www.hotels.com/ho650957/the-westin-shimei-bay-resort-wanning-china/"
+    ],
+    "last_updated": "2026-05-15"
+  },
+  "uncertain": [
+    "pool_size",
+    "wave_count_per_set",
+    "price_range",
+    "session_skill_tiers",
+    "equipment_rental",
+    "coaching_fee",
+    "coaching_packages",
+    "membership_program",
+    "corporate_team_building",
+    "photography_video_service",
+    "accessibility_for_disabled",
+    "events_competitions_calendar",
+    "on_site_accommodation",
+    "operator_brand_partnership"
+  ]
+}

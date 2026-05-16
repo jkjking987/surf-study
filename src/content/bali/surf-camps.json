@@ -1,0 +1,75 @@
+{
+  "basic_info": {
+    "name": "Surf Camps in Bali - All-Inclusive Packages (Chinese: 峇里島衝浪營 - 全包式套裝; Indonesian: Kamp Selancar Bali). Coverage: Canggu (Solid Surf House, Lapoint, Chillhouse, Soleia, Surf Village, Mondo Surf Village, Kima Surf, WaveHouse Canggu), Uluwatu/Bukit (Padang Padang Surf Camp, CARI Surf Camp, Rapture Surfcamp, WaveHouse Uluwatu, Outer Reef Surf Travel), Medewi (Brown Sugar Surf Camp, West Break Bali, Bombora Medewi).",
+    "category": "surf_business",
+    "region": "Bali-wide",
+    "gps_location": "Canggu cluster (-8.65, 115.13 to -8.66, 115.14): Solid Surf House Canggu, Lapoint Canggu (Berawa), Chillhouse Canggu (Padonan), Soleia Surf Canggu, Mondo Surf Village (Berawa), Kima Surf Canggu, WaveHouse Canggu, Surf Village Canggu. Uluwatu/Bukit cluster (-8.81, 115.10 to -8.82, 115.09): Padang Padang Surf Camp (Labuan Sait), CARI Surf Camp (Pecatu, Jalan Umpeng Sari near Padang Padang), Rapture Surfcamp Padang Padang, WaveHouse Uluwatu (Bingin cliffs), Outer Reef Surf Travel villa. Medewi cluster (-8.4170, 114.7910): Brown Sugar Surf Camp Medewi, West Break Bali, Bombora Medewi.",
+    "distance_from_dps_airport_km": "Canggu camps ~17-22 km (40-70 min drive); Uluwatu/Bukit camps ~17-22 km (35-60 min via Toll Bali Mandara); Medewi camps ~75-80 km (2.5-3 hr drive west via Tabanan-Negara highway)."
+  },
+  "surf_conditions": {
+    "wave_type": "Canggu camps - sand-bottom beach breaks (Batu Bolong, Berawa, Old Man's, Pererenan) for beginners; left and right reef passes (Echo Beach, Sandbar) for intermediates. Uluwatu/Bukit camps - reef breaks (Padang Padang Right beginner inside, Bingin, Dreamland, Balangan, Padang Padang Left advanced, Uluwatu cluster). Medewi camps - long left-hand cobblestone/sand point break (Medewi Point) plus reef alternatives (Yeh Sumbul, Balian, Pasut on roadtrip days).",
+    "skill_level": "Beginner-friendly camps primarily (Solid Surf House, Lapoint, Soleia, Padang Padang Surf Camp, Rapture, Brown Sugar Medewi); intermediate+ programs at WaveHouse Uluwatu, Chillhouse, Outer Reef, CARI Surf, West Break Bali; advanced coaching add-ons at most camps; family-friendly at Mondo Surf Village.",
+    "wave_height_range": "Beginner lessons 1-3 ft; intermediate guided sessions 2-5 ft; advanced coaching 4-8 ft; camps adjust spot selection to skill level and conditions daily.",
+    "bottom_type": "Sand at Canggu beginner spots; reef/coral at Bukit Peninsula and Sanur intermediate spots; cobblestone/sand mix at Medewi Point.",
+    "best_season": "Camps operate year-round. Canggu camps best Apr-Oct (dry season SE trade winds); Bukit/Uluwatu camps best May-Sep (peak season swell); Medewi camps best May-Sep but Medewi Point also fires Oct-Apr on smaller swells; many camps switch coasts (west in dry, east in wet) for student lessons.",
+    "best_tide": "Spot-dependent; beginner programs target mid-to-high tide windows at sand beaches; coaches plan daily schedule around tide chart.",
+    "best_wind": "Mornings before SE trades pick up (offshore at west-facing spots); afternoon E coast guided trips during onshore W winds at west coast.",
+    "best_swell_direction": "SW for west coast camps; E/SE for occasional east coast guided trips (Sanur, Keramas).",
+    "swell_consistency_rating": "5 (camps deliver near-daily learnable surf year-round through Bali's coast-switching strategy)",
+    "peak_crowd_level": "4-5 at Canggu beginner zones (Batu Bolong, Old Man's morning sessions extremely crowded with multiple camps' students); 3-4 at Bukit beginner spots (Padang Padang Right, Balangan inside); 2-3 at Medewi (much quieter); high-season Jun-Aug + Dec-Jan most crowded."
+  },
+  "practical_info": {
+    "access": "Camps typically include airport pickup from DPS on Day 1 and drop-off on departure day; daily beach transfers included; pickup window often restricted to 1-2 set arrival days (Lapoint mandates Monday arrival; many camps Sat-Sun arrival window).",
+    "recommended_session_time": "Morning sessions 6:30-10:00 AM (cleanest conditions, taught to all levels); second sessions 10:00 AM-1:00 PM for intermediate/advanced or beginner second-attempt; afternoon free-surf or coached sessions 3:00-6:00 PM at most camps.",
+    "nearby_warung": "All Canggu camps in dense F&B zones (warungs, vegan cafes, beach clubs - Old Man's, La Brisa, The Lawn); Bukit camps near Single Fin (Uluwatu cliff), Drifter Cafe Bingin, Sundays Beach Club, Cashew Tree; Medewi camps near Bombora Cafe, Mai Mai Warung, Sandhya Beach Resort restaurant.",
+    "alternative_spot_within_10min": "Canggu camps switch between Batu Bolong/Berawa/Pererenan/Echo/Sandbar; Bukit camps rotate Padang Right/Bingin/Balangan/Dreamland/Nyang Nyang/Green Bowl; Medewi camps backup to Yeh Sumbul (Yeh Leh), Balian, Pasut depending on swell/wind.",
+    "boat_charter_required": "No - all primary camp spots accessible from shore; some intermediate programs offer optional boat trips to Nusa Lembongan, Sanur reefs, or Keramas as add-on day trips."
+  },
+  "safety_culture": {
+    "hazards": "Crowded learn-to-surf zones (collision risk), beginner board injuries (fins, nose, leash tangles), strong rip currents at Canggu (camps brief on rip identification), reef cuts at intermediate Bukit progression sessions, sunburn/dehydration, scooter accidents on transfers (some camps mandate van-only transfers), wet-season jellyfish blooms.",
+    "marine_hazards": "Jellyfish (sporadic), sea urchins at Bukit reef breaks (booties recommended), occasional sea snakes (non-aggressive), reef cuts (high tropical infection risk - treat immediately with antiseptic and oral antibiotics if deep); no shark issues; camps stock comprehensive first aid kits and instructors trained in surf rescue.",
+    "lineup_etiquette": "Camps deliver lineup-etiquette briefings before paddle-outs; designated beginner zones with marker buoys; intermediate students taught right-of-way, priority, no-snake, no-drop-in rules; camps maintain working relationships with locals at key spots.",
+    "localism_intensity": "Low at beginner camp zones; medium at intermediate Bukit spots where camp students mix with free-surfers and locals; camps brief students on respecting locals and free-surfers.",
+    "respect_protocol": "Tip instructors and house staff (IDR 50,000-150,000/day typical); respect Hindu ceremonies and processions; do not photograph ceremonies without permission; modest dress in temple areas; do not drink alcohol on beach during Nyepi or major Hindu holy days; remove leashes when crossing through ceremonies.",
+    "medical_nearby": "Canggu camps: Penta Medical Canggu 5 min, BIMC Nusa Dua 30 min, Siloam Denpasar 25 min, Bali Mandara Toll Hospital; Bukit camps: Unicare Pecatu 5-10 min, BIMC Nusa Dua 15-20 min, Siloam Denpasar 30-40 min; Medewi camps: Negara public hospital 30 min, BIMC/Siloam Denpasar 2.5 hr; camps maintain emergency contacts and most include basic medical insurance liaison.",
+    "rescue_jet_ski_available": "No - camps rely on instructor water-safety (1:2-1:6 ratio depending on tier) and Bali Search & Rescue (Basarnas); WaveHouse advertises 1:2-3 ratio; Padang Padang Surf Camp 1:4; Lapoint 1:4-5."
+  },
+  "services": {
+    "board_rental_availability": "All camps include lesson boards in package (foam soft-top for beginners, fiberglass for intermediates); additional rental for free-surf sessions IDR 100,000-250,000/day at most camps; WaveHouse and Outer Reef offer broader rental quivers including step-ups and longboards.",
+    "surf_photographer_available": "In-house land/water/drone photographers at WaveHouse, Lapoint, Padang Padang Surf Camp, Rapture, CARI, Chillhouse, Soleia; daily video analysis included in most packages; photo upgrade packages USD 30-120/session common.",
+    "photographer_recommendation": "Camp-employed photographers offer per-session and weekly upgrade packages; freelance shooters available via Instagram/camp referrals (Bali Surf Photo, several Indonesian water shooters). [uncertain on per-shooter rates]",
+    "accommodation_options": "Camps offer tiered accommodation typically: (1) Shared dorms (4-8 beds, fan or AC) USD 30-60/night equivalent; (2) Private double rooms (AC, ensuite) USD 60-120/night equivalent; (3) Private bungalows/villa rooms USD 120-250/night equivalent. Most camps cluster around pool/garden hub with communal dining/yoga area; Chillhouse and Outer Reef positioned as boutique-luxury; Solid Surf House and Soleia positioned as social budget; Padang Padang Surf Camp offers 4 private room tiers; Mondo Surf Village family-oriented with apartments.",
+    "webcam_url": "Camps use Surfline cams for Canggu Batu Bolong (https://www.surfline.com/surf-report/canggu-batu-bolong), Old Man's, Berawa, Uluwatu (https://www.surfline.com/surf-report/uluwatu), Padang Padang, Bingin, Medewi (https://www.surfline.com/surf-report/medewi-point) for daily session planning. [uncertain on operator-specific cams]",
+    "drone_allowed": "Most camps allow guest drone use for personal footage; staff drone operators provide group shots; no drone over Hindu ceremonies; commercial filming requires permit. [uncertain]",
+    "coworking_nearby": "Canggu camps: walking/scooter distance to Outpost Canggu, Tropical Nomad, BWork, Dojo Bali, Bali Bustle; Bukit camps: Outpost Ulu (Padang Padang area), ZIN Cafe Bingin, Drifter Cafe; Medewi: very limited dedicated coworking, camp cafes only (Bombora Cafe wifi)."
+  },
+  "pricing": {
+    "avg_lesson_price": "Standalone-lesson equivalent USD 40-65/lesson at camp pricing; sold as packages so per-lesson cost lower than walk-in school price.",
+    "lesson_price_range_idr": "Walk-in equivalent IDR 600,000-1,000,000/session for camp guests; package-amortized cost IDR 300,000-600,000 per session.",
+    "board_rental_daily": "Included in package for lesson use; free-surf rental IDR 100,000-300,000/day depending on board type and camp.",
+    "gopro_rental_price": "IDR 150,000-300,000/session at most camps with SD card; included in some premium package tiers (WaveHouse, Chillhouse).",
+    "wetsuit_top_rashguard_rental": "Rashguard included free; wetsuit top IDR 50,000-100,000/day if available (rarely needed in Bali). [uncertain]",
+    "board_repair_avg_price_idr": "Camp-board minor ding repairs included; guest-board repairs IDR 150,000-400,000 minor, IDR 500,000-1,500,000 major; partnered repair shops Naruki Surf Repair (Canggu), Drifter Surf Shop (Seminyak/Bingin), local Uluwatu glassers.",
+    "surf_camp_weekly_package": "Budget tier USD 380-700/week (Solid Surf House from EUR 349/week dorm, Soleia from EUR 399-441/week, West Break Bali 8-day from IDR 7,500,000); Mid-range USD 700-1,500/week (Lapoint Canggu, Padang Padang Surf Camp, Rapture, Brown Sugar Medewi, Surf Village Canggu, Kima Surf, Mondo Surf Village); Premium USD 1,500-2,500/week (Chillhouse, WaveHouse Surf & Stay, CARI Surf private bungalows); Luxury USD 2,500-5,000+/week (Outer Reef Surf Travel villa-based, Soleia private villa upgrades, customized private coaching packages).",
+    "camp_package_inclusions": "Standard inclusions: 5-6 group surf sessions per week (2 hrs each), all surf equipment (board, rashguard, leash), accommodation (per tier), breakfast daily (most), airport pickup (most, often only on set arrival days), daily beach transfers, video/photo analysis sessions (most), surf theory + dryland practice, yoga sessions 2-4x/week (Solid Surf House, Soleia, Chillhouse, Rapture, Padang Padang Surf Camp), bike rental (some - WaveHouse Uluwatu), basic insurance liaison (some), Wi-Fi, pool access. Common exclusions: lunch and dinner (Canggu camps typically breakfast-only due to nearby F&B), alcohol, airport drop-off (often), private 1-on-1 coaching, advanced coaching upgrades, photo packages, board damage waivers, optional day trips (Nusa Lembongan, Padang Padang Right photo session, Keramas), spa/massage, tips.",
+    "peak_vs_offpeak_pricing": "Peak season Jun-Aug + Dec 20-Jan 5 commands 25-50% premium; shoulder Apr-May/Sep-Nov standard rates; low Feb-Mar offers 15-25% discount at many camps; mandatory Christmas/New Year minimum stay (7-10 nights) at premium camps. [uncertain on exact percentages per operator]"
+  },
+  "sustainability": {
+    "eco_certification": "WaveHouse and Chillhouse market sustainability ethos (reef-safe sunscreen, water refill stations, plastic-free, organic kitchen); Solid Surf House and Soleia participate in regular beach cleanups (Sungai Watch, Bye Bye Plastic Bags partnerships); Padang Padang Surf Camp and Rapture engage with local Pecatu community projects; no industry-wide third-party certification but EcoBnb and Green Globe ratings appear with select camps. [uncertain on individual certifications]",
+    "carbon_offset_option": "Not standard; Lapoint has historically partnered with carbon-offset platforms for European guests on opt-in basis; Soleia mentions sustainability initiatives. [uncertain]"
+  },
+  "events_community": {
+    "annual_competition_window": "Many camps host annual in-camp student contests/grad days; participate in Coca-Cola Bali Open, ISA Indonesia events; Rip Curl Cup Padang Padang (Aug-Oct invitational) brings Bukit-area surfer attention; Single Fin Sunday at Uluwatu is permanent Sunday fixture. [uncertain on individual camp competition calendars]",
+    "community_events": "Weekly events: BBQ nights (Brown Sugar Medewi Saturday Beach BBQ standard); yoga + breath workshops; sunset cocktails at Single Fin (Bukit camps Sun), Old Man's (Canggu camps Thu); Nyepi Day silent retreat policy (camps shut down outdoor activities, no leaving compound); Galungan/Kuningan ceremonies camp-led temple visits; Full Moon parties at La Brisa Canggu / Single Fin Uluwatu; International Women's Surf Day events June; beach cleanups monthly."
+  },
+  "uncertain": [
+    "photographer_recommendation",
+    "webcam_url",
+    "drone_allowed",
+    "wetsuit_top_rashguard_rental",
+    "peak_vs_offpeak_pricing",
+    "eco_certification",
+    "carbon_offset_option",
+    "annual_competition_window"
+  ]
+}

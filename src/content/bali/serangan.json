@@ -1,0 +1,77 @@
+{
+  "basic_info": {
+    "name": "Serangan (Chinese: 沙拉岸 / 海龜島; Indonesian: Pulau Serangan; nickname: Turtle Island)",
+    "category": "surf_spot",
+    "region": "East Coast",
+    "gps_location": "-8.7308, 115.2375 (Pulau Serangan, southeast of Denpasar; access via causeway off Jalan Pulau Serangan; Google Maps: https://maps.app.goo.gl/SeranganSurf)",
+    "distance_from_dps_airport_km": "~10-12 km (~15-25 min drive)",
+    "distance_from_canggu_uluwatu_min": "From Canggu: ~50-70 min by motorbike (~22 km); From Uluwatu: ~40-50 min by motorbike (~20 km)"
+  },
+  "surf_conditions": {
+    "wave_type": "Reef break with multiple shifting A-frame peaks - both left and right peaks over a wide coral reef platform; left peak typically offers longer wave, right is shorter and tends to close out. 3-6 distinct peaks depending on swell size",
+    "skill_level": "Intermediate (and confident upper-beginner on smaller days at inside peaks); not suitable for true beginners due to crowded shifting peaks and sharp reef. Advanced when bigger barrel-day conditions arrive",
+    "wave_height_range": "Waist-high to double-overhead (~2-10 ft); ideal 3-6 ft for fun rippable walls; bigger swells produce hollow barrels on the outside",
+    "bottom_type": "Coral reef (shallow coral platform with urchin-filled holes; live coral noted as hazard)",
+    "best_season": "Wet season November-March (peak December-February); the go-to east-coast spot when west coast is blown out; works year-round on small swells but cleanest in wet season",
+    "best_tide": "Mid tide is the sweet spot (works all tides); low tide produces sucky barrels (but exposes sharp reef and urchins); high tide gives rippable walls and is safer for wipeouts",
+    "best_wind": "Offshore N to W winds (wet-season trade winds); cross-shore NW most classic; onshore E during dry season makes it choppy",
+    "best_swell_direction": "S to SSW (works on all swell angles 1-6 ft); SSE combined with NW offshore wind is the magic combo",
+    "swell_consistency_rating": "5 (extremely consistent during wet season - a magnet that holds swell when other Bali spots are flat or onshore; the most reliable east-coast wet-season option)",
+    "wave_length_meters": "50-100 meters (rideable single-wave length up to ~100 m on the long left)",
+    "wave_speed_rating": "Medium (rippable walls on higher tide); medium-fast and hollow on lower tide; outside barrel section can be fast",
+    "takeoff_zone_difficulty": "Moderate - shifting peaks make positioning tricky; drop is manageable on average days but reef is shallow and unforgiving on low tide; outside peak gets serious on bigger swells",
+    "secondary_peaks": "Yes - 3-6 distinct shifting peaks across the wide reef: inside A-frame (mellower), middle peaks near former warung area, far-left consistent long left, outside right barrel section",
+    "peak_crowd_level": "5 (extremely crowded during wet season - one of the most crowded lineups in Bali, with hundreds of surfers and surf-school groups; cited as 9/10 crowd factor)"
+  },
+  "practical_info": {
+    "access": "Since 2018 most of the island was privatised for resort/mega-project development; primary access now is boat-only from Sanur or Serangan launch points - land access through the causeway is restricted by checkpoints and largely closed for surfing. Boat taxi services run daily from Sanur",
+    "paddle_out_method": "Boat drop-off directly outside the lineup; if land-accessing via causeway (when possible), walk across reef at low tide or paddle straight out through breaking waves at higher tide; return the same way",
+    "entry_fee": "Boat taxi from Sanur ~IDR 100,000-150,000 round trip per person; causeway checkpoint may charge a small ID-exchange/entry fee when land access is permitted (~IDR 5,000-15,000)",
+    "recommended_session_time": "Dawn patrol (5:30-7:30 AM) for glassy conditions before the school crowds arrive; mid-tide windows in early morning are ideal",
+    "best_time_of_day": "Sunrise to ~8 AM before surf-school boats arrive (crowd thins again briefly at lunchtime ~12-1 PM); late afternoon if winds stay offshore",
+    "nearby_warung": "Limited - the former beach warungs were demolished after 2018 privatisation; bring own water, snacks, wax. Warungs available back at Sanur boat launch and on Serangan village side of causeway. Mertasari Beach area in Sanur for post-surf food",
+    "alternative_spot_within_10min": "Sanur Reef (5-10 min by boat), Sindhu (10 min by boat), Hyatt Reef (5 min by boat); all on same wet-season east-coast window",
+    "boat_charter_required": "Largely yes since 2018 - boat-only access is the practical option for most surfers. Boat taxi from Sanur is the standard method"
+  },
+  "safety_culture": {
+    "hazards": "Shallow sharp coral reef especially at low tide, sea urchins in reef holes, crowded shifting lineup with mixed skill levels increases collision risk, occasional resort-development security restrictions, slippery dirt tracks on land approach after rain",
+    "marine_hazards": "Sea urchins (abundant in reef cracks - main concern), live coral, occasional jellyfish in wet season; rare sea snake sightings. Vinegar and tweezers for urchin spines recommended",
+    "reef_cut_severity_index": "Moderate to High - reef is sharp and shallow at low tide; booties recommended on low-tide sessions; not as severe as Padang/Uluwatu but still warrants caution",
+    "rip_current_pattern": "Currents wash across the reef platform especially on bigger swells; channels between peaks offer paddle-out lanes; mid-tide is safest for navigating the shifting current pattern",
+    "lineup_etiquette": "Despite huge crowds, vibe is generally friendly and welcoming; standard priority/no-snake rules; shifting peaks make priority claims tricky so communicate verbally. Drop-ins are common due to inexperienced school groups",
+    "localism_intensity": "Low to Medium (~5/10) - mixed crowd of locals, expats, surf-school students and visitors; no strong territorialism but lineup is chaotic rather than hostile",
+    "respect_protocol": "Smile and say hi, do not paddle aggressively for every set, give surf-school students space, do not drop in - even though others might. Respect Balinese Hindu ceremonies at nearby Pura Sakenan temple",
+    "resident_local_legends": "No single famous resident legend tied to Serangan; many east-coast and Sanur Indonesian surfers frequent the spot during wet season [uncertain]",
+    "religious_sensitivity": "Pura Sakenan temple sits on Serangan Island - a significant Balinese Hindu site; respect ceremonies (especially Kuningan, Galungan, and the temple's odalan). Nyepi (Day of Silence) - no beach/sea access islandwide. The island also hosts a turtle conservation hatchery",
+    "medical_nearby": "Siloam Hospital Denpasar (~20-30 min), BIMC Nusa Dua (~25-35 min), Sanglah General Hospital (~25 min)",
+    "nearest_clinic_distance_km": "Sanur clinics (Bali Royal Hospital BROS, Kasih Ibu Sanur): ~5-8 km",
+    "rescue_jet_ski_available": "No permanent rescue jet ski; boat taxis can assist if needed [uncertain]"
+  },
+  "services": {
+    "nearest_surf_school": "Sanur Surf School, Chandra's Surfing Bali (Sanur), Padang Padang Surf Camp (Sanur outpost), Rip Curl School of Surf (Sanur), Bali Wave Pioneers - most run boat shuttles to Serangan in wet season",
+    "board_rental_availability": "Available via Sanur Surf School and surf shops in Sanur; not directly on Serangan beach anymore. ~IDR 100,000-200,000/day",
+    "surf_photographer_available": "Yes - boat-based and water photographers operate during wet season; many surf schools include photo packages",
+    "photographer_recommendation": "Chandra's Surfing Bali (~IDR 100,000 per person), Sanur Surf School photographers, Padang Padang Surf Camp daily photo/video team. Freelance shooters on Instagram (#seranganbali). Rates typically IDR 100,000-500,000/session",
+    "accommodation_options": "Most surfers stay in Sanur (Cari Surf Camp Sesetan, Sanur Paradise Plaza, Hotel Mercure Sanur, numerous mid-range hotels and homestays); some stay in Nusa Dua or Canggu and ride in. Few stay on Serangan Island itself due to 2018 privatisation",
+    "webcam_url": "https://www.surf-forecast.com/breaks/Serangan-Bali ; Surfline Sanur cam covers the broader region",
+    "drone_allowed": "Generally allowed for personal use over the surf zone; avoid flying over temple, turtle hatchery and any active development/resort area; check with boat captain [uncertain]",
+    "coworking_nearby": "Sanur has multiple coworking options: Genesis Creative Centre, Tropical Nomad (Sanur outpost), various cafe-coworks; ~5-10 min from boat launch"
+  },
+  "pricing": {
+    "avg_lesson_price": "USD 30-50 / IDR 450,000-800,000 group lesson (includes boat transfer in many cases); private lessons IDR 800,000-1,500,000",
+    "board_rental_daily": "IDR 100,000-200,000/day (~USD 7-14)"
+  },
+  "sustainability": {
+    "water_quality_rating": "Moderate - heavy wet-season runoff from Denpasar can bring trash and brown water especially after major rainstorms; cleaner in mid-day and after sustained offshore wind. Plastic pollution can be a noticeable issue on the inside"
+  },
+  "events_community": {
+    "annual_competition_window": "Has hosted local/regional ISC (Indonesian Surfing Championship) and Asian Surfing Championship events in wet season historically; no fixed major international event currently [uncertain]",
+    "community_events": "Informal wet-season sessions; Sanur-based surf clubs often run weekend group surfs; occasional reef-clean events organised by surf schools"
+  },
+  "uncertain": [
+    "resident_local_legends",
+    "rescue_jet_ski_available",
+    "drone_allowed",
+    "annual_competition_window"
+  ]
+}

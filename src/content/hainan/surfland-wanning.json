@@ -1,0 +1,78 @@
+{
+  "basic_info": {
+    "name": "SURFLAND Wanning Surf Resort (SURFLAND 萬寧逐浪度假區 / 中旅逐浪度假區)",
+    "location": "No. 1 Yingbin First Road, Riyue Bay Tourism Area, Liji Town, Wanning City, Hainan Province, China (海南省萬寧市禮紀鎮日月灣遊覽區迎賓一路1號)",
+    "operator": "China Tourism Group (中旅集團 / China Travel Group, state-owned) via its commercial-management arm Zhonglu Shangguan; wave technology supplied and co-operated with American Wave Machines (AWM)",
+    "opening_date": "2025-11-11",
+    "status": "operating",
+    "category": "artificial_wave_pool"
+  },
+  "technical_specs": {
+    "wave_technology_brand": "PerfectSwell by American Wave Machines (AWM) - 30-chamber pneumatic system, the only one of its kind globally; first PerfectSwell installation in mainland China",
+    "pool_size": "Approximately 10,000 m² wave basin within a ~155-acre (≈63 ha) overall resort footprint",
+    "wave_height": "0.3-2.7 m (waves above 2 m meet Olympic competition standards)",
+    "wave_height_adjustability": "Yes - 23 programmable wave configurations/patterns covering everything from soft whitewater for beginners to large barrels for pros; both left- and right-hand waves can be generated on demand",
+    "wave_types": "Artificial PerfectSwell waves spanning beginner whitewater, intermediate green/peeling shoulders, advanced steep faces, and pro-level barrels/aerial sections",
+    "waves_per_hour": "Up to ~600 waves per hour (one wave every 6 seconds when running continuously) [uncertain]",
+    "wave_count_per_set": "4 waves per set, ~6 seconds between waves within a set",
+    "session_length": "Approximately 55-60 minutes per public session (matches Surfway Hainan in-house school session length); private bookings sold in 1-hour and 2-hour blocks",
+    "stance_rotation_schedule": "Yes - the pool alternates daily between Goofy and Regular orientation (one day Goofy / next day Regular); guests must check the date on the booking calendar before reserving",
+    "wave_type_classification": "Artificial PerfectSwell (pneumatic) - waves behave like a clean point/reef peel with predictable take-off zones, making board choice closer to a point break than a beach break"
+  },
+  "pricing_sessions": {
+    "price_range": "Group sessions start at 388-545 RMB per 55-minute slot (board and rashguard rental extra); private 1-hour bookings range from ~7,760 RMB (Intermediate) to ~10,150 RMB (PRO/barrels), 2-hour bookings up to ~12,160 RMB",
+    "session_skill_tiers": "Beginner 398 RMB, Intermediate 388 RMB, Advanced 498 RMB, PRO 545 RMB (per 55-minute group session, as published by the in-house Surfway Hainan school)",
+    "equipment_rental": "Hardtop surfboard (basic) 80 RMB/session with 500 RMB deposit; Hardtop surfboard (pro) 300 RMB/day; wetsuit 40 RMB with 100 RMB deposit",
+    "coaching_fee": "Land coaching + in-water coaching combo 600 RMB; wave-pushing assistance 328 RMB; full-day private ocean lesson 900 RMB [uncertain]",
+    "coaching_packages": "Complete package (land coaching + in-water coaching + filming + video analysis) 1,175 RMB; video analysis + filming bundle 580 RMB; standalone professional filming 520 RMB; drone filming with 3 batteries 750 RMB",
+    "membership_program": "No publicly published annual/monthly/10-pack membership card as of opening; multi-session and corporate packages handled on request [uncertain]",
+    "corporate_team_building": "Yes - resort markets group bookings, private pool rentals and team-building packages; specific minimum head-count and pricing not publicly listed [uncertain]"
+  },
+  "experience_guide": {
+    "best_season": "Year-round operation (the wave pool is weather-independent); peak demand aligns with Hainan's high tourist season November-April, plus summer school holidays July-August",
+    "best_swell_window": "N/A - wave pool is mechanically generated; the surrounding natural Riyue Bay break is best October to March",
+    "crowd_level": "Heavy demand and long wait times reported during the November 2025 soft-opening and major holidays; 4-wave sets create natural queues; weekday off-peak sessions are noticeably calmer",
+    "booking_method": "Session-based online reservation; date-specific (must match Goofy/Regular rotation calendar); walk-ins limited",
+    "booking_platform": "Ctrip / Trip.com (携程), Dianping (大眾點評), official WeChat mini-program; international users can also book via Surfway Hainan (in-house school) by WhatsApp, Telegram or email",
+    "payment_options": "Alipay, WeChat Pay, Chinese bank cards; international Visa/Mastercard accepted through the Surfway Hainan in-house school for foreign visitors; cash generally not preferred",
+    "skill_required": "All levels - Beginner, Intermediate, Advanced and PRO tiers; sessions are strictly tier-segregated for safety and wave settings",
+    "age_eligibility": "Recommended ages 6-60; minimum height ~1.0 m; under-6 and over-60 generally not admitted to in-water sessions for safety reasons",
+    "child_friendly_score": "4 out of 5 - dedicated beginner sessions, soft-top boards, on-site themed children's hotel rooms and family-oriented amenities; the 6-year minimum and height limit exclude very young kids",
+    "sup_paddleboard_offering": "Limited inside the wave pool itself; SUP and paddleboard rentals widely available at the adjacent natural Riyue Bay beach [uncertain]",
+    "photography_video_service": "3 complimentary still photos included with each session; dynamic video upgrade 199 RMB; professional filming add-on 520 RMB; drone filming (3 batteries) 750 RMB; full filming + analysis bundle 580-1,175 RMB",
+    "language_support": "Mandarin Chinese is primary; English-speaking personal coordinator available through the Surfway Hainan school; AWM-affiliated international staff also on site",
+    "accessibility_for_disabled": "No publicly documented adaptive surfing program or barrier-free in-water access at opening; resort common areas (hotels, retail street) follow standard Chinese accessibility codes [uncertain]",
+    "stance_preference_input": "Yes - because the pool runs Goofy one day and Regular the next, guests must indicate stance and pick a date that matches; calendar shown at booking time",
+    "safety_notes": "On-site lifeguards and safety briefing before each session; ISA-trained / ISA Level-2 coaches present (Riyue Bay area is the training base of China's National Surfing Team and home to a generation of ISA-certified coaches); insurance recommended; helmets typically required for advanced/PRO settings",
+    "events_competitions_calendar": "Designed as China's first Olympic-grade competition venue and intended host for national-team training and future ISA / WSL-sanctioned events; opening week (Nov 2025) featured international surf demos, drone shows, skate exchange races and a 100-person fun run; specific 2026 competition calendar not yet published [uncertain]"
+  },
+  "surroundings": {
+    "nearby_accommodation": "Numerous Riyue Bay surf villas, guesthouses and boutique hotels (e.g., Sweetome Surf Hotel, Forest Inn Riyue Bay Surf Branch, Riyue Bay Legend Hotel) priced ~300-1,200 RMB/night; design-forward villas and Airbnbs available in the wider Liji Town surf village",
+    "on_site_accommodation": "Two on-site hotels with 132 rooms total: (1) Yue Chao Surf-Themed Hotel (越潮 / 樾潮 - China's first surf-themed hotel, family-friendly, pet-friendly, with constant-temperature pool and complimentary 1-hour dual surf lesson); (2) Yu Yue Designer Hotel (御越 / 屿玥). Garden-view rooms from ~780 RMB and sea-view rooms from ~980 RMB (breakfast included)",
+    "nearby_food": "On-site X-LIVIN Street (逐浪越界潮流商業街區) features restaurants, a beachfront club, live-music venue and cafés; surrounding Riyue Bay surf village offers Hainanese seafood, surf-shack cafés, hotpot and local Wanning specialties",
+    "transport": "Self-drive recommended; ride-hailing (Didi) and resort shuttles available; taxis from Shenzhou High-Speed Rail Station ~20 minutes; private car charters from Sanya/Haikou widely available",
+    "transport_to_nearest_airport": "Approximately 70 minutes by car from Sanya Phoenix International Airport (SYX); ~18.4 km / ~20-minute drive from Shenzhou High-Speed Railway Station on the Hainan Eastern Ring HSR; ~2 hours from Haikou Meilan International Airport (HAK)",
+    "combined_itinerary": "Riyue Bay surf village + SURFLAND wave pool + natural Riyue Bay beach surf + Xinglong Tropical Botanical Garden + Shenzhou Peninsula resorts + Sun-Moon Bay Buddhist sites; multi-day surf-focused itineraries pair AM ocean session with PM wave-pool session"
+  },
+  "reviews_reputation": {
+    "pros": "1) China's first Olympic-grade artificial wave pool with genuine 0.3-2.7 m programmable waves; 2) PerfectSwell's 30-chamber pneumatic tech delivers very consistent, ocean-like waves; 3) Year-round, weather-proof operation with both Goofy and Regular days; 4) On-site hotels (132 rooms), retail street, dining and skate park make it a full destination; 5) Professional ISA-trained coaching staff and integration with China's national team training base",
+    "cons": "1) Long wait times during opening period and peak holidays - 4-wave sets create queues; 2) Pricing is steep relative to natural ocean lessons in the same bay (388-545 RMB group, up to 12,160 RMB private); 3) Strict 6-60 age band and height limit excludes very young children and senior surfers; 4) Goofy/Regular daily rotation forces stance-aware date planning; 5) Far from major airports (~70 min from Sanya) requires advance transport planning",
+    "user_reviews": "Affiliated Yue Chao hotel scoring 4.8/5 with ~392 reviews on Ctrip; early Xiaohongshu and travel-blog reviews praise wave quality (\"wave is real, not foam\") and resort design but flag long queues, high prices and the 4-wave-per-set pacing; ranked No. 6 in Wanning luxury hotel category shortly after opening",
+    "recommended_for": "Intermediate-to-advanced surfers seeking consistent quality waves; families with children aged 6+; couples and group travelers wanting a one-stop surf-resort experience; corporate team-building groups; photographers and content creators; pro surfers training for competition",
+    "operator_brand_partnership": "China Tourism Group (中旅集團, 中國旅遊集團) - state-owned investor and operator (via Zhonglu Shangguan / 中旅商管) - paired with American Wave Machines (AWM, San Diego) which licenses and co-operates the PerfectSwell technology; total reported investment ~1 billion RMB"
+  },
+  "verification": {
+    "existence_verified": "true",
+    "verification_sources": "1) China Daily Hainan (hain.chinadaily.com.cn) opening announcement, 2025-11-11; 2) Hotel News Resource and Korea Herald wire releases, Oct 2025; 3) WavePool Magazine (wavepoolmag.com) wave-testing report, Oct 2025; 4) Tropical Hainan article on Olympic-standard wave pool opening; 5) Surfway Hainan official site (surfway-hainan.com) for in-house school pricing; 6) Vast Surf Shop in-depth review blog (vastsurfshop.com/blogs/blog/surfland); 7) Ctrip listing for 万宁日月湾中旅逐浪樾潮酒店 (hotel ID 132247344); 8) Travel Tomorrow and Travel And Tour World coverage; 9) Hainan local newspaper (zqdb.com.cn) Nov-13 PDF; 10) The Inertia surf news coverage",
+    "last_updated": "2026-05-15"
+  },
+  "uncertain": [
+    "waves_per_hour",
+    "coaching_fee",
+    "membership_program",
+    "corporate_team_building",
+    "sup_paddleboard_offering",
+    "accessibility_for_disabled",
+    "events_competitions_calendar"
+  ]
+}

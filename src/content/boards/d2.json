@@ -1,0 +1,103 @@
+{
+  "basic_info": {
+    "名稱": "Lost / Mayhem 小浪系列 (Lost Surfboards by Mayhem - Small Wave Family)",
+    "分類": "品牌板款 - 小浪 / Groveler / Hybrid",
+    "適用程度": "中階 / 進階為主,部分款式 (Puddle Jumper HP / Quiver Killer) 適合中階以上全程度",
+    "一句話定位": "Matt Biolos 親自塑造的 CT-tested 小浪殺手家族,從 Groveler 到 retro twin 全覆蓋"
+  },
+  "buoyancy_strategy": {
+    "Guild_Factor_GF": "Lost 小浪家族建議 GF 0.40-0.48;Puddle Jumper HP / Quiver Killer 偏向 0.42-0.48 (週末玩家友善);Sub Driver 3.0 / 3.0 Stub 為 CT 級 high performance groveler,GF 可壓到 0.36-0.40 (進階選手);RNF '96 retro twin 由於 wide outline 與 flat rocker,實際 GF 通常落在 0.40-0.45",
+    "浮力公式": "Puddle Jumper HP / Quiver Killer:體重(kg) × 0.42-0.48 = 浮力(L);Sub Driver 3.0:體重(kg) × 0.36-0.42 = 浮力(L);3.0 Stub:比 Sub Driver 多 +1~2L;RNF '96:體重(kg) × 0.40-0.45 = 浮力(L) [uncertain]",
+    "相對日常板浮力增量": "Sub Driver 3.0 比 HPSB (Driver 3.0) 多 +5~10% (建議與日常 Driver 同 length 取相近 L);3.0 Stub 在 Sub Driver 基礎上再短 1\" 但保留體積,等於 +15% 浮力;Puddle Jumper HP 比 HPSB +20~25%;RNF '96 比 HPSB +20~30%;Quiver Killer 比 HPSB +15~20% [uncertain]",
+    "浮力範圍_體重對照": "50kg:Puddle Jumper HP 22-25L / Sub Driver 3.0 20-23L / RNF '96 22-26L;60kg:PJ HP 26-30L / Sub Driver 3.0 24-27L / RNF '96 26-30L;70kg:PJ HP 30-34L / Sub Driver 3.0 27-31L / RNF '96 30-34L;80kg:PJ HP 34-38L / Sub Driver 3.0 31-35L / RNF '96 34-38L;90kg+:PJ HP 38-45L / Sub Driver 3.0 35-40L / RNF '96 38-42L (依官方 size run 對應) [uncertain]",
+    "小浪修正係數": "Groveler 屬性的 PJ HP、3.0 Stub、Quiver Killer 在 1-3ft 軟浪建議 +3~5L;Sub Driver 3.0 雖為 small wave 機型但仍偏 performance,建議 +2~3L 即可",
+    "BMI_體脂修正": "高 BMI 肌肉型可選 PJ HP 偏小、Sub Driver 3.0 標準;高 BMI 脂肪型建議 PJ HP 加 2-3L 換取 paddle 容易度;低 BMI 偏瘦型可挑 Sub Driver 3.0 或 RNF '96 偏小尺寸玩 looseness",
+    "年齡_體能修正": "40 歲以上建議在 PJ HP / Quiver Killer 上再 +5-10% 浮力 (約 +2-3L) 換取 wave count;心肺差者直接跳到 PJ HP 或 RNF '96 retro fish 而非 Sub Driver",
+    "品牌計算器差異": "Lost 官方計算器 (lostsurfboards.net) 普遍偏低,實際選板建議 +1~2L;特別是 Sub Driver 3.0 系列被多位 reviewer (Stoked For Travel、BlinkSurf) 提到「實際比官方建議再加 1-2L 體感更好」;PJ HP 的 size run 本身已 packed extra volume (5'11\" = 36.8L),不需再額外加 [uncertain]",
+    "亞洲體型修正": "亞洲身材偏小 5-10kg,建議在 Lost 官方建議基礎上 -2~3L;台灣 65kg 男性騎 PJ HP 約 5'5\"-5'6\" (28-30L),騎 Sub Driver 3.0 約 5'8\"-5'9\" (26-28L)"
+  },
+  "shape_details": {
+    "Length 板長": "Puddle Jumper HP:5'2\"-5'11\" (主流 5'5\"-5'8\",比日常短板 -3~5\");Sub Driver 3.0:5'6\"-6'6\" (與日常 HPSB 同或 -1\");3.0 Stub:比 Driver 3.0 短 1\";RNF '96:5'4\"-6'2\" (比日常短板 -4~6\");Quiver Killer:5'4\"-6'4\" (比 HPSB -1~2\")",
+    "Width 板寬": "Puddle Jumper HP:約 19.5\"-21\" (5'8\" 寬約 20.5\");Sub Driver 3.0:18.5\"-21\" (5'10\" 約 19\");3.0 Stub:接近 Sub Driver 3.0 但 wider tail;RNF '96:19.5\"-21.5\" (5'5\" 約 20.25\");Quiver Killer:約 19.25\"-21\"",
+    "Thickness 板厚": "Puddle Jumper HP:2.4\"-2.75\";Sub Driver 3.0:2.13\"-2.88\" (5'10\" = 2.32\");3.0 Stub:2.4\"-2.75\";RNF '96:2.4\"-2.7\";Quiver Killer:2.4\"-2.75\"",
+    "Nose_Rocker": "Puddle Jumper HP:約 4.6\"-4.9\" (flat rocker for grovel speed) [uncertain];Sub Driver 3.0:約 5.0\"-5.2\" (low-medium nose rocker);3.0 Stub:約 4.7\"-5.0\";RNF '96:約 4.5\"-4.8\" (retro flat);Quiver Killer:約 4.8\"-5.1\" [uncertain]",
+    "Tail_Rocker": "Puddle Jumper HP:約 2.3\"-2.5\" (low groveler);Sub Driver 3.0:約 2.5\"-2.7\";3.0 Stub:約 2.4\"-2.6\";RNF '96:約 2.2\"-2.4\" (retro flat);Quiver Killer:約 2.4\"-2.6\" [uncertain]",
+    "Entry_Rocker": "Puddle Jumper HP 與 RNF '96 採平直 entry,起乘極快但陡浪會 pearl;Sub Driver 3.0 / 3.0 Stub 採連續曲線 entry,陡浪仍可控;Quiver Killer 為平衡型,中段過渡平滑",
+    "Wide_Point_Position": "Puddle Jumper HP:wide point 前移至中心前 1-2\";Sub Driver 3.0:wide point 接近中心 (HP 取向);3.0 Stub:略前移 1\";RNF '96:wide point 前移 1.5-2\" (retro 風格);Quiver Killer:wide point 前移 (forward outline)",
+    "Nose_Width_at_12_inch": "Puddle Jumper HP:約 13\"-13.5\" (Groveler 寬鼻);Sub Driver 3.0:約 12\"-12.5\" (HPSB 寬度);3.0 Stub:約 12.5\";RNF '96:約 13.5\" (retro 寬鼻 + 同 tail 寬);Quiver Killer:約 13\" [uncertain]",
+    "Tail_Width_at_12_inch": "Puddle Jumper HP:約 16\"-16.5\" (wide tail);Sub Driver 3.0:約 15\"-15.5\";3.0 Stub:約 15.5\"-16\";RNF '96:約 15\"-15.5\" (pulled-in swallow tail);Quiver Killer:約 15.5\"-16\" [uncertain]",
+    "Bottom_Contour 板底設計": "Puddle Jumper HP:flat rocker + deep central single concave + 尾段 foiled rail + deep vee out the back;Sub Driver 3.0:single-to-double concave + 尾段 vee + 「curvy rail line」(連續尾 rocker);3.0 Stub:無 vee,純連續 rocker + deeper single-to-double concave (Kolohe Andino tester);RNF '96:flat to single + 少量 vee out (傳統 retro);Quiver Killer:continuous curve + single-to-double concave (5 fin adaptable)",
+    "Tail_Shape 板尾形狀": "Puddle Jumper HP:squash 為主,亦有 RND (round) 版;Sub Driver 3.0:squash 為主,Driver 3.0 Round 為 round-pin;3.0 Stub:swallow / squash / thumb 三選一 (Stub Squash / Stub Thumb);RNF '96:swallow tail (經典 fish);Quiver Killer:rounded thumb tail (modestly pulled-in)。小浪取向 swallow 與 wide squash 解放速度,Sub Driver 系列的 narrower square tail 維持 vertical hold",
+    "Rail_Profile": "Puddle Jumper HP:中段 boxy + 尾段 foiled / down rail;Sub Driver 3.0:tapered tail rail (more refined);3.0 Stub:slightly flatter deck + more rounded forgiving edges;RNF '96:tucked under edge in tail,中段 boxy retro rail;Quiver Killer:中段 medium + 尾 down rail",
+    "Rail_Volume_Distribution": "Puddle Jumper HP / RNF '96 / Quiver Killer 中段集中 (易划水);Sub Driver 3.0 / 3.0 Stub 分布均勻偏 performance",
+    "Foam_Distribution": "Puddle Jumper HP:胸下集中型 (easy paddle);Sub Driver 3.0:均勻型 (versatile);3.0 Stub:略偏胸下;RNF '96:胸下集中 + retro 平面 foam (5'5\"x19 1/4\" 經典感);Quiver Killer:forward foam (forward wide point)",
+    "Outline 輪廓曲線": "Puddle Jumper HP:pulled-in nose + wide centre + narrow pulled-in tail block;Sub Driver 3.0:HPSB 標準 curvy outline;3.0 Stub:Sub Driver outline 但 stubbed;RNF '96:相對 parallel rail + retro twin outline (相同 nose/tail 12\" 寬度);Quiver Killer:forward outline + continuous curve"
+  },
+  "fin_setup": {
+    "主要_Setup": "Puddle Jumper HP:5-fin (thruster / quad 皆可,標配 thruster);Sub Driver 3.0:thruster 為主 (HP 取向);3.0 Stub:thruster (Kolohe 設定);RNF '96:twin + trailer (5-fin,可純 twin / quad / thruster);Quiver Killer:5-fin 全可 (官方 adapt to all conditions)",
+    "Fin_Cant": "PJ HP / Quiver Killer 建議用 cant 6°+ 的 loose 取向 fin;Sub Driver 3.0 建議用 cant 3-5° (drive 取向);RNF '96 twin 用 MR 風格 upright twin (cant ~5°) [uncertain]",
+    "Fin_Toe": "groveler (PJ HP / Quiver Killer / 3.0 Stub) 偏 1/8\" toe 換 looseness;Sub Driver 3.0 標準 1/16-1/8\";RNF '96 twin 約 3/16\" toe (retro 設定) [uncertain]",
+    "Fin_Foil": "thruster 用 inside foil (FCS PC / Futures Honeycomb);twin (RNF '96) 內 foil 中央 trailer 用 50-50",
+    "Fin_Rake_Sweep": "小浪 upright (低 rake) 偏好:PJ HP 用 CI Upright / Futures AM1 / FCS Carver;Sub Driver 3.0 可選 medium rake (Filipe / Mick template);RNF '96 用 MR twin keel-influenced template",
+    "Fin_Area_Template": "PJ HP / Quiver Killer:medium area (AM1 / M2);Sub Driver 3.0:medium-large area (依體重);3.0 Stub:medium area;RNF '96:large twin area (MR / Power Twin);體重 >80kg 全系列建議升大號 area",
+    "Quad_Rear_Position": "PJ HP 雙模式都可,quad 後鰭靠 rail 1/4-1/2\" 換取 looseness;RNF '96 若做 quad 設定後鰭靠 stringer 取 hold [uncertain]",
+    "2plus1_vs_PureTwin": "RNF '96 為 5-fin retro fish,可純 twin 玩 maximum drive 或加 trailer 增 backhand hold;Mayhem 系列無 2+1 (longboard 系不在此 grovel 家族)"
+  },
+  "construction": {
+    "PU_PE 在小浪": "Sub Driver 3.0 / 3.0 Stub 在 PU 構造下 knifey rail feel 最佳,適合 carve 預測性,Stab Joyride 測試多以 PU 為主",
+    "EPS_Epoxy 在小浪": "PJ HP / RNF '96 / Quiver Killer 多家 dealer 推 Lightspeed II (Lost 自家 HD-EPS) 或 LibTech NTL (Lost x Lib Tech 合作系列);1-3ft 小浪 EPS 的 pump 效率與輕量明顯加分",
+    "HD_EPS": "Lost Lightspeed II (HD-EPS + 高密度 deck patch),介於 PU 與 EPS 之間;Lost x Lib Tech NTL (Quiver Killer / Puddle Jumper LibTech 版本) 為 indestructible 系列,適合旅行與台灣硬地浪況",
+    "Glassing_Schedule": "Lost 標配 6+4 / 6 (US-glassed) 為平衡;比賽 / pro 級用 4+4 / 4 lightweight comp;Lost 海外進口多為 SLX (Sri Lanka) 6+4/6 標準 glass;旅行建議升 6+6/6",
+    "新技術": "Lost x Lib Tech NTL (PJ / Quiver Killer 有此版本);Lightspeed II HD-EPS;CF Carbon Wrap 強化 (限部分代理商); Original Puddle Jumper '25 為 2025 新版"
+  },
+  "conditions_fit": {
+    "浪高範圍": "Puddle Jumper HP:1-4ft;Sub Driver 3.0:2-6ft;3.0 Stub:1-4ft (Trestles / T-Street 小浪);RNF '96:1-5ft (有 chunky hollow 容忍度);Quiver Killer:1-8ft (官方稱 knee-waist 到 double overhead)",
+    "浪質": "PJ HP / 3.0 Stub:軟浪、飽滿浪;Sub Driver 3.0:飽滿浪、輕度空心浪;RNF '96:chunky hollow 也可、空心浪 OK;Quiver Killer:全浪質適配 (one board quiver)",
+    "浪型": "全系列適配 beach break;Sub Driver 3.0 / RNF '96 / Quiver Killer 在 point break 表現最佳;PJ HP 在 reef break 小天氣窗也行",
+    "不適合場景": "PJ HP / 3.0 Stub 不適合 head-high+ 空心浪 (Sub Driver 系列接手);Sub Driver 3.0 不適合 1-2ft 完全沒推力的 mush (PJ HP 接手);RNF '96 在 vertical snap 需求高的 head-high 浪不夠 hold;Quiver Killer 不適合純 air-show 級 progressive 比賽"
+  },
+  "performance": {
+    "划水容易度": "PJ HP > RNF '96 > Quiver Killer > 3.0 Stub > Sub Driver 3.0 (Stoked For Travel 評 PJ HP 為「easy paddle」)",
+    "起乘速度": "PJ HP / RNF '96 即刻起乘 (flat entry rocker);Quiver Killer 快速;Sub Driver 3.0 / 3.0 Stub 需要稍多 push 但 take-off 後加速明顯",
+    "Glide 平面速度": "PJ HP / RNF '96 在 flat section 平面速度最佳 (deep concave + flat rocker);Sub Driver 3.0 down-the-line speed 略低但有 control;Quiver Killer momentum 強 (forward outline)",
+    "Pump 效率": "Sub Driver 3.0 / 3.0 Stub pump 效率最高 (curvy rail line);PJ HP / RNF '96 需要 stand on tail / 用 wide tail squirt;Quiver Killer 介於中間",
+    "轉向靈活度": "3.0 Stub 在小 pocket 與 dumpy section 最靈活 (Lost 官方稱「fits effortlessly into small pockets」);Sub Driver 3.0 carve 表現極佳 (Jack Robinson Stab 2022 第二名);PJ HP 採「上下短轉」式,大 carve 較弱;RNF '96 fast looseness with rail engagement;Quiver Killer snappy",
+    "Vertical 能力": "Sub Driver 3.0 vertical snap 最強 (CT 級);3.0 Stub 在小浪可 vertical;PJ HP 中等;RNF '96 vertical 仰賴 swallow tail engagement;Quiver Killer 在中浪可 vertical",
+    "空中動作能力": "Sub Driver 3.0 / 3.0 Stub air 表現佳 (Kolohe / Crosby Cola 測試);PJ HP airs 易 (輕浮但落地較不穩);RNF '96 retro 風格不主打 air;Quiver Killer 中等",
+    "Backside_vs_Frontside": "RNF '96 純 twin 設定下 backside 略弱 (傳統 twin 通病),加 trailer 改善;其餘 thruster 系列 (PJ HP / Sub Driver 3.0 / 3.0 Stub / Quiver Killer) 兩面表現均衡"
+  },
+  "practical_selection": {
+    "代表板款": "1. Puddle Jumper HP (groveler 王牌,5'2\"-5'11\" 多尺寸);2. Sub Driver 3.0 (CT-level small-wave HP,Jack Robinson Stab 2022 二位);3. 3.0 Stub (Sub Driver 短 1\",Kolohe Andino 簽名);4. RNF '96 (retro twin / 5-fin,Matt Biolos 致敬經典);5. Quiver Killer (one board quiver,5-fin adaptable);6. Puddle Jumper Pro / Original Puddle Jumper '25 (2025 新版)",
+    "常見錯誤": "1. PJ HP 取太小尺寸誤以為「越短越靈活」,實際 5'5\" 在 65kg 已偏短;2. Sub Driver 3.0 配錯 fin (用 Filipe AM2 結果太重),建議用 AM1 / Pyzel JJF 模板;3. 3.0 Stub 跟 Sub Driver 3.0 同尺寸取板會浮力過剩,應 -1\" 短或 -1L;4. RNF '96 玩 backhand 不加 trailer 會 spin out;5. Quiver Killer 配 5-fin 全裝 thruster 而忽略 quad 的小浪潛力",
+    "升級陷阱": "新手直接買 Sub Driver 3.0 (CT 板) → 浮力太低、entry rocker 不夠 forgive,應從 PJ HP 或 Quiver Killer 起步;追隨 Kolohe Andino 簽名而買 3.0 Stub 但不會 pump → 失速明顯;追隨 Stab in the Dark 二位的 Sub Driver 3.0 而忽視自己體能差異",
+    "搭配_fin 建議": "Puddle Jumper HP:Futures AM1 / FCS Carver / CI Upright Medium (thruster);quad 模式用 Futures Vapor Quad;Sub Driver 3.0:Futures Filipe Medium / FCS Mick Fanning / Pyzel JJF;3.0 Stub:Futures AM1 / FCS Performer (Kolohe 用 lightweight medium);RNF '96:Futures Rasta Keel / MR Twin / Captain Fin Twin Special + Lost Bullet trailer;Quiver Killer:Futures John John Florence / FCS Mick Fanning 5-fin adapt",
+    "二手板評估": "Lost 二手板須檢查 stringer 變形 (PJ HP / Quiver Killer 的 wide outline 易扭);ding 集中在尾段 wide tail (RNF '96 swallow 點尤其);PU 板年齡 >5 年 deck 易 delam;Lib Tech NTL 二手最耐用",
+    "Quiver 規劃": "兩塊配:PJ HP (1-3ft 小浪) + Sub Driver 3.0 (3-6ft 中浪) 涵蓋大部分台灣浪況;三塊配:加 RNF '96 (retro twin 變化) 或 Quiver Killer (旅行 catch-all);小體重者可用 3.0 Stub 取代 Sub Driver 3.0",
+    "預算建議": "Lost US-made (San Clemente) 約 USD 850-1050 (台幣 28k-35k);SLX (Sri Lanka) 海外進口 約 USD 650-800 (台幣 22k-26k);Lost x Lib Tech NTL 約 USD 950-1100;台灣代理商 (Catalyst / 國內店家) 約 NT$ 28k-38k;二手良品約 NT$ 12k-20k"
+  },
+  "pro_reference": {
+    "Stab_in_the_Dark": "2022 Stab in the Dark: Jack Robinson 上,Lost Sub Driver 3.0 razor-thin margin 第二名;2024 Stab in the Dark with Kolohe Andino:Mayhem Driver 3.0 (5'10\"x18.63x2.38x26.7L) 為 Matt Biolos submit 的板,Pyzel / Pukas / Borst 競爭;Mayhem Driver 系列歷史上贏過 1 次 (All-Stars) 並進入決賽 4 次",
+    "WSL_CT 選手選擇": "Mason Ho (Lost team rider 代表) 在 Pipe 與 Hawaii 用 Sub Driver;Crosby Cola / Cole Houshmand / Eli Hanniman / Michael Dunphy (WQS) 用 3.0 Stub;Kolohe Andino 用 Driver 3.0 / 3.0 Stub;Yago Dora / Caio Ibelli 過去曾騎 Lost",
+    "Free_surf 風格參考": "Mason Ho 在 RNF / Puddle Jumper 系列展示 wave-pool 級 small wave 自由風格;Tosh Tudor (新生代) 用 Sub Driver 玩 retro-progressive;Lost 早期 5'5\" x 19 1/4\" 電影中 Corey Lopez / Andy Irons / Chris Ward 的 RNF 騎乘為品牌 DNA"
+  },
+  "local_taiwan_context": {
+    "浪點適配": "中角 (波浪斷層,1-3ft 軟浪 / 4-5ft 中浪):PJ HP 或 Quiver Killer 為主力;烏石 (3-5ft 中浪,beach break):Sub Driver 3.0 / Quiver Killer;金樽 (point + reef,3-6ft 飽滿):Sub Driver 3.0 / RNF '96;佳樂水 (reef,2-5ft):RNF '96 / Sub Driver 3.0;南灣 (1-3ft 軟浪):PJ HP / 3.0 Stub;東澳粉鳥林 (1-4ft):PJ HP / Quiver Killer",
+    "進口_訂製": "Lost 海外進口 (SLX 標籤) 在 Catalyst Shop / Boardcave / Singlequiver 約 USD 700-850;國內 (Catalyst Taiwan / Hooked / 部分店家) 代理約 NT$ 28k-38k;訂製 (US Domestic) 需透過 dealer 等 8-12 週,費用約 NT$ 35k+ 加運費關稅",
+    "中文社群迷思": "PTT/IG 常見「Sub Driver 3.0 一定比 Driver 3.0 浮」其實是 +5-10% 範圍,身高小者不需跳級;「PJ HP 一定要短取」忽略台灣 65kg 平均體重需 28-30L,5'6\" 比 5'5\" 更通用;「RNF '96 純 twin 才好玩」其實多數人應加 trailer 提升 backhand",
+    "在地教練建議": "VAST Surf (烏石) 多推 PJ HP 或 Quiver Killer 作 quiver 主力;JR Surf (中角) 推中浪用 Sub Driver 3.0;Hooked Surf Shop / Catalyst 為 Lost 主要代理 [uncertain];中浪以上店家偏好 Sub Driver 3.0 為主推 small-wave HP"
+  },
+  "uncertain": [
+    "Nose_Rocker",
+    "Tail_Rocker",
+    "Nose_Width_at_12_inch",
+    "Tail_Width_at_12_inch",
+    "浮力公式 (RNF '96 倍率)",
+    "相對日常板浮力增量",
+    "浮力範圍_體重對照",
+    "品牌計算器差異 (Lost 計算器內部演算法)",
+    "Fin_Cant",
+    "Fin_Toe",
+    "Quad_Rear_Position (RNF '96 quad 設定)",
+    "在地教練建議 (具體店家 Lost 代理身份)"
+  ]
+}

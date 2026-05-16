@@ -1,0 +1,190 @@
+---
+import IssuePage from '../../layouts/IssuePage.astro';
+---
+
+<IssuePage
+  title="峇里島衝浪檔案 · ISSUE No. 001 — 衝浪研究室"
+  description="50 個峇里島浪點與服務研究檔案,附季風月曆、技術等級匹配、行程規劃、浪點比較。"
+  issueNumber="001"
+  issueStats="50 SPOTS · 5 REGIONS"
+  issueEdition="DRY 2026 EDITION"
+  headingEn="Bali Field Book"
+  headingCh="峇 里 島 衝 浪 檔 案"
+  currentIssue="bali"
+>
+
+  <!-- Lede + key counts -->
+  <section class="issue-intro">
+    <p class="lede">
+      從 <em>Bukit</em> 的 reef 殺手到 Canggu 的 sandbar 玩耍區,<br/>
+      從 Mentawai 的 boat charter 到 Bingin 拆遷後的新地景 ——<br/>
+      一份可索引、可比較、可季風查詢的<em>研究檔案</em>。
+    </p>
+    <div class="meta-grid">
+      <div class="cell"><div class="n">37</div><div class="l">浪點 SPOTS</div></div>
+      <div class="cell"><div class="n">8</div><div class="l">服務 SERVICES</div></div>
+      <div class="cell"><div class="n">5</div><div class="l">實用 PRACTICAL</div></div>
+      <div class="cell"><div class="n">12</div><div class="l">月 MONTHS 索引</div></div>
+    </div>
+  </section>
+
+  <!-- Modes -->
+  <nav class="modes">
+    <div class="mode-btn active" data-mode="index">
+      <span>Index</span><span class="ch">索引</span><span class="num">50</span>
+    </div>
+    <div class="mode-btn" data-mode="map">
+      <span>Map</span><span class="ch">地圖</span>
+    </div>
+    <div class="mode-btn" data-mode="season">
+      <span>Season</span><span class="ch">月曆</span>
+    </div>
+    <div class="mode-btn" data-mode="skill">
+      <span>Skill Match</span><span class="ch">技術匹配</span>
+    </div>
+    <div class="mode-btn" data-mode="trip">
+      <span>Trip Planner</span><span class="ch">行程規劃</span>
+    </div>
+    <div class="mode-btn" data-mode="compare">
+      <span>Compare</span><span class="ch">比較</span>
+    </div>
+  </nav>
+
+  <!-- INDEX pane -->
+  <section class="pane" data-mode="index">
+    <div class="toolbar">
+      <input id="search" class="search" placeholder="搜尋浪點 / 學校 / 區域… SEARCH SPOTS, SERVICES, KEYWORDS" />
+      <div style="display:flex; gap:12px; flex-wrap:wrap; align-items:center;">
+        <span class="group-label">類別</span>
+        <div class="group" id="cat-chips"></div>
+        <span class="group-label">區域</span>
+        <div class="group" id="reg-chips"></div>
+      </div>
+      <div style="display:flex; gap:12px; flex-wrap:wrap; align-items:center;">
+        <span class="group-label">技術</span>
+        <div class="group" id="sk-chips"></div>
+        <span class="group-label">季節</span>
+        <div class="group" id="ss-chips"></div>
+      </div>
+      <div style="margin-left:auto; font-family:var(--mono); font-size:10.5px; letter-spacing:.12em; text-transform:uppercase;">
+        顯示 <span id="result-count">—</span>
+      </div>
+    </div>
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <!-- MAP pane -->
+  <section class="pane" data-mode="map" style="display:none;">
+    <div class="toolbar" style="border-bottom:0;">
+      <div style="font-family:var(--display-2); font-style:italic; font-size:22px; color:var(--ocean);">Bali 浪點地圖</div>
+      <div style="margin-left:auto; font-family:var(--mono); font-size:10.5px; letter-spacing:.12em; text-transform:uppercase;">
+        簡化地圖 · 非導航用 · 點選圓點 → 詳情
+      </div>
+    </div>
+    <div id="map-wrap"></div>
+  </section>
+
+  <!-- TRIP pane -->
+  <section class="pane" data-mode="trip" style="display:none;">
+    <div id="trip-wrap"></div>
+  </section>
+
+  <!-- SEASON pane -->
+  <section class="pane" data-mode="season" style="display:none;">
+    <div class="toolbar" style="border-bottom:0;">
+      <div style="font-family:var(--display-2); font-style:italic; font-size:22px; color:var(--ocean);">季節 × 浪點 矩陣</div>
+      <div style="display:flex; gap:8px; align-items:center; margin-left:auto;" id="season-legend"></div>
+    </div>
+    <div class="season" id="season-table"></div>
+    <div style="margin-top:20px; display:grid; grid-template-columns: 1fr 1fr; gap:20px;">
+      <div class="dossier" style="padding:18px 20px;">
+        <div class="kicker" style="color:var(--vermillion-d); margin-bottom:6px;">乾季 / DRY · APR—OCT</div>
+        <h3 style="font-family:var(--display); font-size:32px; margin:0 0 8px; line-height:1;">Bukit + 西岸主場</h3>
+        <p style="font-family:var(--serif); font-size:14px; line-height:1.55; margin:0;">
+          SE 信風吹向 W 海岸 → offshore。Uluwatu / Padang / Bingin / Canggu 主檔期。穩定 SW groundswell 從南印度洋抵達。
+          6–8 月為招牌月,9–10 月 shoulder season 人少而浪同樣好。
+        </p>
+      </div>
+      <div class="dossier" style="padding:18px 20px;">
+        <div class="kicker" style="color:var(--ocean); margin-bottom:6px;">雨季 / WET · NOV—MAR</div>
+        <h3 style="font-family:var(--display); font-size:32px; margin:0 0 8px; line-height:1;">東岸 + Keramas 翻盤</h3>
+        <p style="font-family:var(--serif); font-size:14px; line-height:1.55; margin:0;">
+          W 信風吹向東海岸 → offshore。Keramas / Sanur / Nusa Dua 主場。
+          12–2 月為 Keramas 招牌窗口,Bukit 西岸轉為 onshore,Canggu 可能下雨但仍可衝。
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILL pane -->
+  <section class="pane" data-mode="skill" style="display:none;">
+    <div class="skillrec">
+      <div class="controls">
+        <h3>找浪點 / Match Me</h3>
+        <p>回答四個問題,我們從 50 個浪點裡找出最匹配的 ——附帶評分理由。</p>
+        <div id="skill-questions"></div>
+      </div>
+      <div class="results" id="skill-results"></div>
+    </div>
+  </section>
+
+  <!-- COMPARE pane -->
+  <section class="pane" data-mode="compare" style="display:none;">
+    <div class="toolbar" style="border-bottom:0;">
+      <div style="font-family:var(--display-2); font-style:italic; font-size:22px; color:var(--ocean);">浪點並列比較</div>
+      <div style="margin-left:auto; font-family:var(--mono); font-size:10.5px; letter-spacing:.12em; text-transform:uppercase;">
+        最多 4 項 · 回到 INDEX 加入
+      </div>
+    </div>
+    <div class="compare-grid" id="compare-grid"></div>
+  </section>
+
+  <!-- Method note -->
+  <section style="margin-top:36px; border:2px solid var(--ink); background:var(--paper); padding:18px 22px; display:grid; grid-template-columns: 1fr 1fr 1fr; gap:18px;">
+    <div>
+      <div class="eyebrow" style="color:var(--vermillion-d);">METHOD / 方法</div>
+      <h4 style="font-family:var(--display); font-size:22px; margin:6px 0 8px;">資料如何整理?</h4>
+      <p style="font-family:var(--serif); font-size:13.5px; line-height:1.55; margin:0;">
+        每一個浪點由獨立 agent 並行研究,輸出固定 schema。Schema 直接驅動本頁的篩選器、季節矩陣與比較欄。
+        <em>[uncertain]</em> 標籤代表來源衝突或單一來源未經交叉驗證。
+      </p>
+    </div>
+    <div>
+      <div class="eyebrow" style="color:var(--vermillion-d);">SCORING / 分數</div>
+      <h4 style="font-family:var(--display); font-size:22px; margin:6px 0 8px;">技術匹配如何算?</h4>
+      <p style="font-family:var(--serif); font-size:13.5px; line-height:1.55; margin:0;">
+        技術等級 +40,旅行範圍 +25,季節 +20。鄰級技術給 +15 部分分。
+        擁擠度與穩定度作為微調 ±10。最終分數 = 加總/可能最高分 × 100,顯示前 12 名。
+      </p>
+    </div>
+    <div>
+      <div class="eyebrow" style="color:var(--vermillion-d);">2025 EVENTS / 時事</div>
+      <h4 style="font-family:var(--display); font-size:22px; margin:6px 0 8px;">值得注意的變化</h4>
+      <p style="font-family:var(--serif); font-size:13.5px; line-height:1.55; margin:0;">
+        Bingin 拆遷後 villa 生態大改;E33G Remote Worker KITAS 上線,長期駐 Bali 衝浪族新通道;
+        e-VoA / e-CD 全電子化,行前 24h 須完成。
+      </p>
+    </div>
+  </section>
+
+  <div style="padding:22px 0 8px; display:flex; justify-content:space-between; font-family:var(--mono); font-size:10.5px; letter-spacing:.14em; text-transform:uppercase; color:var(--ink-soft); border-top:1.5px solid var(--ink); margin-top:30px;">
+    <span>END OF ISSUE No. 001 · BALI</span>
+    <span>← <a href="/" style="color:inherit;">回主期刊</a> · <a href="/hainan" style="color:inherit;">No. 002 海南 →</a></span>
+  </div>
+
+  <!-- Compare tray -->
+  <div class="compare-tray" id="compare-tray">
+    <span>COMPARE TRAY · <span id="compare-count"></span></span>
+    <div class="items"></div>
+    <button class="open-btn" onclick="document.querySelector('.mode-btn[data-mode=compare]').click()">打開比較表 →</button>
+  </div>
+
+  <!-- Detail overlay -->
+  <div class="detail-overlay" id="detail-overlay" onclick="if(event.target===this) closeDetail()">
+    <div class="detail-panel" id="detail-panel"></div>
+  </div>
+
+  <!-- Bali JS (same as original) -->
+  <script is:inline src="/scripts/bali.js"></script>
+
+</IssuePage>

@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8" />
+<title>衝浪研究室 · THE SURF STUDY</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="common.css" />
+<style>
+  body { overflow-x: hidden; }
+  .page {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 28px 80px;
+  }
+
+  /* ===== Masthead ===== */
+  .top-strip {
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+    padding: 10px 0;
+    font-family: var(--mono);
+    font-size: 10.5px;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    border-bottom: 1.5px solid var(--ink);
+  }
+  .top-strip > div { display: flex; gap: 14px; flex-wrap: wrap; align-items: center; }
+  .top-strip .blink { color: var(--vermillion); font-weight: 700; }
+
+  .masthead {
+    padding: 26px 0 18px;
+    border-bottom: 4px double var(--ink);
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: end;
+    gap: 28px;
+  }
+  .masthead h1 {
+    font-family: var(--display);
+    font-size: clamp(72px, 13vw, 196px);
+    line-height: .82;
+    margin: 0;
+    letter-spacing: -.01em;
+    grid-column: 1 / -1;
+    text-align: center;
+    font-feature-settings: "liga";
+  }
+  .masthead h1 .ch {
+    font-family: var(--serif);
+    font-weight: 900;
+    font-size: .42em;
+    letter-spacing: .12em;
+    display: block;
+    margin-top: 6px;
+  }
+  .mast-side {
+    font-family: var(--mono);
+    font-size: 10.5px;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    line-height: 1.55;
+  }
+  .mast-side.left { text-align: left; }
+  .mast-side.right { text-align: right; }
+
+  /* tagline strip */
+  .tagline-strip {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9px 4px;
+    border-bottom: 1.5px solid var(--ink);
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+  }
+  .tagline-strip .center {
+    font-family: var(--display-3);
+    font-size: 13px;
+    letter-spacing: .14em;
+  }
+
+  /* ===== Hero / Editor's note ===== */
+  .editors {
+    display: grid;
+    grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+    gap: 36px;
+    padding: 36px 0 28px;
+    border-bottom: 1.5px solid var(--ink);
+  }
+  .lead-h {
+    font-family: var(--display-2);
+    font-style: italic;
+    font-size: clamp(34px, 4.2vw, 56px);
+    line-height: 1.08;
+    margin: 0 0 14px;
+    color: var(--ocean);
+  }
+  .lead-h em { color: var(--vermillion); font-style: italic; }
+  .lead-body {
+    font-family: var(--serif);
+    font-size: 16.5px;
+    line-height: 1.7;
+    column-count: 1;
+  }
+  .lead-body p { margin: 0 0 12px; }
+  .lead-body p::first-letter {}
+  .lead-body p:first-child::first-letter {
+    font-family: var(--display);
+    font-size: 4.2em;
+    float: left;
+    line-height: .82;
+    padding: 6px 8px 0 0;
+    color: var(--vermillion);
+  }
+
+  .editors-aside {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+  .stat-block {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0;
+    border: 1.6px solid var(--ink);
+  }
+  .stat {
+    padding: 14px 14px 12px;
+    border-right: 1.5px solid var(--ink);
+    border-bottom: 1.5px solid var(--ink);
+  }
+  .stat:nth-child(2n) { border-right: 0; }
+  .stat:nth-last-child(-n+2) { border-bottom: 0; }
+  .stat .n {
+    font-family: var(--display);
+    font-size: clamp(34px, 3.4vw, 48px);
+    line-height: .9;
+    color: var(--vermillion);
+    overflow-wrap: anywhere;
+  }
+  .stat .label {
+    font-family: var(--mono);
+    font-size: 10.5px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    margin-top: 4px;
+    color: var(--ink-soft);
+  }
+
+  .ticker {
+    background: var(--ink);
+    color: var(--paper);
+    padding: 8px 12px;
+    font-family: var(--mono);
+    font-size: 10.5px;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    overflow: hidden;
+    white-space: nowrap;
+    display: flex;
+    gap: 28px;
+  }
+  .ticker .dot { color: var(--vermillion); }
+
+  /* ===== Issues ===== */
+  .issues-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 30px 0 14px;
+  }
+  .issues-head h2 {
+    font-family: var(--display);
+    font-size: 56px;
+    margin: 0;
+    line-height: .9;
+  }
+  .issues-head .sub {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+  }
+
+  .issues {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+    padding-top: 12px;
+  }
+  @media (max-width: 800px) {
+    .issues { grid-template-columns: minmax(0, 1fr); }
+    .editors { grid-template-columns: minmax(0, 1fr); }
+    .masthead { grid-template-columns: minmax(0, 1fr); }
+  }
+  @media (min-width: 801px) and (max-width: 1100px) {
+    .issues { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 700px) {
+    .top-strip { flex-direction: column; align-items: flex-start; gap: 4px; }
+    .tagline-strip { flex-direction: column; gap: 4px; align-items: flex-start; padding: 7px 0; }
+    .tagline-strip .center { font-size: 11px; }
+    .masthead { padding: 18px 0 12px; }
+    .masthead h1 { font-size: clamp(58px, 14vw, 92px); }
+    .masthead h1 .ch { font-size: 13px; letter-spacing: .15em; }
+    .issues-head { padding: 22px 0 10px; flex-direction: column; align-items: flex-start; gap: 4px; }
+    .issues-head h2 { font-size: 42px; }
+    .stat-block .stat { padding: 12px 10px 10px; }
+    .stat .n { font-size: 32px; }
+    .stat .label { font-size: 9px; }
+    .editors { padding: 22px 0 18px; gap: 20px; }
+    .lead-h { font-size: 28px; line-height: 1.18; }
+    .lead-body { font-size: 14.5px; }
+    .lead-body p:first-child::first-letter { font-size: 3em; padding: 2px 6px 0 0; }
+    .issue-cover { padding: 16px 14px 14px; }
+    .issue-cover .cover-title { font-size: clamp(34px, 9vw, 52px); }
+    .issue-cover .cover-foot .issue-no { font-size: 32px; }
+    .issue-meta .title-en { font-size: 16px; }
+    .issue-meta .blurb { font-size: 13px; }
+    .field-notes .label { font-size: 24px; padding: 12px 14px; }
+    .field-notes .notes { padding: 12px 14px; gap: 14px; }
+    .field-notes .note { font-size: 13px; padding-left: 10px; }
+    .page { padding: 0 16px 50px; }
+    .colophon { font-size: 9px; flex-direction: column; gap: 4px; }
+  }
+
+  /* ----- Issue card ----- */
+  .issue {
+    border: 2px solid var(--ink);
+    background: var(--paper);
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: var(--ink);
+    position: relative;
+    transition: transform .15s;
+  }
+  .issue:hover { transform: translate(-2px, -2px); box-shadow: 6px 6px 0 var(--ink); }
+
+  .issue-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+    border-bottom: 1.5px solid var(--ink);
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    background: var(--paper-deep);
+  }
+
+  .issue-cover {
+    position: relative;
+    aspect-ratio: 4 / 5;
+    overflow: hidden;
+    border-bottom: 2px solid var(--ink);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 22px 20px 18px;
+  }
+  .issue-cover.bg-1 { background: var(--vermillion); color: var(--paper); }
+  .issue-cover.bg-2 { background: var(--ocean); color: var(--paper); }
+  .issue-cover.bg-3 { background: var(--mustard); color: var(--ink); }
+
+  .issue-cover .halftone-bg {
+    position: absolute;
+    inset: 0;
+    opacity: .22;
+    background-image: radial-gradient(currentColor 1.4px, transparent 1.8px);
+    background-size: 8px 8px;
+    pointer-events: none;
+  }
+  .issue-cover .cover-title {
+    font-family: var(--display);
+    font-size: clamp(40px, 5vw, 64px);
+    line-height: .85;
+    letter-spacing: -.01em;
+    z-index: 1;
+    position: relative;
+  }
+  .issue-cover .cover-title .ch {
+    font-family: var(--serif);
+    font-weight: 900;
+    display: block;
+    font-size: .35em;
+    letter-spacing: .16em;
+    margin-bottom: 8px;
+    opacity: .85;
+  }
+  .issue-cover .cover-foot {
+    z-index: 1;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 12px;
+  }
+  .issue-cover .cover-foot .meta {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    line-height: 1.5;
+  }
+  .issue-cover .cover-foot .issue-no {
+    font-family: var(--display);
+    font-size: 42px;
+    line-height: .9;
+    text-align: right;
+  }
+
+  .issue-cover .cover-pill {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: var(--paper);
+    color: var(--ink);
+    border: 1.6px solid var(--ink);
+    font-family: var(--mono);
+    font-size: 9.5px;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    padding: 3px 7px 2px;
+    z-index: 2;
+  }
+
+  .issue-meta {
+    padding: 16px 18px 14px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .issue-meta .title-en {
+    font-family: var(--display-3);
+    font-size: 18px;
+    letter-spacing: .04em;
+    line-height: 1.2;
+  }
+  .issue-meta .blurb {
+    font-family: var(--serif);
+    font-size: 14px;
+    line-height: 1.55;
+    color: var(--ink-soft);
+  }
+  .issue-meta .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 4px;
+  }
+
+  .issue-foot {
+    border-top: 1.5px solid var(--ink);
+    background: var(--paper-deep);
+    padding: 9px 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--mono);
+    font-size: 10.5px;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+  }
+  .issue-foot .open {
+    background: var(--ink);
+    color: var(--paper);
+    padding: 4px 9px 3px;
+  }
+  .issue:hover .issue-foot .open { background: var(--vermillion); }
+
+  /* ===== Bottom strip: Field notes ===== */
+  .field-notes {
+    margin-top: 44px;
+    border: 2px solid var(--ink);
+    background: var(--paper);
+    display: grid;
+    grid-template-columns: 220px 1fr;
+  }
+  .field-notes .label {
+    background: var(--ink);
+    color: var(--paper);
+    padding: 14px 18px;
+    font-family: var(--display);
+    font-size: 30px;
+    line-height: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .field-notes .label small {
+    font-family: var(--mono);
+    font-size: 10.5px;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    margin-top: 12px;
+  }
+  .field-notes .notes {
+    padding: 16px 22px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+  }
+  .field-notes .note {
+    font-family: var(--serif);
+    font-size: 13.5px;
+    line-height: 1.55;
+    border-left: 2px solid var(--vermillion);
+    padding-left: 12px;
+  }
+  .field-notes .note strong {
+    font-family: var(--display-3);
+    font-size: 13px;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 4px;
+    color: var(--vermillion-d);
+  }
+  @media (max-width: 900px) {
+    .field-notes { grid-template-columns: 1fr; }
+    .field-notes .notes { grid-template-columns: 1fr; }
+  }
+
+  /* Colophon */
+  .colophon {
+    margin-top: 30px;
+    padding: 16px 0;
+    border-top: 1.5px solid var(--ink);
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    font-family: var(--mono);
+    font-size: 10.5px;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    flex-wrap: wrap;
+  }
+
+  /* sprinkle: corner stamp */
+  .stamp {
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    border: 2.5px solid var(--vermillion-d);
+    border-radius: 50%;
+    color: var(--vermillion-d);
+    font-family: var(--display-3);
+    font-size: 12px;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transform: rotate(-12deg);
+    opacity: .85;
+    line-height: 1.1;
+  }
+  .stamp::before {
+    content: "";
+    position: absolute;
+    inset: 6px;
+    border: 1px solid currentColor;
+    border-radius: 50%;
+  }
+</style>
+</head>
+<body>
+
+<div class="page">
+
+  <!-- Top strip -->
+  <div class="top-strip">
+    <div>
+      <span>VOL. 01 · NO. 003</span>
+      <span>2026.05.15</span>
+      <span class="blink">●</span>
+      <span>FIELD EDITION</span>
+    </div>
+    <div>
+      <span>TPE · 23.7°N</span>
+      <span>SWELL S/SW 1.2M @ 12S</span>
+      <span>WIND E 8KT</span>
+    </div>
+  </div>
+
+  <!-- Masthead -->
+  <header class="masthead">
+    <h1>
+      The Surf Study
+      <span class="ch">衝 浪 研 究 室</span>
+    </h1>
+  </header>
+
+  <!-- Tagline strip -->
+  <div class="tagline-strip">
+    <div>記錄 · 整理 · 出走</div>
+    <div class="center">A FIELD JOURNAL FOR THE PRACTICING SURFER</div>
+    <div>BALI · 海南 · 板</div>
+  </div>
+
+  <!-- Editor's note -->
+  <section class="editors">
+    <div>
+      <div class="eyebrow" style="color: var(--vermillion-d); margin-bottom: 14px;">EDITOR&rsquo;S NOTE / 編輯室手記</div>
+      <h2 class="lead-h">三份田野檔案,<br/>一本<em>非旅遊指南</em>。</h2>
+      <div class="lead-body">
+        <p>這不是又一本「網紅 Top 10 浪點」。我們把過去半年蒐集的衝浪研究 — Bukit 半島的浪況差異、海南萬寧 PerfectSwell 的開幕後實測、Modern Twin Fin 在亞洲體型上的浮力修正 — 整理成三本可索引、可比較、可帶上飛機的研究檔案。</p>
+        <p>每一本都附上篩選器、季風月曆、與「先選技術等級再給浪點」的反向推薦器。所有數字後面都標註不確定來源。你可以把它當成個人的衝浪 wiki,也可以拿來規劃下個月要不要請假。</p>
+      </div>
+    </div>
+    <aside class="editors-aside">
+      <div class="stat-block">
+        <div class="stat">
+          <div class="n">104</div>
+          <div class="label">已研究項目</div>
+        </div>
+        <div class="stat">
+          <div class="n">3</div>
+          <div class="label">主題期數</div>
+        </div>
+        <div class="stat">
+          <div class="n">2,134</div>
+          <div class="label">引用來源</div>
+        </div>
+        <div class="stat">
+          <div class="n">2026<small style="font-family:var(--mono);font-size:11px;">.05</small></div>
+          <div class="label">最後更新</div>
+        </div>
+      </div>
+      <div class="ticker">
+        <span><span class="dot">●</span> NEWSWIRE</span>
+        <span>SURFLAND 萬寧開幕 6 個月</span>
+        <span>·</span>
+        <span>Bingin 拆遷後一年回訪</span>
+        <span>·</span>
+        <span>Modern Twin 進入第 5 年復興</span>
+      </div>
+    </aside>
+  </section>
+
+  <!-- Issues -->
+  <div class="issues-head">
+    <h2>The Issues</h2>
+    <div class="sub">本期收錄 / IN THIS FOLIO</div>
+  </div>
+
+  <div class="issues">
+    <!-- Issue 1 — Bali -->
+    <a class="issue" href="bali.html">
+      <div class="issue-head">
+        <span>ISSUE No. 001</span>
+        <span>50 SPOTS · 5 REGIONS</span>
+      </div>
+      <div class="issue-cover bg-1">
+        <div class="halftone-bg"></div>
+        <span class="cover-pill">DRY SEASON SPECIAL</span>
+        <div class="cover-title">
+          <span class="ch">峇 里 島</span>
+          BALI<br/>SURF<br/>FIELD&nbsp;BOOK
+        </div>
+        <div class="cover-foot">
+          <div class="meta">
+            UPDATED<br/>
+            2026.05.15<br/>
+            BUKIT · WEST · EAST<br/>
+            NEARBY ISLANDS
+          </div>
+          <div class="issue-no">001</div>
+        </div>
+      </div>
+      <div class="issue-meta">
+        <div class="title-en">Bukit, Canggu, Keramas &amp; the outer Indo islands.</div>
+        <div class="blurb">從 Uluwatu 到 Mentawai;50 個浪點與服務,附季風月曆、技術等級反查、副點比較。</div>
+        <div class="tags">
+          <span class="tag tag-verm">浪點</span>
+          <span class="tag">學校</span>
+          <span class="tag">攝影</span>
+          <span class="tag">簽證 &amp; 交通</span>
+          <span class="tag">安全</span>
+        </div>
+      </div>
+      <div class="issue-foot">
+        <span>開啟期刊 / OPEN ISSUE</span>
+        <span class="open">→</span>
+      </div>
+    </a>
+
+    <!-- Issue 2 — Hainan -->
+    <a class="issue" href="hainan.html">
+      <div class="issue-head">
+        <span>ISSUE No. 002</span>
+        <span>21 SITES · 6 CITIES</span>
+      </div>
+      <div class="issue-cover bg-2">
+        <div class="halftone-bg"></div>
+        <span class="cover-pill">2025 OPENING</span>
+        <div class="cover-title">
+          <span class="ch">海 南 島</span>
+          HAINAN<br/>WAVEPOOL<br/>DOSSIER
+        </div>
+        <div class="cover-foot">
+          <div class="meta">
+            UPDATED<br/>
+            2026.05.15<br/>
+            萬寧 · 三亞 · 海口<br/>
+            陵水 · 文昌 · 儋州
+          </div>
+          <div class="issue-no">002</div>
+        </div>
+      </div>
+      <div class="issue-meta">
+        <div class="title-en">SURFLAND, Riyue Bay &amp; the new Olympic-grade pool.</div>
+        <div class="blurb">中國第一座 PerfectSwell + 自然浪點 + 學校俱樂部;規格、價格、實測評價全收。</div>
+        <div class="tags">
+          <span class="tag tag-ocean">人工浪池</span>
+          <span class="tag">自然浪點</span>
+          <span class="tag">學校</span>
+          <span class="tag">賽事</span>
+          <span class="tag tag-must">已驗證 ✓</span>
+        </div>
+      </div>
+      <div class="issue-foot">
+        <span>開啟期刊 / OPEN ISSUE</span>
+        <span class="open">→</span>
+      </div>
+    </a>
+
+    <!-- Issue 3 — Board -->
+    <a class="issue" href="board.html">
+      <div class="issue-head">
+        <span>ISSUE No. 003</span>
+        <span>33 ENTRIES · 5 GROUPS</span>
+      </div>
+      <div class="issue-cover bg-3">
+        <div class="halftone-bg"></div>
+        <span class="cover-pill">TECH FORUM</span>
+        <div class="cover-title">
+          <span class="ch">小 浪 板 選 擇</span>
+          THE<br/>SHORT-<br/>BOARD&nbsp;LAB
+        </div>
+        <div class="cover-foot">
+          <div class="meta">
+            UPDATED<br/>
+            2026.05.15<br/>
+            VOLUME · ROCKER<br/>
+            FIN · GLASSING
+          </div>
+          <div class="issue-no">003</div>
+        </div>
+      </div>
+      <div class="issue-meta">
+        <div class="title-en">Small-wave shortboard volume &amp; shape, decoded for Asian builds.</div>
+        <div class="blurb">浪況 × 騎手 × 板型 × 品牌 × 特殊情境;附浮力計算器與台灣浪點配對。</div>
+        <div class="tags">
+          <span class="tag tag-must">板型</span>
+          <span class="tag">浮力</span>
+          <span class="tag">鰭片</span>
+          <span class="tag">品牌</span>
+          <span class="tag">台灣浪點</span>
+        </div>
+      </div>
+      <div class="issue-foot">
+        <span>開啟期刊 / OPEN ISSUE</span>
+        <span class="open">→</span>
+      </div>
+    </a>
+  </div>
+
+  <!-- Field notes -->
+  <section class="field-notes">
+    <div class="label">
+      Field<br/>Notes
+      <small>方法論 &amp; 邊欄</small>
+    </div>
+    <div class="notes">
+      <div class="note">
+        <strong>How we built this</strong>
+        每一項由獨立 agent 並行研究、人工校對。Schema 對齊到表格欄位後直接驅動本期刊的篩選器與比較表;不確定資料以 <em>[uncertain]</em> 標記。
+      </div>
+      <div class="note">
+        <strong>How to read tags</strong>
+        ●朱紅 = 招牌主題, ●藍 = 地理區域, ●墨黑 = 一般標籤, ●芥末黃 = 已驗證 / 推薦。所有月份標籤以乾濕季為基準,而非北半球四季。
+      </div>
+      <div class="note">
+        <strong>What's missing</strong>
+        峇里以外的印尼離島仍以 Bali 為基地呈現;海南私營浪池資料保守認列;板款價格以 2025 Q4 行情標註,小品牌可能波動 ±15%。
+      </div>
+    </div>
+  </section>
+
+  <div class="colophon">
+    <span>© 2026 衝浪研究室 · A PERSONAL FIELD JOURNAL</span>
+    <span>SET IN ABRIL FATFACE · NOTO SERIF · JETBRAINS MONO</span>
+    <span><a href="handoff.html" style="color:inherit;">後端工程交接 →</a></span>
+  </div>
+
+</div>
+
+<button id="search-fab" onclick="openGlobalSearch()">⌕ SEARCH ALL <small>/ ⌨ press /</small></button>
+
+<script src="common.js"></script>
+</body>
+</html>

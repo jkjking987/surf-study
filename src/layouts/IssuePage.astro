@@ -1,0 +1,69 @@
+---
+import Base from './Base.astro';
+
+export interface Props {
+  title: string;
+  description?: string;
+  issueNumber: string;
+  issueStats: string;
+  issueEdition: string;
+  headingEn: string;
+  headingCh: string;
+  currentIssue: 'bali' | 'hainan' | 'board';
+}
+
+const {
+  title,
+  description,
+  issueNumber,
+  issueStats,
+  issueEdition,
+  headingEn,
+  headingCh,
+  currentIssue
+} = Astro.props;
+
+const issues = [
+  { id: 'bali', href: '/bali', label: 'No. 001 · BALI' },
+  { id: 'hainan', href: '/hainan', label: 'No. 002 · 海南' },
+  { id: 'board', href: '/boards', label: 'No. 003 · BOARD LAB' }
+];
+---
+
+<Base title={title} description={description}>
+  <link slot="head" rel="stylesheet" href="/styles/issue.css" />
+
+  <div class="issue-page">
+    <!-- Top crumb -->
+    <div class="crumb-bar">
+      <a class="home" href="/">回到主期刊 / SURF STUDY HOME</a>
+      <div class="nav-issues">
+        {issues.map(iss => (
+          <a href={iss.href} class={iss.id === currentIssue ? 'current' : ''}>
+            {iss.label}
+          </a>
+        ))}
+      </div>
+      <div>2026.05.15</div>
+    </div>
+
+    <!-- Issue mast -->
+    <header class="issue-mast">
+      <h1>
+        <span class="ch">{headingCh}</span>
+        {headingEn}
+      </h1>
+      <div class="right">
+        ISSUE<br/>
+        <span class="big">No. {issueNumber}</span><br/>
+        {issueStats}<br/>
+        {issueEdition}
+      </div>
+    </header>
+
+    <slot />
+
+  </div>
+
+  <button id="search-fab" onclick="openGlobalSearch()">⌕ SEARCH ALL <small>/</small></button>
+</Base>

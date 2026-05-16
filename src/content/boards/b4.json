@@ -1,0 +1,96 @@
+{
+  "id": "B4",
+  "basic_info": {
+    "名稱": "小浪空中動作專用 (Air-Specific Groveler)",
+    "分類": "騎手程度",
+    "適用程度": "中階至進階(需具備 pump 速度與基本 air 起跳技術)",
+    "一句話定位": "為小浪 air 而生:浮力略低、尾部收、entry rocker 稍多以利落地與起跳"
+  },
+  "buoyancy_strategy": {
+    "Guild_Factor_GF": "建議 GF 0.36-0.40。空中動作專用板需避免過度浮力造成 swing weight 過大、影響 rotation 與落地穩定。頂尖 air 選手(如 Italo Ferreira 等級)可低至 0.34-0.36;週末玩家想練 air 建議 0.38-0.40,避免過於沉重而難以 generate launching speed。資料來源:Stab Mag、Surfline 板測訪談,以及 Mayhem/Britt Merrick 對 air 板的訪談。",
+    "浮力公式": "體重(kg) × 0.36-0.40 = 浮力(L)。例如 70kg 中階 air 玩家:70 × 0.38 = 26.6L 為基準,於小浪(<3ft)再加 +2L 緩衝。相較於同身材的純 groveler(常見倍率 0.42-0.46),air-specific 應低約 -4 至 -6L,以保留 throw weight 控制與快速 release。",
+    "相對日常板浮力增量": "相對 HPSB 約增加 +5% 至 +10%(而非典型 groveler 的 +20-30%)。air-specific 板的設計哲學是「比日常板稍輕快、但比 groveler 更 punchy」,所以增量遠低於經典 groveler。例如日常 HPSB 為 28L,air-specific 通常落在 29-31L,而典型 groveler 會到 33-36L。",
+    "浮力範圍_體重對照": "50kg:18-21L;60kg:22-25L;70kg:25-28L;80kg:29-32L;90kg+:33-37L。此區間刻意比典型 groveler 低 3-5L,以保持 throw weight 控制能力。Puddle Jumper Pro(5'6 \\u00d7 19 \\u00d7 2.35 = 26.5L)即為 air-leaning 範例。",
+    "小浪修正係數": "+2 至 +3L(較一般 groveler 的 +3 至 +5L 為低)。原因是 air-specific 板已透過 light EPS、tail rocker 設計提供 pop,過多浮力反而拖累旋轉。",
+    "BMI_體脂修正": "高 BMI 肌肉型騎手(力量足):可採用建議區間下緣(如 70kg 取 25L);高 BMI 脂肪型:需 +2L 補償 paddle 力;低 BMI 偏瘦型:需 +1-2L 確保 paddle 推進力,但仍避免超過 air swing weight 上限。",
+    "年齡_體能修正": "年齡 >40 或心肺體能下降者:加 +2-3L(較通用建議 +5-10% 為保守),因為 air 板需要保留 swing 輕量化優勢,過量浮力會直接影響 rotation。",
+    "品牌計算器差異": "Firewire/Slater Designs 計算器較精準,適合直接採用。Lost(Mayhem)計算器建議的浮力對 air-specific 模型偏低,實際取板需 +1-2L。Channel Islands 計算器同樣偏低,Britt Merrick 推薦 air-leaning 板取「日常 +0.5 至 +1L」。Haydenshapes Hypto Krypto 計算器較均衡。[uncertain] 各家計算器內部演算法為廠商機密。",
+    "亞洲體型修正": "亞洲身材偏小(較歐美輕 5-10kg),於 air-specific 模型可採建議 -1 至 -2L(較一般 groveler -2 至 -3L 為保守),避免過小導致 paddle threshold 過高,在台灣 1-2ft 小浪無法起乘。"
+  },
+  "shape_details": {
+    "Length 板長": "5'4\" - 5'10\"(較日常 HPSB 縮短 2\"-4\")。代表性區間:Puddle Jumper Pro 5'2\"-5'8\";Lost Sub Buggy 5'7\"-5'10\";Sharpeye Modern 2 air-spec 設定 5'6\"-5'10\"。Italo Ferreira 級 air 板常落於 5'6\"-5'9\"。",
+    "Width 板寬": "19\" - 20.25\"(較典型 groveler 略窄)。例:Puddle Jumper Pro 5'6\" = 19.00\";Sub Driver 2.0 5'9\" = 19.25\";Sub Buggy 5'10\" 約 19.5-19.75\"。窄一點以利 rail-to-rail 切換速度與 air 起跳的 pop。",
+    "Thickness 板厚": "2.25\" - 2.5\"(較 groveler 薄,以降低 swing weight)。Puddle Jumper Pro 5'6\" = 2.35\";Sub Driver 2.0 5'9\" = 2.375\";air-specific 模型很少超過 2.5\"。",
+    "Nose_Rocker": "約 4.5\" - 5.0\"(略多於典型 groveler 的 4-4.5\",但仍低於 HPSB 的 5-5.5\")。增多的 entry rocker 是這類板的核心特徵之一,有利於陡浪 stop 與落地時不 pearl。Puddle Jumper Pro 明確標示「increased nose rocker closer to that of a performance shortboard」。",
+    "Tail_Rocker": "約 2.4\" - 2.7\"(略多於 groveler 的 2-2.5\",但比 HPSB 的 2.5-3\" 略低)。tail rocker 加多以提供 lip 起跳的 pop 與落地時的釋放。Lazy Boy、Falcon V2 等 air-leaning 板都標榜「extra tail kick」。",
+    "Entry_Rocker": "前段曲線連續度比經典 groveler 多 0.2-0.3\"。設計目的是確保 closeout 段陡浪能 stop,不會因為太平直而 pearl;同時保留落地時前段不卡水。Puddle Jumper Pro 描述為「performance shortboard-level entry rocker paired with low tail rocker」。",
+    "Wide_Point_Position": "前移幅度較經典 groveler 小,通常位於中心或中心前 0.5-1\"(經典 groveler 常前移 1.5-2\")。原因是 wide point 太靠前會降低尾部 turn 反應,影響 air 起跳前的 last-second bottom turn。",
+    "Nose_Width_at_12_inch": "12.0\" - 12.8\"。較經典 groveler(12.5-13.5\")略窄,以保留 rail-to-rail 速度與不擋風阻。",
+    "Tail_Width_at_12_inch": "14.8\" - 15.6\"。明確比 groveler 的 15.5-16.5\" 收窄(此即任務描述中的「尾部收」)。收窄尾部有兩個目的:(1) air 起跳時尾部 release 更快;(2) 落地時尾部抓水更精準,不會因過寬而 catch rail。",
+    "Bottom_Contour 板底設計": "主流:single concave → double concave 透過尾部,deep double 提供 release。Lost Sub Buggy 採 single-to-double + vee out the back。Puddle Jumper Pro 採 deep single-to-double + vee in the tail。深 double 的目的是讓尾部在 air takeoff 瞬間能快速 break free。",
+    "Tail_Shape 板尾形狀": "首選 squash 或 pulled-in swallow。Squash 提供乾淨的 release angle 利於 reverse;pulled-in swallow(如 RNF 96 的設計)在 air 落地時抓水較穩。避免過寬的 wide squash 或 wide swallow,因為 air 起跳會「拍水」反而失速。",
+    "Rail_Profile": "中段 medium tucked-under edge,尾段 hard down rail。down rail 在 air 起跳的最後一刻提供清晰的 release line。中段不採 boxy 是為了維持 rail-to-rail 速度。",
+    "Rail_Volume_Distribution": "尾段集中分布(skate-feel),中段稍薄。對 carve 不利但對 air 起跳的 pop 與 release 有明顯幫助。",
+    "Foam_Distribution": "胸下到中段集中(easy paddle, weight forward),尾段收薄。此分布讓騎手能划水起乘但 pump 與 release 時尾部仍輕快。Sub Driver 2.0 明確以「vee on deck + 中段加厚」實現此分布。",
+    "Outline 輪廓曲線": "curvy outline(非 parallel rail)。曲線化的外觀讓 board 在 last-second bottom turn 與 air 起跳的旋轉更直覺。Puddle Jumper Pro、Sub Buggy 都屬於此曲線族。"
+  },
+  "fin_setup": {
+    "主要_Setup": "首選 thruster(提供 air 落地的 hold 與 backside drive),次選 quad(release 更快但落地穩定度略降)。air-specific 板少用純 twin,因為缺乏中央 trailer 的 hold,落地容易 spin out。Italo Ferreira 使用 thruster 配置打 air。",
+    "Fin_Cant": "6° - 6.5°(loose 取向),較 drive 取向的 3-5° 多。較大 cant 角度讓尾部在 air 起跳前的 pivot 更輕快。",
+    "Fin_Toe": "1/8\" 或略大(looseness 取向)。toe-in 多有助於 last-second redirect 與快速 release。",
+    "Fin_Foil": "Inside foil(side fins 提供 hold + lift),50-50 中央 trailer。組合提供 air 落地時兩 rail 都能咬水的穩定性。",
+    "Fin_Rake_Sweep": "upright fin(less rake)首選。Upright 模板加速快、turn 範圍緊,適合 air 起跳前的緊湊 setup。CI Upright、Futures AM1(較中性)、FCS Performer 等均屬此類。",
+    "Fin_Area_Template": "中型 area(M2 / AM1 / CI Upright)為主。體重 >80kg 可改大 area(AM2 / CI Large)。代表配置:Futures John John Florence Medium、Futures Filipe Toledo Medium。",
+    "Quad_Rear_Position": "若採 quad,後 fin 靠 rail(距 stringer 約 1.25\"-1.5\",即 1/4-1/2\" 靠 rail 偏移),提供 looseness 與快速 release。若靠 stringer 則太緊、失去 air 該有的 pop。",
+    "2plus1_vs_PureTwin": "air-specific 板極少採用 2+1 或純 twin。純 twin 缺乏 trailer 落地容易 spin out。若騎手堅持 twin-feel,建議使用 quad 並把後 fin 靠 rail。"
+  },
+  "construction": {
+    "PU_PE 在小浪": "PU/PE 在 air-specific 板上提供更可預測的 carve、入水更穩、knifey rail feel。缺點是重量較重,降低 air swing weight 控制。一般建議「練習用」或「重浪 backup」採 PU。",
+    "EPS_Epoxy 在小浪": "EPS/Epoxy 是 air-specific 板的首選結構。同浮力數值感覺更輕、pump/acceleration/air 都有明顯優勢。Lib Tech NTL、Lost LightSpeed II、Firewire Helium 都是常見選擇。Italo Ferreira 即偏好輕量 EPS 結構。",
+    "HD_EPS": "Lost LightSpeed II、Firewire Helium 為 HD EPS 代表。介於 PU 的 dampening 與 EPS 的 livelyness 之間,air-specific 板用 HD EPS 能在不失 pop 的前提下提升耐用性。",
+    "Glassing_Schedule": "4+4/4 lightweight comp 是 air-specific 板的標配(犧牲耐用換 air 性能)。職業選手如 Italo Ferreira 每 1-2 個月換板,故承受耐用度劣勢。週末玩家建議 4+4/6 或 5+4/6 作為折衷,以延長使用壽命。",
+    "新技術": "Haydenshapes FutureFlex(stringerless EPS + 碳纖維 parabolic frame)、Firewire Helium(輕量 EPS)、Lib Tech NTL(EPS + magnesium fiber)。LightSpeed II 從 LightSpeed I 改進耐用度。FutureFlex 在 Hypto Krypto 系列驗證輕量+spring back 性能。"
+  },
+  "conditions_fit": {
+    "浪高範圍": "2-4ft(腰至胸高為甜蜜點)。1ft 以下浮力不足無法 generate launching speed;4ft 以上浪面變陡,air-specific 的浮力與曲線不足以提供穩定 carving。",
+    "浪質": "首選 punchy 小浪(有 lip 可起跳)或 ramp 段。完全 mush 的飽滿浪反而適合典型 groveler。空心浪表現尚可但非首選。",
+    "浪型": "beach break 最佳(closeout 段可起 air)。point break 次之(less air section)。reef break 通常浪力大不需要這類板。",
+    "不適合場景": "(1) 純 mush 1ft 以下無 ramp 浪段;(2) 4ft+ 飽滿大浪需要 HPSB;(3) 騎手 air 技術未成熟時應先選經典 groveler 練 pump;(4) 體重過大(>90kg)且想練 air 應選大 area 客製版本。"
+  },
+  "performance": {
+    "划水容易度": "中等。較經典 groveler 的 paddle threshold 略高(因浮力減 3-5L、tail width 收窄),但因 EPS 輕量化補償部分劣勢。對 1-2ft 完全 mush 浪會吃力。",
+    "起乘速度": "中等。entry rocker 略多會降低 take-off 即時性,但 flat 中段 + 深 concave 補償 glide 速度。",
+    "Glide 平面速度": "中上。EPS 輕量化 + 中段 flat 提供良好 glide。Noel Salas 對 Sub Buggy、Puddle Jumper Pro 級板量測 down-the-line 速度普遍在 25-32 km/h(視浪況)。[uncertain] 具體 km/h 需查實際 review。",
+    "Pump 效率": "高。tail 收窄 + concave 深讓 pump 能高效 generate speed,這也是 air-specific 板能在小浪 launch 的關鍵。",
+    "轉向靈活度": "高。tail 窄 + rocker 略多 + upright fin 組合提供緊湊 pivot,適合 air 前 last-second redirect。",
+    "Vertical 能力": "中上。能打 vertical snap 但不如 HPSB 精準。重點是 lip air,而非 vertical hack。",
+    "空中動作能力": "高(設計核心)。frontside air、air reverse 落地穩定度高;backside air 因尾部收窄表現也優於經典 groveler。設計師(Mayhem、Cox)明確將 air launch 列為主要設計目標。",
+    "Backside_vs_Frontside": "frontside 略優(wide point 配置與 fin toe 較有利 frontside redirect)。backside 因 tail 收窄仍可執行,但需要更主動的 weight transfer。"
+  },
+  "practical_selection": {
+    "代表板款": "(1) Lost Puddle Jumper Pro / HP(5'2\"-6'6\";5'6\" = 19 × 2.35 × 26.5L);(2) Lost Sub Buggy(Sub Driver 外型 + Beach Buggy rocker);(3) Lost Sub Driver 2.0 LightSpeed II(5'9\" = 19.25 × 2.375 × 28L);(4) Sharpeye Modern 2(flat entry + boxy rail 的 air 友善設定);(5) Channel Islands Peregrine(5'6\" = 19.375 × 2.375 × 27.3L,四 channel 設計提供 release)。",
+    "常見錯誤": "(1) 浮力給太多→ swing weight 過大、air rotation 困難;(2) 配大 area fin→ 加速雖快但 release 慢、影響 air pop;(3) glassing 太重(6+6/6)→ 變成耐用 daily,失去 air-specific 設計優勢;(4) 跟風 pro model 尺寸(5'7\" 給 70kg 騎手)→ paddle 不足、起不來小浪;(5) 用純 twin → backside air 落地容易 spin out。",
+    "升級陷阱": "(1) 從 mid-length 直接跳 air-specific → paddle threshold 落差過大;(2) 追隨 Italo/Filipe pro dims → pro 體能與技術跟自己不同;(3) 二手板 stringer 已疲勞 → spring back 喪失,air pop 變鈍。建議先有 1 年以上 HPSB 經驗,且能穩定 pump generate speed 後再採用 air-specific。",
+    "搭配_fin 建議": "(1) Futures John John Florence Medium(loose + drive 平衡);(2) FCS II Filipe Toledo PC(Performance Core,輕量 carbon 結構);(3) Futures Filipe Toledo Medium;(4) Futures AM1(進階上 hold 取向)。皆採 medium template + upright rake。",
+    "二手板評估": "(1) 確認 stringer 無 cracking(EPS 板的 stringer 是 air pop 的核心);(2) 注意 deck 凹陷(air 板常被站破中段);(3) glassing 老化在 EPS 上的 yellowing 比 PU 更明顯,但不一定影響性能;(4) ding 在尾部 30 公分內會直接影響 release,屬於致命傷。",
+    "Quiver 規劃": "經典三板 quiver:(1) HPSB 為 head-high+ 主力;(2) air-specific groveler 為腰至胸的 air 練習;(3) twin/fish 為腰高以下純 glide。air-specific 不能取代純 mush 的 fish。建議再搭配一塊 mid-length 或 fun board 補強 1ft 以下浪況。",
+    "預算建議": "新訂製:USD 750-950(PU)或 USD 850-1200(EPS/FutureFlex/LightSpeed II)。台灣本土 shaper 訂製約 NT$22,000-32,000。二手 air-specific 板因消耗快,折舊較深,3-6 個月新板可至 60-70% 價格。軟頂不適合 air-specific 場景(無法 generate launch pop)。"
+  },
+  "pro_reference": {
+    "Stab_in_the_Dark": "Britt Merrick(Channel Islands)的 Happy Everyday 在 Taj Burrow's Stab in the Dark 拿到第二名,即偏 air-friendly groveler 設定。Kolohe Andino 2024 SITD 中 DHD 為冠軍,但屬於 HPSB 範疇而非 air-specific。[uncertain] Stab in the Dark 2025 winner 細節在 paywall。",
+    "WSL_CT 選手選擇": "Italo Ferreira:Timmy Patterson 客製 air-leaning shape(thruster + upright fin),用於 small wave air 場合。Gabriel Medina:Johnny Cabianca air-leaning。Filipe Toledo:Sharpeye Modern Disco(Disco 為 air-specific 設定,wide point forward 但 tail 收窄)。Kelly Slater:Slater Designs Cymatic / Sci-Fi 2.0 中間版本。",
+    "Free_surf 風格參考": "Josh Kerr:air 巨匠,使用 JS Industries 客製 air-leaning shapes。Dane Reynolds:Channel Islands Dumpster Diver 為偏 air 的設定。Jamie O'Brien:多採用 Pyzel Phantom/Phantom XL 級 air-leaning groveler。Asher Pacey 偏 twin fish,不屬此範疇。"
+  },
+  "local_taiwan_context": {
+    "浪點適配": "(1) 中角:夏季腰-胸高 punchy 浪適合 air-specific;(2) 烏石港:colossal closeout 多,air-specific 是首選 air 練習板;(3) 金樽:浪質較陡飽滿,反而需要稍大 entry rocker;(4) 佳樂水:beach break 多,air-specific 配 thruster 適合;(5) 南灣:浪小且軟,air-specific paddle threshold 偏高,需配輕量 EPS;(6) 東澳粉鳥林:夏季小南風浪適合 air-specific 練習。",
+    "進口_訂製": "海外進口(美國/澳洲):Puddle Jumper Pro、Sub Buggy、Hypto Krypto 級板在台單價約 NT$30,000-45,000(含稅運),客製性低但品質穩定。本土訂製(JR Surf、VAST、Hooked 合作 shaper):NT$22,000-32,000,客製性高、可調整尾部收窄與 entry rocker。",
+    "中文社群迷思": "(1)「air 板就是越小越好」→ 錯;體重沒到 60kg 用 5'5\" Italo dims 會划不上;(2)「air 板就是 fish」→ 錯;fish 浮力分布與尾部太寬,air rotation 困難;(3)「air 板等於小 HPSB」→ 不全對;air-specific 在浮力、wide point、entry rocker 三項都有差異;(4)「Hypto Krypto 是 air 板」→ Hypto 是 hybrid all-rounder,air 性能尚可但非 air-specific。",
+    "在地教練建議": "JR Surf(墾丁):常推薦 Sub Driver 2.0 LightSpeed II 為入門 air-specific 選擇。VAST(台北/宜蘭):進階騎手可挑 Puddle Jumper Pro。Hooked(宜蘭):偏好 Channel Islands Peregrine(設計理念類似 air-specific groveler)。Decathlon Olaian 旗下無真正 air-specific 板款,僅有混合 groveler。[uncertain] 各家具體推薦表單會隨季節變動。"
+  },
+  "uncertain": [
+    "品牌計算器差異",
+    "Glide 平面速度",
+    "Stab_in_the_Dark",
+    "在地教練建議"
+  ]
+}

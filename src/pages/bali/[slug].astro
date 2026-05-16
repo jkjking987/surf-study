@@ -1,0 +1,256 @@
+---
+/**
+ * Individual Bali entry pages.
+ * Generates /bali/{slug} for each of the 50 entries.
+ */
+import Base from '../../layouts/Base.astro';
+import { db, BaliSpots } from 'astro:db';
+
+export async function getStaticPaths() {
+  const spots = await db.select().from(BaliSpots);
+  return spots.map(spot => ({
+    params: { slug: spot.id },
+    props: { spot },
+  }));
+}
+
+const { spot } = Astro.props;
+const data = spot.content;
+
+// Extract display fields
+const name = spot.name;
+const category = spot.category || '';
+const region = spot.region || '';
+
+// Build sections from raw data
+function buildSections(raw: Record<string, any>) {
+  const sectionMap: Record<string, string> = {
+    'name': '',
+    'category': '',
+    'region': '',
+    'uncertain': '',
+  };
+  const sections: { title: string; entries: [string, string][] }[] = [];
+
+  // Group by known top-level keys
+  const sectionTitles: Record<string, string> = {
+    'wave_type': 'Wave Info',
+    'skill_level': 'Skill & Conditions',
+    'wave_height_range': 'Wave Height',
+    'bottom_type': 'Bottom',
+    'best_season': 'Season',
+    'best_tide': 'Tide',
+    'best_wind': 'Wind',
+    'best_swell_direction': 'Swell',
+    'swell_consistency_rating': 'Consistency',
+    'wave_length_meters': 'Wave Length',
+    'wave_speed_rating': 'Speed',
+    'takeoff_zone_difficulty': 'Takeoff',
+    'secondary_peaks': 'Secondary Peaks',
+    'peak_crowd_level': 'Crowd',
+    'access': 'Access',
+    'paddle_out_method': 'Paddle Out',
+    'entry_fee': 'Entry Fee',
+    'recommended_session_time': 'Best Session Time',
+    'best_time_of_day': 'Best Time',
+    'nearby_warung': 'Nearby Food',
+    'alternative_spot_within_10min': 'Nearby Spots',
+    'boat_charter_required': 'Boat Required',
+    'hazards': 'Hazards',
+    'marine_hazards': 'Marine Hazards',
+    'gps_location': 'GPS',
+    'distance_from_dps_airport_km': 'Distance from Airport',
+    'distance_from_canggu_uluwatu_min': 'Distance from Canggu/Uluwatu',
+    'combo_trip_potential': 'Combo Trip',
+  };
+
+  // Flat entries (Bali JSON can be flat or nested)
+  const flatEntries: [string, string][] = [];
+  const uncertainFields = Array.isArray(raw.uncertain) ? raw.uncertain : [];
+
+  for (const [key, value] of Object.entries(raw)) {
+    if (sectionMap[key] !== undefined) continue;
+    if (typeof value === 'object' && value !== null && !Array.isArray(value)) continue;
+    if (value === null || value === '' || value === undefined) continue;
+    const label = sectionTitles[key] || key.replace(/_/g, ' ');
+    const isUncertain = uncertainFields.includes(key);
+    flatEntries.push([label, String(value) + (isUncertain ? ' [uncertain]' : '')]);
+  }
+
+  if (flatEntries.length > 0) {
+    sections.push({ title: 'Details', entries: flatEntries });
+  }
+
+  return sections;
+}
+
+const sections = buildSections(data);
+
+// Category tag class
+const catClasses: Record<string, string> = {
+  surf_spot: 'tag-verm',
+  surf_spot_hidden: 'tag-blood',
+  extension_destination: 'tag-ocean',
+  surf_business: 'tag-teal',
+  surf_resource: 'tag-ink',
+  event_culture: 'tag-must',
+  practical: 'tag-ink',
+};
+const catClass = catClasses[category] || 'tag-ink';
+const catLabel = category.replace(/_/g, ' ');
+---
+
+<Base
+  title={`${name} — 峇里島衝浪檔案 · 衝浪研究室`}
+  description={`${name} — ${region}. ${category.replace(/_/g, ' ')}. 衝浪研究室 Bali Issue 001.`}
+>
+  <link slot="head" rel="stylesheet" href="/styles/issue.css" />
+  <style>
+    .entry-page {
+      max-width: 840px;
+      margin: 0 auto;
+      padding: 28px;
+    }
+    .entry-crumb {
+      font-family: var(--mono);
+      font-size: 10.5px;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      padding-bottom: 16px;
+      border-bottom: 1.5px solid var(--ink);
+      flex-wrap: wrap;
+    }
+    .entry-crumb a { color: var(--ink-soft); text-decoration: none; }
+    .entry-crumb a:hover { color: var(--vermillion); }
+    .entry-crumb .sep { opacity: .4; }
+    .entry-head {
+      padding: 28px 0 20px;
+      border-bottom: 3px double var(--ink);
+    }
+    .entry-head h1 {
+      font-family: var(--display);
+      font-size: clamp(36px, 6vw, 56px);
+      line-height: .9;
+      margin: 0 0 12px;
+    }
+    .entry-head .tagrow { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 10px; }
+    .entry-section {
+      border-bottom: 1px solid var(--ink);
+      padding: 20px 0;
+    }
+    .entry-section h3 {
+      font-family: var(--display-3);
+      font-size: 14px;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      margin: 0 0 14px;
+      color: var(--vermillion-d);
+    }
+    .entry-kv {
+      display: grid;
+      grid-template-columns: 180px 1fr;
+      gap: 2px 18px;
+    }
+    .entry-kv .k {
+      font-family: var(--mono);
+      font-size: 10.5px;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      padding: 8px 0;
+      color: var(--ink-soft);
+      border-bottom: 1px dashed var(--ink);
+    }
+    .entry-kv .v {
+      font-family: var(--serif);
+      font-size: 14px;
+      line-height: 1.55;
+      padding: 8px 0;
+      border-bottom: 1px dashed var(--ink);
+      word-break: break-word;
+    }
+    .entry-kv .v:last-child,
+    .entry-kv .k:nth-last-child(2) { border-bottom: 0; }
+    .uncertain-mark {
+      background: var(--mustard);
+      color: var(--ink);
+      font-family: var(--mono);
+      font-size: 9px;
+      padding: 1px 4px;
+      margin-left: 6px;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+    .entry-back {
+      padding: 24px 0;
+      display: flex;
+      justify-content: space-between;
+      font-family: var(--mono);
+      font-size: 11px;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+    .entry-back a {
+      color: var(--ink);
+      text-decoration: none;
+      padding: 6px 12px;
+      border: 1.5px solid var(--ink);
+      transition: all .15s;
+    }
+    .entry-back a:hover {
+      background: var(--ink);
+      color: var(--paper);
+    }
+    @media (max-width: 600px) {
+      .entry-page { padding: 16px; }
+      .entry-kv { grid-template-columns: 1fr; }
+      .entry-kv .k { padding: 6px 0 2px; border-bottom: 0; }
+      .entry-kv .v { padding: 0 0 8px; }
+      .entry-head h1 { font-size: 32px; }
+    }
+  </style>
+
+  <div class="entry-page">
+    <nav class="entry-crumb">
+      <a href="/">衝浪研究室</a>
+      <span class="sep">/</span>
+      <a href="/bali">No. 001 · BALI</a>
+      <span class="sep">/</span>
+      <span>{name}</span>
+    </nav>
+
+    <header class="entry-head">
+      <h1>{name}</h1>
+      <div class="tagrow">
+        {category && <span class={`tag ${catClass}`}>{catLabel}</span>}
+        {region && <span class="tag">{region}</span>}
+      </div>
+    </header>
+
+    {sections.map(section => (
+      <section class="entry-section">
+        <h3>{section.title}</h3>
+        <div class="entry-kv">
+          {section.entries.map(([k, v]) => (
+            <>
+              <div class="k">{k}</div>
+              <div class="v" set:html={
+                v.includes('[uncertain]')
+                  ? v.replace('[uncertain]', '<span class="uncertain-mark">uncertain</span>')
+                  : v
+              } />
+            </>
+          ))}
+        </div>
+      </section>
+    ))}
+
+    <div class="entry-back">
+      <a href="/bali">← 回到 BALI INDEX</a>
+      <a href="/">回到主期刊</a>
+    </div>
+  </div>
+
+</Base>

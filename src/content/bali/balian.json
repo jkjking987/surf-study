@@ -1,0 +1,84 @@
+{
+  "basic_info": {
+    "name": "Balian (Chinese: 巴里安; Indonesian: Pantai Balian / Suraberata)",
+    "category": "surf_spot",
+    "region": "West Coast",
+    "gps_location": "Approx. -8.5917, 114.9700 (Pantai Balian, Lalanglinggah, Selemadeg Barat, Tabanan Regency, Bali 82162; Google Maps: https://maps.app.goo.gl/Balian) [uncertain]",
+    "distance_from_dps_airport_km": "~70-75 km (approx. 1.5-2 hours drive depending on traffic)",
+    "distance_from_canggu_uluwatu_min": "From Canggu: ~75-100 min by motorbike (~50 km); From Uluwatu: ~120-150 min by motorbike (~80 km)"
+  },
+  "surf_conditions": {
+    "wave_type": "River-mouth break with both left and right peaks over cobblestone and sand bottom; the left typically runs longer and more reliable while the right is steeper and can pitch into a barrel; an additional beach-break section forms south of the rivermouth at low tide",
+    "skill_level": "Intermediate primary; accessible to advanced beginners on smaller days; advanced surfers find punchy barrel sections on bigger swells",
+    "wave_height_range": "1-8 ft; works well at 2-6 ft (head-high range); manageable up to overhead+ for advanced surfers",
+    "bottom_type": "Cobblestone with sand deposits from the river mouth; not sharp reef - more forgiving than Bukit reefs",
+    "best_season": "Dry season April-October (peak May-September); fairly consistent year-round, often working when south Bukit is flat; avoid first storms of wet season due to pollution",
+    "best_tide": "Works on all tides; mid tide considered best for organised peaks; low tide produces beach-break section at the river mouth; high tide softens the wave",
+    "best_wind": "Offshore N to NE; early morning land breeze ideal; SE trade winds cross-shore by mid-morning",
+    "best_swell_direction": "S to SW (similar window to Medewi and Bukit); responsive to most Indian Ocean groundswells",
+    "swell_consistency_rating": "5 (one of the most consistent breaks in Bali - 'ultra consistent' year-round; rideable when much of the island goes flat)",
+    "wave_length_meters": "50-150 meters typical (lefts run longer than rights; multiple connecting sections on the best sandbank days) [uncertain]",
+    "wave_speed_rating": "Medium (more punch than Medewi; lefts can wall up fast on bigger days; rights pitch quickly into barrel sections)",
+    "takeoff_zone_difficulty": "Low to moderate - friendly cobble/sand bottom (not razor reef), but shifting peaks require positioning; rivermouth current can pull surfers off the peak",
+    "secondary_peaks": "Yes - distinct left peak, right peak, and beach-break section at the rivermouth south of the main peak; channel between left and right makes paddle-out easy",
+    "peak_crowd_level": "2-3 (generally low; busier on weekends and during epic swells with traveling surfers and small surf-camp groups; far less crowded than Canggu/Bukit)"
+  },
+  "practical_info": {
+    "access": "Drive west on Jalan Raya Denpasar-Gilimanuk; turn south at Lalanglinggah/Suraberata toward Pantai Balian; park at the cliff-top area or beachfront warungs/guesthouses; walk down the path/stairs to the beach",
+    "paddle_out_method": "Easy paddle-out through the channel between the left and right peaks (deep water between them); for the rivermouth section, paddle out along the southern beach edge",
+    "entry_fee": "No formal beach entry fee; parking IDR 5,000-10,000 motorbike / IDR 10,000-20,000 car at beachfront warungs",
+    "recommended_session_time": "Dawn patrol (5:30-7:30 AM) for offshore winds and uncrowded peaks; late afternoon glass-off as winds soften",
+    "best_time_of_day": "Sunrise to ~9 AM; second window late afternoon; avoid mid-day when SE trade winds disrupt the surface",
+    "nearby_warung": "Pondok Pitaya Beach Restaurant, Sushi Surf Balian, Deki's Warung, Tekor Bali, Balian Beach Cafe, Made's Homestay warung - all clustered around the beachfront and clifftop area",
+    "alternative_spot_within_10min": "Limited within 10 min - Balian itself has multiple peaks (left, right, rivermouth beach break); Soka Beach and Kelating ~20-30 min east for backup beach-break options",
+    "boat_charter_required": "No - direct beach access via short walk from parking"
+  },
+  "safety_culture": {
+    "hazards": "Strong rivermouth current especially after rain, occasional bull shark sightings (historic attacks reported), pollution from stormwater runoff after rain, isolated bigger-day rip currents, slippery cobblestones at entry/exit",
+    "marine_hazards": "Occasional bull sharks reported off the coast (rare attacks over the past decade especially in murky water at dawn/dusk near the rivermouth); sea urchins on rocky sections; occasional jellyfish; rare sea snake sightings",
+    "reef_cut_severity_index": "Low - cobblestone and sand bottom not razor reef; some cuts possible from barnacle-covered rocks but generally one of the more forgiving Bali bottoms",
+    "rip_current_pattern": "Rivermouth current drains south and offshore - useful as paddle-out lane but strong after rain; channel between left and right peaks acts as natural paddle-out; side current can pull surfers toward the rivermouth",
+    "lineup_etiquette": "Relaxed compared to Bukit but still observe priority; defer to local Indonesians and regulars; do not snake; greet locals; rotation respected on the left point",
+    "localism_intensity": "Low - sleepy village atmosphere; friendly hosts; minimal localism pressure; vibe described as reminiscent of pre-tourism Bali 1970s",
+    "respect_protocol": "Be friendly, support local warungs and homestays, respect Hindu temple ceremonies in nearby Lalanglinggah, do not paddle out drunk or disrespect locals; observe priority and let regulars get waves",
+    "resident_local_legends": "Local Tabanan surfers based at Pondok Pitaya and Balian Surf Camp; longstanding instructor/guide community at Casa Balian and Balian Spirit [uncertain]",
+    "religious_sensitivity": "Predominantly Hindu Balinese village (unlike Muslim Medewi/Yeh Sumbul); nearby temples include Pura Dang Kahyangan Gading Wani, Luhur Srijong Temple (10 min east) and Pura Tanah Lot region further east; respect temple ceremonies (odalan), modest dress when entering temple grounds, women on menstruation traditionally avoid temples; Nyepi (Day of Silence ~March) - no surfing/beach access islandwide",
+    "medical_nearby": "Klinik/Puskesmas Selemadeg (basic primary care, ~10-15 min); RSUD Tabanan / Tabanan Hospital (~45-60 min east); BIMC and Siloam Denpasar ~1.5-2 hours east for serious cases",
+    "nearest_clinic_distance_km": "~5-10 km to Puskesmas Selemadeg; ~30-40 km to Tabanan Hospital",
+    "rescue_jet_ski_available": "No permanent rescue jet-ski; rely on self-rescue and surf-camp instructors",
+    "emergency_contact": "Indonesia general emergency 112; Police 110; Ambulance 118/119; Tourist Police +62-361-754599 (Bali) [uncertain on most current numbers]"
+  },
+  "services": {
+    "nearest_surf_school": "Balian Surf Camp (long-running lessons and board rentals), Pondok Pitaya Surf School (hotel-based, all levels), Casa Balian, Balian Spirit Yoga & Surf, Bali Wave Hunter, Pacha Balian Surf Camp",
+    "board_rental_availability": "Yes - readily available from Balian Surf Camp, Pondok Pitaya, beachfront shops and homestays; ~IDR 80,000-150,000/day for shortboards/soft-tops",
+    "surf_photographer_available": "Yes - freelance land photographers shoot from the clifftop and beach especially during dry-season swells; less developed scene than Uluwatu but present [uncertain]",
+    "photographer_recommendation": "Inquire at Pondok Pitaya or Balian Surf Camp; freelance shooters via Instagram; typical session IDR 150,000-400,000 [uncertain]",
+    "accommodation_options": "Pondok Pitaya Hotel Surfing & Yoga (mid-high, beachfront favorite), Balian Paradise Resort, Gubug Balian Beach Bungalows, Casa Balian, Villa Balian (luxury), Balian Spirit, Made's Homestay, various small homestays in Lalanglinggah",
+    "webcam_url": "https://www.surfline.com/surf-report/balian/5842041f4e65fad6a7708d41 (Surfline cam/report); Pondok Pitaya surfcam at https://pondokpitaya.com/surfcam/; balicams.com/camera/balian",
+    "drone_allowed": "Generally permitted for personal use; respect temple grounds and ceremonies; commercial use requires permit [uncertain]",
+    "coworking_nearby": "Limited dedicated coworking; surf-camp wifi (Pondok Pitaya, Casa Balian) sufficient for remote work; nearest serious coworking ~1.5 hours east in Canggu/Tabanan [uncertain]"
+  },
+  "pricing": {
+    "avg_lesson_price": "IDR 300,000-500,000 (~USD 20-35) for 1-on-1 hour lesson; group lessons IDR 250,000-400,000 per person; multi-day packages available at Balian Surf Camp and Pondok Pitaya",
+    "board_rental_daily": "IDR 80,000-150,000/day (~USD 5-10); per-session rentals also available"
+  },
+  "sustainability": {
+    "water_quality_rating": "Good in dry season; declines significantly in wet season (Nov-April) due to river stormwater runoff carrying agricultural waste, plastic and sediment - avoid surfing for 24-48 hours after heavy rain, especially near the rivermouth"
+  },
+  "events_community": {
+    "annual_competition_window": "No regular WSL-level event; occasional local Tabanan/Balian surf contests and longboard events during dry season hosted by local surf camps [uncertain]",
+    "community_events": "Yoga retreats, full-moon gatherings, surf-camp group dinners at Pondok Pitaya, Balinese Hindu temple ceremonies (odalan) in nearby village, occasional live music nights at Balian Beach Cafe [uncertain]"
+  },
+  "uncertain": [
+    "gps_location",
+    "wave_length_meters",
+    "resident_local_legends",
+    "emergency_contact",
+    "surf_photographer_available",
+    "photographer_recommendation",
+    "drone_allowed",
+    "coworking_nearby",
+    "annual_competition_window",
+    "community_events"
+  ]
+}

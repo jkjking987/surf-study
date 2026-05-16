@@ -1,0 +1,96 @@
+{
+  "id": "A2",
+  "basic_info": {
+    "名稱": "標準小浪情境 (Waist-to-Chest 腰~胸軟 / Standard Small Wave)",
+    "分類": "浪況情境 (Wave Condition Scenario)",
+    "適用程度": "全程度;最常見的日常小浪場景,中階騎手最受益",
+    "一句話定位": "推力小但有移動感的腰~胸浪,以平衡型 groveler/hybrid 兼顧 paddle、carve 與 vertical。"
+  },
+  "buoyancy_strategy": {
+    "Guild_Factor_GF": "標準小浪建議 GF 比日常 HPSB +0.03~+0.05:頂尖/高體能 0.37-0.40、一般體能+中高技術 0.39-0.43、週末玩家 0.42-0.48、新手 0.50-0.60。較 A1 (極軟浪) 低 0.03~0.05,因為腰~胸浪本身有推力,不需 maximum float (Surfertoday、Lost Mayhem FAQ)。",
+    "浮力公式": "體重(kg) × 0.40~0.46 = 浮力(L)。例:70kg × 0.42 ≈ 29.4L;Lost Sub Driver 2.0 標準尺寸 6'0\" x 20\" x 2.5\" / 32L 即典型 70kg 中階騎手在標準小浪場景的選擇 (Lost Surfboards Bro Dims)。",
+    "相對日常板浮力增量": "相對 HPSB +15%~+25%。例:HPSB 26L 玩家標準小浪選 30-32.5L。+10% 多用於進階快感優先、+20% 為主流推薦、+30% 已偏向 A1 場景。Britt Merrick 的 Happy Everyday 概念即是 \"+12% 浮力於 Two Happy HPSB\" 的折衷。",
+    "浮力範圍_體重對照": "50kg → 22-26L;60kg → 26-30L;70kg → 30-34L;80kg → 34-40L;90kg+ → 40-46L。最低端為進階追 carve / air 取向、最高端為新手/中度體能折衷選。",
+    "小浪修正係數": "標準小浪「一般經驗 +3L」的法則最適用於此情境:用日常 HPSB 浮力 +3L 即得標準小浪板浮力。若選 groveler 專用版型 (Sweet Potato 類) 可改 +5L。",
+    "BMI_體脂修正": "高 BMI 肌肉型:浮力下限取值 (-1~2L);高 BMI 脂肪型:依公式或 +1L;低 BMI 偏瘦型 (亞洲常見):依公式或 -1L,因瘦人對體積敏感、過多浮力 rail 易翹。",
+    "年齡_體能修正": "40 歲以上或體能下降:標準小浪 +5~10% 浮力即可 (約 +1.5~3L);不需到 A1 場景的 +10~15%。如 50 歲 70kg 騎手從 30L 拉到 32-33L。",
+    "品牌計算器差異": "Firewire 計算器最準 (尤其 Helium 系列);Lost 計算器偏低需 +1~2L (Bro Dims 例外,Bro Dims 已預先 +);CI 計算器約準或略低 (-1L 內);JS Industries 計算器有清楚 weight range 列表 (官網);Rusty 計算器列表分等級。標準小浪場景跟計算器即可,不需大量加成。",
+    "亞洲體型修正": "亞洲身材偏小,標準小浪場景可比官網建議 -2L (例 70kg 亞洲取 30L 而非 32L);但新手或缺乏 paddle 體能者不應扣減。"
+  },
+  "shape_details": {
+    "Length 板長": "建議比日常 HPSB 縮短 -2\"~-4\"。常見區間:5'4\"~6'2\" (體重 50-90kg)。例:Sub Driver 2.0 5'5\"-6'8\";Happy Everyday 5'7\"-6'4\";Pyzel Phantom 5'7\"-6'4\";Lost RNF 96 5'3\"-5'10\"。比 A1 的 4'10\"~5'8\" 範圍長 4-6\"。",
+    "Width 板寬": "建議 19.5\"~21\" (HPSB 約 18.5\"~19.5\",A1 約 20\"~22\")。Sub Driver 2.0 6'0\" 為 20\";Happy Everyday 6'0\" 約 19.75\";RNF 96 5'7\" 約 19.5\"。",
+    "Thickness 板厚": "建議 2.4\"~2.65\"。Sub Driver 2.0 6'0\" 為 2.5\";Happy Everyday 6'0\" 約 2.56\";RNF 96 5'7\" 約 2.44\"。",
+    "Nose_Rocker": "標準小浪建議 4.4\"~4.9\"。比 A1 略高 (因為 chest 浪需要更佳 stop 控制),比 HPSB 略平。Happy Everyday 約 4.7\";Sub Driver 2.0 約 4.6\"。",
+    "Tail_Rocker": "建議 2.3\"~2.6\"。Sub Driver 2.0 約 2.4\";Happy Everyday 約 2.5\";RNF 96 約 2.3\"。",
+    "Entry_Rocker": "前段曲線略連續但比 A1 略多:可平衡 paddle 與 stop。Happy Everyday 採用 \"lowered entry rocker\" 提升 planing speed 但仍保有 chest 浪的 wave-face control (Britt Merrick CI 官方說明)。",
+    "Wide_Point_Position": "wide point 通常在中心或中心前 0.5\"~1.5\"。Sub Driver 2.0 wide point 在中心前 1\";Happy Everyday 在中心或略前 0.5\";比 A1 (前移 1-2\") 略偏中心,以增加 carve 平衡。",
+    "Nose_Width_at_12_inch": "標準小浪 hybrid 建議 12\"~13.5\"。Sub Driver 2.0 約 12.5\";Happy Everyday 約 12.3\";RNF 96 約 12.8\"。",
+    "Tail_Width_at_12_inch": "建議 14.8\"~16\"。Sub Driver 2.0 6'0\" 約 15.5\";Happy Everyday 6'0\" 約 14.8\";RNF 96 5'7\" 約 15.5\"。比 A1 略窄,提供更 controlled carve。",
+    "Bottom_Contour 板底設計": "標準小浪首選 single-to-double concave (深度約 4-5mm,過渡點在前 fin 前 2-3\")。Happy Everyday:single concave 進雙 concave 通過 fins (gas pedal + lift 雙效);Sub Driver 2.0:vee deck (上半部凹) + single-to-double bottom;RNF 96:single-to-double-with-vee。標準小浪不偏好 deep double barrel (太 skate)、也不偏好 flat (慢)。",
+    "Tail_Shape 板尾形狀": "squash tail 為標準小浪最大宗 (Sub Driver 2.0 Squash、Happy Everyday squash);swallow 次之 (RNF 96、Sub Driver 2.0 Swallow);diamond 為小眾選項。標準小浪不偏好 round pin (太緊) 或 wide squash (寬尾在 chest 浪 spin)。",
+    "Rail_Profile": "中段 medium-boxy 配 tucked under edge 過渡到 tail。Sub Driver 2.0 採 \"refined rails\" 降低 rail volume 但保留中心浮力;Happy Everyday 採 medium rail (CI Happy 系列特徵)。比 A1 偏薄、比 HPSB 偏厚。",
+    "Rail_Volume_Distribution": "標準小浪偏好 \"中段集中 + tail tapered\":Sub Driver 2.0 即此典型 (centerline 厚 + rail tapered);RNF 96 則 rail volume 較均勻分布。",
+    "Foam_Distribution": "均勻型 (versatile) 為主流。Happy Everyday 即此 distribution 的範本 (\"daily driver 風\");Sub Driver 2.0 仍偏前移 (chest 集中)。標準小浪場景不偏好極端胸下集中或極端尾部集中。",
+    "Outline 輪廓曲線": "比 A1 的胖洋芋型 outline 更接近現代 HPSB outline,但 wide point 略前、尾部仍寬於 HPSB。Happy Everyday 採 \"shortened rail + curvier outline through tail\" (Britt Merrick CI);Sub Driver 2.0 採 wide hip + 寬 squash tail 的「漏斗」outline。"
+  },
+  "fin_setup": {
+    "主要_Setup": "thruster 為標準小浪首選 (drive + control 平衡);quad 用於追求 down-the-line 速度;twin 用於追求 retro feel + skate。Sub Driver 2.0、Happy Everyday、Pyzel Phantom 均以 thruster 為主。",
+    "Fin_Cant": "標準小浪建議 5°~6.5° (中性偏 loose)。CI Upright fin cant 約 6°;Futures AM2 約 6.5°。比 A1 (6.5°+) 略小、比 HPSB 大型浪用 fin (4-5°) 略大。",
+    "Fin_Toe": "1/16\"~1/8\":1/16\" drive 取向 (適合 chest 浪 face carve)、1/8\" loose 取向 (適合 waist 軟浪)。標準小浪可採折衷 3/32\"。",
+    "Fin_Foil": "side fins 採 inside foil (hold + lift);trailer 採 50-50 foil (中央 drive)。Quad rear 採 inside foil 但較小 area。",
+    "Fin_Rake_Sweep": "標準小浪偏好中等 rake (中等 sweep 角度)。CI Upright、Futures AM2、FCS Performer 為典型。完全 upright fin (如極小浪用) 在標準小浪場景反而過 loose、缺 hold;高 rake fin (如 Mick Fanning M5) 又拖速。",
+    "Fin_Area_Template": "中型 area 為基準:60-75kg 用 medium (Futures M、FCS Performer M);75kg+ 用 large/M+。Sub Driver 2.0 5'9\" 70kg 騎手:Futures AM1 medium 為原廠首選。",
+    "Quad_Rear_Position": "標準小浪 quad rear 中等位置:靠 rail 1/2\"-3/4\";完全靠 rail 偏 loose、偏 stringer 偏 drive。Lost Sub Driver 2.0 quad option 採 1/2\" off rail。",
+    "2plus1_vs_PureTwin": "標準小浪場景 2+1 提供 backhand hold + frontside drive (適合 chest 浪 carve);pure twin 提供 maximum drive + skate (更小浪 / retro 取向)。Happy Everyday 多採 thruster 而非 2+1。"
+  },
+  "construction": {
+    "PU_PE 在小浪": "PU/PE 標準小浪表現穩定:knifey rail 過渡順暢、carve 可預測、damp 振動。多數 WSL CT 選手在 head-high 以下小浪仍偏好 PU (Filipe Toledo、Italo Ferreira)。劣勢:浮力同數值下 \"感覺\" 較沉,paddle threshold 略高。",
+    "EPS_Epoxy 在小浪": "EPS/Epoxy 標準小浪場景 \"輕快\" 取向:輕量利於 pump、acceleration、air;同浮力數值「感覺」高 1-2L,paddle 更易。但比 A1 場景優勢稍減,因為 chest 浪有推力本身可推動 PU。代表:Firewire Helium Happy Everyday、Lost Lightspeed II Sub Driver。",
+    "HD_EPS": "Lost Lightspeed II、Firewire Helium、Haydenshapes FutureFlex 屬 HD EPS。標準小浪場景 HD EPS 是 \"輕快但不浮誇\" 的甜蜜點:比 PU 輕 10-15%、比純 EPS 沉穩、抗 ding 強於 PU。",
+    "Glassing_Schedule": "標準小浪主流:6+4/6 standard (平衡耐用與輕量);4+4/4 lightweight comp (進階+短期使用,易壞);6+6/6 (旅行/重騎手,EPS 板可選此 schedule 仍輕)。Sub Driver 2.0 預設 6+4/6;Happy Everyday Helium 預設 lightweight schedule。",
+    "新技術": "Haydenshapes FutureFlex (carbon innegra wrap、強回彈)、Firewire Helium (HD EPS + bamboo deck + paulownia rail)、Lib Tech NTL (碳負排放 EPS + bamboo)、Lost Lightspeed II (HD EPS + s-cloth) 為標準小浪場景的高階構造。"
+  },
+  "conditions_fit": {
+    "浪高範圍": "2-4ft (腰~胸軟)。最佳區間 2.5-3.5ft;1.5ft 以下偏 A1 場景、4.5ft+ 偏 A3 或 HPSB。",
+    "浪質": "無力但有移動感的小浪;偶有飽滿浪壁但無 lip 力。標準小浪以「軟+移動感」為主,偶 fat 偶 chest 軟。",
+    "浪型": "Beach break 為主場 (台灣中角、白沙灣、東澳粉鳥林);point break 平日小天 (金樽小天、佳樂水主峰小);reef break 適合中潮位 (烏石北堤、墾丁佳樂水)。",
+    "不適合場景": "head-high+ 陡浪 (浮力太多難壓 rail)、空心捲管浪 (rocker 平 nose dive)、強流大浪。標準小浪 hybrid 在 5ft+ 表現急速劣化。"
+  },
+  "performance": {
+    "划水容易度": "paddle threshold 中等:能划上 waist 浪、勉強划上 knee 浪。70kg 騎手 32L Sub Driver 2.0 在 chest 浪划水非常輕鬆,knee 浪需要 strong paddle technique。",
+    "起乘速度": "快 (paddle-to-take-off 2-3 動作)。比 A1 略需 effort,但回報是中等浪況的 carve 樂趣。",
+    "Glide 平面速度": "down-the-line 速度中上,過 flat section 仍能維持速度。Noel Salas 在 Sub Driver 2.0 測試顯示 down-the-line 速度約 22-28 km/h (chest 浪) [uncertain]。",
+    "Pump 效率": "pump 效率高:中等 rocker + medium width + concave 配合提供反應靈敏的 pump。比 A1 (groveler) pump 更可控、比 HPSB 更省力。",
+    "轉向靈活度": "緊湊轉彎 + bottom turn 反應均優秀:Happy Everyday 因 \"shortened rail + curvier outline\" 達到 hybrid 中的高靈活度標竿;Sub Driver 2.0 因 wide hip + squash 達到 small-wave HPSB feel。",
+    "Vertical 能力": "vertical snap 能力中上:標準小浪 hybrid 可在 chest 浪打出 80% lip。Italo Ferreira 在 Trestles 用 Pyzel 系列即此場景。",
+    "空中動作能力": "frontside air 落地穩定;reverse 可做但需技術。Kolohe Andino 騎 Sub Driver 2.0 在 chest 浪做 air reverse 為標竿。",
+    "Backside_vs_Frontside": "thruster 配置 frontside/backside 表現均衡;twin 配置 (RNF 96 twin variant) backside hold 略弱於 thruster。"
+  },
+  "practical_selection": {
+    "代表板款": "1) ...Lost Sub Driver 2.0 / 3.0 (Matt Biolos,5'5\"-6'8\",24-43.5L,Bro Dims squash/swallow);2) Channel Islands Happy Everyday (Britt Merrick,5'7\"-6'4\",26-38L,thruster squash);3) Pyzel Phantom (5'7\"-6'4\",25-38L,everyday driver);4) ...Lost RNF 96 (5'3\"-5'10\",26-35L,fish 回流);5) Channel Islands Fishbeard (NeckBeard 2 + CI Fish,keel + 寬尾)。",
+    "常見錯誤": "1) 把 A2 板誤當 A1 (浪太小划不上)、或誤當 A3 (浪太大 spin);2) 浮力給太多 (>0.50 GF) 反而難 carve;3) 配錯 fin (用 mid-large rake fin 拖速);4) 不調整 stance 仍用 HPSB 後腳重心,vertical 反而吃力;5) 把 Sub Driver 當 day-everyday 也帶上 head+ overhead 浪 (本應換 HPSB)。",
+    "升級陷阱": "跳級太快:剛能 take-off 就買 Sub Driver 2.0 Pro Dims 而非 Bro Dims,結果體能不足無法駕馭;追隨 pro model 但忽略浮力差 (Italo Ferreira 騎 5'8\" / 23L 是 60kg pro 的 GF 0.38,凡人不可比擬);選太短:5'8\" Happy 對 80kg 中階是浮力陷阱。",
+    "搭配_fin 建議": "thruster:Futures AM2 (medium-large)、CI Upright、FCS II MR Twin+Stab、FCS II Performer Tri;quad:Futures Pancho Pro Quad、FCS II Performer Quad;twin:Captain Fin Mikey February、FCS II Mark Richards Twin、Shapers AP Twin。Sub Driver 2.0 官方推薦 Futures AM2 (P. Salas 等代言設定)。",
+    "二手板評估": "標準小浪 hybrid 二手:檢查 chest 區 heel dent (深 >3mm 影響浮力分布);fin box 周圍裂痕 (常見於 thruster 後 fin);glassing crack near nose (常見 wipeout 來源);EPS 板留意吸水增重 (5+ 年舊 EPS 可增 1-2L 等效)。Sub Driver 2.0 二手價約原價 50-60%。",
+    "Quiver 規劃": "2 塊 quiver:標準小浪 hybrid (32L) + HPSB (26L) 涵蓋 1-6ft;3 塊:加 mid-length (40L) 或 step-up (28L)。Britt Merrick 推薦 \"Happy + Happy Everyday + Happy Traveler\" 三板 quiver 涵蓋 1ft 到 head+ overhead。",
+    "預算建議": "二手 PU Sub Driver 2.0 約 NTD 10,000-15,000;新 PU 訂製 NTD 22,000-28,000;新 Helium Happy Everyday NTD 30,000-35,000;新 Lightspeed II Sub Driver NTD 32,000-38,000;台灣本土 shaper (Saltywave、海平面 Sealevel 等) NTD 18,000-25,000 [uncertain — 本土 shaper 價格依季節變動]。"
+  },
+  "pro_reference": {
+    "Stab_in_the_Dark": "2024 SITD 由 DHD 獲勝 (Kolohe Andino 測試,Indonesia)。多數 SITD 集數在 head-high 中浪測試,標準小浪 hybrid 在 SITD 較少直接競爭,但 Happy Everyday 在 Taj Burrow SITD 場次拿過第二。2025 SITD 結果尚不明確 [uncertain]。",
+    "WSL_CT 選手選擇": "Kolohe Andino 在 chest 浪日常騎 Sub Driver 2.0 (Lost);Conner Coffin 騎 Happy Everyday (CI);Italo Ferreira 在小浪日騎 Pyzel Phantom;Filipe Toledo 仍偏 HPSB (Sharp Eye 系列);Gabriel Medina 騎 DHD Phoenix (DHD 小浪 hybrid)。",
+    "Free_surf 風格參考": "Dane Reynolds 在 ...Lost Couch Potato / Hammer 系列 (chest 浪);Josh Kerr DRAG 系列;Asher Pacey 在 chest 浪用自家 twin (Free Scrubber);Jamie O'Brien 在 Pipe 退潮 chest 浪用 Sub Driver 或 Happy Everyday。"
+  },
+  "local_taiwan_context": {
+    "浪點適配": "中角灣秋冬腰胸浪:Sub Driver 2.0 5'10\"-6'0\" / 30-32L;烏石港北堤腰胸:Happy Everyday 6'0\" / 32L;金樽淡季腰胸軟:Pyzel Phantom 5'10\" / 30L;佳樂水主峰陷陡:Sub Driver 2.0 squash;南灣腰胸:RNF 96 5'7\" twin/quad option;東澳粉鳥林颱風殘浪:Happy Everyday / Sub Driver。",
+    "進口_訂製": "海外進口主流:Lost Sub Driver 2.0/3.0 (透過 nanazero、JR Surf、Hooked) NTD 30,000-35,000;Channel Islands Happy Everyday (透過 VAST、Boardriders) NTD 28,000-33,000;Pyzel Phantom (透過代理) NTD 28,000-32,000。本土訂製可選 Saltywave 等 shaper 仿 Sub Driver / Happy 概念 NTD 18,000-25,000,優勢為亞洲體型修正、可指定浮力 ±2L [uncertain]。",
+    "中文社群迷思": "PTT/IG/FB 衝浪社團常見:1) 「Sub Driver 一定要 6'0\"」— Bro Dims 體系本就為亞洲體型設計,5'8\"-5'10\" 才適合 70kg 中階;2) 「Happy 系列只適合 pro」— Happy Everyday 即為 daily driver 取向,中階完全可用;3) 「魚板=小浪萬能」— modern fish 在 chest 軟浪反而不如 hybrid;4) 「越短越進階」— 短而不浮反而退步。",
+    "在地教練建議": "JR Surf (烏石、福隆) 多推 Channel Islands Happy Everyday、Pyzel Phantom 給中階以上;VAST Surf Shop 推 Lost Sub Driver 2.0、Firewire Helium 系列;Decathlon Tribord 自家 900 EPS 系列可作為中階入門 (NTD 10,000-15,000);Hooked Surf 推 CI Happy Everyday、Twin Pin 給進階。多數教練建議 \"先 +20% 浮力 +1 size 寬\" 作為初入標準小浪場景的安全範式。"
+  },
+  "uncertain": [
+    "Glide 平面速度",
+    "Stab_in_the_Dark",
+    "預算建議",
+    "進口_訂製"
+  ]
+}

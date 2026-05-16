@@ -1,0 +1,109 @@
+{
+  "id": "dadonghai_sanya",
+  "basic_info": {
+    "name": "Dadonghai Beach / 三亞·大東海",
+    "location": "Dadonghai Tourism Zone, between Tuziwei (兔子尾) and Luhuitou (鹿回頭) headlands, Jiyang District, Sanya City, Hainan Province, China; ~3-4 km southeast of Sanya city center, ~28 km / 40 min from Sanya Phoenix International Airport (SYX)",
+    "operator": "Dadonghai Tourism Zone (managed by Sanya municipal authorities; free public beach); historic surf operators include Gravity Surf Club (引力衝浪) and WAVE Surf Club among a small number of in-bay schools; partial water-sports restrictions imposed by Sanya in April 2023 affect specific sub-zones (Broken Bridge / Blue Hole) but the main bay remains accessible",
+    "opening_date": "N/A (natural beach; tourism zone established in the 1980s)",
+    "status": "operating",
+    "category": "natural_surf_spot"
+  },
+  "technical_specs": {
+    "wave_technology_brand": "N/A (natural waves)",
+    "pool_size": "Crescent-shaped bay ~2.9 km long, south-facing between Tuziwei and Luhuitou headlands; main surfable beach extends ~1-2 km along the central sandbar [uncertain]",
+    "wave_height": "Seasonal average 0.4-1.5 m; summer SW/S swells (May-Oct) can deliver 1.5-2 m peaks on good days; winter (Nov-Apr) typically flat to small (~0.3-0.6 m) due to NE monsoon being blocked by the south-facing orientation",
+    "wave_height_adjustability": "Not adjustable (natural ocean swell - relies on summer SW monsoon and typhoon swells; very inconsistent)",
+    "wave_types": "Beach break only - sandy bottom with mellow shore-pound; suitable for white-water beginner waves, occasional clean shoulders during summer south swells; no point or reef break",
+    "waves_per_hour": "N/A (natural surf spot)",
+    "wave_count_per_set": "N/A (natural ocean sets, typically 3-5 waves per set with 6-10 second intervals during summer SW swell) [uncertain]",
+    "session_length": "N/A (open ocean access; surf school lessons typically 90-120 minutes)",
+    "stance_rotation_schedule": "N/A (beach break - both stances surf the same peaks)",
+    "wave_type_classification": "Beach break (sandy bottom, gentle gradient, summer south-facing exposure); described in Surf-Forecast as 'fairly exposed' but 'rarely breaks' - suitable mainly for beginner soft-top sessions"
+  },
+  "pricing_sessions": {
+    "price_range": "Free public beach access; surf lessons typically 500-580 RMB per person for 2 hr beginner session including board, rashguard, sunscreen and often GoPro footage; package of 4 days / 6 lessons (~12 hr) ~2,690 RMB at Gravity Surf Club",
+    "session_skill_tiers": "Largely beginner-focused given inconsistent waves: zero-base trial lesson ~500 RMB; multi-session beginner course ~2,690 RMB / 4 days; intermediate/private lessons on request [uncertain]",
+    "equipment_rental": "Soft-top board ~80-150 RMB/session, ~200-300 RMB/day; rashguard ~30-50 RMB; leash typically included with board hire [uncertain]",
+    "coaching_fee": "Group lesson 500 RMB per person at Gravity Surf (引力衝浪); WAVE Surf Club similar (~500 RMB); private 1-on-1 typically 700-1,000 RMB [uncertain]",
+    "coaching_packages": "Gravity Surf 4-day / 6-lesson package 2,690 RMB (~12 hr total instruction); typical lesson packages bundle GoPro point-of-view footage and drone photos at no extra cost [uncertain]",
+    "membership_program": "Punch cards offered by individual clubs (~2,000-3,500 RMB for 10 sessions); no formal bay-wide membership [uncertain]",
+    "corporate_team_building": "Most surf clubs accept small group / team-building bookings; minimum group sizes vary (typically 6-15 people); specific pricing on request [uncertain]"
+  },
+  "experience_guide": {
+    "best_season": "May to October (summer SW monsoon and typhoon swell window); inverse to Wanning - summer is the only consistent season; winter is generally flat",
+    "best_swell_window": "May-Oct: SW/S swells 0.5-1.5 m, period 6-10 s, with occasional typhoon-driven 1.5-2 m days; offshore N winds work best; ideal swell direction is from the south",
+    "crowd_level": "Beach is highly crowded with tourists year-round, but the surf lineup itself is uncrowded due to inconsistent waves and small surfer population; 2023 Sanya restrictions further reduced commercial water-sports congestion in some sub-zones",
+    "booking_method": "Walk-in at beachfront surf clubs; online booking via Dianping (大眾點評), Meituan (美團), WeChat mini-programs of operators (Gravity Surf, WAVE Surf), or through Sanya hotel concierges",
+    "booking_platform": "Dianping (大眾點評), Meituan (美團), WeChat mini-programs, Trip.com / Ctrip (攜程), Klook, Qunar (去哪兒)",
+    "payment_options": "WeChat Pay and Alipay universally accepted; cash accepted; international credit cards rarely accepted at small surf shops (only at hotels and large beach resorts)",
+    "skill_required": "Primarily beginner-friendly when waves are present; intermediate surfers will find conditions limiting most days; advanced surfers should head to Riyue Bay (Wanning) instead",
+    "age_eligibility": "Most clubs accept ages 6+; participants must be able to swim; no formal upper age limit but at instructor discretion [uncertain]",
+    "child_friendly_score": "4/5 - calm shallow water for most of the year, soft-top boards, central city location with restrooms / showers / changing rooms; lifeguards on patrol; gentle slope; main hazard is crowded swimming areas mixing with surfers",
+    "sup_paddleboard_offering": "Yes - SUP, kayak, banana boat and other water sports widely available along Dadonghai beach (subject to 2023 zone restrictions on some commercial activities)",
+    "photography_video_service": "Most clubs include free GoPro session footage and drone aerial photos in the lesson price; standalone photo packages 100-300 RMB [uncertain]",
+    "language_support": "Limited English at most surf clubs; some hotel beach concessions and large operators have English-speaking staff; Mandarin and Russian (legacy of Russian tourist boom) more commonly heard",
+    "accessibility_for_disabled": "No formal adaptive surfing program; beach has paved promenade access in some sections, but no boardwalk to waterline; lifeguard assistance available [uncertain]",
+    "stance_preference_input": "Not required when booking (beach break suits both stances)",
+    "safety_notes": "Lifeguards on duty; designated swim/surf zones marked by buoys; April 2023 Sanya notice prohibits unauthorized water tourism in specific sub-areas (Broken Bridge 斷橋, Blue Hole 藍洞 between Dadonghai and Xiaodonghai) - check current zoning before paddling out; main beach surf zones unaffected; watch for jet-skis and banana-boat traffic [uncertain - regulations evolving]",
+    "events_competitions_calendar": "No major WSL/ISA-tier surf competitions hosted at Dadonghai (those events are at Wanning Riyue Bay); occasional local surf gatherings and beach festivals during summer [uncertain]"
+  },
+  "surroundings": {
+    "nearby_accommodation": "Dense hotel cluster directly behind the bay: Sanya Marriott Hotel Dadonghai Bay (~700-1,500 RMB), Crowne Plaza Sanya (~600-1,200 RMB), Pullman Oceanview Sanya (~800-1,500 RMB), Sanya Pearl River Garden Hotel (~400-800 RMB), plus dozens of mid-range hotels (~300-700 RMB) and budget guesthouses (~150-300 RMB)",
+    "on_site_accommodation": "No dedicated surf lodge; numerous beachfront hotels (4-5 star) directly across the road from the beach - effectively walk-from-room access to the surf zone",
+    "nearby_food": "Extensive food options: First Market (第一市場) seafood ~10 min drive; Dadonghai commercial street with Hainanese local fare, BBQ stalls, hotpot, Russian/Korean restaurants; per-person spend 50-300 RMB",
+    "transport": "Multiple city buses (lines 2, 8, 15, 16, 24, 25, 26, 28 etc.) connect Dadonghai with Sanya city center, train station and ferry terminal; Didi / taxi readily available; walking distance from many city-center hotels",
+    "transport_to_nearest_airport": "~28 km / 40 min taxi from Sanya Phoenix International Airport (SYX) (~50 RMB metered); ~12 km / 20 min from Sanya Railway Station; the most accessible Hainan surf spot from a major airport",
+    "combined_itinerary": "Pairs naturally with city Sanya itinerary: Dadonghai surf + Luhuitou Park sunset + Sanya Bay coconut grove + First Market seafood + Yalong Bay or Haitang Bay day trip; or as warm-up before traveling to Wanning Riyue Bay or Houhai for serious surf"
+  },
+  "reviews_reputation": {
+    "pros": [
+      "Most accessible Hainan surf spot - only 3-4 km from Sanya city center, walkable from many hotels",
+      "Free public beach with full city infrastructure (transport, food, lodging at all price points)",
+      "Calm, beginner-friendly summer waves with sandy bottom and gentle slope",
+      "Warm water year-round (winter ~22 C, summer ~28 C)",
+      "Lessons typically include free GoPro and drone footage in the price"
+    ],
+    "cons": [
+      "Wave consistency poor - winter is mostly flat, summer hit-or-miss; Surf-Forecast describes it as 'rarely breaks'",
+      "Beach is heavily crowded with general tourists, jet-skis and swimmers - surf lineup must be navigated carefully",
+      "Sand quality is coarser and water clarity inferior to Yalong Bay / Haitang Bay",
+      "April 2023 Sanya water-tourism restrictions added regulatory uncertainty in some sub-zones (Broken Bridge / Blue Hole)",
+      "Not suitable for intermediate / advanced surfers - serious wave-seekers should head to Riyue Bay or Houhai"
+    ],
+    "user_reviews": "Trip.com / Ctrip ~4.4/5 for Dadonghai beach overall; Xiaohongshu (小紅書) and Zhihu surf guides describe it as 'convenient but inconsistent' and recommend Houhai Village instead for serious learners; Dianping reviews of Gravity Surf and WAVE Surf clubs generally positive on instructor friendliness but note dependence on weather [uncertain ratings]",
+    "recommended_for": "City-based travelers wanting a one-day surf trial without leaving Sanya; absolute beginners with limited time; families combining beach holiday with a surf taster; corporate groups based at central Sanya hotels",
+    "operator_brand_partnership": "Beach is publicly managed (Sanya Tourism Bureau); main private surf operators include Gravity Surf Club (引力衝浪) and WAVE Surf Club; Sanya Marriott Hotel Dadonghai Bay is the major hospitality anchor"
+  },
+  "verification": {
+    "existence_verified": "true",
+    "verification_sources": [
+      "https://www.surf-forecast.com/breaks/Dadonghai",
+      "https://www.stormrider.surf/region/hainan",
+      "https://www.surfeconomics.com/surf-travel/surf-guide-hainan-china/",
+      "https://www.thatsmags.com/china/post/31962/the-state-of-surfing-in-china",
+      "https://www.visitsanya.com/destination/dadonghai-bay",
+      "https://zhuanlan.zhihu.com/p/425818831",
+      "https://zhuanlan.zhihu.com/p/617339364",
+      "https://m.bendibao.com/show498434_4.html",
+      "https://m.gmw.cn/2023-04/05/content_1303332407.htm",
+      "https://zh.wikipedia.org/zh-hans/%E5%A4%A7%E4%B8%9C%E6%B5%B7"
+    ],
+    "last_updated": "2026-05-15"
+  },
+  "uncertain": [
+    "pool_size",
+    "wave_count_per_set",
+    "session_skill_tiers",
+    "equipment_rental",
+    "coaching_fee",
+    "coaching_packages",
+    "membership_program",
+    "corporate_team_building",
+    "age_eligibility",
+    "photography_video_service",
+    "accessibility_for_disabled",
+    "safety_notes",
+    "events_competitions_calendar",
+    "user_reviews"
+  ]
+}

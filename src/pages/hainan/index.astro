@@ -1,0 +1,189 @@
+---
+import IssuePage from '../../layouts/IssuePage.astro';
+---
+
+<IssuePage
+  title="海南浪池檔案 · ISSUE No. 002 — 衝浪研究室"
+  description="中國海南島 21 個浪池、浪點、學校與俱樂部研究檔案。含 SURFLAND 萬寧 PerfectSwell 實測。"
+  issueNumber="002"
+  issueStats="21 SITES · 6 CITIES"
+  issueEdition="POST-SURFLAND ERA"
+  headingEn="Hainan Wavepool Dossier"
+  headingCh="海 南 浪 池 檔 案"
+  currentIssue="hainan"
+>
+
+  <!-- Lede + counts -->
+  <section class="issue-intro">
+    <p class="lede">
+      <em>SURFLAND 萬寧</em> 2025 開幕後,海南是中國第一個<br/>
+      擁有 Olympic-grade 人工浪池的城市。本期同時收錄<br/>
+      自然浪點、學校、俱樂部與待驗證的私營浪池傳聞。
+    </p>
+    <div class="meta-grid">
+      <div class="cell"><div class="n">4</div><div class="l">人工浪池</div></div>
+      <div class="cell"><div class="n">7</div><div class="l">自然浪點</div></div>
+      <div class="cell"><div class="n">5</div><div class="l">學校 / 俱樂部</div></div>
+      <div class="cell"><div class="n">21</div><div class="l">全部 ITEMS</div></div>
+    </div>
+  </section>
+
+  <!-- Modes -->
+  <nav class="modes">
+    <div class="mode-btn active" data-mode="index">
+      <span>Index</span><span class="ch">索引</span><span class="num">21</span>
+    </div>
+    <div class="mode-btn" data-mode="island">
+      <span>Island</span><span class="ch">島嶼地圖</span>
+    </div>
+    <div class="mode-btn" data-mode="map">
+      <span>Matrix</span><span class="ch">城市矩陣</span>
+    </div>
+    <div class="mode-btn" data-mode="price">
+      <span>Prices</span><span class="ch">價格比較</span>
+    </div>
+    <div class="mode-btn" data-mode="stance">
+      <span>Stance</span><span class="ch">G/R 日曆</span>
+    </div>
+    <div class="mode-btn" data-mode="compare">
+      <span>Compare</span><span class="ch">比較</span>
+    </div>
+  </nav>
+
+  <!-- INDEX pane -->
+  <section class="pane" data-mode="index">
+    <div class="toolbar">
+      <input id="search" class="search" placeholder="搜尋浪池 / 學校 / 城市… SEARCH POOLS, SCHOOLS, KEYWORDS" />
+      <div style="display:flex; gap:12px; flex-wrap:wrap; align-items:center;">
+        <span class="group-label">類別</span>
+        <div class="group" id="cat-chips"></div>
+      </div>
+      <div style="display:flex; gap:12px; flex-wrap:wrap; align-items:center;">
+        <span class="group-label">城市</span>
+        <div class="group" id="city-chips"></div>
+        <span class="group-label">狀態</span>
+        <div class="group" id="status-chips"></div>
+      </div>
+      <div style="margin-left:auto; font-family:var(--mono); font-size:10.5px; letter-spacing:.12em; text-transform:uppercase;">
+        顯示 <span id="result-count">—</span>
+      </div>
+    </div>
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <!-- ISLAND pane -->
+  <section class="pane" data-mode="island" style="display:none;">
+    <div class="toolbar" style="border-bottom:0;">
+      <div style="font-family:var(--display-2); font-style:italic; font-size:22px; color:var(--ocean);">海南島 · 6 城市分佈</div>
+      <div style="margin-left:auto; font-family:var(--mono); font-size:10.5px; letter-spacing:.12em; text-transform:uppercase;">
+        點選城市 → 篩選清單
+      </div>
+    </div>
+    <div id="island-map"></div>
+  </section>
+
+  <!-- PRICE pane -->
+  <section class="pane" data-mode="price" style="display:none;">
+    <div class="toolbar" style="border-bottom:0;">
+      <div style="font-family:var(--display-2); font-style:italic; font-size:22px; color:var(--ocean);">價格分檔比較</div>
+      <div style="margin-left:auto; font-family:var(--mono); font-size:10.5px; letter-spacing:.12em; text-transform:uppercase;">
+        RMB / 55-min group session
+      </div>
+    </div>
+    <div id="price-wrap"></div>
+  </section>
+
+  <!-- STANCE pane -->
+  <section class="pane" data-mode="stance" style="display:none;">
+    <div id="stance-wrap"></div>
+  </section>
+
+  <!-- MAP pane (city × category matrix) -->
+  <section class="pane" data-mode="map" style="display:none;">
+    <div class="toolbar" style="border-bottom:0;">
+      <div style="font-family:var(--display-2); font-style:italic; font-size:22px; color:var(--ocean);">城市 × 類別 矩陣</div>
+      <div style="margin-left:auto; display:flex; gap:8px;">
+        <span class="tag tag-teal">營運中</span>
+        <span class="tag tag-must">年度賽事</span>
+        <span class="tag tag-ink">未驗證 / 規劃中</span>
+        <span class="tag tag-blood">查無證據</span>
+      </div>
+    </div>
+    <div id="map-wrap"></div>
+    <div style="margin-top:24px; display:grid; grid-template-columns: 1fr 1fr 1fr; gap:20px;">
+      <div class="dossier" style="padding:18px 20px;">
+        <div class="kicker" style="color:var(--vermillion-d); margin-bottom:4px;">已驗證浪池</div>
+        <h3 style="font-family:var(--display); font-size:30px; margin:0 0 6px; line-height:1;">3 座</h3>
+        <p style="font-family:var(--serif); font-size:13px; line-height:1.55; margin:0;">
+          SURFLAND 萬寧(PerfectSwell, Olympic-grade)、三亞亞特蘭蒂斯水世界、海口觀瀾湖 Wet'n'Wild。
+        </p>
+      </div>
+      <div class="dossier" style="padding:18px 20px;">
+        <div class="kicker" style="color:var(--vermillion-d); margin-bottom:4px;">待驗證項目</div>
+        <h3 style="font-family:var(--display); font-size:30px; margin:0 0 6px; line-height:1;">4 項</h3>
+        <p style="font-family:var(--serif); font-size:13px; line-height:1.55; margin:0;">
+          海口活力海岸、復興城 Wavegarden、海棠灣 Surf Town、文昌銅鼓嶺浪池 —— 2025-2026 無營運證據。
+        </p>
+      </div>
+      <div class="dossier" style="padding:18px 20px;">
+        <div class="kicker" style="color:var(--vermillion-d); margin-bottom:4px;">天然浪場王者</div>
+        <h3 style="font-family:var(--display); font-size:30px; margin:0 0 6px; line-height:1;">日月灣 + 後海</h3>
+        <p style="font-family:var(--serif); font-size:13px; line-height:1.55; margin:0;">
+          萬寧日月灣為國家衝浪訓練基地;三亞後海是初學者全年友善的衝浪村標桿。
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPARE pane -->
+  <section class="pane" data-mode="compare" style="display:none;">
+    <div class="toolbar" style="border-bottom:0;">
+      <div style="font-family:var(--display-2); font-style:italic; font-size:22px; color:var(--ocean);">浪池並列比較</div>
+      <div style="margin-left:auto; font-family:var(--mono); font-size:10.5px; letter-spacing:.12em; text-transform:uppercase;">
+        最多 4 項
+      </div>
+    </div>
+    <div class="compare-grid" id="compare-grid"></div>
+  </section>
+
+  <!-- Bottom notes -->
+  <section style="margin-top:36px; border:2px solid var(--ink); background:var(--paper); padding:18px 22px; display:grid; grid-template-columns:1fr 1fr; gap:18px;">
+    <div>
+      <div class="eyebrow" style="color:var(--vermillion-d);">2025 OPENING / 開幕大事記</div>
+      <h4 style="font-family:var(--display); font-size:22px; margin:6px 0 8px;">SURFLAND 萬寧 · 11.11</h4>
+      <p style="font-family:var(--serif); font-size:13.5px; line-height:1.55; margin:0;">
+        PerfectSwell 30-chamber pneumatic 系統,中國首座 Olympic-grade,10,000 m² 池;
+        每組 4 道浪、6 秒一道。Goofy/Regular 隔日輪替。
+        388-545 RMB / 55 分鐘 group session;Yue Chao / Yu Yue 場內酒店共 132 房。
+      </p>
+    </div>
+    <div>
+      <div class="eyebrow" style="color:var(--vermillion-d);">VERIFICATION / 驗證原則</div>
+      <h4 style="font-family:var(--display); font-size:22px; margin:6px 0 8px;">為什麼有 4 項未驗證?</h4>
+      <p style="font-family:var(--serif); font-size:13.5px; line-height:1.55; margin:0;">
+        小紅書 / 媒體報導常將「規劃中」與「營運中」混為一談。本期保留原始名單以供查核,但標為
+        <em>未驗證</em>。如能提供 2024-2026 官方營業證據,可升級為「營運中」。
+      </p>
+    </div>
+  </section>
+
+  <div style="padding:22px 0 8px; display:flex; justify-content:space-between; font-family:var(--mono); font-size:10.5px; letter-spacing:.14em; text-transform:uppercase; color:var(--ink-soft); border-top:1.5px solid var(--ink); margin-top:30px;">
+    <span>END OF ISSUE No. 002 · HAINAN</span>
+    <span><a href="/bali" style="color:inherit;">← No. 001 BALI</a> · <a href="/boards" style="color:inherit;">No. 003 BOARD →</a></span>
+  </div>
+
+  <!-- Compare tray -->
+  <div class="compare-tray" id="compare-tray">
+    <span>COMPARE TRAY</span>
+    <div class="items"></div>
+    <button class="open-btn" onclick="document.querySelector('.mode-btn[data-mode=compare]').click()">打開比較表 →</button>
+  </div>
+
+  <!-- Detail overlay -->
+  <div class="detail-overlay" id="detail-overlay" onclick="if(event.target===this) closeDetail()">
+    <div class="detail-panel" id="detail-panel"></div>
+  </div>
+
+  <script is:inline src="/scripts/hainan.js"></script>
+
+</IssuePage>

@@ -1,0 +1,110 @@
+{
+  "basic_info": {
+    "name": "Eco / Sustainable Surf Camps and Initiatives in Bali (Chinese: 峇里島生態永續衝浪營; Indonesian: Kemah Selancar Ramah Lingkungan di Bali) - including Eco Surf Rescue Uluwatu / Project Clean Uluwatu (ESRU/PCU), SeaTrees x Ocean Gardener (Nusa Penida coral restoration), Kayu Surfboards (balsa wood surfboards Canggu), Suarga Padang Padang (B Corp surf eco-resort), and Mana Earthly Paradise (B Corp Ubud) as eco-stay alternative",
+    "category": "surf_business",
+    "region": "Bali-wide (key nodes: Uluwatu/Pecatu, Padang Padang, Canggu/Berawa, Nusa Penida/Ped)",
+    "gps_location": "Eco Surf Rescue Uluwatu / Project Clean Uluwatu: Uluwatu cliff (~-8.8154, 115.0884); SeaTrees x Ocean Gardener: Ped, Nusa Penida (~-8.6840, 115.5470) [uncertain]; Kayu Surfboards: Jl. Pantai Berawa, Canggu (~-8.6630, 115.1340) [uncertain]; Suarga Padang Padang: Jl. Labuansait, Pecatu (~-8.8090, 115.1050) [uncertain]; Mana Earthly Paradise: Sayan, Ubud (~-8.5089, 115.2492)",
+    "distance_from_dps_airport_km": "Uluwatu/PCU: ~22 km (45-60 min); Suarga Padang Padang: ~20 km (45-55 min); Kayu Surfboards Canggu: ~17 km (45-60 min); Mana Earthly Paradise Ubud: ~35 km (75-90 min); Nusa Penida (SeaTrees site): ~30 min by car to Sanur + 45 min fast boat to Toyapakeh"
+  },
+  "surf_conditions": {
+    "wave_type": "Operators tied to wave-types via location: Eco Surf Rescue/PCU protects Uluwatu (left-hand reef point); Suarga overlooks Padang Padang (world-class left reef tube); Kayu boards designed for Bukit reefs (Padang/Uluwatu/Bingin) and Canggu sandbars; SeaTrees Nusa Penida site adjacent to reef breaks like Playgrounds, Lacerations. [uncertain]",
+    "skill_level": "Wide range - eco-businesses serve all skill levels via their wave-location: beginner-friendly Canggu (Kayu nearby) up to Pro-level Padang Padang/Uluwatu (Suarga/PCU). Kayu balsa boards typically intermediate-advanced due to weight.",
+    "wave_height_range": "Operator coverage spans full range: 1-4 ft beginner beach breaks (Canggu) up to 6-15 ft Uluwatu/Padang Padang [uncertain]",
+    "bottom_type": "Mixed - sand (Canggu near Kayu); sharp limestone/coral reef (Uluwatu, Padang Padang); coral reef (Nusa Penida SeaTrees site)",
+    "best_season": "Dry season May-October for Bukit operations (Suarga, PCU at Uluwatu, Padang Padang); year-round operations for Kayu shaping facility and SeaTrees coral nursery work",
+    "best_tide": "Varies by location operator serves - PCU/Uluwatu mid-high tide; Padang Padang mid-high; Canggu sandbars mid tide [uncertain]",
+    "best_wind": "Offshore SE/E trade winds for west and south coast spots May-October",
+    "best_swell_direction": "SW groundswell for west coast spots; S-SSW for Bukit",
+    "swell_consistency_rating": "5 (Bukit) and 4 (Canggu) - all eco operators benefit from highly consistent Indo Ocean swells [uncertain]",
+    "wave_length_meters": "Varies by adjacent break - Padang Padang 50-100m tubes; Uluwatu 100-300m linked sections [uncertain]",
+    "wave_speed_rating": "Mostly fast (Bukit reefs) - eco surfboard makers like Kayu design rocker/fin setups for these waves",
+    "takeoff_zone_difficulty": "Operator territory ranges from low (Canggu sandbar take-offs) to very high (Padang Padang shallow ledge)",
+    "secondary_peaks": "Padang Padang Right (beginner-friendly inside section opposite Suarga); Uluwatu's multiple peaks (Outside, Peak, Racetracks, Temples) protected by PCU",
+    "peak_crowd_level": "5 at Uluwatu/Padang Padang (very crowded dry season) - PCU/ESRU active to mitigate visitor impact; 4 at Canggu near Kayu showroom [uncertain]"
+  },
+  "practical_info": {
+    "access": "Eco Surf Rescue / PCU: visible signage and cleanup events around Uluwatu cliff stairs; volunteer via website. Suarga Padang Padang: on-site clifftop boutique resort with private path to Padang Padang. Kayu Surfboards: showroom on Jl. Pantai Berawa Canggu, walk-in welcome. SeaTrees Bali project: via Ocean Gardener visits to Ped, Nusa Penida (fast boat from Sanur). Mana Earthly Paradise: ~10 min from central Ubud by car.",
+    "paddle_out_method": "N/A for eco-businesses directly; surfers using their adjacent waves follow normal access (Uluwatu cave; Padang Padang stairs)",
+    "entry_fee": "ESRU/PCU: free to support; volunteer cleanups open to public. SeaTrees: USD 25 plants one coral piece (donation-based, online). Kayu showroom: free entry. Suarga: hotel guest only or restaurant booking. [uncertain]",
+    "recommended_session_time": "Eco operators run business hours (9 AM-6 PM typical); PCU cleanup events monthly typically Sunday mornings 7-10 AM",
+    "best_time_of_day": "Visit Kayu showroom or Suarga in mornings; SeaTrees diving sessions early morning visibility best",
+    "nearby_warung": "Suarga: in-house Cliff Restaurant + nearby Single Fin, Drifter, La Brisa Uluwatu; Kayu: Berawa cafes including Crate, Old Mans nearby, Shady Shack; PCU operates from Uluwatu cliff with multiple warungs; Mana: own probiotic restaurant; SeaTrees Penida: Penida Colada, Warung Pondok Nusa Garden",
+    "alternative_spot_within_10min": "From Suarga: Bingin (5 min), Impossibles (5 min), Uluwatu (5 min); from Kayu Berawa: Echo Beach (5 min), Pererenan (5 min), Batu Bolong (10 min)",
+    "boat_charter_required": "Only for SeaTrees Nusa Penida site (fast boat from Sanur Harbor); all other operators land-accessible"
+  },
+  "safety_culture": {
+    "hazards": "Standard surf hazards for adjacent waves: reef cuts, urchins, currents at Uluwatu/Padang Padang; for SeaTrees diving volunteer: standard scuba dive risks. Eco operators themselves are safe (showrooms, NGO operations).",
+    "marine_hazards": "Sea urchins on Uluwatu/Padang reef; SeaTrees diving site has reef sharks (harmless), occasional jellyfish",
+    "reef_cut_severity_index": "High at Padang Padang and Uluwatu (sharp limestone karang); booties strongly recommended",
+    "rip_current_pattern": "Padang Padang has a strong channel rip; Uluwatu has channel between Peak and Racetracks",
+    "lineup_etiquette": "PCU advocates for low-impact local etiquette: pack out trash, respect locals, no glass on cliffs, recycle. Eco-conscious surfers tend to model good lineup behavior.",
+    "localism_intensity": "Medium-high at Uluwatu/Padang Padang regardless of eco-affiliation - respect local pros and Balinese surfers",
+    "respect_protocol": "Volunteer with PCU/ESRU shows respect for local environment; do not litter on cliff; participate in monthly Uluwatu cleanup; pay tip to local instructors and warung owners; respect Pura Luhur Uluwatu ceremonies",
+    "resident_local_legends": "Curtis Lowe (Project Manager, Project Clean Uluwatu); Made Vana (R.O.L.E. Foundation co-founder); Ocean Gardener founder Vincent Chalias (Bali-based coral expert); Kelly Slater has visited and supported SeaTrees coral projects; Sustainable Surf co-founder Kevin Whilden [uncertain]",
+    "religious_sensitivity": "Uluwatu sits below Pura Luhur Uluwatu - all operations respect temple proximity; Nyepi Day of Silence pauses all activities; ceremony days require respectful behavior near temple",
+    "medical_nearby": "Unicare Pecatu Clinic for Uluwatu/Padang Padang area; Penta Medical Canggu for Berawa; Siloam Hospital Denpasar for serious cases; Nusa Penida: Pondok Baruna clinic basic only",
+    "nearest_clinic_distance_km": "Suarga Padang Padang to Unicare Pecatu: ~5 km; Kayu Berawa to Penta Medical Canggu: ~3 km; Nusa Penida site to local clinic: ~5-10 km [uncertain]",
+    "rescue_jet_ski_available": "No - eco operators do not maintain rescue jet skis; PCU coordinates with Indo Surf Crew and local lifesavers during big swell events",
+    "emergency_contact": "Indonesia general: 112; Ambulance: 118/119; BIMC Nusa Dua: +62 361 3000 911; PCU contact: info@projectcleanuluwatu.org [uncertain]; SeaTrees: hello@seatrees.org"
+  },
+  "services": {
+    "nearest_surf_school": "Suarga Padang Padang partners with onsite/nearby surf coaching; Padang Padang Surf Camp adjacent. Kayu does not operate a surf school but partners with local shapers/coaches. PCU/ESRU are NGOs (not schools) - direct beginners to ethical local schools like Padang Padang Surf Camp, Rapture Camps Bukit, Kala Surf Camp.",
+    "board_rental_availability": "Kayu offers their balsa-wood boards for retail purchase rather than daily rental; some demo boards available at showroom [uncertain]. Suarga has board rental for guests onsite [uncertain].",
+    "surf_photographer_available": "Suarga arranges in-house surf photography for guests [uncertain]; PCU has documentary footage from cleanup events; SeaTrees Bali has professional underwater videographers documenting coral restoration",
+    "photographer_recommendation": "For eco-themed surf storytelling: Sustainable Surf media network and SeaTrees content team; local Bukit photographers integrated with Suarga [uncertain]",
+    "accommodation_options": "Suarga Padang Padang (signature eco-resort, ~USD 250-600/night peak season) [uncertain]; Mana Earthly Paradise Ubud (eco-villas, ~USD 80-200/night) [uncertain]; other eco-friendly options: Bambu Indah (Ubud), Desa Hay Canggu, Mu Bali Bingin",
+    "webcam_url": "Surfline Uluwatu cam: https://www.surfline.com/surf-report/uluwatu/5842041f4e65fad6a7708b4b ; Padang Padang cam (via Surfline)",
+    "drone_allowed": "Allowed for personal use - Suarga is drone-friendly for guest content; PCU/SeaTrees produce drone footage for advocacy; commercial work requires Indonesian permit [uncertain]",
+    "coworking_nearby": "Berawa Canggu (Kayu area): Outpost Canggu, Tropical Nomad, B Work Bali; Bukit/Pecatu: Outpost Ulu, B Work Bali Pecatu; Ubud (Mana): Hubud, Outpost Ubud"
+  },
+  "pricing": {
+    "avg_lesson_price": "Not directly applicable - eco operators sell goods/services rather than lessons. Reference partners' rates: ~USD 30-60 per group lesson at ethical schools nearby [uncertain]",
+    "lesson_price_range_idr": "N/A for eco operators directly; partner schools IDR 400,000-800,000 per group lesson [uncertain]",
+    "board_rental_daily": "Suarga in-house rental ~IDR 250,000-400,000/day [uncertain]; Kayu typically retail-only, demo days occasional",
+    "gopro_rental_price": "Not standardly offered by eco operators [uncertain]",
+    "wetsuit_top_rashguard_rental": "Suarga provides rashguards to surf guests [uncertain]; Kayu sells eco-merchandise including organic-cotton tees",
+    "board_repair_avg_price_idr": "Kayu offers ding repair services on their wooden boards [uncertain]; standard PU board repair in Canggu/Uluwatu IDR 150,000-400,000 depending on size of ding",
+    "surf_camp_weekly_package": "Suarga Padang Padang offered as surf retreat partner with Perfect Wave Travel - 7-night surf packages from ~USD 1,800-3,500 (depending on room type/season) [uncertain]",
+    "camp_package_inclusions": "Suarga packages typically include: clifftop accommodation, daily breakfast, surf coaching with partner schools, transfers to surf spots, yoga sessions; SeaTrees engagement: USD 25 per coral planted (donation, comes with certificate and updates on growth)",
+    "peak_vs_offpeak_pricing": "Suarga: ~30-40% higher in peak (July-August, Christmas/NY); off-peak deals in November and February-March [uncertain]; SeaTrees donation pricing fixed at USD 25/coral year-round"
+  },
+  "sustainability": {
+    "water_quality_rating": "PCU has measurably improved Uluwatu water quality - over 2 million litres of wastewater diverted from ocean via wastewater gardens; Nusa Penida (SeaTrees) waters cleaner than Bali mainland due to less runoff; Suarga area benefits from PCU work",
+    "eco_certification": "Mana Earthly Paradise: Certified B Corporation (October 2022) - first B Corp hotel in Indonesia and Southeast Asia; Suarga Padang Padang: not formally B Corp certified [uncertain] but follows comprehensive sustainability practices (FSC-certified materials, solar-positive, recycled wood, rainwater harvesting); SeaTrees: program of 501(c)(3) Sustainable Surf (US tax-deductible); ESRU/PCU partners include GUS Foundation, ROLE Foundation, Eco Bali Recycling, IDEP; Kayu Surfboards: not B Corp but operates closed-loop using Indonesian-sourced balsa, biodegradable packaging, no single-use plastics, lifetime guarantee on boards",
+    "carbon_offset_option": "SeaTrees offers tangible offset model: USD 25 = 1 coral planted (also offers Plant Trees in Bali via tree-planting subscriptions ~USD 8/tree); Boardriders x SeaTrees partnership offsets surf industry impact; PCU does not offer monetary offset but reinvests volunteer hours and donations in waste-water gardens; Suarga produces more solar energy than consumed (net-positive energy claim); Mana sources 95% of lighting from solar"
+  },
+  "events_community": {
+    "annual_competition_window": "PCU often coordinates with Rip Curl Cup Padang Padang (August holding period) for sustainability messaging at the event; Single Fin Uluwatu hosts Project Clean fundraisers; Rapture Camps annual Uluwatu Challenge cleanup",
+    "community_events": "Monthly Project Clean Uluwatu beach/cliff cleanups; SeaTrees x Boardriders coral planting volunteer days at Ped, Nusa Penida; Kayu hosts shaping workshops and pop-ups at Bali Spirit Festival; World Oceans Day (June 8) paddle-outs at Uluwatu; International Surfing Day (June 20) cleanups; Earth Day (April 22) tree-planting at Mana Earthly Paradise"
+  },
+  "visa_logistics": {
+    "visa_type_recommended": "VoA / e-VoA 30 days for short eco-volunteer visits; B211B social visa for longer (60-180 day) volunteer work with NGOs like PCU or SeaTrees / Ocean Gardener; KITAS work permit for paid positions"
+  },
+  "uncertain": [
+    "gps_location",
+    "wave_type",
+    "wave_height_range",
+    "best_tide",
+    "swell_consistency_rating",
+    "wave_length_meters",
+    "peak_crowd_level",
+    "entry_fee",
+    "resident_local_legends",
+    "nearest_clinic_distance_km",
+    "emergency_contact",
+    "board_rental_availability",
+    "surf_photographer_available",
+    "photographer_recommendation",
+    "accommodation_options",
+    "drone_allowed",
+    "avg_lesson_price",
+    "lesson_price_range_idr",
+    "board_rental_daily",
+    "gopro_rental_price",
+    "wetsuit_top_rashguard_rental",
+    "board_repair_avg_price_idr",
+    "surf_camp_weekly_package",
+    "peak_vs_offpeak_pricing",
+    "eco_certification"
+  ]
+}

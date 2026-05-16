@@ -1,0 +1,105 @@
+{
+  "basic_info": {
+    "name": "Surfboard Rental & Ding Repair in Bali (Chinese: 峇里島衝浪板租賃與修補; Indonesian: Sewa Papan Selancar dan Perbaikan Ding di Bali) - including Board Riders Bali (Canggu retail/rental), Balitubes (Canggu/Kuta/Seminyak/Uluwatu rental + school), Bali Ding Repairs (Berawa), Studio Repair Canggu (Amin Brothers, Batu Bolong), Doctor Ding (Palm Bay), Naruki (Uluwatu area), Aloha Bali Surf (Kuta), Padang Padang Surf Camp board hire, and BGS Bali (Uluwatu)",
+    "category": "surf_business",
+    "region": "Bali-wide (concentrated in Canggu/Berawa/Batu Bolong, Kuta/Seminyak, Uluwatu/Pecatu)",
+    "gps_location": "Board Riders Bali: Canggu (~-8.6478, 115.1378) [uncertain]; Balitubes head office Canggu (~-8.6555, 115.1376) [uncertain]; Bali Ding Repairs: Berawa shortcut Canggu (~-8.6630, 115.1340) [uncertain]; Studio Repair Canggu (Amin Brothers): Jl. Pantai Batu Bolong No.78, Canggu (~-8.6577, 115.1280); Naruki: Pecatu/Uluwatu area (~-8.8100, 115.0950) [uncertain]; Aloha Bali Surf: Kuta (~-8.7234, 115.1700) [uncertain]; Padang Padang Surf Camp: Jl. Labuansait, Pecatu (~-8.8090, 115.1050) [uncertain]",
+    "distance_from_dps_airport_km": "Canggu shops (Board Riders, Balitubes, Bali Ding Repairs, Studio Repair): ~16-22 km (45-75 min depending on traffic); Kuta/Seminyak shops (Aloha Bali Surf, Balitubes Kuta): ~3-8 km (15-30 min); Uluwatu/Pecatu shops (Naruki, BGS Bali, Padang Padang Surf Camp board hire): ~20-22 km (45-60 min)"
+  },
+  "surf_conditions": {
+    "wave_type": "Rental shops serve adjacent breaks - Canggu cluster supplies sand-bottom beach breaks (Batu Bolong, Echo, Berawa, Pererenan); Kuta/Seminyak supplies long sand-bottom beach breaks; Uluwatu/Pecatu cluster supplies coral reef breaks (Uluwatu, Padang, Bingin, Impossibles, Balangan, Dreamland)",
+    "skill_level": "All levels - rental fleets include soft-tops for beginners, foamies/funboards for novice-intermediate, mid-lengths/longboards for cruising, performance shortboards for advanced; ding repair shops serve all surfers regardless of level",
+    "wave_height_range": "Rental fleet sized to handle full range 1-10 ft; specific board choice depends on day's conditions [uncertain]",
+    "bottom_type": "Sand bottom for Canggu/Kuta rentals; coral reef for Bukit rentals - reef wax and booties often offered as add-on by Uluwatu shops [uncertain]",
+    "best_season": "Year-round operation - dry season May-October sees peak demand (west coast working); wet season Nov-April demand shifts to east coast spots and continued steady ding-repair business",
+    "best_tide": "N/A for shops directly - rental customers choose boards based on tide/condition forecast [uncertain]",
+    "best_wind": "N/A for shops; relevant to which spot customer surfs",
+    "best_swell_direction": "N/A for shops; relevant to spot selection",
+    "swell_consistency_rating": "5 - Bali's wave consistency drives year-round rental demand [uncertain]",
+    "wave_length_meters": "N/A for shops directly",
+    "wave_speed_rating": "Bukit rentals tend toward narrower/thinner performance boards (fast waves); Canggu rentals tend toward wider/more volume boards (slower waves)",
+    "takeoff_zone_difficulty": "Rental staff usually advise board choice based on customer skill and target spot's take-off difficulty",
+    "secondary_peaks": "Rental shops near major breaks often guide customers to less-crowded secondary peaks",
+    "peak_crowd_level": "Shop foot-traffic peaks in July-August dry season holiday window; quietest in February-March (off-peak wet season) [uncertain]"
+  },
+  "practical_info": {
+    "access": "Walk-in retail showrooms - Board Riders Bali (Canggu showroom); Balitubes (Canggu, Kuta, Seminyak, Uluwatu locations); Bali Ding Repairs and Studio Repair Canggu have street-front workshops; Padang Padang Surf Camp board hire only during lessons/guiding sessions per their policy; most shops accept WhatsApp orders and arrange delivery to nearby villas",
+    "paddle_out_method": "N/A for shops; customer responsibility once board rented",
+    "entry_fee": "No entry fee - free to browse showrooms; deposit (usually ID/passport copy or IDR 500K-1M cash) required for rentals [uncertain]",
+    "recommended_session_time": "Shop hours typically 7 AM-7 PM (some open earlier for dawn patrol rentals 5:30-6 AM); ding repair drop-off best in morning to maximize turnaround time",
+    "best_time_of_day": "Drop board for repair early morning (8-10 AM) for same-day return on minor dings; pick up rental board the evening before for dawn patrol",
+    "nearby_warung": "Each shop area has dense food options - Canggu: Crate, Old Mans, Shady Shack, Peloton; Kuta: warung-row on Jl. Pantai Kuta; Uluwatu/Pecatu: Single Fin, Drifter Surf Cafe, Bukit Cafe, Suka Espresso",
+    "alternative_spot_within_10min": "Each rental shop can advise nearest alternative spot based on conditions - core service of local rental shops is daily condition advice",
+    "boat_charter_required": "No - shops are land-based on Bali mainland"
+  },
+  "safety_culture": {
+    "hazards": "Risk borne by customer once board rented; shops disclaim liability for accidents. Renting wrong board for skill level is most common safety issue - reputable shops advise customers on appropriate board sizing.",
+    "marine_hazards": "Standard Bali marine hazards: reef cuts, urchins, jellyfish, rip currents - shops typically provide brief safety advice",
+    "reef_cut_severity_index": "Customers using rental boards at Uluwatu/Padang Padang at high reef cut risk; many Bukit rental shops offer booties for rent or sale",
+    "rip_current_pattern": "Shop staff often brief customers on rip currents at target spot",
+    "lineup_etiquette": "Shop owners (often expat or Indo surfers) typically educate first-time visitors on Balinese lineup etiquette",
+    "localism_intensity": "Most rental shops are tourist-facing and welcoming; ding repair shops often operated by local Balinese craftsmen with deep community ties",
+    "respect_protocol": "Treat rental boards with respect - excessive damage may result in repair fee deducted from deposit; tip ding repair craftsmen for fast turnaround",
+    "resident_local_legends": "Amin Brothers (Studio Repair Canggu) known regionally for color-matching repairs; Naruki (Uluwatu) - 15-year reputation as one of the best ding repair craftsmen on the Bukit; many shop owners are local pro surfers or shapers",
+    "religious_sensitivity": "Shops close partially during major Balinese ceremonies (Galungan/Kuningan); fully closed on Nyepi Day of Silence (March, varies); plan rentals around these dates",
+    "medical_nearby": "Canggu shops: Penta Medical Canggu, BIMC Kuta within 5-10 km; Kuta shops: BIMC Hospital Kuta on doorstep; Uluwatu shops: Unicare Pecatu Clinic within 3-5 km, BIMC Nusa Dua ~25 min",
+    "nearest_clinic_distance_km": "Canggu shops: ~3-5 km to Penta Medical Canggu; Kuta shops: ~1-2 km to BIMC Kuta; Uluwatu shops: ~3-5 km to Unicare Pecatu [uncertain]",
+    "rescue_jet_ski_available": "No - rental/repair shops do not operate jet ski rescue services",
+    "emergency_contact": "Indonesia general emergency: 112; BIMC Kuta: +62 361 761 263; BIMC Nusa Dua: +62 361 3000 911; Penta Medical Canggu: +62 851 8523 8523 [uncertain]"
+  },
+  "services": {
+    "nearest_surf_school": "Balitubes also operates a surf school (combo rental+lesson packages); Padang Padang Surf Camp combines board hire with lessons; Aloha Bali Surf offers lessons + rental; many shops partner with independent freelance instructors",
+    "board_rental_availability": "High availability across Bali - Board Riders Bali (Canggu showroom focus on Native brand boards: shortboards/fish/mids/longboards); Balitubes (multi-location, full range); Aloha Bali Surf (Kuta, broad range); White Monkey Surf Shop; Chandra's Surfing Bali (Legian Beach); Padang Padang Surf Camp (Bukit, lesson-bundled); Bali Surfboard Rental (delivery service across south Bali). Most stock soft-tops, foamies, mini-mals, fun-shapes, longboards, and performance shortboards.",
+    "surf_photographer_available": "Some larger shops/schools partner with photographers as add-on; not a core rental service [uncertain]",
+    "photographer_recommendation": "Independent freelance Canggu/Uluwatu photographers IDR 100K-300K/shot or IDR 500K-1.5M/session - shops can recommend [uncertain]",
+    "accommodation_options": "N/A as core service but shops often refer customers to nearby surf camps, hostels, villas",
+    "webcam_url": "Most shops monitor Surfline cams to advise customers: Canggu (https://www.surfline.com/surf-report/canggu/), Uluwatu (https://www.surfline.com/surf-report/uluwatu/), Padang Padang (Surfline)",
+    "drone_allowed": "N/A directly - shop premises; customers using drones over beaches subject to Indonesian aviation rules [uncertain]",
+    "coworking_nearby": "Canggu cluster: Outpost Canggu, Tropical Nomad, Dojo Bali, B Work Bali (within 5-10 min of most rental shops); Bukit: Outpost Ulu Pecatu, B Work Bali Pecatu"
+  },
+  "pricing": {
+    "avg_lesson_price": "Combo rental+lesson packages: ~USD 30-60 per group lesson; Balitubes-type schools IDR 400K-700K per group lesson [uncertain]",
+    "lesson_price_range_idr": "Group lesson IDR 350,000-700,000; private lesson IDR 600,000-1,500,000 [uncertain]",
+    "board_rental_daily": "TYPICAL DAILY RATES IDR: Soft-top/foamie IDR 100,000-150,000/day; Mini-mal/funboard IDR 150,000-200,000/day; Shortboard IDR 200,000-300,000/day; Performance/high-end shortboard IDR 300,000-400,000/day; Longboard IDR 250,000-400,000/day. BOARD RIDERS BALI tiered: SILVER (Native shortboards/fish) IDR 400,000/day, GOLD (Native mid-lengths) IDR 450,000/day, PLATINUM (Native longboards) IDR 550,000/day. Hourly: foamie IDR 50,000-100,000/hr, performance IDR 100,000-150,000/hr. Weekly: typically IDR 1,000,000-1,500,000 for standard shortboard. Monthly: IDR 2,500,000-3,500,000 typical.",
+    "gopro_rental_price": "GoPro daily rental ~IDR 150,000-250,000 with SD card; mount + selfie-stick add-on IDR 50,000 [uncertain]",
+    "wetsuit_top_rashguard_rental": "Rashguard daily IDR 50,000-80,000; wetsuit top rare in Bali (water 27-29°C). Booties IDR 30,000-50,000/day for Bukit reef use [uncertain]",
+    "board_repair_avg_price_idr": "MINOR DINGS (small chips, no through-glass): IDR 50,000-150,000 (~USD 3-10), typical 1-2 hour turnaround. MEDIUM DINGS (open foam, small cracks, fin box repair): IDR 150,000-400,000 (~USD 10-25), turnaround 1-2 days. MAJOR REPAIRS (large delamination, broken nose, tail patch): IDR 400,000-800,000 (~USD 25-50), 2-4 days. SNAPPED BOARD FULL REJOIN: IDR 800,000-1,500,000 (~USD 50-100), 3-7 days with cure time. Color-matching/cosmetic premium adds 30-50% (Studio Repair Canggu specialty). Studio Repair: minor 1-2 days; Bali Ding Repairs (Berawa): in-and-out within 1-2 hours for basic patch-up. Doctor Ding (Palm Bay) and Naruki (Uluwatu) similar pricing structure.",
+    "surf_camp_weekly_package": "Standalone rental+ding repair shops do not bundle weekly camp packages - core service is daily rental and per-job repair. Adjacent camps (Padang Padang Surf Camp, Balitubes school) offer 5-7 day learn-to-surf packages combining lessons + board + accommodation ~USD 600-1,500 [uncertain]",
+    "camp_package_inclusions": "Where bundled: 7 days unlimited board rental, daily lessons, transfers to surf spots, breakfast, basic ding-repair coverage, surf insurance optional",
+    "peak_vs_offpeak_pricing": "Most shops keep stable rates year-round but discounts negotiable in off-peak (Feb-March, Nov); weekly/monthly rates offer 30-50% discount vs. daily rate. Peak demand July-August may see 10-20% price uplift on premium boards [uncertain]"
+  },
+  "sustainability": {
+    "water_quality_rating": "Rental shops on west coast operate year-round but customers face poorer water quality in wet season (Nov-March); Bukit shops less affected as Bukit has minimal runoff",
+    "eco_certification": "Most rental/repair shops do not hold formal eco-certification [uncertain]; eco-conscious customers may prefer Kayu Surfboards (balsa wood) or shops using Solarez sun-cure resin (less toxic) and water-based finishes",
+    "carbon_offset_option": "Not standardly offered by rental/repair shops [uncertain]; some shops voluntarily donate to Project Clean Uluwatu or SeaTrees coral restoration as informal offset"
+  },
+  "events_community": {
+    "annual_competition_window": "Rental shops experience peak demand during Rip Curl Cup Padang Padang (August holding period); Krui Pro and Komune Bali Pro events may shift demand seasonally",
+    "community_events": "Studio Repair Canggu and Bali Ding Repairs often host informal shaper/repair workshops; rental shops sponsor local surf school events; Single Fin Sunday (Uluwatu) and Old Mans Wednesday (Canggu) are de facto community nights where rental customers congregate"
+  },
+  "visa_logistics": {
+    "visa_type_recommended": "VoA / e-VoA 30 days adequate for short rental trips; B211A 60-day for 1-month rentals; KITAS for long-term residents needing extended monthly rentals"
+  },
+  "uncertain": [
+    "gps_location",
+    "wave_height_range",
+    "bottom_type",
+    "best_tide",
+    "swell_consistency_rating",
+    "peak_crowd_level",
+    "entry_fee",
+    "nearest_clinic_distance_km",
+    "emergency_contact",
+    "surf_photographer_available",
+    "photographer_recommendation",
+    "drone_allowed",
+    "avg_lesson_price",
+    "lesson_price_range_idr",
+    "gopro_rental_price",
+    "wetsuit_top_rashguard_rental",
+    "surf_camp_weekly_package",
+    "peak_vs_offpeak_pricing",
+    "eco_certification",
+    "carbon_offset_option"
+  ]
+}

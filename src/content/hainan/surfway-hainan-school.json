@@ -1,0 +1,79 @@
+{
+  "basic_info": {
+    "name": "Surfway Hainan Surf School (Surfway Hainan 衝浪學校)",
+    "location": "Inside SURFLAND Wanning Surf Resort, Riyue Bay Tourism Area, Liji Town, Wanning City, Hainan Province, China (海南萬寧·日月灣 SURFLAND 中旅逐浪度假區內)",
+    "operator": "Surfway Hainan - the official in-house surf school of SURFLAND (operated in partnership with the SURFLAND / 中旅逐浪 resort and aligned with American Wave Machines / PerfectSwell coaching standards)",
+    "opening_date": "2025-11-11",
+    "status": "operating",
+    "category": "surf_school"
+  },
+  "technical_specs": {
+    "wave_technology_brand": "PerfectSwell by American Wave Machines (school exclusively teaches inside the SURFLAND PerfectSwell pool; also offers ocean private classes at adjacent Riyue Bay)",
+    "pool_size": "Operates in the SURFLAND ~10,000 m² PerfectSwell wave basin (Riyue Bay)",
+    "wave_height": "0.3-2.7 m (selected per skill tier; Beginner sessions use the small/whitewater settings, PRO sessions can request 2 m+ barrels)",
+    "wave_height_adjustability": "Yes - the underlying PerfectSwell pool offers 23 programmable wave settings, and the school books different settings for Beginner, Intermediate, Advanced and PRO tiers",
+    "wave_types": "Artificial PerfectSwell waves: soft whitewater (Beginner), peeling green-wave shoulders (Intermediate), steep faces with sections (Advanced), barrels and aerial ramps (PRO)",
+    "waves_per_hour": "Up to ~600 waves/hour at the underlying pool; per-student wave count depends on group size and rotation [uncertain]",
+    "wave_count_per_set": "4 waves per set with ~6-second intervals (inherited from the SURFLAND PerfectSwell pool)",
+    "session_length": "55 minutes per group session",
+    "stance_rotation_schedule": "Yes - because SURFLAND alternates Goofy / Regular days, the school requires students to confirm stance and select a date matching their preferred orientation",
+    "wave_type_classification": "Artificial PerfectSwell - predictable peel similar to a point break; coaching curriculum is built around repeatable take-off zones rather than ocean variability"
+  },
+  "pricing_sessions": {
+    "price_range": "Group lessons 388-545 RMB per 55-minute session (board / wetsuit rental extra); private bookings 7,760-12,160 RMB",
+    "session_skill_tiers": "Group sessions (55 minutes): Beginner 398 RMB, Intermediate 388 RMB, Advanced 498 RMB, PRO 545 RMB. Private PerfectSwell bookings: Intermediate 7,760 RMB (1 hr) / 8,560 RMB (2 hr); Advanced 9,960 RMB (1 hr) / 10,560 RMB (2 hr); PRO (barrels/aerials) 10,150 RMB (1 hr) / 12,160 RMB (2 hr)",
+    "equipment_rental": "Hardtop surfboard (basic) 80 RMB per session with 500 RMB refundable deposit; Hardtop surfboard (pro) 300 RMB/day; wetsuit 40 RMB with 100 RMB refundable deposit; leash typically included with board rental",
+    "coaching_fee": "Land coaching + in-water session coaching combo 600 RMB; wave-pushing assistance 328 RMB; ocean private class (at natural Riyue Bay) 900 RMB",
+    "coaching_packages": "Complete package (land coaching + in-water coaching + filming + video analysis) 1,175 RMB; video analysis + filming bundle 580 RMB",
+    "membership_program": "No publicly listed annual / monthly / 10-pack card; multi-session and discounted bundles handled on request [uncertain]",
+    "corporate_team_building": "Yes - school accepts group bookings, team-building events and private pool buyouts via the SURFLAND resort; specific minimum group size and pricing handled case by case [uncertain]"
+  },
+  "experience_guide": {
+    "best_season": "Year-round - the school operates inside the climate-independent SURFLAND wave pool; demand peaks during Chinese national holidays (Oct, Spring Festival, May Day) and summer school break",
+    "best_swell_window": "N/A - in-pool school; for the optional ocean private class at adjacent Riyue Bay, the natural swell window is October to March",
+    "crowd_level": "Group sessions can fill quickly during weekends and holidays; private bookings have minimal queues; weekday morning and late-evening sessions tend to be the calmest",
+    "booking_method": "Direct booking through the school's website surfway-hainan.com, plus messaging via WhatsApp, Telegram or email; also bookable through the SURFLAND resort booking channels (WeChat mini-program, Ctrip, Dianping)",
+    "booking_platform": "Official site surfway-hainan.com (English-language); WhatsApp; Telegram; Email; SURFLAND WeChat mini-program; Ctrip / Trip.com (携程); Dianping (大眾點評)",
+    "payment_options": "International bank cards (Visa / Mastercard) accepted - a key differentiator for foreign visitors; Alipay and WeChat Pay also accepted; cash typically not preferred",
+    "skill_required": "All levels - tiered curriculum from total beginner to PRO; students self-select tier and the school may re-grade after a check-up",
+    "age_eligibility": "Aligned with SURFLAND venue rules: ages 6-60, minimum height ~1.0 m; under-6 and over-60 generally not admitted to in-water lessons",
+    "child_friendly_score": "4 out of 5 - dedicated Beginner tier with soft-tops, English-speaking coordinator, family-friendly hotel options on site; minimum age 6 and 1 m height limit exclude very young children",
+    "sup_paddleboard_offering": "Not listed as a core school offering; SUP rentals available at the adjacent natural Riyue Bay [uncertain]",
+    "photography_video_service": "Filming 520 RMB; drone filming (3 batteries) 750 RMB; video analysis + filming bundle 580 RMB; complete coaching + filming + analysis package 1,175 RMB; SURFLAND venue's own 3 complimentary photos plus 199 RMB dynamic video upgrade also available",
+    "language_support": "Strong English support - the school explicitly markets a 'personal coordinator with fluent English' and is positioned as the foreigner-friendly entry point into SURFLAND; Mandarin Chinese also supported; other languages on request [uncertain]",
+    "accessibility_for_disabled": "No publicly listed adaptive surfing program or barrier-free in-water lesson at this time [uncertain]",
+    "stance_preference_input": "Yes - students must declare Goofy or Regular at booking and pick a date matching the SURFLAND pool's daily rotation",
+    "safety_notes": "Coaches drawn from the Riyue Bay surf community, including ISA-certified instructors and members of the China National Surfing Team coaching pool; mandatory pre-session safety briefing; lifeguards on deck; helmets typically required for Advanced and PRO settings; travel insurance recommended",
+    "events_competitions_calendar": "School supports student progression toward national-team trials and future ISA / WSL events held at SURFLAND; no public school-run competition calendar yet [uncertain]"
+  },
+  "surroundings": {
+    "nearby_accommodation": "Surfway Hainan partners with on-resort hotels: Garden-view rooms from 780 RMB and sea-view rooms from 980 RMB (breakfast included). Off-resort options include Sweetome Surf Hotel, Forest Inn Riyue Bay Surf Branch and numerous Riyue Bay surf guesthouses ~300-1,200 RMB/night",
+    "on_site_accommodation": "Located inside SURFLAND - direct access to the resort's two on-site hotels (Yue Chao 越潮 / 樾潮 + Yu Yue 御越 / 屿玥, 132 rooms total). Yue Chao includes a constant-temperature pool, kids' themed rooms, pet-friendly options and a complimentary 1-hour dual surf lesson",
+    "nearby_food": "SURFLAND's X-LIVIN Street (逐浪越界潮流商業街區) inside the resort provides cafés, restaurants, a beachfront club and a live-music venue; surrounding Liji Town / Riyue Bay surf village offers Hainanese seafood, hotpot and beachside surf cafés",
+    "transport": "Reachable by self-drive, Didi ride-hailing, taxi or resort shuttle; private car charters from Sanya and Haikou are common",
+    "transport_to_nearest_airport": "~70 minutes by car from Sanya Phoenix International Airport (SYX); ~18.4 km / ~20-minute drive from Shenzhou High-Speed Railway Station; ~2 hours from Haikou Meilan International Airport (HAK)",
+    "combined_itinerary": "Half-day Surfway lesson at SURFLAND wave pool + half-day natural ocean session at Riyue Bay + Xinglong Tropical Botanical Garden + Shenzhou Peninsula day trip + cultural sites in Wanning; multi-day learn-to-surf packages pair AM pool session with PM ocean coaching"
+  },
+  "reviews_reputation": {
+    "pros": "1) Direct access to the only PerfectSwell pool in China with consistent waves at every skill tier; 2) Tiered pricing keeps Beginner and Intermediate group sessions under 500 RMB; 3) English-speaking coordinator and acceptance of international bank cards make it the most foreigner-friendly school in Hainan; 4) Strong filming and video-analysis add-ons for skill progression; 5) Coaches drawn from Riyue Bay's deep ISA-certified instructor pool",
+    "cons": "1) Private session pricing is very high (up to 12,160 RMB) compared to ocean lessons in the same bay; 2) Tied to SURFLAND's strict 6-60 age band and 1 m height minimum; 3) Booking subject to the venue's daily Goofy/Regular rotation, which can be inconvenient for travelers on short trips; 4) Equipment rental and filming are charged separately on top of session price; 5) New school (post-Nov 2025), so long-term review base is still small",
+    "user_reviews": "Limited consolidated review base as of mid-2026 (school opened with the resort on 2025-11-11); early traveler accounts on Xiaohongshu and surf blogs praise the English support, coaching quality and PerfectSwell wave consistency, while criticizing the steep private pricing and queue management on holidays [uncertain]",
+    "recommended_for": "International visitors seeking English-speaking instruction in China; intermediate-to-advanced surfers who want repeatable, high-quality waves to drill maneuvers; PRO surfers preparing for barrels/aerials; families with kids 6+; corporate team-building groups using the SURFLAND venue",
+    "operator_brand_partnership": "Surfway Hainan operates as the official in-house surf school of SURFLAND (中旅逐浪度假區), itself a partnership between China Tourism Group (中旅集團) and American Wave Machines (PerfectSwell technology); coaching staff overlap with the Riyue Bay national-team and ISA-certified instructor community"
+  },
+  "verification": {
+    "existence_verified": "true",
+    "verification_sources": "1) Surfway Hainan official site surfway-hainan.com (pricing, payment methods, English coordinator, on-resort lodging rates); 2) China Daily Hainan article on SURFLAND opening 2025-11-11; 3) WavePool Magazine PerfectSwell Hainan testing report; 4) Tropical Hainan article on Olympic-standard wave pool opening; 5) Vast Surf Shop SURFLAND review blog; 6) Hotel News Resource and Korea Herald wire releases on the resort opening; 7) Ctrip listing for 万宁日月湾中旅逐浪樾潮酒店 (hotel ID 132247344); 8) ISA International Surfing Association article on Italian surf explorer kickstarting Chinese surfing (ISA Level-2 coach pool at Riyue Bay)",
+    "last_updated": "2026-05-15"
+  },
+  "uncertain": [
+    "waves_per_hour",
+    "membership_program",
+    "corporate_team_building",
+    "sup_paddleboard_offering",
+    "language_support",
+    "accessibility_for_disabled",
+    "events_competitions_calendar",
+    "user_reviews"
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "basic_info": {
+    "name": "Seminyak Beach / 水明漾海灘 / Pantai Seminyak (includes Double Six)",
+    "category": "surf_spot",
+    "region": "West Coast",
+    "gps_location": "-8.6878, 115.1620 (https://maps.google.com/?q=-8.6878,115.1620); Double Six at -8.6918, 115.1640",
+    "distance_from_dps_airport_km": 10,
+    "distance_from_canggu_uluwatu_min": "Canggu ~15 min, Uluwatu ~40 min by scooter"
+  },
+  "surf_conditions": {
+    "wave_type": "Beach break, sand-bottom; multiple shifting left and right peaks. Double Six is a notable high-tide longboard-friendly section",
+    "skill_level": "Intermediate; small days suit beginners with supervision",
+    "wave_height_range": "1-6 ft typical; up to 8 ft on solid SW swells with hollow sections",
+    "bottom_type": "sand",
+    "best_season": "Dry season (April/May-October) for offshore winds and groundswells",
+    "best_tide": "Mid to high tide; low tide produces heavy close-outs",
+    "best_wind": "Offshore from E/NE/N (near-offshore to cross-offshore due to curved coastline); SE trade winds are favorable; early morning is best",
+    "best_swell_direction": "SW to S groundswells (primary); also works on W swell",
+    "swell_consistency_rating": 4,
+    "wave_length_meters": "40-80 m on good sandbar days; Double Six offers longer 60-100 m rides on high tide for longboards",
+    "wave_speed_rating": "medium; can be fast and hollow on bigger SW swells",
+    "takeoff_zone_difficulty": "Moderate; punchier than Kuta/Legian with steeper drops and close-out potential on bigger days; sand bottom keeps consequences low",
+    "secondary_peaks": "Multiple shifting peaks along the stretch; Double Six is the most consistent and is suited to longboarders on high tide; outside peaks offer steeper drops",
+    "peak_crowd_level": "3-4 (less crowded than Kuta but busy at Double Six and around upscale beach clubs)"
+  },
+  "practical_info": {
+    "access": "Walk-on beach access via Jalan Double Six, Jalan Camplung Tanduk, and side streets through beach clubs (Ku De Ta, Potato Head, La Plancha)",
+    "paddle_out_method": "Walk-out from sand through whitewater; duck-dive inside waves; on bigger days use rip channels between sandbars",
+    "entry_fee": "Free beach access; scooter parking IDR 5,000-10,000, car parking IDR 10,000-20,000 (premium near beach clubs)",
+    "recommended_session_time": "Dawn patrol (5:30-8:00 AM) for offshore winds and cleanest conditions; sunset session highly popular for atmosphere and lighting",
+    "best_time_of_day": "Before 8 AM to avoid surf-school crowds and onshore wind; sunset for ambience but more crowded",
+    "nearby_warung": "Numerous warungs along Jalan Camplung Tanduk; upscale beach clubs (Ku De Ta, Potato Head, La Plancha, Mrs Sippy) and cafés directly on the beach",
+    "alternative_spot_within_10min": "Legian / Double Six (5 min south), Petitenget / Batu Belig (5 min north), Berawa / Canggu (15 min north)",
+    "boat_charter_required": "No",
+    "combo_trip_potential": "[uncertain] Functions as base for west-coast day-trips; not a typical multi-island combo base"
+  },
+  "safety_culture": {
+    "hazards": "Strong rip currents (especially on bigger swells), close-out sections on low tide, occasional jet-ski traffic and banana boats, swimmers and sunbathers in the lineup zone",
+    "marine_hazards": "Occasional jellyfish (wet season), rare blue-bottles, no reef or urchins; treat stings with vinegar and warm water",
+    "reef_cut_severity_index": "0 / N-A (pure sand bottom)",
+    "rip_current_pattern": "Strong rips form between sandbars; identifiable as darker calmer channels of seaward-flowing water. Seminyak rips can be powerful on bigger swells - swim parallel to shore to escape",
+    "lineup_etiquette": "Standard right-of-way rules; respect Double Six longboarders on high tide; no drop-ins; share peaks; smile and say hi",
+    "localism_intensity": "low",
+    "respect_protocol": "Respect beach-club zones; do not paddle directly in front of swimmer/sunbather zones; tip parking guards; pick up trash",
+    "resident_local_legends": "[uncertain] No iconic individual locals specifically tied to Seminyak; many Bali pros surf the area",
+    "religious_sensitivity": "Pura Petitenget directly adjacent to north end of Seminyak Beach - respect ceremonial offerings (canang sari) on the sand; Nyepi (March) closes the beach; melasti processions pass through",
+    "medical_nearby": "BIMC Hospital Nusa Dua/Kuta, Siloam Hospitals Denpasar, Kasih Ibu Hospital Kuta, Unicare Clinic Seminyak",
+    "nearest_clinic_distance_km": 2,
+    "rescue_jet_ski_available": "Balawista lifeguards on duty with rescue boards; jet-ski may be available in some sections",
+    "emergency_contact": "Balawista Bali Lifeguard: +62 361 755660; Ambulance: 118; Police: 110; BIMC Kuta: +62 361 761263"
+  },
+  "services": {
+    "nearest_surf_school": "Odyssey Surf School Seminyak, Rip Curl School of Surf, Bali Green Surf School, Bali Diamond Surf - all within walking distance",
+    "board_rental_availability": "Widely available beachfront and from surf shops on Jalan Camplung Tanduk; IDR 100,000-200,000/day",
+    "surf_photographer_available": "Yes, freelance land-based photographers along the beach (especially at Double Six)",
+    "photographer_recommendation": "[uncertain] Various freelance beach photographers; typical rate IDR 300,000-600,000 per session/package",
+    "accommodation_options": "The Legian Bali, W Bali - Seminyak, The Oberoi Beach Resort, Anantara Seminyak Resort, plus many mid-range hotels and villas; surf-focused stays like Mick's Place are nearby",
+    "webcam_url": "https://www.surfline.com/surf-report/seminyak/640a67e745190540b0a65fe9 (Surfline Seminyak cam) [uncertain exact URL]",
+    "drone_allowed": "Generally yes for recreational use; avoid flying over beach clubs and crowds; commercial use requires permit",
+    "coworking_nearby": "Outpost Seminyak (~5 min), Tropical Nomad (Canggu ~15 min), Dojo Bali (Canggu); Outpost is the main coworking option in Seminyak"
+  },
+  "pricing": {
+    "avg_lesson_price": "IDR 450,000-750,000 (USD 28-48 / TWD 900-1,550) per 2-hour group lesson (premium positioning vs Kuta)",
+    "lesson_price_range_idr": "IDR 400,000 (group) - IDR 1,100,000 (private 1-on-1 with GoPro footage)",
+    "board_rental_daily": "IDR 100,000-200,000 (USD 6-13) per day for soft-tops/shortboards; longboards IDR 150,000-250,000",
+    "gopro_rental_price": "[uncertain] Typically IDR 150,000-300,000/day including SD card",
+    "wetsuit_top_rashguard_rental": "[uncertain] Usually included with lesson; standalone rental ~IDR 50,000-75,000/day",
+    "board_repair_avg_price_idr": "[uncertain] Small ding repair IDR 100,000-400,000; multiple ding-repair workshops in Seminyak/Kerobokan",
+    "surf_camp_weekly_package": "[uncertain] Limited dedicated surf camps directly in Seminyak; nearby camps from USD 800-1,500 for 7-day packages",
+    "camp_package_inclusions": "[uncertain] Typical: accommodation, breakfast, daily lessons, board use, airport transfer, video analysis, yoga sessions",
+    "peak_vs_offpeak_pricing": "[uncertain] Peak season (Jul-Aug, Dec-Jan) ~20-30% higher; Seminyak has higher peak-season premium than Kuta due to upscale positioning"
+  },
+  "sustainability": {
+    "water_quality_rating": "Moderate to poor in wet season (Nov-Mar) due to runoff and plastic pollution; acceptable in dry season; slightly better than Kuta due to less dense urban runoff but still affected by Bali-wide rainy-season debris",
+    "eco_certification": "[uncertain] No spot-level certification; some beach clubs hold sustainability programs",
+    "carbon_offset_option": "[uncertain] Not standard at the spot level"
+  },
+  "events_community": {
+    "annual_competition_window": "[uncertain] Hosts occasional longboard contests and beach festivals (Double Six area); fewer pro-level events than Bukit reefs",
+    "community_events": "Sunset gatherings at La Plancha and Ku De Ta; Single Fin Sundays (Uluwatu) draws regional surfers; informal Double Six longboard meet-ups"
+  },
+  "visa_logistics": {
+    "visa_type_recommended": "N-A (spot-level, not practical category)",
+    "visa_application_method": "N-A",
+    "monthly_living_cost_idr": "N-A",
+    "tourist_levy": "N-A",
+    "customs_declaration": "N-A",
+    "surfboard_air_baggage": "N-A",
+    "idp_motorbike_license": "N-A",
+    "surf_travel_insurance": "N-A"
+  },
+  "uncertain": [
+    "combo_trip_potential",
+    "resident_local_legends",
+    "webcam_url",
+    "photographer_recommendation",
+    "gopro_rental_price",
+    "wetsuit_top_rashguard_rental",
+    "board_repair_avg_price_idr",
+    "surf_camp_weekly_package",
+    "camp_package_inclusions",
+    "peak_vs_offpeak_pricing",
+    "eco_certification",
+    "carbon_offset_option",
+    "annual_competition_window"
+  ]
+}

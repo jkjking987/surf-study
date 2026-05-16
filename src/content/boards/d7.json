@@ -1,0 +1,102 @@
+{
+  "id": "D7",
+  "basic_info": {
+    "名稱": "Haydenshapes 小浪系列(Hypto Krypto / Hypto Krypto Twin / Love Buzz / Loot / Plunder)",
+    "分類": "品牌板款",
+    "適用程度": "全程度(Hypto Krypto / Love Buzz / Loot 對初學至進階皆友善;Hypto Krypto Twin 偏中至進階;Plunder 為純小浪 grovel)",
+    "一句話定位": "Hayden Cox 以 FutureFlex(carbon springer)構造打造的 hybrid 小浪 quiver,Hypto Krypto 為「one board quiver」標竿"
+  },
+  "buoyancy_strategy": {
+    "Guild_Factor_GF": "Hypto Krypto / Hypto Krypto Twin:GF 0.38-0.44(hybrid 中性偏 paddle-friendly);Love Buzz:GF 0.38-0.42(Hypto + Ando 子代);Loot:GF 0.42-0.48(grovel-leaning);Plunder:GF 0.45-0.55(純 grovel)。Haydenshapes 計算器(Boardcave / Haydenshapes 官網 board finder)在多家評測中被視為「中性偏準」,接近 Firewire 等級。",
+    "浮力公式": "Hypto Krypto:體重(kg) × 0.40-0.44 = 浮力(L)。70kg × 0.42 = 29.4L,對應 5'10\" × 20.25\" × 2.625\" 約 29L。Love Buzz:體重(kg) × 0.40-0.42。Loot:體重(kg) × 0.42-0.46,70kg × 0.44 = 30.8L,對應 5'8\" × 20\" × 2.5\" = 30.8L。Plunder:體重(kg) × 0.50-0.55(極 grovel)。",
+    "相對日常板浮力增量": "Hypto Krypto:相對 HPSB +10-20%(hybrid 中性增量,因 FutureFlex 體感輕);Hypto Krypto Twin:同 Hypto Krypto + 1-3L extra volume(資料來源:Haydenshapes 官網);Love Buzz:+10-15%;Loot:+20-30%(grovel-leaning);Plunder:+40-60%(純 grovel)。",
+    "浮力範圍_體重對照": "Hypto Krypto:50kg → 5'4\" × 19.5\" × 2.25\" 約 23L;60kg → 5'6\" × 19.75\" × 2.375\" 約 26L;70kg → 5'10\" × 20.25\" × 2.625\" 約 29-30L;80kg → 6'0\" × 20.5\" × 2.75\" 約 33-34L;90kg+ → 6'2\"-6'4\" 36-40L。Loot:60kg → 5'4\"-5'6\";70kg → 5'8\" × 20\" × 2.5\" = 30.8L;80kg → 5'10\" × 20.25\" × 2.63\" = 33.7L。",
+    "小浪修正係數": "Hypto Krypto / Twin / Love Buzz 為 hybrid,建議在計算結果上 +2-3L 補償小浪(因 FutureFlex 同浮力體感較輕);Loot 為 grovel-leaning,可直接按計算器值;Plunder 已內建 grovel +5L 修正。",
+    "BMI_體脂修正": "高 BMI 肌肉型:Hypto Krypto 區間下緣(體能足、可駕馭較少浮力);高 BMI 脂肪型:Loot / Plunder 為首選(paddle threshold 較低);低 BMI 偏瘦型:Hypto Krypto Twin 或 Love Buzz 中性 +1-2L,Plunder 過寬反而 carve 無力。",
+    "年齡_體能修正": "年齡 >40:Hypto Krypto / Love Buzz / Loot 為首選(FutureFlex 輕量化幫助體能下降玩家節省 pump 能量,grovel-leaning friendly);Plunder 對 50 歲以上玩家可加 +3-5L(尺寸往上 1 階)。Hypto Krypto Twin 採二鰭設計,在弱浪 paddle threshold 與 Hypto Krypto 接近。",
+    "品牌計算器差異": "Haydenshapes 官網 board finder + Boardcave 整合 size guide 在多家評測中被視為「中性偏準」。Hypto Krypto 經驗法則:experienced 玩家比日常 HPSB 短 1-2\",初學 + 2\"。FutureFlex 構造同 volume 但體感較 PU 輕 5-10%,使用計算器時可考慮為「實體感」加 1-2L。",
+    "亞洲體型修正": "亞洲身材取 Hypto Krypto 可選 5'8\"-5'10\";Loot 取 5'4\"-5'6\";Hypto Krypto Twin 取 5'6\"-5'8\";Plunder 取 5'4\"-5'6\"。容積整體可較歐美建議 -2 至 -3L。"
+  },
+  "shape_details": {
+    "Length 板長": "Hypto Krypto 完整 size chart:5'4\" / 5'6\" / 5'8\" / 5'10\" / 6'0\" / 6'2\" / 6'4\" / 6'6\" / 6'8\" / 6'10\"(Cleanline / Haydenshapes 官網)。建議:experienced 玩家 -1\" 至 -2\",初學 +2\"。Hypto Krypto Twin:同 Hypto Krypto dim 或比 HPSB -4\"~-5\"。Love Buzz:5'6\" - 6'4\"。Loot:5'2\" - 7'0\"(極寬範圍)。",
+    "Width 板寬": "Hypto Krypto:5'4\" 19.5\" / 5'8\" 20\" / 5'10\" 20.25\" / 6'0\" 20.5\" / 6'2\" 20.75\" / 6'4\" 21\"(資料來源:Cleanline Surf)。Love Buzz 5'10\":19 3/8\"(較窄,HPSB 範圍)。Loot 5'8\":20\" / 5'10\":20.25\"。Hypto Krypto Twin 5'8\":20\"。",
+    "Thickness 板厚": "Hypto Krypto:5'4\" 2.25\" / 5'6\" 2.375\" / 5'8\" 2.5\" / 5'10\" 2.625\" / 6'0\" 2.75\" / 6'2\" 2.75\" / 6'4\" 3\"(資料來源:Cleanline)。Love Buzz 5'10\":2.5\"。Loot 5'8\":2.5\" / 5'10\":2.63\"。Hypto Krypto Twin 5'8\":2.5\"。",
+    "Nose_Rocker": "Hypto Krypto:整體 flat rocker 但 entry 略有 lift(資料來源:Surfhungry、Roger's Surfboard Reviews,「Hayden snuck in a little extra lift in the entry」)。Love Buzz:medium / flat entry rocker(資料來源:Haydenshapes 官網);Loot:flat entry rocker;Plunder:極平 entry。[uncertain] 廠商未公開具體 nose rocker 吋數。",
+    "Tail_Rocker": "Hypto Krypto:flat to medium tail rocker(資料來源:Surfhungry);Love Buzz:medium tail rocker with lift(資料來源:Haydenshapes 官網);Loot:medium tail rocker;Plunder:極平 tail rocker;Hypto Krypto Twin:fins set further back + tail rocker 類似 Hypto Krypto。[uncertain] 廠商未公開具體 tail rocker 吋數。",
+    "Entry_Rocker": "Hypto Krypto:flat entry with slight lift(「a little extra lift in the entry to add some curve up front」);Love Buzz:medium / flat entry rocker for easy paddling and speed down the line(資料來源:Haydenshapes 官網);Loot:flat entry rocker for grovel;Plunder:極平 entry rocker(純 grovel 哲學)。",
+    "Wide_Point_Position": "Hypto Krypto:wide point 在中心(平衡 paddle 與 carve);Love Buzz:wide point 在中心偏前(類似 Hypto);Loot:wide point 前移(less width in the nose vs Plunder);Plunder:wide point 在中心偏前 + fuller plane shape。",
+    "Nose_Width_at_12_inch": "Hypto Krypto 5'10\":約 12.5\"-12.75\"(rounded 但 not fish-wide,Hayden 採 semi-gun rounded pintail 哲學);Love Buzz 5'10\":約 12\"-12.5\"(HPSB-leaning);Loot:約 12.5\"-13\"(grovel-leaning);Plunder:約 13\"+(fuller plane shape)。[uncertain] 廠商 spec sheet 未細列。",
+    "Tail_Width_at_12_inch": "Hypto Krypto 5'10\":約 15\"-15.5\"(rounded pintail);Hypto Krypto Twin 5'10\":約 15\"(略 tighter swallow tail);Love Buzz 5'10\":約 14.5\"-15\"(HPSB-leaning);Loot 5'10\":約 15.5\"-16\"(grovel-leaning);Plunder:約 16\"+(極寬尾)。[uncertain] 廠商 spec sheet 未細列。",
+    "Bottom_Contour 板底設計": "Hypto Krypto:rolled vee in entry → slight single concave → vee double out the tail(資料來源:Roger's Surfboard Reviews。「not a huge amount of concave in the bottom」);Hypto Krypto Twin:類似 Hypto 但 fins set further back;Love Buzz:slight single concave in entry → medium single concave in center(資料來源:Haydenshapes 官網);Loot:single-to-double 哲學;Plunder:concave 較淺 + 寬尾 plane area。",
+    "Tail_Shape 板尾形狀": "Hypto Krypto:semi-gun rounded pintail(Hayden 標誌設計,融合 Hypto wide swallow 與 rounded pintail);Hypto Krypto Twin:slightly tighter swallow tail(資料來源:Haydenshapes 官網。fins set further back to bring control);Love Buzz:swallow tail 或 round tail 選項;Loot:swallow / squash 選項;Plunder:soft diamond tail(資料來源:Boardcave / Surfer.com)。",
+    "Rail_Profile": "Hypto Krypto:medium-full rail(平衡浮力與 carve);Hypto Krypto Twin:類似 Hypto;Love Buzz:medium rail with flatter deck(extra stability,資料來源:Haydenshapes 官網);Loot:medium-boxy rail;Plunder:fuller rail(grovel 哲學)。",
+    "Rail_Volume_Distribution": "Hypto Krypto:中段集中 + 分布均勻(平衡 paddle 與 carve);Hypto Krypto Twin:同 Hypto + 1-3L 中段集中;Love Buzz:中段集中;Loot:中段集中 + nose 區較少;Plunder:全段較均勻分布(fuller plane)。",
+    "Foam_Distribution": "Hypto Krypto:foam 集中胸下到中段(easy paddle + carve);Hypto Krypto Twin:foam 同 Hypto Krypto;Love Buzz:foam 集中胸下到中段(類似 HPSB);Loot:foam 集中胸下;Plunder:foam 集中胸下到 nose 區(grovel 邏輯)。",
+    "Outline 輪廓曲線": "Hypto Krypto:Hayden 標誌設計 — 將 wide swallow tail outline 融合 semi-gun rounded pintail,曲線「fits into the pocket」;Hypto Krypto Twin:類似 Hypto 但 swallow tail tighter;Love Buzz:HPSB-leaning curvy outline;Loot:HPSB-leaning curvy outline + less nose width;Plunder:fuller plane shape outline + soft diamond tail。"
+  },
+  "fin_setup": {
+    "主要_Setup": "Hypto Krypto:thruster(預設 5-fin box 可改 quad);Hypto Krypto Twin:twin(Hayden 推薦 Futures K2 Keel,資料來源:Magicseaweed / Stoked For Travel);Love Buzz:thruster(3-fin);Loot:5-fin setup(thruster + quad option,資料來源:Haydenshapes 官網);Plunder:thruster(預設)。",
+    "Fin_Cant": "Hypto Krypto thruster 配置:約 5°-6°(中性);Hypto Krypto Twin:twin 配置採典型 5° drive-oriented cant。[uncertain] 廠商未公開具體 cant 角度。",
+    "Fin_Toe": "Hypto Krypto:中性 1/16\"-3/32\";Hypto Krypto Twin:Futures K2 Keel 為典型 twin keel toe。[uncertain] 廠商未公開。",
+    "Fin_Foil": "Hypto Krypto 推薦 inside foil side fins + 50-50 trailer;Hypto Krypto Twin 推薦 K2 Keel(inside foil 變體);Love Buzz / Loot:inside foil side fins。",
+    "Fin_Rake_Sweep": "Hypto Krypto:medium rake(平衡加速與 carve hold);Hypto Krypto Twin:Hayden 推薦 Futures K2 Keel(modified keel rake,介於 cruise 與 performance);Love Buzz:medium rake;Loot:medium-large rake;Plunder:upright(grovel turn 緊湊)。",
+    "Fin_Area_Template": "Hypto Krypto:medium area(Futures John John Florence Medium、FCS II Performer PC Medium);Hypto Krypto Twin:Futures K2 Keel(Hayden 推薦,資料來源:Magicseaweed);Love Buzz:medium(FCS II / Futures medium);Loot:medium(grovel hybrid);Plunder:medium(grovel hybrid)。",
+    "Quad_Rear_Position": "Hypto Krypto 若改 quad,後 fin 靠 rail 1/4\"-1/2\"(中性 release);Loot 配 quad 採類似配置。[uncertain] Haydenshapes 官網未公開具體 quad rear distance。",
+    "2plus1_vs_PureTwin": "Hypto Krypto Twin 為 pure twin(non-2+1),Hayden 設計時刻意採 twin only 邏輯,讓 fins set further back 提供 backhand hold + smooth rail-to-rail。資料來源:Surfline、Magicseaweed 評測。Plunder / Loot 為 thruster 為主,非 twin 板。"
+  },
+  "construction": {
+    "PU_PE 在小浪": "Haydenshapes 提供 PE-C / PU 構造選項(如 Love Buzz PE、Hypto Krypto PU)。PU 版在小浪提供經典 dampening、可預測 carve、knifey rail feel,但 Haydenshapes 哲學偏好 FutureFlex(認為 carbon parabolic frame 為小浪 acceleration 標竿)。",
+    "EPS_Epoxy 在小浪": "Haydenshapes 全系列以 EPS/Epoxy 為核心(FutureFlex 為其招牌構造)。EPS 在小浪的優勢:(1) 同浮力數值體感較輕,pump 容易;(2) acceleration 快;(3) 適合 air。Hypto Krypto FutureFlex / Hypto Krypto Twin FutureFlex / Loot FutureFlex / Love Buzz FF 為 EPS + carbon parabolic frame。",
+    "HD_EPS": "Haydenshapes FutureFlex 屬於高密度 EPS(stringerless HD EPS core + biaxial fiberglass + parabolic carbon fiber frame)。比一般 EPS 穩定、彈性受 carbon frame 控制。資料來源:Haydenshapes 官網。",
+    "Glassing_Schedule": "Haydenshapes 標準 FutureFlex:stringer-less HD EPS core + biaxial fiberglass + parabolic carbon fiber frame。Carbon frame 為 patent-pending 設計,「store and release energy as the surfer transitions through a turn」。其他構造選項:PE-C(epoxy/PE)、PU(traditional fibreglass/PU)。Hypto Krypto Twin 提供 3 種構造選項(FutureFlex / PE-C / PU)。",
+    "新技術": "Haydenshapes FutureFlex 為其旗艦招牌:Hayden Cox 設計、patent-pending、carbon parabolic frame 在 laminate 內,以 carbon 控制 flex 與 twist,提供「ultimate speed and drive」。較新嘗試:FutureFlex II(微調版)、PE-C(EPS + epoxy,中價位)。資料來源:Haydenshapes 官網、The Inertia 對 Hayden Cox 的訪談。"
+  },
+  "conditions_fit": {
+    "浪高範圍": "Hypto Krypto:1ft - 8ft barrels(one board quiver 範圍);Hypto Krypto Twin:1ft - overhead+(資料來源:Haydenshapes 官網「up to 8ft faces」);Love Buzz:1-6ft;Loot:1-6ft(flat to head high);Plunder:小浪為主(typical grovel range 1-3ft)。",
+    "浪質": "Hypto Krypto:全範圍 forgiving(從 mushy 1ft 到 hollow 8ft);Hypto Krypto Twin:2-3ft pointbreak forehand 為甜蜜點(資料來源:Stoked For Travel);Love Buzz:2-4ft glassy 或輕度 onshore punchy 為甜蜜點;Loot:flat 到 head-high 多範圍;Plunder:gutless / lacklustre 條件為主場。",
+    "浪型": "Hypto Krypto:beach break、point break、reef break 全範圍;Hypto Krypto Twin:point break forehand 最佳;Love Buzz:all wave types;Loot:beach break、reef、point break(資料來源:Boardcave);Plunder:beach break 為主。",
+    "不適合場景": "Hypto Krypto:hollow barrels 8ft+(雖然可達 8ft barrels 但已是極限);Hypto Krypto Twin:overhead+ 大浪(twin 在大浪欠 hold);Love Buzz:大浪 hollow barrels;Loot:大浪 hollow barrels;Plunder:any wave above chest-high(grovel only)。"
+  },
+  "performance": {
+    "划水容易度": "Hypto Krypto:極佳(flat rocker + foam distribution 平衡 + FutureFlex 輕量);Hypto Krypto Twin:極佳(類似 Hypto + 1-3L extra volume);Love Buzz:高(medium / flat entry rocker);Loot:極佳(grovel-leaning paddle);Plunder:極佳(grovel 設計核心)。",
+    "起乘速度": "Hypto Krypto:極快(flat rocker 是其核心);Hypto Krypto Twin:極快;Love Buzz:快(flatter deck + extra stability);Loot:極快(grovel 標準);Plunder:極快(grovel 標準)。",
+    "Glide 平面速度": "Hypto Krypto:極高(flat rocker is purely for speed,資料來源:Boardcave);Hypto Krypto Twin:極高(twin 標準 down-the-line glide);Love Buzz:高(deep single concave 提供 speed);Loot:高(grovel hybrid);Plunder:高(fuller plane shape)。[uncertain] 具體 km/h 量測未在搜尋結果出現。",
+    "Pump 效率": "Hypto Krypto:極高(rocker 設計核心為「speed and more speed」);Hypto Krypto Twin:極高(twin 標準 pump 效率);Love Buzz:高(single concave + flatter deck);Loot:極高(grovel hybrid);Plunder:極高(fuller plane shape)。",
+    "轉向靈活度": "Hypto Krypto:中至高(semi-gun rounded pintail 提供 hold 與 smooth carve,但因 wide outline 比 HPSB 略 slower turn);Hypto Krypto Twin:高(twin 配置 + tighter swallow tail 提供 looser feel);Love Buzz:高(medium rocker with lift 補強 critical turns);Loot:中至高(grovel hybrid);Plunder:中(grovel 寬尾 carve radius 較大,但 soft diamond tail 提供 release)。",
+    "Vertical 能力": "Hypto Krypto:中至高(被批評為「50% small / 80% pumping,top to bottom surfing 受限」,資料來源:Stoked For Travel);Hypto Krypto Twin:中(twin 在 vertical 範圍受限);Love Buzz:中至高(out the back medium lift to allow critical turns);Loot:中(grovel-leaning);Plunder:低至中(grovel 寬尾 vertical 受限)。",
+    "空中動作能力": "Hypto Krypto:中(FutureFlex 輕量提供 pop,但 outline 較不為 air 優化);Hypto Krypto Twin:低至中(twin 在 air 不主流);Love Buzz:中至高(performance shortboard 範疇);Loot:中(grovel-leaning);Plunder:低(grovel 寬尾)。",
+    "Backside_vs_Frontside": "Hypto Krypto:平衡(rounded pintail 在 backside 與 frontside 均有良好 hold);Hypto Krypto Twin:frontside 略優(twin 在 backside 因為 fins set further back 補強);Love Buzz:平衡;Loot:平衡;Plunder:frontside 略優(grovel 寬尾 backside 抓 rail 較難)。"
+  },
+  "practical_selection": {
+    "代表板款": "(1) Hypto Krypto:5'10\" × 20.25\" × 2.625\" 約 29-30L,Hayden Cox 設計、one board quiver 標竿,「one of the best selling surfboard models of all time」;(2) Hypto Krypto Twin:5'8\" × 20\" × 2.5\" = 31.2L FutureFlex,tighter swallow tail + fins set further back;(3) Love Buzz:5'10\" × 19 3/8\" × 2.5\" = 29.75L,Creed McTaggart 御用、Hypto + Ando 子代;(4) Loot:5'8\" × 20\" × 2.5\" = 30.8L、5'10\" × 20.25\" × 2.63\" = 33.7L,Plunder 衍生 + 5-fin setup;(5) Plunder:fuller plane + soft diamond tail,純 grovel。",
+    "常見錯誤": "(1) 把 Hypto Krypto 當純 HPSB(在 vertical 與 top-to-bottom surfing 上有限制);(2) Hypto Krypto Twin 取大尺寸,在 overhead 浪會欠 hold;(3) Love Buzz 在 1ft 純 mush 下 generate 不出速度(其實 Plunder 或 Loot 更適合);(4) FutureFlex 構造在台灣濕熱環境 stringerless 設計需注意 deck 凹陷;(5) 跟風 Hypto Krypto 「one board quiver」買 6'0\" 給 70kg 玩家 → 過大 → swing weight 重。",
+    "升級陷阱": "(1) 從 longboard 直接跳 Love Buzz 5'10\" → HPSB-leaning 對初學過於 sensitive;(2) 看到「Hypto Krypto 是 one board quiver」就買後完全不買其他板 → 在 head-high+ punchy 浪表現中等;(3) 為了「練 twin」買 Hypto Krypto Twin 但沒有 fish 經驗 → twin 在 backside 與 critical turn 需要技術調適;(4) FutureFlex 高價 → 一般中階玩家可選 PE-C(EPS + epoxy 中價位)替代。",
+    "搭配_fin 建議": "(1) Hypto Krypto:Futures John John Florence Medium、FCS II Performer PC Medium、Futures AM2(體重大或 punchy 浪用);(2) Hypto Krypto Twin:Futures K2 Keel(Hayden 推薦,資料來源:Magicseaweed);(3) Love Buzz:FCS II Performer PC Medium、Futures AM1;(4) Loot:FCS II Performer Medium、Futures AM2;(5) Plunder:FCS II Performer PC Medium。資料來源:Haydenshapes 官網 fin recommendations。",
+    "二手板評估": "(1) FutureFlex 構造的二手板要特別檢查 carbon frame 是否有 stress crack(在 rail 區);(2) Deck 凹陷(EPS 壓潰)會降低 paddle 力;(3) 注意 stringerless EPS 板的 spring back 是否疲勞;(4) Hypto Krypto 因為極熱門,二手保留價值高;(5) FutureFlex 在台灣溼熱環境若 carbon 與 EPS 之間有 delamination,carve 會失靈。",
+    "Quiver 規劃": "Haydenshapes 系列建議:(1) Hypto Krypto 一塊作為 one-board quiver(1-6ft 涵蓋);(2) Hypto Krypto + Hypto Krypto Twin 二塊涵蓋小浪 thruster + twin 兩種感覺;(3) Hypto Krypto + Plunder + HPSB 三塊涵蓋 small wave hybrid + grovel + HPSB;(4) Love Buzz 為 HPSB 替代;(5) Loot 為 Plunder + 5-fin 升級。Hypto Krypto + Hypto Krypto Twin 是 Haydenshapes 純品牌 quiver 的最熱門組合。",
+    "預算建議": "新訂製(海外):Hypto Krypto FutureFlex USD 875-1100,PE-C / PU USD 700-900。台灣經銷(VAST / Hooked / Boardcave 含稅運):NT$35,000-48,000 FutureFlex,NT$28,000-38,000 PE-C / PU。Haydenshapes Aus prices:AUD 969-1169。二手保留性:Hypto Krypto 在台灣二手市場長年熱門,3-6 個月新板可保 75-85% 價格,二手保值優於 DHD,接近 Firewire Sweet Potato / Sci-Fi 2.0。"
+  },
+  "pro_reference": {
+    "Stab_in_the_Dark": "Hypto Krypto 多次出現在 Stab Magazine 評測與「How To Make a Surfboard go Viral」報導。Hypto Krypto 為「one of the best selling surfboard models of all time」(Stab Magazine)。FutureFlex 構造在 Stab Magazine 多次評測中獲得高評。[uncertain] Stab in the Dark 2025 winner 詳情在 paywall。",
+    "WSL_CT 選手選擇": "(1) Craig Anderson(historically):Haydenshapes Love Buzz、White Noiz 為其代表(Love Buzz 為 Creed McTaggart 御用,Craig Anderson 為 Haydenshapes team rider);(2) Mikey February:Haydenshapes team(part 期間);(3) Asher Pacey:Haydenshapes 早期合作(後期轉至其他品牌)。資料來源:Haydenshapes 官網 team。Haydenshapes 並非 WSL CT 主流(較 DHD / Channel Islands 為次),但 freesurf 領域影響力極大。",
+    "Free_surf 風格參考": "(1) Craig Anderson:Haydenshapes 旗下代表 free surf,Love Buzz / White Noiz / Hypto Krypto Twin 為其代表;(2) Creed McTaggart:Love Buzz 御用 + Hypto Krypto Twin;(3) Mikey February:smooth style + Haydenshapes 系列;(4) Hayden Cox 自家 free surf 影片以 Hypto Krypto / Hypto Krypto Twin 為主。Asher Pacey 等 free-surfer 的 twin fin 哲學受到 Hypto Krypto Twin 影響。資料來源:Haydenshapes 官網、Stab Magazine。"
+  },
+  "local_taiwan_context": {
+    "浪點適配": "(1) 中角夏季 1-3ft 軟浪:Hypto Krypto 為 Haydenshapes 系列首選(one board quiver),Plunder 與 Loot 為純 grovel;(2) 烏石港:Hypto Krypto 一塊涵蓋 1-5ft;(3) 金樽較陡浪:Hypto Krypto(slight lift in entry 可處理陡度);(4) 佳樂水:Hypto Krypto 與 Hypto Krypto Twin 均適配 beach break;(5) 南灣:Plunder 為純 grovel,Hypto Krypto Twin 為 twin fish 替代;(6) 東澳粉鳥林夏季西南風小浪:Hypto Krypto 與 Hypto Krypto Twin 為首選。",
+    "進口_訂製": "Haydenshapes 在台灣主要管道:VAST(經銷,Hayden Krypto FutureFlex 為熱賣)、Hooked(經銷)、Cleanline Surf 等海外訂(含稅運 NT$35,000-48,000)、Haydenshapes USA / Aus 官網直購。Haydenshapes 不接受 100% 客製(模具量產),但有 Hayden Cox 親手 shape 的高端版本可預訂。本土 shaper 可訂製類似 hybrid 哲學的板款。",
+    "中文社群迷思": "(1)「Hypto Krypto 永遠是最好的小浪板」→ 部分正確;Hypto 為 hybrid one-board quiver,在純 grovel(1ft 軟浪)Plunder / Loot 更適合;(2)「FutureFlex 容易壞」→ 部分誤解;早期 FutureFlex 確有 carbon delamination 問題,2020+ 版本已大幅改善;(3)「FutureFlex 等於 carbon stringer」→ 錯;FutureFlex 為 parabolic carbon frame(在 rail 內),不是 stringer;(4)「Hypto Krypto Twin 是 fish」→ 部分正確;為 hybrid twin shape with rounded pintail,非傳統 fish;(5)「Haydenshapes 全部都是 hybrid」→ 部分正確,但 Love Buzz / White Noiz 為 performance shortboard,並非純 hybrid。",
+    "在地教練建議": "(1) VAST(台北 / 宜蘭):強推 Hypto Krypto FutureFlex 為一塊 quiver 推薦(中文社群最熱門 Haydenshapes 板款);(2) Hooked(宜蘭):推 Hypto Krypto / Hypto Krypto Twin 為 fish-leaning groveler 替代;(3) JR Surf(墾丁):常推 Hypto Krypto 給中階以下玩家;(4) Decathlon Olaian:無 Haydenshapes 但有類似 hybrid 設計的中價位 EPS 板。Haydenshapes 在台灣普及度高,與 Firewire 並列「進口 EPS 兩大牌」。[uncertain] 各家具體推薦表單會隨季節 / 庫存變動。"
+  },
+  "uncertain": [
+    "Nose_Rocker",
+    "Tail_Rocker",
+    "Nose_Width_at_12_inch",
+    "Tail_Width_at_12_inch",
+    "Fin_Cant",
+    "Fin_Toe",
+    "Quad_Rear_Position",
+    "Glide 平面速度",
+    "Stab_in_the_Dark",
+    "在地教練建議"
+  ]
+}

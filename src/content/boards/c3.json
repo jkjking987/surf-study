@@ -1,0 +1,95 @@
+{
+  "id": "C3",
+  "basic_info": {
+    "名稱": "Modern Fish (現代魚板)",
+    "分類": "板型分類",
+    "適用程度": "中階至進階(初學者可選軟頂 fish 入門)",
+    "一句話定位": "寬尾低 rocker、swallow tail 的現代化小浪利器,經典 fish 的高性能升級版"
+  },
+  "buoyancy_strategy": {
+    "Guild_Factor_GF": "Modern Fish 建議 GF 約 0.40-0.46(較 HPSB 的 0.34-0.38 高出明顯一級);頂尖玩家可壓到 0.38-0.40 取得更貼水的 rail 感,週末玩家以 0.42-0.46 為主,新手 fish 可拉到 0.48-0.52(軟頂 Seaside-like 板款)。實測 Firewire Seaside 5'9 約 37.3L,適合 75-85kg 中階玩家(GF ≈ 0.44-0.49)。",
+    "浮力公式": "體重(kg) × 0.42-0.46 = 建議浮力(L)。例如 70kg × 0.44 = 30.8L。Firewire 官方 Seaside 與 Lost RNF 96 都建議在 shortboard 浮力上 +1.5L~+2.5L,長度則縮短 4-6 吋。",
+    "相對日常板浮力增量": "相對 HPSB +10% 至 +20%。例如 HPSB 28L 的玩家,Modern Fish 建議 31-34L;若主要在 1-3ft 軟浪,可拉到 +20-25%(34-35L)。",
+    "浮力範圍_體重對照": "50kg → 22-25L (5'2-5'4 fish);60kg → 26-29L (5'4-5'6);70kg → 30-33L (5'6-5'8,代表如 RNF 96 5'7);80kg → 34-37L (5'8-5'10,代表如 Seaside 5'9 37.3L);90kg+ → 38-42L (5'10-6'0 Kingfish/Seaside Beyond)。",
+    "小浪修正係數": "Modern Fish 本身已是小浪板,軟浪建議在 GF 計算結果上 +2L 即可;非常糊的胸下浪可 +3-4L。",
+    "BMI_體脂修正": "高 BMI 肌肉型(體能好)→ 採用區間下限,可享受 rail 貼水;高 BMI 脂肪型 → 採用區間上限 +2L 補體能不足;低 BMI 偏瘦型 → 採區間中位,過多浮力會讓寬尾翹起難壓 rail。",
+    "年齡_體能修正": "40 歲以上或心肺下降者於 fish 上額外 +5-10% 浮力(約 +2-3L),因 fish 寬扁帶來的 paddle 優勢可被體能不足抵消。",
+    "品牌計算器差異": "Firewire(含 Seaside) 計算器較準,直接採信;Lost RNF 96 計算器普遍偏低,實取需 +1-2L(亞洲玩家尤其應加);Album Disasym 計算器偏保守,可依 Boardcave 評論補正。",
+    "亞洲體型修正": "亞洲玩家比歐美計算器假設輕 5-10kg,Modern Fish 浮力可從建議區間 -2 至 -3L 取值(例如 70kg 取 28-30L 而非 30-33L);但若體能或技術不到位則不要扣減。"
+  },
+  "shape_details": {
+    "Length 板長": "典型 5'4 至 6'0;相對 HPSB 縮短 -4 至 -6 吋(例如 HPSB 6'0 玩家可選 5'6 Modern Fish)。代表尺寸:Firewire Seaside 5'2 / 5'4 / 5'6 / 5'8 / 5'9 / 5'10 / 6'0;Lost RNF 96 從 5'3 到 5'10。",
+    "Width 板寬": "20\" 至 22.25\";Seaside 5'9 為 22 1/4\";RNF 96 5'5 為 19 1/4\"(較窄 modern fish);Album Disasym 5'9 為 19.25\"。一般 Modern Fish 比 HPSB 寬 1-1.5\"。",
+    "Thickness 板厚": "2.4\" 至 2.75\";Seaside 5'9 為 2 5/8\" (2.625\");Disasym 5'9 為 2.56\"。比 HPSB 厚 0.1-0.2\",foam 集中分布利於 paddle。",
+    "Nose_Rocker": "典型 4.0\" 至 4.6\";Firewire Seaside 約 4.3\",Lost RNF 96 約 4.4\",較 HPSB 的 5.0-5.5\" 平 0.7-1.0\";平鼻提早起乘但陡浪 nose-dive 風險高。",
+    "Tail_Rocker": "典型 2.0\" 至 2.4\";Seaside 約 2.1\",RNF 96 約 2.25\";較 HPSB 2.5-3.0\" 為平,提供 down-the-line speed。",
+    "Entry_Rocker": "前段曲線非常連續且平直(continuous flat entry),有利於糊浪早起乘;缺點是陡浪 stop / late-drop 反應遲緩。Seaside 的 entry rocker 配上前移 wide point 是經典 Machado 流派配方。",
+    "Wide_Point_Position": "Modern Fish wide point 通常前移至中心前 1-2\"(off-centre forward);Seaside wide point 明顯在板中心前,有助於 paddle 與起乘;RNF 96 則為更平衡的中心 wide point;Disasym 的 wide point 因 asym 設計左右不對稱。",
+    "Nose_Width_at_12_inch": "Modern Fish nose 12\" 處寬約 13.5\"-14.5\"+;Seaside 5'9 約 14\"+,比 HPSB 的 11.5-12\" 明顯寬,提供前腳 paddle 量。",
+    "Tail_Width_at_12_inch": "Modern Fish 為其招牌特徵:tail 12\" 處寬約 15.5\"-17\";Seaside 5'9 接近 17\";RNF 96 的 tail 12\" 寬度則特意接近 HPSB(約 15-15.5\")以增加 control(這是 Mayhem 設計重點)。",
+    "Bottom_Contour 板底設計": "Modern Fish 主流為 single-to-double concave;Seaside 採用 single concave 進 double 接 vee(配 quad);RNF 96 為 classic single-to-double-with-accelerating-vee;Disasym 採 deep single concave 配 performance rocker。深度約 4-6mm,過渡點通常在前 fin 前 2-3\"。",
+    "Tail_Shape 板尾形狀": "招牌 swallow tail(燕尾),典型 cut 深度 3-4\";Seaside 為深 swallow 配 quad;RNF 96 為較淺 swallow;Disasym 兩側不對稱(toe 側較深、heel 側較淺)。Swallow tail 在小浪利:增加 hold 同時保留 release point;劣:陡浪 cut-back 時尾巴可能拖水。",
+    "Rail_Profile": "中段偏 boxy 60-40 full rail(增加 paddle),尾段轉為 tucked-under edge / down rail 50-50(加速 release);Seaside 為經典 Machado 飽滿中段 + 收尾 down rail。",
+    "Rail_Volume_Distribution": "Volume 集中於中段與胸下,提供 paddle power;尾部 rail volume 相對 HPSB 較飽滿(易 trim、難 vertical)。",
+    "Foam_Distribution": "胸下集中型(weight forward);wide point 前移使 foam 集中於前 2/3,後 1/3 收薄;這是 Modern Fish 易起乘的核心。",
+    "Outline 輪廓曲線": "整體 curvy outline 但 tail 處保留平行 rail(parallel rail through fins);Seaside 為招牌寬尾收 swallow 的 fishy outline;RNF 96 outline 更接近 HPSB(curve through tail);Disasym 為左右不對稱的混合 outline。"
+  },
+  "fin_setup": {
+    "主要_Setup": "Modern Fish 三大設定:(1) Quad — Seaside 標配,提供 drive + release,適合糊浪 generate speed;(2) Twin keel — 傳統 fish 路線(如 Album Fun Formula),最大 looseness;(3) Twin + stabilizer (2+1) — RNF 96 / Kingfish 常見選項。Disasym 用 asymmetrical tri (twin+quad 混合)。",
+    "Fin_Cant": "Modern Fish 偏好 quad 設定下 front 4-6° cant(drive),rear 3-5° cant(較靠近 HPSB 設定);twin keel 設定通常 cant 較少(0-3°)讓水流更直接釋放。",
+    "Fin_Toe": "Front quad 通常 toe 1/8\";rear quad 1/16\" 至 1/8\";twin keel 通常 toe 較少(1/16\")或無 toe,優先 speed。",
+    "Fin_Foil": "Quad front 為 inside foil(提供 hold+lift);Quad rear 為 flat foil(speed);Twin keel 為 50-50 foil(neutral,maximum speed)。",
+    "Fin_Rake_Sweep": "Modern Fish 偏好中等 rake;Seaside / Disasym 推薦 medium-upright quad(如 Futures Machado Quad);RNF 96 適合中等 rake 如 Mayhem twin。Rake 過大(如 keel)會犧牲 vertical 能力。",
+    "Fin_Area_Template": "建議中型 area 為基準:Futures AM2 / FCS Performer / Machado Keel Quad;體重 80kg+ 用大 area,55-65kg 用 medium-small;Seaside 官方搭配是 Futures Machado Quad。",
+    "Quad_Rear_Position": "Modern Fish 的 quad rear 通常裝在較靠 rail(離 stringer 1/4-1/2\"),增加 looseness;靠近 stringer 則接近 thruster 感,提供更多 hold(進階玩家小調)。",
+    "2plus1_vs_PureTwin": "Modern Fish 上的 2+1 提供 backhand hold(適合 reef / point 陡浪段),純 twin keel 提供 maximum drive 但 backhand control 弱;Seaside quad 配置是介於兩者間的折衷方案。"
+  },
+  "construction": {
+    "PU_PE 在小浪": "PU/PE Modern Fish(如 RNF 96 PU / Disasym PU)提供 knifey rail feel、入水更穩、carve 可預測;適合追求傳統 fish 滑順感的玩家;劣勢為較重(同尺寸 +200-400g)。",
+    "EPS_Epoxy 在小浪": "EPS/Epoxy Modern Fish(如 Firewire Helium Seaside)輕量利於 pump、acceleration、air;同浮力數值感覺較飄(實感比 PU 多 1-2L);適合糊浪需要 pump 速度的玩家。",
+    "HD_EPS": "Lost Lightspeed II(LSII) RNF 96 / Firewire Helium Seaside / Album Future-Flex 都屬 HD-EPS 路線;介於 PU 的扎實感與輕量 EPS 的彈性間;耐用性比 PU 高、感覺接近 PU。",
+    "Glassing_Schedule": "Modern Fish 標配多為 4+4/4(輕 comp) 或 4+4 deck/4 bottom + 6oz tail patch;Seaside Helium 為 sandwich 構造非傳統 glassing;Disasym 標配 4+4/4。耐用性建議:常旅行或頻繁使用者選 6+4/6。",
+    "新技術": "Firewire Helium(EPS + balsa parabolic rail + sandwich skin)為 Seaside 招牌;Lost Lightspeed II 為 Mayhem 與 Surftech 合作 HD-EPS;Album 採用 PU/EPOXY 或 EPS lite 多種選項;Haydenshapes FutureFlex 也常用於 fish 類板。"
+  },
+  "conditions_fit": {
+    "浪高範圍": "Modern Fish 最佳 1-4ft(齊腰至頭高);Seaside 官方稱 up to 7-8ft 可用,但 head-high 以下最發揮。",
+    "浪質": "軟浪與飽滿浪皆強,捲浪可衝但 vertical 能力較弱;空心管浪因 entry rocker 平,需要小心 late drop。",
+    "浪型": "beach break 軟浪段最佳;point break 長 trim 段優秀(Seaside 為 Machado 在 J-Bay 之外的 home 板);reef break 陡浪段需謹慎,RNF 96 因 tail 較收能用得更積極。",
+    "不適合場景": "(1) 4ft+ 強勁陡浪(vertical 能力與 hold 不足);(2) 純初學者起乘練習(寬尾下沉慢但 paddle paddle 仍需技巧);(3) 想練 air-reverse 或 progressive aerial 的玩家(rocker 太平不利騰空)。"
+  },
+  "performance": {
+    "划水容易度": "極佳;Modern Fish 是中階以上玩家 paddle 最容易的類別之一,能划上齊膝至齊腰浪;Seaside 5'9 配 70-80kg 玩家可以划上 1ft 軟浪。",
+    "起乘速度": "快;低 entry rocker + 前移 wide point 讓 paddle-to-take-off 反應比 HPSB 快 1-2 拍。",
+    "Glide 平面速度": "頂級 down-the-line speed;Seaside 在 Noel Salas 的 km/h 測試中為小浪段最高效率組之一;flat 段可滑超過 25-30km/h。",
+    "Pump 效率": "Pump 效率高但需要 wider stance;寬尾使 pump 範圍較大,中階以上可掌握。",
+    "轉向靈活度": "中等;tight pocket 能力不如 thruster shortboard,bottom turn 反應穩定但不夠 snap。",
+    "Vertical 能力": "中等偏弱;rocker 平 + 寬尾使 vertical snap 較費力;Disasym 因 asym 設計 backhand vertical 強化,RNF 96 因 tail 較收也較能上唇。",
+    "空中動作能力": "Frontside air 可玩但非強項;小浪 air-reverse 落地穩定度中等(寬尾穩但 rocker 平難拉起);整體不及 groveler thruster。",
+    "Backside_vs_Frontside": "傳統 Modern Fish(Seaside/RNF 96)frontside 強於 backside;backside 在 quad 設定下 hold 較好;Album Disasym 為破除此議題而設計的 asym fish,backside heel 側用 quad 補 hold。"
+  },
+  "practical_selection": {
+    "代表板款": "(1) Firewire Seaside (Rob Machado, Helium) — 5'9 22 1/4 x 2 5/8 = 37.3L,quad-only,small-wave classic;(2) Lost RNF 96 / RNF 96 Kingfish (Mayhem) — 5'5 19 1/4 起,FCS / Futures twin+stab option;(3) Album Disasym (Matt Parker) — 5'9 19.25 x 2.56 = 32L,asym tri (twin+quad);(4) Lost Pisces — modern groveler-fish hybrid;(5) Firewire Mashup (Machado) — 介於 Seaside 與 Sweet Potato 之間。",
+    "常見錯誤": "(1) 浮力給太多(GF >0.50),反而難壓 rail 進入 carve;(2) 配錯 fin —— Seaside 用 thruster keel 失去 quad bottom 設計;(3) glassing 太重(6+6)失去輕快感;(4) 縮太短(-7\" 以上)變難 paddle;(5) 把 Modern Fish 當 HPSB 練 air,挫敗感大。",
+    "升級陷阱": "從 HPSB 直接跳到 pro-model fish(如 RNF Retro 純 twin)會驚於 looseness 過頭,建議先從 Seaside / Tiger Twin / RNF 96 這類有 quad 或 2+1 選項的 modern fish 過渡;追隨 Asher Pacey / Mikey February 的選擇但忽略體能差距會買到難駕馭板。",
+    "搭配_fin 建議": "Seaside → Futures Machado Quad / Captain Fin Machado Quad;RNF 96 → FCS II Mayhem 或 Futures EA twin+stab;Disasym → Futures asym tri(原廠);通用 Modern Fish 推薦:Futures AM2(medium upright)或 FCS Performer Tri/Quad。",
+    "二手板評估": "Fish ding 對小浪表現影響小於 HPSB(寬尾抗扭較強),但 stringer 變形需檢查;EPS Helium 板若 sandwich 層破損需專業修;glassing 老化後 rail 變脆;查鰭片 plug 周圍是否有 stress crack。",
+    "Quiver 規劃": "Modern Fish 是 2-3 塊 quiver 的小浪主力;搭配 HPSB(2-5ft 標準浪)+ step-up(4-8ft 大浪)。亞洲玩家在台灣浪況下 Modern Fish 可作為一年 60-70% 使用率的主板。",
+    "預算建議": "軟頂 fish(Catch Surf Odysea Skipper 等)約 NTD 8,000-12,000;二手 PU Modern Fish 約 NTD 12,000-20,000;新進口 PU(RNF 96/Disasym)約 NTD 25,000-32,000;Firewire Helium Seaside 新板約 NTD 28,000-35,000;台灣本土訂製 PU fish 約 NTD 20,000-26,000。"
+  },
+  "pro_reference": {
+    "Stab_in_the_Dark": "Modern Fish 在 Stab in the Dark 系列中常作為對照組(非主競賽板);2023 Mick Fanning 版有測試 fish 類板;2024-2025 沒有純 fish 進入決選但 Mikey February 的 Twin Pin(屬 modern twin fin)反映了 fish DNA 的延伸。[uncertain]",
+    "WSL_CT 選手選擇": "WSL CT 選手在小浪比賽 free surf 時偶用 fish(如 Filipe Toledo 在 Trestles 練 free surf 用 Mayhem fish);比賽日多採 HPSB。Gabriel Medina 與 Ethan Ewing 較少公開使用 modern fish。Kelly Slater 開發 Cymatic 等浮力短板取代 fish 角色。",
+    "Free_surf 風格參考": "Rob Machado(Seaside 設計者本人,Machado 流派 cruise + flow);Asher Pacey(Shapers AP twin / fish 路線, 寬尾 trim + 偶爾管浪);Dane Reynolds(隨意實驗多 fish 板,Album team)。BlinkSurf 與 Noel Salas 為 Modern Fish 主要中立評測來源。"
+  },
+  "local_taiwan_context": {
+    "浪點適配": "中角(基隆) 1-3ft 軟浪 → Modern Fish 為首選板型;烏石(宜蘭) beach 變化大,Seaside 在 chest-head 段很適合,vertical 段需 thruster;金樽(台東) point break 長線 → Seaside / Disasym frontside 非常爽;佳樂水 reef → RNF 96 較合適(tail 較收);南灣(墾丁) 軟浪 → Modern Fish 一年大部分時間可用;東澳粉鳥林軟點 → Seaside / RNF 96 為主力。",
+    "進口_訂製": "海外進口(Boardcave / Cleanline / 日本水之家)Seaside 約 USD 1,000+ 含運稅 NTD 35K+;Lost 在台代理通路較多 NTD 28-32K;台灣本土 shaper 訂製 modern fish 約 NTD 22-26K 且可指定 rocker、glassing。 [uncertain] 台灣本土具體 fish shaper 名單需在地確認。",
+    "中文社群迷思": "(1)「小浪只能用魚板」—— 實際上 modern groveler / twin fin 都同樣強;(2)「fish 不會浪費浮力」—— GF 過高仍會難 carve;(3)「Seaside 就是初學板」—— 它是中階以上玩家的高性能小浪板,初學者寬尾不易 rail-to-rail;(4)「fish 都只能 thruster」—— Modern Fish 主流是 quad 或 twin。",
+    "在地教練建議": "JR Surf、VAST、Hooked Surf 等店家常推薦 Seaside 與 RNF 96 給已能 trim 與 cut-back 的中階玩家;Decathlon 軟頂 fish 適合純初學作為踏板,不建議直接用作 modern fish 模擬。 [uncertain] 各店家近期具體推薦庫存以實地詢問為準。"
+  },
+  "uncertain": [
+    "Stab_in_the_Dark",
+    "進口_訂製",
+    "在地教練建議"
+  ]
+}

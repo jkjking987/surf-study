@@ -1,0 +1,65 @@
+{
+  "basic_info": {
+    "name": "Lombok Kuta Cluster - Mawi, Ekas, Gerupuk, Selong Belanak (Chinese: 龍目島庫塔浪點群 - 馬維/艾卡斯/葛魯普克/瑟隆貝拉納克; Indonesian: Kuta Lombok - Mawi / Ekas / Gerupuk / Selong Belanak)",
+    "category": "extension_destination",
+    "region": "Lombok",
+    "gps_location": "Kuta Lombok town center: -8.8973, 116.2746; Selong Belanak: -8.8748, 116.1577; Mawi: -8.9072, 116.1929; Gerupuk Bay (boat launch): -8.9100, 116.3300; Ekas Bay: -8.8950, 116.4150. Google Maps: https://maps.app.goo.gl/KutaLombok",
+    "distance_from_dps_airport_km": "Not a direct surf-spot to DPS comparison - requires transfer. From DPS take 35-50 min flight DPS-LOP (Lombok International) on Wings Air/Citilink/TransNusa/AirAsia, then 20 min taxi/transfer from LOP to Kuta Lombok town (~16 km). Total door-to-door ~3-4 hrs incl. check-in. Alternative: fast boat from Padangbai/Serangan ~4-5 hrs to Bangsal or Senggigi then 2 hr drive south.",
+    "distance_from_canggu_uluwatu_min": "Not applicable directly - requires inter-island transfer; from Canggu/Uluwatu motorbike to DPS airport 60-90 min then 35-50 min flight to LOP plus 20 min drive to Kuta Lombok"
+  },
+  "surf_conditions": {
+    "wave_type": "Multi-spot cluster: Selong Belanak (sand-bottom beach break, mellow); Mawi (A-frame reef break with both left and right - hollow on size); Gerupuk Bay - Inside (right-hand reef break on seagrass-covered reef, super consistent, all tides), Don-Don (mellow A-frame reef), Outside Right (steep heavy right reef break); Ekas Bay - Inside (deep coral shelf reef break, both left and right, beginner-friendly), Outside (powerful steep left-hand reef break, advanced)",
+    "skill_level": "All levels covered: Selong Belanak (Beginner); Gerupuk Inside / Don-Don / Ekas Inside (Beginner-Intermediate); Mawi / Gerupuk Outside Right (Intermediate-Advanced); Ekas Outside (Advanced)",
+    "wave_height_range": "Selong Belanak: 1-4 ft (sand-bottom mellow); Gerupuk Inside: 2-8 ft (semi-steep, consistent); Mawi: 3-8 ft (A-frame, hollow on size); Gerupuk Outside: 4-10 ft; Ekas Inside: 2-6 ft (deep reef forgiving); Ekas Outside: 4-10 ft+ (powerful left)",
+    "bottom_type": "Selong Belanak: soft sand; Mawi: sharp shallow coral reef with rocks in lineup; Gerupuk Inside: shallow reef covered with seagrass (more forgiving); Gerupuk Outside: flat coral reef with stone formations; Ekas Inside: deep coral shelf (forgiving); Ekas Outside: shallow reef at base of cliff",
+    "best_season": "Dry season May-October (peak June-September - August often best); offshore SE/E trade winds dominate; the surf cluster also works year-round at Gerupuk Inside which is wind-protected by surrounding hills - the only fully year-round spot in the cluster",
+    "best_tide": "Selong Belanak: mid tide ideal; Mawi: mid tide best (fun barrels), high tide for mellower learning, low tide sketchy/shallow; Gerupuk Inside: works all tides (unique); Gerupuk Outside: mid-to-high tide (flat reef + stones); Ekas Inside: mid tide; Ekas Outside: mid to high tide preferred",
+    "best_wind": "Offshore E to SE trade winds in dry season; Gerupuk Bay is uniquely wind-protected by surrounding hills and can handle most wind directions; afternoon onshore SW common in the wider region",
+    "best_swell_direction": "S to SSW groundswell from Indian Ocean lows; SW also works for west-facing breaks (Mawi, Selong Belanak); east-facing Ekas needs more S/SSE wraparound",
+    "swell_consistency_rating": "4 (south Lombok coast picks up consistent SW/S groundswell almost daily during dry season; Gerupuk Inside is famously the most consistent spot in the cluster - rated 5 for consistency)",
+    "wave_length_meters": "Selong Belanak: 30-80m sand-bottom rides; Gerupuk Inside: 100-200m long rights; Mawi: 50-150m (both directions); Gerupuk Outside: 80-150m steep rights; Ekas Inside: 50-150m peeling both ways; Ekas Outside: 100-200m powerful lefts",
+    "wave_speed_rating": "Variable: Selong Belanak slow; Don-Don slow to medium; Gerupuk Inside medium; Mawi medium-fast with hollow sections; Gerupuk Outside fast; Ekas Inside slow-medium; Ekas Outside fast and powerful",
+    "takeoff_zone_difficulty": "Selong Belanak: very low (sand, slow); Gerupuk Inside / Don-Don / Ekas Inside: low to moderate (deep or forgiving reef); Mawi: moderate (sharp reef, watch low tide); Gerupuk Outside: high (steep drop, big sets); Ekas Outside: high (steep ledging take-off at cliff base)",
+    "secondary_peaks": "Cluster is itself a multi-peak setup. Within Gerupuk Bay: Inside, Don-Don, Outside Right, plus shifting peaks; within Ekas: Inside (both ways) and Outside; additional nearby spots Air Guling and Tanjung Aan extend the cluster",
+    "peak_crowd_level": "Variable: Selong Belanak: 4-5 (very crowded with beginners and surf schools); Gerupuk Inside: 4 (busy with surf schools daily); Mawi: 3-4 in peak season; Gerupuk Outside / Ekas Outside: 2-3 (smaller advanced crowd); Ekas Inside: 2 (often empty)"
+  },
+  "practical_info": {
+    "access": "Hub town is Kuta Lombok. From Kuta: Selong Belanak ~30 min west by car/motorbike; Mawi ~30 min west; Gerupuk Bay boat launch ~15-20 min east, then 5-10 min boat to each break (boats ~IDR 100,000/person for 2 hrs); Ekas Bay ~40 min east by car/motorbike, then 20 min boat across bay (or land access through Ekas village). Surf camps in Kuta organize daily transport based on best swell/tide combo across the cluster.",
+    "paddle_out_method": "Selong Belanak: walk-in from beach (sand); Mawi: short paddle from beach over reef-edge channel; Gerupuk spots: boat-in via local taxi vessels from Banyu Surf Shop area; Ekas Inside: boat from Ekas village across bay; Ekas Outside: longer boat plus paddle to lineup at cliff base",
+    "recommended_session_time": "Dawn patrol (5:30-7:30 AM) for glassy offshore conditions across the cluster; mid-morning sessions match high tide windows; afternoon often picks up onshore - Gerupuk Inside remains surfable due to wind protection",
+    "boat_charter_required": "Yes for all Gerupuk Bay spots (boat is the only access - ~IDR 100,000/person for 2 hrs); Yes for Ekas (boat across bay from Ekas village, or 4WD overland); No for Selong Belanak (walk-in from beach); No for Mawi (short paddle from beach)",
+    "combo_trip_potential": "Excellent - Kuta Lombok is the natural extension from Bali for surfers wanting variety with shorter flight transfer. Easy combos: Bali (Bukit) + Kuta Lombok 7-10 days; Kuta Lombok + Gili Islands; Kuta Lombok + Desert Point boat charter; Kuta Lombok + Sumbawa overland (10-12 hr drive to Lakey Peak); multi-island boat charters from Bali Benoa frequently include Kuta Lombok stops",
+    "alternative_spot_within_10min": "Within the cluster itself - if one spot is too small/big/crowded, drive 15-40 min to another in the cluster. Additional nearby: Air Guling (between Mawi and Selong Belanak) and Tanjung Aan (east of Kuta town)"
+  },
+  "safety_culture": {
+    "hazards": "Sharp coral reef at Mawi, Gerupuk Outside, Ekas Outside (reef cuts common; booties recommended); strong currents on bigger swell days; boat traffic in Gerupuk Bay channels; jellyfish occasional; sea urchins; sunburn/dehydration; remote roads at night with stray dogs and unmarked hazards; motorbike accidents are statistically the biggest risk for visitors",
+    "marine_hazards": "Sea urchins on most reefs (wear booties), occasional banded sea kraits (highly venomous but rarely aggressive), stonefish possible on reefs, jellyfish stings during wet season, reef cuts with tropical infection risk; no significant shark issue",
+    "lineup_etiquette": "Generally friendly and laid-back compared to Bali Bukit; Gerupuk and Ekas have active local surf-instructor community sharing waves with guests; standard etiquette - don't drop in, take turns, learn the priority rotation at each break; smile and chat with locals - many speak surf English",
+    "localism_intensity": "Low to medium - Lombok lineups are noticeably more relaxed than Bali Bukit; locals welcoming to respectful visitors; Mawi and outside reefs can get slightly more competitive when small swell concentrates everyone on one peak",
+    "respect_protocol": "Be respectful to Sasak Muslim culture - dress modestly off-beach (cover shoulders and knees in villages), avoid public alcohol in conservative areas, observe Ramadan fasting hours discreetly during fasting month; tip boat captains and surf-instructor guides; do not damage reef; engage with local culture (Sasak weaving villages, Pura Batu Bolong)",
+    "religious_sensitivity": "Predominantly Sasak Muslim community on Lombok (mosques broadcast call to prayer five times daily); dress modestly in villages and Kuta town; Ramadan and Eid observance important - some warungs close during daytime; Nyale Festival (annual Sasak sea-worm festival on south coast - February/March) is a major cultural event",
+    "medical_nearby": "In Kuta Lombok: Mandalica Clinic (24/7 in Kuta Pujut Center, English-speaking, modern facilities), Kuta Emergency Medical (24/7 doctors on standby, handles reef cuts, stitches, malaria prophylaxis); nearest hospital: Siloam Hospitals Mataram ~60 min drive (gold standard care, emergency dept, English-speaking specialists); Rumah Sakit Umum Provinsi NTB also in Mataram; serious cases evacuated to BIMC/Siloam Bali by air ambulance",
+    "rescue_jet_ski_available": "No - no permanent rescue jet ski on duty at cluster spots; surf schools and boat operators provide informal water safety; Gerupuk Bay has local boats acting as on-water support",
+    "emergency_contact": "Indonesia general emergency: 112; Mandalica Clinic Kuta: see mandalica-clinic.com for 24/7 hotline; Kuta Emergency Medical: kutaemergency.co.id; Siloam Mataram +62 370 6175000; BIMC Bali (for evacuation) +62 361 3000 911"
+  },
+  "services": {
+    "accommodation_options": "Wide range in Kuta Lombok town and surrounding: Nalua Surf Camp (boutique 6-room camp), KuraSurf Resort (resort-style surf camp), 360 Surf Academy & Surf Lodge, LMBK Surf House, Roots Lombok, Rapture Camps Lombok, LoTide Surf Camps, DHM Surf Camp; Mawi area: Sundays Lombok, Mawi Bay homestays; Ekas area: Ekas Surf Resort (mid-high range with private breaks access); Selong Belanak: beach villas and budget guesthouses",
+    "webcam_url": "Surfline spot pages exist for individual breaks: Mawi (https://www.surfline.com/surf-report/mawi/640a6815e9203029d5a794b1), Gerupuk Inside, Selong Belanak; live cams sporadic - some surf schools post daily report videos on Instagram [uncertain]",
+    "surf_photographer_available": "Yes - most Kuta Lombok surf schools offer add-on photo/video packages with drone and water shoots; freelance photographers shoot at Gerupuk and Mawi regularly during peak season"
+  },
+  "pricing": {
+    "avg_lesson_price": "Beginner group lessons IDR 500,000-700,000 (~USD 32-45) for 2 hrs incl. board, transport, instructor; Roy Reef IDR 550,000; Glassy Waves IDR 500,000; Rama Surf 4-pack discount IDR 450,000/lesson; private lessons typically IDR 800,000-1,200,000",
+    "board_rental_daily": "Foam beginner boards: IDR 150,000-250,000/day; fiberglass longboards: IDR 250,000-400,000/day; shortboards: IDR 150,000-300,000/day; scooter rental ~IDR 50,000-100,000/day for transport between spots"
+  },
+  "sustainability": {
+    "water_quality_rating": "Generally good - south Lombok has limited urban runoff compared to Bali; Selong Belanak and Mawi clean year-round; Gerupuk Bay has some boat traffic and seaweed farming activity but water remains acceptable; wet season runoff minor"
+  },
+  "events_community": {
+    "annual_competition_window": "Krui Pro / Lombok Pro events have occurred at Mawi and Gerupuk in past years - WSL QS and Asian Surfing Championships have visited South Lombok; Nyale Bau Sasak Festival (Feb/Mar) is the major annual cultural event on the south coast [uncertain on current pro schedule]",
+    "community_events": "Local Sasak weaving and Nyale (sea-worm) festival (Feb/March); surf-camp community dinners; beach clean-ups organized by camps; informal contest days between surf schools"
+  },
+  "uncertain": [
+    "webcam_url",
+    "annual_competition_window"
+  ]
+}

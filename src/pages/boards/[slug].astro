@@ -1,0 +1,158 @@
+---
+/**
+ * Individual Board entry pages.
+ * Generates /boards/{slug} for each of the 33 entries.
+ */
+import Base from '../../layouts/Base.astro';
+import { db, Boards } from 'astro:db';
+
+export async function getStaticPaths() {
+  const spots = await db.select().from(Boards);
+  return spots.map(spot => ({
+    params: { slug: spot.id },
+    props: { spot },
+  }));
+}
+
+const { spot } = Astro.props;
+const data = spot.content;
+
+const bi = data.basic_info || {};
+const nameRaw = bi['名稱'] || spot.id.toUpperCase();
+const sub = bi['分類'] || '';
+const fit = spot.fit || '';
+const positioning = bi['一句話定位'] || '';
+const groupLetter = spot.group || spot.id.toUpperCase()[0];
+
+// Group info
+const groupLabels: Record<string, string> = {
+  A: '浪況情境', B: '騎手程度', C: '板型分類', D: '品牌板款', E: '特殊情境'
+};
+const groupClasses: Record<string, string> = {
+  A: 'tag-ocean', B: 'tag-teal', C: 'tag-verm', D: 'tag-must', E: 'tag-blood'
+};
+
+// Build sections from known nested keys
+type Section = { title: string; entries: [string, string][] };
+const sections: Section[] = [];
+
+const sectionConfigs: [string, string][] = [
+  ['buoyancy_strategy', '浮力策略 / Buoyancy Strategy'],
+  ['shape_details', '版型細節 / Shape Details'],
+  ['fin_setup', '鰭片配置 / Fin Setup'],
+  ['construction', '構造 / Construction'],
+  ['conditions_fit', '適合條件 / Conditions Fit'],
+  ['performance', '性能 / Performance'],
+  ['practical_selection', '實用選擇 / Practical Selection'],
+  ['pro_reference', '職業選手參考 / Pro Reference'],
+  ['local_taiwan_context', '台灣浪點 / Local Taiwan Context'],
+];
+
+for (const [key, title] of sectionConfigs) {
+  const source = (data as any)[key];
+  if (!source || typeof source !== 'object') continue;
+  const entries: [string, string][] = [];
+  for (const [fKey, val] of Object.entries(source)) {
+    if (val == null || val === '') continue;
+    if (typeof val === 'object') continue;
+    entries.push([fKey.replace(/_/g, ' '), String(val)]);
+  }
+  if (entries.length > 0) {
+    sections.push({ title, entries });
+  }
+}
+
+// Short name extraction
+function shortName(s: string): string {
+  const i = s.indexOf(' (');
+  return i > 0 ? s.slice(0, i).trim() : s.trim();
+}
+const displayName = shortName(nameRaw);
+---
+
+<Base
+  title={`${spot.id.toUpperCase()} · ${displayName} — 小浪短板研究 · 衝浪研究室`}
+  description={`${displayName} — ${positioning.slice(0, 120)}. 衝浪研究室 Board Lab Issue 003.`}
+>
+  <link slot="head" rel="stylesheet" href="/styles/issue.css" />
+  <style>
+    .entry-page { max-width: 840px; margin: 0 auto; padding: 28px; }
+    .entry-crumb {
+      font-family: var(--mono); font-size: 10.5px; letter-spacing: .14em;
+      text-transform: uppercase; display: flex; gap: 8px; align-items: center;
+      padding-bottom: 16px; border-bottom: 1.5px solid var(--ink); flex-wrap: wrap;
+    }
+    .entry-crumb a { color: var(--ink-soft); text-decoration: none; }
+    .entry-crumb a:hover { color: var(--vermillion); }
+    .entry-crumb .sep { opacity: .4; }
+    .entry-head { padding: 28px 0 20px; border-bottom: 3px double var(--ink); }
+    .entry-head .entry-id {
+      font-family: var(--mono); font-size: 13px; letter-spacing: .08em;
+      color: var(--vermillion-d); margin-bottom: 6px;
+    }
+    .entry-head h1 { font-family: var(--display); font-size: clamp(32px, 5vw, 48px); line-height: .95; margin: 0 0 10px; }
+    .entry-head .positioning {
+      font-family: var(--serif); font-size: 15px; font-style: italic;
+      color: var(--ink-soft); line-height: 1.55; margin-top: 8px;
+    }
+    .entry-head .tagrow { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 12px; }
+    .entry-section { border-bottom: 1px solid var(--ink); padding: 20px 0; }
+    .entry-section h3 { font-family: var(--display-3); font-size: 14px; letter-spacing: .08em; text-transform: uppercase; margin: 0 0 14px; color: var(--vermillion-d); }
+    .entry-kv { display: grid; grid-template-columns: 220px 1fr; gap: 2px 18px; }
+    .entry-kv .k { font-family: var(--mono); font-size: 10.5px; letter-spacing: .1em; text-transform: uppercase; padding: 8px 0; color: var(--ink-soft); border-bottom: 1px dashed var(--ink); }
+    .entry-kv .v { font-family: var(--serif); font-size: 14px; line-height: 1.55; padding: 8px 0; border-bottom: 1px dashed var(--ink); word-break: break-word; }
+    .entry-kv .v:last-child, .entry-kv .k:nth-last-child(2) { border-bottom: 0; }
+    .entry-back { padding: 24px 0; display: flex; justify-content: space-between; font-family: var(--mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; }
+    .entry-back a { color: var(--ink); text-decoration: none; padding: 6px 12px; border: 1.5px solid var(--ink); transition: all .15s; }
+    .entry-back a:hover { background: var(--ink); color: var(--paper); }
+    @media (max-width: 600px) {
+      .entry-page { padding: 16px; }
+      .entry-kv { grid-template-columns: 1fr; }
+      .entry-kv .k { padding: 6px 0 2px; border-bottom: 0; }
+      .entry-kv .v { padding: 0 0 8px; }
+      .entry-head h1 { font-size: 28px; }
+    }
+  </style>
+
+  <div class="entry-page">
+    <nav class="entry-crumb">
+      <a href="/">衝浪研究室</a>
+      <span class="sep">/</span>
+      <a href="/boards">No. 003 · BOARD LAB</a>
+      <span class="sep">/</span>
+      <span>{spot.id.toUpperCase()} · {displayName}</span>
+    </nav>
+
+    <header class="entry-head">
+      <div class="entry-id">{spot.id.toUpperCase()} · {sub}</div>
+      <h1>{displayName}</h1>
+      {positioning && <div class="positioning">{positioning}</div>}
+      <div class="tagrow">
+        <span class={`tag ${groupClasses[groupLetter] || 'tag-ink'}`}>
+          {groupLetter} · {groupLabels[groupLetter] || ''}
+        </span>
+        {fit && <span class="tag tag-ink">{fit}</span>}
+      </div>
+    </header>
+
+    {sections.map(section => (
+      <section class="entry-section">
+        <h3>{section.title}</h3>
+        <div class="entry-kv">
+          {section.entries.map(([k, v]) => (
+            <>
+              <div class="k">{k}</div>
+              <div class="v">{v}</div>
+            </>
+          ))}
+        </div>
+      </section>
+    ))}
+
+    <div class="entry-back">
+      <a href="/boards">← 回到 BOARD LAB</a>
+      <a href="/">回到主期刊</a>
+    </div>
+  </div>
+
+</Base>

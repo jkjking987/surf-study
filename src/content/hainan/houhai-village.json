@@ -1,0 +1,103 @@
+{
+  "id": "houhai_village",
+  "basic_info": {
+    "name": "Houhai Village (Houhai Bay) / 三亞·後海村 (后海湾)",
+    "location": "Houhai Village, Tenghai Community, Haitang Bay Town, Haitang District, Sanya City, Hainan Province; ~45 km northeast of Sanya downtown, adjacent to Wuzhizhou Island ferry terminal",
+    "operator": "Self-organized surf village; no single operator; 70+ surf clubs and guesthouses run independently; pioneer instructor Yang Xingfu (楊興福, ISA-certified, started teaching 2015) considered founder of village surf scene; managed under Haitang District / Sanya Tourism Board",
+    "opening_date": "N/A (natural surf spot; surf scene developed organically since ~2008-2015)",
+    "status": "operating",
+    "category": "natural_surf_spot"
+  },
+  "technical_specs": {
+    "wave_technology_brand": "N/A (natural waves)",
+    "pool_size": "Crescent-shaped sheltered bay extends ~2-3 km of beach; main surf zone ~500 m wide [uncertain]",
+    "wave_height": "Seasonal average 0.3-1.5 m; gentle year-round (avg 0.5-1 m); larger 1-2.5 m during typhoon swells (Aug-Oct) and winter NE swells",
+    "wave_height_adjustability": "Not adjustable (natural ocean swell); naturally small and forgiving due to bay's sheltered geometry",
+    "wave_types": "Beach break over sand with both left and right peelers; mostly soft, mellow whitewater and shoulder waves ideal for beginners; small clean waves suit longboard cruising; rare bigger swells offer intermediate face waves",
+    "waves_per_hour": "N/A (natural surf spot)",
+    "wave_count_per_set": "N/A (natural ocean sets, typically 2-4 waves per set with 6-10 second intervals) [uncertain]",
+    "session_length": "N/A (open ocean access; surf school lessons typically 120 minutes)",
+    "stance_rotation_schedule": "N/A (beach break with both lefts and rights; no daily rotation needed)",
+    "wave_type_classification": "Beach break over sand; sheltered, year-round mellow waves; ideal for soft-top longboards and beginner foamies"
+  },
+  "pricing_sessions": {
+    "price_range": "Free open-ocean access; surf lessons typically 200-400 RMB per session including board and rashguard; private lessons 320-500 RMB",
+    "session_skill_tiers": "Group lesson (3 people, 2 hours) ~130 RMB + 5 RMB insurance per person; standard group ~200-300 RMB; private 1-on-1 ~320-500 RMB; intensive multi-day camps 800-2,000 RMB",
+    "equipment_rental": "Surfboard rental ~100 RMB/day; rashguard often included; daily packages with board until 7 PM common at most shops; wetsuit rarely needed but available ~40-50 RMB",
+    "coaching_fee": "Group lesson 200-400 RMB per person (2 hours); private lesson ~320-500 RMB; package often includes board rental until 7 PM, rashguard, face zinc, GoPro video",
+    "coaching_packages": "Day pass (lesson + board until 7 PM + rashguard + GoPro footage) ~300-400 RMB; multi-day camps 1,500-3,000 RMB; couple/family packages negotiable [uncertain]",
+    "membership_program": "Many shops sell 10-session punch cards at ~1,500-2,500 RMB; informal monthly memberships at popular clubs [uncertain]",
+    "corporate_team_building": "Numerous surf clubs accept team-building groups; common minimums 10-20 people; pricing 200-400 RMB per person plus group catering [uncertain]"
+  },
+  "experience_guide": {
+    "best_season": "Year-round surfable (~200+ surfable days); best gentle waves April-October for beginners; larger waves November-March (NE monsoon) and August-September (typhoon swells)",
+    "best_swell_window": "Year-round mild swells: NE-E winter swells (Nov-Mar) bring cleanest 0.8-1.5 m days; SE/S summer swells (May-Oct) provide gentle small waves; typhoon groundswells Aug-Oct can deliver 1.5-2.5 m days (beach may close for safety)",
+    "crowd_level": "Very crowded in peak winter (Nov-Feb) and Chinese holidays (National Day, Spring Festival) with hundreds of beginners simultaneously; moderate weekday crowds in summer; early morning (6-8 AM) least crowded",
+    "booking_method": "Walk-in at any beachfront surf club; online via Dianping (大眾點評), Meituan, Xiaohongshu, WeChat mini-programs of individual schools, or Trip.com/Ctrip",
+    "booking_platform": "Dianping (大眾點評), Meituan (美團), Xiaohongshu (小紅書), Trip.com / Ctrip (攜程), WeChat mini-programs",
+    "payment_options": "WeChat Pay and Alipay universally accepted; cash accepted; international credit cards rarely accepted at village-level shops",
+    "skill_required": "Zero-base beginners welcome and form majority of users; intermediate surfers also enjoy small-day longboarding; not suitable for advanced surfers seeking power",
+    "age_eligibility": "Most schools accept kids 6+ with parental supervision; no upper age limit; participants must be able to swim or wear flotation",
+    "child_friendly_score": "5/5 - shallow sandy bay where you can walk far out and still touch sand; gentle waves; many schools offer dedicated kids lessons and soft-top boards; family-friendly environment",
+    "sup_paddleboard_offering": "Yes - SUP rentals and lessons widely available at most surf clubs",
+    "photography_video_service": "Many lesson packages include free GoPro session footage; standalone photo/video service ~100-300 RMB; drone shoots ~300-500 RMB [uncertain]",
+    "language_support": "Limited English; some clubs (e.g., foreign-frequented shops) have English-speaking coaches; Mandarin dominant; Russian heard at some shops",
+    "accessibility_for_disabled": "No formal adaptive surfing program; sandy beach access; some surf hostels have ground-floor rooms but not certified accessible [uncertain]",
+    "stance_preference_input": "Not required when booking; both lefts and rights available so stance is irrelevant",
+    "safety_notes": "Generally safe shallow sandy bottom; main hazards are crowding (board collisions), strong sun, and typhoon-period closures; lifeguards on main beach during peak hours; some schools provide insurance for ~5 RMB; ISA-certified coaches at top clubs (founder Yang Xingfu and others)",
+    "events_competitions_calendar": "Hosts smaller-scale Hainan Provincial qualifiers, surf festivals, and brand events (e.g., Vans, Quiksilver demos); no major WSL/ISA tour stop (those are at Riyue Bay); annual surf-village beach parties [uncertain]"
+  },
+  "surroundings": {
+    "nearby_accommodation": "70+ surf-themed guesthouses and hostels in Houhai Village ranging 80-300 RMB (hostel dorms) to 300-700 RMB (private rooms); examples: Elaine Seaview Surf Design Guesthouse from ~$12 (~85 RMB), Jile Surfing Inn from ~$20 (~140 RMB), Yunhai Jingqi Surf Hostel from ~$29 (~210 RMB); average one-night stay ~$47 (~340 RMB)",
+    "on_site_accommodation": "Sanya Houhai Surfing Sea View Resort Homestay; Homecoming Seascape Surfing Vacation; numerous surf-school operated guesthouses with packages combining lodging + lessons [uncertain pricing details]",
+    "nearby_food": "Tanka seafood (freshly caught with yellow chili and sour orange dip), Hainanese snacks (qingbuliang 清補涼, baoluo noodles 抱羅粉), street BBQ, fresh coconut, SASA de Sea (local cuisine), Surf House Cafe, fishing village night market; per-person spend 50-150 RMB",
+    "transport": "Self-drive ~40 minutes from Sanya downtown; Didi/taxi widely available; Bus 28 to Wuzhizhou Island stop + 10-min walk; high-speed train to Yalongwan Station (~110 RMB from Sanya) then Didi ~30 RMB",
+    "transport_to_nearest_airport": "~50 km / ~50-60 minutes drive from Sanya Phoenix International Airport (SYX); ~30 minutes from Sanya central station; ~10 minutes from Wuzhizhou Island ferry; high-speed rail to Yalongwan Station (~110 RMB) + 30-min Didi",
+    "combined_itinerary": "Houhai surf + Wuzhizhou Island (蜈支洲島) snorkeling + Haitang Bay duty-free shopping + Yalong Bay beach + Atlantis Sanya resort; 2-4 day Sanya beach + surf itinerary"
+  },
+  "reviews_reputation": {
+    "pros": [
+      "China's most beginner-friendly surf spot with shallow, sheltered bay and gentle waves",
+      "Highest density of surf shops/clubs (70+) in China; easy walk-in lessons and gear",
+      "Year-round surfable conditions (~200+ days/year)",
+      "Vibrant fishing-village atmosphere with cafes, bars, night market, and beach parties",
+      "Affordable accommodation and lessons; budget-friendly compared to Riyue Bay or international spots"
+    ],
+    "cons": [
+      "Extremely crowded in peak season; collisions and queueing in lineup common",
+      "Waves too small/soft for intermediate-advanced surfers seeking power or barrels",
+      "Surf school quality varies wildly; many inexperienced coaches with quick certification",
+      "Increasing commercialization eroding original fishing-village charm",
+      "Limited English; foreign visitors must rely on translation apps"
+    ],
+    "user_reviews": "Trip.com / Tripadvisor: 4.0-4.5/5; Xiaohongshu (小紅書) features thousands of viral 'Houhai surf girl' posts making it a top Chinese surf destination; Dianping shows generally positive reviews praising vibe and accessibility but flagging crowding and inconsistent coaching quality; Lonely Planet describes it as a relaxed laid-back village",
+    "recommended_for": "Beginners and first-time surfers; family/parent-child trips; couples seeking surf+nightlife combo; social media/photo punters; longboarders; surf-vacation groups; budget travelers",
+    "operator_brand_partnership": "Sanya Tourism Board promotes Houhai as official surf village destination; pioneer school Yang Xingfu Surf Club ISA-affiliated; brand demos by Vans, Quiksilver, Roxy at periodic events; no single corporate operator [uncertain]"
+  },
+  "verification": {
+    "existence_verified": "true",
+    "verification_sources": [
+      "https://english.news.cn/20240608/15ae489cdde64845b70546e73544970a/c.html",
+      "https://www.visitsanya.com/destination/houhai-village",
+      "https://chinawondersguide.com/china-surfing-houhai-sanya/",
+      "https://traveldayztravel.com/surfing-houhai-bay-hainan-beginners/",
+      "https://www.surfnerd.com/surf-forecast/houhai",
+      "https://www.lonelyplanet.com/china/hainan/sanya/attractions/houhai-beach/a/poi-sig/1497514/356015",
+      "https://www.westchinago.com/sanya-houhai-village-surfing",
+      "https://us.trip.com/travel-guide/new-attraction/sanya/haitang-bay-houhai-surfing-base-118822216/"
+    ],
+    "last_updated": "2026-05-15"
+  },
+  "uncertain": [
+    "pool_size",
+    "wave_count_per_set",
+    "coaching_packages",
+    "membership_program",
+    "corporate_team_building",
+    "photography_video_service",
+    "accessibility_for_disabled",
+    "events_competitions_calendar",
+    "on_site_accommodation",
+    "operator_brand_partnership"
+  ]
+}

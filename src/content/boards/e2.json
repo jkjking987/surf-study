@@ -1,0 +1,99 @@
+{
+  "id": "E2",
+  "basic_info": {
+    "名稱": "大體重騎手小浪解方 (85kg+) (Heavy/Big-Guy Small Wave Solution for 85-110kg+ Riders)",
+    "分類": "特殊情境 — 大體重族群 (85-110kg+) 在小浪/軟浪情境的板型與構造調整邏輯",
+    "適用程度": "全程度 (初學至進階都需依此邏輯調整,只是 GF 不同)",
+    "一句話定位": "85kg+ 騎手小浪策略 = 浮力拉高 + 寬厚度修正 + 維持板長 + glassing 三軸同步調"
+  },
+  "buoyancy_strategy": {
+    "Guild_Factor_GF": "大體重騎手 GF 必須 +0.02-0.04 修正 (相比歐美 70kg 模板):85kg 進階 GF 0.40-0.42 (= 34-36L)、85kg 中階 GF 0.44-0.48 (= 37-41L);95kg 進階 GF 0.42-0.45 (= 40-43L)、95kg 中階 GF 0.46-0.50 (= 44-48L);105kg 進階 GF 0.45-0.48 (= 47-50L)、105kg 中階 GF 0.50-0.55 (= 53-58L);體脂高者再 +0.02-0.04。Goliath Fins (Big Guy Boards) 創辦人 Scott 主張:'重騎手不能照標準浮力表 — 加速力不足是關鍵'。",
+    "浮力公式": "大體重小浪基準公式:體重(kg) × 0.45-0.50 = L。85kg → 38-42L;95kg → 43-48L;105kg → 47-52L。若軟浪 < 2ft 再 +3-5L (Goliath 觀點:'重騎手小浪必須無條件加 foam under feet')。EPS 構造可 -2L (浮力感增益)。",
+    "相對日常板浮力增量": "大體重小浪板相對日常 HPSB 浮力 +25-35% (vs. 一般騎手 +10-20%)。例:90kg 進階日常 HPSB 約 38L → 小浪板應 48-50L (+25-30%);中階騎手再多 +5L。Boardcave Big Guy guide 建議:'大體重小浪寧可多 5L 也不可少 3L'。",
+    "浮力範圍_體重對照": "85kg 進階:38-42L (例 Sub Driver 2.0 Bro Dims 6'4\"-6'6\" ≈ 38-41L / CI Average Joe 6'4\" custom ≈ 42L / Hypto Krypto 6'2\" = 38.4L);85kg 中階:42-46L (Average Joe 6'5\" custom / CI Mid 6'8\" = 40.2L / JS Big Baron 6'6\");95kg 進階:43-48L (Sub Driver Bro Dims 6'6\"-6'8\" ≈ 41-43L 略小 / Average Joe 6'6\" ≈ 48L / CI Mid 7'0\" = 44.9L);95kg 中階:48-53L (Average Joe 6'8\" custom ~50L+ / CI Mid 7'0\" + / JS Big Baron 6'8\");105kg+ 進階:50-55L+ (custom 大尺寸 Big Guy 板 / Average Joe 6'8\" custom 大版 ~60L / Goliath 線);105kg+ 中階:55-65L (專屬 Big Guy 訂製);110kg+ 直接走 Big Guy Boards 訂製或長板 (7'6\"+)。Goliath Fins 觀點:'< 110kg 仍可用 6'4\"-6'8\" 短板,> 110kg 才需 7'0\"+';Average Joe 一個著名 custom 案例為 6'8\"×24\"×3 3/8\" ~60L。",
+    "小浪修正係數": "大體重騎手小浪修正係數 +3-5L (vs. 一般騎手 +3L);軟浪 (< 2ft) 再 +2L;groveler 板款應預設已含 +5L 大體重修正。Big Guy Boards 強調 'no exceptions in small waves' — 重騎手在小浪一定要拉浮力。",
+    "BMI_體脂修正": "高 BMI 肌肉型 (BMI > 28 但體脂 < 18%):浮力可取下限 (該體重區間 -2-3L),因肌力能彌補,且過厚 rail 反而失感覺;高 BMI 脂肪型 (體脂 > 25%):浮力取上限 +3-5L,且寬厚度配合,因加速力不足;低 BMI 偏瘦但身高高 (185cm+, 體重 80-85kg):浮力取中位但板長加 (taller-leaner 用加長加寬 vs. 加厚)。",
+    "年齡_體能修正": "大體重 + 年齡 >40 雙重加成 — 浮力再 +5-10%。例 90kg + 45 歲中階 → 從 GF 0.46 進階到 GF 0.50-0.52 (= 45-47L),這是台灣許多 'dad surfer' 真實情境。心肺下降 + 體脂自然上升雙重影響需要更積極補償。",
+    "品牌計算器差異": "(1) Firewire 計算器較準 (有 EPS 修正);(2) CI / Lost 計算器普遍偏低於大體重騎手 — Sub Driver Bro Dims 標榜 'for surfers needing more volume' 已部分修正但仍建議實際 +2L 取板;(3) JS Industries 有 Big Baron 系列直接列出 'beefed-up version for beginners' 二級 size chart,對大體重相對友善;(4) Channel Islands Average Joe 計算器幾乎是業界對大體重最友善 (官網標榜 'big guys'),但仍建議大體重新手 custom +3-5L;(5) Boardcave Big Guy 區為大體重騎手取板最佳 reference。",
+    "亞洲體型修正": "亞洲大體重騎手 (台灣 / 日本 / 韓國 85-95kg) 比歐美同體重者通常身高略矮 (170-178cm vs. 178-185cm),因此浮力可比歐美 chart -2-3L 取下限;但若身高低於 170cm 且體重 90kg+ 屬肌肉/脂肪雙重,foam 仍需足量,寬厚度尤其重要。"
+  },
+  "shape_details": {
+    "Length 板長": "大體重小浪板長三策略 — (a) 維持板長 + 加寬加厚 (推薦):6'2\"-6'8\" 主流,Sub Driver Bro Dims 6'4\"-6'8\" / Hypto Krypto 6'2\"-6'4\" / Average Joe 6'4\"-6'6\";(b) 加長到 mid-length:CI Mid 7'0\"-7'6\" / JS Big Baron 6'8\"-7'0\";(c) 加長到 funboard/longboard:7'6\"-9'0\" (僅初學階段)。Rusty Surfboards 觀點:'shorter stockier 用加厚、taller leaner 用加長加寬'。重點:小浪維持 6'2\"-6'8\" 板長並透過加寬加厚拉浮力,比直接跳 7'0\"+ 長板更利於 carve。",
+    "Width 板寬": "大體重小浪板寬:85kg = 20.5\"-21.5\";95kg = 21\"-22.5\";105kg+ = 22\"-24\"。Average Joe 6'1\" = 22 7/8\" (47.5L);Sub Driver 2.0 Bro Dims 6'4\" 約 21\"-21.5\";Hypto Krypto 6'2\" = 20.75\" (一般大體重稍嫌窄);custom Average Joe 6'8\" = 24\"。Boardcave 觀點:'width is your friend for bigger surfers'。",
+    "Thickness 板厚": "大體重小浪板厚:85kg = 2.625\"-2.875\";95kg = 2.75\"-3\";105kg+ = 3\"-3 1/2\"。Average Joe 6'1\" = 3\";Sub Driver Bro Dims 6'8\" ≈ 2.82\";CI Mid 7'0\" = 2.75\";custom Average Joe 6'8\" = 3 3/8\"。重點:'thickness adds buoyancy but reduces flex/sensitivity' (Greenlight Surf 觀點),所以厚度為輔、寬度為主。",
+    "Nose_Rocker": "大體重小浪 nose rocker ~4.5-5\" (低於一般 HPSB 5-5.5\");Sub Driver Bro Dims / Average Joe / Hypto Krypto 等大體重友善板款都採 relaxed entry rocker;Rusty Surfboards 建議:'less rocker = easier paddle for bigger surfers';目的:讓 paddle 更輕鬆 + early take-off (大體重靠速度爬上浪)。[uncertain 確切吋數]",
+    "Tail_Rocker": "大體重小浪 tail rocker ~2.25-2.5\" (低於一般 HPSB 2.75-3\");Goliath Fins / Jamboards 討論:'bigger surfer flatter tail rocker' 共識 — 'the weight IS the tail rocker';重騎手腳下力量重壓尾段,板會自然產生 release angle,過多 tail rocker 反而會 stall;Average Joe / Sub Driver Bro Dims / CI Mid 都採低尾 rocker。[uncertain 確切吋數]",
+    "Entry_Rocker": "大體重小浪板 entry rocker 偏平 (flat/relaxed entry) 為主流策略 — 寬鼻 + flat entry 讓重騎手 paddle 早上浪;代價是極陡浪 nose pearl 風險;為對抗 pearl,nose width 同步加寬補償。Hypto Krypto / Average Joe / Sub Driver Bro Dims 都採此設計。",
+    "Wide_Point_Position": "大體重小浪 wide point 中心或中心前 0.5-1.5\" (前移有利 paddle);Average Joe wide point 明顯前移;Mid-length 派 (CI Mid) wide point 在中心 (egg outline);custom Big Guy 板可進一步要求 wide point 前移以增加 catch wave 能力。[uncertain 確切位置]",
+    "Nose_Width_at_12_inch": "大體重小浪板鼻段 12\" 處寬度:85kg = 12.5-13\";95kg = 13-13.5\";105kg+ = 13.5-14.5\";Average Joe nose 設計明顯寬 (作為招牌 grovel-friendly);Sub Driver Bro Dims 鼻寬比 Pro Dims 加寬 ~0.25-0.5\"。[uncertain 確切吋數]",
+    "Tail_Width_at_12_inch": "大體重小浪板尾段 12\" 處寬度:85kg = 15.5-16\";95kg = 16-16.5\";105kg+ = 16.5-17.5\";Average Joe / Hypto Krypto 尾段 12\" 處寬度為招牌;Sub Driver Bro Dims 比 Pro Dims 尾段加寬 ~0.25\";Big Guy 板尾段寬比一般 +1\"-1.5\"。[uncertain 確切吋數]",
+    "Bottom_Contour 板底設計": "大體重小浪板底設計 — single concave (深 1/8-3/16\") 過渡到 double concave (1/16-1/8\") 過渡到 V 尾段為最常見;深 single concave 能對抗大體重壓力產生 lift;Hypto Krypto / Sub Driver Bro Dims 採此配置;Average Joe 為 grovel 取向 single-to-double + 較淺 V;CI Mid (mid-length) 採 subtle single + belly + V。Goliath 文章建議重騎手選 deeper concave 以對抗 displacement。",
+    "Tail_Shape 板尾形狀": "大體重小浪板尾常見 squash / wide squash / round / round-pin;groveler 取向用 wide squash / swallow (Average Joe / Hypto Krypto 6'2\");mid-length 派用 round-pin (CI Mid);避免極窄 pin tail (大體重 carve hold 不夠);swallow 在小浪 release 好但需配合寬尾 + 厚度才適合大體重。",
+    "Rail_Profile": "大體重小浪板 rail — 中段 boxy + 尾段 down rail / tucked-under-edge 為主流;Goliath Fins 觀點:'重騎手不要選 thin knife rail 在小浪 — paddle 受損';Average Joe / Sub Driver Bro Dims 採 medium-full rail 中段、down rail 尾段;Hypto Krypto 招牌 'low tucked rails' 因 wider/thicker rider 也適用。",
+    "Rail_Volume_Distribution": "大體重小浪板 rail volume 須均勻分布並偏 full — 中段集中提供 paddle 餘量、前後段也要有足夠 rail 體積讓 carve 時不會掉 rail;比一般騎手板更 full rail。Custom 大體重 Average Joe / Big Guy Boards 訂製板特別強調 'beefed rail throughout'。",
+    "Foam_Distribution": "大體重小浪板 foam 分布:胸下集中 + 均勻型混合 — 胸下足量 (paddle 餘量) + 中段腳下足量 (carve 時不下沉) + 尾段適度 (release 好);Surfline 'Displacement Theory' 觀點:big-guy 短板需要 displacement 重新分布,不能只在胸下集中。Average Joe / Sub Driver Bro Dims 都採此策略。",
+    "Outline 輪廓曲線": "大體重小浪板 outline — wide-point central + parallel rail 為主流 (Hypto Krypto / Average Joe);完全 parallel rail (egg outline, CI Mid) 也適用 mid-length 派;比一般騎手板更 parallel (更直腰) — 因為大體重要的是 paddle 與 catch wave,不是極致 carve curve。"
+  },
+  "fin_setup": {
+    "主要_Setup": "大體重小浪 fin setup — thruster 為主 (drive + control 平衡);quad 為次選 (looseness + speed);2+1 用於 mid-length;避免 pure twin (大體重 backside hold 不足)。Goliath Fins 主推 thruster XL template;Sub Driver Bro Dims / Average Joe 標配 thruster。",
+    "Fin_Cant": "大體重 fin cant 略陡 (5-6.5°) 利於 carve drive — Goliath Fins XL Thruster 設計 6° cant + upright template;一般大體重不要用 < 4° cant (drive 不足);> 7° cant (looseness 過大失控)。",
+    "Fin_Toe": "大體重 fin toe 採標準 1/8\" (thruster) 或 1/16\" (quad rear) — 過大 toe (3/16\") 會讓重騎手在小浪轉向過 squirrelly;標準設定即可。",
+    "Fin_Foil": "大體重推薦 inside foil side fin + 50-50 trailer — inside foil 提供 lift (對抗重騎手 displacement) + drive;Goliath XL Carbon thruster 採 inside foil 配置。",
+    "Fin_Rake_Sweep": "大體重小浪推薦 upright template (less rake) — Goliath XL 招牌 upright design 'helps get board on rail and tighten turning arc';avoids 大 rake 在小浪轉不動的問題。FCS II 對應板有 Sharp Eye / John Florence Tri Fin 系列 upright XL。",
+    "Fin_Area_Template": "大體重 fin area 加大為核心策略 — Goliath XL Thruster / XL Quad / XL Split Keel Quad / XL 5-Fin / XXL 5-Fin (110kg+ 級) 是業界唯一專為重騎手設計的全系列大 area fin;對照 FCS II / Futures 內部最大 area 為 L template (大部份品牌 L 仍不夠重騎手 90kg+)。Goliath XXL 適合 110kg+ 騎手;XL 適合 85-110kg。一個 225 lbs (~102kg) 騎手評論:'never felt like I could push through turns harder';另一個 260+ lbs (115kg+) 評論者:'之前 fin 都會 overpower,現在解決了'。",
+    "Quad_Rear_Position": "大體重 quad 設定 — rear fin 靠 rail 約 3/8-1/2\" 利於 looseness + speed 小浪;若需要更多 hold 移到 1/4\";Goliath Split Keel Quad 設計提供 keel + 一般 quad rear 雙重感受。",
+    "2plus1_vs_PureTwin": "大體重 mid-length 一致採 2+1 (CI Mid 7'0\" / JS Big Baron) — single trailer 提供主要 drive、side bites 補 hold;純 twin 不推薦給大體重 (backside hold 不足、release 後失控)。CI Mid Twin 6'9\" 雖有 twin 變體但限 75kg 以下中階建議。"
+  },
+  "construction": {
+    "PU_PE 在小浪": "大體重 PU/PE 構造優劣 — 優點:dampened feel 對重騎手特別有效 (chatter 少)、carve 可預測、入水穩、價格低;缺點:重量重 (大體重 + 重 PU 板 = paddle 負擔)、glassing 加重後尤甚。一般大體重騎手中階以下可選 PU (耐用、價格)、進階建議轉 EPS。",
+    "EPS_Epoxy 在小浪": "大體重 EPS/Epoxy 構造優劣 — 優點:輕 15-25% (大體重 + 輕板 = paddle 救星)、pump 效率高 (重騎手靠 pump 加速時感受明顯)、同浮力感覺高 +3-4% (可少取 2L 也夠用);缺點:chatter 感 (重騎手腳下感受到震動)、極淺 reef ding 風險、價格高。大體重小浪建議首選。",
+    "HD_EPS": "大體重首推 HD-EPS 構造 — Firewire Helium / Haydenshapes FutureFlex / Lost Lightspeed II / Sharp Eye E3 Lite。原因:(1) 比一般 EPS 耐重騎手腳下壓痕;(2) carbon parabolic / 強化骨架對抗重騎手 carve 扭力;(3) 介於 PU 與 EPS 之間 dampening 對重騎手 chatter 抑制效果。Hypto Krypto FutureFlex 為業界大體重小浪 OBQ 標竿。Big Guy Boards / Goliath 創辦人 Scott 推薦 HD-EPS 構造為重騎手最佳投資。",
+    "Glassing_Schedule": "大體重小浪板 glassing 必加重 (三軸調整之一) — 標準 6+6 / 6 (deck 雙 6oz + bottom 6oz) 為大體重黃金配方;極端耐用 6+6+4 / 6+6 (deck 三層 + bottom 雙層);輕量 4+4 / 4 絕對禁用大體重 (一個 carve 就 pressure dent);PU 構造大體重最少 6+4 / 6;EPS 構造大體重最少 6+4 / 6,HD-EPS 內含 carbon frame 可視為已強化。Boardcave Big Guy 建議:'重騎手 glassing 加 1-2 oz 是基本投資而非可選'。",
+    "新技術": "大體重專屬構造選項 — (1) Goliath / Big Guy Boards 自家 PU/EPS 強化線 (專為 250+ lbs 設計);(2) Firewire Helium (HDPE Springer + EPS) 在 90kg+ 騎手中評價極高;(3) Haydenshapes FutureFlex (parabolic carbon frame) 對抗重騎手 carve 扭力;(4) Lost Lightspeed II (stringerless EPS) 加 carbon strip 可訂製;(5) Lib Tech NTL (Lost Quiver Killer EcoIMPACTO 2 Lite) 耐 ding 性對 reef break 大體重騎手特別吸引。"
+  },
+  "conditions_fit": {
+    "浪高範圍": "大體重小浪板浪高範圍 1-6ft (sweet spot 2-4ft);小浪定義對重騎手是 < 4ft (中等對一般騎手反而對大體重已 'small');< 1ft 連大體重 grovel 板都困難 (此時轉長板)。",
+    "浪質": "大體重小浪板偏好飽滿浪 (足以承載 displacement) > 軟浪 > 中等空心;軟浪對大體重特別考驗,Goliath 觀點:'大體重在軟浪比小騎手吃虧 — 加速力不足';飽滿浪 (有 push) 反而是大體重朋友。",
+    "浪型": "大體重小浪板適合 beach break (浪型穩定可 paddle) + point break (long open face 利大體重 trim);reef break 須考量 ding 風險;river-mouth 大體重特別適合 (浪有 push)。台灣金樽、佳樂水這類 long-face point 對大體重最友善。",
+    "不適合場景": "大體重小浪板不適合 — (1) 超軟微小浪 < 1ft (此時長板才解);(2) 雙倍頭以上空心管浪 (需 step-up 而非 grovel);(3) 純比賽 (大體重在 25 分鐘 heat 內 paddle 體力消耗大);(4) 純極致 progressive (重騎手反應仍慢於 70kg pro)。"
+  },
+  "performance": {
+    "划水容易度": "大體重小浪板若配方對:paddle 比想像中輕鬆 — 50L 板對 90kg 騎手 paddle 表現約等於 32L 對 65kg;若配方錯 (浮力不足 + 板太短):極差 (大體重在小浪 paddle 不上),這是最常見錯誤。",
+    "起乘速度": "大體重小浪板起乘較慢於一般騎手 (即使配方對) — 大體重需要更早 paddle、更早 commit。Goliath 觀點:'重騎手在小浪要在浪頭未形成前就 paddle';wide point 前移 + flat entry rocker 設計就是為此。",
+    "Glide 平面速度": "大體重小浪板 glide 速度若浪有 push 時極高 (大體重 momentum + 大板 displacement);若軟浪需要 pump 維持 — 此時 EPS / HD-EPS 構造優勢明顯。Mid-length 大體重板 (CI Mid 7'0\") 在 point break 滑行可達 longboard 速度。",
+    "Pump 效率": "大體重小浪板 pump 效率挑戰大 — 重騎手 pump 一次能量消耗大、且 board flex/recovery 必須足夠 (HD-EPS 構造勝);PU 大體重 pump 較費力;Mid-length 大體重 pump 反而靠 trim 完全不 pump。",
+    "轉向靈活度": "大體重小浪板轉向需依寬厚度與 fin 調 — 寬尾 + wide squash 提供 pivot;Goliath XL 系列 fin 是轉向關鍵 (一般 L fin 對大體重不夠);若配方對,大體重碟形短板 (6'4\" Average Joe 等) 轉向不輸 70kg 騎手用 5'10\" 短板。",
+    "Vertical 能力": "大體重小浪板 vertical 能力受限 — 大 area fin + 厚 rail = vertical amplitude 略遜;但 Sub Driver Bro Dims / 大體重 Hypto Krypto 仍可做 controlled vertical;mid-length 不建議 vertical。",
+    "空中動作能力": "大體重小浪板 air 能力有限 — 重騎手起飛 lift 需更大 launch、落地對板衝擊大 (glassing 必加重原因之一);EPS / HD-EPS 構造大體重 air 較可行 (輕量);Goliath / Big Guy 觀點:'air 不是大體重小浪主要追求,但落地穩定度是構造投資重點'。",
+    "Backside_vs_Frontside": "大體重小浪板 backside 通常較弱 (重騎手 backside hold 需求高、fin 設計挑戰);thruster + Goliath XL 配置可改善;mid-length 2+1 backside 較穩;pure twin 大體重 backside 完全不推薦。"
+  },
+  "practical_selection": {
+    "代表板款": "(1) Channel Islands Average Joe 6'1\"-6'8\" custom (47.5L stock 6'1\", 6'8\"×24\"×3 3/8\" ~60L custom) — 大體重小浪業界 reference;(2) Lost Sub Driver 2.0 Bro Dims 6'4\"-6'8\" (~38-43L) — Mayhem 大體重專用 size chart;(3) Haydenshapes Hypto Krypto 6'2\"-6'4\" FutureFlex (38.4L+) — 大體重 OBQ 友善;(4) Channel Islands CI Mid 6'8\"-7'0\" (40.2-44.9L) — mid-length 大體重首選;(5) JS Industries Monsta Box (大尺寸) 6'4\"-6'8\" 或 JS Big Baron 6'8\"-7'0\" (Big Baron 直接標榜 beefed-up version);(6) Big Guy Boards (Goliath) 自家訂製線 — 為 90kg+ 騎手獨家設計。Album Insanity 6'2\"+ (34L+) 可作中階 85kg 騎手選項。",
+    "常見錯誤": "(1) 浮力給太多:重騎手照長板 GF (0.6+) 取板,結果 60L+ 板 carve 不動 → 反而難轉;(2) 板長照歐美 chart 跳到 7'6\"+:中階大體重直接買 mid-length 失去 short-board 樂趣;(3) PU 構造太重:90kg 騎手 + 標準 PU 6'6\" 板總重 paddle 負擔 → 應 EPS;(4) Fin 配錯:重騎手照普通 L fin 用結果 overpower → 必須 Goliath XL 級;(5) Glassing 太輕:Pro 級 4+4 / 4 light 給 90kg 騎手結果一個 carve 就 dent → 必 6+6 / 6;(6) 寬厚度只加厚不加寬:結果 rail 變鈍但 outline 仍小、paddle 不上小浪 → 寬度為主、厚度為輔。",
+    "升級陷阱": "大體重騎手升級陷阱 — (1) 照 Filipe Toledo / Asher Pacey pro 板尺取板 (這些 pro 體重 65-75kg);(2) 看小騎手 Hypto Krypto review (5'10\" 模板) 直接買同尺寸;(3) 想跳級從長板直接到 HPSB 短板 (應該透過 mid-length + grovel 過渡);(4) 跳到 'Pro Dims' Sub Driver 而非 'Bro Dims';(5) 想用 standard 板款省訂製錢 → 大體重 (尤其 95kg+) 通常需要 custom 才能 dial in。",
+    "搭配_fin 建議": "大體重小浪 fin 黃金配:(1) Goliath XL Carbon Thruster (Futures 或 FCS II) 為頭號推薦 — 85-110kg 騎手專用 upright XL template;(2) Goliath XL Split Keel Quad (FCS / Futures) 用於小浪 quad mode;(3) Goliath XXL 5-Fin Set 給 110kg+;(4) 對應 FCS II 內部選 John Florence Large、Sharp Eye Tri (L) 也可勉強用;(5) Futures 內部選 Pyzel Large、AM3、Honeycomb HS3 (L)。重點:'L 不夠就找 Goliath' 是大體重圈共識。",
+    "二手板評估": "大體重二手板評估特別重點 — (1) deck 胸下 + 腳掌位置 pressure dent 嚴重程度 (重騎手板凹陷遠快於一般);(2) fin box 4 個 plug 鬆動 (重騎手 carve 力大易拉鬆);(3) stringer 是否變形 (重騎手扭力造成);(4) tail 段 glassing 是否泛黃 / 裂紋 (重騎手最先壞此處);(5) 同樣構造重騎手二手板價值會比一般快 -10-15%。",
+    "Quiver 規劃": "大體重 quiver 規劃 — 兩塊組合 (90kg 中階):Hypto Krypto / Average Joe 6'4\" (40L) 主打 1-4ft + Sub Driver Bro Dims 6'6\" (38L) 主打 3-6ft;三塊組合 (95kg 進階):加 mid-length CI Mid 7'0\" (44.9L) 應對 1-3ft 軟浪;旅行 quiver:Hypto Krypto FutureFlex 6'2\" (38.4L) + step-up 6'8\" custom 一塊蓋全部。重點:大體重不要嘗試 'one board' (除非 OBQ +5L 加大版),分兩塊更實際。",
+    "預算建議": "大體重小浪板預算 — Stock PU 6'4\"-6'8\" 約 USD 800-1,000;Average Joe / Hypto Krypto FutureFlex 約 USD 950-1,250;custom Big Guy Boards 線約 USD 1,200-1,500;Custom Lost Sub Driver Bro Dims 或 CI Custom Joe (大尺寸) 約 USD 1,100-1,400;台灣進口 +20-30% (大體重板因尺寸大運費更高約 NTD 60,000-85,000);Goliath fin set 約 USD 90-150;預算有限可走 PU 加重 glassing 二手 (大體重二手折扣多)。"
+  },
+  "pro_reference": {
+    "Stab_in_the_Dark": "Stab in the Dark 主要為 ~75kg pro 取向,大體重 reference 直接相關性低;但 Stab 偶有大體重 board test — Sub Driver 2.0 Bro Dims 在 Stab 2022/2023 提及;Hypto Krypto FutureFlex 多年 Stab Joyride 評價含大體重 sub-test;Average Joe 在 Stab '90s style' 文章引用為 grovel 招牌;Goliath / Big Guy Boards 為獨立社群非 Stab 主流。[uncertain 2024/2025 確切結果]",
+    "WSL_CT 選手選擇": "WSL CT 選手體型偏向 65-80kg,大體重 reference 限 — Owen Wright (~85kg, 較高體型) 用 DHD 較大尺寸 step-up;Conner Coffin (CI) 體型較大用 Average Joe 風格 custom;Patrick Gudauskas / Tanner Gudauskas (高體型) 偶用 mid-length 短板。台灣可參考:Pro 大體重騎手 (如台灣 R2 級選手身高 180cm+ 體型) 多訂製本土 shaper。",
+    "Free_surf 風格參考": "大體重自由衝浪 reference — Conner Coffin (CI Mid + Average Joe) 為標誌;Tom Curren (resurrection era) 用 mid-length 風格也適合大體重;Trevor Gordon (Album 風格 mid-length) 為參考;Goliath Fins / Big Guy Boards 創辦人 Scott 個人帳號常分享 90kg+ 自由衝浪 footage 為實戰 reference。"
+  },
+  "local_taiwan_context": {
+    "浪點適配": "台灣大體重騎手浪點適配 — 烏石 (春秋 1-3ft 軟浪) 大體重必選 mid-length CI Mid 7'0\" 或 wide-tail groveler;中角 (穩定 push 浪) Average Joe / Hypto Krypto 6'2\"-6'4\" 是甜蜜點;金樽 / 佳樂水 (秋冬 swell 2-5ft) Sub Driver Bro Dims 6'4\"-6'6\";南灣 / 蜜月灣 (春夏 1-3ft) mid-length;東澳粉鳥林 reef break 建議大體重用 EPS HD-EPS 構造減重。",
+    "進口_訂製": "大體重板在台灣多需 custom 訂製 — 進口 stock 大尺寸 (6'6\"+) 庫存稀少,Boardcave / Surfboard Empire 國際 custom 訂製常見管道;台灣本土 shaper (Saltywave / Wave Maker / 訂製管道) 對大體重 custom 接受度高,成本約 NTD 32,000-40,000 (vs. 進口 custom NTD 55,000-75,000);Hooked Surf Shop 偶有 Hypto Krypto 6'2\"+ 大尺寸庫存;JR Surf 烏石店有時有 CI Mid 7'0\"+ 大尺寸。",
+    "中文社群迷思": "(1) '重騎手就該長板' — 實際 mid-length / wide-tail groveler 更適合 carve 進階大體重騎手;(2) '小浪用魚板就好' — 大體重在純 retro fish (寬厚但 rocker 太低) 反而 chatter 失控,需 modern hybrid;(3) '浮力越多越好' — 60L+ 對 90kg 中階反而 carve 不動;(4) 'PTT 衝浪板首選 Hypto Krypto' — 對大體重要看 6'2\"+ 大尺寸而非 5'10\" 主流款;(5) '大體重不能 short-board' — 配方對 (寬厚度 + Goliath fin) 大體重也能玩 short-board 短板。",
+    "在地教練建議": "Hooked Surf Shop 對大體重學員主推 Hypto Krypto FutureFlex 6'2\"+ 或建議 custom mid-length;JR Surf 烏石對大體重學員推薦 CI Mid 6'8\"-7'0\" 為起點;VAST / Surfin' Life 偶推薦 JS Monsta Box / Big Baron 給大體重;台灣大多教練同意大體重騎手最常忽略的是 fin 升級 (Goliath 級) 而非板款本身。台灣本土 shaper 訂製大體重 custom 性價比優於進口大尺寸 stock。[uncertain 確切代理商]"
+  },
+  "uncertain": [
+    "Nose_Rocker",
+    "Tail_Rocker",
+    "Wide_Point_Position",
+    "Nose_Width_at_12_inch",
+    "Tail_Width_at_12_inch",
+    "Stab_in_the_Dark",
+    "在地教練建議"
+  ]
+}

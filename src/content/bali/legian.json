@@ -1,0 +1,107 @@
+{
+  "basic_info": {
+    "name": "Legian Beach / 雷吉安海灘 / Pantai Legian",
+    "category": "surf_spot",
+    "region": "West Coast",
+    "gps_location": "-8.7050, 115.1670 (https://maps.google.com/?q=-8.7050,115.1670)",
+    "distance_from_dps_airport_km": 6,
+    "distance_from_canggu_uluwatu_min": "Canggu ~20 min, Uluwatu ~35 min by scooter"
+  },
+  "surf_conditions": {
+    "wave_type": "Beach break, sand-bottom, shifting left and right peaks (true beach-break behavior)",
+    "skill_level": "Beginner to intermediate",
+    "wave_height_range": "1-5 ft typical; up to 6-8 ft on solid SW swells (closes out)",
+    "bottom_type": "sand",
+    "best_season": "Dry season (May-October) for cleanest offshore conditions",
+    "best_tide": "Mid to high tide for fun peeling peaks; low tide produces heavy close-outs",
+    "best_wind": "Offshore from E/NE early morning; sea-breeze turns onshore SW by mid-late morning",
+    "best_swell_direction": "SW to S groundswells",
+    "swell_consistency_rating": 4,
+    "wave_length_meters": "30-70 m depending on sandbar quality",
+    "wave_speed_rating": "medium",
+    "takeoff_zone_difficulty": "Easy to moderate; soft sand take-offs; on bigger days steeper drops and close-out sections increase difficulty for beginners",
+    "secondary_peaks": "Multiple shifting peaks along the beach; inside whitewater reforms for learners and outside peaks for intermediates on bigger days",
+    "peak_crowd_level": "4 (busy but slightly quieter than Kuta; quieter at dawn)"
+  },
+  "practical_info": {
+    "access": "Direct walk-on beach access from Jalan Pantai Legian and multiple side streets; no stairs or climbs",
+    "paddle_out_method": "Walk-out from sand through whitewater; duck-dive or push through small inside waves; use rip channels (with caution) on bigger days",
+    "entry_fee": "Free beach access; scooter parking IDR 5,000, car parking IDR 10,000",
+    "recommended_session_time": "Dawn patrol (5:30-8:00 AM) for cleanest offshore conditions; sunset session popular for ambience",
+    "best_time_of_day": "Before 8 AM to avoid surf-school crowds and onshore wind",
+    "nearby_warung": "Many beachside warungs, cafés, and coconut stalls along Jalan Pantai Legian; popular spots include La Plancha, Double Six Beach Lounge",
+    "alternative_spot_within_10min": "Kuta Beach (5 min south), Seminyak / Double Six (5 min north), Halfway Kuta (10 min south)",
+    "boat_charter_required": "No",
+    "combo_trip_potential": "[uncertain] Not a typical combo-trip base; functions as day-extension from Kuta/Seminyak surf stays"
+  },
+  "safety_culture": {
+    "hazards": "Rip currents (especially on bigger swells), close-out waves on low tide causing wipe-outs, crowded surf-school traffic on the inside, jet-skis in adjacent zones",
+    "marine_hazards": "Occasional jellyfish (wet season), rare blue-bottles, no reef or urchins; treat stings with vinegar and warm water",
+    "reef_cut_severity_index": "0 / N-A (pure sand bottom)",
+    "rip_current_pattern": "Rips form between sandbars on bigger days; visible as darker calmer channels of seaward-flowing water with foam streaks. Escape by paddling parallel to shore",
+    "lineup_etiquette": "Standard right-of-way rules; respect surf-school zones; no drop-ins; share peaks; smile and say hi",
+    "localism_intensity": "low",
+    "respect_protocol": "Tip parking guards; respect surf-school groups; pick up trash; do not interrupt Hindu ceremonies on the beach",
+    "resident_local_legends": "[uncertain] No iconic individual locals associated with Legian specifically; many regional pros surf the area",
+    "religious_sensitivity": "Pura Petitenget nearby; Nyepi (Balinese Day of Silence, March) closes the beach to all activity; respect melasti processions and ceremonial offerings on the sand",
+    "medical_nearby": "BIMC Hospital Kuta, Siloam Hospitals Denpasar, Kasih Ibu Hospital Kuta",
+    "nearest_clinic_distance_km": 3,
+    "rescue_jet_ski_available": "Balawista lifeguards on duty with rescue boards; jet-ski available in some sections",
+    "emergency_contact": "Balawista Bali Lifeguard: +62 361 755660; Ambulance: 118; Police: 110; BIMC Kuta: +62 361 761263"
+  },
+  "services": {
+    "nearest_surf_school": "Odyssey Surf School, Rip Curl School of Surf Legian, Bali Surf Club, UP2U Surf School - all within walking distance",
+    "board_rental_availability": "Widely available beachfront; soft-tops, funboards, shortboards from IDR 100,000-150,000/day",
+    "surf_photographer_available": "Yes, freelance land-based photographers along the beach",
+    "photographer_recommendation": "[uncertain] Various freelance beach photographers; typical rate IDR 200,000-500,000 per session",
+    "accommodation_options": "Padma Resort Legian, Bali Mandira Beach Resort, Pullman Bali Legian Beach, numerous mid-range hotels and homestays along Jalan Padma and Jalan Melasti",
+    "webcam_url": "[uncertain] https://www.surfline.com/surf-report/legian (Surfline coverage)",
+    "drone_allowed": "Generally yes for recreational use; avoid flying over crowds and ceremonies",
+    "coworking_nearby": "Tropical Nomad (Canggu ~20 min), Dojo Bali (Canggu); no major coworking directly in Legian"
+  },
+  "pricing": {
+    "avg_lesson_price": "IDR 350,000-650,000 (USD 22-42 / TWD 700-1,350) per 2-hour group lesson",
+    "lesson_price_range_idr": "IDR 300,000 (budget group) - IDR 900,000 (private 1-on-1)",
+    "board_rental_daily": "IDR 100,000-200,000 (USD 6-13) per day for soft-tops/shortboards",
+    "gopro_rental_price": "[uncertain] Typically IDR 150,000-250,000/day including SD card",
+    "wetsuit_top_rashguard_rental": "[uncertain] Usually included with lesson; standalone rental ~IDR 50,000/day",
+    "board_repair_avg_price_idr": "[uncertain] Small ding repair IDR 100,000-300,000 depending on size",
+    "surf_camp_weekly_package": "[uncertain] Some camps based in Legian offer 7-day packages from USD 700-1,300",
+    "camp_package_inclusions": "[uncertain] Typical: accommodation, breakfast, daily lessons, board use, airport transfer, video analysis",
+    "peak_vs_offpeak_pricing": "[uncertain] Peak season (Jul-Aug, Dec-Jan) ~15-25% higher than shoulder months"
+  },
+  "sustainability": {
+    "water_quality_rating": "Moderate to poor in wet season (Nov-Mar) due to runoff and plastic pollution; acceptable in dry season; less rubbish than Kuta but similar issues",
+    "eco_certification": "[uncertain] No spot-level certification",
+    "carbon_offset_option": "[uncertain] Not standard for the spot; some camps offer offsets"
+  },
+  "events_community": {
+    "annual_competition_window": "[uncertain] Hosts occasional ISA junior events and grommet contests; less frequent than Kuta",
+    "community_events": "Daily lifeguard beach clean-ups; sunset gatherings at La Plancha and Double Six; informal surf-school graduation contests"
+  },
+  "visa_logistics": {
+    "visa_type_recommended": "N-A (spot-level, not practical category)",
+    "visa_application_method": "N-A",
+    "monthly_living_cost_idr": "N-A",
+    "tourist_levy": "N-A",
+    "customs_declaration": "N-A",
+    "surfboard_air_baggage": "N-A",
+    "idp_motorbike_license": "N-A",
+    "surf_travel_insurance": "N-A"
+  },
+  "uncertain": [
+    "combo_trip_potential",
+    "resident_local_legends",
+    "webcam_url",
+    "photographer_recommendation",
+    "gopro_rental_price",
+    "wetsuit_top_rashguard_rental",
+    "board_repair_avg_price_idr",
+    "surf_camp_weekly_package",
+    "camp_package_inclusions",
+    "peak_vs_offpeak_pricing",
+    "eco_certification",
+    "carbon_offset_option",
+    "annual_competition_window"
+  ]
+}

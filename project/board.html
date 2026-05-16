@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8" />
+<title>小浪短板研究 · ISSUE No. 003 — 衝浪研究室</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="common.css" />
+<link rel="stylesheet" href="issue.css" />
+</head>
+<body>
+
+<div class="issue-page">
+
+  <div class="crumb-bar">
+    <a class="home" href="index.html">回到主期刊 / SURF STUDY HOME</a>
+    <div class="nav-issues">
+      <a href="bali.html">No. 001 · BALI</a>
+      <a href="hainan.html">No. 002 · 海南</a>
+      <a href="board.html" class="current">No. 003 · BOARD LAB</a>
+    </div>
+    <div>2026.05.15</div>
+  </div>
+
+  <header class="issue-mast">
+    <h1>
+      <span class="ch">小 浪 短 板 研 究</span>
+      The Shortboard Lab
+    </h1>
+    <div class="right">
+      ISSUE<br/>
+      <span class="big">No. 003</span><br/>
+      33 ENTRIES · 5 GROUPS<br/>
+      VOLUME · ROCKER · FIN
+    </div>
+  </header>
+
+  <section class="issue-intro">
+    <p class="lede">
+      浮力、rocker、tail shape 與 fin 設定的<em>排列組合</em> ——<br/>
+      Modern Twin Fin 進入第五年復興,Mid-length 崛起,<br/>
+      Pacey 騎 5'6 而你騎不了。本期是<em>反 dim-list</em> 的研究檔。
+    </p>
+    <div class="meta-grid">
+      <div class="cell"><div class="n">6</div><div class="l">A · 浪況</div></div>
+      <div class="cell"><div class="n">4</div><div class="l">B · 騎手</div></div>
+      <div class="cell"><div class="n">10</div><div class="l">C · 板型</div></div>
+      <div class="cell"><div class="n">8</div><div class="l">D · 品牌</div></div>
+    </div>
+  </section>
+
+  <nav class="modes">
+    <div class="mode-btn active" data-mode="index">
+      <span>Index</span><span class="ch">索引</span><span class="num">33</span>
+    </div>
+    <div class="mode-btn" data-mode="selector">
+      <span>Selector</span><span class="ch">板款推薦器</span>
+    </div>
+    <div class="mode-btn" data-mode="compare">
+      <span>Compare</span><span class="ch">比較</span>
+    </div>
+  </nav>
+
+  <section class="pane" data-mode="index">
+    <div class="toolbar">
+      <input id="search" class="search" placeholder="搜尋板型 / 品牌 / 關鍵字… SEARCH ENTRIES" />
+      <div style="display:flex; gap:12px; flex-wrap:wrap; align-items:center;">
+        <span class="group-label">群組</span>
+        <div class="group" id="group-chips"></div>
+        <span class="group-label">適用</span>
+        <div class="group" id="level-chips"></div>
+      </div>
+      <div style="margin-left:auto; font-family:var(--mono); font-size:10.5px; letter-spacing:.12em; text-transform:uppercase;">
+        顯示 <span id="result-count">—</span>
+      </div>
+    </div>
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <section class="pane" data-mode="selector" style="display:none;">
+    <div class="skillrec">
+      <div class="controls" style="padding-bottom:24px;">
+        <h3>板款推薦器 / Volume + Type Calculator</h3>
+        <p>輸入體重、技術、浪況,計算建議浮力區間並排名最匹配的板型類別。亞洲體型已內建修正。</p>
+        <div id="selector-questions"></div>
+      </div>
+      <div class="results" id="selector-result"></div>
+    </div>
+  </section>
+
+  <section class="pane" data-mode="compare" style="display:none;">
+    <div class="toolbar" style="border-bottom:0;">
+      <div style="font-family:var(--display-2); font-style:italic; font-size:22px; color:var(--ocean);">板款並列比較</div>
+      <div style="margin-left:auto; font-family:var(--mono); font-size:10.5px; letter-spacing:.12em; text-transform:uppercase;">
+        最多 4 項 · 比較浮力、rocker、fin、價格
+      </div>
+    </div>
+    <div class="compare-grid" id="compare-grid"></div>
+  </section>
+
+  <!-- Methodology box -->
+  <section style="margin-top:36px; border:2px solid var(--ink); background:var(--paper); padding:18px 22px; display:grid; grid-template-columns: repeat(3, 1fr); gap:18px;">
+    <div>
+      <div class="eyebrow" style="color:var(--vermillion-d);">GF · 浮力係數</div>
+      <h4 style="font-family:var(--display); font-size:22px; margin:6px 0 8px;">Guild Factor</h4>
+      <p style="font-family:var(--serif); font-size:13.5px; line-height:1.55; margin:0;">
+        體重 (kg) × GF = 建議浮力 (L)。HPSB ~0.34-0.38;Twin ~0.38-0.44;Fish ~0.42-0.50;Mid-length 0.45+。
+        本研究亞洲體型默認 −2~3L 修正。
+      </p>
+    </div>
+    <div>
+      <div class="eyebrow" style="color:var(--vermillion-d);">板型分類</div>
+      <h4 style="font-family:var(--display); font-size:22px; margin:6px 0 8px;">A / B / C / D / E</h4>
+      <p style="font-family:var(--serif); font-size:13.5px; line-height:1.55; margin:0;">
+        A 浪況情境 · B 騎手程度 · C 板型分類 · D 品牌板款 · E 特殊情境。
+        瀏覽從哪個切入都可以;Selector 主要查 C 群,實際購板再進 D 群。
+      </p>
+    </div>
+    <div>
+      <div class="eyebrow" style="color:var(--vermillion-d);">2025 趨勢</div>
+      <h4 style="font-family:var(--display); font-size:22px; margin:6px 0 8px;">Modern Twin 第五年</h4>
+      <p style="font-family:var(--serif); font-size:13.5px; line-height:1.55; margin:0;">
+        2021-2026 Modern Twin Fin 為最大趨勢。Mid-length 在 2025 進入主流。
+        Pacey/Twin Pin 路線、Twinsman MR-revival 並存。
+      </p>
+    </div>
+  </section>
+
+  <div style="padding:22px 0 8px; display:flex; justify-content:space-between; font-family:var(--mono); font-size:10.5px; letter-spacing:.14em; text-transform:uppercase; color:var(--ink-soft); border-top:1.5px solid var(--ink); margin-top:30px;">
+    <span>END OF ISSUE No. 003 · BOARD</span>
+    <span><a href="hainan.html" style="color:inherit;">← No. 002 海南</a> · <a href="index.html" style="color:inherit;">回主期刊</a></span>
+  </div>
+
+</div>
+
+<div class="compare-tray" id="compare-tray">
+  <span>COMPARE TRAY</span>
+  <div class="items"></div>
+  <button class="open-btn" onclick="document.querySelector('.mode-btn[data-mode=compare]').click()">打開比較表 →</button>
+</div>
+
+<div class="detail-overlay" id="detail-overlay" onclick="if(event.target===this) closeDetail()">
+  <div class="detail-panel" id="detail-panel"></div>
+</div>
+
+<button id="search-fab" onclick="openGlobalSearch()">⌕ SEARCH ALL <small>/</small></button>
+
+<script src="common.js"></script>
+<script src="board.js"></script>
+</body>
+</html>
