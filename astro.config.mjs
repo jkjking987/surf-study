@@ -4,9 +4,9 @@ import db from '@astrojs/db';
 import cloudflare from '@astrojs/cloudflare';
 
 export default defineConfig({
-  site: 'https://surf-study.pages.dev',
+  site: 'https://surf-study.jkjking987.workers.dev',
   output: 'hybrid',
-  adapter: cloudflare(),
+  adapter: cloudflare({ imageService: 'passthrough' }),
 
   build: {
     assets: '_assets'
