@@ -7,6 +7,7 @@
     "dev": "astro dev",
     "prebuild": "node scripts/ci-env.mjs",
     "build": "astro build --remote",
+    "postbuild": "node scripts/post-build.mjs",
     "build:local": "astro build",
     "build:standalone": "node scripts/build-standalone.mjs",
     "preview": "astro preview",
