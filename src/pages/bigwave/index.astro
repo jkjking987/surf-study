@@ -1,0 +1,123 @@
+---
+import IssuePage from '../../layouts/IssuePage.astro';
+---
+
+<IssuePage
+  title="大浪板研究 · ISSUE No. 006 — 衝浪研究室"
+  description="29 個大浪板款研究檔案 — Step-Up、Mini-Gun、Gun、Tow Board。從 head-high 到 Nazaré 巨浪的板款光譜。"
+  issueNumber="006"
+  issueStats="29 ENTRIES · 5 GROUPS"
+  issueEdition="STEP-UP · GUN · TOW"
+  headingEn="The Big-Wave Lab"
+  headingCh="大 浪 短 板"
+  currentIssue="bigwave"
+>
+
+  <section class="issue-intro">
+    <p class="lede">
+      Step-Up、Mini-Gun、Semi-Gun、Gun、Rhino Chaser 與 Tow Board ——<br/>
+      浪面從 head-high 走向 60ft Nazaré 的<em>板款光譜</em>;<br/>
+      Pyzel Padillac、Stretch Quad-Pin、Pearson Arrow 等真正 charger 用的東西。
+    </p>
+    <div class="meta-grid">
+      <div class="cell"><div class="n">5</div><div class="l">A · 浪況</div></div>
+      <div class="cell"><div class="n">4</div><div class="l">B · 騎手</div></div>
+      <div class="cell"><div class="n">7</div><div class="l">C · 板型</div></div>
+      <div class="cell"><div class="n">8</div><div class="l">D · 品牌</div></div>
+    </div>
+  </section>
+
+  <nav class="modes">
+    <div class="mode-btn active" data-mode="index">
+      <span>Index</span><span class="ch">索引</span><span class="num">29</span>
+    </div>
+    <div class="mode-btn" data-mode="selector">
+      <span>Selector</span><span class="ch">大浪板選擇器</span>
+    </div>
+    <div class="mode-btn" data-mode="compare">
+      <span>Compare</span><span class="ch">比較</span>
+    </div>
+  </nav>
+
+  <section class="pane" data-mode="index">
+    <div class="toolbar">
+      <input id="search" class="search" placeholder="搜尋板型 / 品牌 / 浪點… SEARCH ENTRIES" />
+      <div style="display:flex; gap:12px; flex-wrap:wrap; align-items:center;">
+        <span class="group-label">群組</span>
+        <div class="group" id="group-chips"></div>
+        <span class="group-label">適用</span>
+        <div class="group" id="level-chips"></div>
+      </div>
+      <div style="margin-left:auto; font-family:var(--mono); font-size:10.5px; letter-spacing:.12em; text-transform:uppercase;">
+        顯示 <span id="result-count">—</span>
+      </div>
+    </div>
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <section class="pane" data-mode="selector" style="display:none;">
+    <div class="skillrec">
+      <div class="controls" style="padding-bottom:24px;">
+        <h3>大浪板選擇器 / Big-Wave Length Calculator</h3>
+        <p>輸入體重、技術、目標浪況,計算建議板長區間並排名最匹配的板型類別。大浪選板以 LENGTH 為主、Volume 為輔。</p>
+        <div id="selector-questions"></div>
+      </div>
+      <div class="results" id="selector-result"></div>
+    </div>
+  </section>
+
+  <section class="pane" data-mode="compare" style="display:none;">
+    <div class="toolbar" style="border-bottom:0;">
+      <div style="font-family:var(--display-2); font-style:italic; font-size:22px; color:var(--ocean);">大浪板並列比較</div>
+      <div style="margin-left:auto; font-family:var(--mono); font-size:10.5px; letter-spacing:.12em; text-transform:uppercase;">
+        最多 4 項 · 比較長度、glassing、fin、價格
+      </div>
+    </div>
+    <div class="compare-grid" id="compare-grid"></div>
+  </section>
+
+  <section style="margin-top:36px; border:2px solid var(--ink); background:var(--paper); padding:18px 22px; display:grid; grid-template-columns: repeat(3, 1fr); gap:18px;">
+    <div>
+      <div class="eyebrow" style="color:var(--vermillion-d);">LENGTH · 大浪選板公式</div>
+      <h4 style="font-family:var(--display); font-size:22px; margin:6px 0 8px;">浪面 × 0.5 + 修正</h4>
+      <p style="font-family:var(--serif); font-size:13.5px; line-height:1.55; margin:0;">
+        小浪用 Volume 公式;大浪改用 LENGTH 公式。浪面高度(ft) × 0.5 + 板長修正 = 板長(吋)。
+        例:8ft face → 6'8";12ft face → 7'4";20ft face → 8'4"。GF 仍適用但下修 0.02–0.04。
+      </p>
+    </div>
+    <div>
+      <div class="eyebrow" style="color:var(--vermillion-d);">板型分類</div>
+      <h4 style="font-family:var(--display); font-size:22px; margin:6px 0 8px;">A / B / C / D / E</h4>
+      <p style="font-family:var(--serif); font-size:13.5px; line-height:1.55; margin:0;">
+        A 浪況情境 · B 騎手程度 · C 板型分類 · D 品牌板款 · E 特殊情境。
+        Selector 主要查 C 群,實際購板再進 D 群。台灣實際適用範圍多在 C1 / C7 / D1 / D3 / E4。
+      </p>
+    </div>
+    <div>
+      <div class="eyebrow" style="color:var(--vermillion-d);">安全為先</div>
+      <h4 style="font-family:var(--display); font-size:22px; margin:6px 0 8px;">Vest · Leash · 評估</h4>
+      <p style="font-family:var(--serif); font-size:13.5px; line-height:1.55; margin:0;">
+        Inflation vest、7'/8' 粗 leash、impact suit、jet-ski safety、hold-down 訓練 —— 大浪準備順序中
+        裝備與評估比板款選擇更優先。第一次 head-high+ 請有資深陪伴。
+      </p>
+    </div>
+  </section>
+
+  <div style="padding:22px 0 8px; display:flex; justify-content:space-between; font-family:var(--mono); font-size:10.5px; letter-spacing:.14em; text-transform:uppercase; color:var(--ink-soft); border-top:1.5px solid var(--ink); margin-top:30px;">
+    <span>END OF ISSUE No. 006 · BIG WAVE</span>
+    <span><a href="/boards" style="color:inherit;">← No. 005 板</a> · <a href="/" style="color:inherit;">回主期刊</a></span>
+  </div>
+
+  <div class="compare-tray" id="compare-tray">
+    <span>COMPARE TRAY</span>
+    <div class="items"></div>
+    <button class="open-btn" onclick="document.querySelector('.mode-btn[data-mode=compare]').click()">打開比較表 →</button>
+  </div>
+
+  <div class="detail-overlay" id="detail-overlay" onclick="if(event.target===this) closeDetail()">
+    <div class="detail-panel" id="detail-panel"></div>
+  </div>
+
+  <script is:inline src="/scripts/bigwave.js"></script>
+
+</IssuePage>

@@ -1,0 +1,453 @@
+/* =========================================================
+   衝浪研究室 — Motion layer
+   - Easing tokens
+   - Page-enter cascade
+   - Scroll-reveal (.reveal classes)
+   - Card / chip / button micro-interactions
+   - Detail overlay choreography
+   - Number counter helper (.num-anim)
+   Honours prefers-reduced-motion.
+   ========================================================= */
+
+:root {
+  --ease-out:    cubic-bezier(.18, .8, .26, 1);
+  --ease-in-out: cubic-bezier(.5, 0, .2, 1);
+  --ease-snap:   cubic-bezier(.2, 1.1, .3, 1);
+  --t-fast:   140ms;
+  --t-mid:    260ms;
+  --t-slow:   460ms;
+  --t-page:   620ms;
+}
+
+/* ===== Page-enter cascade ============================== */
+/* NOTE: page-enter opacity animations were removed — they were
+   getting stuck at opacity:0 in certain iframe/scroll contexts
+   (browser deferred starting them). Scroll-reveal still handles
+   below-the-fold motion; static top-of-page content stays visible
+   from first paint with no risk of being "stuck" invisible. */
+@keyframes pe-fade-up { /* legacy keyframe kept for reference */
+  from { opacity: 1; transform: translateY(0); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes pe-fade {
+  from { opacity: 1; }
+  to   { opacity: 1; }
+}
+@keyframes pe-slide-down {
+  from { transform: translateY(-6px); }
+  to   { transform: translateY(0); }
+}
+@keyframes pe-grow-line {
+  from { transform: scaleX(0); }
+  to   { transform: scaleX(1); }
+}
+
+.crumb-bar  { animation: pe-slide-down var(--t-mid) var(--ease-out) both; }
+
+.top-strip   { animation: pe-slide-down var(--t-mid) var(--ease-out) both; }
+
+.tagline-strip { animation: pe-slide-down var(--t-mid) var(--ease-out) 180ms both; }
+
+/* Tagline strip — make its underline draw in */
+.tagline-strip { position: relative; }
+.tagline-strip::after {
+  content: "";
+  position: absolute;
+  bottom: -2px; left: 0; right: 0;
+  height: 1.5px;
+  background: var(--ink);
+  transform-origin: left center;
+  animation: pe-grow-line var(--t-slow) var(--ease-out) 320ms both;
+}
+
+/* ===== Scroll-reveal ================================== */
+.reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition:
+    opacity   var(--t-slow) var(--ease-out),
+    transform var(--t-slow) var(--ease-out);
+  transition-delay: var(--reveal-delay, 0ms);
+  will-change: opacity, transform;
+}
+.reveal.is-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+.reveal-left { transform: translateX(-22px); }
+.reveal-left.is-in { transform: translateX(0); }
+.reveal-scale { transform: scale(.96); }
+.reveal-scale.is-in { transform: scale(1); }
+
+/* ===== Issue cover cards (index.html) ================= */
+.issue {
+  /* baseline transition takes over from inline hover */
+  transition:
+    transform var(--t-mid) var(--ease-snap),
+    box-shadow var(--t-mid) var(--ease-out),
+    border-color var(--t-mid) var(--ease-out) !important;
+}
+.issue:hover {
+  transform: translate(-3px, -4px) !important;
+  box-shadow: 8px 9px 0 var(--ink) !important;
+}
+.issue:active {
+  transform: translate(-1px, -1px) !important;
+  box-shadow: 3px 3px 0 var(--ink) !important;
+  transition-duration: 80ms !important;
+}
+.issue-cover { position: relative; overflow: hidden; }
+.issue-cover .halftone-bg {
+  transition: transform var(--t-slow) var(--ease-out), opacity var(--t-slow) var(--ease-out);
+}
+.issue:hover .issue-cover .halftone-bg {
+  transform: scale(1.08) translateY(-4px);
+  opacity: .35;
+}
+.issue-cover .cover-title {
+  transition: transform var(--t-mid) var(--ease-out);
+}
+.issue:hover .issue-cover .cover-title {
+  transform: translateY(-2px);
+}
+.issue-foot .open {
+  transition: transform var(--t-mid) var(--ease-snap), background var(--t-fast) linear;
+}
+.issue:hover .issue-foot .open {
+  transform: translateX(6px);
+}
+.issue-cover .cover-pill {
+  transition: transform var(--t-mid) var(--ease-snap);
+}
+.issue:hover .issue-cover .cover-pill {
+  transform: rotate(-2deg);
+}
+
+/* Cover number counter (now uses .issue-no) */
+.issue-no { transition: transform var(--t-mid) var(--ease-snap); }
+.issue:hover .issue-no { transform: scale(1.04); }
+
+/* ===== Stat counters (Editor's note + meta-grid) ====== */
+@keyframes stat-pop {
+  0%   { transform: translateY(8px); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+.stat .n, .meta-grid .n {
+  animation: stat-pop var(--t-slow) var(--ease-out) both;
+}
+
+/* ===== Mode tabs ====================================== */
+.mode-btn {
+  position: relative;
+  transition:
+    background var(--t-fast) linear,
+    color var(--t-fast) linear,
+    transform var(--t-mid) var(--ease-snap);
+}
+.mode-btn:hover:not(.active) {
+  background: var(--paper-deep);
+  transform: translateY(-1px);
+}
+.mode-btn.active {
+  z-index: 2;
+}
+
+/* ===== Index cards (board / bigwave / au / tw) ======== */
+.grid .card {
+  transition:
+    background var(--t-fast) linear,
+    transform var(--t-mid) var(--ease-snap),
+    box-shadow var(--t-mid) var(--ease-out);
+}
+.grid .card:hover {
+  transform: translateY(-2px);
+  z-index: 2;
+  box-shadow: 4px 4px 0 var(--ink);
+}
+.grid .card:active {
+  transform: translateY(0);
+  box-shadow: 1px 1px 0 var(--ink);
+}
+
+/* List-cascade — every direct child of #grid */
+@keyframes card-in {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.grid .card {
+  animation: card-in var(--t-mid) var(--ease-out) both;
+}
+.grid .card:nth-child(1)  { animation-delay:  20ms; }
+.grid .card:nth-child(2)  { animation-delay:  60ms; }
+.grid .card:nth-child(3)  { animation-delay: 100ms; }
+.grid .card:nth-child(4)  { animation-delay: 140ms; }
+.grid .card:nth-child(5)  { animation-delay: 180ms; }
+.grid .card:nth-child(6)  { animation-delay: 220ms; }
+.grid .card:nth-child(7)  { animation-delay: 260ms; }
+.grid .card:nth-child(8)  { animation-delay: 300ms; }
+.grid .card:nth-child(n+9){ animation-delay: 340ms; }
+
+/* ===== Chips (filters) ================================ */
+.toolbar .group .chip, .chip {
+  transition:
+    background var(--t-fast) linear,
+    color var(--t-fast) linear,
+    transform var(--t-fast) var(--ease-snap);
+}
+.toolbar .group .chip:hover { transform: translateY(-1px); }
+.toolbar .group .chip:active { transform: translateY(0); }
+
+/* Active chip indicator pulse on click */
+@keyframes chip-pop {
+  0%   { transform: scale(1); }
+  40%  { transform: scale(1.08); }
+  100% { transform: scale(1); }
+}
+.chip.active { animation: chip-pop var(--t-fast) var(--ease-snap); }
+
+/* ===== Search input focus ============================= */
+.toolbar input.search {
+  transition:
+    border-color var(--t-fast) linear,
+    box-shadow var(--t-fast) linear,
+    background var(--t-fast) linear;
+}
+.toolbar input.search:focus {
+  border-color: var(--vermillion);
+  box-shadow: 3px 3px 0 var(--ink);
+  background: var(--paper);
+}
+
+/* ===== Detail overlay ================================= */
+@keyframes ov-bg-in  { from { background: rgba(26,22,20,0); } to { background: rgba(26,22,20,.55); } }
+@keyframes ov-panel-in {
+  from { opacity: 0; transform: translateY(16px) scale(.985); }
+  to   { opacity: 1; transform: translateY(0)    scale(1); }
+}
+.detail-overlay.open { animation: ov-bg-in var(--t-mid) var(--ease-out) both; }
+.detail-overlay.open .detail-panel {
+  animation: ov-panel-in var(--t-mid) var(--ease-out) both;
+}
+.detail-section {
+  animation: pe-fade-up var(--t-mid) var(--ease-out) both;
+  animation-delay: calc(var(--idx, 0) * 40ms);
+}
+.detail-section:nth-of-type(1) { --idx: 1; }
+.detail-section:nth-of-type(2) { --idx: 2; }
+.detail-section:nth-of-type(3) { --idx: 3; }
+.detail-section:nth-of-type(4) { --idx: 4; }
+.detail-section:nth-of-type(5) { --idx: 5; }
+.detail-section:nth-of-type(6) { --idx: 6; }
+.detail-section:nth-of-type(7) { --idx: 7; }
+.detail-section:nth-of-type(n+8) { --idx: 8; }
+
+/* Tag (.tag) micro */
+.tag {
+  transition:
+    background var(--t-fast) linear,
+    transform var(--t-fast) var(--ease-snap),
+    box-shadow var(--t-fast) linear;
+}
+.cross-ref:hover, .tag:hover { transform: translate(-1px, -1px); box-shadow: 2px 2px 0 var(--ink); }
+
+/* Cross-ref + match-row */
+.match-row {
+  transition:
+    background var(--t-fast) linear,
+    transform var(--t-mid) var(--ease-snap),
+    box-shadow var(--t-mid) var(--ease-out);
+}
+.match-row:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 4px 4px 0 var(--ink);
+}
+
+/* ===== Compare tray slide-in already CSS;  beef up easing */
+.compare-tray { transition: transform var(--t-mid) var(--ease-out) !important; }
+
+/* ===== FAB pulse on first paint ====================== */
+@keyframes fab-glow {
+  0%, 100% { box-shadow: 4px 4px 0 var(--ink); }
+  50%      { box-shadow: 6px 6px 0 var(--ink); }
+}
+#search-fab, #tweaks-fab { animation: pe-fade-up var(--t-mid) var(--ease-out) 600ms both; }
+#search-fab:hover { animation: fab-glow 1.4s var(--ease-in-out) infinite; }
+
+/* ===== Newswire ticker (index page) =================== */
+@keyframes ticker-scroll {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+.ticker {
+  position: relative;
+  overflow: hidden;
+  flex-wrap: nowrap;
+}
+.ticker > .ticker-track {
+  display: inline-flex;
+  gap: 28px;
+  white-space: nowrap;
+  animation: ticker-scroll 32s linear infinite;
+  padding-right: 28px;
+}
+.ticker:hover > .ticker-track { animation-play-state: paused; }
+
+/* ===== Blink indicator (newsroom dot) ================= */
+@keyframes blink-on { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0.18; } }
+.blink { animation: blink-on 1.6s steps(2) infinite; }
+
+/* ===== Number count-up (.num-anim) =================== */
+.num-anim {
+  font-variant-numeric: tabular-nums;
+}
+
+/* ===== Halftone on issue cover \u2014 gentle ambient drift */
+@keyframes halftone-drift {
+  0%, 100% { background-position: 0px 0px; }
+  50%      { background-position: 16px 12px; }
+}
+.issue-cover .halftone-bg {
+  animation: halftone-drift 14s var(--ease-in-out) infinite;
+}
+
+/* ===== Card hover \u2014 surface dim of meta column ======= */
+.card .meta-row .tag {
+  transition: transform var(--t-fast) var(--ease-snap);
+}
+.card:hover .meta-row .tag {
+  transform: translateY(-1px);
+}
+
+/* ===== Mast double-rule \u2014 grow-in =================== */
+.issue-mast {
+  position: relative;
+}
+.issue-mast::after {
+  /* re-uses the existing 4px double border-bottom — animate transform-origin */
+  content: "";
+  position: absolute;
+  left: 0; right: 0; bottom: -2px;
+  height: 0;
+  pointer-events: none;
+}
+
+/* ===== Detail close + nav buttons hover =============== */
+.detail-nav-btn, .detail-head .close {
+  transition:
+    background var(--t-fast) linear,
+    color var(--t-fast) linear,
+    transform var(--t-fast) var(--ease-snap);
+}
+.detail-nav-btn:hover { transform: translateY(-1px); }
+.detail-head .close:hover { transform: rotate(8deg) scale(1.06); }
+
+/* ===== Compare button on cards ======================== */
+.card .compare-btn, .card .fav-btn {
+  transition:
+    background var(--t-fast) linear,
+    color var(--t-fast) linear,
+    transform var(--t-fast) var(--ease-snap);
+}
+.card .fav-btn:hover { transform: scale(1.12) rotate(-6deg); }
+.card .compare-btn:hover { transform: translate(-1px, -1px); box-shadow: 2px 2px 0 var(--ink); }
+
+/* ===== Map zoom controls (shared utility) ============= */
+.map-zoom-controls {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  margin: 10px 0 6px;
+  padding: 6px 0;
+  border-top: 1px dashed var(--ink);
+  flex-wrap: wrap;
+}
+.map-zoom-controls button {
+  font-family: var(--mono);
+  font-size: 14px;
+  font-weight: 700;
+  width: 30px;
+  height: 30px;
+  line-height: 28px;
+  text-align: center;
+  border: 1.4px solid var(--ink);
+  background: var(--paper);
+  color: var(--ink);
+  cursor: pointer;
+  padding: 0;
+  transition: background var(--t-fast) linear, transform var(--t-fast) var(--ease-snap);
+}
+.map-zoom-controls button:hover { background: var(--ink); color: var(--paper); transform: translateY(-1px); }
+.map-zoom-controls button:active { transform: translateY(0); }
+.map-zoom-readout {
+  margin-left: auto;
+  font-family: var(--mono);
+  font-size: 10.5px;
+  letter-spacing: .08em;
+  color: var(--ink-soft);
+  white-space: nowrap;
+}
+
+/* Hide pin labels at default zoom; reveal on hover OR when zoomed in.
+   This dramatically reduces clutter where many pins cluster. */
+.bali-map svg .map-pin text,
+.taiwan-map svg .map-pin text,
+.au-map svg .map-pin text,
+.hainan-map svg .map-pin text {
+  opacity: 0;
+  transition: opacity 120ms linear;
+}
+/* Same-specificity overrides */
+.bali-map svg.zoomed-in .map-pin text,
+.taiwan-map svg.zoomed-in .map-pin text,
+.au-map svg.zoomed-in .map-pin text,
+.hainan-map svg.zoomed-in .map-pin text,
+.bali-map svg .map-pin:hover text,
+.taiwan-map svg .map-pin:hover text,
+.au-map svg .map-pin:hover text,
+.hainan-map svg .map-pin:hover text {
+  opacity: 1;
+}
+
+/* SVG containers — better feel for pan / zoom */
+.bali-map svg,
+.taiwan-map svg,
+.au-map svg,
+.hainan-map svg {
+  user-select: none;
+  -webkit-user-select: none;
+  cursor: grab;
+}
+.bali-map svg:active,
+.taiwan-map svg:active,
+.au-map svg:active,
+.hainan-map svg:active { cursor: grabbing; }
+
+/* ===== Map pins & legend ============================== */
+/* NOTE: SVG <g> + CSS transform composes with the element's
+   transform="translate(x,y)" attribute; combining that with a
+   snap/overshoot easing makes the pin jitter on hover. Use a
+   short, monotonic ease-out and scale the inner circle only —
+   leave the group untouched. */
+.map-pin {
+  transition: opacity var(--t-fast) linear;
+}
+.map-pin circle {
+  transition: r 120ms ease-out, fill var(--t-fast) linear, stroke-width 120ms ease-out;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+.map-pin:hover circle {
+  /* no transform; size handled by the existing :hover { r: 8 } rule in issue.css */
+}
+
+/* ===== Reduced motion guard =========================== */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .ticker > .ticker-track { animation: none !important; }
+  .blink { animation: none !important; opacity: 1 !important; }
+}

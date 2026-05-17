@@ -1,0 +1,171 @@
+---
+import IssuePage from '../../layouts/IssuePage.astro';
+---
+
+<IssuePage
+  title="澳洲衝浪檔案 · ISSUE No. 003 — 衝浪研究室"
+  description="42 個澳洲浪點與服務研究檔案,8 州雙海岸線、WSL CT 三站、巨浪 slab、remote outback。"
+  issueNumber="003"
+  issueStats="42 ENTRIES · 17 REGIONS"
+  issueEdition="EAST + WEST + TAS"
+  headingEn="Australia Field Book"
+  headingCh="澳 洲 衝 浪 檔 案"
+  currentIssue="australia"
+>
+
+  <section class="issue-intro">
+    <p class="lede">
+      從 <em>Snapper</em> 的 Superbank sand barrels 到 <em>Bells</em> 的 Rip Curl Pro,<br/>
+      從 <em>Margaret River</em> 的巨浪到 <em>Shipstern's Bluff</em> 的塔斯馬尼亞 slab ——<br/>
+      一份橫跨 8 個州、雙海岸線的<em>研究檔案</em>。
+    </p>
+    <div class="meta-grid">
+      <div class="cell"><div class="n">37</div><div class="l">浪點 SPOTS</div></div>
+      <div class="cell"><div class="n">4</div><div class="l">服務 SERVICES</div></div>
+      <div class="cell"><div class="n">1</div><div class="l">實用 PRACTICAL</div></div>
+      <div class="cell"><div class="n">17</div><div class="l">區域 REGIONS</div></div>
+    </div>
+  </section>
+
+  <nav class="modes">
+    <div class="mode-btn active" data-mode="index">
+      <span>Index</span><span class="ch">索引</span><span class="num">42</span>
+    </div>
+    <div class="mode-btn" data-mode="map">
+      <span>Map</span><span class="ch">地圖</span>
+    </div>
+    <div class="mode-btn" data-mode="season">
+      <span>Season</span><span class="ch">月曆</span>
+    </div>
+    <div class="mode-btn" data-mode="skill">
+      <span>Skill Match</span><span class="ch">技術匹配</span>
+    </div>
+    <div class="mode-btn" data-mode="compare">
+      <span>Compare</span><span class="ch">比較</span>
+    </div>
+  </nav>
+
+  <section class="pane" data-mode="index">
+    <div class="toolbar">
+      <input id="search" class="search" placeholder="搜尋浪點 / 學校 / 區域… SEARCH SPOTS, SERVICES, KEYWORDS" />
+      <div style="display:flex; gap:12px; flex-wrap:wrap; align-items:center;">
+        <span class="group-label">類別</span>
+        <div class="group" id="cat-chips"></div>
+        <span class="group-label">區域</span>
+        <div class="group" id="reg-chips"></div>
+      </div>
+      <div style="display:flex; gap:12px; flex-wrap:wrap; align-items:center;">
+        <span class="group-label">技術</span>
+        <div class="group" id="sk-chips"></div>
+        <span class="group-label">季節</span>
+        <div class="group" id="ss-chips"></div>
+      </div>
+      <div style="margin-left:auto; font-family:var(--mono); font-size:10.5px; letter-spacing:.12em; text-transform:uppercase;">
+        顯示 <span id="result-count">—</span>
+      </div>
+    </div>
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <section class="pane" data-mode="map" style="display:none;">
+    <div class="toolbar" style="border-bottom:0;">
+      <div style="font-family:var(--display-2); font-style:italic; font-size:22px; color:var(--ocean);">澳洲浪點地圖</div>
+      <div style="margin-left:auto; font-family:var(--mono); font-size:10.5px; letter-spacing:.12em; text-transform:uppercase;">
+        17 區域 · 點選圓點 → 詳情
+      </div>
+    </div>
+    <div id="map-wrap"></div>
+  </section>
+
+  <section class="pane" data-mode="season" style="display:none;">
+    <div class="toolbar" style="border-bottom:0;">
+      <div style="font-family:var(--display-2); font-style:italic; font-size:22px; color:var(--ocean);">季節 × 浪點 矩陣</div>
+      <div style="display:flex; gap:8px; align-items:center; margin-left:auto;" id="season-legend"></div>
+    </div>
+    <div class="season" id="season-table"></div>
+    <div style="margin-top:20px; display:grid; grid-template-columns: 1fr 1fr; gap:20px;">
+      <div class="dossier" style="padding:18px 20px;">
+        <div class="kicker" style="color:var(--vermillion-d); margin-bottom:6px;">秋季 / AUTUMN · MAR—MAY</div>
+        <h3 style="font-family:var(--display); font-size:32px; margin:0 0 8px; line-height:1;">東岸氣旋季高峰</h3>
+        <p style="font-family:var(--serif); font-size:14px; line-height:1.55; margin:0;">
+          熱帶氣旋季 + 早冬南極風暴 → 黃金海岸 Snapper / Kirra / Burleigh sandbar 全開。
+          Rip Curl Pro Bells Easter (Apr)、Quiksilver Pro Snapper (Mar/Apr)、Margaret River Pro (Apr–May)。
+        </p>
+      </div>
+      <div class="dossier" style="padding:18px 20px;">
+        <div class="kicker" style="color:var(--ocean); margin-bottom:6px;">冬季 / WINTER · JUN—AUG</div>
+        <h3 style="font-family:var(--display); font-size:32px; margin:0 0 8px; line-height:1;">巨浪窗口 · WA / Tas</h3>
+        <p style="font-family:var(--serif); font-size:14px; line-height:1.55; margin:0;">
+          南極低壓巨浪 → 西澳 Margaret River、Tasmania Shipstern's Bluff、Cape Fear slab 招牌期。
+          東岸冷水但浪面乾淨,Maroubra / Bondi / Manly 都進入沉浮模式。
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="pane" data-mode="skill" style="display:none;">
+    <div class="skillrec">
+      <div class="controls">
+        <h3>找浪點 / Match Me</h3>
+        <p>回答四個問題,我們從 42 個項目裡找出最匹配的浪點 ——附帶評分理由。</p>
+        <div id="skill-questions"></div>
+      </div>
+      <div class="results" id="skill-results"></div>
+    </div>
+  </section>
+
+  <section class="pane" data-mode="compare" style="display:none;">
+    <div class="toolbar" style="border-bottom:0;">
+      <div style="font-family:var(--display-2); font-style:italic; font-size:22px; color:var(--ocean);">浪點並列比較</div>
+      <div style="margin-left:auto; font-family:var(--mono); font-size:10.5px; letter-spacing:.12em; text-transform:uppercase;">
+        最多 4 項 · 回到 INDEX 加入
+      </div>
+    </div>
+    <div class="compare-grid" id="compare-grid"></div>
+  </section>
+
+  <section style="margin-top:36px; border:2px solid var(--ink); background:var(--paper); padding:18px 22px; display:grid; grid-template-columns: 1fr 1fr 1fr; gap:18px;">
+    <div>
+      <div class="eyebrow" style="color:var(--vermillion-d);">SOUTHERN HEMISPHERE / 南半球</div>
+      <h4 style="font-family:var(--display); font-size:22px; margin:6px 0 8px;">季節相反</h4>
+      <p style="font-family:var(--serif); font-size:13.5px; line-height:1.55; margin:0;">
+        澳洲季節與北半球相反:夏季 (Dec–Feb) 多東岸 onshore 與小浪;
+        秋冬 (Mar–Aug) 為巨浪招牌期。熱帶氣旋季 Nov–Apr 為 Gold Coast 的招牌。
+      </p>
+    </div>
+    <div>
+      <div class="eyebrow" style="color:var(--vermillion-d);">SHARK AWARENESS / 鯊魚</div>
+      <h4 style="font-family:var(--display); font-size:22px; margin:6px 0 8px;">WA / SA 警戒</h4>
+      <p style="font-family:var(--serif); font-size:13.5px; line-height:1.55; margin:0;">
+        西澳 Margaret River 區、南澳 Cactus Beach、新南威爾士北部為 Great White 高頻區。
+        SharkSmart WA app、Beachsafe.org.au 為下水前必查。Surf Life Saving 旗區巡視最安全。
+      </p>
+    </div>
+    <div>
+      <div class="eyebrow" style="color:var(--vermillion-d);">WSL EVENTS / 賽事</div>
+      <h4 style="font-family:var(--display); font-size:22px; margin:6px 0 8px;">CT 三站 + slab</h4>
+      <p style="font-family:var(--serif); font-size:13.5px; line-height:1.55; margin:0;">
+        WSL CT 澳洲三站:Quiksilver Pro Snapper、Rip Curl Pro Bells、Margaret River Pro。
+        Red Bull Cape Fear / Shipstern slab invitational 不定期舉辦。
+      </p>
+    </div>
+  </section>
+
+  <div style="padding:22px 0 8px; display:flex; justify-content:space-between; font-family:var(--mono); font-size:10.5px; letter-spacing:.14em; text-transform:uppercase; color:var(--ink-soft); border-top:1.5px solid var(--ink); margin-top:30px;">
+    <span>END OF ISSUE No. 003 · AUSTRALIA</span>
+    <span><a href="/hainan" style="color:inherit;">← No. 002 海南</a> · <a href="/taiwan" style="color:inherit;">No. 004 台灣 →</a></span>
+  </div>
+
+  <div class="compare-tray" id="compare-tray">
+    <span>COMPARE TRAY · <span id="compare-count"></span></span>
+    <div class="items"></div>
+    <button class="open-btn" onclick="document.querySelector('.mode-btn[data-mode=compare]').click()">打開比較表 →</button>
+  </div>
+
+  <div class="detail-overlay" id="detail-overlay" onclick="if(event.target===this) closeDetail()">
+    <div class="detail-panel" id="detail-panel"></div>
+  </div>
+
+  <script is:inline src="/scripts/australia.js"></script>
+
+</IssuePage>

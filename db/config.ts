@@ -33,10 +33,43 @@ export const Boards = defineTable({
   }
 });
 
+export const AustraliaSpots = defineTable({
+  columns: {
+    id: column.text({ primaryKey: true }),
+    name: column.text(),
+    category: column.text({ optional: true }),
+    region: column.text({ optional: true }),
+    content: column.json({ optional: true }),
+  }
+});
+
+export const TaiwanSpots = defineTable({
+  columns: {
+    id: column.text({ primaryKey: true }),
+    name: column.text(),
+    category: column.text({ optional: true }),
+    region: column.text({ optional: true }),
+    content: column.json({ optional: true }),
+  }
+});
+
+export const BigWaveBoards = defineTable({
+  columns: {
+    id: column.text({ primaryKey: true }),
+    name: column.text(),
+    group: column.text({ optional: true }),
+    fit: column.text({ optional: true }),
+    content: column.json({ optional: true }),
+  }
+});
+
 export default defineDb({
   tables: {
     BaliSpots,
     HainanSpots,
     Boards,
+    AustraliaSpots,
+    TaiwanSpots,
+    BigWaveBoards,
   }
 });

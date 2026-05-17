@@ -180,6 +180,9 @@ import Base from '../layouts/Base.astro';
         gap: 22px;
         padding-top: 12px;
       }
+      @media (max-width: 1280px) {
+        .issues { grid-template-columns: repeat(2, 1fr); }
+      }
       @media (max-width: 800px) {
         .issues { grid-template-columns: minmax(0, 1fr); }
         .editors { grid-template-columns: minmax(0, 1fr); }
@@ -430,6 +433,34 @@ import Base from '../layouts/Base.astro';
         text-transform: uppercase;
         flex-wrap: wrap;
       }
+
+      /* sprinkle: corner stamp (optional decoration) */
+      .stamp {
+        position: absolute;
+        width: 96px;
+        height: 96px;
+        border: 2.5px solid var(--vermillion-d);
+        border-radius: 50%;
+        color: var(--vermillion-d);
+        font-family: var(--display-3);
+        font-size: 12px;
+        letter-spacing: .14em;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        transform: rotate(-12deg);
+        opacity: .85;
+        line-height: 1.1;
+      }
+      .stamp::before {
+        content: "";
+        position: absolute;
+        inset: 6px;
+        border: 1px solid currentColor;
+        border-radius: 50%;
+      }
     </style>
   </Fragment>
 
@@ -438,8 +469,8 @@ import Base from '../layouts/Base.astro';
   <!-- Top strip -->
   <div class="top-strip">
     <div>
-      <span>VOL. 01 · NO. 003</span>
-      <span>2026.05.15</span>
+      <span>VOL. 01 · NO. 006</span>
+      <span>2026.05.17</span>
       <span class="blink">●</span>
       <span>FIELD EDITION</span>
     </div>
@@ -462,27 +493,27 @@ import Base from '../layouts/Base.astro';
   <div class="tagline-strip">
     <div>記錄 · 整理 · 出走</div>
     <div class="center">A FIELD JOURNAL FOR THE PRACTICING SURFER</div>
-    <div>BALI · 海南 · 板</div>
+    <div>BALI · 海南 · AU · 台灣 · 板 · BIG WAVE</div>
   </div>
 
   <!-- Editor's note -->
   <section class="editors">
     <div>
       <div class="eyebrow" style="color: var(--vermillion-d); margin-bottom: 14px;">EDITOR&rsquo;S NOTE / 編輯室手記</div>
-      <h2 class="lead-h">三份田野檔案,<br/>一本<em>非旅遊指南</em>。</h2>
+      <h2 class="lead-h">六份田野檔案,<br/>一本<em>非旅遊指南</em>。</h2>
       <div class="lead-body">
-        <p>這不是又一本「網紅 Top 10 浪點」。我們把過去半年蒐集的衝浪研究 — Bukit 半島的浪況差異、海南萬寧 PerfectSwell 的開幕後實測、Modern Twin Fin 在亞洲體型上的浮力修正 — 整理成三本可索引、可比較、可帶上飛機的研究檔案。</p>
+        <p>這不是又一本「網紅 Top 10 浪點」。我們把過去半年蒐集的衝浪研究 — Bukit 半島的浪況差異、海南萬寧 PerfectSwell 的開幕後實測、澳洲雙海岸線的 CT 三站、台灣東北季風 + 颱風雙引擎、Modern Twin Fin 在亞洲體型上的浮力修正、以及真正 charger 用的 Step-Up 與 Gun — 整理成六本可索引、可比較、可帶上飛機的研究檔案。</p>
         <p>每一本都附上篩選器、季風月曆、與「先選技術等級再給浪點」的反向推薦器。所有數字後面都標註不確定來源。你可以把它當成個人的衝浪 wiki,也可以拿來規劃下個月要不要請假。</p>
       </div>
     </div>
     <aside class="editors-aside">
       <div class="stat-block">
         <div class="stat">
-          <div class="n">104</div>
+          <div class="n">208</div>
           <div class="label">已研究項目</div>
         </div>
         <div class="stat">
-          <div class="n">3</div>
+          <div class="n">6</div>
           <div class="label">主題期數</div>
         </div>
         <div class="stat">
@@ -512,7 +543,7 @@ import Base from '../layouts/Base.astro';
   </div>
 
   <div class="issues">
-    <!-- Issue 1 — Bali -->
+    <!-- Issue 1 — Bali (No. 001) -->
     <a class="issue" href="/bali">
       <div class="issue-head">
         <span>ISSUE No. 001</span>
@@ -552,7 +583,7 @@ import Base from '../layouts/Base.astro';
       </div>
     </a>
 
-    <!-- Issue 2 — Hainan -->
+    <!-- Issue 2 — Hainan (No. 002) -->
     <a class="issue" href="/hainan">
       <div class="issue-head">
         <span>ISSUE No. 002</span>
@@ -592,10 +623,89 @@ import Base from '../layouts/Base.astro';
       </div>
     </a>
 
-    <!-- Issue 3 — Board -->
-    <a class="issue" href="/boards">
+    <!-- Issue 3 — Australia (No. 003) -->
+    <a class="issue" href="/australia">
       <div class="issue-head">
         <span>ISSUE No. 003</span>
+        <span>42 ENTRIES · 17 REGIONS</span>
+      </div>
+      <div class="issue-cover" style="background: var(--teal); color: var(--paper);">
+        <div class="halftone-bg"></div>
+        <span class="cover-pill">EAST + WEST + TAS</span>
+        <div class="cover-title">
+          <span class="ch">澳 洲 衝 浪 檔 案</span>
+          AUSTRALIA<br/>SURF<br/>FIELD&nbsp;BOOK
+        </div>
+        <div class="cover-foot">
+          <div class="meta">
+            UPDATED<br/>
+            2026.05.17<br/>
+            GOLD COAST · BELLS<br/>
+            MARGARET RIVER
+          </div>
+          <div class="issue-no">003</div>
+        </div>
+      </div>
+      <div class="issue-meta">
+        <div class="title-en">Snapper to Bells to Margaret River to Shipstern's — Aussie east + west.</div>
+        <div class="blurb">8 州雙海岸線;Quiksilver Pro / Bells / WSL CT 三站 + 巨浪 slab + remote outback (Cactus, Gnaraloo)。</div>
+        <div class="tags">
+          <span class="tag tag-teal">浪點</span>
+          <span class="tag">學校</span>
+          <span class="tag">WSL CT</span>
+          <span class="tag">巨浪 slab</span>
+          <span class="tag tag-must">simple ETA</span>
+        </div>
+      </div>
+      <div class="issue-foot">
+        <span>開啟期刊 / OPEN ISSUE</span>
+        <span class="open">→</span>
+      </div>
+    </a>
+
+    <!-- Issue 4 — Taiwan (No. 004) -->
+    <a class="issue" href="/taiwan">
+      <div class="issue-head">
+        <span>ISSUE No. 004</span>
+        <span>33 ENTRIES · 9 REGIONS</span>
+      </div>
+      <div class="issue-cover bg-1">
+        <div class="halftone-bg"></div>
+        <span class="cover-pill">DOMESTIC FIELD GUIDE</span>
+        <div class="cover-title">
+          <span class="ch">台 灣 衝 浪 檔 案</span>
+          TAIWAN<br/>SURF<br/>FIELD&nbsp;BOOK
+        </div>
+        <div class="cover-foot">
+          <div class="meta">
+            UPDATED<br/>
+            2026.05.17<br/>
+            北部 · 東部 · 南部<br/>
+            離島 · 颱風窗口
+          </div>
+          <div class="issue-no">004</div>
+        </div>
+      </div>
+      <div class="issue-meta">
+        <div class="title-en">中角 · 烏石 · 金樽 · 佳樂水 — Taiwan's home field guide.</div>
+        <div class="blurb">在地視角;東北季風 + 颱風雙引擎;教學基地、賽事日曆、安全裝備建議全收。</div>
+        <div class="tags">
+          <span class="tag tag-verm">浪點</span>
+          <span class="tag">學校</span>
+          <span class="tag">颱風</span>
+          <span class="tag tag-must">在地</span>
+        </div>
+      </div>
+      <div class="issue-foot">
+        <span>開啟期刊 / OPEN ISSUE</span>
+        <span class="open">→</span>
+      </div>
+    </a>
+
+    <!-- Issue 5 — Board Lab (No. 005) -->
+    <a class="issue" href="/boards">
+      <div class="issue-head">
+        <span>ISSUE No. 005</span>
         <span>33 ENTRIES · 5 GROUPS</span>
       </div>
       <div class="issue-cover bg-3">
@@ -612,7 +722,7 @@ import Base from '../layouts/Base.astro';
             VOLUME · ROCKER<br/>
             FIN · GLASSING
           </div>
-          <div class="issue-no">003</div>
+          <div class="issue-no">005</div>
         </div>
       </div>
       <div class="issue-meta">
@@ -624,6 +734,46 @@ import Base from '../layouts/Base.astro';
           <span class="tag">鰭片</span>
           <span class="tag">品牌</span>
           <span class="tag">台灣浪點</span>
+        </div>
+      </div>
+      <div class="issue-foot">
+        <span>開啟期刊 / OPEN ISSUE</span>
+        <span class="open">→</span>
+      </div>
+    </a>
+
+    <!-- Issue 6 — Big Wave (No. 006) -->
+    <a class="issue" href="/bigwave">
+      <div class="issue-head">
+        <span>ISSUE No. 006</span>
+        <span>29 ENTRIES · 5 GROUPS</span>
+      </div>
+      <div class="issue-cover bg-2" style="background: var(--oxblood, #6b2118); color: var(--paper);">
+        <div class="halftone-bg"></div>
+        <span class="cover-pill">CHARGER ISSUE</span>
+        <div class="cover-title">
+          <span class="ch">大 浪 短 板</span>
+          THE<br/>BIG-WAVE<br/>LAB
+        </div>
+        <div class="cover-foot">
+          <div class="meta">
+            UPDATED<br/>
+            2026.05.17<br/>
+            STEP-UP · MINI-GUN<br/>
+            GUN · TOW BOARD
+          </div>
+          <div class="issue-no">006</div>
+        </div>
+      </div>
+      <div class="issue-meta">
+        <div class="title-en">Step-ups, mini-guns and paddle guns for everything from head-high to Nazaré.</div>
+        <div class="blurb">浪面從 head-high 走向 Mavericks/Nazaré 巨浪的板款光譜;Pyzel Padillac、Stretch Quad-Pin、Pearson Arrow。</div>
+        <div class="tags">
+          <span class="tag tag-blood">Step-Up</span>
+          <span class="tag">Mini-Gun</span>
+          <span class="tag">Gun</span>
+          <span class="tag">Tow-In</span>
+          <span class="tag tag-must">台灣颱風適配</span>
         </div>
       </div>
       <div class="issue-foot">

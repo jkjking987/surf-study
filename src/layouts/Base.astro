@@ -9,7 +9,7 @@ export interface Props {
 
 const {
   title,
-  description = '衝浪研究室 — 三份田野檔案,一本非旅遊指南。Bali 50 spots · 海南 21 sites · 33 board entries。',
+  description = '衝浪研究室 — 六份田野檔案,一本非旅遊指南。Bali 50 · 海南 21 · 澳洲 42 · 台灣 33 · 小浪板 33 · 大浪板 29 = 208 entries。',
   canonical,
   ogImage,
   jsonLd
@@ -50,6 +50,7 @@ const canonicalUrl = canonical || new URL(Astro.url.pathname, siteUrl).toString(
   <!-- Styles -->
   <link rel="stylesheet" href="/styles/tokens.css" />
   <link rel="stylesheet" href="/styles/common.css" />
+  <link rel="stylesheet" href="/styles/motion.css" />
 
   <slot name="head" />
 </head>
@@ -61,5 +62,7 @@ const canonicalUrl = canonical || new URL(Astro.url.pathname, siteUrl).toString(
 
   <!-- Common JS: Theme, Favorites, Global Search, Keyboard Shortcuts -->
   <script is:inline src="/scripts/common.js"></script>
+  <!-- Motion: scroll-reveal cascade, ticker loop -->
+  <script is:inline src="/scripts/motion.js"></script>
 </body>
 </html>

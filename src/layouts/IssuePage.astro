@@ -9,7 +9,7 @@ export interface Props {
   issueEdition: string;
   headingEn: string;
   headingCh: string;
-  currentIssue: 'bali' | 'hainan' | 'board';
+  currentIssue: 'bali' | 'hainan' | 'australia' | 'taiwan' | 'board' | 'bigwave';
 }
 
 const {
@@ -26,7 +26,10 @@ const {
 const issues = [
   { id: 'bali', href: '/bali', label: 'No. 001 · BALI' },
   { id: 'hainan', href: '/hainan', label: 'No. 002 · 海南' },
-  { id: 'board', href: '/boards', label: 'No. 003 · BOARD LAB' }
+  { id: 'australia', href: '/australia', label: 'No. 003 · AUSTRALIA' },
+  { id: 'taiwan', href: '/taiwan', label: 'No. 004 · 台灣' },
+  { id: 'board', href: '/boards', label: 'No. 005 · BOARD LAB' },
+  { id: 'bigwave', href: '/bigwave', label: 'No. 006 · BIG WAVE' }
 ];
 ---
 
@@ -44,7 +47,7 @@ const issues = [
           </a>
         ))}
       </div>
-      <div>2026.05.15</div>
+      <div>2026.05.17</div>
     </div>
 
     <!-- Issue mast -->
@@ -66,4 +69,7 @@ const issues = [
   </div>
 
   <button id="search-fab" onclick="openGlobalSearch()">⌕ SEARCH ALL <small>/</small></button>
+
+  <!-- Map zoom utility (SVG region maps) -->
+  <script is:inline src="/scripts/map-zoom.js"></script>
 </Base>
