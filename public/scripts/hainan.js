@@ -441,12 +441,18 @@ function openDetail(key){
     `<span class="tag ${it.status_class}">${it.status_ch}</span>`
   ];
 
-  // Citations from verification_sources
-  const sources = r.verification?.verification_sources || "";
+  // Citations from verification_sources (may be string, array, or undefined)
+  const rawSources = r.verification?.verification_sources;
+  let items = [];
+  if(Array.isArray(rawSources)){
+    items = rawSources.map(s => String(s).replace(/^\d+\)\s*/, '').trim()).filter(Boolean);
+  } else if(typeof rawSources === "string" && rawSources){
+    items = rawSources.split(/;\s*\d+\)\s*|;\s*(?=\d+\))/).map(s => s.replace(/^\d+\)\s*/, '').trim()).filter(Boolean);
+  } else if(rawSources && typeof rawSources === "object"){
+    items = Object.values(rawSources).map(s => String(s).replace(/^\d+\)\s*/, '').trim()).filter(Boolean);
+  }
   let citesHTML = "";
-  if(sources){
-    // Sources are formatted as "1) ..., 2) ..., 3) ..." — try to split
-    const items = sources.split(/;\s*\d+\)\s*|;\s*(?=\d+\))/).map(s => s.replace(/^\d+\)\s*/, '').trim()).filter(Boolean);
+  if(items.length){
     citesHTML = `<div class="detail-citations">
       <h4>引用來源 / SOURCES (${items.length})</h4>
       <ol>${items.map(c => `<li>${escape(c)}</li>`).join("")}</ol>
@@ -491,13 +497,18 @@ window.closeDetail = function(){
 };
 
 // ===== Geo Island Map =====
+// Hainan projection:
+//   lng 108.0 → x=0, lng 111.5 → x=700 (scale 200 per deg lng)
+//   lat 20.5 → y=0, lat 17.5 → y=600 (scale 200 per deg lat)
+//   cos(19°) ≈ 0.946 — close enough for 1:1 scale
 const HAINAN_CITY_COORDS = {
-  haikou:   { x: 400, y: 140, label: "海口 HAIKOU" },
-  wenchang: { x: 530, y: 180, label: "文昌 WENCHANG" },
-  wanning:  { x: 550, y: 320, label: "萬寧 WANNING" },
-  lingshui: { x: 480, y: 410, label: "陵水 LINGSHUI" },
-  sanya:    { x: 390, y: 450, label: "三亞 SANYA" },
-  danzhou:  { x: 180, y: 240, label: "儋州 DANZHOU" }
+  haikou:   { x: 464, y: 92,  label: "海口 HAIKOU",     gps: [20.04, 110.32] },
+  wenchang: { x: 548, y: 176, label: "文昌 WENCHANG",   gps: [19.62, 110.74] },
+  qionghai: { x: 500, y: 280, label: "瓊海 QIONGHAI",   gps: [19.25, 110.50] },
+  wanning:  { x: 478, y: 340, label: "萬寧 WANNING",    gps: [18.80, 110.39] },
+  lingshui: { x: 408, y: 400, label: "陵水 LINGSHUI",   gps: [18.50, 110.04] },
+  sanya:    { x: 302, y: 450, label: "三亞 SANYA",      gps: [18.25, 109.51] },
+  danzhou:  { x: 316, y: 196, label: "儋州 DANZHOU",    gps: [19.52, 109.58] }
 };
 
 function renderIslandMap(){
@@ -506,103 +517,117 @@ function renderIslandMap(){
   // Group items by city
   const byCity = {};
   ALL.forEach(it => {
-    if(!it.city) return;
+    if(!it.city?.id) return;
     if(!byCity[it.city.id]) byCity[it.city.id] = [];
     byCity[it.city.id].push(it);
   });
-  // Build pins
+
+  // Build city pins with stats
   const pins = Object.entries(byCity).map(([cid, items]) => {
     const c = HAINAN_CITY_COORDS[cid];
     if(!c) return "";
     const operating = items.filter(i => i.status === "operating").length;
     const total = items.length;
     return `<g class="city-pin" data-city="${cid}" transform="translate(${c.x},${c.y})">
-      <circle r="22" fill="var(--paper)" stroke="var(--ink)" stroke-width="2"/>
-      <circle r="22" fill="var(--vermillion)" opacity="${0.15 + total*0.06}"/>
+      <circle r="24" fill="var(--paper)" stroke="var(--ink)" stroke-width="2"/>
+      <circle r="24" fill="var(--vermillion)" opacity="${0.18 + total*0.05}"/>
       <text y="3" text-anchor="middle" font-family="var(--display)" font-size="20" fill="var(--ink)">${total}</text>
-      <text y="42" text-anchor="middle" font-family="var(--mono)" font-size="11" fill="var(--ink)" style="paint-order: stroke; stroke: var(--paper); stroke-width: 3px;">${c.label}</text>
-      <text y="56" text-anchor="middle" font-family="var(--mono)" font-size="9" fill="var(--ink-soft)">${operating}/${total} 營運</text>
+      <text y="44" text-anchor="middle" font-family="var(--display-3)" font-size="11" fill="var(--ink)" letter-spacing="1.5" style="paint-order: stroke; stroke: var(--paper); stroke-width: 3px;">${c.label}</text>
+      <text y="58" text-anchor="middle" font-family="var(--mono)" font-size="9" fill="var(--ink-soft)" style="paint-order: stroke; stroke: var(--paper); stroke-width: 2.5px;">${operating}/${total} 營運</text>
     </g>`;
   }).join("");
+
+  // Hainan island outline — clockwise from NW (Lingao cape), 15 anchor points from real coordinates
+  const hainanOutline = `
+    M 370 90
+    L 464 92 L 510 100 L 572 130 L 600 168
+    L 588 220 L 556 280 L 500 280 L 478 340
+    L 392 418 L 332 460 L 302 450 L 200 468
+    L 130 380 L 124 280 L 130 156
+    L 215 110 L 310 100
+    Z`;
+
+  // Wuzhi Shan (central mountain) location ≈ 18.93°N, 109.67°E → x=334, y=314
+  // Five Finger Mountain peak in the central interior
+
+  // Riyue Bay (Wanning) — Surfland location
+  // ≈ 18.65°N, 110.28°E → x=456, y=370
 
   container.innerHTML = `
     <div class="hainan-map">
       <svg viewBox="0 0 700 600" xmlns="http://www.w3.org/2000/svg">
         <defs>
           <pattern id="ocean2" x="0" y="0" width="14" height="14" patternUnits="userSpaceOnUse">
-            <path d="M 0 7 Q 3.5 4, 7 7 T 14 7" stroke="var(--ocean)" stroke-width="0.6" fill="none" opacity="0.25"/>
+            <path d="M 0 7 Q 3.5 4, 7 7 T 14 7" stroke="var(--ocean)" stroke-width="0.6" fill="none" opacity="0.28"/>
           </pattern>
-          <pattern id="land-tex2" x="0" y="0" width="6" height="6" patternUnits="userSpaceOnUse">
-            <circle cx="3" cy="3" r="0.6" fill="var(--ink)" opacity="0.18"/>
+          <pattern id="land-tex2" x="0" y="0" width="9" height="9" patternUnits="userSpaceOnUse">
+            <rect width="9" height="9" fill="var(--paper-warm)"/>
+            <circle cx="2" cy="2" r=".7" fill="rgba(26,22,20,.10)"/>
           </pattern>
         </defs>
+
+        <!-- Ocean -->
         <rect width="700" height="600" fill="url(#ocean2)"/>
 
-        <!-- Hainan island outline (stylized) -->
-        <path d="
-          M 220 100
-          Q 320 80, 400 100
-          Q 480 110, 540 140
-          Q 590 175, 615 230
-          Q 630 280, 615 340
-          Q 595 400, 540 440
-          Q 470 480, 400 490
-          Q 340 495, 280 480
-          Q 210 460, 165 410
-          Q 125 350, 115 280
-          Q 115 210, 150 160
-          Q 185 115, 220 100
-          Z"
-          fill="var(--paper-deep)" stroke="var(--ink)" stroke-width="2.2" stroke-linejoin="round" opacity="0.95"/>
-        <path d="
-          M 220 100
-          Q 320 80, 400 100
-          Q 480 110, 540 140
-          Q 590 175, 615 230
-          Q 630 280, 615 340
-          Q 595 400, 540 440
-          Q 470 480, 400 490
-          Q 340 495, 280 480
-          Q 210 460, 165 410
-          Q 125 350, 115 280
-          Q 115 210, 150 160
-          Q 185 115, 220 100
-          Z"
-          fill="url(#land-tex2)"/>
+        <!-- Mainland China (Leizhou peninsula) to the north -->
+        <path d="M 280 0 L 450 0 L 510 0 L 600 0 L 600 30 L 550 50 L 500 65 L 470 70 L 420 65 L 380 55 L 340 50 L 290 35 L 280 0 Z"
+              fill="var(--paper-deep)" opacity=".55" stroke="var(--ink)" stroke-width=".9"/>
+        <text x="445" y="20" text-anchor="middle" font-family="var(--display-3)" font-size="10" fill="var(--ink-soft)" opacity=".75" letter-spacing="2">廣東 雷州半島 · LEIZHOU PENINSULA</text>
 
-        <!-- Mountain range center -->
-        <g opacity="0.4">
-          <text x="370" y="270" text-anchor="middle" font-family="var(--display-3)" font-size="11" fill="var(--ink)" letter-spacing="2">五指山 / WUZHISHAN</text>
-          <path d="M 300 290 L 320 270 L 340 290 L 360 260 L 380 285 L 400 270 L 420 290" stroke="var(--ink)" stroke-width="1" fill="none"/>
+        <!-- Vietnam coast hint (NW corner) -->
+        <path d="M 0 350 L 60 380 L 50 480 L 30 560 L 0 600 Z"
+              fill="var(--paper-deep)" opacity=".4" stroke="var(--ink)" stroke-width=".8" stroke-dasharray="2,3"/>
+        <text x="20" y="450" font-family="var(--display-3)" font-size="9" fill="var(--ink-soft)" opacity=".65" letter-spacing="2" transform="rotate(-90 20 450)">VN ↑</text>
+
+        <!-- Hainan island -->
+        <path d="${hainanOutline}" fill="url(#land-tex2)" stroke="var(--ink)" stroke-width="2.2" stroke-linejoin="round"/>
+
+        <!-- Wuzhishan (Five Finger Mountains) central highlands -->
+        <g opacity=".55">
+          <path d="M 290 290 L 308 268 L 326 290 L 344 258 L 362 285 L 380 268 L 398 290"
+                stroke="var(--ink)" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+          <text x="344" y="248" text-anchor="middle" font-family="var(--display-3)" font-size="10" fill="var(--ink)" letter-spacing="1.5">五指山 · WUZHISHAN</text>
         </g>
 
-        <!-- Riyue Bay highlight at Wanning -->
-        <g opacity="0.85">
-          <circle cx="565" cy="305" r="10" fill="none" stroke="var(--vermillion)" stroke-width="2.5" stroke-dasharray="4,3"/>
-          <text x="588" y="280" font-family="var(--display-3)" font-size="10" fill="var(--vermillion-d)">日月灣</text>
-          <text x="588" y="293" font-family="var(--display-3)" font-size="10" fill="var(--vermillion-d)">RIYUE BAY</text>
-          <text x="588" y="306" font-family="var(--mono)" font-size="9" fill="var(--vermillion-d)">SURFLAND</text>
+        <!-- Riyue Bay (日月灣 / SURFLAND) highlight -->
+        <g>
+          <circle cx="478" cy="372" r="14" fill="none" stroke="var(--vermillion)" stroke-width="2.5" stroke-dasharray="4,3"/>
+          <line x1="490" y1="362" x2="540" y2="335" stroke="var(--vermillion-d)" stroke-width="1" stroke-dasharray="2,2"/>
+          <text x="545" y="328" font-family="var(--display-3)" font-size="11" fill="var(--vermillion-d)" letter-spacing="1">日月灣</text>
+          <text x="545" y="342" font-family="var(--mono)" font-size="9" fill="var(--vermillion-d)" letter-spacing="1.5">RIYUE BAY · SURFLAND</text>
         </g>
 
-        <!-- Strait labels -->
-        <text x="350" y="40" text-anchor="middle" font-family="var(--display-2)" font-size="13" fill="var(--ocean)" font-style="italic">瓊州海峽 / Qiongzhou Strait</text>
-        <text x="80" y="350" font-family="var(--display-2)" font-size="13" fill="var(--ocean)" font-style="italic" transform="rotate(-90, 80, 350)">北部灣 / Beibu Gulf</text>
-        <text x="660" y="300" font-family="var(--display-2)" font-size="13" fill="var(--ocean)" font-style="italic" transform="rotate(90, 660, 300)">南海 / South China Sea</text>
+        <!-- Hainan/China surf current note -->
+        <path d="M 620 50 Q 660 200 640 380 Q 620 500 600 580"
+              fill="none" stroke="var(--vermillion)" stroke-width="10" opacity=".07" stroke-linecap="round"/>
+        <path d="M 620 50 Q 660 200 640 380 Q 620 500 600 580"
+              fill="none" stroke="var(--vermillion-d)" stroke-width=".8" opacity=".25" stroke-dasharray="3,4"/>
 
-        <!-- Title -->
-        <text x="350" y="555" text-anchor="middle" font-family="var(--display-2)" font-size="14" fill="var(--ink)" font-style="italic">HAINAN ISLAND · 海南島</text>
+        <!-- Sea labels -->
+        <text x="350" y="42" text-anchor="middle" font-family="var(--display-2)" font-size="13" fill="var(--ocean)" font-style="italic">瓊州海峽 · Qiongzhou Strait</text>
+        <text x="90" y="220" font-family="var(--display-2)" font-size="12" fill="var(--ocean)" font-style="italic">北部灣</text>
+        <text x="80" y="240" font-family="var(--display-3)" font-size="10" fill="var(--ocean)" opacity=".75" letter-spacing="2">BEIBU GULF</text>
+        <text x="680" y="300" font-family="var(--display-2)" font-size="13" fill="var(--ocean)" font-style="italic" transform="rotate(90, 680, 300)">南海 · South China Sea</text>
+        <text x="350" y="555" text-anchor="middle" font-family="var(--display-3)" font-size="11" fill="var(--ink-soft)" letter-spacing="3" opacity=".75">HAINAN ISLAND · 海 南 島</text>
 
         <!-- Compass -->
-        <g transform="translate(640,560)" font-family="var(--mono)" font-size="9" fill="var(--ink)">
-          <circle r="22" fill="var(--paper)" stroke="var(--ink)" stroke-width="1.2"/>
-          <text x="0" y="-12" text-anchor="middle">N</text>
-          <text x="0" y="16" text-anchor="middle">S</text>
-          <text x="-14" y="3" text-anchor="middle">W</text>
-          <text x="14" y="3" text-anchor="middle">E</text>
-          <line x1="0" y1="-4" x2="0" y2="-9" stroke="var(--vermillion)" stroke-width="2"/>
+        <g transform="translate(645,80)">
+          <circle r="20" fill="var(--paper)" stroke="var(--ink)" stroke-width="1.3"/>
+          <path d="M 0 -15 L 4.5 0 L 0 15 L -4.5 0 Z" fill="var(--vermillion)" stroke="var(--ink)" stroke-width=".8"/>
+          <text y="-25" text-anchor="middle" font-family="var(--display-3)" font-size="11" fill="var(--ink)">N</text>
         </g>
 
-        <!-- City pins -->
+        <!-- Scale: 1° ≈ 111 km, 1° = 200 px → 50 km = 90 px -->
+        <g transform="translate(560,575)">
+          <line x1="0" y1="0" x2="90" y2="0" stroke="var(--ink)" stroke-width="1.5"/>
+          <line x1="0" y1="-4" x2="0" y2="4" stroke="var(--ink)" stroke-width="1.5"/>
+          <line x1="45" y1="-3" x2="45" y2="3" stroke="var(--ink)" stroke-width="1.2"/>
+          <line x1="90" y1="-4" x2="90" y2="4" stroke="var(--ink)" stroke-width="1.5"/>
+          <text x="0" y="-6" text-anchor="start" font-family="var(--mono)" font-size="8" fill="var(--ink-soft)">0</text>
+          <text x="90" y="-6" text-anchor="end" font-family="var(--mono)" font-size="8" fill="var(--ink-soft)">50 km</text>
+        </g>
+
+        <!-- City pins last -->
         ${pins}
       </svg>
       <div class="map-legend" style="border-left:1.5px solid var(--ink);">
@@ -610,7 +635,7 @@ function renderIslandMap(){
         ${Object.entries(byCity).map(([cid, items]) => {
           const c = HAINAN_CITY_COORDS[cid];
           const ops = items.filter(i => i.status==="operating").length;
-          return `<div class="map-legend-row" style="flex-direction:column; align-items:flex-start; gap:2px; padding:6px 0; border-bottom:1px dashed var(--ink);">
+          return `<div class="map-legend-row" style="flex-direction:column; align-items:flex-start; gap:2px; padding:6px 0; border-bottom:1px dashed var(--ink); cursor:pointer;" data-city-legend="${cid}">
             <strong style="font-family:var(--display-2); font-size:15px;">${c?.label || cid}</strong>
             <span style="font-family:var(--mono); font-size:10px; color:var(--ink-soft);">${items.length} 項 · ${ops} 營運中</span>
           </div>`;
@@ -626,6 +651,15 @@ function renderIslandMap(){
       document.querySelector(".mode-btn[data-mode=index]").click();
     });
   });
+
+  // Zoom + pan + control bar
+  const svg = container.querySelector("svg");
+  const sidebar = container.querySelector(".map-legend");
+  if(svg && window.attachMapControls){
+    const host = sidebar || container;
+    host.querySelector(".map-zoom-controls")?.remove();
+    window.attachMapControls(svg, host);
+  }
 }
 window.renderIslandMap = renderIslandMap;
 

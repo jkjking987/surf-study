@@ -1,32 +1,33 @@
 // =========================================================
-// 衝浪研究室 — Australia Issue (No. 005) logic
+// 衝浪研究室 — Korea Issue (No. 006) logic
 // =========================================================
 
 const REGION_MAP = {
-  "Gold Coast":                { ch: "黃金海岸",         short: "GC" },
-  "Sydney Northern Beaches":   { ch: "雪梨北部",           short: "SYD-N" },
-  "Sydney Eastern Beaches":    { ch: "雪梨東部",           short: "SYD-E" },
-  "Northern NSW":              { ch: "新南威爾斯北",       short: "NNSW" },
-  "Mid North NSW":             { ch: "新南中北",           short: "MNNSW" },
-  "Newcastle / Hunter":        { ch: "紐卡素",             short: "NCL" },
-  "Illawarra — Wollongong":     { ch: "伊拉瓦拉 / 窩龍崗",   short: "WOL" },
-  "Victoria — Surf Coast":     { ch: "維多利亞 · 衝浪岸",   short: "VIC-SC" },
-  "Victoria — South":          { ch: "維多利亞 · 南部",     short: "VIC-S" },
-  "WA — Margaret River":       { ch: "西澳 · 瑪格麗特河",   short: "WA-MR" },
-  "WA — Southern":             { ch: "西澳 · 南部",         short: "WA-S" },
-  "WA — Coral Coast":          { ch: "西澳 · 珊瑚海岸",     short: "WA-CC" },
-  "SA — Eyre Peninsula":       { ch: "南澳 · 艾爾半島",     short: "SA-EY" },
-  "Tasmania":                  { ch: "塔斯马尼亞",         short: "TAS" },
-  "Australia-wide":            { ch: "全澳",               short: "ALL" },
-  "Australia-wide / Online":   { ch: "全澳 / 線上",         short: "WEB" }
+  "襄陽 / Yangyang":          { ch: "襄陽",       short: "YYG" },
+  "束草 / Sokcho":            { ch: "束草",       short: "SCH" },
+  "高城 / Goseong":           { ch: "高城",       short: "GSG" },
+  "釜山 / Busan":             { ch: "釜山",       short: "BSN" },
+  "慶尚北道 / Pohang":        { ch: "浦項",       short: "PHG" },
+  "濟州島 / Jeju":            { ch: "濟州",       short: "JEJ" },
+  "東海離島 / East Sea Islands": { ch: "東海離島", short: "ESI" },
+  "全韓國 / Korea-wide":      { ch: "全韓國",     short: "KR-ALL" }
 };
 
-// Manual category mapping by key (overrides basic_info.category)
 const SERVICE_KEYS = new Set([
-  "Surf_Schools_Australia", "Board_Rental_Australia",
-  "Surf_Forecast_Australia", "Visa_Entry_AU",
-  "Quiksilver_Pro_Bells_Festivals"
+  "Surf_Schools_Korea", "Visa_Entry_Korea", "Surf_Forecast_Korea", "Season_Typhoon_Korea"
 ]);
+
+// Monthly mean SST in °C — region-level (Jan…Dec)
+const WATER_TEMP_META = {
+  "襄陽 / Yangyang":          { temps: [ 8, 7, 8,10,13,17,21,24,22,18,14,10], note: "東海岸 NE swell 主場;2月可低至 6–8°C → 4/3 + booties 或 5/4 + hood" },
+  "束草 / Sokcho":            { temps: [ 8, 7, 7,10,13,17,21,24,22,18,14,10], note: "外擁峙 / 大浦;雪嶽山下,寒流冷;同襄陽" },
+  "高城 / Goseong":           { temps: [ 7, 6, 6, 9,12,16,20,23,21,17,13, 9], note: "近 DMZ 最北端,北韓寒流影響;2月可低至 6°C → 5/4 + hood + boots + gloves" },
+  "釜山 / Busan":             { temps: [13,12,13,14,17,20,23,26,24,21,18,15], note: "東南岸對馬暖流經過;冬季比襄陽暖 5°C → 4/3 全年可" },
+  "慶尚北道 / Pohang":        { temps: [11,10,10,12,15,19,23,25,23,19,16,13], note: "東岸南端,暖流寒流交界;冬季 4/3 + hood 為宜" },
+  "濟州島 / Jeju":            { temps: [15,14,14,16,18,22,25,27,26,23,20,17], note: "黑潮分支進入;南韓最暖海域;1月仍可 14°C (3/2 或 4/3)" },
+  "東海離島 / East Sea Islands": { temps: [ 9, 8, 8,10,13,17,21,23,22,18,14,10], note: "鬱陵島;東海中央,冬季 5/4 + hood;船班受天氣影響" },
+  "全韓國 / Korea-wide":      { temps: [10, 9,10,12,14,18,22,25,23,19,16,12], note: "全國平均;東岸 vs 濟州 vs 東南岸有 ±5°C 差異" }
+};
 
 const CATEGORY_LABELS = {
   spot:      { ch: "浪點",       short: "SPOT" },
@@ -45,35 +46,22 @@ const SKILL_LABELS = {
 
 const MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
 const MONTHS_NUM_NAME = {
-  "jan":1, "january":1,
-  "feb":2, "february":2,
-  "mar":3, "march":3,
-  "apr":4, "april":4,
-  "may":5,
-  "jun":6, "june":6,
-  "jul":7, "july":7,
-  "aug":8, "august":8,
-  "sep":9, "sept":9, "september":9,
-  "oct":10, "october":10,
-  "nov":11, "november":11,
-  "dec":12, "december":12
+  "jan":1,"january":1,"feb":2,"february":2,"mar":3,"march":3,"apr":4,"april":4,"may":5,
+  "jun":6,"june":6,"jul":7,"july":7,"aug":8,"august":8,
+  "sep":9,"sept":9,"september":9,"oct":10,"october":10,"nov":11,"november":11,"dec":12,"december":12
 };
 
-// ===== Helpers =====
 function asArr(x){ if(!x) return []; return Array.isArray(x)?x:[x]; }
 function lc(s){ return (s||"").toLowerCase(); }
 
 function parseMonthsFromText(text){
-  // returns array of 1..12 numbers covered by the text
   if(!text) return [];
   const t = lc(text);
   const set = new Set();
-  // Direct year-round
   if(/year[\s\-]?round|all\s*year|全年/.test(t)) {
     for(let i=1;i<=12;i++) set.add(i);
     return [...set];
   }
-  // Patterns: "may-october", "May to October", "Apr/May-October"
   const re = /([a-z]{3,9})(?:\/[a-z]{3,9})?\s*(?:-|to|–|—|至|~)\s*([a-z]{3,9})/g;
   let m;
   while((m = re.exec(t))){
@@ -87,14 +75,10 @@ function parseMonthsFromText(text){
       }
     }
   }
-  // Also: "in May, June, July"
-  const re2 = /\b(jan(?:uary)?|feb(?:ruary)?|mar(?:ch)?|apr(?:il)?|may|jun(?:e)?|jul(?:y)?|aug(?:ust)?|sept?(?:ember)?|oct(?:ober)?|nov(?:ember)?|dec(?:ember)?)\b/g;
-  // (Don't double-add if range already covers)
   return [...set].sort((a,b)=>a-b);
 }
 
 function monthNum(name){
-  const k = lc(name).slice(0, 4);
   for(const [k2,v] of Object.entries(MONTHS_NUM_NAME)){
     if(k2.startsWith(lc(name).slice(0,3))) return v;
   }
@@ -102,7 +86,6 @@ function monthNum(name){
 }
 
 function parsePeakMonths(text){
-  // Find "(peak X-Y)" or "peak Aug-Sep" within text
   if(!text) return [];
   const t = lc(text);
   const m = t.match(/peak[^.]*?\(?\s*([a-z]+(?:-[a-z]+)?(?:\s*-\s*[a-z]+)?)\)?/);
@@ -119,16 +102,9 @@ function parseSkill(text){
   if(/advanced|進階/.test(t)) out.push("A");
   if(/\bpro\b|pro\s*only|職業|expert/.test(t)) out.push("P");
   if(!out.length){
-    if(/all\s*levels?|各程度/.test(t)) return ["B","I","A","P"];
+    if(/all\s*levels?|各程度|全程度/.test(t)) return ["B","I","A","P"];
   }
   return out;
-}
-
-function parseWaveHeight(text){
-  if(!text) return null;
-  const m = lc(text).match(/(\d+(?:\.\d+)?)\s*(?:-|to|–|—)\s*(\d+(?:\.\d+)?)\s*(ft|feet|m|公尺|米)/);
-  if(m) return { min: +m[1], max: +m[2], unit: m[3]==="m"||m[3]==="公尺"||m[3]==="米" ? "m" : "ft" };
-  return null;
 }
 
 function parseCrowd(text){
@@ -139,15 +115,15 @@ function parseCrowd(text){
 }
 
 function classifyCategory(key, raw){
-  const cat = raw?.basic_info?.category || "";
+  const cat = raw?.basic_info?.category || raw?.category || "";
   if(SERVICE_KEYS.has(key)){
-    if(["Season_Safety_Medical","Transport_Logistics","Visa_Entry_Logistics","Surf_Forecast_Tools"].includes(key)) return "practical";
+    if(["Visa_Entry_Korea","Season_Typhoon_Korea"].includes(key)) return "practical";
     return "service";
   }
   if(cat === "surf_spot_hidden") return "hidden";
   if(cat === "extension_destination") return "extension";
   if(cat === "practical") return "practical";
-  if(cat === "event_culture") return "service"; // group with services
+  if(cat === "event_culture") return "service";
   if(cat === "surf_business" || cat === "surf_resource") return "service";
   return "spot";
 }
@@ -161,12 +137,10 @@ function shortName(name){
 
 function extractCh(name){
   if(!name) return "";
-  // Find first parenthetical containing Chinese, strip "Chinese:" prefix etc.
   const m = name.match(/\(([^()]*[\u4e00-\u9fff][^()]*)\)/);
   if(m){
     let ch = m[1].trim();
     ch = ch.replace(/.*Chinese:\s*/i, "");
-    // Strip "Indonesian: ..." suffix
     ch = ch.replace(/\s*;.*$/, "");
     if(ch.includes("/") && ch.split("/").length > 1) ch = ch.split("/")[0].trim();
     return ch;
@@ -175,19 +149,57 @@ function extractCh(name){
   return "";
 }
 
-// Some items are flat (Balangan) and others nested (Uluwatu). Flatten + alias.
+// ===== Water temp helpers =====
+function suitFor(t){
+  if(t < 8)  return "5/4mm + hood + boots + gloves";
+  if(t < 12) return "5/4mm + booties";
+  if(t < 16) return "4/3mm + booties";
+  if(t < 19) return "3/2mm 全身";
+  if(t < 23) return "2mm spring 或 3/2mm";
+  return "Boardshorts + rashguard";
+}
+function tempColor(t){
+  if(t < 8)  return "oklch(0.58 0.16 245)";
+  if(t < 13) return "oklch(0.68 0.14 220)";
+  if(t < 17) return "oklch(0.78 0.13 200)";
+  if(t < 21) return "oklch(0.80 0.13 150)";
+  if(t < 26) return "oklch(0.84 0.16 80)";
+  return "oklch(0.74 0.18 35)";
+}
+function waterTempSectionHTML(region){
+  const data = WATER_TEMP_META[region];
+  if(!data) return "";
+  const months = MONTHS;
+  const min = Math.min(...data.temps), max = Math.max(...data.temps);
+  const minIdx = data.temps.indexOf(min), maxIdx = data.temps.indexOf(max);
+  const cells = data.temps.map((t,i) => {
+    return `<div class="wt-cell">
+      <div class="wt-mo">${months[i]}</div>
+      <div class="wt-deg" style="background:${tempColor(t)};">${t}°</div>
+      <div class="wt-suit">${suitFor(t).split(' ')[0]}</div>
+    </div>`;
+  }).join("");
+  return `<div class="detail-section wt-section">
+    <h3>Water Temp / 水溫 (年度月均 SST)</h3>
+    <div class="wt-row">${cells}</div>
+    <div class="wt-summary">
+      <div><strong>最冷:</strong>${min}°C (${months[minIdx]}) → ${suitFor(min)}</div>
+      <div><strong>最熱:</strong>${max}°C (${months[maxIdx]}) → ${suitFor(max)}</div>
+      <div class="wt-note">${escape(data.note||"")}</div>
+    </div>
+  </div>`;
+}
+
 function flattenForView(raw){
-  if(raw.basic_info) return raw; // already nested form
-  // flat form -> rebuild a nested-looking object for downstream code
+  if(raw.basic_info) return raw;
   const r = raw;
   const fields = {
-    basic_info: ["name","category","region","gps_location","distance_from_dps_airport_km","distance_from_canggu_uluwatu_min"],
-    surf_conditions: ["wave_type","skill_level","wave_height_range","bottom_type","best_season","best_tide","best_wind","best_swell_direction","swell_consistency_rating","wave_length_meters","wave_speed_rating","takeoff_zone_difficulty","secondary_peaks","peak_crowd_level"],
-    practical_info: ["access","paddle_out_method","entry_fee","recommended_session_time","best_time_of_day","nearby_warung","alternative_spot_within_10min","boat_charter_required","combo_trip_potential"],
-    safety_culture: ["hazards","marine_hazards","reef_cut_severity_index","rip_current_pattern","lineup_etiquette","localism_intensity","respect_protocol","resident_local_legends","religious_sensitivity","medical_nearby","nearest_clinic_distance_km","rescue_jet_ski_available","emergency_contact"],
-    services: ["nearest_surf_school","board_rental_availability","surf_photographer_available","photographer_recommendation","accommodation_options","webcam_url","drone_allowed","coworking_nearby"],
-    pricing: ["avg_lesson_price","board_rental_daily"],
-    sustainability: ["water_quality_rating"],
+    basic_info: ["name","category","region","gps_location","distance_from_icn_airport_km"],
+    surf_conditions: ["wave_type","skill_level","wave_height_range","bottom_type","best_season","best_tide","best_wind","best_swell_direction","swell_consistency_rating","wave_length_meters","peak_crowd_level"],
+    practical_info: ["access","paddle_out_method","entry_fee","recommended_session_time","nearby_warung","alternative_spot_within_10min"],
+    safety_culture: ["hazards","marine_hazards","rip_current_pattern","localism_intensity","respect_protocol"],
+    services: ["nearest_surf_school","board_rental_availability","accommodation_options"],
+    pricing: ["avg_lesson_price"],
     events_community: ["annual_competition_window","community_events"]
   };
   const out = { uncertain: r.uncertain || [] };
@@ -198,7 +210,6 @@ function flattenForView(raw){
     }
     if(Object.keys(obj).length) out[section] = obj;
   }
-  // also keep any unknown top-level keys
   const known = new Set([].concat(...Object.values(fields), ["uncertain"]));
   for(const [k,v] of Object.entries(r)){
     if(known.has(k)) continue;
@@ -207,35 +218,37 @@ function flattenForView(raw){
   return out;
 }
 
-// ===== Normalize one item =====
 function normalize(key, raw){
   raw = flattenForView(raw);
   const bi = raw.basic_info || {};
   const sc = raw.surf_conditions || {};
   const name = bi.name || key.replace(/_/g,' ');
   const category = classifyCategory(key, raw);
-  const region = bi.region || "Bali-wide";
+  const region = bi.region || "全韓國 / Korea-wide";
 
-  let months = parseMonthsFromText(sc.best_season || bi.best_season || "");
-  let monthsPeak = parsePeakMonths(sc.best_season || bi.best_season || "");
+  let months = parseMonthsFromText(sc.best_season || "");
+  let monthsPeak = parsePeakMonths(sc.best_season || "");
   let season = "";
   if(sc.best_season){
     const t = lc(sc.best_season);
-    if(/dry/.test(t) && !/wet/.test(t)) season = "dry";
-    else if(/wet/.test(t) && !/dry/.test(t)) season = "wet";
-    else if(/year[\s\-]?round|全年/.test(t)) season = "year";
-    else if(/東北季風|冬季|10月.*3月|10–3月/.test(t) && !/颱風/.test(t)) season = "dry";
-    else if(/颱風|夏季|6.*10月|6–10月/.test(t) && !/東北/.test(t)) season = "wet";
-    else if(/東北季風|颱風|冬季|夏季/.test(t)) season = "both";
+    const hasTyphoon = /颱風|typhoon|jul|aug|sep|oct/.test(t);
+    const hasWinter = /秋冬|冬季|winter|ne\s*swell|nov|dec|jan|feb|mar/.test(t);
+    if(/year[\s\-]?round|全年|all\s*year/.test(t)) season = "year";
+    else if(hasTyphoon && hasWinter) season = "both";
+    else if(hasWinter) season = "ne";
+    else if(hasTyphoon) season = "typhoon";
     else season = "both";
   }
-  if(!months.length && season === "dry") months = [10,11,12,1,2,3];
-  if(!months.length && season === "wet") months = [6,7,8,9,10];
-  if(!months.length && season === "year") months = [1,2,3,4,5,6,7,8,9,10,11,12];
-
+  if(!months.length){
+    if(season === "ne") months = [9,10,11,12,1,2,3];
+    else if(season === "typhoon") months = [7,8,9,10];
+    else if(season === "year") months = [1,2,3,4,5,6,7,8,9,10,11,12];
+    else if(season === "both") months = [1,2,3,7,8,9,10,11,12];
+  }
   if(!monthsPeak.length){
-    if(season === "dry") monthsPeak = [6,7,8,9];
-    if(season === "wet") monthsPeak = [12,1,2];
+    if(season === "ne") monthsPeak = [11,12,1,2];
+    else if(season === "typhoon") monthsPeak = [8,9];
+    else if(season === "both") monthsPeak = [9,10,11];
   }
 
   return {
@@ -265,32 +278,24 @@ function normalize(key, raw){
     alt_nearby: raw.practical_info?.alternative_spot_within_10min || "",
     hazards: raw.safety_culture?.hazards || "",
     localism: raw.safety_culture?.localism_intensity || "",
-    accommodation: raw.services?.accommodation_options || raw.surroundings?.nearby_accommodation || "",
+    accommodation: raw.services?.accommodation_options || "",
     lesson_price: raw.pricing?.avg_lesson_price || "",
     nearest_school: raw.services?.nearest_surf_school || "",
     gps: bi.gps_location || ""
   };
 }
 
-// ===== Boot =====
-let ALL = [];       // normalized items
-let RAW = null;     // raw data
-let FILTERS = {
-  q: "",
-  category: "all",
-  region: "all",
-  skill: "all",
-  season: "all"
-};
-let COMPARE = []; // keys
+let ALL = [];
+let RAW = null;
+let FILTERS = { q: "", category: "all", region: "all", skill: "all", season: "all" };
+let COMPARE = [];
 const MAX_COMPARE = 4;
 
 async function boot(){
-  const res = await fetch("/api/taiwan.json");
+  const res = await fetch("/api/korea.json");
   RAW = await res.json();
   ALL = Object.entries(RAW).map(([k,v]) => normalize(k, v));
 
-  // Order: keep outline ordering — define by category then name
   const order = ["spot","hidden","extension","service","practical"];
   ALL.sort((a,b) => {
     const ai = order.indexOf(a.category), bi = order.indexOf(b.category);
@@ -298,14 +303,11 @@ async function boot(){
     return a.name.localeCompare(b.name);
   });
 
-  // populate filter chips
   hydrateFilters();
   render();
-  // mode tabs
   document.querySelectorAll(".mode-btn").forEach(b => {
     b.addEventListener("click", () => switchMode(b.dataset.mode));
   });
-  // search
   document.getElementById("search").addEventListener("input", e => {
     FILTERS.q = e.target.value.trim();
     renderIndex();
@@ -313,7 +315,6 @@ async function boot(){
 }
 
 function hydrateFilters(){
-  // Category chips
   const cats = ["all", ...new Set(ALL.map(i => i.category))];
   document.getElementById("cat-chips").innerHTML = cats.map(c => {
     const cnt = c==="all"?ALL.length:ALL.filter(i=>i.category===c).length;
@@ -328,7 +329,6 @@ function hydrateFilters(){
     });
   });
 
-  // Region chips
   const regs = ["all", ...Object.keys(REGION_MAP)].filter(r => r==="all" || ALL.some(i=>i.region===r));
   document.getElementById("reg-chips").innerHTML = regs.map(r => {
     const label = r==="all"?"全部":(REGION_MAP[r]?.short || r);
@@ -342,7 +342,6 @@ function hydrateFilters(){
     });
   });
 
-  // Skill chips
   const sk = ["all","B","I","A","P"];
   document.getElementById("sk-chips").innerHTML = sk.map(s => {
     const label = s==="all"?"全部":SKILL_LABELS[s].ch;
@@ -356,9 +355,8 @@ function hydrateFilters(){
     });
   });
 
-  // Season chips
   const ss = [
-    ["all","全部"], ["dry","東北季風 Oct–Mar"], ["wet","颱風季 Jun–Oct"], ["year","全年"]
+    ["all","全部"], ["ne","秋冬 NE Sep–Mar"], ["typhoon","颱風季 Jul–Oct"], ["both","雙季"], ["year","全年"]
   ];
   document.getElementById("ss-chips").innerHTML = ss.map(([v,l]) =>
     `<span class="chip ${v==='all'?'active':''}" data-ss="${v}">${l}</span>`
@@ -378,7 +376,7 @@ function matchesFilters(it){
   if(FILTERS.skill!=="all" && !it.skill.includes(FILTERS.skill)) return false;
   if(FILTERS.season!=="all"){
     if(FILTERS.season === "year" && it.season!=="year") return false;
-    else if(FILTERS.season!=="year" && it.season!==FILTERS.season && it.season!=="year") return false;
+    else if(FILTERS.season!=="year" && it.season!==FILTERS.season && it.season!=="year" && it.season!=="both") return false;
   }
   if(FILTERS.q){
     const q = lc(FILTERS.q);
@@ -388,7 +386,6 @@ function matchesFilters(it){
   return true;
 }
 
-// ===== Mode switcher =====
 function switchMode(mode){
   document.querySelectorAll(".mode-btn").forEach(b => b.classList.toggle("active", b.dataset.mode === mode));
   document.querySelectorAll(".pane").forEach(p => p.style.display = p.dataset.mode === mode ? "" : "none");
@@ -397,10 +394,8 @@ function switchMode(mode){
   if(mode === "compare") renderCompare();
   if(mode === "index") renderIndex();
   if(mode === "map") renderMap();
-  if(mode === "trip") renderTrip();
 }
 
-// ===== Index pane =====
 function render(){ renderIndex(); }
 function renderIndex(){
   const grid = document.getElementById("grid");
@@ -411,7 +406,6 @@ function renderIndex(){
     return;
   }
   grid.innerHTML = filtered.map((it,i) => cardHTML(it, i)).join("");
-  // bind clicks
   grid.querySelectorAll(".card").forEach(c => {
     c.addEventListener("click", (e) => {
       if(e.target.closest(".compare-btn")) return;
@@ -429,22 +423,23 @@ function renderIndex(){
     c.addEventListener("click", (e) => {
       e.stopPropagation();
       const key = c.dataset.fav;
-      const on = toggleFav("taiwan", key);
+      const on = toggleFav("korea", key);
       c.classList.toggle("on", on);
     });
   });
-  // Update SS_CURRENT_LIST for prev/next nav
   window.SS_CURRENT_LIST = filtered.map(i => i.key);
 }
 
 function cardHTML(it, idx){
   const inCmp = COMPARE.includes(it.key);
-  const fav = isFav("taiwan", it.key);
+  const fav = isFav("korea", it.key);
   const skills = it.skill.map(s => `<span class="tag tag-ink">${SKILL_LABELS[s].short}</span>`).join("");
-  const seasonTag = it.season==="dry"
-    ? `<span class="tag tag-must">東北季風</span>`
-    : it.season==="wet"
-    ? `<span class="tag tag-ocean">颱風季</span>`
+  const seasonTag = it.season==="ne"
+    ? `<span class="tag tag-must">秋冬 NE</span>`
+    : it.season==="typhoon"
+    ? `<span class="tag tag-verm">颱風季</span>`
+    : it.season==="both"
+    ? `<span class="tag tag-ocean">雙季</span>`
     : it.season==="year"
     ? `<span class="tag tag-teal">全年</span>`
     : "";
@@ -456,10 +451,6 @@ function cardHTML(it, idx){
     'tag-ink'}">${CATEGORY_LABELS[it.category]?.short || ""}</span>`;
   const num = String(idx+1).padStart(2,'0');
   const blurb = it.wave_type || it.raw?.basic_info?.gps_location || "";
-  // Special warning for Bingin (post-demolition)
-  const warning = it.key === "Bingin"
-    ? `<div class="card-warn">⚠ 2025 拆遷後住宿與通道重組,行前必查最新狀況</div>`
-    : "";
   return `
     <div class="card ${inCmp?'in-compare':''}" data-key="${it.key}">
       <button class="fav-btn ${fav?'on':''}" data-fav="${it.key}" title="加入收藏"></button>
@@ -471,7 +462,6 @@ function cardHTML(it, idx){
           ${it.ch ? `<span class="ch">${it.ch}</span>` : ''}
         </div>
       </div>
-      ${warning}
       <div class="meta-row">
         ${catBadge}
         <span class="tag">${it.region_short}</span>
@@ -499,7 +489,6 @@ function escape(s){
   return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
 }
 
-// ===== Detail overlay =====
 function openDetail(key){
   const it = ALL.find(x => x.key === key);
   if(!it) return;
@@ -520,7 +509,7 @@ function openDetail(key){
 
   sections.push(kvSection("Basic / 基本資料", [
     ["category","類別"],["region","區域"],["gps_location","GPS"],
-    ["distance_from_dps_airport_km","距 DPS 機場"],["distance_from_canggu_uluwatu_min","距 Canggu/Uluwatu"]
+    ["distance_from_icn_airport_km","距機場 / 交通"]
   ], r.basic_info));
 
   sections.push(kvSection("Surf / 浪況", [
@@ -528,47 +517,38 @@ function openDetail(key){
     ["bottom_type","底質"],["best_season","最佳季節"],["best_tide","最佳潮汐"],
     ["best_wind","最佳風向"],["best_swell_direction","Swell 方向"],
     ["swell_consistency_rating","穩定度 1-5"],["wave_length_meters","浪長"],
-    ["wave_speed_rating","速度"],["takeoff_zone_difficulty","起乘難度"],
-    ["secondary_peaks","副點"],["peak_crowd_level","擁擠度 1-5"]
+    ["peak_crowd_level","擁擠度 1-5"]
   ], r.surf_conditions));
 
   sections.push(kvSection("Practical / 實用", [
     ["access","進場路線"],["paddle_out_method","划出路線"],
     ["entry_fee","費用"],["recommended_session_time","建議時段"],
-    ["best_time_of_day","一日中最佳時間"],["nearby_warung","附近 Warung"],
-    ["alternative_spot_within_10min","10 分鐘內備案"],["boat_charter_required","需要船"]
+    ["nearby_warung","附近食堂 / Warung"],
+    ["alternative_spot_within_10min","10 分鐘內備案"]
   ], r.practical_info));
+
+  sections.push(waterTempSectionHTML(it.region));
 
   sections.push(kvSection("Safety / 安全與文化", [
     ["hazards","危險"],["marine_hazards","海洋生物"],
-    ["reef_cut_severity_index","Reef Cut 嚴重度"],["rip_current_pattern","Rip 流"],
-    ["lineup_etiquette","禮儀"],["localism_intensity","Localism 程度"],
-    ["respect_protocol","禮儀守則"],["resident_local_legends","在地傳奇"],
-    ["religious_sensitivity","宗教/節日"],["medical_nearby","醫療"],
-    ["nearest_clinic_distance_km","最近診所"],["emergency_contact","急救電話"]
+    ["rip_current_pattern","Rip 流"],
+    ["localism_intensity","Localism 程度"],["respect_protocol","禮儀守則"]
   ], r.safety_culture));
 
   sections.push(kvSection("Services / 服務", [
     ["nearest_surf_school","附近學校"],["board_rental_availability","板租"],
-    ["surf_photographer_available","攝影"],["photographer_recommendation","攝影推薦"],
-    ["accommodation_options","住宿"],["webcam_url","Webcam"],
-    ["drone_allowed","空拍允許"],["coworking_nearby","Co-working"]
+    ["accommodation_options","住宿"]
   ], r.services));
 
   sections.push(kvSection("Pricing / 價格", [
-    ["avg_lesson_price","平均課程價"],["board_rental_daily","板租 / 日"]
+    ["avg_lesson_price","平均課程價"]
   ], r.pricing));
 
   sections.push(kvSection("Events / 賽事 · 社群", [
     ["annual_competition_window","賽事窗口"],["community_events","社群活動"]
   ], r.events_community));
 
-  sections.push(kvSection("Sustainability / 永續", [
-    ["water_quality_rating","水質"]
-  ], r.sustainability));
-
-  // For service-style items the data may be at top level — render any remaining fields
-  const known = new Set(["basic_info","surf_conditions","practical_info","safety_culture","services","pricing","sustainability","events_community","uncertain"]);
+  const known = new Set(["basic_info","surf_conditions","practical_info","safety_culture","services","pricing","events_community","uncertain"]);
   for(const [k,v] of Object.entries(r)){
     if(known.has(k)) continue;
     if(typeof v !== "object" || Array.isArray(v)) continue;
@@ -587,27 +567,21 @@ function openDetail(key){
   const tags = [];
   if(CATEGORY_LABELS[it.category]) tags.push(`<span class="tag tag-verm">${CATEGORY_LABELS[it.category].ch}</span>`);
   tags.push(`<span class="tag">${it.region_ch}</span>`);
-  if(it.season==="dry") tags.push(`<span class="tag tag-must">東北季風</span>`);
-  if(it.season==="wet") tags.push(`<span class="tag tag-ocean">颱風季</span>`);
+  if(it.season==="ne") tags.push(`<span class="tag tag-must">秋冬 NE</span>`);
+  if(it.season==="typhoon") tags.push(`<span class="tag tag-verm">颱風季</span>`);
+  if(it.season==="both") tags.push(`<span class="tag tag-ocean">雙季</span>`);
   if(it.season==="year") tags.push(`<span class="tag tag-teal">全年</span>`);
   it.skill.forEach(s => tags.push(`<span class="tag tag-ink">${SKILL_LABELS[s].ch}</span>`));
 
-  // Prev/next within current filtered list
   const list = window.SS_CURRENT_LIST.length ? window.SS_CURRENT_LIST : ALL.map(i=>i.key);
   const idx = list.indexOf(key);
   const posLabel = idx >= 0 ? `${idx+1}/${list.length}` : "";
 
-  // Citations / sources: Bali entries don't have verification_sources but may have webcam_url & gps_location links
   const cites = [];
-  if(r.services?.webcam_url) cites.push(`Webcam · <a href="${r.services.webcam_url}" target="_blank">${r.services.webcam_url}</a>`);
   if(r.basic_info?.gps_location){
     const gps = r.basic_info.gps_location;
     const m = gps.match(/(-?\d+\.\d+),\s*(-?\d+\.\d+)/);
     if(m) cites.push(`GPS · <a href="https://www.google.com/maps?q=${m[1]},${m[2]}" target="_blank">${m[1]}, ${m[2]} (Google Maps)</a>`);
-  }
-  // Bingin demolition note
-  if(it.key === "Bingin"){
-    cites.push(`<strong style="color:var(--vermillion-d);">⚠ 2025 Bingin 拆遷:</strong> 政府於 2025 年中拆除海岸線非法 villa,30 餘間住宿/餐廳消失。行前查最新狀況。`);
   }
   const citesHTML = cites.length ? `
     <div class="detail-citations">
@@ -616,7 +590,7 @@ function openDetail(key){
     </div>
   ` : "";
 
-  const fav = isFav("taiwan", key);
+  const fav = isFav("korea", key);
 
   document.getElementById("detail-panel").innerHTML = `
     <div class="detail-head">
@@ -628,7 +602,7 @@ function openDetail(key){
         <div class="detail-tagrow">${tags.join("")}</div>
       </div>
       <div class="detail-head-actions">
-        <button class="fav-btn ${fav?'on':''}" onclick="(() => { const on = toggleFav('taiwan','${key}'); event.target.classList.toggle('on', on); })()" title="收藏"></button>
+        <button class="fav-btn ${fav?'on':''}" onclick="(() => { const on = toggleFav('korea','${key}'); event.target.classList.toggle('on', on); })()" title="收藏"></button>
         <button class="detail-nav-btn" onclick="detailPrevNext(-1)" title="← 上一個">←</button>
         <span style="font-family:var(--mono); font-size:11px; color:var(--paper); opacity:.6;">${posLabel}</span>
         <button class="detail-nav-btn" onclick="detailPrevNext(1)" title="下一個 →">→</button>
@@ -650,7 +624,6 @@ window.closeDetail = function(){
 };
 window.openDetail = openDetail;
 
-// ===== Compare =====
 function toggleCompare(key){
   const i = COMPARE.indexOf(key);
   if(i >= 0) COMPARE.splice(i,1);
@@ -688,7 +661,7 @@ function renderCompare(){
     ["技術 Skill", (it) => it.skill_raw || (it.skill.map(s=>SKILL_LABELS[s].ch).join("、")) || "—"],
     ["浪高 Range", (it) => it.wave_height_raw || "—"],
     ["底質 Bottom", (it) => it.bottom || "—"],
-    ["最佳季 Season", (it) => it.raw.surf_conditions?.best_season || (it.season==="dry"?"東北季風 Oct–Mar":it.season==="wet"?"颱風季 Jun–Oct":it.season==="year"?"全年":"—")],
+    ["最佳季 Season", (it) => it.raw.surf_conditions?.best_season || "—"],
     ["最佳潮 Tide", (it) => it.tide || "—"],
     ["最佳風 Wind", (it) => it.wind || "—"],
     ["Swell 方向", (it) => it.swell || "—"],
@@ -715,16 +688,12 @@ function renderCompare(){
   grid.innerHTML = html;
 }
 
-// ===== Season calendar =====
 function renderSeason(){
-  // Filters that apply: region, category, skill
   const spots = ALL.filter(it => (it.category==="spot" || it.category==="hidden" || it.category==="extension") && it.months.length>0);
-  // Order by region then peak start
   spots.sort((a,b) => {
     if(a.region !== b.region) return a.region.localeCompare(b.region);
     return (a.monthsPeak[0]||13) - (b.monthsPeak[0]||13);
   });
-  // current month from system date
   const now = new Date();
   const curMonth = now.getMonth() + 1;
 
@@ -754,7 +723,6 @@ function renderSeason(){
   }).join("");
 
   document.getElementById("season-table").innerHTML = head + rows;
-  // legend
   document.getElementById("season-legend").innerHTML = `
     <span class="tag tag-verm">PEAK 招牌月</span>
     <span class="tag" style="background:rgba(232,79,27,.45);border-color:var(--ink);">GOOD 可衝</span>
@@ -762,15 +730,59 @@ function renderSeason(){
     <span class="tag" style="background:transparent;border-color:var(--ink-soft);color:var(--ink-soft);">OFF</span>
     <span style="margin-left:auto; font-family:var(--mono); font-size:10.5px;">本月: ${MONTHS[curMonth-1]} · 點選浪點查看完整資料</span>
   `;
+  renderWaterTempMatrix();
 }
 
-// ===== Skill rec =====
+function renderWaterTempMatrix(){
+  const host = document.getElementById("water-temp-matrix");
+  if(!host) return;
+  const regions = Object.keys(WATER_TEMP_META).filter(r => r !== "全韓國 / Korea-wide");
+  const head = `
+    <div class="wt-mx-head">
+      <div class="wt-mx-lbl">區域 / 月份</div>
+      ${MONTHS.map((m,i) => `<div class="wt-mx-m ${i+1===new Date().getMonth()+1?'cur':''}">${m}</div>`).join("")}
+      <div class="wt-mx-suit">建議裝備 (年最低)</div>
+    </div>
+  `;
+  const rows = regions.map(reg => {
+    const data = WATER_TEMP_META[reg];
+    const min = Math.min(...data.temps);
+    const cells = data.temps.map(t => `<div class="wt-mx-cell" style="background:${tempColor(t)};" title="${t}°C → ${suitFor(t)}">${t}</div>`).join("");
+    return `
+      <div class="wt-mx-row">
+        <div class="wt-mx-name">
+          ${REGION_MAP[reg]?.ch || reg}
+          <small>${REGION_MAP[reg]?.short || ""}</small>
+        </div>
+        ${cells}
+        <div class="wt-mx-suit-cell">${suitFor(min)}</div>
+      </div>
+    `;
+  }).join("");
+  host.innerHTML = `
+    <div class="wt-mx-title">
+      <div>
+        <div class="eyebrow" style="color:var(--ocean);">SEA SURFACE TEMP / 水溫年度</div>
+        <h3 style="font-family:var(--display); font-size:32px; margin:6px 0 4px; line-height:1;">月均水溫 × 區域</h3>
+        <p style="font-family:var(--serif); font-size:13.5px; margin:0; color:var(--ink-soft);">
+          色階:<span style="display:inline-block; width:14px; height:14px; background:${tempColor(6)}; border:1px solid var(--ink); vertical-align:-3px;"></span> &lt;8°
+          <span style="display:inline-block; width:14px; height:14px; background:${tempColor(11)}; border:1px solid var(--ink); vertical-align:-3px; margin-left:6px;"></span> 8–12°
+          <span style="display:inline-block; width:14px; height:14px; background:${tempColor(15)}; border:1px solid var(--ink); vertical-align:-3px; margin-left:6px;"></span> 13–16°
+          <span style="display:inline-block; width:14px; height:14px; background:${tempColor(19)}; border:1px solid var(--ink); vertical-align:-3px; margin-left:6px;"></span> 17–20°
+          <span style="display:inline-block; width:14px; height:14px; background:${tempColor(24)}; border:1px solid var(--ink); vertical-align:-3px; margin-left:6px;"></span> 21–25°
+          <span style="display:inline-block; width:14px; height:14px; background:${tempColor(28)}; border:1px solid var(--ink); vertical-align:-3px; margin-left:6px;"></span> ≥26°
+        </p>
+      </div>
+    </div>
+    <div class="wt-mx">${head}${rows}</div>
+  `;
+}
+
 const SKILL_FLOW = {
-  level: "I",     // B/I/A/P
-  vibe: "any",    // crowd / quiet / party / cultural / pro
-  budget: "mid",  // shoestring / mid / lux
-  travel: "east", // east coast / west coast / anywhere
-  trip_days: 7
+  level: "I",
+  budget: "mid",
+  travel: "east",
+  season: "ne"
 };
 
 function renderSkillRec(){
@@ -790,9 +802,9 @@ function renderSkillRec(){
       <div class="q">Q2 · 預算 / Budget</div>
       <div class="opts">
         ${[
-          ["shoestring","背包客 < USD 50/晚"],
-          ["mid","中等 USD 50-150/晚"],
-          ["lux","Boutique / Luxury USD 150+/晚"]
+          ["shoestring","背包客 < ₩50,000/晚"],
+          ["mid","中等 ₩50,000–150,000/晚"],
+          ["lux","Resort ₩150,000+/晚"]
         ].map(([v,l]) => `<div class="opt ${SKILL_FLOW.budget===v?'selected':''}" data-k="budget" data-v="${v}">${l}</div>`).join("")}
       </div>
     </div>
@@ -800,9 +812,10 @@ function renderSkillRec(){
       <div class="q">Q3 · 旅行範圍 / Range</div>
       <div class="opts">
         ${[
-          ["east","東岸 · GC / NSW / VIC"],
-          ["west","西岸 · WA"],
-          ["far","不限 · 包含 TAS / SA 偏遠点"]
+          ["east","東岸 · 襄陽 / 束草 / 高城"],
+          ["south","東南岸 · 釜山 / 浦項"],
+          ["jeju","濟州島"],
+          ["far","不限"]
         ].map(([v,l]) => `<div class="opt ${SKILL_FLOW.travel===v?'selected':''}" data-k="travel" data-v="${v}">${l}</div>`).join("")}
       </div>
     </div>
@@ -810,8 +823,8 @@ function renderSkillRec(){
       <div class="q">Q4 · 季節 / When</div>
       <div class="opts">
         ${[
-          ["dry","東北季風 Oct–Mar"],
-          ["wet","颱風季 Jun–Oct"],
+          ["ne","秋冬 NE Sep–Mar"],
+          ["typhoon","颱風季 Jul–Oct"],
           ["any","不限"]
         ].map(([v,l]) => `<div class="opt ${SKILL_FLOW.season===v?'selected':''}" data-k="season" data-v="${v}">${l}</div>`).join("")}
       </div>
@@ -823,40 +836,38 @@ function renderSkillRec(){
       renderSkillRec();
     });
   });
-  // Compute matches
+  const EAST_REGIONS = new Set(["襄陽 / Yangyang","束草 / Sokcho","高城 / Goseong"]);
+  const SOUTH_REGIONS = new Set(["釜山 / Busan","慶尚北道 / Pohang"]);
+  const JEJU_REGIONS = new Set(["濟州島 / Jeju"]);
+
   const matches = ALL
     .filter(it => it.category==="spot" || it.category==="hidden" || it.category==="extension")
     .map(it => {
       let score = 0;
       const reasons = [];
-      // skill
       if(it.skill.includes(SKILL_FLOW.level)){ score += 40; reasons.push("技術等級匹配"); }
       else {
-        // partial credit if neighbor
         const order = ["B","I","A","P"];
         const wanted = order.indexOf(SKILL_FLOW.level);
         const closest = it.skill.map(s=>order.indexOf(s)).reduce((a,b)=>Math.min(a, Math.abs(b-wanted)), 99);
         if(closest === 1) score += 15;
       }
-      // travel
       if(SKILL_FLOW.travel === "east"){
-        if(["東部 / East Coast","東北部 / Northeast Coast"].includes(it.region)) score += 25;
-      } else if(SKILL_FLOW.travel === "north"){
-        if(["北部 / North Coast","東北部 / Northeast Coast"].includes(it.region)) score += 25;
+        if(EAST_REGIONS.has(it.region)) { score += 25; reasons.push("東岸首爾近郊"); }
+      } else if(SKILL_FLOW.travel === "south"){
+        if(SOUTH_REGIONS.has(it.region)) { score += 25; reasons.push("東南岸 KTX 直達"); }
+      } else if(SKILL_FLOW.travel === "jeju"){
+        if(JEJU_REGIONS.has(it.region)) { score += 30; reasons.push("濟州島颱風期"); }
       } else {
-        score += 22;
-        if(["南部 / South — Kenting","離島 / Outer Islands","西南部 / Southwest"].includes(it.region)) { score += 10; reasons.push("偏遠目的地"); }
+        score += 18;
       }
-      // season
       if(SKILL_FLOW.season && SKILL_FLOW.season !== "any"){
-        if(it.season === SKILL_FLOW.season) { score += 20; reasons.push(SKILL_FLOW.season==="dry"?"主季招牌":"次季招牌"); }
-        else if(it.season === "year") { score += 8; reasons.push("全年皆可"); }
+        if(it.season === SKILL_FLOW.season || it.season === "both") { score += 20; reasons.push(SKILL_FLOW.season==="ne"?"秋冬 NE 主場":"颱風主場"); }
+        else if(it.season === "year") { score += 8; reasons.push("全年可衝"); }
         else score -= 8;
       } else { score += 10; }
-      // crowd / pro vibe
       if(SKILL_FLOW.level === "B" && it.crowd && it.crowd >= 4){ score -= 6; }
       if(SKILL_FLOW.level === "P" && it.consistency && it.consistency >= 4){ score += 5; reasons.push("一致性高"); }
-
       return { it, score, reasons };
     })
     .filter(x => x.score >= 30)
@@ -883,19 +894,18 @@ function renderSkillRec(){
   `;
 }
 
-// ===== Taiwan SVG Map (geo-accurate, ~38 coastal anchor points) =====
+// ===== Korea SVG Map (geo-accurate) =====
 // viewBox 480x720
-//   lng 119.3 → x=0, lng 122.3 → x=480   (scale 160 per deg lng)
-//   lat 25.5  → y=0, lat 21.5  → y=720   (scale 180 per deg lat)
-//   y/x ratio ≈ 1.125 ≈ 1/cos(23.5°) → roughly equal-area at Taiwan latitude
+//   lng 125.0 → x=0, lng 130.8 → x=480   (scale 82.76 per deg lng)
+//   lat 39.0  → y=0, lat 32.5  → y=720   (scale 110.77 per deg lat)
 function gpsToXY(gps){
   if(!gps) return null;
   const m = gps.match(/(-?\d+\.\d+)\s*,\s*(-?\d+\.\d+)/);
   if(!m) return null;
   const lat = parseFloat(m[1]), lng = parseFloat(m[2]);
   return {
-    x: (lng - 119.3) * 160,
-    y: (25.5 - lat) * 180
+    x: (lng - 125.0) * 82.76,
+    y: (39.0 - lat) * 110.77
   };
 }
 
@@ -917,9 +927,7 @@ function renderMap(){
     if(!p) return "";
     const fill = fillByCat[it.category] || "var(--ink)";
     const label = (it.ch || it.name).slice(0, 10);
-    // East-coast pins (x > 300) get labels to the LEFT (over land); west-coast to the right (sea)
-    // Actually safer: pins east of center get labels east (into sea); west pins get labels west (into sea)
-    const eastPin = p.x > 280;
+    const eastPin = p.x > 270;
     const tx = eastPin ? 10 : -10;
     const anchor = eastPin ? "start" : "end";
     return `<g class="map-pin" data-key="${it.key}" transform="translate(${p.x},${p.y})">
@@ -929,113 +937,115 @@ function renderMap(){
     </g>`;
   }).join("");
 
-  // ===== Taiwan main island — clockwise from NW Fuguijiao =====
-  // Each point from a real port/cape lat,lng
-  const mainIsland = `
-    M 357 36
-    L 360 45 L 390 67 L 419 68 L 432 90
-    L 411 117 L 408 162 L 395 216 L 373 234
-    L 371 275 L 354 344 L 344 392 L 334 432
-    L 304 477 L 302 488 L 270 520 L 258 565
-    L 246 598 L 248 648 L 230 644 L 216 612
-    L 222 598 L 193 553 L 184 545 L 160 522
-    L 140 477 L 137 450 L 132 401 L 136 382
-    L 152 315 L 180 257 L 221 180 L 250 146
-    L 259 121 L 288 83 L 328 72 L 341 58
+  // ===== South Korean peninsula — clockwise from DMZ (Goseong NE coast) =====
+  // ~30 anchor points based on real ports/capes
+  const peninsula = `
+    M 273 51
+    L 280 80 L 287 110 L 292 145
+    L 295 175 L 295 200 L 298 230 L 305 260
+    L 312 290 L 312 320 L 305 350 L 290 380
+    L 270 405 L 240 420 L 215 420 L 195 410
+    L 175 395 L 168 372 L 155 348 L 137 330
+    L 118 315 L 100 295 L 88 275 L 80 245
+    L 68 215 L 60 180 L 60 150 L 75 120
+    L 88 95 L 105 75 L 130 60 L 158 53
+    L 195 50 L 235 48
     Z`;
 
+  // Jeju Island (33.4°N, 126.55°E) — distinctive elongated oval
+  const jeju = `M 90 600 L 145 600 L 160 620 L 158 640 L 130 658 L 95 658 L 75 645 L 75 620 Z`;
+
+  // Ulleungdo (37.5°N, 130.87°E)
+  const ulleung = `<circle cx="465" cy="166" r="7" fill="url(#kr-land)" stroke="var(--ink)" stroke-width="1.4"/>
+                   <text x="455" y="155" text-anchor="end" font-family="var(--mono)" font-size="9" fill="var(--ink-soft)">鬱陵島</text>`;
+
   container.innerHTML = `
-    <div class="bali-map taiwan-map">
+    <div class="bali-map korea-map">
       <svg viewBox="0 0 480 720" xmlns="http://www.w3.org/2000/svg">
         <defs>
-          <pattern id="tw-grain" width="6" height="6" patternUnits="userSpaceOnUse">
+          <pattern id="kr-grain" width="6" height="6" patternUnits="userSpaceOnUse">
             <circle cx="1" cy="1" r=".55" fill="rgba(13,59,92,.16)"/>
           </pattern>
-          <pattern id="tw-land" width="9" height="9" patternUnits="userSpaceOnUse">
+          <pattern id="kr-land" width="9" height="9" patternUnits="userSpaceOnUse">
             <rect width="9" height="9" fill="var(--paper-warm)"/>
             <circle cx="2" cy="2" r=".7" fill="rgba(26,22,20,.10)"/>
           </pattern>
+          <pattern id="kr-nk" width="6" height="6" patternUnits="userSpaceOnUse">
+            <rect width="6" height="6" fill="var(--paper-deep)"/>
+            <line x1="0" y1="6" x2="6" y2="0" stroke="var(--ink-soft)" stroke-width=".5"/>
+          </pattern>
         </defs>
 
-        <!-- Ocean grain -->
-        <rect width="480" height="720" fill="url(#tw-grain)"/>
+        <rect width="480" height="720" fill="url(#kr-grain)"/>
 
-        <!-- Kuroshio (warm current) flowing N along east coast -->
-        <path d="M 280 700 Q 360 600 380 480 Q 410 320 420 180 Q 430 100 460 30"
-              fill="none" stroke="var(--vermillion)" stroke-width="12" opacity=".09" stroke-linecap="round"/>
-        <path d="M 280 700 Q 360 600 380 480 Q 410 320 420 180 Q 430 100 460 30"
-              fill="none" stroke="var(--vermillion-d)" stroke-width=".9" opacity=".35" stroke-dasharray="3,4"/>
-        <text x="430" y="280" font-family="var(--display-3)" font-size="10" fill="var(--vermillion-d)" opacity=".7" letter-spacing="1.5">KUROSHIO 黑潮</text>
+        <!-- North Korea (above DMZ at 38°N) -->
+        <path d="M 0 0 L 480 0 L 480 50 L 235 48 L 195 50 L 158 53 L 130 60 L 105 75 L 88 95 L 75 120 L 60 150 L 60 70 L 0 50 Z"
+              fill="url(#kr-nk)" opacity=".85" stroke="var(--ink)" stroke-width=".8"/>
+        <text x="240" y="25" text-anchor="middle" font-family="var(--display-3)" font-size="11" fill="var(--ink-soft)" opacity=".75" letter-spacing="3">DPRK · 朝 鮮</text>
 
-        <!-- Mainland China hint (far left edge) -->
-        <path d="M 0 0 L 28 0 L 30 200 L 24 380 L 18 540 L 0 720 Z"
+        <!-- DMZ -->
+        <line x1="50" y1="55" x2="280" y2="50" stroke="var(--vermillion-d)" stroke-width="2" stroke-dasharray="4,3"/>
+        <text x="160" y="68" text-anchor="middle" font-family="var(--mono)" font-size="9" fill="var(--vermillion-d)" letter-spacing="2">— DMZ 38°N —</text>
+
+        <!-- Tsushima warm current along E coast -->
+        <path d="M 380 700 Q 400 600 410 470 Q 420 350 410 250 Q 400 160 420 80"
+              fill="none" stroke="var(--vermillion)" stroke-width="10" opacity=".07" stroke-linecap="round"/>
+        <path d="M 380 700 Q 400 600 410 470 Q 420 350 410 250 Q 400 160 420 80"
+              fill="none" stroke="var(--vermillion-d)" stroke-width=".8" opacity=".3" stroke-dasharray="3,4"/>
+
+        <!-- South Korea peninsula -->
+        <path d="${peninsula}" fill="url(#kr-land)" stroke="var(--ink)" stroke-width="1.8" stroke-linejoin="round"/>
+
+        <!-- Jeju Island -->
+        <path d="${jeju}" fill="url(#kr-land)" stroke="var(--ink)" stroke-width="1.4"/>
+        <text x="117" y="680" text-anchor="middle" font-family="var(--display-3)" font-size="11" fill="var(--ink-soft)" letter-spacing="2">JEJU · 濟州島</text>
+
+        <!-- Ulleungdo -->
+        ${ulleung}
+
+        <!-- Japan (Tsushima + Kyushu hint) lower-right -->
+        <path d="M 430 380 L 480 370 L 480 720 L 460 720 L 445 700 L 435 670 L 432 640 L 442 600 L 450 560 L 458 510 L 458 460 L 446 420 Z"
               fill="var(--paper-deep)" opacity=".5" stroke="var(--ink)" stroke-width=".8" stroke-dasharray="2,3"/>
-        <text x="18" y="380" font-family="var(--display-3)" font-size="10" fill="var(--ink-soft)" opacity=".7" letter-spacing="2" transform="rotate(-90 18 380)">CN</text>
+        <text x="460" y="540" text-anchor="end" font-family="var(--display-3)" font-size="9" fill="var(--ink-soft)" opacity=".7" letter-spacing="1">JP →</text>
 
-        <!-- Taiwan main island -->
-        <path d="${mainIsland}" fill="url(#tw-land)" stroke="var(--ink)" stroke-width="1.8" stroke-linejoin="round"/>
+        <!-- China (far left edge) -->
+        <path d="M 0 60 L 50 70 L 55 200 L 50 360 L 40 500 L 20 660 L 0 720 Z"
+              fill="var(--paper-deep)" opacity=".45" stroke="var(--ink)" stroke-width=".8" stroke-dasharray="2,3"/>
 
-        <!-- Outer Islands -->
-        <!-- 蘭嶼 Lanyu  22.06°N, 121.55°E -->
-        <g>
-          <ellipse cx="360" cy="619" rx="8" ry="6" fill="url(#tw-land)" stroke="var(--ink)" stroke-width="1.4"/>
-          <text x="372" y="623" font-family="var(--mono)" font-size="9" fill="var(--ink-soft)">蘭嶼</text>
-        </g>
-        <!-- 綠島 Green Is  22.67°N, 121.48°E -->
-        <g>
-          <ellipse cx="348" cy="509" rx="6" ry="4.5" fill="url(#tw-land)" stroke="var(--ink)" stroke-width="1.2"/>
-          <text x="358" y="513" font-family="var(--mono)" font-size="8" fill="var(--ink-soft)">綠島</text>
-        </g>
-        <!-- 小琉球 Liuqiu  22.34°N, 120.37°E -->
-        <g>
-          <ellipse cx="171" cy="569" rx="5" ry="4" fill="url(#tw-land)" stroke="var(--ink)" stroke-width="1.2"/>
-          <text x="135" y="572" font-family="var(--mono)" font-size="8" fill="var(--ink-soft)">小琉球</text>
-        </g>
-        <!-- 澎湖 Penghu archipelago  ~23.57°N, 119.57°E (Makung) -->
-        <g>
-          <circle cx="43"  cy="348" r="3" fill="url(#tw-land)" stroke="var(--ink)" stroke-width=".9"/>
-          <circle cx="55"  cy="340" r="2.5" fill="url(#tw-land)" stroke="var(--ink)" stroke-width=".9"/>
-          <circle cx="50"  cy="358" r="2" fill="url(#tw-land)" stroke="var(--ink)" stroke-width=".9"/>
-          <circle cx="38"  cy="332" r="1.8" fill="url(#tw-land)" stroke="var(--ink)" stroke-width=".9"/>
-          <circle cx="62"  cy="360" r="1.8" fill="url(#tw-land)" stroke="var(--ink)" stroke-width=".9"/>
-          <text x="28" y="378" font-family="var(--mono)" font-size="9" fill="var(--ink-soft)">澎湖</text>
+        <!-- City anchors -->
+        <g class="city-anchors" font-family="var(--display-3)" font-size="10.5" fill="var(--ink-soft)" opacity=".62" letter-spacing="1">
+          <circle cx="183" cy="158" r="2.5" fill="var(--ink-soft)"/><text x="178" y="153" text-anchor="end">首爾 SEL</text>
+          <circle cx="225" cy="280" r="2.2" fill="var(--ink-soft)"/><text x="220" y="285" text-anchor="end">大田</text>
+          <circle cx="285" cy="335" r="2.5" fill="var(--ink-soft)"/><text x="297" y="338">釜山</text>
+          <circle cx="265" cy="230" r="2.2" fill="var(--ink-soft)"/><text x="276" y="234">江陵</text>
+          <circle cx="190" cy="385" r="2.2" fill="var(--ink-soft)"/><text x="185" y="390" text-anchor="end">光州</text>
         </g>
 
         <!-- Compass -->
-        <g transform="translate(435,45)">
+        <g transform="translate(440,120)">
           <circle r="20" fill="var(--paper)" stroke="var(--ink)" stroke-width="1.3"/>
           <path d="M 0 -15 L 4.5 0 L 0 15 L -4.5 0 Z" fill="var(--vermillion)" stroke="var(--ink)" stroke-width=".8"/>
           <text y="-25" text-anchor="middle" font-family="var(--display-3)" font-size="11" fill="var(--ink)">N</text>
         </g>
-        <!-- Scale: 1° lat ≈ 111 km, here 1° = 180 px so 50 km ≈ 81 px -->
-        <g transform="translate(360,690)">
-          <line x1="0" y1="0" x2="81" y2="0" stroke="var(--ink)" stroke-width="1.6"/>
-          <line x1="0" y1="-4" x2="0" y2="4" stroke="var(--ink)" stroke-width="1.6"/>
-          <line x1="40.5" y1="-3" x2="40.5" y2="3" stroke="var(--ink)" stroke-width="1.3"/>
-          <line x1="81" y1="-4" x2="81" y2="4" stroke="var(--ink)" stroke-width="1.6"/>
-          <text x="0" y="-7" text-anchor="start" font-family="var(--mono)" font-size="8" fill="var(--ink-soft)">0</text>
-          <text x="81" y="-7" text-anchor="end" font-family="var(--mono)" font-size="8" fill="var(--ink-soft)">50 km</text>
-        </g>
 
-        <!-- City anchor labels (subtle, behind pins) -->
-        <g class="city-anchors" font-family="var(--display-3)" font-size="10.5" fill="var(--ink-soft)" opacity=".58" letter-spacing="1.5">
-          <text x="335" y="78">台北</text>
-          <text x="220" y="262">台中</text>
-          <text x="170" y="445">台南</text>
-          <text x="125" y="520">高雄</text>
-          <text x="368" y="275">花蓮</text>
-          <text x="320" y="500">台東</text>
+        <!-- Scale (100 km ≈ 100 px at this lat) -->
+        <g transform="translate(360,700)">
+          <line x1="0" y1="0" x2="100" y2="0" stroke="var(--ink)" stroke-width="1.6"/>
+          <line x1="0" y1="-4" x2="0" y2="4" stroke="var(--ink)" stroke-width="1.6"/>
+          <line x1="50" y1="-3" x2="50" y2="3" stroke="var(--ink)" stroke-width="1.4"/>
+          <line x1="100" y1="-4" x2="100" y2="4" stroke="var(--ink)" stroke-width="1.6"/>
+          <text x="0" y="-7" text-anchor="start" font-family="var(--mono)" font-size="8" fill="var(--ink-soft)">0</text>
+          <text x="100" y="-7" text-anchor="end" font-family="var(--mono)" font-size="8" fill="var(--ink-soft)">100 km</text>
         </g>
 
         <!-- Sea labels -->
-        <text x="240" y="20" text-anchor="middle" font-family="var(--display-3)" font-size="11" fill="var(--ink-soft)" letter-spacing="2.5">TAIWAN 衝浪檔案</text>
-        <text x="475" y="430" text-anchor="end" font-family="var(--display-3)" font-size="13" fill="var(--ink-soft)" letter-spacing="3" opacity=".7">PACIFIC OCEAN</text>
-        <text x="475" y="448" text-anchor="end" font-family="var(--display-3)" font-size="11" fill="var(--ink-soft)" letter-spacing="3" opacity=".55">太 平 洋</text>
-        <text x="68" y="200" font-family="var(--display-3)" font-size="11" fill="var(--ink-soft)" letter-spacing="2" opacity=".55">TAIWAN STRAIT</text>
-        <text x="68" y="218" font-family="var(--display-3)" font-size="10" fill="var(--ink-soft)" letter-spacing="2.5" opacity=".55">台 灣 海 峽</text>
-        <text x="240" y="708" text-anchor="middle" font-family="var(--display-3)" font-size="10.5" fill="var(--ink-soft)" letter-spacing="3" opacity=".55">BASHI CHANNEL · 巴 士 海 峽</text>
+        <text x="240" y="-2" text-anchor="middle" font-family="var(--display-3)" font-size="11" fill="var(--ink-soft)" letter-spacing="3">KOREA 衝浪檔案</text>
+        <text x="445" y="280" text-anchor="end" font-family="var(--display-3)" font-size="13" fill="var(--ink-soft)" letter-spacing="3" opacity=".7">EAST SEA</text>
+        <text x="445" y="298" text-anchor="end" font-family="var(--display-3)" font-size="11" fill="var(--ink-soft)" letter-spacing="3" opacity=".55">日 本 海</text>
+        <text x="35" y="280" font-family="var(--display-3)" font-size="12" fill="var(--ink-soft)" letter-spacing="2" opacity=".55">YELLOW SEA</text>
+        <text x="35" y="298" font-family="var(--display-3)" font-size="10" fill="var(--ink-soft)" letter-spacing="2.5" opacity=".55">黃 海</text>
+        <text x="240" y="510" text-anchor="middle" font-family="var(--display-3)" font-size="10" fill="var(--ink-soft)" letter-spacing="3" opacity=".55">KOREA STRAIT · 大 韓 海 峽</text>
 
-        <!-- Pins last -->
         ${pins}
       </svg>
       <div class="map-legend">
@@ -1066,8 +1076,7 @@ function renderMap(){
 }
 window.renderMap = renderMap;
 
-// (Trip Planner not used on Taiwan issue)
-function renderTrip(){ /* no-op */ }
+function renderTrip(){}
 window.renderTrip = renderTrip;
 
 window.addEventListener("DOMContentLoaded", boot);

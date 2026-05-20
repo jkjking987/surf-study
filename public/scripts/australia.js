@@ -928,49 +928,70 @@ function renderMap(){
     </g>`;
   }).join("");
 
-  // Simplified Australia mainland outline (clockwise from Wyndham / NW Kimberley)
-  // Coords derived through the same gpsToXY mapping
+  // ===== Australia mainland — clockwise from NW Cape Londonderry → top across Arnhem/Carpentaria/Cape York → E coast S → S coast W → back via WA =====
+  // (~45 anchor points from real ports/capes)
   const mainland = `
-    M 325 98
-    L 375 56  L 440 44  L 460 58  L 523 72
-    L 555 64  L 585 22  L 644 117  L 663 150
-    L 706 176 L 775 265 L 785 281 L 760 305
-    L 742 355 L 736 365 L 718 400 L 660 418
-    L 621 420 L 555 418 L 515 370 L 495 356
-    L 436 339 L 360 328 L 290 332 L 214 355
-    L 142 371 L 92 361 L 91 355 L 105 327
-    L 83 283  L 66 229  L 61 223  L 74 189
-    L 123 170 L 220 132 L 233 110 L 270 100
+    M 295 78
+    L 320 94 L 333 78 L 360 80
+    L 362 62 L 380 50 L 458 33
+    L 466 58 L 481 85 L 458 110
+    L 512 115 L 525 116 L 540 67
+    L 566 35 L 583 64 L 614 110
+    L 623 122 L 641 155 L 682 181
+    L 715 207 L 737 234 L 749 270
+    L 759 286 L 750 309 L 747 325
+    L 727 346 L 717 359 L 694 404
+    L 634 434 L 609 415 L 600 419
+    L 566 423 L 536 415 L 510 395
+    L 498 374 L 482 347 L 450 371
+    L 421 344 L 412 335 L 365 333
+    L 329 329 L 278 333 L 207 359
+    L 137 375 L 89 366 L 102 332
+    L 80 288 L 64 234 L 67 188
+    L 72 192 L 150 170 L 213 137
+    L 232 130 L 250 115 L 270 100
     Z`;
 
-  // Tasmania separate polygon
+  // Tasmania separate polygon (clockwise from NW Stanley)
   const tasmania = `
-    M 623 430 L 689 430 L 691 441 L 685 460 L 672 480
-    L 648 490 L 630 490 L 615 470 L 618 450 Z`;
+    M 614 455 L 625 460 L 633 461 L 661 455
+    L 666 463 L 661 486 L 650 485 L 628 495
+    L 613 475 Z`;
 
-  // State borders (rough straight cuts) — gives geographic anchoring
+  // Kangaroo Island (off SA south coast)
+  const kangarooIs = `M 487 388 L 510 388 L 510 396 L 485 396 Z`;
+
+  // Fraser Island (off QLD east)
+  const fraserIs  = `M 753 250 L 760 248 L 762 270 L 754 272 Z`;
+
+  // State borders (rough straight cuts)
   const borders = `
-    <!-- WA / SA / NT junction lines -->
     <line x1="223" y1="180" x2="223" y2="372" stroke="var(--ink)" stroke-width=".6" stroke-dasharray="2,3" opacity=".45"/>
-    <!-- SA / NT junction -->
-    <line x1="380" y1="80" x2="380" y2="367" stroke="var(--ink)" stroke-width=".6" stroke-dasharray="2,3" opacity=".45"/>
-    <!-- SA / VIC border -->
+    <line x1="380" y1="50" x2="380" y2="367" stroke="var(--ink)" stroke-width=".6" stroke-dasharray="2,3" opacity=".45"/>
     <line x1="491" y1="368" x2="555" y2="418" stroke="var(--ink)" stroke-width=".6" stroke-dasharray="2,3" opacity=".45"/>
-    <!-- NSW / VIC -->
     <line x1="660" y1="418" x2="718" y2="400" stroke="var(--ink)" stroke-width=".6" stroke-dasharray="2,3" opacity=".45"/>
-    <!-- NSW / QLD -->
     <line x1="555" y1="200" x2="775" y2="265" stroke="var(--ink)" stroke-width=".6" stroke-dasharray="2,3" opacity=".45"/>
   `;
 
-  // State labels (lat,lng) → svg coords for labels positioned inland
   const stateLabels = `
-    <text x="450" y="120" text-anchor="middle" font-family="var(--display-3)" font-size="12" fill="var(--ink-soft)" letter-spacing="2">NORTHERN TERRITORY · NT</text>
-    <text x="640" y="195" text-anchor="middle" font-family="var(--display-3)" font-size="12" fill="var(--ink-soft)" letter-spacing="2">QUEENSLAND · QLD</text>
-    <text x="700" y="350" text-anchor="middle" font-family="var(--display-3)" font-size="12" fill="var(--ink-soft)" letter-spacing="2">NSW</text>
-    <text x="600" y="400" text-anchor="middle" font-family="var(--display-3)" font-size="11" fill="var(--ink-soft)" letter-spacing="2">VIC</text>
-    <text x="455" y="350" text-anchor="middle" font-family="var(--display-3)" font-size="11" fill="var(--ink-soft)" letter-spacing="2">SA</text>
-    <text x="180" y="260" text-anchor="middle" font-family="var(--display-3)" font-size="12" fill="var(--ink-soft)" letter-spacing="2">WESTERN AUSTRALIA · WA</text>
-    <text x="652" y="470" text-anchor="middle" font-family="var(--display-3)" font-size="10" fill="var(--ink-soft)" letter-spacing="2">TAS</text>
+    <text x="450" y="120" text-anchor="middle" font-family="var(--display-3)" font-size="12" fill="var(--ink-soft)" letter-spacing="2" opacity=".65">NORTHERN TERRITORY · NT</text>
+    <text x="640" y="195" text-anchor="middle" font-family="var(--display-3)" font-size="12" fill="var(--ink-soft)" letter-spacing="2" opacity=".65">QUEENSLAND · QLD</text>
+    <text x="700" y="350" text-anchor="middle" font-family="var(--display-3)" font-size="12" fill="var(--ink-soft)" letter-spacing="2" opacity=".65">NSW</text>
+    <text x="600" y="400" text-anchor="middle" font-family="var(--display-3)" font-size="11" fill="var(--ink-soft)" letter-spacing="2" opacity=".65">VIC</text>
+    <text x="455" y="350" text-anchor="middle" font-family="var(--display-3)" font-size="11" fill="var(--ink-soft)" letter-spacing="2" opacity=".65">SA</text>
+    <text x="180" y="260" text-anchor="middle" font-family="var(--display-3)" font-size="12" fill="var(--ink-soft)" letter-spacing="2" opacity=".65">WESTERN AUSTRALIA · WA</text>
+    <text x="640" y="478" text-anchor="middle" font-family="var(--display-3)" font-size="10" fill="var(--ink-soft)" letter-spacing="2" opacity=".65">TAS</text>
+    <!-- Major city dots + names -->
+    <g class="city-anchors" font-family="var(--display-3)" font-size="9.5" fill="var(--ink)" letter-spacing="1">
+      <circle cx="717" cy="359" r="2.5" fill="var(--ink)"/><text x="724" y="362">Sydney</text>
+      <circle cx="609" cy="415" r="2.5" fill="var(--ink)"/><text x="595" y="408" text-anchor="end">Melbourne</text>
+      <circle cx="749" cy="270" r="2.5" fill="var(--ink)"/><text x="757" y="273">Brisbane</text>
+      <circle cx="498" cy="374" r="2.5" fill="var(--ink)"/><text x="492" y="378" text-anchor="end">Adelaide</text>
+      <circle cx="102" cy="332" r="2.5" fill="var(--ink)"/><text x="94" y="335" text-anchor="end">Perth</text>
+      <circle cx="362" cy="62"  r="2.5" fill="var(--ink)"/><text x="370" y="65">Darwin</text>
+      <circle cx="623" cy="122" r="2.5" fill="var(--ink)"/><text x="631" y="125">Cairns</text>
+      <circle cx="650" cy="485" r="2.5" fill="var(--ink)"/><text x="658" y="488">Hobart</text>
+    </g>
   `;
 
   container.innerHTML = `
@@ -988,11 +1009,30 @@ function renderMap(){
 
         <rect width="820" height="540" fill="url(#au-grain)"/>
 
+        <!-- East Australian Current (warm, flows S along E coast) -->
+        <path d="M 745 120 Q 760 200 720 320 Q 695 410 650 470"
+              fill="none" stroke="var(--vermillion)" stroke-width="14" opacity=".08" stroke-linecap="round"/>
+        <path d="M 745 120 Q 760 200 720 320 Q 695 410 650 470"
+              fill="none" stroke="var(--vermillion-d)" stroke-width="1" opacity=".35" stroke-dasharray="3,4"/>
+        <text x="772" y="320" text-anchor="middle" font-family="var(--display-3)" font-size="9.5" fill="var(--vermillion-d)" opacity=".7" letter-spacing="1.2">EAC ↓</text>
+
+        <!-- Indonesia hint (above NW Australia) -->
+        <path d="M 280 0 L 350 5 L 370 18 L 390 12 L 460 0 L 460 -10 L 280 -10 Z"
+              fill="var(--paper-deep)" opacity=".4" stroke="var(--ink)" stroke-width=".8" stroke-dasharray="2,3"/>
+
         <!-- Mainland -->
         <path d="${mainland}" fill="url(#au-land)" stroke="var(--ink)" stroke-width="1.6" stroke-linejoin="round"/>
 
         <!-- Tasmania -->
         <path d="${tasmania}" fill="url(#au-land)" stroke="var(--ink)" stroke-width="1.4" stroke-linejoin="round"/>
+
+        <!-- Kangaroo Island (SA) -->
+        <path d="${kangarooIs}" fill="url(#au-land)" stroke="var(--ink)" stroke-width="1.1"/>
+        <text x="497" y="403" text-anchor="middle" font-family="var(--mono)" font-size="7.5" fill="var(--ink-soft)">Kangaroo Is</text>
+
+        <!-- Fraser Island (QLD) -->
+        <path d="${fraserIs}" fill="url(#au-land)" stroke="var(--ink)" stroke-width="1.1"/>
+        <text x="768" y="260" font-family="var(--mono)" font-size="7.5" fill="var(--ink-soft)">Fraser Is</text>
 
         ${borders}
         ${stateLabels}

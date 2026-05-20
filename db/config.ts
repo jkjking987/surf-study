@@ -63,6 +63,26 @@ export const BigWaveBoards = defineTable({
   }
 });
 
+export const JapanSpots = defineTable({
+  columns: {
+    id: column.text({ primaryKey: true }),
+    name: column.text(),
+    category: column.text({ optional: true }),
+    region: column.text({ optional: true }),
+    content: column.json({ optional: true }),
+  }
+});
+
+export const KoreaSpots = defineTable({
+  columns: {
+    id: column.text({ primaryKey: true }),
+    name: column.text(),
+    category: column.text({ optional: true }),
+    region: column.text({ optional: true }),
+    content: column.json({ optional: true }),
+  }
+});
+
 export default defineDb({
   tables: {
     BaliSpots,
@@ -71,5 +91,7 @@ export default defineDb({
     AustraliaSpots,
     TaiwanSpots,
     BigWaveBoards,
+    JapanSpots,
+    KoreaSpots,
   }
 });

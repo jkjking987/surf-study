@@ -3,33 +3,33 @@ import IssuePage from '../../layouts/IssuePage.astro';
 ---
 
 <IssuePage
-  title="台灣衝浪檔案 · ISSUE No. 004 — 衝浪研究室"
-  description="33 個台灣浪點與服務研究檔案;東北季風 + 颱風雙引擎;教學基地、賽事日曆、安全裝備建議全收。"
-  issueNumber="004"
-  issueStats="33 ENTRIES · 9 REGIONS"
-  issueEdition="DOMESTIC FIELD GUIDE"
-  headingEn="Taiwan Field Book"
-  headingCh="台 灣 衝 浪 檔 案"
-  currentIssue="taiwan"
+  title="韓國衝浪檔案 · ISSUE No. 006 — 衝浪研究室"
+  description="22 個韓國浪點與服務研究檔案;東岸 NE swell 主場 + 釜山颱風窗口 + 濟州夏季備案。"
+  issueNumber="006"
+  issueStats="22 ENTRIES · 8 REGIONS"
+  issueEdition="EAST COAST · BUSAN · JEJU"
+  headingEn="Korea Field Book"
+  headingCh="韓 國 衝 浪 檔 案"
+  currentIssue="korea"
 >
 
   <section class="issue-intro">
     <p class="lede">
-      從 <em>中角灣</em> 的初學基地到 <em>烏石港</em> 的颱風主場,<br/>
-      從 <em>金樽</em> 的東部 point break 到 <em>佳樂水</em> 的墾丁 reef ——<br/>
-      一份在地視角、季風 + 颱風驅動的<em>家鄉檔案</em>。
+      從 <em>襄陽竹島</em> 的東岸 NE swell 招牌到 <em>釜山松亭</em> 的颱風窗口,<br/>
+      從 <em>濟州中文</em> 的颱風 reef 到 <em>束草外擁峙</em> 的雪嶽山下浪 ——<br/>
+      一份秋冬東岸 + 夏季東南岸 + 颱風濟州的<em>韓國檔案</em>。
     </p>
     <div class="meta-grid">
-      <div class="cell"><div class="n">28</div><div class="l">浪點 SPOTS</div></div>
-      <div class="cell"><div class="n">3</div><div class="l">服務 SERVICES</div></div>
+      <div class="cell"><div class="n">18</div><div class="l">浪點 SPOTS</div></div>
+      <div class="cell"><div class="n">2</div><div class="l">服務 SERVICES</div></div>
       <div class="cell"><div class="n">2</div><div class="l">實用 PRACTICAL</div></div>
-      <div class="cell"><div class="n">9</div><div class="l">區域 REGIONS</div></div>
+      <div class="cell"><div class="n">8</div><div class="l">區域 REGIONS</div></div>
     </div>
   </section>
 
   <nav class="modes">
     <div class="mode-btn active" data-mode="index">
-      <span>Index</span><span class="ch">索引</span><span class="num">33</span>
+      <span>Index</span><span class="ch">索引</span><span class="num">22</span>
     </div>
     <div class="mode-btn" data-mode="map">
       <span>Map</span><span class="ch">地圖</span>
@@ -69,9 +69,9 @@ import IssuePage from '../../layouts/IssuePage.astro';
 
   <section class="pane" data-mode="map" style="display:none;">
     <div class="toolbar" style="border-bottom:0;">
-      <div style="font-family:var(--display-2); font-style:italic; font-size:22px; color:var(--ocean);">台灣浪點地圖</div>
+      <div style="font-family:var(--display-2); font-style:italic; font-size:22px; color:var(--ocean);">韓國浪點地圖</div>
       <div style="margin-left:auto; font-family:var(--mono); font-size:10.5px; letter-spacing:.12em; text-transform:uppercase;">
-        9 區域 · 點選圓點 → 詳情
+        8 區域 · 點選圓點 → 詳情
       </div>
     </div>
     <div id="map-wrap"></div>
@@ -83,21 +83,23 @@ import IssuePage from '../../layouts/IssuePage.astro';
       <div style="display:flex; gap:8px; align-items:center; margin-left:auto;" id="season-legend"></div>
     </div>
     <div class="season" id="season-table"></div>
+    <div id="water-temp-matrix" class="wt-matrix-host"></div>
     <div style="margin-top:20px; display:grid; grid-template-columns: 1fr 1fr; gap:20px;">
       <div class="dossier" style="padding:18px 20px;">
-        <div class="kicker" style="color:var(--vermillion-d); margin-bottom:6px;">東北季風 / NE MONSOON · OCT—MAR</div>
-        <h3 style="font-family:var(--display); font-size:32px; margin:0 0 8px; line-height:1;">北部 + 東北部主場</h3>
+        <div class="kicker" style="color:var(--vermillion-d); margin-bottom:6px;">秋冬 NE / EAST COAST · SEP—MAR</div>
+        <h3 style="font-family:var(--display); font-size:32px; margin:0 0 8px; line-height:1;">東岸襄陽主場</h3>
         <p style="font-family:var(--serif); font-size:14px; line-height:1.55; margin:0;">
-          東北季風 NE swell 吹 5 個月 → 中角、烏石、福隆、龍洞 為主戰場。
-          11月–1月 為招牌月,水冷 (17–20°C, 4mm) 需備好;12月 Taiwan Open of Surfing。
+          西伯利亞高壓 → NE swell 從日本海來 → 襄陽竹島、束草、高城。
+          9月–3月為招牌期;水溫 5–14°C 需 4/3 或 5/4mm wetsuit + hood。
         </p>
       </div>
       <div class="dossier" style="padding:18px 20px;">
-        <div class="kicker" style="color:var(--ocean); margin-bottom:6px;">颱風季 / TYPHOON · JUN—OCT</div>
-        <h3 style="font-family:var(--display); font-size:32px; margin:0 0 8px; line-height:1;">東部 + 南部翻盤</h3>
+        <div class="kicker" style="color:var(--ocean); margin-bottom:6px;">颱風季 / TYPHOON · JUL—OCT</div>
+        <h3 style="font-family:var(--display); font-size:32px; margin:0 0 8px; line-height:1;">釜山 + 濟州翻盤</h3>
         <p style="font-family:var(--serif); font-size:14px; line-height:1.55; margin:0;">
-          颱風前後 1–4 天為 step-up 黃金期 → 金樽、佳樂水、烏石外礁。
-          台灣每年 3–5 個有效颱風窗口;水溫 25–28°C 但天氣與安全評估極端關鍵。
+          颱風路徑東海 → 釜山松亭、濟州中文。
+          step-up window 通常颱風中心 24–48 hr 前後;水溫 22–27°C;
+          海洋警察廳警報期禁海。
         </p>
       </div>
     </div>
@@ -107,7 +109,7 @@ import IssuePage from '../../layouts/IssuePage.astro';
     <div class="skillrec">
       <div class="controls">
         <h3>找浪點 / Match Me</h3>
-        <p>回答四個問題,我們從 33 個項目裡找出最匹配的浪點 ——附帶評分理由。</p>
+        <p>回答四個問題,我們從 22 個項目裡找出最匹配的浪點 ——附帶評分理由。</p>
         <div id="skill-questions"></div>
       </div>
       <div class="results" id="skill-results"></div>
@@ -126,34 +128,34 @@ import IssuePage from '../../layouts/IssuePage.astro';
 
   <section style="margin-top:36px; border:2px solid var(--ink); background:var(--paper); padding:18px 22px; display:grid; grid-template-columns: 1fr 1fr 1fr; gap:18px;">
     <div>
-      <div class="eyebrow" style="color:var(--vermillion-d);">DUAL SEASON / 雙季</div>
-      <h4 style="font-family:var(--display); font-size:22px; margin:6px 0 8px;">東北季風 + 颱風季</h4>
+      <div class="eyebrow" style="color:var(--vermillion-d);">RAPID SCENE / 新興場景</div>
+      <h4 style="font-family:var(--display); font-size:22px; margin:6px 0 8px;">2010 後爆發成長</h4>
       <p style="font-family:var(--serif); font-size:13.5px; line-height:1.55; margin:0;">
-        台灣全年浪況雙引擎:10–3 月 NE monsoon 北部東北部主場;6–10 月颱風前後東部南部主場。
-        4–5 月與 9–10 月為過渡 shoulder season,浪小但平靜美。
+        韓國衝浪文化自 2010 年代於襄陽爆發,Surfyy Beach 商業化推動;週末首爾 weekender 主場;
+        2018 年 Korea Surf Association 成立;近 5 年人口快速擴張。
       </p>
     </div>
     <div>
-      <div class="eyebrow" style="color:var(--vermillion-d);">TYPHOON SAFETY / 颱風安全</div>
-      <h4 style="font-family:var(--display); font-size:22px; margin:6px 0 8px;">海陸警禁海</h4>
+      <div class="eyebrow" style="color:var(--vermillion-d);">DMZ ADJACENT / DMZ 鄰近</div>
+      <h4 style="font-family:var(--display); font-size:22px; margin:6px 0 8px;">高城軍事禁區</h4>
       <p style="font-family:var(--serif); font-size:13.5px; line-height:1.55; margin:0;">
-        中央氣象署發布海上 / 陸上颱風警報時,法定禁止下水。
-        Step-up 黃金期通常在颱風中心通過 24–48 小時前後,風險評估與在地老手判斷為唯一可信參考。
+        高城 (Goseong) 鄰近 DMZ;沿海有軍事告示牌與夜間禁海規定;
+        Bongpo 以北須留意當地告示;不在沙灘以外拍攝海岸線軍事設施。
       </p>
     </div>
     <div>
-      <div class="eyebrow" style="color:var(--vermillion-d);">EVENTS / 賽事</div>
-      <h4 style="font-family:var(--display); font-size:22px; margin:6px 0 8px;">Taiwan Open + 太平洋盃</h4>
+      <div class="eyebrow" style="color:var(--vermillion-d);">JEJU TYPHOON / 濟州颱風</div>
+      <h4 style="font-family:var(--display); font-size:22px; margin:6px 0 8px;">7–10 月窗口</h4>
       <p style="font-family:var(--serif); font-size:13.5px; line-height:1.55; margin:0;">
-        Taiwan Open of Surfing (12月,中角);太平洋衝浪賽 WSL QS (11月,烏石);
-        Taiwan Surf League 巡迴賽 (金樽、佳樂水站點)。
+        濟州島南岸 (中文) 在颱風路徑接近時可形成 2–3 m step-up;
+        從首爾飛 1 小時即達;比襄陽 + 東岸更穩定的夏季選項。
       </p>
     </div>
   </section>
 
   <div style="padding:22px 0 8px; display:flex; justify-content:space-between; font-family:var(--mono); font-size:10.5px; letter-spacing:.14em; text-transform:uppercase; color:var(--ink-soft); border-top:1.5px solid var(--ink); margin-top:30px;">
-    <span>END OF ISSUE No. 004 · 台灣</span>
-    <span><a href="/australia" style="color:inherit;">← No. 003 AU</a> · <a href="/japan" style="color:inherit;">No. 005 日本 →</a></span>
+    <span>END OF ISSUE No. 006 · 韓國</span>
+    <span><a href="/japan" style="color:inherit;">← No. 005 日本</a> · <a href="/boards" style="color:inherit;">No. 007 板 →</a></span>
   </div>
 
   <div class="compare-tray" id="compare-tray">
@@ -166,6 +168,6 @@ import IssuePage from '../../layouts/IssuePage.astro';
     <div class="detail-panel" id="detail-panel"></div>
   </div>
 
-  <script is:inline src="/scripts/taiwan.js"></script>
+  <script is:inline src="/scripts/korea.js"></script>
 
 </IssuePage>

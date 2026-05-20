@@ -877,225 +877,186 @@ function renderSkillRec(){
   `;
 }
 
-// ===== Bali Map (SVG) =====
-const SPOT_COORDS = {
-  // South Bukit Peninsula
-  Uluwatu:        { x: 215, y: 530, region: "Bukit" },
-  Padang_Padang:  { x: 235, y: 528, region: "Bukit" },
-  Bingin:         { x: 252, y: 525, region: "Bukit" },
-  Impossibles:    { x: 268, y: 520, region: "Bukit" },
-  Dreamland:      { x: 282, y: 510, region: "Bukit" },
-  Balangan:       { x: 290, y: 495, region: "Bukit" },
-  Nyang_Nyang:    { x: 308, y: 540, region: "Bukit" },
-  Green_Bowl:     { x: 330, y: 555, region: "Bukit" },
-  Thomas_Beach:   { x: 222, y: 540, region: "Bukit" },
-  // West Coast
-  Kuta_Beach:     { x: 308, y: 410, region: "West" },
-  Legian:         { x: 305, y: 395, region: "West" },
-  Seminyak:       { x: 300, y: 378, region: "West" },
-  Canggu_Batu_Bolong: { x: 290, y: 358, region: "West" },
-  Canggu_Berawa:  { x: 286, y: 350, region: "West" },
-  Canggu_Echo_Beach: { x: 282, y: 343, region: "West" },
-  Canggu_Sandbar: { x: 295, y: 363, region: "West" },
-  Pererenan:      { x: 276, y: 338, region: "West" },
-  Seseh_Mengening: { x: 270, y: 332, region: "West" },
-  Medewi:         { x: 145, y: 310, region: "West" },
-  Yeh_Sumbul:     { x: 170, y: 320, region: "West" },
-  Balian:         { x: 200, y: 320, region: "West" },
-  Tabanan_Soka:   { x: 220, y: 318, region: "West" },
-  // East Coast
-  Keramas:        { x: 405, y: 388, region: "East" },
-  Sanur:          { x: 365, y: 410, region: "East" },
-  Nusa_Dua:       { x: 370, y: 480, region: "East" },
-  Serangan:       { x: 350, y: 440, region: "East" },
-  // Nearby islands
-  Nusa_Lembongan: { x: 530, y: 480, region: "Islands" },
-  Nusa_Penida:    { x: 560, y: 520, region: "Islands" },
-  Gili_Islands:   { x: 680, y: 360, region: "Islands" }
+// ===== Bali Map (SVG, geo-accurate) =====
+// Projection:
+//   lng 114.30 → x=0, lng 116.20 → x=800   (scale 421 per deg lng)
+//   lat -8.10 → y=130, lat -9.0 → y=130+(0.9*421)=509   (scale 421 per deg lat, with 130 top offset)
+function gpsToXY(gps){
+  if(!gps) return null;
+  const m = gps.match(/(-?\d+\.\d+)\s*,\s*(-?\d+\.\d+)/);
+  if(!m) return null;
+  const lat = parseFloat(m[1]), lng = parseFloat(m[2]);
+  return {
+    x: (lng - 114.30) * 421,
+    y: ((-8.10) - lat) * 421 + 130
+  };
+}
+
+// Fallback positions for entries with no per-item GPS (e.g. Surf Schools service entries)
+const SPOT_FALLBACK = {
+  Gili_Islands:   { x: 730, y: 200 }
 };
 
 function renderMap(){
   const container = document.getElementById("map-wrap");
   if(!container) return;
-  // Build pins for matching items
-  const pins = ALL.filter(it => SPOT_COORDS[it.key]).map(it => {
-    const c = SPOT_COORDS[it.key];
-    const fillByCat = {
-      spot: "var(--vermillion)",
-      hidden: "var(--oxblood)",
-      extension: "var(--ocean)"
-    };
+
+  const fillByCat = {
+    spot:      "var(--vermillion)",
+    hidden:    "var(--oxblood)",
+    extension: "var(--ocean)",
+    service:   "var(--mustard)",
+    practical: "var(--teal)"
+  };
+
+  // Items with GPS (Bali entries all have gps_location)
+  const items = ALL.filter(it => {
+    const gps = it.raw?.basic_info?.gps_location || it.raw?.gps_location;
+    return gps || SPOT_FALLBACK[it.key];
+  });
+
+  const pins = items.map(it => {
+    const gpsStr = it.raw?.basic_info?.gps_location || it.raw?.gps_location;
+    const p = gpsStr ? gpsToXY(gpsStr) : SPOT_FALLBACK[it.key];
+    if(!p) return "";
     const fill = fillByCat[it.category] || "var(--ink)";
-    return `<g class="map-pin" data-key="${it.key}" transform="translate(${c.x},${c.y})">
-      <circle r="6" fill="${fill}" stroke="var(--ink)" stroke-width="1.4"/>
-      <text x="9" y="3" font-family="var(--mono)" font-size="9" fill="var(--ink)" style="paint-order: stroke; stroke: var(--paper); stroke-width: 2.5px;">${it.name.slice(0,18)}</text>
+    const label = (it.name || "").slice(0, 16);
+    // Label routes: left for west pins, right for east
+    const isEast = p.x > 400;
+    const tx = isEast ? 9 : -9;
+    const anchor = isEast ? "start" : "end";
+    return `<g class="map-pin" data-key="${it.key}" transform="translate(${p.x.toFixed(1)},${p.y.toFixed(1)})">
+      <circle r="5.5" fill="${fill}" stroke="var(--ink)" stroke-width="1.3"/>
+      <circle r="2.2" fill="var(--paper)" opacity=".4"/>
+      <text x="${tx}" y="3.5" font-family="var(--mono)" font-size="9" text-anchor="${anchor}" fill="var(--ink)" style="paint-order: stroke; stroke: var(--paper); stroke-width: 2.5px;">${label}</text>
     </g>`;
   }).join("");
+
+  // ===== Bali main island — clockwise from NW Gilimanuk (~22 coastal points) =====
+  // GPS-derived: x = (lng-114.30)*421, y = ((-8.10)-lat)*421 + 130
+  const baliOutline = `
+    M 55 164
+    L 100 144 L 152 143 L 220 148 L 275 148
+    L 308 155 L 333 134 L 380 145 L 450 148
+    L 509 164 L 540 200 L 558 245 L 552 277
+    L 535 303 L 509 311 L 460 340 L 408 378
+    L 391 416 L 383 416
+    L 370 446 L 333 437 L 337 428 L 366 420
+    L 366 391 L 349 362 L 337 349
+    L 261 319 L 180 290 L 105 256 L 55 200
+    Z`;
+
+  // Nusa Lembongan (-8.69°N, 115.45°E)
+  // Nusa Penida (-8.73°N, 115.55°E)
+  // Computed: Lembongan x=484, y=378; Penida x=527, y=395
+  // Show as 2 separate islands SE of Bali
+  const nusaLembongan = `M 478 372 L 502 370 L 506 386 L 488 393 L 472 385 Z`;
+  const nusaPenida    = `M 510 396 L 555 392 L 568 410 L 552 425 L 514 420 L 500 408 Z`;
+
+  // Gili Islands (off Lombok, east of Bali) ~ -8.35°N, 116.04°E → x=733, y=235
+  // Render as 3 small dots
+  const giliIslands = `
+    <g>
+      <circle cx="725" cy="227" r="5" fill="url(#land-tex)" stroke="var(--ink)" stroke-width="1.2"/>
+      <circle cx="738" cy="232" r="4" fill="url(#land-tex)" stroke="var(--ink)" stroke-width="1.2"/>
+      <circle cx="722" cy="238" r="3.5" fill="url(#land-tex)" stroke="var(--ink)" stroke-width="1.2"/>
+      <text x="730" y="218" text-anchor="middle" font-family="var(--display-3)" font-size="9" fill="var(--ink)">GILI</text>
+    </g>
+  `;
+
+  // Lombok (full island east of Bali) — partial outline as hint
+  const lombokHint = `
+    M 720 250 L 800 250 L 800 400 L 750 400 L 730 380 L 720 350 Z
+  `;
+
+  // Java (west of Bali) — partial hint
+  const javaHint = `
+    M 0 110 L 50 130 L 50 240 L 35 280 L 0 290 Z
+  `;
 
   container.innerHTML = `
     <div class="bali-map">
       <svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
-        <!-- Ocean background grain -->
         <defs>
           <pattern id="ocean" x="0" y="0" width="14" height="14" patternUnits="userSpaceOnUse">
             <path d="M 0 7 Q 3.5 4, 7 7 T 14 7" stroke="var(--ocean)" stroke-width="0.6" fill="none" opacity="0.25"/>
           </pattern>
-          <pattern id="land-tex" x="0" y="0" width="6" height="6" patternUnits="userSpaceOnUse">
-            <circle cx="3" cy="3" r="0.6" fill="var(--ink)" opacity="0.18"/>
+          <pattern id="land-tex" x="0" y="0" width="9" height="9" patternUnits="userSpaceOnUse">
+            <rect width="9" height="9" fill="var(--paper-warm)"/>
+            <circle cx="2" cy="2" r=".7" fill="rgba(26,22,20,.10)"/>
           </pattern>
         </defs>
+
         <rect width="800" height="600" fill="url(#ocean)"/>
 
-        <!-- Bali island outline (stylized) -->
-        <path d="
-          M 90 240
-          Q 160 200, 240 195
-          Q 310 188, 380 200
-          Q 450 210, 510 215
-          Q 580 224, 640 250
-          Q 710 280, 715 320
-          Q 700 350, 640 360
-          Q 580 370, 540 380
-          Q 480 392, 440 396
-          L 420 396
-          L 408 380
-          L 396 396
-          L 380 396
-          L 350 400
-          L 320 410
-          L 290 422
-          L 268 442
-          L 250 470
-          L 240 500
-          L 250 530
-          L 270 550
-          L 305 560
-          L 340 558
-          L 360 550
-          L 352 530
-          L 340 510
-          L 320 490
-          L 312 470
-          L 320 450
-          L 340 440
-          L 365 432
-          L 380 420
-          L 396 405
-          L 408 396
-          L 420 405
-          L 430 396
-          L 442 400
-          L 460 412
-          L 478 420
-          L 482 440
-          L 478 462
-          L 470 480
-          L 458 490
-          L 440 495
-          L 426 498
-          L 432 480
-          L 425 470
-          L 420 478
-          Q 396 470, 388 460
-          Q 360 440, 320 400
-          Q 280 380, 240 360
-          Q 200 345, 165 330
-          Q 130 312, 100 290
-          Q 85 265, 90 240
-          Z"
-          fill="var(--paper-deep)" stroke="var(--ink)" stroke-width="1.8" stroke-linejoin="round" opacity="0.95"/>
-        <path d="
-          M 90 240
-          Q 160 200, 240 195
-          Q 310 188, 380 200
-          Q 450 210, 510 215
-          Q 580 224, 640 250
-          Q 710 280, 715 320
-          Q 700 350, 640 360
-          Q 580 370, 540 380
-          Q 480 392, 440 396
-          L 420 396
-          L 408 380
-          L 396 396
-          L 380 396
-          L 350 400
-          L 320 410
-          L 290 422
-          L 268 442
-          L 250 470
-          L 240 500
-          L 250 530
-          L 270 550
-          L 305 560
-          L 340 558
-          L 360 550
-          L 352 530
-          L 340 510
-          L 320 490
-          L 312 470
-          L 320 450
-          L 340 440
-          L 365 432
-          L 380 420
-          L 396 405
-          L 408 396
-          L 420 405
-          L 430 396
-          L 442 400
-          L 460 412
-          L 478 420
-          L 482 440
-          L 478 462
-          L 470 480
-          L 458 490
-          L 440 495
-          L 426 498
-          L 432 480
-          L 425 470
-          L 420 478
-          Q 396 470, 388 460
-          Q 360 440, 320 400
-          Q 280 380, 240 360
-          Q 200 345, 165 330
-          Q 130 312, 100 290
-          Q 85 265, 90 240
-          Z"
-          fill="url(#land-tex)"/>
-
-        <!-- Nusa Lembongan/Penida -->
-        <ellipse cx="535" cy="480" rx="38" ry="20" fill="var(--paper-deep)" stroke="var(--ink)" stroke-width="1.6" opacity="0.95"/>
-        <ellipse cx="555" cy="520" rx="48" ry="28" fill="var(--paper-deep)" stroke="var(--ink)" stroke-width="1.6" opacity="0.95"/>
-        <text x="535" y="483" text-anchor="middle" font-family="var(--display-3)" font-size="11" fill="var(--ink)">LEMBONGAN</text>
-        <text x="555" y="525" text-anchor="middle" font-family="var(--display-3)" font-size="12" fill="var(--ink)">PENIDA</text>
-
-        <!-- Gili islands cluster -->
-        <circle cx="680" cy="355" r="9" fill="var(--paper-deep)" stroke="var(--ink)" stroke-width="1.6"/>
-        <circle cx="700" cy="365" r="7" fill="var(--paper-deep)" stroke="var(--ink)" stroke-width="1.6"/>
-        <circle cx="668" cy="375" r="6" fill="var(--paper-deep)" stroke="var(--ink)" stroke-width="1.6"/>
-        <text x="685" y="345" text-anchor="middle" font-family="var(--display-3)" font-size="11" fill="var(--ink)">GILI</text>
-
-        <!-- Region labels -->
-        <text x="240" y="170" text-anchor="middle" font-family="var(--display-2)" font-size="22" fill="var(--ink-soft)" font-style="italic">BALI</text>
-        <text x="290" y="500" font-family="var(--display-3)" font-size="13" fill="var(--vermillion-d)">BUKIT</text>
-        <text x="220" y="295" font-family="var(--display-3)" font-size="13" fill="var(--vermillion-d)">CANGGU</text>
-        <text x="380" y="430" font-family="var(--display-3)" font-size="13" fill="var(--vermillion-d)">SANUR</text>
-        <text x="450" y="370" font-family="var(--display-3)" font-size="13" fill="var(--vermillion-d)">KERAMAS</text>
-        <text x="135" y="340" font-family="var(--display-3)" font-size="13" fill="var(--vermillion-d)">MEDEWI</text>
-
-        <!-- Compass rose -->
-        <g transform="translate(745,565)" font-family="var(--mono)" font-size="9" fill="var(--ink)">
-          <circle r="22" fill="var(--paper)" stroke="var(--ink)" stroke-width="1.2"/>
-          <text x="0" y="-12" text-anchor="middle">N</text>
-          <text x="0" y="16" text-anchor="middle">S</text>
-          <text x="-14" y="3" text-anchor="middle">W</text>
-          <text x="14" y="3" text-anchor="middle">E</text>
-          <line x1="0" y1="-4" x2="0" y2="-9" stroke="var(--vermillion)" stroke-width="2"/>
+        <!-- SE Trade winds (dry season) -->
+        <g opacity=".4">
+          <path d="M 720 100 Q 600 140 480 180 Q 380 210 320 220"
+                stroke="var(--ocean)" stroke-width="1.5" fill="none" stroke-dasharray="4,4"/>
+          <path d="M 330 218 L 322 220 L 328 226" stroke="var(--ocean)" stroke-width="1.5" fill="none"/>
+          <text x="600" y="92" font-family="var(--display-3)" font-size="9.5" fill="var(--ocean)" letter-spacing="1.5">DRY SEASON · SE TRADE WIND</text>
         </g>
 
-        <!-- Wind arrows: dry season SE trade winds (offshore for west) -->
-        <g opacity="0.55">
-          <text x="640" y="100" font-family="var(--mono)" font-size="9" fill="var(--ocean)">DRY · SE TRADE WIND</text>
-          <path d="M 660 110 L 600 140 L 610 135 M 600 140 L 605 130" stroke="var(--ocean)" stroke-width="1.5" fill="none"/>
+        <!-- Java (W) -->
+        <path d="${javaHint}" fill="var(--paper-deep)" opacity=".5" stroke="var(--ink)" stroke-width=".8" stroke-dasharray="2,3"/>
+        <text x="20" y="200" font-family="var(--display-3)" font-size="11" fill="var(--ink-soft)" opacity=".75" letter-spacing="2">JAVA</text>
+
+        <!-- Lombok (E) -->
+        <path d="${lombokHint}" fill="var(--paper-deep)" opacity=".5" stroke="var(--ink)" stroke-width=".8" stroke-dasharray="2,3"/>
+        <text x="760" y="380" text-anchor="end" font-family="var(--display-3)" font-size="11" fill="var(--ink-soft)" opacity=".75" letter-spacing="2">LOMBOK</text>
+
+        <!-- Bali main island -->
+        <path d="${baliOutline}" fill="url(#land-tex)" stroke="var(--ink)" stroke-width="1.8" stroke-linejoin="round"/>
+
+        <!-- Mt Agung (E Bali, 3031 m, -8.34°N 115.51°E → x=509, y=231) -->
+        <g opacity=".55">
+          <path d="M 495 240 L 509 215 L 523 240 L 540 232 L 555 250" stroke="var(--ink)" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+          <circle cx="509" cy="215" r="2" fill="var(--vermillion)"/>
+          <text x="540" y="208" font-family="var(--display-3)" font-size="10" fill="var(--ink)" letter-spacing="1">Mt Agung</text>
+          <text x="540" y="220" font-family="var(--mono)" font-size="8" fill="var(--ink-soft)" letter-spacing="1">3,031 m</text>
+        </g>
+
+        <!-- Nusa Lembongan / Penida -->
+        <path d="${nusaLembongan}" fill="url(#land-tex)" stroke="var(--ink)" stroke-width="1.4"/>
+        <text x="490" y="368" font-family="var(--display-3)" font-size="9" fill="var(--ink)">Lembongan</text>
+        <path d="${nusaPenida}" fill="url(#land-tex)" stroke="var(--ink)" stroke-width="1.4"/>
+        <text x="535" y="442" text-anchor="middle" font-family="var(--display-3)" font-size="10" fill="var(--ink)">PENIDA</text>
+
+        <!-- Gili Islands -->
+        ${giliIslands}
+
+        <!-- Region labels -->
+        <g class="region-anchors" font-family="var(--display-2)" font-style="italic" font-size="14" fill="var(--vermillion-d)" opacity=".75">
+          <text x="265" y="180">CANGGU</text>
+          <text x="135" y="180">MEDEWI</text>
+          <text x="380" y="375" text-anchor="end">SANUR</text>
+          <text x="450" y="360">KERAMAS</text>
+          <text x="290" y="475" text-anchor="middle">BUKIT</text>
+          <text x="465" y="220">UBUD →</text>
+        </g>
+
+        <!-- Title -->
+        <text x="380" y="115" text-anchor="middle" font-family="var(--display-2)" font-size="26" fill="var(--ink-soft)" font-style="italic" letter-spacing="3" opacity=".4">BALI</text>
+
+        <!-- Sea labels -->
+        <text x="400" y="555" text-anchor="middle" font-family="var(--display-3)" font-size="11" fill="var(--ink-soft)" opacity=".7" letter-spacing="2.5">INDIAN OCEAN · 印 度 洋</text>
+        <text x="400" y="33" text-anchor="middle" font-family="var(--display-3)" font-size="11" fill="var(--ink-soft)" opacity=".7" letter-spacing="2.5">BALI SEA · 巴 厘 海</text>
+
+        <!-- Compass -->
+        <g transform="translate(750,540)">
+          <circle r="20" fill="var(--paper)" stroke="var(--ink)" stroke-width="1.3"/>
+          <path d="M 0 -15 L 4.5 0 L 0 15 L -4.5 0 Z" fill="var(--vermillion)" stroke="var(--ink)" stroke-width=".8"/>
+          <text y="-25" text-anchor="middle" font-family="var(--display-3)" font-size="11" fill="var(--ink)">N</text>
+        </g>
+
+        <!-- Scale: 1° lat ≈ 111 km, scale 421 → 50 km ≈ 190 px -->
+        <g transform="translate(40,560)">
+          <line x1="0" y1="0" x2="190" y2="0" stroke="var(--ink)" stroke-width="1.6"/>
+          <line x1="0" y1="-4" x2="0" y2="4" stroke="var(--ink)" stroke-width="1.6"/>
+          <line x1="95" y1="-3" x2="95" y2="3" stroke="var(--ink)" stroke-width="1.4"/>
+          <line x1="190" y1="-4" x2="190" y2="4" stroke="var(--ink)" stroke-width="1.6"/>
+          <text x="0" y="-7" text-anchor="start" font-family="var(--mono)" font-size="8" fill="var(--ink-soft)">0</text>
+          <text x="190" y="-7" text-anchor="end" font-family="var(--mono)" font-size="8" fill="var(--ink-soft)">50 km</text>
         </g>
 
         <!-- Pins -->
@@ -1109,9 +1070,17 @@ function renderMap(){
       </div>
     </div>
   `;
+
   container.querySelectorAll(".map-pin").forEach(p => {
     p.addEventListener("click", () => openDetail(p.dataset.key));
   });
+
+  const svg = container.querySelector("svg");
+  const legend = container.querySelector(".map-legend");
+  if(svg && legend && window.attachMapControls){
+    legend.querySelector(".map-zoom-controls")?.remove();
+    window.attachMapControls(svg, legend);
+  }
 }
 window.renderMap = renderMap;
 

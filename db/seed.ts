@@ -1,4 +1,4 @@
-import { db, BaliSpots, HainanSpots, Boards, AustraliaSpots, TaiwanSpots, BigWaveBoards } from 'astro:db';
+import { db, BaliSpots, HainanSpots, Boards, AustraliaSpots, TaiwanSpots, BigWaveBoards, JapanSpots, KoreaSpots } from 'astro:db';
 import { readFileSync } from 'fs';
 import { join } from 'path';
 
@@ -178,5 +178,55 @@ export default async function() {
 
   await db.insert(BigWaveBoards).values(bigData);
   console.log(`Seeded ${bigData.length} Big Wave boards.`);
+
+  // Seed Japan Spots
+  const jpRaw = JSON.parse(readFileSync(join(process.cwd(), 'project/data/japan.json'), 'utf-8'));
+  const jpData = [];
+
+  for (const [key, data] of Object.entries(jpRaw) as [string, any][]) {
+    const slug = slugify(key);
+    const name = data.name || key.replace(/_/g, ' ');
+    const category = data.category || '';
+    const region = data.region || '';
+
+    const iP = name.indexOf(' (');
+    const shortName = iP > 0 ? name.slice(0, iP).trim() : name.trim();
+
+    jpData.push({
+      id: slug,
+      name: shortName,
+      category,
+      region,
+      content: { ...data, _key: key }
+    });
+  }
+
+  await db.insert(JapanSpots).values(jpData);
+  console.log(`Seeded ${jpData.length} Japan spots.`);
+
+  // Seed Korea Spots
+  const krRaw = JSON.parse(readFileSync(join(process.cwd(), 'project/data/korea.json'), 'utf-8'));
+  const krData = [];
+
+  for (const [key, data] of Object.entries(krRaw) as [string, any][]) {
+    const slug = slugify(key);
+    const name = data.name || key.replace(/_/g, ' ');
+    const category = data.category || '';
+    const region = data.region || '';
+
+    const iP = name.indexOf(' (');
+    const shortName = iP > 0 ? name.slice(0, iP).trim() : name.trim();
+
+    krData.push({
+      id: slug,
+      name: shortName,
+      category,
+      region,
+      content: { ...data, _key: key }
+    });
+  }
+
+  await db.insert(KoreaSpots).values(krData);
+  console.log(`Seeded ${krData.length} Korea spots.`);
   console.log('Seeding complete.');
 }

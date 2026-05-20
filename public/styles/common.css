@@ -372,10 +372,29 @@ body[data-hide-uncertain="1"] .uncertain { background: transparent; border: 0; p
 
 /* ===== Mobile tweaks for these elements ===== */
 @media (max-width: 760px){
-  #tweaks-fab { bottom: 10px; left: 10px; padding: 6px 10px 5px; font-size: 10px; }
-  #search-fab { left: 110px; padding: 6px 10px 5px; font-size: 10px; }
+  #tweaks-fab {
+    bottom: 12px; left: 12px;
+    padding: 9px 13px 8px;
+    font-size: 11px;
+    min-height: 36px;
+    letter-spacing: .1em;
+  }
+  #search-fab {
+    bottom: 12px;
+    left: auto;
+    right: 12px;
+    padding: 9px 13px 8px;
+    font-size: 11px;
+    min-height: 36px;
+    letter-spacing: .1em;
+  }
+  #search-fab small { display: none; }
   #tweaks-panel { width: 100%; left: 0; right: 0; }
-  #global-search .gs-panel { margin: 16px; }
-  .gs-row { grid-template-columns: 60px 1fr; }
+  #global-search .gs-panel {
+    margin: 12px;
+    max-width: calc(100vw - 24px);
+  }
+  .gs-row { grid-template-columns: 56px 1fr; }
   .gs-row .gs-blurb { display: none; }
+  .gs-row .gs-name { font-size: 14px; line-height: 1.3; word-break: keep-all; }
 }
