@@ -21,11 +21,15 @@ const REGION_MAP = {
   "Australia-wide / Online":   { ch: "全澳 / 線上",         short: "WEB" }
 };
 
-// Manual category mapping by key (overrides basic_info.category)
+// Manual category mapping by key (overrides basic_info.category).
+// Keys here must match the original capitalized form coming from /api/taiwan.json
+// (the API uses content._key which preserves the raw JSON key, e.g. Yilan_Surf_School).
 const SERVICE_KEYS = new Set([
-  "Surf_Schools_Australia", "Board_Rental_Australia",
-  "Surf_Forecast_Australia", "Visa_Entry_AU",
-  "Quiksilver_Pro_Bells_Festivals"
+  "Yilan_Surf_School",
+  "Taiwan_East_Surf_School",
+  "Taiwan_South_Surf_School",
+  "Taiwan_Surf_Forecast",
+  "Taiwan_Typhoon_Practical"
 ]);
 
 const CATEGORY_LABELS = {
@@ -139,9 +143,10 @@ function parseCrowd(text){
 }
 
 function classifyCategory(key, raw){
-  const cat = raw?.basic_info?.category || "";
+  // Taiwan data is flat (no basic_info nesting) — fall back to raw.category.
+  const cat = raw?.basic_info?.category || raw?.category || "";
   if(SERVICE_KEYS.has(key)){
-    if(["Season_Safety_Medical","Transport_Logistics","Visa_Entry_Logistics","Surf_Forecast_Tools"].includes(key)) return "practical";
+    if(key === "Taiwan_Typhoon_Practical") return "practical";
     return "service";
   }
   if(cat === "surf_spot_hidden") return "hidden";
