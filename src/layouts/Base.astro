@@ -17,6 +17,7 @@ const {
 
 const siteUrl = Astro.site?.toString().replace(/\/$/, '') || '';
 const canonicalUrl = canonical || new URL(Astro.url.pathname, siteUrl).toString();
+const finalOgImage = ogImage || new URL('/og-default.png', siteUrl || 'https://surf-study.jkjking987.workers.dev').toString();
 
 const defaultJsonLd = {
   '@context': 'https://schema.org',
@@ -49,13 +50,15 @@ const finalJsonLd = jsonLd ?? defaultJsonLd;
   <meta property="og:url" content={canonicalUrl} />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="zh_TW" />
-  {ogImage && <meta property="og:image" content={ogImage} />}
+  <meta property="og:image" content={finalOgImage} />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content={title} />
   <meta name="twitter:description" content={description} />
-  {ogImage && <meta name="twitter:image" content={ogImage} />}
+  <meta name="twitter:image" content={finalOgImage} />
 
   <!-- JSON-LD -->
   <script type="application/ld+json" set:html={JSON.stringify(finalJsonLd)} />
