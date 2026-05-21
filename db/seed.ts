@@ -41,10 +41,13 @@ export default async function() {
       name: shortName,
       category,
       region,
-      content: data
+      // bali.js does SERVICE_KEYS.has(key) with original capitalized keys
+      // (Surf_Schools, Season_Safety_Medical, …) — preserve _key so the
+      // API can return the original form (same pattern as AU/TW/JP/KR).
+      content: { ...data, _key: key }
     });
   }
-  
+
   await db.insert(BaliSpots).values(baliData);
   console.log(`Seeded ${baliData.length} Bali spots.`);
 

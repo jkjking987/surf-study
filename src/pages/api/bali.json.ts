@@ -3,12 +3,15 @@ import { db, BaliSpots } from 'astro:db';
 export async function GET() {
   const spots = await db.select().from(BaliSpots);
   
-  // Reconstruct the original JSON shape expected by client scripts
-  // Object keyed by original ID/slug
-  const data = {};
+  const data: Record<string, unknown> = {};
   for (const spot of spots) {
-    // spot.content is the original JSON object
-    data[spot.id] = spot.content;
+    const content = (spot.content ?? {}) as Record<string, unknown>;
+    // Seed preserves the original JSON key (Surf_Schools, Uluwatu, …) as
+    // content._key. bali.js does exact-match SERVICE_KEYS lookups against
+    // that original form; falling back to spot.id would return slugs and
+    // break the practical/service classification.
+    const responseKey = (content._key as string) ?? spot.id;
+    data[responseKey] = content;
   }
   
   return new Response(JSON.stringify(data), {
