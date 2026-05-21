@@ -136,7 +136,8 @@ function parseCrowd(text){
 }
 
 function classifyCategory(key, raw){
-  const cat = raw?.basic_info?.category || "";
+  // Bali data is mixed (nested basic_info OR flat top-level) — read both shapes.
+  const cat = raw?.basic_info?.category || raw?.category || "";
   if(SERVICE_KEYS.has(key)){
     if(["Season_Safety_Medical","Transport_Logistics","Visa_Entry_Logistics","Surf_Forecast_Tools"].includes(key)) return "practical";
     return "service";

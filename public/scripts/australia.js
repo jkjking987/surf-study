@@ -139,9 +139,11 @@ function parseCrowd(text){
 }
 
 function classifyCategory(key, raw){
-  const cat = raw?.basic_info?.category || "";
+  // Australia data is flat (no basic_info) — fall back to raw.category.
+  const cat = raw?.basic_info?.category || raw?.category || "";
   if(SERVICE_KEYS.has(key)){
-    if(["Season_Safety_Medical","Transport_Logistics","Visa_Entry_Logistics","Surf_Forecast_Tools"].includes(key)) return "practical";
+    // AU's practical key is Visa_Entry_AU. Stale Bali keys removed.
+    if(key === "Visa_Entry_AU") return "practical";
     return "service";
   }
   if(cat === "surf_spot_hidden") return "hidden";

@@ -167,8 +167,8 @@ function renderFavList(){
     wrap.innerHTML = `<div class="tw-fav-empty">尚無收藏 — 在卡片或詳情頁按 ★ 即可加入</div>`;
     return;
   }
-  const issueLabels = { bali: "Bali", hainan: "海南", board: "Board" };
-  const issueUrl = { bali: "/bali", hainan: "/hainan", board: "/boards" };
+  const issueLabels = { bali: "Bali", hainan: "海南", australia: "Australia", taiwan: "台灣", japan: "日本", korea: "韓國", board: "Board", bigwave: "Big Wave" };
+  const issueUrl = { bali: "/bali", hainan: "/hainan", australia: "/australia", taiwan: "/taiwan", japan: "/japan", korea: "/korea", board: "/boards", bigwave: "/bigwave" };
   wrap.innerHTML = favs.sort((a,b)=>b[1]-a[1]).map(([k,t]) => {
     const [issue, key] = k.split("/");
     return `<div class="tw-fav">
@@ -180,31 +180,52 @@ function renderFavList(){
 }
 window.renderFavList = renderFavList;
 
-// ===== Global search across all issues =====
+// ===== Global search across all 8 issues =====
 let GLOBAL_INDEX = null;
 async function loadGlobalIndex(){
   if(GLOBAL_INDEX) return GLOBAL_INDEX;
-  const [bali, hainan, board] = await Promise.all([
+  const [bali, hainan, australia, taiwan, japan, korea, board, bigwave] = await Promise.all([
     fetch("/api/bali.json").then(r=>r.json()).catch(()=>({})),
     fetch("/api/hainan.json").then(r=>r.json()).catch(()=>({})),
-    fetch("/api/board.json").then(r=>r.json()).catch(()=>({}))
+    fetch("/api/australia.json").then(r=>r.json()).catch(()=>({})),
+    fetch("/api/taiwan.json").then(r=>r.json()).catch(()=>({})),
+    fetch("/api/japan.json").then(r=>r.json()).catch(()=>({})),
+    fetch("/api/korea.json").then(r=>r.json()).catch(()=>({})),
+    fetch("/api/board.json").then(r=>r.json()).catch(()=>({})),
+    fetch("/api/bigwave.json").then(r=>r.json()).catch(()=>({}))
   ]);
   const idx = [];
-  for(const [k,v] of Object.entries(bali)){
-    const name = v.basic_info?.name || v.name || k;
-    idx.push({issue: "bali", key: k, name: String(name), region: v.basic_info?.region || v.region || "",
-              blurb: v.surf_conditions?.wave_type || v.wave_type || "" });
+  // Flat-spot issues (bali/au/tw/jp/kr) all share the same access pattern.
+  function pushFlatSpot(issue, dict){
+    for(const [k,v] of Object.entries(dict)){
+      const name = v.basic_info?.name || v.name || k;
+      idx.push({issue, key: k, name: String(name),
+                region: v.basic_info?.region || v.region || "",
+                blurb: v.surf_conditions?.wave_type || v.wave_type || "" });
+    }
   }
+  pushFlatSpot("bali", bali);
+  pushFlatSpot("australia", australia);
+  pushFlatSpot("taiwan", taiwan);
+  pushFlatSpot("japan", japan);
+  pushFlatSpot("korea", korea);
   for(const [k,v] of Object.entries(hainan)){
     const name = v.basic_info?.name || k;
-    idx.push({issue: "hainan", key: k, name: String(name), region: v.basic_info?.location?.slice(0,40) || "",
+    idx.push({issue: "hainan", key: k, name: String(name),
+              region: v.basic_info?.location?.slice(0,40) || "",
               blurb: v.technical_specs?.wave_technology_brand || v.basic_info?.operator || "" });
   }
-  for(const [k,v] of Object.entries(board)){
-    const name = v.basic_info?.["名稱"] || k;
-    idx.push({issue: "board", key: k, name: String(name), region: v.basic_info?.["分類"] || "",
-              blurb: v.basic_info?.["一句話定位"] || "" });
+  // Board + BigWave share the nested 名稱/分類/一句話定位 schema.
+  function pushBoardLike(issue, dict){
+    for(const [k,v] of Object.entries(dict)){
+      const name = v.basic_info?.["名稱"] || k;
+      idx.push({issue, key: k, name: String(name),
+                region: v.basic_info?.["分類"] || "",
+                blurb: v.basic_info?.["一句話定位"] || "" });
+    }
   }
+  pushBoardLike("board", board);
+  pushBoardLike("bigwave", bigwave);
   GLOBAL_INDEX = idx;
   return idx;
 }
@@ -219,11 +240,11 @@ window.openGlobalSearch = async function(){
     <div class="gs-mask" onclick="closeGlobalSearch()"></div>
     <div class="gs-panel">
       <div class="gs-head">
-        <input id="gs-input" placeholder="搜尋 104 個項目 · SEARCH ALL ENTRIES…" autofocus />
+        <input id="gs-input" placeholder="搜尋 257 個項目 · SEARCH ALL ENTRIES…" autofocus />
         <button onclick="closeGlobalSearch()" class="gs-close">ESC</button>
       </div>
       <div class="gs-results" id="gs-results">
-        <div class="gs-hint">輸入關鍵字搜尋 Bali / 海南 / Board · 50+21+33 = 104 項</div>
+        <div class="gs-hint">輸入關鍵字搜尋 Bali / 海南 / AU / 台灣 / 日本 / 韓國 / Board / 大浪 · 共 257 項</div>
       </div>
     </div>
   `;
@@ -243,7 +264,7 @@ function doGlobalSearch(q){
   const out = document.getElementById("gs-results");
   if(!GLOBAL_INDEX) return;
   q = q.toLowerCase().trim();
-  if(!q){ out.innerHTML = `<div class="gs-hint">輸入關鍵字搜尋 Bali / 海南 / Board · 104 項</div>`; return; }
+  if(!q){ out.innerHTML = `<div class="gs-hint">輸入關鍵字搜尋全部 8 期 · 共 257 項</div>`; return; }
   const matches = GLOBAL_INDEX.filter(x => {
     const hay = `${x.name} ${x.region} ${x.blurb} ${x.key}`.toLowerCase();
     return hay.includes(q);

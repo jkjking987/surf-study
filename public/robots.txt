@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://surf-study.pages.dev/sitemap.xml
+Sitemap: https://surf-study.jkjking987.workers.dev/sitemap.xml

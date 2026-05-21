@@ -1,6 +1,6 @@
 # 衝浪研究室 · The Surf Study
 
-> A field journal for the practicing surfer — 三份田野檔案,一本非旅遊指南。
+> A field journal for the practicing surfer — 八份田野檔案,一本非旅遊指南。
 
 ## Quick Start
 
@@ -8,110 +8,100 @@
 # Install dependencies
 npm install
 
-# Start dev server
+# Start dev server (uses in-memory SQLite seeded from project/data/)
 npm run dev
 
-# Build for production
+# Build for production (connects to remote Turso, needs .env)
 npm run build
 
 # Preview production build
 npm run preview
 ```
 
+## Stack
+
+- **Framework**: Astro 4.16 (hybrid output)
+- **Database**: Astro DB (`@astrojs/db` v0.14.3) → Turso libSQL (remote)
+- **Adapter**: `@astrojs/cloudflare` v11.2 → Cloudflare Workers Builds
+- **Deploy**: GitHub → Cloudflare Workers Builds → workers.dev
+
 ## Project Structure
 
 ```
 surfing/
-├── astro.config.mjs          # Astro configuration
-├── package.json
-├── tsconfig.json
+├── astro.config.mjs          # output:'hybrid' + cloudflare adapter
+├── wrangler.jsonc            # Workers Builds config (main, assets, nodejs_compat)
+├── package.json              # prebuild: ci-env, build: astro build --remote, postbuild: .assetsignore
 ├── scripts/
-│   └── json-to-content.mjs   # Converts source JSON → content files
+│   ├── ci-env.mjs            # Writes .env from process.env on CF Pages
+│   ├── post-build.mjs        # Writes dist/.assetsignore (excludes _worker.js)
+│   └── json-to-content.mjs   # JSON → content collection (legacy)
+├── db/
+│   ├── config.ts             # 8 tables (Bali/Hainan/Boards/AU/TW/JP/KR/BigWave)
+│   └── seed.ts               # Loads 8 JSONs, injects _key for case-sensitive JS lookups
+├── project/data/             # Source JSON (read by seed.ts at build time)
+│   ├── bali.json hainan.json board.json
+│   ├── australia.json taiwan.json bigwave.json
+│   └── japan.json korea.json
 ├── src/
-│   ├── content/               # Astro Content Collections
-│   │   ├── config.ts          # Zod schemas for all collections
-│   │   ├── bali/              # 50 entries (spots, services, practical)
-│   │   ├── hainan/            # 21 entries (wave pools, spots, schools)
-│   │   └── boards/            # 33 entries (board types A-E)
 │   ├── layouts/
-│   │   ├── Base.astro         # HTML shell, fonts, SEO meta
-│   │   └── IssuePage.astro    # Shared issue page wrapper
-│   ├── pages/
-│   │   ├── index.astro        # Masthead landing page
-│   │   ├── bali/index.astro   # Bali issue (50 entries, 6 modes)
-│   │   ├── hainan/index.astro # Hainan issue (21 entries, 6 modes)
-│   │   └── boards/index.astro # Board Lab (33 entries, 3 modes)
-│   └── styles/                # Design system CSS (also in public/)
+│   │   ├── Base.astro        # HTML shell, fonts, SEO, motion/common.js
+│   │   └── IssuePage.astro   # Shared issue crumb-bar + mast + 8-link nav
+│   └── pages/
+│       ├── index.astro       # Masthead + 8 issue cards + animated surf-scene hero
+│       ├── api/<X>.json.ts   # 8 API endpoints (DB → JSON via _key fallback)
+│       ├── bali/{index,[slug]}.astro
+│       ├── hainan/, australia/, taiwan/, japan/, korea/
+│       └── boards/, bigwave/
 ├── public/
-│   ├── styles/                # CSS served statically
-│   │   ├── tokens.css         # Design tokens, fonts, colors
-│   │   ├── common.css         # Tweaks panel, search, favorites
-│   │   └── issue.css          # Issue page layouts, cards, detail
-│   ├── scripts/               # JS served statically
-│   │   ├── common.js          # Theme, favorites, global search
-│   │   ├── bali.js            # Bali interactivity
-│   │   ├── hainan.js          # Hainan interactivity
-│   │   └── board.js           # Board Lab interactivity
-│   ├── data/                  # Source JSON (also used by client JS)
-│   │   ├── bali.json          # 50 entries, ~527 KB
-│   │   ├── hainan.json        # 21 entries, ~242 KB
-│   │   └── board.json         # 33 entries, ~605 KB
+│   ├── styles/               # tokens.css common.css issue.css motion.css
+│   ├── scripts/              # common.js motion.js map-zoom.js + 8 issue scripts
 │   └── robots.txt
-└── project/                   # Original static prototype (preserved)
+└── prompt.md                 # Engineering handoff doc for next AI session
 ```
 
 ## Content Updates
 
 ### Editing an entry
-
-1. Edit the source JSON in `project/data/bali.json` (or hainan/board)
-2. Run `npm run convert` to regenerate content files
-3. The dev server will hot-reload automatically
-
-### Adding a new entry
-
-1. Add the entry to the appropriate JSON file in `project/data/`
-2. Run `npm run convert`
-3. The new entry will appear in the index and be searchable
+1. Edit the source JSON in `project/data/<issue>.json`
+2. Re-run `npm run dev` to re-seed in-memory SQLite, OR
+3. For production: re-seed remote Turso via `npx astro db execute db/seed.ts --remote` (clears + re-inserts all 8 tables)
 
 ## Design System
 
-The site uses a custom editorial design system with:
-- **6 font stacks**: Abril Fatface, DM Serif Display, Yeseva One, Noto Serif TC, Noto Sans TC, JetBrains Mono
-- **4 themes**: Vermillion (default), Ocean, Zine, Jungle
-- **Paper grain overlay** via SVG noise filter
-- **Halftone dot patterns** for visual texture
-- **Tag system** with semantic color coding
+- **Fonts**: Abril Fatface, DM Serif Display, Yeseva One, Noto Serif TC, Noto Sans TC, JetBrains Mono
+- **Themes**: Vermillion (default), Ocean, Zine, Jungle (Tweaks panel)
+- **Paper grain overlay**, **halftone dot patterns**, **tag system** with semantic colors
+- **Hero animation** on home page: SVG/CSS surf-scene with parallax + reduced-motion fallback
 
 ## Environment Variables
 
-| Variable | Required | Description |
+| Variable | Required | Notes |
 |---|---|---|
-| `SITE_URL` | No | Production URL (default: `https://surf-study.pages.dev`) |
+| `ASTRO_DB_REMOTE_URL` | Build time | Turso `libsql://…` URL |
+| `ASTRO_DB_APP_TOKEN` | Build time | Turso auth token |
 
-No API keys required for the current static version.
+Local dev uses an in-memory SQLite seeded by `db/seed.ts`. Build (`astro build --remote`) connects to Turso. On CF Workers Builds, `scripts/ci-env.mjs` writes a `.env` file from `process.env` so Vite's `loadEnv` can pick the credentials up.
 
 ## Deployment
 
-### Cloudflare Pages
-```bash
-npm run build
-# Upload the `dist/` directory to Cloudflare Pages
-```
+CI: push to `main` → Cloudflare Workers Builds → `https://surf-study.jkjking987.workers.dev`.
 
-### Vercel
-```bash
-# Connect repo to Vercel, it auto-detects Astro
-```
+Configured in `wrangler.jsonc` (main entry, asset directory, nodejs_compat). Build command: `npm run build` (which is `astro build --remote`). Deploy command: `npx wrangler deploy`.
 
 ## Data Counts
 
-| Collection | Entries | Source |
-|---|---|---|
-| Bali | 50 | Surf spots, services, practical info |
-| Hainan | 21 | Wave pools, natural spots, schools |
-| Boards | 33 | Board types, brands, scenarios |
-| **Total** | **104** | |
+| Issue | No. | Entries | Schema |
+|---|---|---|---|
+| Bali | 001 | 50 | mixed flat / basic_info |
+| Hainan | 002 | 21 | nested basic_info (wave pool) |
+| Australia | 003 | 42 | flat |
+| Taiwan | 004 | 33 | flat |
+| Japan | 005 | 27 | flat |
+| Korea | 006 | 22 | flat |
+| Board Lab | 007 | 33 | nested basic_info (board type) |
+| Big Wave | 008 | 29 | nested basic_info (board type) |
+| **Total** | | **257** | |
 
 ## License
 
