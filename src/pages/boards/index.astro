@@ -27,16 +27,16 @@ import IssuePage from '../../layouts/IssuePage.astro';
     </div>
   </section>
 
-  <nav class="modes">
-    <div class="mode-btn active" data-mode="index">
+  <nav class="modes" role="tablist" aria-label="檢視模式">
+    <button type="button" class="mode-btn active" data-mode="index" role="tab" aria-selected="true" tabindex="0">
       <span>Index</span><span class="ch">索引</span><span class="num">33</span>
-    </div>
-    <div class="mode-btn" data-mode="selector">
+    </button>
+    <button type="button" class="mode-btn" data-mode="selector" role="tab" aria-selected="false" tabindex="-1">
       <span>Selector</span><span class="ch">板款推薦器</span>
-    </div>
-    <div class="mode-btn" data-mode="compare">
+    </button>
+    <button type="button" class="mode-btn" data-mode="compare" role="tab" aria-selected="false" tabindex="-1">
       <span>Compare</span><span class="ch">比較</span>
-    </div>
+    </button>
   </nav>
 
   <section class="pane" data-mode="index">

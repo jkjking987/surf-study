@@ -27,22 +27,22 @@ import IssuePage from '../../layouts/IssuePage.astro';
     </div>
   </section>
 
-  <nav class="modes">
-    <div class="mode-btn active" data-mode="index">
+  <nav class="modes" role="tablist" aria-label="檢視模式">
+    <button type="button" class="mode-btn active" data-mode="index" role="tab" aria-selected="true" tabindex="0">
       <span>Index</span><span class="ch">索引</span><span class="num">27</span>
-    </div>
-    <div class="mode-btn" data-mode="map">
+    </button>
+    <button type="button" class="mode-btn" data-mode="map" role="tab" aria-selected="false" tabindex="-1">
       <span>Map</span><span class="ch">地圖</span>
-    </div>
-    <div class="mode-btn" data-mode="season">
+    </button>
+    <button type="button" class="mode-btn" data-mode="season" role="tab" aria-selected="false" tabindex="-1">
       <span>Season</span><span class="ch">月曆</span>
-    </div>
-    <div class="mode-btn" data-mode="skill">
+    </button>
+    <button type="button" class="mode-btn" data-mode="skill" role="tab" aria-selected="false" tabindex="-1">
       <span>Skill Match</span><span class="ch">技術匹配</span>
-    </div>
-    <div class="mode-btn" data-mode="compare">
+    </button>
+    <button type="button" class="mode-btn" data-mode="compare" role="tab" aria-selected="false" tabindex="-1">
       <span>Compare</span><span class="ch">比較</span>
-    </div>
+    </button>
   </nav>
 
   <section class="pane" data-mode="index">

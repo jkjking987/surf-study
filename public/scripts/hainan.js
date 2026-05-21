@@ -764,7 +764,7 @@ window.renderPriceTable = renderPriceTable;
 window.renderStanceCalendar = renderStanceCalendar;
 
 function switchMode(mode){
-  document.querySelectorAll(".mode-btn").forEach(b => b.classList.toggle("active", b.dataset.mode === mode));
+  document.querySelectorAll(".mode-btn").forEach(b => { const on = b.dataset.mode === mode; b.classList.toggle("active", on); b.setAttribute("aria-selected", on ? "true" : "false"); b.tabIndex = on ? 0 : -1; });
   document.querySelectorAll(".pane").forEach(p => p.style.display = p.dataset.mode === mode ? "" : "none");
   if(mode === "map") renderMap();
   if(mode === "island") renderIslandMap();

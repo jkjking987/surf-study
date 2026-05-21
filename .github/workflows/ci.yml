@@ -1,0 +1,38 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    name: Validate JSON + JS syntax
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Validate source JSON files
+        run: |
+          for f in project/data/*.json; do
+            node -e "JSON.parse(require('fs').readFileSync('$f','utf8'))" \
+              && echo "OK $f" \
+              || (echo "BAD $f"; exit 1)
+          done
+
+      - name: Validate issue script syntax
+        run: |
+          for f in public/scripts/*.js; do
+            node --check "$f" \
+              && echo "OK $f" \
+              || (echo "BAD $f"; exit 1)
+          done

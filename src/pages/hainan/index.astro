@@ -29,25 +29,25 @@ import IssuePage from '../../layouts/IssuePage.astro';
   </section>
 
   <!-- Modes -->
-  <nav class="modes">
-    <div class="mode-btn active" data-mode="index">
+  <nav class="modes" role="tablist" aria-label="檢視模式">
+    <button type="button" class="mode-btn active" data-mode="index" role="tab" aria-selected="true" tabindex="0">
       <span>Index</span><span class="ch">索引</span><span class="num">21</span>
-    </div>
-    <div class="mode-btn" data-mode="island">
+    </button>
+    <button type="button" class="mode-btn" data-mode="island" role="tab" aria-selected="false" tabindex="-1">
       <span>Island</span><span class="ch">島嶼地圖</span>
-    </div>
-    <div class="mode-btn" data-mode="map">
+    </button>
+    <button type="button" class="mode-btn" data-mode="map" role="tab" aria-selected="false" tabindex="-1">
       <span>Matrix</span><span class="ch">城市矩陣</span>
-    </div>
-    <div class="mode-btn" data-mode="price">
+    </button>
+    <button type="button" class="mode-btn" data-mode="price" role="tab" aria-selected="false" tabindex="-1">
       <span>Prices</span><span class="ch">價格比較</span>
-    </div>
-    <div class="mode-btn" data-mode="stance">
+    </button>
+    <button type="button" class="mode-btn" data-mode="stance" role="tab" aria-selected="false" tabindex="-1">
       <span>Stance</span><span class="ch">G/R 日曆</span>
-    </div>
-    <div class="mode-btn" data-mode="compare">
+    </button>
+    <button type="button" class="mode-btn" data-mode="compare" role="tab" aria-selected="false" tabindex="-1">
       <span>Compare</span><span class="ch">比較</span>
-    </div>
+    </button>
   </nav>
 
   <!-- INDEX pane -->

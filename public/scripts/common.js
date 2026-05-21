@@ -323,4 +323,23 @@ window.addEventListener("DOMContentLoaded", () => {
       window.detailPrevNext(-1);
     }
   });
+
+  // ===== Mode tabs: roving focus + Home/End nav =====
+  const tabs = Array.from(document.querySelectorAll('nav.modes [role="tab"]'));
+  if(tabs.length){
+    tabs.forEach((tab, i) => {
+      tab.addEventListener("keydown", e => {
+        let next = -1;
+        if(e.key === "ArrowRight" || e.key === "ArrowDown") next = (i + 1) % tabs.length;
+        else if(e.key === "ArrowLeft" || e.key === "ArrowUp") next = (i - 1 + tabs.length) % tabs.length;
+        else if(e.key === "Home") next = 0;
+        else if(e.key === "End") next = tabs.length - 1;
+        if(next >= 0){
+          e.preventDefault();
+          tabs[next].focus();
+          tabs[next].click();
+        }
+      });
+    });
+  }
 });

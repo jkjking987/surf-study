@@ -4,7 +4,18 @@ import { join } from 'path';
 
 export default async function() {
   console.log('Seeding database from JSON files...');
-  
+
+  // Clear all tables so re-running the seed is idempotent (avoids
+  // UNIQUE constraint failures on existing remote rows).
+  await db.delete(BaliSpots);
+  await db.delete(HainanSpots);
+  await db.delete(Boards);
+  await db.delete(AustraliaSpots);
+  await db.delete(TaiwanSpots);
+  await db.delete(BigWaveBoards);
+  await db.delete(JapanSpots);
+  await db.delete(KoreaSpots);
+
   // Helpers
   function slugify(key) {
     return key.toLowerCase().replace(/_/g, '-');

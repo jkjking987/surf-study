@@ -154,6 +154,15 @@
   display: flex;
   align-items: center;
   gap: 8px;
+  appearance: none;
+  -webkit-appearance: none;
+  font-weight: inherit;
+  line-height: 1.1;
+}
+.mode-btn:focus-visible {
+  outline: 2px solid var(--vermillion);
+  outline-offset: 2px;
+  z-index: 2;
 }
 .mode-btn.active {
   background: var(--ink);
@@ -1694,7 +1703,8 @@
   .issue-mast h1 .ch { font-size: 11.5px; letter-spacing: .18em; }
   .issue-intro .lede { font-size: 17px; }
   .modes { gap: 0; }
-  .mode-btn { padding: 9px 10px 7px; font-size: 11px; }
+  /* Ensure ≥44×44px touch target per WCAG 2.5.5 */
+  .mode-btn { padding: 14px 12px 12px; font-size: 12px; min-height: 44px; }
   .card { padding: 14px 14px 40px; }
   .card .name { font-size: 19px; }
   .card .blurb { font-size: 13px; }

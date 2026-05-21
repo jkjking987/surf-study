@@ -1,0 +1,147 @@
+---
+import Base from '../layouts/Base.astro';
+---
+
+<Base title="404 · 找不到這條浪 — 衝浪研究室"
+      description="這個位置沒有 spot。回到 8 期主題索引看看。">
+  <Fragment slot="head">
+    <style>
+      .nf-page {
+        max-width: 880px;
+        margin: 0 auto;
+        padding: 60px 28px 100px;
+        font-family: var(--serif);
+      }
+      .nf-strip {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0;
+        font-family: var(--mono);
+        font-size: 10.5px;
+        letter-spacing: .14em;
+        text-transform: uppercase;
+        border-bottom: 1.5px solid var(--ink);
+        margin-bottom: 36px;
+      }
+      .nf-strip .err { color: var(--vermillion); font-weight: 700; }
+      .nf-num {
+        font-family: var(--display);
+        font-size: clamp(120px, 22vw, 240px);
+        line-height: .85;
+        margin: 0;
+        letter-spacing: -.02em;
+        color: var(--vermillion);
+      }
+      .nf-num .small {
+        display: block;
+        font-family: var(--serif);
+        font-size: .12em;
+        letter-spacing: .25em;
+        color: var(--ink);
+        margin-top: 14px;
+      }
+      .nf-body {
+        margin: 28px 0 36px;
+        font-size: 17px;
+        line-height: 1.7;
+        color: var(--ink);
+        max-width: 56ch;
+      }
+      .nf-body .ch { display: block; margin-bottom: 6px; font-size: 22px; }
+      .nf-body .en { font-family: var(--mono); font-size: 12.5px; letter-spacing: .08em; opacity: .8; }
+      .nf-actions {
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+        padding-top: 28px;
+        border-top: 3px double var(--ink);
+      }
+      .nf-actions a {
+        font-family: var(--mono);
+        font-size: 11.5px;
+        letter-spacing: .12em;
+        text-transform: uppercase;
+        padding: 10px 16px 8px;
+        border: 1.6px solid var(--ink);
+        color: var(--ink);
+        background: var(--paper);
+        text-decoration: none;
+        transition: transform .12s;
+      }
+      .nf-actions a:hover {
+        background: var(--ink);
+        color: var(--paper);
+        transform: translate(-2px,-2px);
+        box-shadow: 4px 4px 0 var(--vermillion);
+      }
+      .nf-actions a.primary {
+        background: var(--ink);
+        color: var(--paper);
+      }
+      .nf-actions a.primary:hover {
+        background: var(--vermillion);
+        color: var(--paper);
+        box-shadow: 4px 4px 0 var(--ink);
+      }
+      .nf-issues {
+        margin-top: 48px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+        gap: 0;
+        border: 1.5px solid var(--ink);
+      }
+      .nf-issues a {
+        font-family: var(--serif);
+        font-size: 14px;
+        padding: 14px 16px;
+        border-right: 1px solid var(--ink);
+        border-bottom: 1px solid var(--ink);
+        color: var(--ink);
+        text-decoration: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 8px;
+      }
+      .nf-issues a:hover { background: var(--paper-deep); }
+      .nf-issues a .no {
+        font-family: var(--mono);
+        font-size: 10px;
+        letter-spacing: .12em;
+        color: var(--ink-soft);
+      }
+    </style>
+  </Fragment>
+
+  <main class="nf-page">
+    <div class="nf-strip">
+      <div><span class="err">● ERROR 404</span> &nbsp;·&nbsp; PAGE NOT FOUND</div>
+      <div>衝浪研究室 · THE SURF STUDY</div>
+    </div>
+
+    <h1 class="nf-num">404<span class="small">這條浪沒撿到</span></h1>
+
+    <div class="nf-body">
+      <span class="ch">你找的這個位置 outside 太遠了。</span>
+      <span class="en">The break you're paddling for isn't here. The URL may be mistyped, the page may have been renumbered, or this issue isn't published yet.</span>
+    </div>
+
+    <div class="nf-actions">
+      <a href="/" class="primary">← 回到 NO. 008 封面</a>
+      <a href="/bali">NO. 001 / Bali</a>
+      <a href="/boards">NO. 007 / Boards</a>
+      <a href="/bigwave">NO. 008 / Big Wave</a>
+    </div>
+
+    <nav class="nf-issues" aria-label="所有期數">
+      <a href="/bali"><span>峇里島 Bali</span><span class="no">001</span></a>
+      <a href="/hainan"><span>海南 Hainan</span><span class="no">002</span></a>
+      <a href="/australia"><span>澳洲 Australia</span><span class="no">003</span></a>
+      <a href="/taiwan"><span>台灣 Taiwan</span><span class="no">004</span></a>
+      <a href="/japan"><span>日本 Japan</span><span class="no">005</span></a>
+      <a href="/korea"><span>韓國 Korea</span><span class="no">006</span></a>
+      <a href="/boards"><span>Board Lab</span><span class="no">007</span></a>
+      <a href="/bigwave"><span>Big Wave</span><span class="no">008</span></a>
+    </nav>
+  </main>
+</Base>

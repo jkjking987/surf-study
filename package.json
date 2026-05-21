@@ -13,11 +13,13 @@
     "preview": "astro preview",
     "serve": "node scripts/serve.mjs",
     "astro": "astro",
+    "check": "astro check",
     "convert": "node scripts/json-to-content.mjs"
   },
   "dependencies": {
     "@astrojs/cloudflare": "^11.2.0",
     "@astrojs/db": "^0.14.3",
+    "@astrojs/sitemap": "^3.2.1",
     "astro": "^4.16.0"
   }
 }

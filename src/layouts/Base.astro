@@ -17,6 +17,21 @@ const {
 
 const siteUrl = Astro.site?.toString().replace(/\/$/, '') || '';
 const canonicalUrl = canonical || new URL(Astro.url.pathname, siteUrl).toString();
+
+const defaultJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: '衝浪研究室 · The Surf Study',
+  alternateName: 'The Surf Study',
+  url: siteUrl || 'https://surf-study.jkjking987.workers.dev',
+  description,
+  inLanguage: 'zh-Hant',
+  publisher: {
+    '@type': 'Organization',
+    name: '衝浪研究室 · The Surf Study'
+  }
+};
+const finalJsonLd = jsonLd ?? defaultJsonLd;
 ---
 
 <!DOCTYPE html>
@@ -43,9 +58,7 @@ const canonicalUrl = canonical || new URL(Astro.url.pathname, siteUrl).toString(
   {ogImage && <meta name="twitter:image" content={ogImage} />}
 
   <!-- JSON-LD -->
-  {jsonLd && (
-    <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
-  )}
+  <script type="application/ld+json" set:html={JSON.stringify(finalJsonLd)} />
 
   <!-- Styles -->
   <link rel="stylesheet" href="/styles/tokens.css" />
