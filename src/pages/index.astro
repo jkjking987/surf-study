@@ -4,6 +4,20 @@ import Base from '../layouts/Base.astro';
 
 <Base title="衝浪研究室 · THE SURF STUDY">
   <Fragment slot="head">
+<script is:inline>
+  // Mobile redirect — runs before paint. If viewport ≤ 760px AND no escape
+  // hatch (?desktop=1 / sessionStorage.desktop), swap to /mobile.
+  (function () {
+    try {
+      var p = new URLSearchParams(location.search);
+      if (p.get('desktop') === '1') { sessionStorage.setItem('desktop', '1'); return; }
+      if (sessionStorage.getItem('desktop') === '1') return;
+      if (window.innerWidth <= 760) {
+        location.replace('/mobile');
+      }
+    } catch (e) { /* sessionStorage unavailable — fall through */ }
+  })();
+</script>
 <style>
   body { overflow-x: hidden; }
   .page {
